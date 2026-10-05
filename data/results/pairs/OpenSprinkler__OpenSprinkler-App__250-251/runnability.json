@@ -1,0 +1,52 @@
+{
+  "pair_id": "OpenSprinkler__OpenSprinkler-App__250-251",
+  "commit": "23305ab91b7f7016cbdd724bc067c16a946b7d0c",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": "mocha",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "test runner produced no results at base: 0 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 without a readable report; output tail: 14)\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\n    at cjsLoader (node:internal/modules/esm/translators:309:5)\n    at ModuleWrap.<anonymous> (node:internal/modules",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "npm",
+        "ci"
+      ],
+      "exit_code": 0,
+      "duration_s": 14.3,
+      "detail": "standard, install cap 900 s: install: exit 0 in 13.7 s; suite error: 0 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 without a readable report; output tail: 14)\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\n    at cjsLoader (node:internal/modules/esm/translators:309:5)\n    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:202:7)\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)\n    at async formattedImport (/home/user/ladder/work/runtime/OpenSprinkler__OpenSprinkler-App__250-251/trees/base/node_modules/mocha/lib/nodejs/esm-utils.js:9:14)\n    at async exports.requireOrImport (/home/user/ladder/work/runtime/OpenSprinkler__OpenSprinkler-App__250-251/trees/base/node_modules/mocha/lib/nodejs/esm-utils.js:42:28)\n    at async exports.loadFilesAsync (/home/user/ladder/work/runtime/OpenSprinkler__OpenSprinkler-App__250-251/trees/base/node_modules/mocha/lib/nodejs/esm-utils.js:100:20)\n    at async singleRun (/home/user/ladder/work/runtime/OpenSprinkler__OpenSprinkler-App__250-251/trees/base/node_modules/mocha/lib/cli/run-helpers.js:162:3)\n    at async exports.handler (/home/user/ladder/work/runtime/OpenSprinkler__OpenSprinkler-App__250-251/trees/base/node_modules/mocha/lib/cli/run.js:375:5); first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+    },
+    {
+      "command": [
+        "npm",
+        "install",
+        "--legacy-peer-deps"
+      ],
+      "exit_code": 0,
+      "duration_s": 12.9,
+      "detail": "legacy-peer-deps (npm install --legacy-peer-deps instead of a clean install), install cap 900 s: install: exit 0 in 12.1 s; suite error: 0 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 without a readable report; output tail: 14)\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\n    at cjsLoader (node:internal/modules/esm/translators:309:5)\n    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:202:7)\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)\n    at async formattedImport (/home/user/ladder/work/runtime/OpenSprinkler__OpenSprinkler-App__250-251/trees/base/node_modules/mocha/lib/nodejs/esm-utils.js:9:14)\n    at async exports.requireOrImport (/home/user/ladder/work/runtime/OpenSprinkler__OpenSprinkler-App__250-251/trees/base/node_modules/mocha/lib/nodejs/esm-utils.js:42:28)\n    at async exports.loadFilesAsync (/home/user/ladder/work/runtime/OpenSprinkler__OpenSprinkler-App__250-251/trees/base/node_modules/mocha/lib/nodejs/esm-utils.js:100:20)\n    at async singleRun (/home/user/ladder/work/runtime/OpenSprinkler__OpenSprinkler-App__250-251/trees/base/node_modules/mocha/lib/cli/run-helpers.js:162:3)\n    at async exports.handler (/home/user/ladder/work/runtime/OpenSprinkler__OpenSprinkler-App__250-251/trees/base/node_modules/mocha/lib/cli/run.js:375:5); first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+    }
+  ],
+  "test_count": 0,
+  "base_outcome": {
+    "status": "error",
+    "command": [
+      "/home/user/ladder/work/runtime/OpenSprinkler__OpenSprinkler-App__250-251/trees/base/node_modules/.bin/mocha",
+      "--reporter",
+      "json",
+      "--reporter-option",
+      "output=/home/user/ladder/work/runtime/OpenSprinkler__OpenSprinkler-App__250-251/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.3,
+    "retried": true,
+    "failing_tests": [],
+    "detail": "0 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 without a readable report; output tail: 14)\n    at Module._compile (node:internal/modules/cjs/loader:1706:14)\n    at Object..js (node:internal/modules/cjs/loader:1839:10)\n    at Module.load (node:internal/modules/cjs/loader:1441:32)\n    at Function._load (node:internal/modules/cjs/loader:1263:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:328:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)\n    at cjsLoader (node:internal/modules/esm/translators:309:5)\n    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:202:7)\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)\n    at async formattedImport (/home/user/ladder/work/runtime/OpenSprinkler__OpenSprinkler-App__250-251/trees/base/node_modules/mocha/lib/nodejs/esm-utils.js:9:14)\n    at async exports.requireOrImport (/home/user/ladder/work/runtime/OpenSprinkler__OpenSprinkler-App__250-251/trees/base/node_modules/mocha/lib/nodejs/esm-utils.js:42:28)\n    at async exports.loadFilesAsync (/home/user/ladder/work/runtime/OpenSprinkler__OpenSprinkler-App__250-251/trees/base/node_modules/mocha/lib/nodejs/esm-utils.js:100:20)\n    at async singleRun (/home/user/ladder/work/runtime/OpenSprinkler__OpenSprinkler-App__250-251/trees/base/node_modules/mocha/lib/cli/run-helpers.js:162:3)\n    at async exports.handler (/home/user/ladder/work/runtime/OpenSprinkler__OpenSprinkler-App__250-251/trees/base/node_modules/mocha/lib/cli/run.js:375:5); first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "timeout_s": 600
+}
