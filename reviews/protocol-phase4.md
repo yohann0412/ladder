@@ -54,3 +54,9 @@ problem worth solving (PLAN section 1).
 Claim C runs untrusted repository code (installers and tests) inside this container with
 network access. That is acceptable in a disposable container. `HOW_TO_RUN_LOCALLY.md` must
 say so plainly and recommend a VM or container.
+
+Tests run with the container's own `HOME`, so a suite can write anywhere this user can,
+including the folder that holds resolver transcripts. Claim C runs while resolver waves are
+still in progress. A suite that changed a transcript would make that run fail the audit
+(malformed or violating), which counts against the LLM rung, never for it. Every wave's
+transcripts are collected and audited as soon as the wave settles.
