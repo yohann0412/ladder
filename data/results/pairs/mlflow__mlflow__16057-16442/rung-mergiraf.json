@@ -1,0 +1,20 @@
+{
+  "pair_id": "mlflow__mlflow__16057-16442",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "tests/entities/test_assessment.py"
+  ],
+  "files": [
+    {
+      "path": "tests/entities/test_assessment.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/mlflow__mlflow__16057-16442/mergiraf"
+}
