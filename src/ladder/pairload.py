@@ -99,6 +99,7 @@ def _fixture_pair(root: Path, scenario: FixtureScenario) -> Pair:
         b=_fixture_pr(scenario.b),
         paper=None,
         refs=None,
+        trap_dir=None if scenario.trap_dir is None else str(root / scenario.trap_dir),
     )
 
 
