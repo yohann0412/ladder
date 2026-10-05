@@ -1,0 +1,43 @@
+{
+  "pair_id": "go-co-op__gocron__864-866",
+  "commit": "5bf6802fe1215604a6dc9316a94b010a1c0c98e6",
+  "language": "go",
+  "package_manager": "go modules",
+  "test_runner": "go test",
+  "status": "runnable",
+  "reason": null,
+  "reason_detail": "",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "go",
+        "mod",
+        "download"
+      ],
+      "exit_code": 0,
+      "duration_s": 81.7,
+      "detail": "standard, install cap 900 s: install: exit 0 in 0.3 s; build: exit 0 in 31.3 s; suite passed: 79 passed, 0 failed, 0 errors, 0 skipped"
+    }
+  ],
+  "test_count": 79,
+  "base_outcome": {
+    "status": "passed",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 79,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 50.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "79 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "timeout_s": 600
+}
