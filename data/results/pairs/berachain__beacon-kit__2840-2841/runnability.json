@@ -1,0 +1,42 @@
+{
+  "pair_id": "berachain__beacon-kit__2840-2841",
+  "commit": "04a85a1d7fdd5ed72540d91562823bc9776ceb21",
+  "language": "go",
+  "package_manager": "go modules",
+  "test_runner": "go test",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "build: exit 1 in 155.3 s: ok  \tgithub.com/berachain/beacon-kit/testing/e2e\t0.060s [no tests to run] | ?   \tgithub.com/berachain/beacon-kit/testing/e2e/config\t[no test files] | ?   \tgithub.com/berachain/beacon-kit/testing/e2e/suite\t[no test files] | ok  \tgithub.com/berachain/beacon-kit/testing/e2e/suite/types\t0.045s [no tests to run] | ?   \tgithub.com/berachain/beacon-kit/testing/e2e/suite/types/tx\t[no test files] | FAIL",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "go",
+        "test",
+        "-count=1",
+        "-run",
+        "^$",
+        "./..."
+      ],
+      "exit_code": 1,
+      "duration_s": 172.3,
+      "detail": "standard, install cap 900 s: install: exit 0 in 16.3 s; build: exit 1 in 156.0 s; output tail: ?   \tgithub.com/berachain/beacon-kit/storage/interfaces/mocks\t[no test files] | ok  \tgithub.com/berachain/beacon-kit/testing/benchmarks\t0.017s [no tests to run] | ok  \tgithub.com/berachain/beacon-kit/testing/e2e\t0.055s [no tests to run] | ?   \tgithub.com/berachain/beacon-kit/testing/e2e/config\t[no test files] | ?   \tgithub.com/berachain/beacon-kit/testing/e2e/suite\t[no test files] | ok  \tgithub.com/berachain/beacon-kit/testing/e2e/suite/types\t0.042s [no tests to run] | ?   \tgithub.com/berachain/beacon-kit/testing/e2e/suite/types/tx\t[no test files] | FAIL"
+    },
+    {
+      "command": [
+        "go",
+        "test",
+        "-count=1",
+        "-run",
+        "^$",
+        "./..."
+      ],
+      "exit_code": 1,
+      "duration_s": 155.4,
+      "detail": "mod-mod (GOFLAGS=-mod=mod, so go.mod and go.sum drift is resolved), install cap 900 s: install: exit 0 in 0.1 s; build: exit 1 in 155.3 s; output tail: ?   \tgithub.com/berachain/beacon-kit/storage/interfaces/mocks\t[no test files] | ok  \tgithub.com/berachain/beacon-kit/testing/benchmarks\t0.005s [no tests to run] | ok  \tgithub.com/berachain/beacon-kit/testing/e2e\t0.060s [no tests to run] | ?   \tgithub.com/berachain/beacon-kit/testing/e2e/config\t[no test files] | ?   \tgithub.com/berachain/beacon-kit/testing/e2e/suite\t[no test files] | ok  \tgithub.com/berachain/beacon-kit/testing/e2e/suite/types\t0.045s [no tests to run] | ?   \tgithub.com/berachain/beacon-kit/testing/e2e/suite/types/tx\t[no test files] | FAIL"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
