@@ -68,6 +68,9 @@ def ladders_section(summary: Summary, pairs: list[PairRecords]) -> str:
         [
             "- Practical ladder (weave, mergiraf, then the LLM; first mergeable output accepted), "
             f"human-equivalent: {cell(summary.practical_ladder_human_equivalent)}",
+            "- Claim A best-case bound (D20, D21): the practical ladder's human-equivalent share "
+            "when every pair with an LLM run that failed only for own output reads or a cut-off "
+            f"transcript also counts: {cell(summary.claim_a_best_case)}",
             f"- Practical ladder reaches a mergeable output: {cell(practical_mergeable(pairs))}",
             "- Oracle ladder (any of git, weave, mergiraf, llm-raw, llm-post-weave "
             f"human-equivalent): {cell(summary.oracle_ladder_human_equivalent)}",

@@ -10,6 +10,8 @@ CLAIM_A_MIN_PAIRS = 10
 INTENT_DROPPED_THRESHOLD = 15.0
 TESTS_PASS_DROPPED_THRESHOLD = 10.0
 HUMAN_BASE_RATE = 1.0
+A_BEST_CASE = "A best case"
+CLAIMS = ("A", A_BEST_CASE, "B", "C")
 
 
 @dataclass(frozen=True)
@@ -29,27 +31,41 @@ class _Part:
 
 def claim_a(practical: Rate) -> str:
     """Return the Claim A verdict from the practical ladder's human-equivalent rate."""
-    if practical.pct is None:
-        return "Claim A is not measured: no conflicting pair has a located human resolution."
-    found = (
-        f"the practical ladder's accepted output was human-equivalent for {phrase(practical)} "
-        "conflicting pairs with a located human resolution"
+    return _claim_a(
+        "Claim A", practical, "the practical ladder's accepted output was human-equivalent for"
     )
-    side = "at or above" if practical.pct >= CLAIM_A_THRESHOLD else "below"
+
+
+def claim_a_best_case(bound: Rate) -> str:
+    """Return the Claim A verdict under the best-case bound of D20 and D21."""
+    return _claim_a(
+        "Claim A at its best-case bound (D20, D21)",
+        bound,
+        "counting every pair with an LLM run that failed only for reading its own output or for "
+        "a cut-off transcript as human-equivalent, the practical ladder is human-equivalent on "
+        "at most",
+    )
+
+
+def _claim_a(subject: str, rate: Rate, measured: str) -> str:
+    if rate.pct is None:
+        return f"{subject} is not measured: no conflicting pair has a located human resolution."
+    found = f"{measured} {phrase(rate)} conflicting pairs with a located human resolution"
+    side = "at or above" if rate.pct >= CLAIM_A_THRESHOLD else "below"
     reasons: list[str] = []
-    if practical.denominator < CLAIM_A_MIN_PAIRS:
+    if rate.denominator < CLAIM_A_MIN_PAIRS:
         reasons.append(f"there are fewer than {CLAIM_A_MIN_PAIRS} pairs")
-    low, high = practical.ci_low or 0.0, practical.ci_high or 0.0
+    low, high = rate.ci_low or 0.0, rate.ci_high or 0.0
     if low < CLAIM_A_THRESHOLD / 100 < high:
         reasons.append("the interval straddles 90%")
     if reasons:
         return (
-            f"Claim A is inconclusive: {found}; the point estimate is {side} the 90% threshold "
+            f"{subject} is inconclusive: {found}; the point estimate is {side} the 90% threshold "
             f"but {' and '.join(reasons)}."
         )
     if side == "below":
-        return f"Claim A is falsified: {found}, below the 90% threshold."
-    return f"Claim A holds: {found}, at or above the 90% threshold."
+        return f"{subject} is falsified: {found}, below the 90% threshold."
+    return f"{subject} holds: {found}, at or above the 90% threshold."
 
 
 def claim_b(llm_raw: RungRow | None) -> str:
@@ -98,6 +114,11 @@ def claim_c(fails_together: Rate) -> str:
     return text
 
 
-def verdicts(practical: Rate, llm_raw: RungRow | None, fails_together: Rate) -> dict[str, str]:
-    """Return the verdict sentences keyed A, B and C."""
-    return {"A": claim_a(practical), "B": claim_b(llm_raw), "C": claim_c(fails_together)}
+def verdicts(
+    practical: Rate, best_case: Rate | None, llm_raw: RungRow | None, fails_together: Rate
+) -> dict[str, str]:
+    """Return the verdict sentences keyed A, B and C, with `A best case` when a bound is given."""
+    claims = {"A": claim_a(practical)}
+    if best_case is not None:
+        claims[A_BEST_CASE] = claim_a_best_case(best_case)
+    return {**claims, "B": claim_b(llm_raw), "C": claim_c(fails_together)}

@@ -5,12 +5,15 @@ from collections.abc import Callable, Iterable
 
 from ladder.agreement import RunAgreement
 from ladder.collect import Collected, PairRecords
+from ladder.failure_causes import EXCUSED, excused, failure_cause
 from ladder.ladder_metrics import (
     oracle_human_equivalent,
+    practical_best_case,
     practical_human_equivalent,
     rung_rows,
 )
-from ladder.schemas import GitRungResult, Rate, Summary
+from ladder.layout import Layout
+from ladder.schemas import GitRungResult, Rate, ResolverRun, Summary
 from ladder.stats import rate, share
 from ladder.verdicts import verdicts
 
@@ -82,9 +85,11 @@ def conflict_types(pairs: list[PairRecords]) -> dict[str, int]:
     return dict(sorted(counts.items(), key=lambda item: (-item[1], item[0])))
 
 
-def llm_failures(pairs: list[PairRecords]) -> dict[str, int]:
+def llm_failures(
+    pairs: list[PairRecords], cause: Callable[[ResolverRun], str | None]
+) -> dict[str, int]:
     """Count failed resolver runs by cause, adding input-capped tasks that have no run record."""
-    causes = [run.failure for pair in pairs for run in pair.runs.values() if run.failure]
+    causes = [label for pair in pairs for run in pair.runs.values() if (label := cause(run))]
     capped = [
         "input_cap"
         for pair in pairs
@@ -117,11 +122,13 @@ def runnability_counts(pairs: list[PairRecords]) -> dict[str, int]:
     return sorted_counts(labels)
 
 
-def summarise(collected: Collected, agreements: list[RunAgreement]) -> Summary:
+def summarise(layout: Layout, collected: Collected, agreements: list[RunAgreement]) -> Summary:
     """Return the Summary of an experiment's records."""
     pairs = collected.pairs
     rows = rung_rows(pairs)
     practical = practical_human_equivalent(pairs)
+    best_case = practical_best_case(pairs, lambda pair: excused(layout, pair))
+    causes = llm_failures(pairs, lambda run: failure_cause(layout, run))
     fails_together = claim_c_rate(pairs)
     rates = reconciliation(pairs)
     llm_raw = next((row for row in rows if row.rung == "llm-raw"), None)
@@ -136,10 +143,14 @@ def summarise(collected: Collected, agreements: list[RunAgreement]) -> Summary:
         truth_located=sum(pair.in_ladder and pair.truth_located for pair in pairs),
         rungs=rows,
         practical_ladder_human_equivalent=practical,
+        claim_a_best_case=best_case,
         oracle_ladder_human_equivalent=oracle_human_equivalent(pairs),
-        llm_failures=llm_failures(pairs),
+        llm_failures=llm_failures(pairs, lambda run: run.failure),
+        llm_failure_causes=causes,
         resolver_agreement=rate(sum(item.agrees for item in agreements), len(agreements)),
         claim_c_fails_together=fails_together,
         runnability=runnability_counts(pairs),
-        verdicts=verdicts(practical, llm_raw, fails_together),
+        verdicts=verdicts(
+            practical, None if EXCUSED.isdisjoint(causes) else best_case, llm_raw, fails_together
+        ),
     )

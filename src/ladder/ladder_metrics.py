@@ -1,5 +1,6 @@
 """Per-rung rates and the practical and oracle ladders over the ladder set."""
 
+from collections.abc import Callable
 from typing import TypeGuard
 
 from ladder.collect import PairRecords
@@ -112,14 +113,19 @@ def judged(pairs: list[PairRecords]) -> list[PairRecords]:
     return [pair for pair in pairs if pair.in_ladder and pair.truth_located]
 
 
+def _practical_hit(pair: PairRecords) -> bool:
+    step = practical_step(pair)
+    return step is not None and human_equivalent(step[1])
+
+
 def practical_human_equivalent(pairs: list[PairRecords]) -> Rate:
     """Return the share of judged pairs whose practical-ladder output is human-equivalent."""
+    return share(judged(pairs), _practical_hit)
 
-    def hit(pair: PairRecords) -> bool:
-        step = practical_step(pair)
-        return step is not None and human_equivalent(step[1])
 
-    return share(judged(pairs), hit)
+def practical_best_case(pairs: list[PairRecords], excused: Callable[[PairRecords], bool]) -> Rate:
+    """Return practical_human_equivalent with every excused judged pair counted as a hit too."""
+    return share(judged(pairs), lambda pair: _practical_hit(pair) or excused(pair))
 
 
 def oracle_human_equivalent(pairs: list[PairRecords]) -> Rate:

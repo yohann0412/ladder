@@ -1,5 +1,6 @@
 """Parse a subagent transcript (JSON lines) into its tool calls, first prompt, tokens and time."""
 
+import re
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
@@ -11,10 +12,16 @@ from ladder.jsonlines import json_lines
 from ladder.schemas import TokenUsage
 
 MESSAGE_TYPES = frozenset({"assistant", "user"})
+CUT_OFF = re.compile(r"transcript line \d+ is unparseable: .*EOF while parsing", re.DOTALL)
 
 
 class TranscriptError(ValueError):
     """A transcript is missing or cannot be parsed, so the run cannot be audited."""
+
+
+def cut_off(problem: str) -> bool:
+    """Return whether a problem says a transcript line ends mid-JSON, as a truncated file does."""
+    return CUT_OFF.search(problem) is not None
 
 
 class _Envelope(BaseModel):

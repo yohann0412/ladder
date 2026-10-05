@@ -464,8 +464,10 @@ class Summary(Record):
     truth_located: int
     rungs: list[RungRow]
     practical_ladder_human_equivalent: Rate
+    claim_a_best_case: Rate
     oracle_ladder_human_equivalent: Rate
     llm_failures: dict[str, int]
+    llm_failure_causes: dict[str, int]
     resolver_agreement: Rate
     claim_c_fails_together: Rate
     runnability: dict[str, int]

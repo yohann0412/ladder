@@ -52,7 +52,7 @@ def report(
         raise typer.Exit(1)
     collected = collect(layout)
     agreements = run_agreements(layout, collected.pairs)
-    summary = summarise(collected, agreements)
+    summary = summarise(layout, collected, agreements)
     write_record(layout.results / SUMMARY_FILE, summary)
     plots = write_plots(summary, layout.results / PLOTS_DIR)
     out.parent.mkdir(parents=True, exist_ok=True)

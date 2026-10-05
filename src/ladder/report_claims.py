@@ -4,6 +4,7 @@ from collections import Counter
 
 from ladder.agreement import RunAgreement
 from ladder.collect import PairRecords
+from ladder.failure_causes import CUT_TRANSCRIPT, OWN_OUTPUT_READS
 from ladder.md import section, table
 from ladder.ratefmt import cell
 from ladder.schemas import CalibrationRecord, Summary
@@ -24,13 +25,21 @@ def _unfinished_runs(pairs: list[PairRecords]) -> int:
 
 
 def llm_failures_section(summary: Summary, pairs: list[PairRecords]) -> str:
-    """Return failed resolver runs by cause and the planned runs that never finished."""
-    causes = table(["cause", "runs"], [list(item) for item in summary.llm_failures.items()])
+    """Return failed resolver runs by finer cause and the planned runs that never finished."""
+    causes = table(["cause", "runs"], [list(item) for item in summary.llm_failure_causes.items()])
+    split = (
+        "Protocol violations and impossible audits are split as D20 and D21 ask: "
+        f"`{OWN_OUTPUT_READS}` when every violation is a Read, Grep or Glob outside the task "
+        "directory whose path lies inside the run's own output directory; "
+        f"`{CUT_TRANSCRIPT}` when a transcript line is unparseable with `EOF while parsing`, "
+        "which is what a transcript truncated mid-line looks like. A pair with a run that failed "
+        "for either cause counts as human-equivalent in the Claim A best-case bound."
+    )
     unfinished = (
         "Planned resolver runs with no finalized record (not counting input-capped tasks and "
         f"post-weave tasks that reused the raw run): {_unfinished_runs(pairs)}."
     )
-    return section("LLM failures", causes, unfinished)
+    return section("LLM failures", causes, split, unfinished)
 
 
 def variance_section(summary: Summary, agreements: list[RunAgreement]) -> str:

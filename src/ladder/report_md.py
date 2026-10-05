@@ -25,6 +25,7 @@ from ladder.report_ladder import (
     sensitivity_section,
 )
 from ladder.schemas import Summary
+from ladder.verdicts import CLAIMS
 
 TITLE = "# Ladder results"
 
@@ -55,7 +56,7 @@ def render_report(
 ) -> str:
     """Return the Markdown report; links to plots are relative to the report's directory."""
     pairs = collected.pairs
-    verdict = " ".join(summary.verdicts[claim] for claim in ("A", "B", "C"))
+    verdict = " ".join(summary.verdicts[claim] for claim in CLAIMS if claim in summary.verdicts)
     blocks = [
         TITLE,
         verdict,

@@ -11,6 +11,7 @@ from ladder.transcript import ToolCall, Transcript
 ALLOWED_TOOLS = frozenset({"Read", "Glob", "Grep", "Write", "SubagentHandback"})
 SHOWN_CHARS = 200
 GLOB_CHARS = frozenset("*?[{")
+READ_OUTSIDE_TASK = re.compile(r"(Read|Grep|Glob) outside the task directory: (.+)", re.DOTALL)
 
 
 def audit_transcript(transcript: Transcript, task: ResolverTask) -> list[str]:
@@ -20,6 +21,17 @@ def audit_transcript(transcript: Transcript, task: ResolverTask) -> list[str]:
     for call in transcript.tool_calls:
         violations += _call_violations(call, task_dir, output_dir)
     return list(dict.fromkeys(violations))
+
+
+def read_inside(violation: str, root: Path) -> bool:
+    """Return whether a violation is a Read, Grep or Glob outside the task directory but in root."""
+    found = READ_OUTSIDE_TASK.fullmatch(violation)
+    if found is None:
+        return False
+    tool, value = found.groups()
+    if tool == "Glob":
+        return not _climbs(value) and _inside(_fixed_prefix(value), root)
+    return _inside(value, root)
 
 
 def _spawn_violations(first: str | None, spawn_line: str) -> list[str]:
@@ -80,11 +92,15 @@ def _bare_pattern(call: ToolCall, task_dir: Path) -> list[str]:
         return ["Glob without a path", "Glob without a pattern"]
     if not pattern.startswith("/"):
         return [f"Glob without a path and with a relative pattern: {pattern}"]
-    if ".." in re.split(r"[/{},]", pattern):
+    if _climbs(pattern):
         return [f"Glob pattern climbs out with '..': {pattern}"]
     if not _inside(_fixed_prefix(pattern), task_dir):
         return [f"Glob outside the task directory: {pattern}"]
     return []
+
+
+def _climbs(pattern: str) -> bool:
+    return ".." in re.split(r"[/{},]", pattern)
 
 
 def _fixed_prefix(pattern: str) -> str:
