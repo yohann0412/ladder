@@ -428,5 +428,5 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
 - One Claim C pair was lost to disk while free space was low after the restart.
   `PRQL__prql__5286-5287` (c01) is recorded with `error at a: … install failed: build:
   stopped, free disk below the 3 GiB floor`. The guard worked as designed. The pair stays
-  excluded and is reported under that cause. It is not run again: the stop rule makes no
-  exception for a pair that failed for a resource reason.
+  excluded and is reported under that cause. It is not run again: re-running only the
+  pairs whose outcome was a failure would be a choice made after seeing outcomes.
