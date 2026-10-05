@@ -5,6 +5,7 @@ import tarfile
 from collections.abc import Sequence
 from pathlib import Path
 
+from ladder.completion import is_complete
 from ladder.gitio import GitError, git_text, run_git
 from ladder.jsonio import read_optional
 from ladder.layout import Layout
@@ -25,9 +26,9 @@ def find_workspace(layout: Layout, pair_id: str, heads: HeadsKind | None = None)
         record = read_optional(layout.result_file(pair_id, f"workspace-{kind}"), WorkspaceRecord)
         if record is None:
             continue
-        if not workspace_repo(record).is_dir():
+        if not is_complete(workspace_repo(record)):
             raise FileNotFoundError(
-                f"{pair_id}'s {kind} workspace {record.path} no longer exists; "
+                f"{pair_id}'s {kind} workspace {record.path} no longer exists or is incomplete; "
                 f"run ladder workspace build {pair_id} --heads {kind}"
             )
         return record
@@ -56,9 +57,9 @@ def export_rev(repo: Path, rev: str, dest: Path) -> None:
 def export_merge(
     repo: Path, expected_tree: str, scratch: Path, dest: Path, holders: Sequence[Path] = ()
 ) -> None:
-    """Export the clean merge tree from a repository holding it, else re-create and check it."""
+    """Export the clean merge tree from a complete repository holding it, else re-create it."""
     for holder in (repo, *holders):
-        if holder.is_dir() and _has_tree(holder, expected_tree):
+        if is_complete(holder) and _has_tree(holder, expected_tree):
             export_rev(holder, expected_tree, dest)
             return
     remove_tree(scratch)

@@ -2,10 +2,11 @@
 
 from pathlib import Path
 
+from ladder.completion import unmark, unmark_all
 from ladder.jsonio import read_record
 from ladder.layout import Layout
 from ladder.resolver_records import TASK_RECORD, run_exists
-from ladder.runtime import remove_tree
+from ladder.runtime import BASE_LABEL, RuntimeDir, remove_tree
 from ladder.schemas import ResolverTask
 
 SNAPSHOT_GLOB = "*/run-*/workspace"
@@ -15,16 +16,22 @@ def prune_pair(layout: Layout, pair_id: str) -> list[Path]:
     """Delete a pair's replay workspace, rung copies, runtime and settled task snapshots.
 
     Snapshots of tasks still waiting for their subagent are kept, and so are every task's
-    PROMPT.md and files/, every result record, resolver output and truth file. Return the
-    deleted paths.
+    PROMPT.md and files/, every result record, resolver output and truth file. Completion marks
+    go first, so a prune cut short leaves no marked partial tree. Return the deleted paths.
     """
     waiting = _waiting_snapshots(layout, pair_id)
     snapshots = sorted((layout.work / "resolver" / pair_id).glob(SNAPSHOT_GLOB))
+    workspace = layout.workspace_dir(pair_id, "replay")
+    rungs = layout.rung_dir(pair_id, "git-replay").parent
+    runtime = RuntimeDir(layout.runtime_dir(pair_id))
+    unmark(workspace)
+    unmark_all(rungs)
+    unmark(runtime.tree(BASE_LABEL))
     candidates = [
-        layout.workspace_dir(pair_id, "replay"),
-        layout.rung_dir(pair_id, "git-replay").parent,
+        workspace,
+        rungs,
         *(path for path in snapshots if path.resolve() not in waiting),
-        layout.runtime_dir(pair_id),
+        runtime.root,
     ]
     deleted = [path for path in candidates if path.exists() or path.is_symlink()]
     for path in deleted:

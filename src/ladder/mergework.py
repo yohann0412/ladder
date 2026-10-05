@@ -4,6 +4,7 @@ import shutil
 import subprocess
 from pathlib import Path
 
+from ladder.completion import is_complete, unmark
 from ladder.gitio import run_git
 
 MERGE_B = ("-c", "merge.conflictStyle=diff3", "merge", "--no-ff", "--no-edit", "b")
@@ -14,9 +15,10 @@ class RungError(RuntimeError):
 
 
 def fresh_copy(workspace: Path, dest: Path) -> Path:
-    """Replace dest with a copy of the workspace, symlinks preserved, and return dest."""
-    if not workspace.is_dir():
-        raise RungError(f"workspace directory {workspace} does not exist")
+    """Unmark dest and replace it with a copy of a complete workspace, symlinks preserved."""
+    if not is_complete(workspace):
+        raise RungError(f"workspace directory {workspace} does not exist or is incomplete")
+    unmark(dest)
     if dest.exists():
         shutil.rmtree(dest)
     dest.parent.mkdir(parents=True, exist_ok=True)

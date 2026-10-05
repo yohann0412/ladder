@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import Literal
 
 from ladder.categories import categorize
+from ladder.completion import mark_complete
 from ladder.conflicts import conflict_messages, conflict_type, types_for_path
 from ladder.gitio import GitError, run_git
 from ladder.jsonio import read_optional, write_record
@@ -37,6 +38,7 @@ def run_git_rung(layout: Layout, pair_id: str, heads: HeadsKind) -> GitRungResul
         result = _merge(copy, pair_id, heads)
     except GitError as error:
         result = git_result(pair_id, heads, "error", str(error))
+    mark_complete(copy)
     write_record(layout.result_file(pair_id, git_record_name(heads)), result)
     return result
 

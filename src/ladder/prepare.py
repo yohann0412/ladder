@@ -6,6 +6,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 from ladder.blobs import worktree_file
+from ladder.completion import is_complete
 from ladder.jsonio import read_optional, write_record
 from ladder.layout import Layout
 from ladder.manifest import manifest_path, take_manifest
@@ -137,24 +138,32 @@ def _inputs(layout: Layout, pair_id: str, rung: LlmRung) -> Inputs:
         state = "no git rung result" if git is None else f"git rung status {git.status}"
         raise RefusedError(f"{pair_id} has {state}; only conflicted pairs get resolver runs")
     git_dir = layout.rung_dir(pair_id, GIT_RUNG_DIR)
-    if not git_dir.is_dir():
-        raise RefusedError(f"the git rung's merge state is missing at {git_dir}")
+    if not is_complete(git_dir):
+        raise RefusedError(f"the git rung's merge state is missing or incomplete at {git_dir}")
     if rung == "llm-raw":
         return Inputs(git, None, [file.path for file in git.files], git_dir)
     weave = read_optional(layout.result_file(pair_id, "rung-weave"), StructuralResult)
     if weave is None or weave.status != "conflicted":
         state = "no weave rung result" if weave is None else f"weave rung status {weave.status}"
         raise RefusedError(f"{pair_id} has {state}; llm-post-weave needs weave's conflicts")
+    weave_dir = Path(weave.output_dir)
+    if not is_complete(weave_dir):
+        raise RefusedError(f"weave's merge state is missing or incomplete at {weave_dir}")
     order = [file.path for file in git.files]
     remaining = [path for path in order if path in weave.remaining_conflicted]
     remaining += [path for path in weave.remaining_conflicted if path not in order]
-    return Inputs(git, weave, remaining, Path(weave.output_dir))
+    return Inputs(git, weave, remaining, weave_dir)
 
 
 def _verified_workspace(layout: Layout, pair_id: str) -> WorkspaceRecord:
     workspace = read_optional(layout.result_file(pair_id, "workspace-replay"), WorkspaceRecord)
     if workspace is None:
         raise RefusedError(f"no replay workspace for {pair_id}; run `ladder workspace build`")
+    if not is_complete(Path(workspace.path)):
+        raise RefusedError(
+            f"the replay workspace of {pair_id} at {workspace.path} is missing or incomplete; "
+            "run `ladder workspace build`"
+        )
     commits = Synthetic(base=workspace.base_commit, a=workspace.a_commit, b=workspace.b_commit)
     verification = verify_workspace(Path(workspace.path), commits.refs())
     if not verification.passed:

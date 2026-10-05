@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from ladder.adapters.base import Adapter, Site, Strategy, Unsupported
+from ladder.completion import is_complete, mark_complete, unmark
 from ladder.detect import detect
 from ladder.layout import Layout
 from ladder.manifests import differing, rev_manifests, tree_manifests
@@ -56,21 +57,29 @@ class PairSuite:
 def open_pair_suite(
     layout: Layout, runnability: Runnability, workspace: WorkspaceRecord
 ) -> PairSuite:
-    """Return a runnable pair's suite, re-installing the base environment if it is gone."""
+    """Return a runnable pair's suite, rebuilding the base tree and environment unless complete.
+
+    The base tree's completion mark covers its environment too: without the mark the tree is
+    exported again and the environment deleted, and the mark is written once an install succeeds.
+    """
     runtime = runtime_for(layout, runnability.pair_id)
     repo = workspace_repo(workspace)
-    base_tree = runtime.tree(BASE_LABEL)
-    if not base_tree.is_dir():
-        export_rev(repo, "base", base_tree)
-    found = detect(base_tree)
+    site = Site(runtime.tree(BASE_LABEL), runtime.env(BASE_LABEL))
+    complete = is_complete(site.tree)
+    if not complete:
+        unmark(site.tree)
+        remove_tree(site.env)
+        export_rev(repo, "base", site.tree)
+    found = detect(site.tree)
     if isinstance(found, Unsupported):
         raise SuiteUnavailable(f"base tree is no longer recognised: {found.detail}")
     standard, fallback = found.strategies()
     strategy = fallback if runnability.modifications else standard
-    site = Site(base_tree, runtime.env(BASE_LABEL))
-    if not found.env_present(site):
+    if not (complete and found.env_present(site)):
+        unmark(site.tree)
         steps = found.install(Runner(runtime.logs(f"{BASE_LABEL}-reinstall")), site, strategy)
         failing = next((step for step in steps if not step.ok), None)
         if failing is not None:
             raise SuiteUnavailable(f"base environment reinstall failed: {failing.summary()}")
+        mark_complete(site.tree)
     return PairSuite(runtime, found, strategy, rev_manifests(repo, "base"))

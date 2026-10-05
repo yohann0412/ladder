@@ -1,7 +1,8 @@
 """The steps `ladder run` takes for one pair; each runs only when its record or copy is missing.
 
-Every step names itself in `step` before it acts, so a failure can be logged with the step
-that raised.
+A working copy without its completion mark counts as missing: the step that wrote it was cut
+short, so it is rebuilt. Every step names itself in `step` before it acts, so a failure can be
+logged with the step that raised.
 """
 
 from collections.abc import Callable
@@ -12,6 +13,7 @@ from typing import NoReturn
 from ladder.cache import ensure_clone, fetch_pr
 from ladder.cacherung import run_git_rung_in_cache
 from ladder.claimc import run_claim_c
+from ladder.completion import is_complete, unmark
 from ladder.gitrung import git_record_name, run_git_rung
 from ladder.jsonio import read_optional, write_record
 from ladder.layout import Layout
@@ -103,10 +105,10 @@ class PairSteps:
         return record if record is not None else self._git_in_cache("replay")
 
     def ensure_workspace(self) -> WorkspaceRecord:
-        """Return the replay workspace record, rebuilding the workspace when it is not on disk."""
+        """Return the replay workspace record, rebuilding the workspace unless it is complete."""
         self.step = "workspace"
         record = read_optional(self._file("workspace-replay"), WorkspaceRecord)
-        if record is not None and Path(record.path).is_dir():
+        if record is not None and is_complete(Path(record.path)):
             return record
         self._ensure_cache()
         self.step = "workspace"
@@ -118,9 +120,9 @@ class PairSteps:
         return built.record
 
     def ensure_git_copy(self, recorded: GitRungResult) -> None:
-        """Re-run the git rung on the workspace when its working copy is missing; it must agree."""
+        """Re-run the git rung on the workspace when its copy is not complete; it must agree."""
         self.step = "git-replay copy"
-        if self.layout.rung_dir(self.pair_id, GIT_RUNG_DIR).is_dir():
+        if is_complete(self.layout.rung_dir(self.pair_id, GIT_RUNG_DIR)):
             return
         result = run_git_rung(self.layout, self.pair_id, "replay")
         self._say(f"git rung working copy: {git_summary(result)}")
@@ -134,12 +136,12 @@ class PairSteps:
             )
 
     def ensure_structural(self) -> None:
-        """Run weave and mergiraf when their record or working copy is missing; it must agree."""
+        """Run weave and mergiraf when their record is missing or copy incomplete; it must agree."""
         for tool in STRUCTURAL_TOOLS:
             self.step = f"rung-{tool}"
             record = read_optional(self._file(self.step), StructuralResult)
             if record is not None and (
-                record.status == "error" or Path(record.output_dir).is_dir()
+                record.status == "error" or is_complete(Path(record.output_dir))
             ):
                 continue
             result = run_structural_rung(self.layout, self.pair_id, tool)
@@ -274,6 +276,7 @@ class PairSteps:
     def _restore(self, name: str, record: Record, copy: Path, problem: str) -> NoReturn:
         """Put back the record a re-run disagreed with, delete the re-run's copy, and raise."""
         write_record(self._file(name), record)
+        unmark(copy)
         remove_tree(copy)
         raise StepFailedError(f"{problem}; the record is kept and the new copy deleted")
 

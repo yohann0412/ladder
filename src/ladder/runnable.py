@@ -13,6 +13,7 @@ from ladder.adapters.base import (
     Strategy,
     Unsupported,
 )
+from ladder.completion import mark_complete
 from ladder.detect import detect
 from ladder.layout import Layout
 from ladder.procrun import Runner, StepResult
@@ -44,7 +45,10 @@ def classify_dir(layout: Layout, source: Path, record_id: str) -> Runnability:
 
 
 def classify(runtime: RuntimeDir, record_id: str, commit: str, export: Exporter) -> Runnability:
-    """Export the base tree, try the standard install and then one fallback, and classify."""
+    """Export the base tree, try the standard install and then one fallback, and classify.
+
+    A runnable base tree is marked complete, together with the environment installed for it.
+    """
     runtime.reset()
     tree = runtime.tree(BASE_LABEL)
     export(tree)
@@ -67,6 +71,7 @@ def classify(runtime: RuntimeDir, record_id: str, commit: str, export: Exporter)
         attempts.append(setup)
         traces.append(trace)
         if trace.outcome is not None and trace.outcome.status in PASSING:
+            mark_complete(tree)
             return _runnable(
                 record_id,
                 commit,

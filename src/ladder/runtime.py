@@ -6,6 +6,7 @@ import stat
 from dataclasses import dataclass
 from pathlib import Path
 
+from ladder.completion import unmark
 from ladder.layout import Layout
 
 BASE_LABEL = "base"
@@ -62,7 +63,8 @@ class RuntimeDir:
             remove_tree(path)
 
     def reset(self) -> None:
-        """Delete the whole runtime directory."""
+        """Delete the whole runtime directory, the base tree's completion mark first."""
+        unmark(self.tree(BASE_LABEL))
         remove_tree(self.root)
 
 

@@ -7,6 +7,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 from ladder.blobs import ensure_files, read_blob, tree_entries, worktree_file
+from ladder.completion import is_complete
 from ladder.gitio import git_text, run_git
 from ladder.jsonio import read_optional, write_record
 from ladder.layout import Layout
@@ -83,8 +84,10 @@ def _located(
     pair_id = pair.pair_id
     rung_copy = layout.rung_dir(pair_id, GIT_RUNG_DIR)
     workspace = read_optional(layout.result_file(pair_id, "workspace-replay"), WorkspaceRecord)
-    if workspace is None or not rung_copy.is_dir():
-        raise RefusedError(f"{pair_id}: the replay workspace or the git rung's merge state is gone")
+    if workspace is None or not is_complete(rung_copy):
+        raise RefusedError(
+            f"{pair_id}: the replay workspace or the git rung's merge state is gone or incomplete"
+        )
     cache = layout.cache_dir(pair.repo)
     changed = _changed(rung_copy, workspace) - set(conflicted)
     paths = [*conflicted, *sorted(changed)]

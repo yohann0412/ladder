@@ -12,6 +12,7 @@ from typing import Literal
 
 from pydantic import BaseModel
 
+from ladder.completion import is_complete
 from ladder.jsonio import read_optional
 from ladder.layout import Layout
 from ladder.runtime import remove_tree
@@ -90,8 +91,10 @@ class ResolvedState:
 def rung_outputs(layout: Layout, pair_id: str, git_rung: GitRungResult) -> list[RungOutput]:
     """Return every output of a conflicting pair: git, structural, trap and LLM runs."""
     git_dir = layout.rung_dir(pair_id, GIT_RUNG_DIR)
-    if not git_dir.is_dir():
-        raise ScoreError(f"git's working tree is missing at {git_dir}; rerun ladder rung git")
+    if not is_complete(git_dir):
+        raise ScoreError(
+            f"git's working tree is missing or incomplete at {git_dir}; rerun ladder rung git"
+        )
     git_source = Source(git_dir, frozenset(file.path for file in git_rung.files))
     outputs = [RungOutput("git", 1, git_source, None)]
     starts: dict[LlmRung, Source | None] = {"llm-raw": git_source, "llm-post-weave": None}
@@ -138,7 +141,13 @@ def _inside(root: Path, path: str) -> Path:
 def _structural(record: StructuralResult) -> RungOutput:
     if record.status == "error":
         return RungOutput(record.tool, 1, None, f"{record.tool} error: {record.detail}")
-    source = Source(Path(record.output_dir), frozenset(record.remaining_conflicted))
+    start = Path(record.output_dir)
+    if not is_complete(start):
+        raise ScoreError(
+            f"{record.tool}'s working tree is missing or incomplete at {start}; "
+            f"rerun ladder rung structural --tool {record.tool}"
+        )
+    source = Source(start, frozenset(record.remaining_conflicted))
     return RungOutput(record.tool, 1, source, None)
 
 

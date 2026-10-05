@@ -4,6 +4,7 @@ import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
+from ladder.completion import mark_complete, unmark
 from ladder.gitio import git_text, run_git
 from ladder.jsonio import write_record
 from ladder.layout import Layout
@@ -100,19 +101,21 @@ def build_workspace(cache: Path, path: Path, sources: Sources) -> Synthetic:
 
 
 def build_recorded(layout: Layout, pair: Pair, heads: HeadsKind) -> BuiltWorkspace:
-    """Rebuild and verify a pair's workspace; write its record only when every check passed.
+    """Rebuild and verify a pair's workspace; mark and record it only when every check passed.
 
-    The previous record is deleted first. Raise UnusablePairError when the pair has no such heads
-    or no repository cache.
+    The previous record and completion mark are deleted first. Raise UnusablePairError when the
+    pair has no such heads or no repository cache.
     """
     record_file = layout.result_file(pair.pair_id, f"workspace-{heads}")
     record_file.unlink(missing_ok=True)
     path = layout.workspace_dir(pair.pair_id, heads).resolve()
+    unmark(path)
     sources = source_commits(pair, heads)
     synthetic = build_workspace(layout.cache_dir(pair.repo), path, sources)
     verification = verify_workspace(path, synthetic.refs())
     if not verification.passed:
         return BuiltWorkspace(path, verification, None)
+    mark_complete(path)
     record = workspace_record(
         pair.pair_id,
         heads,

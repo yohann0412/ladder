@@ -4,6 +4,7 @@ import subprocess
 from pathlib import Path
 from typing import Literal
 
+from ladder.completion import mark_complete
 from ladder.drivers import driver_failures, install, locate
 from ladder.filecheck import check_file
 from ladder.gitio import GitError
@@ -39,6 +40,7 @@ def run_structural_rung(layout: Layout, pair_id: str, tool: StructuralTool) -> S
         files=[check_file(copy, file.path) for file in git_rung.files],
         output_dir=str(copy.resolve()),
     )
+    mark_complete(copy)
     write_record(layout.result_file(pair_id, f"rung-{tool}"), result)
     return result
 
