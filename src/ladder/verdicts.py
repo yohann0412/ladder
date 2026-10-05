@@ -86,7 +86,8 @@ def _claim_b_calibration(intent_dropped: Rate, agreement: Rate) -> str | None:
     adjusted = round(agreement.ci_high * intent_dropped.pct, 1)
     held = adjusted >= INTENT_DROPPED_THRESHOLD
     side = "at or above" if held else "below"
-    support = "is consistent with" if held else "does not support"
+    same_side = held == (intent_dropped.pct >= INTENT_DROPPED_THRESHOLD)
+    support = "is consistent with" if same_side else "does not support"
     return (
         f"Calibration: the reviewer agreed with {phrase(agreement)} intent-dropped verdicts on "
         "LLM outputs; if the metric's precision were the interval's upper end, llm-raw intent "
