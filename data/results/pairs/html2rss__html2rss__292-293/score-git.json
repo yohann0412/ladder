@@ -1,0 +1,75 @@
+{
+  "pair_id": "html2rss__html2rss__292-293",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "lib/html2rss/article_pipeline/processors/deduplicator.rb",
+      "entity": "Html2rss.ArticlePipeline.Processors.Deduplicator.call",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "lib/html2rss/article_pipeline/processors/deduplicator.rb",
+      "entity": "<rest>",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "lib/html2rss/article_pipeline/processors/deduplicator.rb",
+      "entity": "Html2rss.ArticlePipeline.Processors.Deduplicator.initialize",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "lib/html2rss/article_pipeline/processors/deduplicator.rb",
+      "entity": "Html2rss.ArticlePipeline.Processors.Deduplicator.fingerprint_for",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "lib/html2rss/article_pipeline/processors/deduplicator.rb",
+      "entity": "Html2rss.ArticlePipeline.Processors.Deduplicator.normalize",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "lib/html2rss/article_pipeline/processors/deduplicator.rb",
+      "mode": "ast",
+      "language": "ruby",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "Processors",
+        "Processors.Deduplicator",
+        "Processors.Deduplicator.call",
+        "Processors.Deduplicator.deduplication_key",
+        "Processors.Deduplicator.deduplication_key.deduplication_key",
+        "Processors.Deduplicator.deduplication_key.deduplication_key.fingerprint_for",
+        "Processors.Deduplicator.deduplication_key.normalize",
+        "Processors.Deduplicator.initialize"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

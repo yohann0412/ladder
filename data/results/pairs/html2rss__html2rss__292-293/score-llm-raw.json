@@ -1,0 +1,47 @@
+{
+  "pair_id": "html2rss__html2rss__292-293",
+  "rung": "llm-raw",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "lib/html2rss/article_pipeline/processors/deduplicator.rb",
+      "entity": "Html2rss.ArticlePipeline.Processors.Deduplicator.deduplication_key",
+      "loser": "b",
+      "reason": "both sides changed it; the resolution keeps A's version and lacks lines B added to it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "lib/html2rss/article_pipeline/processors/deduplicator.rb",
+      "entity": "Html2rss.ArticlePipeline.Processors.Deduplicator.fingerprint_for",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "lib/html2rss/article_pipeline/processors/deduplicator.rb",
+      "mode": "ast",
+      "language": "ruby",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [
+        "Html2rss.ArticlePipeline.Processors.Deduplicator.value_of"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "html2rss__html2rss__292-293",
+  "commit": "caa975e7209995d785f8df166cba69541bc0c782",
+  "language": "ruby",
+  "package_manager": "bundle",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "ruby project; no adapter for ruby (bundle is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
