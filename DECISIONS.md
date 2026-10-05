@@ -321,3 +321,12 @@ Newest at the bottom.
   that exist (59/165 before the D23 redo), while PLAN section 1 says "of conflicting
   pairs" (59/224). Both are above 15%, so the verdict does not depend on the choice. The
   report keeps the code's denominator and the results review states the difference.
+- Second amendment (14:45, while the first redo pair was still running): up to two redo
+  processes, on disjoint repositories. One takes the ten large Go pairs one at a time
+  (`work/d23-go.txt`). The other takes the remaining nine (`work/d23-rest.txt`), so two of
+  the largest pairs never run together. Each process still waits for 15 GiB free before
+  each pair, and no other experiment process runs. Reason: time. One pair runs up to seven
+  suites under ten-minute caps, so 20 pairs one after another would take most of a day.
+  Since F8f, every temporary file and package cache of a pair lives in its runtime, so a
+  pair's disk use is bounded and freed when it is pruned. The split depends only on
+  language and size, not on any redo outcome.
