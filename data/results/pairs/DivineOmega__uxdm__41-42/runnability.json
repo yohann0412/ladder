@@ -1,0 +1,15 @@
+{
+  "pair_id": "DivineOmega__uxdm__41-42",
+  "commit": "ecb5eba5801623680d34bbd9a5d6a1d4fb15998e",
+  "language": "php",
+  "package_manager": "composer",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "php project; no adapter for php (composer is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

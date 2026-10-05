@@ -1,0 +1,53 @@
+{
+  "pair_id": "gojiplus__tuber__143-144",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: other (no recognised project manifest)",
+  "files_a": [
+    "R/get_all_comments.R",
+    "R/get_comment_threads.R",
+    "R/get_playlist_items.R",
+    "man/get_all_comments.Rd",
+    "tests/testthat/test-get-all-comments.R"
+  ],
+  "files_b": [
+    "R/yt_oauth.R",
+    "README.md",
+    "man/yt_oauth.Rd"
+  ]
+}

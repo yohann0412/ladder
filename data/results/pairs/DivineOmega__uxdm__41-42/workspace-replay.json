@@ -1,0 +1,23 @@
+{
+  "pair_id": "DivineOmega__uxdm__41-42",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/DivineOmega__uxdm__41-42",
+  "source_base": "ecb5eba5801623680d34bbd9a5d6a1d4fb15998e",
+  "source_a": "b37d693e549f285ba4d499105522d7d615b93515",
+  "source_b": "a593b4ca30f93fb993da3472345a5c3fb8b82a3b",
+  "base_commit": "2e5037da3752c699c607f15ec2fc0bbf35ebadae",
+  "a_commit": "2e397b284e9b9967174af85d6ffecc8bd7dbb6b5",
+  "b_commit": "3d9110a78f5258ac41ba429b9a564d3dd2d1a706",
+  "object_count": 166,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

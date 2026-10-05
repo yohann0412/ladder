@@ -1,0 +1,23 @@
+{
+  "pair_id": "neondatabase__autoscaling__1352-1353",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/neondatabase__autoscaling__1352-1353",
+  "source_base": "636db60f7af46b2bcb40882b5001534eb11cec9d",
+  "source_a": "3f6e9017b707e3526f78bcb549b021ac8f4c5bce",
+  "source_b": "0b0e2139a5aeadcfe7fa5e72ec30bb4ed7973ca1",
+  "base_commit": "bf5814c5ffc10107e12f4e905c6bcab83aae5c1c",
+  "a_commit": "f47670ff2b8630bba71e1cb03bb7f09d3ea7db42",
+  "b_commit": "f7d79f862125f57948c8a5459e94a806229aaf71",
+  "object_count": 565,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

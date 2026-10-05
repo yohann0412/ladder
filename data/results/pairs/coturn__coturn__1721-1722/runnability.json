@@ -1,0 +1,15 @@
+{
+  "pair_id": "coturn__coturn__1721-1722",
+  "commit": "68ac0772d9b9055da5f17023f965518bdcd6bf90",
+  "language": "cpp",
+  "package_manager": "cmake",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "cpp project; no adapter for cpp (cmake is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
