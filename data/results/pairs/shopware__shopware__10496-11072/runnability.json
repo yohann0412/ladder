@@ -1,0 +1,15 @@
+{
+  "pair_id": "shopware__shopware__10496-11072",
+  "commit": "c6efcfe498b23900d3a66fa20bd64be20bf64255",
+  "language": "php",
+  "package_manager": "composer",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "php project; no adapter for php (composer is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

@@ -1,0 +1,71 @@
+{
+  "pair_id": "shopware__shopware__10496-11072",
+  "rung": "llm-raw",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": true,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": true,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "src/Core/System/Language/LanguageExceptionHandler.php",
+      "entity": "LanguageExceptionHandler.matchException",
+      "loser": "b",
+      "reason": "both sides changed it; the resolution keeps A's version and lacks lines B added to it",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "src/Core/System/Language/LanguageExceptionHandler.php",
+      "mode": "ast",
+      "language": "php",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other (php project; no adapter for php (composer is installed))"
+  },
+  "tests_a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other (php project; no adapter for php (composer is installed))"
+  },
+  "tests_b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other (php project; no adapter for php (composer is installed))"
+  }
+}
