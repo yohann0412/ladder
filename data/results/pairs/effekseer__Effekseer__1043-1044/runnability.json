@@ -1,0 +1,15 @@
+{
+  "pair_id": "effekseer__Effekseer__1043-1044",
+  "commit": "d910d918ad23f26f4e6535779c7194a504e8d885",
+  "language": "cpp",
+  "package_manager": "cmake",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "cpp project; no adapter for cpp (cmake is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
