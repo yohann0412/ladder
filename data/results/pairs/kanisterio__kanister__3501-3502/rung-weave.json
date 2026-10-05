@@ -1,0 +1,18 @@
+{
+  "pair_id": "kanisterio__kanister__3501-3502",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": ".golangci.yml",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/kanisterio__kanister__3501-3502/weave"
+}

@@ -2,7 +2,7 @@
   "pair_id": "imgntn__j360__23-24",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 4, conflicted files: 4",
   "messages": [
     "CONFLICT (content): Merge conflict in src/j360.ts",
     "CONFLICT (content): Merge conflict in test/j360-cli.test.js",

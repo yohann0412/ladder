@@ -1,0 +1,15 @@
+{
+  "pair_id": "shiosyakeyakini-info__miria__750-764",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T06:00:09.437951Z"
+}

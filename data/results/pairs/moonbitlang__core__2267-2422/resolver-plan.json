@@ -1,0 +1,15 @@
+{
+  "pair_id": "moonbitlang__core__2267-2422",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T06:00:13.755406Z"
+}

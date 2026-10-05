@@ -1,0 +1,43 @@
+{
+  "pair_id": "imgntn__j360__23-24",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 3 of 4",
+  "remaining_conflicted": [
+    "test/j360-cli.test.js",
+    "tools/j360-cli.js",
+    "tools/j360-cli.ts"
+  ],
+  "files": [
+    {
+      "path": "src/j360.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": true
+    },
+    {
+      "path": "test/j360-cli.test.js",
+      "present": true,
+      "has_markers": true,
+      "language": "javascript",
+      "parses": false
+    },
+    {
+      "path": "tools/j360-cli.js",
+      "present": true,
+      "has_markers": true,
+      "language": "javascript",
+      "parses": false
+    },
+    {
+      "path": "tools/j360-cli.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/imgntn__j360__23-24/weave"
+}

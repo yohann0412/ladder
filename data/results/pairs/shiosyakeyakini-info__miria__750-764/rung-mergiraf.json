@@ -1,0 +1,44 @@
+{
+  "pair_id": "shiosyakeyakini-info__miria__750-764",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 4 of 4",
+  "remaining_conflicted": [
+    "lib/l10n/app_ja-oj.arb",
+    "lib/l10n/app_ja.arb",
+    "lib/l10n/app_zh-cn.arb",
+    "lib/l10n/app_zh.arb"
+  ],
+  "files": [
+    {
+      "path": "lib/l10n/app_ja-oj.arb",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "lib/l10n/app_ja.arb",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "lib/l10n/app_zh-cn.arb",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "lib/l10n/app_zh.arb",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/shiosyakeyakini-info__miria__750-764/mergiraf"
+}

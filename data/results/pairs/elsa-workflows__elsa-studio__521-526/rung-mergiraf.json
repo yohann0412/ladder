@@ -1,0 +1,60 @@
+{
+  "pair_id": "elsa-workflows__elsa-studio__521-526",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 6 of 6",
+  "remaining_conflicted": [
+    "Directory.Build.props",
+    "Directory.Packages.props",
+    "src/modules/Elsa.Studio.Agents/Elsa.Studio.Agents.csproj",
+    "src/modules/Elsa.Studio.Workflows/Components/WorkflowDefinitionEditor/Components/ActivityProperties/Tabs/LogPersistenceTab.razor",
+    "src/modules/Elsa.Studio.Workflows/Components/WorkflowDefinitionEditor/Components/WorkflowProperties/Tabs/Properties/Sections/Settings/Settings.razor",
+    "src/modules/Elsa.Studio.Workflows/Components/WorkflowInstanceList/WorkflowInstanceList.razor.cs"
+  ],
+  "files": [
+    {
+      "path": "Directory.Build.props",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "Directory.Packages.props",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/modules/Elsa.Studio.Agents/Elsa.Studio.Agents.csproj",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/modules/Elsa.Studio.Workflows/Components/WorkflowDefinitionEditor/Components/ActivityProperties/Tabs/LogPersistenceTab.razor",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/modules/Elsa.Studio.Workflows/Components/WorkflowDefinitionEditor/Components/WorkflowProperties/Tabs/Properties/Sections/Settings/Settings.razor",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/modules/Elsa.Studio.Workflows/Components/WorkflowInstanceList/WorkflowInstanceList.razor.cs",
+      "present": true,
+      "has_markers": true,
+      "language": "c_sharp",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/elsa-workflows__elsa-studio__521-526/mergiraf"
+}

@@ -2,7 +2,7 @@
   "pair_id": "moonbitlang__core__2267-2422",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 2, conflicted files: 2",
   "messages": [
     "CONFLICT (content): Merge conflict in json/parse_test.mbt",
     "CONFLICT (content): Merge conflict in json/utils.mbt"

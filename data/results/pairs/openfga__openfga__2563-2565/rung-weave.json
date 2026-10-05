@@ -1,0 +1,36 @@
+{
+  "pair_id": "openfga__openfga__2563-2565",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 3 of 3",
+  "remaining_conflicted": [
+    "cmd/migrate/flags.go",
+    "cmd/migrate/migrate.go",
+    "pkg/storage/migrate/migrate.go"
+  ],
+  "files": [
+    {
+      "path": "cmd/migrate/flags.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "cmd/migrate/migrate.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "pkg/storage/migrate/migrate.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/openfga__openfga__2563-2565/weave"
+}

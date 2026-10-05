@@ -1,0 +1,20 @@
+{
+  "pair_id": "RSamaium__CanvasEngine__40-46",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "packages/core/src/components/index.ts"
+  ],
+  "files": [
+    {
+      "path": "packages/core/src/components/index.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/RSamaium__CanvasEngine__40-46/mergiraf"
+}

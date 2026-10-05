@@ -1,0 +1,23 @@
+{
+  "pair_id": "kanisterio__kanister__3501-3505",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/kanisterio__kanister__3501-3505",
+  "source_base": "d279683611b4a0e85d01eda27fe348658ee89f40",
+  "source_a": "bde10b1a6a2e691f438cba412ecc5f25ad4fc721",
+  "source_b": "8c2bc0565170acf356b7be90f40b5b781ef1705b",
+  "base_commit": "d5f4c05592d4b06238286a353961f8b74b9e24d5",
+  "a_commit": "c159d8b74dbc815b0336d6683775c09c302b6d68",
+  "b_commit": "2344cd70405e1c50cbe50c0a2624e2aa3533f961",
+  "object_count": 1213,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
