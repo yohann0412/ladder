@@ -603,3 +603,8 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
 - About 17:30: Claim C pairs pushed free disk to 5.2 GiB (sentry-javascript 7.3 GB, cal.com
   3.7 GB). The shared cargo registry, the one cache still outside per-pair scratch, was
   cleared with no cargo or rustc running (11 GiB free).
+- 17:44: two Claim C records stopped at the floor while large Node pairs ran in parallel
+  workers: `calcom__cal.com__18376-18378` (8.5 GB of runtime) and
+  `openops-cloud__openops__666-668`. D23 covers floor stops that happen later in the
+  experiment, so both are redone once, alone, after the Claim C workers stop. Any further
+  floor stop gets the same treatment.
