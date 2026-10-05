@@ -1,0 +1,15 @@
+{
+  "pair_id": "PepperDash__Essentials__1291-1295",
+  "commit": "1dbac7d1c816557925974886be7578215728eccd",
+  "language": "csharp",
+  "package_manager": "dotnet",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "csharp project; dotnet is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

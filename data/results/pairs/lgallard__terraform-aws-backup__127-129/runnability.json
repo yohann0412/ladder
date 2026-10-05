@@ -1,0 +1,15 @@
+{
+  "pair_id": "lgallard__terraform-aws-backup__127-129",
+  "commit": "78d58825ba6400a9c5b03cf34fdd8b1e1f0362f7",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

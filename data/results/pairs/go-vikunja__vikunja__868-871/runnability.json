@@ -1,0 +1,42 @@
+{
+  "pair_id": "go-vikunja__vikunja__868-871",
+  "commit": "8ffbfa112cdc3edb584b8f03af5e66a7c3b10a05",
+  "language": "go",
+  "package_manager": "go modules",
+  "test_runner": "go test",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "build: exit 1 in 129.5 s: FAIL\tcode.vikunja.io/api/pkg/user\t0.018s | ok  \tcode.vikunja.io/api/pkg/utils\t0.012s [no tests to run] | ?   \tcode.vikunja.io/api/pkg/version\t[no test files] | ?   \tcode.vikunja.io/api/pkg/web\t[no test files] | ?   \tcode.vikunja.io/api/pkg/web/handler\t[no test files] | FAIL",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "go",
+        "test",
+        "-count=1",
+        "-run",
+        "^$",
+        "./..."
+      ],
+      "exit_code": 1,
+      "duration_s": 150.6,
+      "detail": "standard, install cap 900 s: install: exit 0 in 19.7 s; build: exit 1 in 130.9 s; output tail: ?   \tcode.vikunja.io/api/pkg/swagger\t[no test files] | 2026/10/05 12:20:00 testfixtures: could not read file \"pkg/db/fixtures/users.yml\": open pkg/db/fixtures/users.yml: no such file or directory | FAIL\tcode.vikunja.io/api/pkg/user\t0.022s | ok  \tcode.vikunja.io/api/pkg/utils\t0.007s [no tests to run] | ?   \tcode.vikunja.io/api/pkg/version\t[no test files] | ?   \tcode.vikunja.io/api/pkg/web\t[no test files] | ?   \tcode.vikunja.io/api/pkg/web/handler\t[no test files] | FAIL"
+    },
+    {
+      "command": [
+        "go",
+        "test",
+        "-count=1",
+        "-run",
+        "^$",
+        "./..."
+      ],
+      "exit_code": 1,
+      "duration_s": 129.6,
+      "detail": "mod-mod (GOFLAGS=-mod=mod, so go.mod and go.sum drift is resolved), install cap 900 s: install: exit 0 in 0.1 s; build: exit 1 in 129.5 s; output tail: ?   \tcode.vikunja.io/api/pkg/swagger\t[no test files] | 2026/10/05 12:22:22 testfixtures: could not read file \"pkg/db/fixtures/users.yml\": open pkg/db/fixtures/users.yml: no such file or directory | FAIL\tcode.vikunja.io/api/pkg/user\t0.018s | ok  \tcode.vikunja.io/api/pkg/utils\t0.012s [no tests to run] | ?   \tcode.vikunja.io/api/pkg/version\t[no test files] | ?   \tcode.vikunja.io/api/pkg/web\t[no test files] | ?   \tcode.vikunja.io/api/pkg/web/handler\t[no test files] | FAIL"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

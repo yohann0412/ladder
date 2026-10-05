@@ -1,0 +1,15 @@
+{
+  "pair_id": "CodingAleCR__http_interceptor__161-162",
+  "commit": "4cc20620cefd1e45001948f186693bf58f9f4bab",
+  "language": "dart",
+  "package_manager": "dart",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "dart project; dart is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

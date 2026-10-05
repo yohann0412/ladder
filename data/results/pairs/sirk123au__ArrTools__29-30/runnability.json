@@ -1,0 +1,15 @@
+{
+  "pair_id": "sirk123au__ArrTools__29-30",
+  "commit": "3f06afb809d01ba08de82d0ade909dd61f807c6d",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

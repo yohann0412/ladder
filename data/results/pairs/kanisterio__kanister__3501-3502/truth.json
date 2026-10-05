@@ -1,0 +1,18 @@
+{
+  "pair_id": "kanisterio__kanister__3501-3502",
+  "status": "located",
+  "commit": "e752e3db235dc35a3f92299c42f39973d2955443",
+  "method": "absorption",
+  "files": [
+    {
+      "path": ".golangci.yml",
+      "present": true,
+      "sha256": "c429dea9a3bc2846d23d0109b5ef2f55d2651c07022a5e5501bc0c2497408f6b"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T12:22:43.988739Z"
+}
