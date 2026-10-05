@@ -1,0 +1,54 @@
+{
+  "pair_id": "bruin-data__bruin__733-735",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: exceeds_cap"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: exceeds_cap"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: exceeds_cap"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: exceeds_cap (suite stopped, free disk below the 3 GiB floor)",
+  "files_a": [
+    "pkg/connection/connection.go",
+    "pkg/helpers/helpers.go",
+    "pkg/helpers/helpers_test.go"
+  ],
+  "files_b": [
+    ".github/workflows/update-ingestr.yml",
+    "cmd/fetch.go",
+    "pkg/e2e/assert.go",
+    "pkg/e2e/assert_test.go",
+    "pkg/e2e/task.go",
+    "pkg/python/uv.go"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "pair_id": "bruin-data__bruin__733-735",
+  "commit": "9765fd0a5ea1ab39fb7668ad58c92b2042426991",
+  "language": "go",
+  "package_manager": "go modules",
+  "test_runner": "go test",
+  "status": "unrunnable",
+  "reason": "exceeds_cap",
+  "reason_detail": "suite stopped, free disk below the 3 GiB floor",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "go",
+        "mod",
+        "download"
+      ],
+      "exit_code": 0,
+      "duration_s": 171.5,
+      "detail": "standard, install cap 900 s: install: exit 0 in 17.1 s; build: exit 0 in 116.4 s; suite capped: suite stopped, free disk below the 3 GiB floor"
+    }
+  ],
+  "test_count": 0,
+  "base_outcome": {
+    "status": "capped",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 38.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "suite stopped, free disk below the 3 GiB floor"
+  },
+  "timeout_s": 600
+}
