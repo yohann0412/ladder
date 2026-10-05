@@ -1,0 +1,25 @@
+{
+  "pair_id": "Significant-Gravitas__AutoGPT__9958-10340",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 29705,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 1000,
+    "cache_creation_input_tokens": 59673,
+    "cache_read_input_tokens": 202872
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "autogpt_platform/backend/backend/blocks/exa/similar.py",
+      "action": "keep",
+      "sha256": "ffa5753c7f014fb2cbf0d43b1f4f59fe09351a1f0b511043a280129886d1c1f5",
+      "rationale": "Kept PR B's migration to the backend.sdk imports, exa config credentials and async Requests, and added PR A's to_camel_case_dict to the .helpers import so the camelCase contents payload conversion still works."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:15:44.395092Z"
+}

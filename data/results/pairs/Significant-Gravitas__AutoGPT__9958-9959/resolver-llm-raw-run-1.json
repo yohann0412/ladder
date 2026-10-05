@@ -1,0 +1,31 @@
+{
+  "pair_id": "Significant-Gravitas__AutoGPT__9958-9959",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 210782,
+  "tokens": {
+    "input_tokens": 24,
+    "output_tokens": 3552,
+    "cache_creation_input_tokens": 116020,
+    "cache_read_input_tokens": 935282
+  },
+  "tool_calls": 17,
+  "files": [
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "action": "keep",
+      "sha256": "5bbc02cf065d90b156fa9642d6502f7bd2904e34f77267bbc6dce11ebeac8be9",
+      "rationale": "PR A's side already contains a more evolved async version of PR B's threadId field, Gmail Get Thread and Gmail Reply blocks (sharing the same block IDs), so A's content is kept and B's older sync duplicates plus its redundant file/Path imports are dropped to avoid duplicate class definitions."
+    },
+    {
+      "path": "docs/content/platform/blocks/google/gmail.md",
+      "action": "keep",
+      "sha256": "ab30146492fcd4e2561059cde571d085a6fa87026b40d44ef86ceb4e2047d3f4",
+      "rationale": "Both sides add the Gmail Get Thread and Gmail Reply docs; PR A's wording is kept because it matches the merged code, whose Get Thread block decodes message bodies and has no includeSpamTrash input."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:15:46.853005Z"
+}

@@ -1,0 +1,31 @@
+{
+  "pair_id": "Significant-Gravitas__AutoGPT__9958-9959",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 191670,
+  "tokens": {
+    "input_tokens": 22,
+    "output_tokens": 1356,
+    "cache_creation_input_tokens": 153980,
+    "cache_read_input_tokens": 993277
+  },
+  "tool_calls": 15,
+  "files": [
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "action": "keep",
+      "sha256": "5bbc02cf065d90b156fa9642d6502f7bd2904e34f77267bbc6dce11ebeac8be9",
+      "rationale": "PR A's version already contains a more complete, async GmailBase-based implementation of everything PR B adds (threadId on Email, GmailGetThreadBlock, GmailReplyBlock with attachments), so A's file is kept as-is, dropping B's older sync duplicates and duplicate imports that would conflict with A's refactored API."
+    },
+    {
+      "path": "docs/content/platform/blocks/google/gmail.md",
+      "action": "keep",
+      "sha256": "ab30146492fcd4e2561059cde571d085a6fa87026b40d44ef86ceb4e2047d3f4",
+      "rationale": "Kept PR A's docs, which already include B's new Get Thread and Reply sections plus threadId note, and describe the Get Thread block as A's code implements it (decoded messages, no includeSpamTrash input)."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:15:46.060503Z"
+}
