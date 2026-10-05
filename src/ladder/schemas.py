@@ -100,6 +100,7 @@ class Pair(Record):
     b: PullRequest
     paper: PaperRecord | None
     refs: PairRefs | None = None
+    trap_dir: str | None = None
 
 
 class PairSet(Record):
