@@ -1,0 +1,23 @@
+{
+  "pair_id": "whitphx__vscode-emacs-mcx__2145-2146",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/whitphx__vscode-emacs-mcx__2145-2146",
+  "source_base": "51112cf6e335f66efa84069ef57fca1bd0edcd49",
+  "source_a": "bdc5180942db92aef9be2df94b66ba36f007f6c2",
+  "source_b": "46d20986930f79af0a039576c606b4424ac6bb59",
+  "base_commit": "164a2fa590e3b001237527b52acac6e4791488e4",
+  "a_commit": "7146770e79fbf931071e6c0dae9999ee30e60d0f",
+  "b_commit": "37eda38ed72a8412d373dccc8cfc2f9253e81dd8",
+  "object_count": 193,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
