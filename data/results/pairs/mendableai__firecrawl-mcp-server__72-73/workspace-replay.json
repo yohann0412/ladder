@@ -1,0 +1,23 @@
+{
+  "pair_id": "mendableai__firecrawl-mcp-server__72-73",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/mendableai__firecrawl-mcp-server__72-73",
+  "source_base": "d8e8d281f6cb9f7a8829f5e7ab8a197c085e8041",
+  "source_a": "bf6e21e9646291a25ed3f3af7bb15cbcce3f5363",
+  "source_b": "d8a14c3ea00f12b59fa956b79460fe77b6e63933",
+  "base_commit": "3ed77f752d378cc3dd74751e276f631fe00f50c6",
+  "a_commit": "4039c35c84868dc02f697ff7fcbb4f9618cc377c",
+  "b_commit": "8bfcd1b16ca03c15626b2068f031f5b83a0c3007",
+  "object_count": 33,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

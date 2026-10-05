@@ -1,0 +1,47 @@
+{
+  "pair_id": "espresso3389__pdfrx__382-383",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: missing_toolchain"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: missing_toolchain"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: missing_toolchain"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: missing_toolchain (dart project; dart is not installed)",
+  "files_a": [
+    "README.md"
+  ],
+  "files_b": [
+    "test/setup.dart"
+  ]
+}

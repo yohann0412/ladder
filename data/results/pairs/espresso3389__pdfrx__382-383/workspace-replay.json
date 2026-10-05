@@ -1,0 +1,23 @@
+{
+  "pair_id": "espresso3389__pdfrx__382-383",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/espresso3389__pdfrx__382-383",
+  "source_base": "3498e1002eba16570dca307a16ef688a1467aace",
+  "source_a": "c8ea182800fc17e80d4e07dc91a0f7d3961bf3bf",
+  "source_b": "f94738ade156cee23bf12581fe6f195afc2b2f4b",
+  "base_commit": "4a2950a3eb5abd8369a2790e80caa9948a85614e",
+  "a_commit": "5ff6f01b6a297e4c0f9f9fc3c5b94cbe722f883c",
+  "b_commit": "eb0d704bf0a3c13476d1c59a690fbed7efc509d9",
+  "object_count": 307,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

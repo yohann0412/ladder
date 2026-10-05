@@ -1,0 +1,15 @@
+{
+  "pair_id": "espresso3389__pdfrx__382-383",
+  "commit": "3498e1002eba16570dca307a16ef688a1467aace",
+  "language": "dart",
+  "package_manager": "dart",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "dart project; dart is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
