@@ -466,3 +466,12 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   process was running (9.1 GiB free). Go builds now use a cache inside each pair's runtime
   directory, which is deleted with the pair (reviews/F8e-go-cache.md). The sharded pass
   starts with this change.
+- 11:03: the sharded pass started with 213 pairs (71 per shard). Shard 0 began 8 s before
+  the per-pair Go cache change was saved, so it was restarted at 11:05 with the change.
+  By 11:14 all three shards were waiting at 4.1 GiB free. Two airbyte pairs held about
+  5 GB, and 9.1 GB of repository caches were kept for pairs not yet started. A janitor
+  (`cache_janitor.py` in the session scratchpad) now runs beside the shards. When free
+  disk drops below 8 GiB, it deletes the largest repository caches that no shard is on
+  or about to reach (each shard's current pair and the next three), up to 10 GiB free.
+  The first round deleted 31 caches. A pair whose cache is gone clones it again, which
+  costs time, not records.
