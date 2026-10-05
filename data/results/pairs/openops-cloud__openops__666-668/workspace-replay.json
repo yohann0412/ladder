@@ -1,0 +1,23 @@
+{
+  "pair_id": "openops-cloud__openops__666-668",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/openops-cloud__openops__666-668",
+  "source_base": "260948c1279de244258ff9570a0bf0e307413b57",
+  "source_a": "9ff85434343647ea77b732d56f4ecf0ac073d860",
+  "source_b": "959346aea11a7b8a3aa5f1c053f9fc122c06fbb6",
+  "base_commit": "ac69d4f89c9ca7bd1dd4253b28fc3901a2fdc848",
+  "a_commit": "f01ca6140e674b243a09ef677195a46bd51c86d4",
+  "b_commit": "8f47a52ee1e3fc53e3305a97b8864f37b4259f17",
+  "object_count": 3048,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

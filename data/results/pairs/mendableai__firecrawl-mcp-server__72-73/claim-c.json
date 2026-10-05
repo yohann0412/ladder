@@ -1,0 +1,66 @@
+{
+  "pair_id": "mendableai__firecrawl-mcp-server__72-73",
+  "a": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/mendableai__firecrawl-mcp-server__72-73/trees/a/node_modules/.bin/jest",
+      "--ci",
+      "--coverage=false",
+      "--json",
+      "--outputFile=/home/user/ladder/work/runtime/mendableai__firecrawl-mcp-server__72-73/reports/a/run-1.report"
+    ],
+    "passed": 6,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 6.9,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 6 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "b": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/mendableai__firecrawl-mcp-server__72-73/trees/b/node_modules/.bin/jest",
+      "--ci",
+      "--coverage=false",
+      "--json",
+      "--outputFile=/home/user/ladder/work/runtime/mendableai__firecrawl-mcp-server__72-73/reports/b/run-1.report"
+    ],
+    "passed": 7,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 6.8,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 7 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "merge": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/mendableai__firecrawl-mcp-server__72-73/trees/merge/node_modules/.bin/jest",
+      "--ci",
+      "--coverage=false",
+      "--json",
+      "--outputFile=/home/user/ladder/work/runtime/mendableai__firecrawl-mcp-server__72-73/reports/merge/run-1.report"
+    ],
+    "passed": 7,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 7.7,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 7 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "fails_together": false,
+  "excluded_reason": null,
+  "files_a": [
+    "src/index.ts"
+  ],
+  "files_b": [
+    "src/index.test.ts",
+    "src/index.ts"
+  ]
+}
