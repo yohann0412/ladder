@@ -1,0 +1,15 @@
+{
+  "pair_id": "voku__portable-utf8__225-226",
+  "commit": "c4b377468db50ba8e10ec01ac683271a0ab10c8f",
+  "language": "php",
+  "package_manager": "composer",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "php project; no adapter for php (composer is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

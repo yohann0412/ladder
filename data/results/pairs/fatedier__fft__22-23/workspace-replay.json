@@ -1,0 +1,23 @@
+{
+  "pair_id": "fatedier__fft__22-23",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/fatedier__fft__22-23",
+  "source_base": "b3cf96145d0069fdd983dbc6c8140f674dd7fa3d",
+  "source_a": "7ac13abf61188610f09a9c91d9898d714560648b",
+  "source_b": "1665ae7bbfe922172d889533cdd32e913643f442",
+  "base_commit": "79409708a4ebbe11b4ad8c5a28fda39ff0ffd13f",
+  "a_commit": "d51bc3e4691ada658d5c970b4f24a0dd56a7a3a6",
+  "b_commit": "0a7e44c2105c827c3dc8b49ce4d59561d676f355",
+  "object_count": 103,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
