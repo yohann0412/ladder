@@ -1,0 +1,42 @@
+{
+  "pair_id": "evergreen-ci__evergreen__9033-9034",
+  "commit": "2dc0d30a321b0fff900f6e3a597108fbfdecf8aa",
+  "language": "go",
+  "package_manager": "go modules",
+  "test_runner": "go test",
+  "status": "unrunnable",
+  "reason": "needs_services",
+  "reason_detail": "output mentions a service: localhost:27017, Type: Unknown, Last error: dial tcp 127.0.0.1:27017: connect: connection refused",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "go",
+        "test",
+        "-count=1",
+        "-run",
+        "^$",
+        "./..."
+      ],
+      "exit_code": 1,
+      "duration_s": 255.3,
+      "detail": "standard, install cap 900 s: install: exit 0 in 11.8 s; build: exit 1 in 243.5 s; output tail: github.com/evergreen-ci/evergreen/testutil.Setup() | \t/home/user/ladder/work/runtime/evergreen-ci__evergreen__9033-9034/trees/base/testutil/config.go:49 +0x308 | github.com/evergreen-ci/evergreen/units.init.77() | \t/home/user/ladder/work/runtime/evergreen-ci__evergreen__9033-9034/trees/base/units/building_container_image_test.go:16 +0xf | FAIL\tgithub.com/evergreen-ci/evergreen/units\t0.031s | ok  \tgithub.com/evergreen-ci/evergreen/util\t0.007s [no tests to run] | ok  \tgithub.com/evergreen-ci/evergreen/validator\t0.022s [no tests to run] | FAIL"
+    },
+    {
+      "command": [
+        "go",
+        "test",
+        "-count=1",
+        "-run",
+        "^$",
+        "./..."
+      ],
+      "exit_code": 1,
+      "duration_s": 240.2,
+      "detail": "mod-mod (GOFLAGS=-mod=mod, so go.mod and go.sum drift is resolved), install cap 900 s: install: exit 0 in 0.1 s; build: exit 1 in 240.2 s; output tail: github.com/evergreen-ci/evergreen/testutil.Setup() | \t/home/user/ladder/work/runtime/evergreen-ci__evergreen__9033-9034/trees/base/testutil/config.go:49 +0x308 | github.com/evergreen-ci/evergreen/units.init.77() | \t/home/user/ladder/work/runtime/evergreen-ci__evergreen__9033-9034/trees/base/units/building_container_image_test.go:16 +0xf | FAIL\tgithub.com/evergreen-ci/evergreen/units\t0.038s | ok  \tgithub.com/evergreen-ci/evergreen/util\t0.030s [no tests to run] | ok  \tgithub.com/evergreen-ci/evergreen/validator\t0.020s [no tests to run] | FAIL"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
