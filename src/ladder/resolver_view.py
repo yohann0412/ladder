@@ -6,7 +6,7 @@ from rich.console import Console
 from rich.markup import escape
 
 from ladder.resolver_records import run_label
-from ladder.schemas import ResolverPlan
+from ladder.schemas import ResolverPlan, ResolverTask
 
 
 def render_plan(console: Console, plan: ResolverPlan) -> None:
@@ -23,3 +23,22 @@ def render_sample(console: Console, drawn: Sequence[str], pool: int, seed: int) 
     console.print(f"Drew {len(drawn)} of {pool} pairs with seed {seed} for llm-raw run 2:")
     for pair_id in drawn:
         console.print(f"  {pair_id}")
+
+
+def render_task(console: Console, task: ResolverTask) -> None:
+    """Print a prepared task's inputs and status."""
+    label = f"{task.pair_id} {run_label(task.rung, task.run)}"
+    flags = ", ".join(task.pr_text_flags) or "none"
+    console.print(
+        f"{label}: {task.status}; conflicted files: {len(task.files)}; "
+        f"input bytes: {task.input_bytes}; PR text flags: {flags}"
+    )
+    if task.identical_to is not None:
+        console.print(f"  input identical to {task.identical_to}; that run is reused")
+
+
+def render_pending(console: Console, tasks: Sequence[ResolverTask]) -> None:
+    """Print one line per pending task: pair, rung, run and spawn line."""
+    for task in tasks:
+        label = run_label(task.rung, task.run)
+        console.print(escape(f"{task.pair_id} {label}: {task.spawn_line}"))
