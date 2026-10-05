@@ -1,0 +1,42 @@
+{
+  "pair_id": "coder__coder__17940-17971",
+  "commit": "e5758a12c778e461a71dbab30ee7a07809e15c7c",
+  "language": "go",
+  "package_manager": "go modules",
+  "test_runner": "go test",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "build: exit 1 in 442.4 s: ok  \tgithub.com/coder/coder/v2/tailnet/tailnettest\t0.023s [no tests to run] | ?   \tgithub.com/coder/coder/v2/tailnet/test\t[no test files] | ok  \tgithub.com/coder/coder/v2/tailnet/test/integration\t0.019s | ok  \tgithub.com/coder/coder/v2/testutil\t0.009s [no tests to run] | ok  \tgithub.com/coder/coder/v2/vpn\t0.024s [no tests to run] | FAIL",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "go",
+        "test",
+        "-count=1",
+        "-run",
+        "^$",
+        "./..."
+      ],
+      "exit_code": 1,
+      "duration_s": 471.5,
+      "detail": "standard, install cap 900 s: install: exit 0 in 20.0 s; build: exit 1 in 451.5 s; output tail: ok  \tgithub.com/coder/coder/v2/tailnet\t0.022s [no tests to run] | ?   \tgithub.com/coder/coder/v2/tailnet/proto\t[no test files] | ok  \tgithub.com/coder/coder/v2/tailnet/tailnettest\t0.016s [no tests to run] | ?   \tgithub.com/coder/coder/v2/tailnet/test\t[no test files] | ok  \tgithub.com/coder/coder/v2/tailnet/test/integration\t0.019s | ok  \tgithub.com/coder/coder/v2/testutil\t0.006s [no tests to run] | ok  \tgithub.com/coder/coder/v2/vpn\t0.022s [no tests to run] | FAIL"
+    },
+    {
+      "command": [
+        "go",
+        "test",
+        "-count=1",
+        "-run",
+        "^$",
+        "./..."
+      ],
+      "exit_code": 1,
+      "duration_s": 442.6,
+      "detail": "mod-mod (GOFLAGS=-mod=mod, so go.mod and go.sum drift is resolved), install cap 900 s: install: exit 0 in 0.2 s; build: exit 1 in 442.4 s; output tail: ok  \tgithub.com/coder/coder/v2/tailnet\t0.024s [no tests to run] | ?   \tgithub.com/coder/coder/v2/tailnet/proto\t[no test files] | ok  \tgithub.com/coder/coder/v2/tailnet/tailnettest\t0.023s [no tests to run] | ?   \tgithub.com/coder/coder/v2/tailnet/test\t[no test files] | ok  \tgithub.com/coder/coder/v2/tailnet/test/integration\t0.019s | ok  \tgithub.com/coder/coder/v2/testutil\t0.009s [no tests to run] | ok  \tgithub.com/coder/coder/v2/vpn\t0.024s [no tests to run] | FAIL"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
