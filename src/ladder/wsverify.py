@@ -41,10 +41,7 @@ def verify_workspace(path: Path, refs: Mapping[str, str]) -> Verification:
     stored = _lines(path, "cat-file", "--batch-all-objects", "--batch-check")
     reachable = _lines(path, "rev-list", "--objects", "--all")
     checks = [
-        _commits(path, sorted(refs.values())),
-        _refs(path, refs),
-        _remote(path),
-        *(_absent(path, name, relative) for name, relative in ABSENT.items()),
+        *_history_checks(path, refs),
         Check(
             "all_objects_reachable",
             len(stored) == len(reachable),
@@ -52,6 +49,26 @@ def verify_workspace(path: Path, refs: Mapping[str, str]) -> Verification:
         ),
     ]
     return Verification(checks, len(stored))
+
+
+def verify_snapshot(path: Path, refs: Mapping[str, str]) -> Verification:
+    """Run the leak checks on a merge-state copy of a workspace.
+
+    A merge writes derived blobs and trees that no ref reaches, so reachability is not
+    checked; instead every pseudo-ref such as MERGE_HEAD must name one of the commits.
+    """
+    stored = _lines(path, "cat-file", "--batch-all-objects", "--batch-check")
+    checks = [*_history_checks(path, refs), _pseudo_refs(path, set(refs.values()))]
+    return Verification(checks, len(stored))
+
+
+def _history_checks(path: Path, refs: Mapping[str, str]) -> list[Check]:
+    return [
+        _commits(path, sorted(refs.values())),
+        _refs(path, refs),
+        _remote(path),
+        *(_absent(path, name, relative) for name, relative in ABSENT.items()),
+    ]
 
 
 def _commits(path: Path, expected: list[str]) -> Check:
@@ -72,6 +89,21 @@ def _refs(path: Path, expected: Mapping[str, str]) -> Check:
         if name in found and found[name] != sha
     ]
     return Check("three_refs", not problems, "; ".join(problems) or ", ".join(sorted(found)))
+
+
+def _pseudo_refs(path: Path, commits: set[str]) -> Check:
+    named: list[str] = []
+    problems: list[str] = []
+    for file in sorted((path / ".git").glob("*_HEAD")):
+        if file.name == ABSENT["no_fetch_head"]:
+            continue
+        named.append(file.name)
+        for line in file.read_text(encoding="utf-8", errors="replace").splitlines():
+            target = line.split(maxsplit=1)[0] if line.strip() else ""
+            if target and target not in commits:
+                problems.append(f"{file.name} names {target}, not one of the three commits")
+    detail = "; ".join(problems) or ", ".join(named) or "no pseudo-refs"
+    return Check("pseudo_refs", not problems, detail)
 
 
 def _remote(path: Path) -> Check:

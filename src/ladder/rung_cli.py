@@ -12,6 +12,7 @@ from ladder.gitrung import run_git_rung
 from ladder.mergework import RungError
 from ladder.schemas import GitRungResult, HeadsKind, StructuralResult, StructuralTool
 from ladder.structural import run_structural_rung
+from ladder.trap_cli import trap_command
 
 app = typer.Typer(
     help="Merge one pair at one rung of the ladder and record the outcome.", no_args_is_help=True
@@ -82,3 +83,6 @@ def _git_line(result: GitRungResult) -> Text:
 def _fail(error: Exception) -> NoReturn:
     Console(stderr=True).print(str(error), style="red", markup=False, highlight=False)
     raise typer.Exit(1)
+
+
+app.command("trap")(trap_command)
