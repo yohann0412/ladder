@@ -1,0 +1,15 @@
+{
+  "pair_id": "Azure__awesome-azd__630-631",
+  "commit": "ac5b58adea352d3d12e638055cde7c25f659ba9f",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

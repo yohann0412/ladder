@@ -1,0 +1,20 @@
+{
+  "pair_id": "Azure__awesome-azd__630-631",
+  "status": "located",
+  "commit": "5ad8f631668d6ebc86a28ff1ad2422a1b1fc04de",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "website/src/theme/Navbar/Layout/index.js",
+      "present": true,
+      "sha256": "6760cdb5ba55642dca2f2478596c077912d335067732aec91dc23db304589d02"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [
+    "website/src/theme/Navbar/Layout/index.js"
+  ],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:16:19.117182Z"
+}
