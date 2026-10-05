@@ -165,3 +165,13 @@ Newest at the bottom.
 - Reason: same co-activity notion as the paper, plus file overlap to raise the conflict
   yield, plus the both-merged condition Claim A needs. Results on S are reported
   separately from the paper set and pooled.
+
+## D16. Resolver input cap
+
+- Problem: one paper pair has 905 conflicted files; a subagent cannot read and rewrite
+  that much, and a few pairs have multi-megabyte generated files.
+- Choice: a task is `input_cap` (an LLM failure, kept in denominators) when it has more
+  than 20 conflicted files, any single file version above 200,000 bytes, or all versions
+  together above 600,000 bytes.
+- Reason: keeps every run within one subagent's working budget; the report counts cap
+  failures separately so a reader can recompute without them.

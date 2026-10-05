@@ -1,0 +1,45 @@
+# Review: F5 resolver protocol
+
+Diff read in full: `plan.py`, `prepare.py`, `snapshot.py`, `taskfiles.py`, `prompt.py`,
+`prtext.py`, `manifest.py`, `transcript.py`, `audit.py`, `ingest.py`, `finalize.py`,
+`resolver_records.py`, `resolver_view.py`, `canary.py`, `trap.py`, `trap_cli.py`,
+`resolve_cli.py`, `cli_support.py`, `refusal.py`, the `verify_snapshot` addition to
+`wsverify.py`. The main model registered the trap command in the rung sub-app.
+
+Acceptance: the main model prepared fixture scenario 3, spawned one real resolver subagent
+with the fixed spawn line, finalized it (audit `ok`, 14 tool calls, about 18 s, no
+violations), checked its output is AST-equivalent to `resolved/3` with `ladder compare`,
+and recorded it in `fixtures/recorded/`. `uv run pytest e2e/test_resolver.py -q` ->
+`1 passed` on the merged tree.
+
+## What could be wrong
+
+- **The audit trusts the transcript file.** It is written by the agent harness, outside the
+  resolver's write permission in principle, but a resolver with Write could overwrite it
+  (the path is not in its output dir, so the Write itself would be a violation recorded in
+  the same transcript before the overwrite took effect - unless it rewrote the whole file).
+  Mitigation: `finalize` runs right after each run; the transcript path is outside every
+  directory the prompt names.
+- **Harness-injected user messages** (a system reminder about hand-back arrives as the
+  second user line) are ignored by design; only the first user message must equal the spawn
+  line. A future harness that puts something before the prompt would make every run
+  `protocol_violation`; that would be loud, not silent.
+- **Grep `glob` and `type` arguments** are not path-checked; `path` is, and it is required.
+- **Symlinks inside the snapshot** that point outside resolve outside and count as
+  violations, which is correct but means a repository with absolute symlinks makes Read of
+  those files a violation.
+- **Caps**: 20 files, 200 kB per version, 600 kB total (`taskfiles.py`). Recorded in
+  `DECISIONS.md` D16.
+- **`prepare` does not require the run to be in the plan** (the test prepares an unplanned
+  run 2). The truth guard uses the plan, so an unplanned run cannot unblock truth.
+
+## What was not tested
+
+- A transcript from a different harness version.
+- A resolver that writes extra files outside `files/` but inside the output dir (rejected
+  as malformed by `ingest`; checked by reading the code).
+
+## What was assumed
+
+- Non-pending tasks (`input_cap`, `identical_input`) still get `files/` and `PROMPT.md` for
+  inspection, but no snapshot.
