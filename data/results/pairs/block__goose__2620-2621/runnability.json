@@ -1,0 +1,41 @@
+{
+  "pair_id": "block__goose__2620-2621",
+  "commit": "d8d9b9f1bd722b760eacb4c11e1518fca7b889bc",
+  "language": "rust",
+  "package_manager": "cargo",
+  "test_runner": "cargo test",
+  "status": "unrunnable",
+  "reason": "exceeds_cap",
+  "reason_detail": "suite stopped, free disk below the 3 GiB floor",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "cargo",
+        "fetch",
+        "--locked"
+      ],
+      "exit_code": 0,
+      "duration_s": 291.2,
+      "detail": "standard, install cap 900 s: install: exit 0 in 10.4 s; build: exit 0 in 243.8 s; suite capped: suite stopped, free disk below the 3 GiB floor"
+    }
+  ],
+  "test_count": 0,
+  "base_outcome": {
+    "status": "capped",
+    "command": [
+      "cargo",
+      "test",
+      "--no-fail-fast"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 37.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "suite stopped, free disk below the 3 GiB floor"
+  },
+  "timeout_s": 600
+}
