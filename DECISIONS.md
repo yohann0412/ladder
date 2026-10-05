@@ -330,3 +330,9 @@ Newest at the bottom.
   Since F8f, every temporary file and package cache of a pair lives in its runtime, so a
   pair's disk use is bounded and freed when it is pruned. The split depends only on
   language and size, not on any redo outcome.
+- Note on the second amendment (14:58): it did not hold. The "rest" group included Rust
+  pairs (PRQL, Cap, goose) whose builds are as large as the Go ones. While flow-go was
+  running in the Go process, PRQL's Claim C redo stopped at the floor again at A and at
+  the merge. As D23 says, that record stays, so PRQL remains excluded for the disk-floor
+  cause. That second stop came partly from the concurrency this amendment allowed. From
+  14:58 the remaining eight "rest" pairs run alone, after the Go process has finished.

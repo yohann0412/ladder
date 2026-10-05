@@ -557,3 +557,9 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   - my own pytest temp directories and the shared uv cache.
   That brought free disk back to 6.2 GiB. A monitor now reports any drop below 4.5 GiB.
   Any redo record that stops at the floor again stays, as D23 says.
+- 14:57: the redo's Claim C record for `PRQL__prql__5286-5287` stopped at the floor again.
+  Its own Rust rebuilds for A and the merge took the runtime to 11 GB while flow-go
+  (7.5 GB) ran in the other process. B passed (504 tests). The record stays (D23). The
+  "rest" process was stopped right after that record was written, before its next pair,
+  and PRQL's copies were deleted (24 GiB free). The other eight "rest" pairs run alone
+  after the Go process (`work/d23-rest2.txt`).
