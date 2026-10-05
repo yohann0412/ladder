@@ -1,0 +1,23 @@
+{
+  "pair_id": "RchGrav__claudebox__10-11",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/RchGrav__claudebox__10-11",
+  "source_base": "1ccfae6fbf5ef7f8e15fafc64762ad97d0635a99",
+  "source_a": "db9d929cd68745a980405e6d5c2dd454dc9b63c7",
+  "source_b": "26f14b97ec9640e59475290846a77b290d1b6817",
+  "base_commit": "d1aca1fc0cf91c54994a2ab83dcd35145b4a81ce",
+  "a_commit": "faa102224c4e7ed32ba28b7d432844c0babbc384",
+  "b_commit": "127e861fe1793a1eb395a2fa9b83b26d2d1d67a2",
+  "object_count": 11,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

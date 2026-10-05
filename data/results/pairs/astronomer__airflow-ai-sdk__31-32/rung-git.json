@@ -2,7 +2,7 @@
   "pair_id": "astronomer__airflow-ai-sdk__31-32",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 11, conflicted files: 11 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 11, conflicted files: 11",
   "messages": [
     "CONFLICT (modify/delete): docs/interface/airflow_ai_sdk_airflow.md deleted in a and modified in b.  Version b of docs/interface/airflow_ai_sdk_airflow.md left in tree.",
     "CONFLICT (modify/delete): docs/interface/airflow_ai_sdk_decorators_agent.md deleted in a and modified in b.  Version b of docs/interface/airflow_ai_sdk_decorators_agent.md left in tree.",

@@ -1,0 +1,23 @@
+{
+  "pair_id": "astronomer__airflow-ai-sdk__31-32",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/astronomer__airflow-ai-sdk__31-32",
+  "source_base": "75e0f3ce7dad229b8efdb456e33a1770e13aa109",
+  "source_a": "22622cbc081a8d5f9345e361012793f88c86b026",
+  "source_b": "4b3c908bb4ad3f20f68a3cc37cbd9d82ba21993f",
+  "base_commit": "b3e2a455da821b9dfdc509e46140bdd403d4adb2",
+  "a_commit": "0f530f88b5d8ad45ea2012a362763d2ea61c4ec9",
+  "b_commit": "fe32756d2fca1f5777ce8649514984be7a3b4981",
+  "object_count": 141,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

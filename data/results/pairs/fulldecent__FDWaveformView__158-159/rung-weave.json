@@ -1,0 +1,20 @@
+{
+  "pair_id": "fulldecent__FDWaveformView__158-159",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "README.md"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/fulldecent__FDWaveformView__158-159/weave"
+}

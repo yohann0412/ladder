@@ -1,0 +1,20 @@
+{
+  "pair_id": "RchGrav__claudebox__10-11",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "claudebox"
+  ],
+  "files": [
+    {
+      "path": "claudebox",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/RchGrav__claudebox__10-11/weave"
+}

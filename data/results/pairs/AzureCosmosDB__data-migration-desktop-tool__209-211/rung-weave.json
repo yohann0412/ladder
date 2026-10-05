@@ -1,0 +1,20 @@
+{
+  "pair_id": "AzureCosmosDB__data-migration-desktop-tool__209-211",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "Core/Cosmos.DataTransfer.Core/RunCommand.cs"
+  ],
+  "files": [
+    {
+      "path": "Core/Cosmos.DataTransfer.Core/RunCommand.cs",
+      "present": true,
+      "has_markers": true,
+      "language": "c_sharp",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/AzureCosmosDB__data-migration-desktop-tool__209-211/weave"
+}

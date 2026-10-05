@@ -1,0 +1,57 @@
+{
+  "pair_id": "acoyfellow__UserDO__5-6",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 3 of 6",
+  "remaining_conflicted": [
+    "bun.lock",
+    "examples/hono/index.tsx",
+    "src/worker.tsx"
+  ],
+  "files": [
+    {
+      "path": "bun.lock",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "examples/hono/README.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "examples/hono/index.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    },
+    {
+      "path": "package.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": false
+    },
+    {
+      "path": "src/UserDO.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": true
+    },
+    {
+      "path": "src/index.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/acoyfellow__UserDO__5-6/weave"
+}

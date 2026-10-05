@@ -1,0 +1,23 @@
+{
+  "pair_id": "CEPT-VZG__digipin__21-22",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/CEPT-VZG__digipin__21-22",
+  "source_base": "dca39047a74d278a82230b8ced41a0ca73bd0a6e",
+  "source_a": "add38fe49085bab217712d71f780cbce06bf59fc",
+  "source_b": "25a36b8751b92c80e6bb8e5758f4e8a87ac9440e",
+  "base_commit": "d82b2090a89dfb801a57578418e52510229993f4",
+  "a_commit": "dd5cdd095572f4a05b9f352cd8ffa62bf6756a0d",
+  "b_commit": "c8be6ce89f19db3b58629a3e974cf7cad2ddae4f",
+  "object_count": 93,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

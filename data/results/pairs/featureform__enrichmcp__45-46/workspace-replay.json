@@ -1,0 +1,23 @@
+{
+  "pair_id": "featureform__enrichmcp__45-46",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/featureform__enrichmcp__45-46",
+  "source_base": "5090fc2811a47785460bbfb05609cd59bd10c41e",
+  "source_a": "c0015dc2f2a347e7c74f7d4c69324aa82b08a16a",
+  "source_b": "aa15613f3bb217b1497a41f4289722d4e1fe75e2",
+  "base_commit": "cb08da3d259c1ae27282ea671d9f4dccd788192d",
+  "a_commit": "2964eef7c066b2ccec26137ce598bb58beaa3520",
+  "b_commit": "9b10f1c923f0be83fa9b2e8b9003dd3db1b12d93",
+  "object_count": 122,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "StephenDev0__StikDebug__204-206",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/StephenDev0__StikDebug__204-206",
+  "source_base": "c3f5653086e049f248624671cc4c9e636e43eee8",
+  "source_a": "1555b6cb1835bfa8a8264738c8af84b4224246ed",
+  "source_b": "4ef4508f9f1247630e81504b9d86575c53ab264a",
+  "base_commit": "e9dc204fd79360196c7e19603074b86596d34c8d",
+  "a_commit": "d7872bdbcd168cd214483a23851efd95a9c28cf1",
+  "b_commit": "3214ef97d5ff12e79ace2508c93c099a3f5e734f",
+  "object_count": 137,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

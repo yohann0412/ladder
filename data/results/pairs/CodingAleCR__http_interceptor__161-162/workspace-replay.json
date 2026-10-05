@@ -1,0 +1,23 @@
+{
+  "pair_id": "CodingAleCR__http_interceptor__161-162",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/CodingAleCR__http_interceptor__161-162",
+  "source_base": "4cc20620cefd1e45001948f186693bf58f9f4bab",
+  "source_a": "bf1c8929a74a3da041fcaf3531c33e7df0384f79",
+  "source_b": "128a69e0d7386b59e1b9287d9ad96f352e9cc230",
+  "base_commit": "17dd59f8af76bba91b66317d84a9ebec4e420e45",
+  "a_commit": "4ca9c4ea99caf626f558078530d9ff3d2f28aa63",
+  "b_commit": "0b17e3302263c475e32c167a04adbc1da180a22e",
+  "object_count": 214,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

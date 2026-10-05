@@ -1,0 +1,18 @@
+{
+  "pair_id": "djacobs__PyAPNs__216-217",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "apns.py",
+      "present": true,
+      "has_markers": false,
+      "language": "python",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/djacobs__PyAPNs__216-217/weave"
+}

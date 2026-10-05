@@ -1,0 +1,28 @@
+{
+  "pair_id": "CEPT-VZG__digipin__21-22",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 2",
+  "remaining_conflicted": [
+    "package-lock.json",
+    "package.json"
+  ],
+  "files": [
+    {
+      "path": "package-lock.json",
+      "present": true,
+      "has_markers": true,
+      "language": "json",
+      "parses": false
+    },
+    {
+      "path": "package.json",
+      "present": true,
+      "has_markers": true,
+      "language": "json",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/CEPT-VZG__digipin__21-22/mergiraf"
+}

@@ -2,7 +2,7 @@
   "pair_id": "featureform__enrichmcp__45-46",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 4, conflicted files: 4",
   "messages": [
     "CONFLICT (content): Merge conflict in examples/sqlalchemy_shop/app.py",
     "CONFLICT (content): Merge conflict in src/enrichmcp/__init__.py",

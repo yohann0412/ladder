@@ -1,0 +1,16 @@
+{
+  "pair_id": "CEPT-VZG__digipin__21-22",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: package-lock.json version a has 237215 bytes, more than 200000",
+    "input cap: package-lock.json version conflicted has 237878 bytes, more than 200000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T05:25:21.998875Z"
+}

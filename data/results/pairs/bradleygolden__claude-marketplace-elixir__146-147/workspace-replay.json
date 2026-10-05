@@ -1,0 +1,23 @@
+{
+  "pair_id": "bradleygolden__claude-marketplace-elixir__146-147",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/bradleygolden__claude-marketplace-elixir__146-147",
+  "source_base": "cbf034e5ec8b98ee7bfb60305a7933dec73337ff",
+  "source_a": "ef466103d1b33aad25d856cb637e648f034da05b",
+  "source_b": "94a35eca371dcdc3b7c510e1e346a0552f9221e6",
+  "base_commit": "22d32120db5afe8cf5fd905ea58c9d1c64b17506",
+  "a_commit": "ed1853958411dad80b21f11509c4e3a47c5b11c5",
+  "b_commit": "6b139df676710a04cd058a833bda9aa5c16f26e7",
+  "object_count": 222,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

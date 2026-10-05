@@ -1,0 +1,20 @@
+{
+  "pair_id": "CodingAleCR__http_interceptor__161-162",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "test/models/retry_policy_test.dart"
+  ],
+  "files": [
+    {
+      "path": "test/models/retry_policy_test.dart",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/CodingAleCR__http_interceptor__161-162/weave"
+}

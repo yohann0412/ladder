@@ -1,0 +1,15 @@
+{
+  "pair_id": "featureform__enrichmcp__45-46",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:25:37.052368Z"
+}

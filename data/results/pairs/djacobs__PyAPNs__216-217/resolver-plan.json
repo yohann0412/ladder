@@ -1,0 +1,11 @@
+{
+  "pair_id": "djacobs__PyAPNs__216-217",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:25:09.903150Z"
+}

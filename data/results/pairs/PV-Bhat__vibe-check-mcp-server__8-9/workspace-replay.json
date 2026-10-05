@@ -1,0 +1,23 @@
+{
+  "pair_id": "PV-Bhat__vibe-check-mcp-server__8-9",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/PV-Bhat__vibe-check-mcp-server__8-9",
+  "source_base": "00ae50cbab7b887abe13e17ff5e601d1ccf5ac0d",
+  "source_a": "7e429e5d5322725df20ece5520dfbc9df97c8930",
+  "source_b": "9065d249af5ce85e023ae060a4d62814b580ad4c",
+  "base_commit": "8be4e517a61d8bf9e2e48b415573249c9be013c9",
+  "a_commit": "c205d397c0176f584cb3d1de1b6fb9a3e25a4005",
+  "b_commit": "7efb42747e5141e163409855fbff1ef1333af9b1",
+  "object_count": 73,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

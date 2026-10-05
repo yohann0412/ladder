@@ -2,7 +2,7 @@
   "pair_id": "CravateRouge__bloodyAD__81-82",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 4, conflicted files: 4",
   "messages": [
     "CONFLICT (content): Merge conflict in bloodyAD/cli_modules/add.py",
     "CONFLICT (content): Merge conflict in bloodyAD/cli_modules/get.py",

@@ -1,0 +1,23 @@
+{
+  "pair_id": "acoyfellow__UserDO__5-6",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/acoyfellow__UserDO__5-6",
+  "source_base": "ed5b23832a8138343bac8173f80d2e413e517d92",
+  "source_a": "29004997f45d0a0bd11b537d5eef60e11aae7f92",
+  "source_b": "7293d8760c44430877e65ccc65b624b5043afdea",
+  "base_commit": "ecc74f0f77440099fb40a296f201608a6b7305db",
+  "a_commit": "a4e2dceb86c6602d89e276475b6311a737e0b69b",
+  "b_commit": "a217602e6876579d7332cd364d83021fafaa4315",
+  "object_count": 66,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "CodingAleCR__http_interceptor__161-162",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:25:12.482821Z"
+}

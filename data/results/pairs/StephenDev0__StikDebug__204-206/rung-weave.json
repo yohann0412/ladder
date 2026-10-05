@@ -1,0 +1,20 @@
+{
+  "pair_id": "StephenDev0__StikDebug__204-206",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "StikJIT/StikJITApp.swift"
+  ],
+  "files": [
+    {
+      "path": "StikJIT/StikJITApp.swift",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/StephenDev0__StikDebug__204-206/weave"
+}

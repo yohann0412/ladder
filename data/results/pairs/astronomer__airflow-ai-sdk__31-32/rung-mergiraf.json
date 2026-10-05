@@ -1,0 +1,100 @@
+{
+  "pair_id": "astronomer__airflow-ai-sdk__31-32",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 11 of 11",
+  "remaining_conflicted": [
+    "docs/interface/airflow_ai_sdk_airflow.md",
+    "docs/interface/airflow_ai_sdk_decorators_agent.md",
+    "docs/interface/airflow_ai_sdk_decorators_branch.md",
+    "docs/interface/airflow_ai_sdk_decorators_embed.md",
+    "docs/interface/airflow_ai_sdk_decorators_llm.md",
+    "docs/interface/airflow_ai_sdk_models_base.md",
+    "docs/interface/airflow_ai_sdk_models_tool.md",
+    "docs/interface/airflow_ai_sdk_operators_agent.md",
+    "docs/interface/airflow_ai_sdk_operators_embed.md",
+    "docs/interface/airflow_ai_sdk_operators_llm.md",
+    "docs/interface/airflow_ai_sdk_operators_llm_branch.md"
+  ],
+  "files": [
+    {
+      "path": "docs/interface/airflow_ai_sdk_airflow.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_decorators_agent.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_decorators_branch.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_decorators_embed.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_decorators_llm.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_models_base.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_models_tool.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_operators_agent.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_operators_embed.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_operators_llm.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_operators_llm_branch.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/astronomer__airflow-ai-sdk__31-32/mergiraf"
+}

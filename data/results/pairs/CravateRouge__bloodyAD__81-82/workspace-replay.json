@@ -1,0 +1,23 @@
+{
+  "pair_id": "CravateRouge__bloodyAD__81-82",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/CravateRouge__bloodyAD__81-82",
+  "source_base": "8ac70143b2ab22b0c43cf75c2765a8b7c82be0da",
+  "source_a": "b2fac6711b4a8999b6c1f3fdbfb14d4427b838f4",
+  "source_b": "ed89fa4fcc0ca22f1e3d3bf79d4de16f1041fa3a",
+  "base_commit": "7ed178e545439865314590c0a2537c34bf666123",
+  "a_commit": "eb4b5a8674284204a95021d5cc4dc83f25f8693e",
+  "b_commit": "e5c38073f9cc832ca3c6316a1d6e71881002400f",
+  "object_count": 76,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

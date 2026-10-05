@@ -1,0 +1,15 @@
+{
+  "pair_id": "bradleygolden__claude-marketplace-elixir__146-147",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:25:45.535859Z"
+}

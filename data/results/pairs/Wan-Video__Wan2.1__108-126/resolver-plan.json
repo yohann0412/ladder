@@ -1,0 +1,11 @@
+{
+  "pair_id": "Wan-Video__Wan2.1__108-126",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:25:16.518105Z"
+}

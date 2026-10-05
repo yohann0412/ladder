@@ -1,0 +1,18 @@
+{
+  "pair_id": "OpenRouterTeam__ai-sdk-provider__76-77",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "src/chat/index.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/OpenRouterTeam__ai-sdk-provider__76-77/mergiraf"
+}

@@ -1,0 +1,18 @@
+{
+  "pair_id": "Wan-Video__Wan2.1__108-126",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "wan/utils/fm_solvers_unipc.py",
+      "present": true,
+      "has_markers": false,
+      "language": "python",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/Wan-Video__Wan2.1__108-126/weave"
+}

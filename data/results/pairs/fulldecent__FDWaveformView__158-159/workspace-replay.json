@@ -1,0 +1,23 @@
+{
+  "pair_id": "fulldecent__FDWaveformView__158-159",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/fulldecent__FDWaveformView__158-159",
+  "source_base": "f470d434969778ede228b8041c6679bc8ae4f4e3",
+  "source_a": "48acf4a929938fa0a73beda9851dd67c9fbfc8d6",
+  "source_b": "683dd1dbcbc6f2e1e4db2b769d4343aeb8ca218b",
+  "base_commit": "49fec036e5517d8176a8d920a4c1d40ee7eb824a",
+  "a_commit": "01df42a33fd8ad6b363d10cc338d9ff6cf43c4ba",
+  "b_commit": "fe694ebb9dcd31f812a17b65dcffd6e22d62f999",
+  "object_count": 55,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

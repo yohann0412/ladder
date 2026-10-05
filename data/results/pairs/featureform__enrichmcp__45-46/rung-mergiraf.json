@@ -1,0 +1,44 @@
+{
+  "pair_id": "featureform__enrichmcp__45-46",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 4 of 4",
+  "remaining_conflicted": [
+    "examples/sqlalchemy_shop/app.py",
+    "src/enrichmcp/__init__.py",
+    "src/enrichmcp/sqlalchemy/mixin.py",
+    "tests/test_sqlalchemy_integration.py"
+  ],
+  "files": [
+    {
+      "path": "examples/sqlalchemy_shop/app.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "src/enrichmcp/__init__.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "src/enrichmcp/sqlalchemy/mixin.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/featureform__enrichmcp__45-46/mergiraf"
+}

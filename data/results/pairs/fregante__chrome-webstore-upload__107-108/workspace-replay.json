@@ -1,0 +1,23 @@
+{
+  "pair_id": "fregante__chrome-webstore-upload__107-108",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/fregante__chrome-webstore-upload__107-108",
+  "source_base": "4ac5abdc809ca862b75844b359bb51d81737529b",
+  "source_a": "1f4dbabfad2c33451750272fa0a16fe840447723",
+  "source_b": "d99277f9f49dee309af8c22a1ea41e24290bfb65",
+  "base_commit": "c897c3e4e2d3f6d60fee3bfb79ab297c4703d840",
+  "a_commit": "b7bafacf75748c5a750961ba5e7cb60fb7e6ab72",
+  "b_commit": "ef01e209c4198a152cd2e68f718a1193939e7a54",
+  "object_count": 55,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "OpenRouterTeam__ai-sdk-provider__76-77",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/OpenRouterTeam__ai-sdk-provider__76-77",
+  "source_base": "ff918aa0d2f3fa6ebece1eae6662ced244d08b03",
+  "source_a": "4ed203d32cb90080df2c24ae7f5fbf42bfe2076a",
+  "source_b": "91ac9dbb6129955898fd0788761042eb0c381431",
+  "base_commit": "115706649a924e0e255ab8401a8d6197f141b025",
+  "a_commit": "906809b69075853303bd5b1890673d25e9b3d826",
+  "b_commit": "ac95e9c41c2fa6b9df754f34c4e99832069804ca",
+  "object_count": 108,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

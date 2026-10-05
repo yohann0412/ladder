@@ -1,0 +1,23 @@
+{
+  "pair_id": "AzureCosmosDB__data-migration-desktop-tool__209-211",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/AzureCosmosDB__data-migration-desktop-tool__209-211",
+  "source_base": "f5d2a0127976f8c06dd6fe5d97eaf4209cbb47a6",
+  "source_a": "7ba16909f4e4944e1067bc22e4717934d96ffb24",
+  "source_b": "165d903aa320ff452d146b091c73c3c413c5d3f3",
+  "base_commit": "ca8604313cd4026f54f17b23d3849cbb9a69c0cf",
+  "a_commit": "aace7926f81d31e7dcf692da94fc3e9e2a2efbf6",
+  "b_commit": "13d4dbeb46470144c5b7d7d565364eb94f57cece",
+  "object_count": 421,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "Automattic__wordpress-mcp__29-30",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Automattic__wordpress-mcp__29-30",
+  "source_base": "be4913046e9869e18436607b34b5ba8837f20699",
+  "source_a": "a0ec88b10ddcab0f1472253e636f743d414a86f8",
+  "source_b": "fd4b94d4ef5355aa9bfd43fd60550ae01b84ee41",
+  "base_commit": "b9bab4343d653d03d86b4ce7e13893d2351ce8a9",
+  "a_commit": "eb10e4740d421bfaae178703c02a92c645712495",
+  "b_commit": "52df93b809f994c4dc863b958bbaf66f200b4959",
+  "object_count": 109,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

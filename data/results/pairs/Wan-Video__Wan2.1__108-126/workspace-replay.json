@@ -1,0 +1,23 @@
+{
+  "pair_id": "Wan-Video__Wan2.1__108-126",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Wan-Video__Wan2.1__108-126",
+  "source_base": "a326079926a4a347ecda8863dc40ba2d7680a294",
+  "source_a": "7b58015ee86124075f15cbd099dc50e862ad4f1f",
+  "source_b": "fea47e70f760a71c6081d0702fe55175ae33f767",
+  "base_commit": "51df49206ee7850c9dc98d598a693734ef828df7",
+  "a_commit": "c65e86c6a8057f8ff582356128e1b2b1952a58ad",
+  "b_commit": "a26d6fef1bcc0f2ef6f18ca56cc90aad02d20a34",
+  "object_count": 66,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

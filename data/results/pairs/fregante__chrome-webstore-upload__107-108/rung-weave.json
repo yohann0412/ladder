@@ -1,0 +1,28 @@
+{
+  "pair_id": "fregante__chrome-webstore-upload__107-108",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 2",
+  "remaining_conflicted": [
+    ".gitignore",
+    "source/index.ts"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "source/index.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/fregante__chrome-webstore-upload__107-108/weave"
+}
