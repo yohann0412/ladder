@@ -1,0 +1,74 @@
+{
+  "pair_id": "PriorLabs__TabPFN__343-344",
+  "a": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/PriorLabs__TabPFN__343-344/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/PriorLabs__TabPFN__343-344/reports/a/run-1.report"
+    ],
+    "passed": 403,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 82,
+    "duration_s": 269.7,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 403 passed, 0 failed, 0 errors, 82 skipped"
+  },
+  "b": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/PriorLabs__TabPFN__343-344/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/PriorLabs__TabPFN__343-344/reports/b/run-1.report"
+    ],
+    "passed": 403,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 82,
+    "duration_s": 266.2,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 403 passed, 0 failed, 0 errors, 82 skipped"
+  },
+  "merge": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/PriorLabs__TabPFN__343-344/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/PriorLabs__TabPFN__343-344/reports/merge/run-1.report"
+    ],
+    "passed": 403,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 82,
+    "duration_s": 273.5,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 403 passed, 0 failed, 0 errors, 82 skipped"
+  },
+  "fails_together": false,
+  "excluded_reason": null,
+  "files_a": [
+    "src/tabpfn/preprocessing.py"
+  ],
+  "files_b": [
+    "src/tabpfn/preprocessing.py"
+  ]
+}
