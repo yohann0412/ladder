@@ -1,0 +1,31 @@
+{
+  "pair_id": "PrefectHQ__prefect__18098-18099",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 42501,
+  "tokens": {
+    "input_tokens": 16,
+    "output_tokens": 803,
+    "cache_creation_input_tokens": 60954,
+    "cache_read_input_tokens": 364427
+  },
+  "tool_calls": 13,
+  "files": [
+    {
+      "path": "ui-v2/src/components/work-pools/work-pool-details-header.tsx",
+      "action": "keep",
+      "sha256": "6da6c3b52f55ba4b77254c3156a3a1a3f028481a7098279597d05ea83a413d7c",
+      "rationale": "PR A's header is a superset of PR B's (same breadcrumb and pause/resume toggle plus the context menu with delete handling), so it is kept with PR B's semicolon style applied."
+    },
+    {
+      "path": "ui-v2/src/routes/work-pools/work-pool.$workPoolName.tsx",
+      "action": "keep",
+      "sha256": "266ca33e989ec3bfee654776e4a40a670739a5a31419985fc4dcd050117f086d",
+      "rationale": "Both sides build the same tabbed route with prefetching; PR A's WorkPoolQueuesDataTable is used for the queues tab since it already renders WorkQueueLink per row, subsuming PR B's plain list and making the WorkQueueLink import unnecessary."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:55:57.948635Z"
+}

@@ -1,0 +1,36 @@
+{
+  "pair_id": "near__nearcore__13126-13127",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Read outside the task directory: /home/user/ladder/work/resolutions/near__nearcore__13126-13127/llm-raw/run-1/files/core/primitives/src/utils.rs",
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/near__nearcore__13126-13127/llm-raw/run-1/files/core/primitives/src/utils.rs",
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/near__nearcore__13126-13127/llm-raw/run-1/files/chain/chain/src/types.rs",
+    "Read outside the task directory: /home/user/ladder/work/resolutions/near__nearcore__13126-13127/llm-raw/run-1/files/chain/chain/src/types.rs"
+  ],
+  "duration_ms": 313624,
+  "tokens": {
+    "input_tokens": 36,
+    "output_tokens": 11468,
+    "cache_creation_input_tokens": 129516,
+    "cache_read_input_tokens": 1670020
+  },
+  "tool_calls": 23,
+  "files": [
+    {
+      "path": "chain/chain/src/types.rs",
+      "action": "keep",
+      "sha256": "96be4286f8fdc5640a84d2423f585873e7b0630b62f1f7c4c0fbb5401076494e",
+      "rationale": "Kept PR A's simplified parameterless min_gas_price (required by the already-merged call sites like self.min_gas_price() and client/chain callers) with its single genesis check, but referenced PR B's renamed _UNUSED_MIN_PROTOCOL_VERSION_NEP_92_FIX constant (the only name the merged version.rs defines) plus B's explanatory comment, and dropped the now-unused MIN_PROTOCOL_VERSION_NEP_92 import."
+    },
+    {
+      "path": "core/primitives/src/utils.rs",
+      "action": "keep",
+      "sha256": "bf5d5105ac9023721e78bd5ffc7bd1ddb2afcd31fce8f77f0fe1b3e5fb53af6f",
+      "rationale": "Both sides removed the CORRECT_RANDOM_VALUE_PROTOCOL_VERSION import and branch, so the resolution uses PR A's whitespace-clean import list and the shared simplified create_random_seed condition, keeping PR B's explanatory comment."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:56:02.544317Z"
+}

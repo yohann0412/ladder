@@ -1,0 +1,25 @@
+{
+  "pair_id": "copper-project__copper-rs__409-410",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 100124,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 514,
+    "cache_creation_input_tokens": 75371,
+    "cache_read_input_tokens": 208914
+  },
+  "tool_calls": 6,
+  "files": [
+    {
+      "path": "core/cu29_runtime/src/curuntime.rs",
+      "action": "keep",
+      "sha256": "3a147183b49b1b850e65b1d38400fa34a9129abc885ed0b9c5e77462e6c92350",
+      "rationale": "The only conflict was in the import lines, so the merged file keeps PR A's CuListZeroedInit import and PR B's RuntimeConfig import, both of which the rest of the merged file uses."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:56:00.025331Z"
+}

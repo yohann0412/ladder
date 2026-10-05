@@ -1,0 +1,25 @@
+{
+  "pair_id": "webgptorg__promptbook__274-276",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 134794,
+  "tokens": {
+    "input_tokens": 16,
+    "output_tokens": 2132,
+    "cache_creation_input_tokens": 87961,
+    "cache_read_input_tokens": 457928
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "src/remote-server/startRemoteServer.ts",
+      "action": "keep",
+      "sha256": "4a82caba403ef4aaf7b56cdaee4ee2ea52205a0189c099268d4968eb961fcd86",
+      "rationale": "Kept both OAuth implementations: PR A's passport-based per-provider routes (plus success/error pages) are registered first when oauthConfig is provided, followed by PR B's generic GET /auth/:provider and POST /auth/:provider/callback endpoints, so A's specific routes take precedence while B's config-less flow remains available."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:56:04.892455Z"
+}

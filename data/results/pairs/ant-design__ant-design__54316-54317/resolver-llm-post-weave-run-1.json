@@ -1,0 +1,25 @@
+{
+  "pair_id": "ant-design__ant-design__54316-54317",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 42876,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 1103,
+    "cache_creation_input_tokens": 70283,
+    "cache_read_input_tokens": 217626
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "components/splitter/SplitBar.tsx",
+      "action": "keep",
+      "sha256": "be1a4b17fc0b21a8988da5b4d61bd69b5c5aaa1eff006462c84feabcf211bbf8",
+      "rationale": "Adopted PR B's refactor (useLayoutEffect, eventHandlerMap loop, [startPos] deps, typed transformStyle) and folded in PR A's handleDragEndFallback with the window blur listener added to the map and the document visibilitychange/contextmenu listeners added and removed alongside it."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:55:58.901091Z"
+}

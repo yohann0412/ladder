@@ -1,0 +1,31 @@
+{
+  "pair_id": "AgentOps-AI__agentops__603-605",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 82032,
+  "tokens": {
+    "input_tokens": 26,
+    "output_tokens": 5467,
+    "cache_creation_input_tokens": 74240,
+    "cache_read_input_tokens": 709203
+  },
+  "tool_calls": 24,
+  "files": [
+    {
+      "path": ".github/workflows/python-testing.yml",
+      "action": "keep",
+      "sha256": "c84b8652d116b350b5f061dc4d63bf0d98774b1af6e9d7332ce3f7e4743c563b",
+      "rationale": "Both env blocks take the union of API key variables: PR A's list (including LITELLM_API_KEY) plus PR B's new FIREWORKS_API_KEY, with no duplicates."
+    },
+    {
+      "path": "tox.ini",
+      "action": "keep",
+      "sha256": "06ea73a36a5bacd2acbd29910988774d809f76bcb622bfc753d9408ff732091e",
+      "rationale": "The provider deps use PR B's version-constrained entries plus aioitertools, which cover the same packages PR A added unpinned. passenv is the deduplicated union of both sides (A's LITELLM_API_KEY and B's FIREWORKS_API_KEY), and PR A's setenv block is kept along with PR B's cleanly merged commands line."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:55:52.413853Z"
+}
