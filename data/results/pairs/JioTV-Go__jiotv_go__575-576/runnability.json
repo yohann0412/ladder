@@ -1,0 +1,43 @@
+{
+  "pair_id": "JioTV-Go__jiotv_go__575-576",
+  "commit": "f08a1c96fac295626333180536bb99daeb572415",
+  "language": "go",
+  "package_manager": "go modules",
+  "test_runner": "go test",
+  "status": "runnable",
+  "reason": null,
+  "reason_detail": "",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "go",
+        "mod",
+        "download"
+      ],
+      "exit_code": 0,
+      "duration_s": 60.2,
+      "detail": "standard, install cap 900 s: install: exit 0 in 4.0 s; build: exit 0 in 53.9 s; suite passed: 123 passed, 0 failed, 0 errors, 0 skipped"
+    }
+  ],
+  "test_count": 123,
+  "base_outcome": {
+    "status": "passed",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 123,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 2.4,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "123 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "timeout_s": 600
+}
