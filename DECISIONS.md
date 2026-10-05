@@ -288,3 +288,8 @@ Newest at the bottom.
   Leaving these records would drop pairs from the tests-based denominators and from Claim C
   for a cause that has nothing to do with them. Resolver runs are not covered: D20 and D21
   still apply to them.
+- Amendment (14:20, before any redo result existed): the start condition is now 15 GiB free
+  before each redone pair, not 20. At 14:10 the redo began with 20 GiB free, and its first
+  pair waited because free space had drifted to 18.7 GiB. 15 GiB leaves 12 GiB above the
+  3 GiB floor, more than twice the largest pair's runtime (kanister, about 5.6 GB). Still
+  only one redo process runs, alone.
