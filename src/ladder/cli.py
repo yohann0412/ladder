@@ -7,6 +7,7 @@ import typer
 
 from ladder import pairs_cli
 from ladder.layout import Layout
+from ladder.syntax_cli import app as syntax_app
 
 app = typer.Typer(
     help="Measure how far up the git -> structural -> LLM ladder agent PR conflicts climb.",
@@ -33,3 +34,4 @@ def main(
 
 
 app.add_typer(pairs_cli.app, name="pairs")
+app.add_typer(syntax_app)
