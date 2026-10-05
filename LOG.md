@@ -369,7 +369,7 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
 
 - The background step that waits for resolvers, then collects and prepares, decided whether
   a resolver had handed back by searching its transcript for the bare tool name. That name
-  probably also appears in the tool list every transcript records, so every running resolver
+  also appears in the tool list each transcript records at its start (checked), so every running resolver
   looked finished. Collection was not fooled: it uses the stricter pattern and transcripts
   older than two minutes, so it finalized only the two runs that had really finished. But
   preparation then ran while six resolvers were still working. That breaks the D21 rule.
