@@ -1,0 +1,58 @@
+{
+  "pair_id": "dyoshikawa__rulesync__189-190",
+  "commit": "b44ee48f7fd15b0ca4d9db712aed375443950de1",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": "vitest",
+  "status": "runnable_with_modifications",
+  "reason": null,
+  "reason_detail": "",
+  "modifications": [
+    "pnpm install without --frozen-lockfile"
+  ],
+  "attempts": [
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--frozen-lockfile"
+      ],
+      "exit_code": 1,
+      "duration_s": 2.3,
+      "detail": "standard, install cap 900 s: install: exit 1 in 2.3 s; output tail: ERR_PNPM_NO_LOCKFILE  Cannot install with \"frozen-lockfile\" because pnpm-lock.yaml is absent | Note that in CI environments this setting is true by default. If you still need to run install in such cases, use \"pnpm install --no-frozen-lockfile\""
+    },
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--no-frozen-lockfile"
+      ],
+      "exit_code": 0,
+      "duration_s": 36.7,
+      "detail": "unfrozen (pnpm install without --frozen-lockfile), install cap 900 s: install: exit 0 in 14.9 s; suite passed: 1209 passed, 0 failed, 0 errors, 1 skipped"
+    }
+  ],
+  "test_count": 1210,
+  "base_outcome": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/dyoshikawa__rulesync__189-190/trees/base/node_modules/.bin/vitest",
+      "run",
+      "--silent",
+      "--coverage.enabled=false",
+      "--reporter=json",
+      "--outputFile=/home/user/ladder/work/runtime/dyoshikawa__rulesync__189-190/reports/base-attempt-2/run-1.report"
+    ],
+    "passed": 1209,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 1,
+    "duration_s": 21.8,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "1209 passed, 0 failed, 0 errors, 1 skipped"
+  },
+  "timeout_s": 600
+}

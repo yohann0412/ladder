@@ -1,0 +1,75 @@
+{
+  "pair_id": "rokucommunity__brighterscript__1533-1535",
+  "rung": "llm-raw",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": true,
+  "human_equivalent": false,
+  "human_equivalent_unordered": false,
+  "intent_preserved_a": true,
+  "intent_preserved_b": true,
+  "intent_drops": [],
+  "files": [
+    {
+      "path": "src/LanguageServer.spec.ts",
+      "mode": "ast",
+      "language": "typescript",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9997
+    },
+    {
+      "path": "src/LanguageServer.ts",
+      "mode": "ast",
+      "language": "typescript",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9977
+    }
+  ],
+  "tests_full": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails (test runner produced no results at base: 0 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 without a readable report; output tail: /home/user/ladder/work/runtime/rokucommunity__brighterscript__1533-1535/trees/base/src/chai-config.spec.ts:7\nimport * as chai from 'chai';\nexport = chai;\n^^^^^^^^^^^^^^\n\nSyntaxError: TypeScript export assignment is not supported in strip-only mode\n    at parseTypeScript (node:internal/modules/typescript:63:40)\n    at processTypeScriptCode (node:internal/modules/typescript:133:42)\n    at stripTypeScriptModuleTypes (node:internal/modules/typescript:163:10)\n    at Object.getFileProtocolModuleFormat [a)"
+  },
+  "tests_a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails (test runner produced no results at base: 0 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 without a readable report; output tail: /home/user/ladder/work/runtime/rokucommunity__brighterscript__1533-1535/trees/base/src/chai-config.spec.ts:7\nimport * as chai from 'chai';\nexport = chai;\n^^^^^^^^^^^^^^\n\nSyntaxError: TypeScript export assignment is not supported in strip-only mode\n    at parseTypeScript (node:internal/modules/typescript:63:40)\n    at processTypeScriptCode (node:internal/modules/typescript:133:42)\n    at stripTypeScriptModuleTypes (node:internal/modules/typescript:163:10)\n    at Object.getFileProtocolModuleFormat [a)"
+  },
+  "tests_b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails (test runner produced no results at base: 0 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 without a readable report; output tail: /home/user/ladder/work/runtime/rokucommunity__brighterscript__1533-1535/trees/base/src/chai-config.spec.ts:7\nimport * as chai from 'chai';\nexport = chai;\n^^^^^^^^^^^^^^\n\nSyntaxError: TypeScript export assignment is not supported in strip-only mode\n    at parseTypeScript (node:internal/modules/typescript:63:40)\n    at processTypeScriptCode (node:internal/modules/typescript:133:42)\n    at stripTypeScriptModuleTypes (node:internal/modules/typescript:163:10)\n    at Object.getFileProtocolModuleFormat [a)"
+  }
+}

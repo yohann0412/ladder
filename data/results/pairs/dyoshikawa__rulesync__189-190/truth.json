@@ -1,0 +1,30 @@
+{
+  "pair_id": "dyoshikawa__rulesync__189-190",
+  "status": "located",
+  "commit": "1bfc7bbb5a3f1c410523405cff8e4f26c254451b",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "src/core/importer.test.ts",
+      "present": true,
+      "sha256": "68ce3a89fc6ef4a79139c2d57fa7d84c98eb27fb0e70919a105323ae9a0663b1"
+    },
+    {
+      "path": "src/core/importer.ts",
+      "present": true,
+      "sha256": "0244f5f268691c684ac9ca3e233a8a6604486321016eca27326e6984bef62231"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "src/cli/commands/generate.ts",
+    "src/ignore/ignore-processor.test.ts",
+    "src/ignore/ignore-processor.ts"
+  ],
+  "outside_region_edit": [
+    "src/core/importer.test.ts",
+    "src/core/importer.ts"
+  ],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:22:28.173491Z"
+}

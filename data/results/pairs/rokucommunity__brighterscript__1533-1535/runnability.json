@@ -1,0 +1,52 @@
+{
+  "pair_id": "rokucommunity__brighterscript__1533-1535",
+  "commit": "9e1350216f5932c74811fcef0dbb7383cb0d0668",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": "mocha",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "test runner produced no results at base: 0 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 without a readable report; output tail: /home/user/ladder/work/runtime/rokucommunity__brighterscript__1533-1535/trees/base/src/chai-config.spec.ts:7\nimport * as chai from 'chai';\nexport = chai;\n^^^^^^^^^^^^^^\n\nSyntaxError: TypeScript export assignment is not supported in strip-only mode\n    at parseTypeScript (node:internal/modules/typescript:63:40)\n    at processTypeScriptCode (node:internal/modules/typescript:133:42)\n    at stripTypeScriptModuleTypes (node:internal/modules/typescript:163:10)\n    at Object.getFileProtocolModuleFormat [a",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "npm",
+        "ci"
+      ],
+      "exit_code": 0,
+      "duration_s": 29.3,
+      "detail": "standard, install cap 900 s: install: exit 0 in 18.4 s; suite error: 0 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 without a readable report; output tail: /home/user/ladder/work/runtime/rokucommunity__brighterscript__1533-1535/trees/base/src/chai-config.spec.ts:7\nimport * as chai from 'chai';\nexport = chai;\n^^^^^^^^^^^^^^\n\nSyntaxError: TypeScript export assignment is not supported in strip-only mode\n    at parseTypeScript (node:internal/modules/typescript:63:40)\n    at processTypeScriptCode (node:internal/modules/typescript:133:42)\n    at stripTypeScriptModuleTypes (node:internal/modules/typescript:163:10)\n    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:170:30)\n    at defaultGetFormat (node:internal/modules/esm/get_format:245:36)\n    at defaultLoad (node:internal/modules/esm/load:98:16)\n    at ModuleLoader.load (node:internal/modules/esm/loader:815:12)\n    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:594:31)\n    at ModuleLoader.#createModuleJob (node:internal/modules/esm/loader:624:36)\n    at ModuleLoader.#getJobFromResolveResult (node:internal/modules/esm/loader:343:34)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:311:41)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:664:25); first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+    },
+    {
+      "command": [
+        "npm",
+        "install",
+        "--legacy-peer-deps"
+      ],
+      "exit_code": 0,
+      "duration_s": 29.3,
+      "detail": "legacy-peer-deps (npm install --legacy-peer-deps instead of a clean install), install cap 900 s: install: exit 0 in 17.2 s; suite error: 0 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 without a readable report; output tail: /home/user/ladder/work/runtime/rokucommunity__brighterscript__1533-1535/trees/base/src/chai-config.spec.ts:7\nimport * as chai from 'chai';\nexport = chai;\n^^^^^^^^^^^^^^\n\nSyntaxError: TypeScript export assignment is not supported in strip-only mode\n    at parseTypeScript (node:internal/modules/typescript:63:40)\n    at processTypeScriptCode (node:internal/modules/typescript:133:42)\n    at stripTypeScriptModuleTypes (node:internal/modules/typescript:163:10)\n    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:170:30)\n    at defaultGetFormat (node:internal/modules/esm/get_format:245:36)\n    at defaultLoad (node:internal/modules/esm/load:98:16)\n    at ModuleLoader.load (node:internal/modules/esm/loader:815:12)\n    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:594:31)\n    at ModuleLoader.#createModuleJob (node:internal/modules/esm/loader:624:36)\n    at ModuleLoader.#getJobFromResolveResult (node:internal/modules/esm/loader:343:34)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:311:41)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:664:25); first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+    }
+  ],
+  "test_count": 0,
+  "base_outcome": {
+    "status": "error",
+    "command": [
+      "/home/user/ladder/work/runtime/rokucommunity__brighterscript__1533-1535/trees/base/node_modules/.bin/mocha",
+      "--reporter",
+      "json",
+      "--reporter-option",
+      "output=/home/user/ladder/work/runtime/rokucommunity__brighterscript__1533-1535/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 5.3,
+    "retried": true,
+    "failing_tests": [],
+    "detail": "0 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 without a readable report; output tail: /home/user/ladder/work/runtime/rokucommunity__brighterscript__1533-1535/trees/base/src/chai-config.spec.ts:7\nimport * as chai from 'chai';\nexport = chai;\n^^^^^^^^^^^^^^\n\nSyntaxError: TypeScript export assignment is not supported in strip-only mode\n    at parseTypeScript (node:internal/modules/typescript:63:40)\n    at processTypeScriptCode (node:internal/modules/typescript:133:42)\n    at stripTypeScriptModuleTypes (node:internal/modules/typescript:163:10)\n    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:170:30)\n    at defaultGetFormat (node:internal/modules/esm/get_format:245:36)\n    at defaultLoad (node:internal/modules/esm/load:98:16)\n    at ModuleLoader.load (node:internal/modules/esm/loader:815:12)\n    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:594:31)\n    at ModuleLoader.#createModuleJob (node:internal/modules/esm/loader:624:36)\n    at ModuleLoader.#getJobFromResolveResult (node:internal/modules/esm/loader:343:34)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:311:41)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:664:25); first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "timeout_s": 600
+}

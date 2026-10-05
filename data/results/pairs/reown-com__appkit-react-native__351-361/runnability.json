@@ -1,0 +1,72 @@
+{
+  "pair_id": "reown-com__appkit-react-native__351-361",
+  "commit": "0ddf09ab788cfe675a307dd5b17a11f4c46cfe40",
+  "language": "node",
+  "package_manager": "yarn",
+  "test_runner": "jest",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 0 failed, 17 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "corepack",
+        "yarn",
+        "install",
+        "--immutable"
+      ],
+      "exit_code": 0,
+      "duration_s": 92.5,
+      "detail": "standard, install cap 900 s: install: exit 0 in 78.8 s; suite failed: 12 passed, 0 failed, 17 errors, 0 skipped (apps/native/tests/basic-tests.spec.ts, apps/native/tests/wallet.spec.ts, packages/core/src/__tests__/controllers/ApiController.test.ts, packages/core/src/__tests__/controllers/OptionsController.test.ts, packages/core/src/__tests__/controllers/SnackController.test.ts); first run failed: 12 passed, 0 failed, 17 errors, 0 skipped (packages/core/src/__tests__/controllers/OptionsController.test.ts, packages/core/src/__tests__/controllers/NetworkController.test.ts, packages/core/src/__tests__/controllers/RouterController.test.ts, packages/core/src/__tests__/controllers/SendController.test.ts, packages/core/src/__tests__/controllers/AccountController.test.ts)"
+    },
+    {
+      "command": [
+        "corepack",
+        "yarn",
+        "install"
+      ],
+      "exit_code": 0,
+      "duration_s": 66.7,
+      "detail": "unfrozen (yarn install with the lockfile unfrozen and engines ignored), install cap 900 s: install: exit 0 in 53.5 s; suite failed: 12 passed, 0 failed, 17 errors, 0 skipped (apps/native/tests/basic-tests.spec.ts, apps/native/tests/wallet.spec.ts, packages/core/src/__tests__/controllers/ApiController.test.ts, packages/core/src/__tests__/controllers/SnackController.test.ts, packages/core/src/__tests__/controllers/OptionsController.test.ts); first run failed: 12 passed, 0 failed, 17 errors, 0 skipped (apps/native/tests/basic-tests.spec.ts, apps/native/tests/wallet.spec.ts, packages/core/src/__tests__/controllers/ApiController.test.ts, packages/core/src/__tests__/controllers/OptionsController.test.ts, packages/core/src/__tests__/controllers/RouterController.test.ts)"
+    }
+  ],
+  "test_count": 29,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/reown-com__appkit-react-native__351-361/trees/base/node_modules/.bin/jest",
+      "--ci",
+      "--coverage=false",
+      "--json",
+      "--outputFile=/home/user/ladder/work/runtime/reown-com__appkit-react-native__351-361/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 12,
+    "failed": 0,
+    "errors": 17,
+    "skipped": 0,
+    "duration_s": 5.7,
+    "retried": true,
+    "failing_tests": [
+      "apps/native/tests/basic-tests.spec.ts",
+      "apps/native/tests/wallet.spec.ts",
+      "packages/core/src/__tests__/controllers/ApiController.test.ts",
+      "packages/core/src/__tests__/controllers/OptionsController.test.ts",
+      "packages/core/src/__tests__/controllers/SnackController.test.ts",
+      "packages/core/src/__tests__/controllers/RouterController.test.ts",
+      "packages/core/src/__tests__/controllers/AccountController.test.ts",
+      "packages/core/src/__tests__/controllers/EventsController.test.ts",
+      "packages/core/src/__tests__/controllers/ConnectionController.test.ts",
+      "packages/core/src/__tests__/controllers/AssetController.test.ts",
+      "packages/core/src/__tests__/controllers/BlockchainApiController.test.ts",
+      "packages/core/src/__tests__/controllers/NetworkController.test.ts",
+      "packages/core/src/__tests__/controllers/ThemeController.test.ts",
+      "packages/core/src/__tests__/controllers/ModalController.test.ts",
+      "packages/core/src/__tests__/controllers/SendController.test.ts",
+      "packages/siwe/src/__tests__/controllers/SIWEController.test.ts",
+      "packages/ui/src/__tests__/wui-text.test.tsx"
+    ],
+    "detail": "12 passed, 0 failed, 17 errors, 0 skipped (apps/native/tests/basic-tests.spec.ts, apps/native/tests/wallet.spec.ts, packages/core/src/__tests__/controllers/ApiController.test.ts, packages/core/src/__tests__/controllers/OptionsController.test.ts, packages/core/src/__tests__/controllers/SnackController.test.ts); first run failed: 12 passed, 0 failed, 17 errors, 0 skipped (packages/core/src/__tests__/controllers/OptionsController.test.ts, packages/core/src/__tests__/controllers/NetworkController.test.ts, packages/core/src/__tests__/controllers/RouterController.test.ts, packages/core/src/__tests__/controllers/SendController.test.ts, packages/core/src/__tests__/controllers/AccountController.test.ts)"
+  },
+  "timeout_s": 600
+}
