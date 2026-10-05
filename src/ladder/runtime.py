@@ -49,6 +49,10 @@ class RuntimeDir:
         """Return the log directory of a labelled tree's installs and runs."""
         return self.root / "logs" / label
 
+    def scratch(self) -> Path:
+        """Return the directory for the pair's temporary files and package caches."""
+        return self.root / "scratch"
+
     def reports(self, label: str) -> Path:
         """Return the directory of a labelled tree's machine-readable test reports."""
         return self.root / "reports" / label

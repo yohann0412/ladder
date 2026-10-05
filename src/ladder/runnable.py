@@ -101,7 +101,7 @@ def _attempt(
     runtime: RuntimeDir, adapter: Adapter, strategy: Strategy, number: int
 ) -> tuple[SetupAttempt, AttemptTrace]:
     label = f"{BASE_LABEL}-attempt-{number}"
-    runner = Runner(runtime.logs(label))
+    runner = Runner(runtime.logs(label), runtime.scratch())
     site = Site(runtime.tree(BASE_LABEL), runtime.env(BASE_LABEL))
     start = time.monotonic()
     steps = adapter.install(runner, site, strategy)

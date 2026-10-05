@@ -78,9 +78,28 @@ def tool_env(extra: Mapping[str, str] | None = None) -> dict[str, str]:
 
 @dataclass(frozen=True)
 class Runner:
-    """Runs commands with explicit arguments, a log per step, under a time cap and a disk floor."""
+    """Runs commands with explicit arguments, a log per step, under a time cap and a disk floor.
+
+    With a scratch directory, temporary files and the uv and Go module caches of every step
+    live under it, so they are deleted with the pair's runtime instead of piling up.
+    """
 
     logs: Path
+    scratch: Path | None = None
+
+    def _scratch_env(self) -> dict[str, str]:
+        if self.scratch is None:
+            return {}
+        scratch = self.scratch.resolve()
+        tmp = scratch / "tmp"
+        tmp.mkdir(parents=True, exist_ok=True)
+        return {
+            "TMPDIR": str(tmp),
+            "TMP": str(tmp),
+            "TEMP": str(tmp),
+            "UV_CACHE_DIR": str(scratch / "uv-cache"),
+            "GOMODCACHE": str(scratch / "go-mod"),
+        }
 
     def run(
         self,
@@ -95,7 +114,7 @@ class Runner:
         floor = min_free_gib()
         self.logs.mkdir(parents=True, exist_ok=True)
         log = self.logs / f"{name}.log"
-        full_env = tool_env(env)
+        full_env = tool_env({**self._scratch_env(), **(env or {})})
         args = list(argv)
         if shutil.which(args[0], path=full_env["PATH"]) is None:
             log.write_text(f"{args[0]} not found on PATH\n", encoding="utf-8")

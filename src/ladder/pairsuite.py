@@ -33,7 +33,7 @@ class PairSuite:
 
     def run(self, label: str, tree: Path, only: list[str] | None = None) -> TestOutcome:
         """Run the suite on an exported tree, installing again only if its manifests differ."""
-        runner = Runner(self.runtime.logs(label))
+        runner = Runner(self.runtime.logs(label), self.runtime.scratch())
         changed = differing(self.base_manifests, tree_manifests(tree))
         if changed:
             site = Site(tree, self.runtime.env(label))
@@ -79,7 +79,9 @@ def open_pair_suite(
     strategy = fallback if runnability.modifications else standard
     if not (complete and found.env_present(site)):
         unmark(site.tree)
-        steps = found.install(Runner(runtime.logs(f"{BASE_LABEL}-reinstall")), site, strategy)
+        steps = found.install(
+            Runner(runtime.logs(f"{BASE_LABEL}-reinstall"), runtime.scratch()), site, strategy
+        )
         failing = next((step for step in steps if not step.ok), None)
         if failing is not None:
             raise SuiteUnavailable(f"base environment reinstall failed: {failing.summary()}")

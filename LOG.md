@@ -478,3 +478,11 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
 - 11:25: `e2e/test_report.py` re-run on the main checkout after merging F9b: 3 passed in
   252 s (slow because the three shards were running). An earlier run with a 900 s limit
   was cut off by that limit after two tests passed. It was a time limit, not a failure.
+- 11:44: all three shards waited at 5.4 GiB free. `/tmp` held 8.6 GB of suite leftovers
+  (bruin's unpacked Python environments, a killed Go test's build directory), the shared
+  uv cache 6.5 GB and the Go module cache 3.0 GB. The named `/tmp` leftovers were deleted
+  once no Go process was running (14 GiB free). Every install and suite step now gets
+  `TMPDIR`, `UV_CACHE_DIR` and `GOMODCACHE` inside the pair's runtime, which is deleted
+  when the pair is pruned (reviews/F8f-pair-scratch.md). `e2e/test_runnable.py`,
+  `test_claim_c.py` and `test_score.py`: 3 passed. Each shard is restarted after its next
+  pruned pair so the change applies.
