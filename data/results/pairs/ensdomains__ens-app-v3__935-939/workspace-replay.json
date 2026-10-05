@@ -1,0 +1,23 @@
+{
+  "pair_id": "ensdomains__ens-app-v3__935-939",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/ensdomains__ens-app-v3__935-939",
+  "source_base": "7a555834401ac96cc1436b75de4afcf3b1e771a1",
+  "source_a": "dca2c9de69c69cdc03245d2257adcf5577ecf2cd",
+  "source_b": "8a502dcf80bbdd05e2a52777c3dc2393f1a3e3a1",
+  "base_commit": "490a22c9440679fbf71fd1a4d9e56be9558d5c3c",
+  "a_commit": "c58e1c1df63446bae1b7f8bcbc9b9556a75fdef7",
+  "b_commit": "9a17ed8874c43a5c98e147fc2f5a63a2f254a8dd",
+  "object_count": 1372,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
