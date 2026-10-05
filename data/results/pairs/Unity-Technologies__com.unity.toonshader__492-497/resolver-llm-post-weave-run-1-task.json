@@ -1,0 +1,21 @@
+{
+  "pair_id": "Unity-Technologies__com.unity.toonshader__492-497",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "task_dir": "/home/user/ladder/work/resolver/Unity-Technologies__com.unity.toonshader__492-497/llm-post-weave/run-1",
+  "snapshot_dir": "/home/user/ladder/work/resolver/Unity-Technologies__com.unity.toonshader__492-497/llm-post-weave/run-1/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/Unity-Technologies__com.unity.toonshader__492-497/llm-post-weave/run-1",
+  "spawn_line": "Read /home/user/ladder/work/resolver/Unity-Technologies__com.unity.toonshader__492-497/llm-post-weave/run-1/PROMPT.md and follow it exactly.",
+  "files": [
+    "com.unity.toonshader/Documentation~/whats-new-0.10.x.md",
+    "com.unity.toonshader/Documentation~/whats-new-0.7.x.md",
+    "com.unity.toonshader/Documentation~/whats-new-0.8.x.md",
+    "com.unity.toonshader/Documentation~/whats-new-0.9.x.md"
+  ],
+  "input_bytes": 6757,
+  "pr_text_flags": [],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "identical_input",
+  "identical_to": "llm-raw/run-1",
+  "prepared_at": "2026-10-05T09:30:16.809461Z"
+}
