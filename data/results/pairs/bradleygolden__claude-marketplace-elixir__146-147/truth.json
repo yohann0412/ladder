@@ -1,0 +1,18 @@
+{
+  "pair_id": "bradleygolden__claude-marketplace-elixir__146-147",
+  "status": "located",
+  "commit": "ca26c38d7876e83152bd0d75e046885f5747af8f",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "lib/claude/plugins/phoenix.ex",
+      "present": true,
+      "sha256": "6930b1afe20e0c076594760fcedd620940687135b80596fd556553fa9166861d"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:19:13.892308Z"
+}

@@ -1,0 +1,86 @@
+{
+  "pair_id": "getsentry__sentry-wizard__1040-1042",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": true,
+  "human_equivalent": false,
+  "human_equivalent_unordered": false,
+  "intent_preserved_a": true,
+  "intent_preserved_b": true,
+  "intent_drops": [],
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.997
+    }
+  ],
+  "tests_full": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/getsentry__sentry-wizard__1040-1042/trees/score-llm-post-weave/node_modules/.bin/vitest",
+      "run",
+      "--coverage.enabled=false",
+      "--reporter=json",
+      "--outputFile=/home/user/ladder/work/runtime/getsentry__sentry-wizard__1040-1042/reports/score-llm-post-weave/run-1.report"
+    ],
+    "passed": 455,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 3,
+    "duration_s": 13.1,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 455 passed, 0 failed, 0 errors, 3 skipped"
+  },
+  "tests_a": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/getsentry__sentry-wizard__1040-1042/trees/score-llm-post-weave/node_modules/.bin/vitest",
+      "run",
+      "--coverage.enabled=false",
+      "--reporter=json",
+      "--outputFile=/home/user/ladder/work/runtime/getsentry__sentry-wizard__1040-1042/reports/score-llm-post-weave/run-1.report",
+      "e2e-tests/tests/nuxt-3.test.ts",
+      "e2e-tests/tests/nuxt-4.test.ts",
+      "test/nuxt/templates.test.ts"
+    ],
+    "passed": 13,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 1.1,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 13 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "tests_b": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/getsentry__sentry-wizard__1040-1042/trees/score-llm-post-weave/node_modules/.bin/vitest",
+      "run",
+      "--coverage.enabled=false",
+      "--reporter=json",
+      "--outputFile=/home/user/ladder/work/runtime/getsentry__sentry-wizard__1040-1042/reports/score-llm-post-weave/run-1.report",
+      "e2e-tests/tests/sveltekit.test.ts",
+      "test/sveltekit/templates.test.ts"
+    ],
+    "passed": 7,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 1.2,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 7 passed, 0 failed, 0 errors, 0 skipped"
+  }
+}

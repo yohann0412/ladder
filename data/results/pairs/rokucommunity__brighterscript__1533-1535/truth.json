@@ -1,0 +1,23 @@
+{
+  "pair_id": "rokucommunity__brighterscript__1533-1535",
+  "status": "located",
+  "commit": "1a78f00a977b94f2ba35e6b4e244f484abb5a2d2",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "src/LanguageServer.spec.ts",
+      "present": true,
+      "sha256": "d959c9b4cc18f2441e25e125dee0d56fb0dcb87d69bb2e6e6e3213586b810453"
+    },
+    {
+      "path": "src/LanguageServer.ts",
+      "present": true,
+      "sha256": "86e27b46a2c83f934e6f8f8dce3005f466b34ff3878c0b2a6cd14e119e015c5a"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:21:05.080398Z"
+}

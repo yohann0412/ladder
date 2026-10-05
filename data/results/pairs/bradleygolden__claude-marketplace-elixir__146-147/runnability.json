@@ -1,0 +1,15 @@
+{
+  "pair_id": "bradleygolden__claude-marketplace-elixir__146-147",
+  "commit": "cbf034e5ec8b98ee7bfb60305a7933dec73337ff",
+  "language": "elixir",
+  "package_manager": "mix",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "elixir project; mix is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

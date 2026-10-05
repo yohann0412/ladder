@@ -1,0 +1,18 @@
+{
+  "pair_id": "getsentry__sentry-wizard__1040-1042",
+  "status": "located",
+  "commit": "5a5145082faca38581e224c629278d2f9ab2eece",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "present": true,
+      "sha256": "f2d2a8b0f90e42c4afc6cee7922e2da65f92309994196bc615e48bf1fe4021a9"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:19:23.027896Z"
+}
