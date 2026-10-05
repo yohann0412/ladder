@@ -1,0 +1,65 @@
+{
+  "pair_id": "OpenRouterTeam__ai-sdk-provider__76-77",
+  "commit": "ff918aa0d2f3fa6ebece1eae6662ced244d08b03",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": "vitest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "suite does not load at base: 9 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--frozen-lockfile"
+      ],
+      "exit_code": 0,
+      "duration_s": 18.7,
+      "detail": "standard, install cap 900 s: install: exit 0 in 8.9 s; suite failed: 0 passed, 0 failed, 9 errors, 0 skipped (e2e/cache-control.test.ts, e2e/tools-with-reasoning.test.ts, e2e/usage-accounting.test.ts, src/convert-to-openrouter-chat-messages.test.ts, src/openrouter-chat-language-model.test.ts); first run failed: 0 passed, 0 failed, 9 errors, 0 skipped (e2e/cache-control.test.ts, e2e/tools-with-reasoning.test.ts, e2e/usage-accounting.test.ts, src/convert-to-openrouter-chat-messages.test.ts, src/openrouter-chat-language-model.test.ts)"
+    },
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--no-frozen-lockfile"
+      ],
+      "exit_code": 0,
+      "duration_s": 13.1,
+      "detail": "unfrozen (pnpm install without --frozen-lockfile), install cap 900 s: install: exit 0 in 2.3 s; suite failed: 0 passed, 0 failed, 9 errors, 0 skipped (e2e/cache-control.test.ts, e2e/tools-with-reasoning.test.ts, e2e/usage-accounting.test.ts, src/convert-to-openrouter-chat-messages.test.ts, src/openrouter-chat-language-model.test.ts); first run failed: 0 passed, 0 failed, 9 errors, 0 skipped (e2e/cache-control.test.ts, e2e/tools-with-reasoning.test.ts, e2e/usage-accounting.test.ts, src/convert-to-openrouter-chat-messages.test.ts, src/openrouter-chat-language-model.test.ts)"
+    }
+  ],
+  "test_count": 9,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/OpenRouterTeam__ai-sdk-provider__76-77/trees/base/node_modules/.bin/vitest",
+      "run",
+      "--coverage.enabled=false",
+      "--reporter=json",
+      "--outputFile=/home/user/ladder/work/runtime/OpenRouterTeam__ai-sdk-provider__76-77/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 9,
+    "skipped": 0,
+    "duration_s": 5.6,
+    "retried": true,
+    "failing_tests": [
+      "e2e/cache-control.test.ts",
+      "e2e/tools-with-reasoning.test.ts",
+      "e2e/usage-accounting.test.ts",
+      "src/convert-to-openrouter-chat-messages.test.ts",
+      "src/openrouter-chat-language-model.test.ts",
+      "src/openrouter-completion-language-model.test.ts",
+      "src/openrouter-provider-options.test.ts",
+      "src/openrouter-stream-usage-accounting.test.ts",
+      "src/openrouter-usage-accounting.test.ts"
+    ],
+    "detail": "0 passed, 0 failed, 9 errors, 0 skipped (e2e/cache-control.test.ts, e2e/tools-with-reasoning.test.ts, e2e/usage-accounting.test.ts, src/convert-to-openrouter-chat-messages.test.ts, src/openrouter-chat-language-model.test.ts); first run failed: 0 passed, 0 failed, 9 errors, 0 skipped (e2e/cache-control.test.ts, e2e/tools-with-reasoning.test.ts, e2e/usage-accounting.test.ts, src/convert-to-openrouter-chat-messages.test.ts, src/openrouter-chat-language-model.test.ts)"
+  },
+  "timeout_s": 600
+}

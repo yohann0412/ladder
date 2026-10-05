@@ -1,0 +1,15 @@
+{
+  "pair_id": "synth-inc__onit__184-186",
+  "commit": "25c28385a3efeb20696d96172435750d30bc6565",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

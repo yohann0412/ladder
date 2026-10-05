@@ -1,0 +1,12 @@
+{
+  "pair_id": "OpenRouterTeam__ai-sdk-provider__76-77",
+  "status": "not_both_merged",
+  "commit": null,
+  "method": null,
+  "files": [],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T12:37:06.323000Z"
+}

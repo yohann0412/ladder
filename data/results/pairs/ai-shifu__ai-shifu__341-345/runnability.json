@@ -1,0 +1,15 @@
+{
+  "pair_id": "ai-shifu__ai-shifu__341-345",
+  "commit": "5c1463527a032848dabecc82759e9b641ef01ad6",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

@@ -1,0 +1,49 @@
+{
+  "pair_id": "bolna-ai__bolna__218-219",
+  "commit": "d0b4d142cb12487cc896723fce6adfd72e37341c",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 1 in 1.4 s:   ╰─▶ Because torchaudio==2.0.1 has no wheels with a matching Python ABI tag |       (e.g., `cp313`) and you require torchaudio==2.0.1, we can conclude that |       your requirements are unsatisfiable. |       hint: You require CPython 3.13 (`cp313`), but we only found wheels |       for `torchaudio` (v2.0.1) with the following Python ABI tags: `cp38`, |       `cp39`, `cp310`, `cp311`",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/bolna-ai__bolna__218-219/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/bolna-ai__bolna__218-219/trees/base[dev]",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 3.2,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.4 s; install: exit 1 in 2.9 s; output tail: Using Python 3.13.1 environment at: /home/user/ladder/work/runtime/bolna-ai__bolna__218-219/envs/base |   × No solution found when resolving dependencies: |   ╰─▶ Because torchaudio==2.0.1 has no wheels with a matching Python ABI tag |       (e.g., `cp313`) and you require torchaudio==2.0.1, we can conclude that |       your requirements are unsatisfiable. |       hint: You require CPython 3.13 (`cp313`), but we only found wheels |       for `torchaudio` (v2.0.1) with the following Python ABI tags: `cp38`, |       `cp39`, `cp310`, `cp311`"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/bolna-ai__bolna__218-219/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/bolna-ai__bolna__218-219/trees/base",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 1.5,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.1 s; install: exit 1 in 1.4 s; output tail: Using Python 3.13.1 environment at: /home/user/ladder/work/runtime/bolna-ai__bolna__218-219/envs/base |   × No solution found when resolving dependencies: |   ╰─▶ Because torchaudio==2.0.1 has no wheels with a matching Python ABI tag |       (e.g., `cp313`) and you require torchaudio==2.0.1, we can conclude that |       your requirements are unsatisfiable. |       hint: You require CPython 3.13 (`cp313`), but we only found wheels |       for `torchaudio` (v2.0.1) with the following Python ABI tags: `cp38`, |       `cp39`, `cp310`, `cp311`"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

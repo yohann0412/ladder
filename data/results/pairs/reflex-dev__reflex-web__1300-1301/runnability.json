@@ -1,0 +1,63 @@
+{
+  "pair_id": "reflex-dev__reflex-web__1300-1301",
+  "commit": "1508ec1a25c54400323d5914fc3e16a6c581b0da",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 1 in 1.6 s:   │   `reflex-hosting-cli==0.1.72.post2.dev168+7970e91f` |   ╰─▶ Package `reflex-build-sdk` was included as a URL dependency. |       URL dependencies must be expressed as direct requirements |       or constraints. Consider adding `reflex-build-sdk @ |       file:///home/user/ladder/work/runtime/reflex-dev__reflex-web__1300-1301/scratch/uv-cache/git-v0/checkouts/97bdb6899d1f02ec/7970e91f/packages/reflex-build-sdk` |       to your dependencies or constraints file.",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/reflex-dev__reflex-web__1300-1301/envs/base/bin/python",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 36.8,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 1 in 36.7 s; output tail:   │   `wrapt>=1.17.0, <2.4` |   ├─▶ Failed to resolve dependencies for package |   │   `reflex-hosting-cli==0.1.72.post2.dev168+7970e91f` |   ╰─▶ Package `reflex-build-sdk` was included as a URL dependency. |       URL dependencies must be expressed as direct requirements |       or constraints. Consider adding `reflex-build-sdk @ |       file:///home/user/ladder/work/runtime/reflex-dev__reflex-web__1300-1301/scratch/uv-cache/git-v0/checkouts/97bdb6899d1f02ec/7970e91f/packages/reflex-build-sdk` |       to your dependencies or constraints file."
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/reflex-dev__reflex-web__1300-1301/envs/base/bin/python",
+        "email-validator",
+        "black",
+        "pandas",
+        "psycopg[binary]",
+        "plotly-express",
+        "googletrans-py",
+        "typesense",
+        "openai",
+        "pyyaml",
+        "flexdown",
+        "reflex @ git+https://github.com/reflex-dev/reflex@main",
+        "mistletoe",
+        "reflex-image-zoom",
+        "reflex-chat",
+        "reflex_type_animation",
+        "reflex-ag-grid",
+        "replicate",
+        "reflex-pyplot",
+        "python-multipart",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 1.6,
+      "detail": "unpinned (ignored the version pins in the requirement files), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 1 in 1.6 s; output tail:   │   `wrapt>=1.17.0, <2.4` |   ├─▶ Failed to resolve dependencies for package |   │   `reflex-hosting-cli==0.1.72.post2.dev168+7970e91f` |   ╰─▶ Package `reflex-build-sdk` was included as a URL dependency. |       URL dependencies must be expressed as direct requirements |       or constraints. Consider adding `reflex-build-sdk @ |       file:///home/user/ladder/work/runtime/reflex-dev__reflex-web__1300-1301/scratch/uv-cache/git-v0/checkouts/97bdb6899d1f02ec/7970e91f/packages/reflex-build-sdk` |       to your dependencies or constraints file."
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

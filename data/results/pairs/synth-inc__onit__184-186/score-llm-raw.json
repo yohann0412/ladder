@@ -1,0 +1,17 @@
+{
+  "pair_id": "synth-inc__onit__184-186",
+  "rung": "llm-raw",
+  "run": 1,
+  "available": false,
+  "unavailable_reason": "audit_impossible: audit impossible: transcript line 169 is unparseable: Invalid JSON: EOF while parsing a string at line 1 column 2074; output: rationale.json was not written; output: unexpected file files/macos/Onit/UI/Content/ContentView.swift; output: unexpected file files/macos/Onit/UI/Panels/OnitRegularPanel.swift; output: unexpected file files/macos/Onit/PanelStateManager/Tethered/PanelStateTetheredManager.swift; output: unexpected file files/macos/Onit/Data/Persistence/Defaults.swift",
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": null,
+  "intent_preserved_b": null,
+  "intent_drops": [],
+  "files": [],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}
