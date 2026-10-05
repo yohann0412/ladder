@@ -451,3 +451,13 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   a pair could not end (reviews/F8d-disk-wait-deadlock.md). Deleting the Go module cache and
   a scratch clone freed the space. The second wait was removed, and the pass was restarted
   so the fix applies to the remaining pairs.
+- 10:55: the single final pass had pruned 10 of 224 conflicting pairs, about 10 minutes
+  per pair over the last hour. That pace counts the giant mautic and mlflow pairs and two
+  restarts. With Claim C paused, load average was about 1.7 on 4 cores: most of each pair
+  is spent on clones, dependency downloads and single-threaded suites. At the next pair
+  boundary the single pass is replaced by three parallel `ladder run` processes. Each
+  takes a disjoint set of repositories (`work/final-shard-*.txt`, balanced by pair count)
+  and waits for 6 GiB free before each pair. All resolver runs are settled, so the 34
+  pairs of `work/final-later.txt` join now. Records do not depend on how pairs are spread
+  across processes. Contention can push more suites past their caps, which is recorded as
+  `capped` and reported by cause.
