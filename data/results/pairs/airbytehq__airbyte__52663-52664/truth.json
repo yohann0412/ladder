@@ -1,0 +1,54 @@
+{
+  "pair_id": "airbytehq__airbyte__52663-52664",
+  "status": "located",
+  "commit": "5b20d29d0398a4ed6701d4adc9c8c8a8ce1d3dd6",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "airbyte-ci/connectors/base_images/poetry.lock",
+      "present": true,
+      "sha256": "5a9b7e10b42ba81f73a15444db9d8c79c70a3289b924d79db85f78931ac6e8a4"
+    },
+    {
+      "path": "airbyte-ci/connectors/base_images/pyproject.toml",
+      "present": true,
+      "sha256": "7ce4247e78a2f239cab9fd39036c53440a71d3fd0c5108fb97cb8b5f57c4833f"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "airbyte-cdk/bulk/core/load/src/testFixtures/kotlin/io/airbyte/cdk/load/write/BasicPerformanceTest.kt",
+    "airbyte-ci/connectors/connector_ops/README.md",
+    "airbyte-ci/connectors/live-tests/README.md",
+    "airbyte-ci/connectors/live-tests/pyproject.toml",
+    "airbyte-ci/connectors/metadata_service/lib/metadata_service/models/generated/AirbyteInternal.py",
+    "airbyte-ci/connectors/metadata_service/lib/metadata_service/models/generated/ConnectorMetadataDefinitionV0.py",
+    "airbyte-ci/connectors/metadata_service/lib/metadata_service/models/generated/ConnectorRegistryDestinationDefinition.py",
+    "airbyte-ci/connectors/metadata_service/lib/metadata_service/models/generated/ConnectorRegistryReleases.py",
+    "airbyte-ci/connectors/metadata_service/lib/metadata_service/models/generated/ConnectorRegistrySourceDefinition.py",
+    "airbyte-ci/connectors/metadata_service/lib/metadata_service/models/generated/ConnectorRegistryV0.py",
+    "airbyte-ci/connectors/metadata_service/lib/metadata_service/models/src/AirbyteInternal.yaml",
+    "airbyte-ci/connectors/metadata_service/lib/tests/test_transform.py",
+    "airbyte-ci/connectors/pipelines/README.md",
+    "airbyte-ci/connectors/pipelines/pyproject.toml",
+    "airbyte-integrations/connectors/source-google-sheets/integration_tests/configured_catalog.json",
+    "airbyte-integrations/connectors/source-google-sheets/integration_tests/expected_records.txt",
+    "airbyte-integrations/connectors/source-google-sheets/metadata.yaml",
+    "airbyte-integrations/connectors/source-google-sheets/poetry.lock",
+    "airbyte-integrations/connectors/source-google-sheets/pyproject.toml",
+    "airbyte-integrations/connectors/source-google-sheets/source_google_sheets/manifest.yaml",
+    "airbyte-integrations/connectors/source-linkedin-ads/acceptance-test-config.yml",
+    "airbyte-integrations/connectors/source-linkedin-ads/metadata.yaml",
+    "airbyte-integrations/connectors/source-linkedin-ads/poetry.lock",
+    "airbyte-integrations/connectors/source-linkedin-ads/pyproject.toml",
+    "airbyte-integrations/connectors/source-mysql/metadata.yaml",
+    "docs/integrations/sources/google-sheets.md",
+    "docs/integrations/sources/linkedin-ads.md",
+    "docs/integrations/sources/mysql.md"
+  ],
+  "outside_region_edit": [
+    "airbyte-ci/connectors/base_images/poetry.lock"
+  ],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T11:20:14.538314Z"
+}
