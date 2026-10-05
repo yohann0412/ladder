@@ -1,0 +1,49 @@
+{
+  "pair_id": "Osly-AI__PocketManus__2-3",
+  "commit": "88e168b0af7ad9ace4f2638e28d880a666315317",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 2 in 0.5 s:   File \"/home/user/ladder/work/runtime/Osly-AI__PocketManus__2-3/scratch/uv-cache/builds-v0/.tmpNN3iJM/lib/python3.12/site-packages/setuptools/build_meta.py\", line 317, in run_setup |     exec(code, locals())  # noqa: S102 # exec is intentional here |     ^^^^^^^^^^^^^^^^^^^^ |   File \"<string>\", line 3, in <module> | FileNotFoundError: [Errno 2] No such file or directory: 'README.md' | hint: This usually indicates a problem with the package or the build environment.",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/Osly-AI__PocketManus__2-3/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/Osly-AI__PocketManus__2-3/trees/base",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 2,
+      "duration_s": 1.0,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 2 in 0.9 s; output tail:   File \"/home/user/ladder/work/runtime/Osly-AI__PocketManus__2-3/scratch/uv-cache/builds-v0/.tmpxmjb1N/lib/python3.12/site-packages/setuptools/build_meta.py\", line 520, in run_setup |     super().run_setup(setup_script=setup_script) |   File \"/home/user/ladder/work/runtime/Osly-AI__PocketManus__2-3/scratch/uv-cache/builds-v0/.tmpxmjb1N/lib/python3.12/site-packages/setuptools/build_meta.py\", line 317, in run_setup |     exec(code, locals())  # noqa: S102 # exec is intentional here |     ^^^^^^^^^^^^^^^^^^^^ |   File \"<string>\", line 3, in <module> | FileNotFoundError: [Errno 2] No such file or directory: 'README.md' | hint: This usually indicates a problem with the package or the build environment."
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/Osly-AI__PocketManus__2-3/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/Osly-AI__PocketManus__2-3/trees/base",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 2,
+      "duration_s": 0.5,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 2 in 0.5 s; output tail:   File \"/home/user/ladder/work/runtime/Osly-AI__PocketManus__2-3/scratch/uv-cache/builds-v0/.tmpNN3iJM/lib/python3.12/site-packages/setuptools/build_meta.py\", line 520, in run_setup |     super().run_setup(setup_script=setup_script) |   File \"/home/user/ladder/work/runtime/Osly-AI__PocketManus__2-3/scratch/uv-cache/builds-v0/.tmpNN3iJM/lib/python3.12/site-packages/setuptools/build_meta.py\", line 317, in run_setup |     exec(code, locals())  # noqa: S102 # exec is intentional here |     ^^^^^^^^^^^^^^^^^^^^ |   File \"<string>\", line 3, in <module> | FileNotFoundError: [Errno 2] No such file or directory: 'README.md' | hint: This usually indicates a problem with the package or the build environment."
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

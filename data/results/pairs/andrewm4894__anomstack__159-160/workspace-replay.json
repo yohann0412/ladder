@@ -1,0 +1,23 @@
+{
+  "pair_id": "andrewm4894__anomstack__159-160",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/andrewm4894__anomstack__159-160",
+  "source_base": "ca33b88b0a4a9fa245d6c8928488b6d8581bd9da",
+  "source_a": "4eb89108ba49dd93fb7544ab8d2da1cddac16c6d",
+  "source_b": "3ab0717472ff0286d603b72adfe186f68d5692c9",
+  "base_commit": "22057797b5a413088884b40fcfeda1f30d32ecf1",
+  "a_commit": "3072b5da6536eb047903dd5db52caa87c9c78012",
+  "b_commit": "beedf1dce050022dbf2e834641e062f46bdaa564",
+  "object_count": 400,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

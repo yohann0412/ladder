@@ -1,0 +1,23 @@
+{
+  "pair_id": "Osly-AI__PocketManus__2-3",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Osly-AI__PocketManus__2-3",
+  "source_base": "88e168b0af7ad9ace4f2638e28d880a666315317",
+  "source_a": "caffdb12cdf326447ec95173e05b66a594a56156",
+  "source_b": "7927e1d575071c90213ffb739def7d47102be29d",
+  "base_commit": "0d406d5f00540b2324042a2baaf62a4d5570ea41",
+  "a_commit": "a386167a96bd1a28a60942c323490770a182cad2",
+  "b_commit": "1a4018a880a0324f0de7f7c36017181fbf27f51c",
+  "object_count": 18000,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
