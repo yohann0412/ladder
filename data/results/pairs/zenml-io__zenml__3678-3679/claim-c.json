@@ -1,0 +1,50 @@
+{
+  "pair_id": "zenml-io__zenml__3678-3679",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: exceeds_cap"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: exceeds_cap"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: exceeds_cap"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: exceeds_cap (install exceeded the 900 s install cap)",
+  "files_a": [
+    "scripts/find_orphaned_assets.py",
+    "src/zenml/config/schedule.py",
+    "src/zenml/services/local/local_service.py",
+    "tests/unit/utils/test_io_utils.py"
+  ],
+  "files_b": [
+    "docs/book/how-to/stack-components/service_connectors.md"
+  ]
+}
