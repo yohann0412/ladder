@@ -1,0 +1,35 @@
+{
+  "pair_id": "db-ux-design-system__core-web__4772-4775",
+  "status": "located",
+  "commit": "51f3cd5a7fc43d0537cdfc67aa0ecf78228c5938",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "package-lock.json",
+      "present": true,
+      "sha256": "d1b9912c0d2388a72e6f0d439dfd27428a41a51ec596da9783bc93bc7fd15218"
+    }
+  ],
+  "touched_beyond_conflict": [
+    ".config/.lintstagedrc.js",
+    ".github/copilot-instructions.md",
+    "output/stencil/package.json",
+    "output/vue/package.json",
+    "package.json",
+    "packages/components/package.json",
+    "packages/components/src/components/input/input.lite.tsx",
+    "packages/foundations/package.json",
+    "showcases/nuxt-showcase/package.json",
+    "showcases/patternhub/package.json",
+    "showcases/patternhub/pages/foundations/playgrounds/index.mdx",
+    "showcases/react-showcase/package.json",
+    "showcases/stencil-showcase/package.json",
+    "showcases/vue-showcase/package.json"
+  ],
+  "outside_region_edit": [
+    "package-lock.json"
+  ],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T12:54:18.975298Z"
+}

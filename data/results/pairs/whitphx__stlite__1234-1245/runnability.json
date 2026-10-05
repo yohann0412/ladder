@@ -1,0 +1,68 @@
+{
+  "pair_id": "whitphx__stlite__1234-1245",
+  "commit": "81c9acefc3dc84a17e72e44c533dc51137b9efa7",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "suite does not load at base: 2 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/whitphx__stlite__1234-1245/envs/base/bin/python",
+        "-r",
+        "requirements.dev.txt",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 3.5,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 3.0 s; install: exit 1 in 0.5 s; output tail:   ╰─▶ Because there is no version of pyodide-lock==0.1.0a6 and |       pyodide-build==0.26.2 depends on pyodide-lock==0.1.0a6, we can conclude |       that pyodide-build==0.26.2 cannot be used. |       And because you require pyodide-build==0.26.2, we can conclude that your |       requirements are unsatisfiable. |       hint: `pyodide-lock` was requested with a pre-release marker (e.g., |       pyodide-lock==0.1.0a6), but pre-releases weren't enabled (try: |       `--prerelease=allow`)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/whitphx__stlite__1234-1245/envs/base/bin/python",
+        "pyodide-build",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 7.1,
+      "detail": "unpinned (ignored the version pins in the requirement files), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 4.1 s; suite failed: 0 passed, 0 failed, 2 errors, 0 skipped (work/runtime/whitphx__stlite__1234-1245/trees/base/packages/kernel/py/stlite-lib/stlite_lib_tests/bootstrap_test.py::work.runtime.whitphx__stlite__1234-1245.trees.base.packages.kernel.py.stlite-lib.stlite_lib_tests.bootstrap_test, work/runtime/whitphx__stlite__1234-1245/trees/base/packages/kernel/py/stlite-lib/stlite_lib_tests/test_server.py::work.runtime.whitphx__stlite__1234-1245.trees.base.packages.kernel.py.stlite-lib.stlite_lib_tests.test_server); first run failed: 0 passed, 0 failed, 2 errors, 0 skipped (work/runtime/whitphx__stlite__1234-1245/trees/base/packages/kernel/py/stlite-lib/stlite_lib_tests/bootstrap_test.py::work.runtime.whitphx__stlite__1234-1245.trees.base.packages.kernel.py.stlite-lib.stlite_lib_tests.bootstrap_test, work/runtime/whitphx__stlite__1234-1245/trees/base/packages/kernel/py/stlite-lib/stlite_lib_tests/test_server.py::work.runtime.whitphx__stlite__1234-1245.trees.base.packages.kernel.py.stlite-lib.stlite_lib_tests.test_server)"
+    }
+  ],
+  "test_count": 2,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/whitphx__stlite__1234-1245/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/whitphx__stlite__1234-1245/reports/base-attempt-2/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 2,
+    "skipped": 0,
+    "duration_s": 1.4,
+    "retried": true,
+    "failing_tests": [
+      "work/runtime/whitphx__stlite__1234-1245/trees/base/packages/kernel/py/stlite-lib/stlite_lib_tests/bootstrap_test.py::work.runtime.whitphx__stlite__1234-1245.trees.base.packages.kernel.py.stlite-lib.stlite_lib_tests.bootstrap_test",
+      "work/runtime/whitphx__stlite__1234-1245/trees/base/packages/kernel/py/stlite-lib/stlite_lib_tests/test_server.py::work.runtime.whitphx__stlite__1234-1245.trees.base.packages.kernel.py.stlite-lib.stlite_lib_tests.test_server"
+    ],
+    "detail": "0 passed, 0 failed, 2 errors, 0 skipped (work/runtime/whitphx__stlite__1234-1245/trees/base/packages/kernel/py/stlite-lib/stlite_lib_tests/bootstrap_test.py::work.runtime.whitphx__stlite__1234-1245.trees.base.packages.kernel.py.stlite-lib.stlite_lib_tests.bootstrap_test, work/runtime/whitphx__stlite__1234-1245/trees/base/packages/kernel/py/stlite-lib/stlite_lib_tests/test_server.py::work.runtime.whitphx__stlite__1234-1245.trees.base.packages.kernel.py.stlite-lib.stlite_lib_tests.test_server); first run failed: 0 passed, 0 failed, 2 errors, 0 skipped (work/runtime/whitphx__stlite__1234-1245/trees/base/packages/kernel/py/stlite-lib/stlite_lib_tests/bootstrap_test.py::work.runtime.whitphx__stlite__1234-1245.trees.base.packages.kernel.py.stlite-lib.stlite_lib_tests.bootstrap_test, work/runtime/whitphx__stlite__1234-1245/trees/base/packages/kernel/py/stlite-lib/stlite_lib_tests/test_server.py::work.runtime.whitphx__stlite__1234-1245.trees.base.packages.kernel.py.stlite-lib.stlite_lib_tests.test_server)"
+  },
+  "timeout_s": 600
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "epicweb-dev__epicshop__254-255",
+  "commit": "b506c08f856ff5c76c285f28fb11ffa32f59ceaf",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

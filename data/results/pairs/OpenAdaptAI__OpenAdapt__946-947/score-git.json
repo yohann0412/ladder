@@ -1,0 +1,80 @@
+{
+  "pair_id": "OpenAdaptAI__OpenAdapt__946-947",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "openadapt/run_omnimcp.py",
+      "entity": "<rest>",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "openadapt/run_omnimcp.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "deploy/deploy/models/omniparser/deploy.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "Config",
+        "Config.AWS_EC2_KEY_NAME",
+        "Config.AWS_EC2_KEY_PATH",
+        "Config.AWS_EC2_SECURITY_GROUP",
+        "Config.CONTAINER_NAME",
+        "Config.Config",
+        "Deploy",
+        "Deploy.ssh",
+        "Deploy.start",
+        "Deploy.status",
+        "Deploy.stop",
+        "configure_ec2_instance",
+        "create_key_pair",
+        "deploy_ec2_instance",
+        "execute_command",
+        "get_or_create_security_group_id"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "openadapt/run_omnimcp.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "OmniMCPRunner",
+        "OmniMCPRunner.cli",
+        "OmniMCPRunner.debug",
+        "OmniMCPRunner.server",
+        "main"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

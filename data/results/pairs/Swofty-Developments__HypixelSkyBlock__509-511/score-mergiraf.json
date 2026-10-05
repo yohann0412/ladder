@@ -1,0 +1,233 @@
+{
+  "pair_id": "Swofty-Developments__HypixelSkyBlock__509-511",
+  "rung": "mergiraf",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": false,
+  "human_equivalent_unordered": false,
+  "intent_preserved_a": true,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": ".gradle/8.7/checksums/checksums.lock",
+      "entity": "<file>",
+      "loser": "b",
+      "reason": "both sides changed it; the resolution keeps A's version and lacks lines B added to it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": ".gradle/8.7/checksums/md5-checksums.bin",
+      "entity": "<file>",
+      "loser": "b",
+      "reason": "both sides changed it; the resolution keeps A's version and lacks lines B added to it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": ".gradle/8.7/checksums/sha1-checksums.bin",
+      "entity": "<file>",
+      "loser": "b",
+      "reason": "both sides changed it; the resolution keeps A's version and lacks lines B added to it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": ".gradle/8.7/executionHistory/executionHistory.bin",
+      "entity": "<file>",
+      "loser": "b",
+      "reason": "both sides changed it; the resolution keeps A's version and lacks lines B added to it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": ".gradle/8.7/executionHistory/executionHistory.lock",
+      "entity": "<file>",
+      "loser": "b",
+      "reason": "both sides changed it; the resolution keeps A's version and lacks lines B added to it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": ".gradle/8.7/fileHashes/fileHashes.bin",
+      "entity": "<file>",
+      "loser": "b",
+      "reason": "both sides changed it; the resolution keeps A's version and lacks lines B added to it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": ".gradle/8.7/fileHashes/fileHashes.lock",
+      "entity": "<file>",
+      "loser": "b",
+      "reason": "both sides changed it; the resolution keeps A's version and lacks lines B added to it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": ".gradle/8.7/fileHashes/resourceHashesCache.bin",
+      "entity": "<file>",
+      "loser": "b",
+      "reason": "both sides changed it; the resolution keeps A's version and lacks lines B added to it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": ".gradle/buildOutputCleanup/buildOutputCleanup.lock",
+      "entity": "<file>",
+      "loser": "b",
+      "reason": "both sides changed it; the resolution keeps A's version and lacks lines B added to it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": ".gradle/buildOutputCleanup/outputFiles.bin",
+      "entity": "<file>",
+      "loser": "b",
+      "reason": "both sides changed it; the resolution keeps A's version and lacks lines B added to it",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": ".gradle/8.7/checksums/checksums.lock",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": true,
+      "human_equivalent_unordered": true,
+      "similarity": 1.0
+    },
+    {
+      "path": ".gradle/8.7/checksums/md5-checksums.bin",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": true,
+      "human_equivalent_unordered": true,
+      "similarity": 1.0
+    },
+    {
+      "path": ".gradle/8.7/checksums/sha1-checksums.bin",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": true,
+      "human_equivalent_unordered": true,
+      "similarity": 1.0
+    },
+    {
+      "path": ".gradle/8.7/executionHistory/executionHistory.bin",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": true,
+      "human_equivalent_unordered": true,
+      "similarity": 1.0
+    },
+    {
+      "path": ".gradle/8.7/executionHistory/executionHistory.lock",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": true,
+      "human_equivalent_unordered": true,
+      "similarity": 1.0
+    },
+    {
+      "path": ".gradle/8.7/fileHashes/fileHashes.bin",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": true,
+      "human_equivalent_unordered": true,
+      "similarity": 1.0
+    },
+    {
+      "path": ".gradle/8.7/fileHashes/fileHashes.lock",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": true,
+      "human_equivalent_unordered": true,
+      "similarity": 1.0
+    },
+    {
+      "path": ".gradle/8.7/fileHashes/resourceHashesCache.bin",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": true,
+      "human_equivalent_unordered": true,
+      "similarity": 1.0
+    },
+    {
+      "path": ".gradle/buildOutputCleanup/buildOutputCleanup.lock",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": true,
+      "human_equivalent_unordered": true,
+      "similarity": 1.0
+    },
+    {
+      "path": ".gradle/buildOutputCleanup/cache.properties",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.7
+    },
+    {
+      "path": ".gradle/buildOutputCleanup/outputFiles.bin",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": true,
+      "human_equivalent_unordered": true,
+      "similarity": 1.0
+    },
+    {
+      "path": "type.generic/build.gradle.kts",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.717
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

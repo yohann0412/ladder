@@ -1,0 +1,50 @@
+{
+  "pair_id": "epicweb-dev__epicshop__254-255",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": true,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "packages/workshop-cli/src/cli.ts",
+      "entity": "findWorkshopAppDir",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": false
+    }
+  ],
+  "files": [
+    {
+      "path": "packages/workshop-cli/package.json",
+      "mode": "ast",
+      "language": "json",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "packages/workshop-cli/src/cli.ts",
+      "mode": "ast",
+      "language": "typescript",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

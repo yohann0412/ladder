@@ -1,0 +1,15 @@
+{
+  "pair_id": "Swofty-Developments__HypixelSkyBlock__509-511",
+  "commit": "8e9644222b463afe115b0e87e28bb1986ef5b1d4",
+  "language": "java",
+  "package_manager": "gradle",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "java project; no adapter for java (gradle is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
