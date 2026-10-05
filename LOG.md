@@ -486,3 +486,9 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   when the pair is pruned (reviews/F8f-pair-scratch.md). `e2e/test_runnable.py`,
   `test_claim_c.py` and `test_score.py`: 3 passed. Each shard is restarted after its next
   pruned pair so the change applies.
+- 11:52: free disk fell to 2.6 GiB within minutes. Shards 0 and 2 still ran the old code,
+  and a Go pair (`berachain__beacon-kit`) filled the shared module cache again. Both were
+  restarted at once on the per-pair scratch code (11:53), each losing the pair it was on.
+  The shared uv cache (6.4 GB) and Go module cache were then cleared (20 GiB free). 18
+  records in 8 pairs had been stopped by the free-disk floor. D23 decides, before any redo,
+  that all of them are redone once after the final pass.

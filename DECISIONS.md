@@ -261,3 +261,30 @@ Newest at the bottom.
 - Reason: D21 protects resolver writes from a full disk. The floor checked before each
   pair, together with the small pairs, gives the same protection. Resolver outputs are
   kilobytes.
+
+## D23. Test runs stopped by the free-disk floor are redone once (before any redo result)
+
+- Problem: the shared caches and leftovers of other suites filled the disk several times
+  (LOG 21). Some installs and suites were then stopped by the 3 GiB floor and recorded as
+  `exceeds_cap`, or as an error with "free disk below the … floor" in their detail. That
+  stop says nothing about the pair. It depends only on what else happened to be running.
+  By 11:55, 18 records in 8 pairs carried it:
+  - runnability and scores of 6 ladder pairs;
+  - Claim C of `PRQL__prql__5286-5287` and `bruin-data__bruin__733-735`.
+- Choice: every runnability, score or Claim C record whose stored outcome contains the
+  free-disk floor phrase is an infrastructure failure. The rule is the same for every
+  such record, whatever else it says.
+  - When the final pass ends, for each such pair: delete its runnability record, all its
+    score records and its Claim C record, then run the pair again with at least 20 GiB
+    free and nothing else running.
+  - Each pair is redone once. If the redo stops at the floor again, that record stays.
+  - The redo also covers any record that stops at the floor later in this experiment.
+  - The list of redone pairs goes in LOG.md. The report counts how many records the rule
+    replaced.
+  - This replaces the earlier LOG note that PRQL would not be run again. That note treated
+    a disk stop as an outcome.
+- Reason: what triggers a redo is the infrastructure phrase in a record, not whether its
+  tests passed, failed or were runnable. So the redo cannot be steered toward an outcome.
+  Leaving these records would drop pairs from the tests-based denominators and from Claim C
+  for a cause that has nothing to do with them. Resolver runs are not covered: D20 and D21
+  still apply to them.
