@@ -137,14 +137,14 @@
           "tests_pass": null
         },
         "weave": {
-          "basis": "prediction",
-          "status": "conflicted",
+          "basis": "observed",
+          "status": "resolved",
           "conflicted_paths": null,
           "types": null,
-          "parses": null,
-          "mergeable": null,
-          "human_equivalent": null,
-          "intent_loser": null,
+          "parses": true,
+          "mergeable": true,
+          "human_equivalent": true,
+          "intent_loser": "none",
           "tests_pass": null
         },
         "mergiraf": {
@@ -153,7 +153,7 @@
           "conflicted_paths": null,
           "types": null,
           "parses": true,
-          "mergeable": null,
+          "mergeable": true,
           "human_equivalent": true,
           "intent_loser": "none",
           "tests_pass": null
@@ -171,7 +171,7 @@
         },
         "llm-post-weave": {
           "basis": "observed",
-          "status": null,
+          "status": "absent",
           "conflicted_paths": null,
           "types": null,
           "parses": null,
@@ -336,7 +336,7 @@
           "conflicted_paths": null,
           "types": null,
           "parses": null,
-          "mergeable": null,
+          "mergeable": false,
           "human_equivalent": null,
           "intent_loser": null,
           "tests_pass": null
@@ -347,7 +347,7 @@
           "conflicted_paths": null,
           "types": null,
           "parses": null,
-          "mergeable": null,
+          "mergeable": false,
           "human_equivalent": null,
           "intent_loser": null,
           "tests_pass": null
@@ -433,7 +433,7 @@
           "conflicted_paths": null,
           "types": null,
           "parses": null,
-          "mergeable": null,
+          "mergeable": false,
           "human_equivalent": null,
           "intent_loser": null,
           "tests_pass": null
@@ -444,7 +444,7 @@
           "conflicted_paths": null,
           "types": null,
           "parses": null,
-          "mergeable": null,
+          "mergeable": false,
           "human_equivalent": null,
           "intent_loser": null,
           "tests_pass": null
@@ -711,25 +711,25 @@
           "tests_pass": null
         },
         "weave": {
-          "basis": "prediction",
-          "status": "conflicted",
+          "basis": "observed",
+          "status": "resolved",
           "conflicted_paths": null,
           "types": null,
-          "parses": null,
-          "mergeable": null,
-          "human_equivalent": null,
-          "intent_loser": null,
+          "parses": true,
+          "mergeable": true,
+          "human_equivalent": true,
+          "intent_loser": "none",
           "tests_pass": null
         },
         "mergiraf": {
-          "basis": "prediction",
-          "status": "conflicted",
+          "basis": "observed",
+          "status": "resolved",
           "conflicted_paths": null,
           "types": null,
-          "parses": null,
-          "mergeable": null,
-          "human_equivalent": null,
-          "intent_loser": null,
+          "parses": true,
+          "mergeable": true,
+          "human_equivalent": true,
+          "intent_loser": "none",
           "tests_pass": null
         },
         "llm-raw": {
@@ -745,7 +745,7 @@
         },
         "llm-post-weave": {
           "basis": "observed",
-          "status": null,
+          "status": "absent",
           "conflicted_paths": null,
           "types": null,
           "parses": null,

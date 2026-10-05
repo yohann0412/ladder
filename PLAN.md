@@ -136,15 +136,16 @@ files, JSON contents and numbers.
   PR A is the paper's `prA`, PR B its `prB`. The merge is always "b into a".
 - **Final head**: `refs/pull/N/head` at fetch time (SHA and fetch time recorded).
 - **Contamination**: PR L's final head is contaminated by PR F if F was merged at time
-  T_F and L's final head reaches (a) F's located merge commit, or (b) any commit that
-  is reachable from the repository's default branch and whose committer time is
-  >= T_F - 5 s. Either way L's head already contains a resolution of F vs. L.
+  T_F and L's final head reaches (a) F's located merge commit, or (b) any commit on the
+  default branch's first-parent chain whose committer time is >= T_F - 5 s. Either way
+  L's head already contains a resolution of F vs. L. (First-parent chain, because a
+  true-merged PR's own commits are reachable from the default branch through the second
+  parent of its merge commit and must not count.)
 - **Replay head**: the final head if not contaminated; otherwise the first commit on
-  L's first-parent chain that is not contaminated. If that commit is itself reachable
-  from the default branch (the PR was rebased, so no pre-absorption PR commit exists),
-  or the walk reached it only through default-branch commits (main was the first
-  parent), the pair is "unrecoverable: rebased after the other PR merged" and leaves the
-  ladder set with that reason.
+  L's first-parent chain that is not contaminated. If that commit lies on the default
+  branch's first-parent chain (the PR was rebased, so no pre-absorption PR commit exists,
+  or main was the first parent of the absorbing merge), the pair is "unrecoverable:
+  rebased after the other PR merged" and leaves the ladder set with that reason.
 - **Base**: `git merge-base replay_head_a replay_head_b`. If more than one merge base
   exists the pair is flagged `criss_cross` and the first is used.
 - **Ladder set**: pairs whose replay heads conflict under the git rung, drawn from all
@@ -311,3 +312,5 @@ LLM rung, the intent-dropped metric, the honesty requirements.
 8. Post-hoc leak audit: no workspace side tree may equal its truth tree.
 9. Reconciliation classifies each disagreement with the paper rather than reporting a
    net rate.
+10. (Found while reviewing the fixture.) Contamination rule (b) and the unrecoverable
+    test use the default branch's first-parent chain, not reachability from it.

@@ -80,3 +80,30 @@ Running log of what was tried, what failed, and what was learned, in order.
 - Under the D15 rule, 931 repositories have at least one candidate pair (17,348 candidate
   pairs in total). Enough to reach 60 conflicting pairs with truth unless the conflict
   yield at replay heads is below about 7%.
+
+## 8. Fixture built; structural predictions vs. observed (before updating expected.json)
+
+The fixture subagent ran weave 0.5.2 and mergiraf 0.20.0 as git merge drivers on every
+conflicting scenario. Cells of `fixtures/expected.json` with basis `prediction`:
+
+| scenario | rung | predicted | observed |
+|---|---|---|---|
+| fx02 | weave | conflicted | **resolved**, equal to resolved/2 |
+| fx02 | mergiraf | resolved, equivalent | resolved, equivalent (held) |
+| fx04 | weave, mergiraf | conflicted | conflicted (held) |
+| fx05 | weave, mergiraf | conflicted | conflicted (held) |
+| fx08 (replay heads) | weave | conflicted | **resolved**, equal to resolved/8 |
+| fx08 (replay heads) | mergiraf | conflicted | **resolved**, equal to resolved/8 |
+
+Design cells held (fx01 resolved by both; fx03 and fx07 conflicted under both), after the
+builder adjusted fx01 and fx03 edits so the pinned tools behave as the spec requires
+(`reviews/P1-fixture.md`). 2 of the 6 predicted structural rows were wrong: structural
+drivers resolved more than I predicted. `expected.json` updated with basis `observed` for
+the three wrong cells; llm-post-weave becomes `absent` for fx02 and fx08 since weave
+resolves them.
+
+Contamination rule flaw found while reviewing the fixture: rule (b) in `PLAN.md` 5.1 used
+"reachable from the default branch", but a true-merged PR's own commits are reachable from
+the default branch (second parent of its merge), so PR commits made after the other PR
+merged would be mis-flagged as contamination. Revised to the default branch's
+first-parent chain (PLAN.md revision 10).

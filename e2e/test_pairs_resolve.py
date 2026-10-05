@@ -45,7 +45,11 @@ def test_resolve_records_refs_and_rewinds_contaminated_head(
             assert refs[side]["merge_commit"] == located, (pair_id, side)
         assert refs["truth_status"] == want["truth_status"], pair_id
         assert refs["truth_method"] == want["truth_method"], pair_id
-        if want["truth_method"] in ("merge_parent", "absorption"):
+        if want["truth_method"] == "absorption":
+            assert refs["truth_commit"] == scenario["resolved"], pair_id
+        elif want["truth_method"] is not None:
+            assert refs["truth_commit"] == refs["b"]["merge_commit"], pair_id
+        if scenario["resolved"] and want["truth_method"] != "subject_time":
             assert refs["truth_commit"] == scenario["resolved"], pair_id
         if want["resolve_status"] == "ok" and want["contaminated"] == "none":
             assert refs["a"]["replay_head"] == scenario["a"]["head"], pair_id
