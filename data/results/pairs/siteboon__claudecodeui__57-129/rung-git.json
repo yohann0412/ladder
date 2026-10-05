@@ -1,0 +1,10 @@
+{
+  "pair_id": "siteboon__claudecodeui__57-129",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "59eef695372ebff3746c01ee63a576bd0b444a48"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__agent-lightning__25-36",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "075be611c35f6bc2056366f35eb1a74c19de50a7"
+}

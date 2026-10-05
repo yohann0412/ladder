@@ -1,0 +1,10 @@
+{
+  "pair_id": "unclecode__crawl4ai__1124-1137",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ab9581bb612248f69cd2db5ac29f62128f5769e7"
+}

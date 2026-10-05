@@ -1,0 +1,10 @@
+{
+  "pair_id": "mvisonneau__gitlab-ci-pipelines-exporter__1007-1008",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "de9a341950c0465a98f0de035104fe395e706652"
+}

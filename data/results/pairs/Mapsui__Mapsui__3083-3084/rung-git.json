@@ -1,0 +1,10 @@
+{
+  "pair_id": "Mapsui__Mapsui__3083-3084",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a2d341a6e679e73a161d73df56d44fbb7ac6d007"
+}

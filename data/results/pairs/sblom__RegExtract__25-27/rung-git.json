@@ -1,0 +1,10 @@
+{
+  "pair_id": "sblom__RegExtract__25-27",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "20c9912521e601ef0b661046f3d594169c9b491a"
+}

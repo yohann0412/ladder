@@ -1,0 +1,10 @@
+{
+  "pair_id": "rustfs__rustfs__557-561",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7b025f8e0591b5b9553309ce4eb65dba78b29279"
+}

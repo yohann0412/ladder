@@ -1,0 +1,10 @@
+{
+  "pair_id": "web-infra-dev__rspack__10963-10964",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "dc1f41cf0061257b15dc915072c044bfa730ed6d"
+}

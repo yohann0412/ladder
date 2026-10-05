@@ -1,0 +1,10 @@
+{
+  "pair_id": "MicrosoftLearning__AZ400-DesigningandImplementingMicrosoftDevOpsSolutions__671-673",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2db7866411d400b4dc0b33f1333a8a329eaa5586"
+}

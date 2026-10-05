@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__onnxscript__2381-2382",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "bb173a7ccb512b20cbe69d5ee77f3a430d7d2275"
+}

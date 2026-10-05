@@ -1,0 +1,10 @@
+{
+  "pair_id": "dotnet__vscode-dotnet-runtime__2287-2289",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5835b5cb251f3e2d41d41bbd1aea1842161e39fe"
+}

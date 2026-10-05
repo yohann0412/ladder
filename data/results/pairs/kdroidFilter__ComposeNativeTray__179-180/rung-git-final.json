@@ -1,0 +1,10 @@
+{
+  "pair_id": "kdroidFilter__ComposeNativeTray__179-180",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "74a7933f1d7c3e8ead604239107e99b257d80fa3"
+}

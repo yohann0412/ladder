@@ -1,0 +1,10 @@
+{
+  "pair_id": "haydenbleasel__kibo__164-165",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4577a999e4de085af818c5db9cc2eeeff3a987e2"
+}

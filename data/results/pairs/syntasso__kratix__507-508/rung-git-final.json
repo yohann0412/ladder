@@ -1,0 +1,10 @@
+{
+  "pair_id": "syntasso__kratix__507-508",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b5d1200515e417217459bac1f5bfa1337d593f88"
+}

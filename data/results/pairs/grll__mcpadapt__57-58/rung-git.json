@@ -1,0 +1,10 @@
+{
+  "pair_id": "grll__mcpadapt__57-58",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "bc8d55a29d4f609acfe6cab229cdd4b92f13fa3c"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "azerothcore__Keira3__3370-3371",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "553141cce4bd74fbc183f9a30ad1382fedbc5a46"
+}

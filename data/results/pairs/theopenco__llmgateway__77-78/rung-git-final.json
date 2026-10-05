@@ -1,0 +1,43 @@
+{
+  "pair_id": "theopenco__llmgateway__77-78",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in .github/workflows/docker-publish.yml",
+    "CONFLICT (content): Merge conflict in apps/docs/package.json",
+    "CONFLICT (content): Merge conflict in turbo.json"
+  ],
+  "types": [
+    "add/add",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "apps/docs/package.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "turbo.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

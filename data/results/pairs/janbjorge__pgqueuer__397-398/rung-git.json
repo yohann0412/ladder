@@ -1,0 +1,10 @@
+{
+  "pair_id": "janbjorge__pgqueuer__397-398",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "94f3a68912542e248c60288dd2e234ec43879bf0"
+}

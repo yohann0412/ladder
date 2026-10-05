@@ -1,0 +1,10 @@
+{
+  "pair_id": "pyrevitlabs__pyRevit__2747-2748",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5e95fcd949b762c7c7ab562a6a073cc29be81469"
+}

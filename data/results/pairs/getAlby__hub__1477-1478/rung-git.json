@@ -1,0 +1,10 @@
+{
+  "pair_id": "getAlby__hub__1477-1478",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "9e9e93fa667e05f75718d82ed8a52e525237d507"
+}

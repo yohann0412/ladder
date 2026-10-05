@@ -1,0 +1,10 @@
+{
+  "pair_id": "openworm__sibernetic__207-208",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "8387e1444af286cf5f378f083fc44d2dafe955bb"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__ebpf-for-windows__4462-4466",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b5fc6e8da1e5bc15d72d7ec8d540256ca2ac619d"
+}

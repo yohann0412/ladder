@@ -1,0 +1,23 @@
+{
+  "pair_id": "google-deepmind__gemma__322-323",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in ENHANCEMENT_PLAN.md"
+  ],
+  "types": [
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": "ENHANCEMENT_PLAN.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

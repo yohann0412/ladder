@@ -1,0 +1,10 @@
+{
+  "pair_id": "unibeck__solstatus__63-65",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d8bdb23e2f4849cdfe78ca2fadfe13bfc1a37bd2"
+}

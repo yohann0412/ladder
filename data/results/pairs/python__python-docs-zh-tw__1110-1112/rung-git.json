@@ -1,0 +1,10 @@
+{
+  "pair_id": "python__python-docs-zh-tw__1110-1112",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ac0854a7bf9cf7ebe24c8e8707950fa09b525233"
+}

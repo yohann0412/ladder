@@ -1,0 +1,10 @@
+{
+  "pair_id": "rainbow-me__browser-extension__1908-1909",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6e4fdc17df580a82b3255e48ac6563ddbca6dbf7"
+}

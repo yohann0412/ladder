@@ -1,0 +1,10 @@
+{
+  "pair_id": "dotnet__winforms__13489-13490",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "772aeb5d970802c1a47961c3143c094325211a28"
+}

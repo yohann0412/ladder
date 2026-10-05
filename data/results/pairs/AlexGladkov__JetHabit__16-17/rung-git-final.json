@@ -1,0 +1,10 @@
+{
+  "pair_id": "AlexGladkov__JetHabit__16-17",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "75b6f0d187611389855b6f573c2f7a4dcbfce26f"
+}

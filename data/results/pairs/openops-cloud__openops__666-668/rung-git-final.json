@@ -1,0 +1,10 @@
+{
+  "pair_id": "openops-cloud__openops__666-668",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5438ca5b07be20eb50e72cc62d8b7c77722cc60b"
+}

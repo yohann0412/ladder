@@ -1,0 +1,10 @@
+{
+  "pair_id": "bruin-data__ingestr__235-236",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "82e0f81247ae5d900a636aa2bdaa1137091fddeb"
+}

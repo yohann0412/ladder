@@ -1,0 +1,10 @@
+{
+  "pair_id": "arturboyun__AiogramBotTemplate__40-41",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "624b1c8f078da197520873593c6dae8aa2d8c9d3"
+}

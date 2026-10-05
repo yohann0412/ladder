@@ -1,0 +1,10 @@
+{
+  "pair_id": "alchemyplatform__aa-sdk__1786-1790",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "fba32368fda42719907a94ed8a777f55126bef59"
+}

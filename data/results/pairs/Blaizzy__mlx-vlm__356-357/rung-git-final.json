@@ -1,0 +1,10 @@
+{
+  "pair_id": "Blaizzy__mlx-vlm__356-357",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a7610afabd771354d3aae5fbea33406fc794af3f"
+}

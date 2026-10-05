@@ -1,0 +1,10 @@
+{
+  "pair_id": "quarylabs__sqruff__1611-1628",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0effe49e136ced9f3184c7df9f2587edb96fd008"
+}

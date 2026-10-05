@@ -1,0 +1,10 @@
+{
+  "pair_id": "spcl__dace__2019-2024",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f8d0f9730b982ad884e9093000b71d5c1c8c090a"
+}

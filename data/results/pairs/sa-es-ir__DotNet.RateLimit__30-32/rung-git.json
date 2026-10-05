@@ -1,0 +1,10 @@
+{
+  "pair_id": "sa-es-ir__DotNet.RateLimit__30-32",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "905f317daaa00965baf7e52609fa4c073e330f2c"
+}

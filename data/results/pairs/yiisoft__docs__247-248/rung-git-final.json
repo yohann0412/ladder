@@ -1,0 +1,33 @@
+{
+  "pair_id": "yiisoft__docs__247-248",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in _translations/guide/po/ru/concept_di-container.md.po",
+    "CONFLICT (content): Merge conflict in _translations/guide/pot/concept_di-container.md.pot"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "_translations/guide/po/ru/concept_di-container.md.po",
+      "types": [
+        "content"
+      ],
+      "regions": 8,
+      "category": "other"
+    },
+    {
+      "path": "_translations/guide/pot/concept_di-container.md.pot",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "other"
+    }
+  ],
+  "merged_tree": null
+}

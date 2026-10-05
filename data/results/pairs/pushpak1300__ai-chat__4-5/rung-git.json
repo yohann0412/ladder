@@ -1,0 +1,23 @@
+{
+  "pair_id": "pushpak1300__ai-chat__4-5",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in resources/js/pages/Chat/Show.vue"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "resources/js/pages/Chat/Show.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "sqlrooms__sqlrooms__56-57",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4cd3b31a2d0a6d9ed8f1a31d166b65937c3a0bd0"
+}

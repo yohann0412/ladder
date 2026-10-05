@@ -1,0 +1,33 @@
+{
+  "pair_id": "CEPT-VZG__digipin__21-22",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in package-lock.json",
+    "CONFLICT (content): Merge conflict in package.json"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "package-lock.json",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "package.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

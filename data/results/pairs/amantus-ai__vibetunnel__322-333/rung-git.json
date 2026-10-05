@@ -1,0 +1,10 @@
+{
+  "pair_id": "amantus-ai__vibetunnel__322-333",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7db9ba65a67797460183553bfe9f784859c8dd9d"
+}

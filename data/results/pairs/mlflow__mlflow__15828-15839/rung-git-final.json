@@ -1,0 +1,10 @@
+{
+  "pair_id": "mlflow__mlflow__15828-15839",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "95a4264aca78055b0800521f4158920ce228c496"
+}

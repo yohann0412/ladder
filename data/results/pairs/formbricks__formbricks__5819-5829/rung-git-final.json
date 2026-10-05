@@ -1,0 +1,10 @@
+{
+  "pair_id": "formbricks__formbricks__5819-5829",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a99bf489d36a4ca350224673f637394863b48d57"
+}

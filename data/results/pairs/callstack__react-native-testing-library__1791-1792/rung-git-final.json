@@ -1,0 +1,10 @@
+{
+  "pair_id": "callstack__react-native-testing-library__1791-1792",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "cb2da3dbe316de72972f29c38a0db686f7a2d757"
+}

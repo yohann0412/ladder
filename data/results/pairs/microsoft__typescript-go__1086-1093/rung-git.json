@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__typescript-go__1086-1093",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2ae41ee935b43337308613b027429e8b950179d2"
+}

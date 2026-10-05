@@ -1,0 +1,63 @@
+{
+  "pair_id": "lightdash__lightdash__13375-13376",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 5, conflicted files: 5 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in packages/backend/src/App.ts",
+    "CONFLICT (content): Merge conflict in packages/backend/src/routers/headlessBrowser.ts",
+    "CONFLICT (content): Merge conflict in packages/backend/src/scheduler/SchedulerWorker.ts",
+    "CONFLICT (content): Merge conflict in packages/warehouses/src/warehouseClients/DatabricksWarehouseClient.ts",
+    "CONFLICT (content): Merge conflict in packages/warehouses/src/warehouseClients/TrinoWarehouseClient.ts"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "packages/backend/src/App.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/backend/src/routers/headlessBrowser.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/backend/src/scheduler/SchedulerWorker.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/warehouses/src/warehouseClients/DatabricksWarehouseClient.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "packages/warehouses/src/warehouseClients/TrinoWarehouseClient.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

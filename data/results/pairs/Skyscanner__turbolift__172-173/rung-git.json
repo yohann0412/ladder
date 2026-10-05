@@ -1,0 +1,10 @@
+{
+  "pair_id": "Skyscanner__turbolift__172-173",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "717b302c3868dede48750e870f3ba1f7f435874c"
+}

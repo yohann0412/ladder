@@ -1,0 +1,10 @@
+{
+  "pair_id": "pomerium__pomerium__5619-5620",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7fb6ce9dd8cc6f850af81d2f28163a5ec9c428ce"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "andrewlock__NetEscapades.EnumGenerators__156-157",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ba867f4b93f6ee1f7cec737b3eae2d83ea568012"
+}

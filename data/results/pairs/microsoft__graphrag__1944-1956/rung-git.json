@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__graphrag__1944-1956",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in graphrag/storage/factory.py"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "graphrag/storage/factory.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

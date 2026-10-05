@@ -1,0 +1,10 @@
+{
+  "pair_id": "umasteeringgroup__UMA__492-494",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c0c6ebdfd917e6d45cee097fe0ab16c0e45673b5"
+}

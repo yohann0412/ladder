@@ -1,0 +1,73 @@
+{
+  "pair_id": "nandyalu__trailarr__259-267",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 6, conflicted files: 6 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in Dockerfile",
+    "CONFLICT (content): Merge conflict in backend/config/settings.py",
+    "CONFLICT (content): Merge conflict in backend/core/download/video_conversion.py",
+    "CONFLICT (content): Merge conflict in docs/getting-started/02-installation/hardware-acceleration.md",
+    "CONFLICT (content): Merge conflict in docs/getting-started/02-installation/index.md",
+    "CONFLICT (content): Merge conflict in docs/release-notes/2025.md"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "Dockerfile",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "backend/config/settings.py",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "backend/core/download/video_conversion.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "docs/getting-started/02-installation/hardware-acceleration.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "docs/getting-started/02-installation/index.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "docs/release-notes/2025.md",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

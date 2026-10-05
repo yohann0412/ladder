@@ -1,0 +1,10 @@
+{
+  "pair_id": "barter-rs__barter-rs__186-188",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "787b80c68b8345a758696fea9cb22e6f66ed4348"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "django-components__django-components__1328-1330",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "63fff156c4aba48bc6324577caca0675a2b69fd7"
+}

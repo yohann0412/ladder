@@ -1,0 +1,10 @@
+{
+  "pair_id": "stargately__beancount-mobile__80-81",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "9322a3508e42c0370ee1a9e2ad74e4203ac34fa7"
+}

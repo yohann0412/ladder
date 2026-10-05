@@ -1,0 +1,10 @@
+{
+  "pair_id": "dotnet__android-libraries__1160-1162",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5c847fd53347e0be9a047fb59d0f2845c5ed2f24"
+}

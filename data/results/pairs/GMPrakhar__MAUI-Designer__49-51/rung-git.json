@@ -1,0 +1,10 @@
+{
+  "pair_id": "GMPrakhar__MAUI-Designer__49-51",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a2f07f8a77822a08d4da7af48c1402219973abb2"
+}

@@ -1,0 +1,43 @@
+{
+  "pair_id": "sam-goodwin__alchemy__239-240",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in alchemy/src/cloudflare/bindings.ts",
+    "CONFLICT (content): Merge conflict in alchemy/src/cloudflare/bound.ts",
+    "CONFLICT (content): Merge conflict in alchemy/src/cloudflare/worker-metadata.ts"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "alchemy/src/cloudflare/bindings.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "alchemy/src/cloudflare/bound.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "alchemy/src/cloudflare/worker-metadata.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

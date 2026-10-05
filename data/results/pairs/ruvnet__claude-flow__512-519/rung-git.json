@@ -1,0 +1,10 @@
+{
+  "pair_id": "ruvnet__claude-flow__512-519",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "27ec7a8f45362b85f143a571c2b2a5eb460922c5"
+}

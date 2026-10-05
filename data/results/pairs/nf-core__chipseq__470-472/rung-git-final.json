@@ -1,0 +1,10 @@
+{
+  "pair_id": "nf-core__chipseq__470-472",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e753eae3dfb1f61c7d91377f829da11adda7fd01"
+}

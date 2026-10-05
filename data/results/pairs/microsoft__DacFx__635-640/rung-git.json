@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__DacFx__635-640",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in test/Microsoft.Build.Sql.Tests/Microsoft.Build.Sql.Tests.csproj"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "test/Microsoft.Build.Sql.Tests/Microsoft.Build.Sql.Tests.csproj",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

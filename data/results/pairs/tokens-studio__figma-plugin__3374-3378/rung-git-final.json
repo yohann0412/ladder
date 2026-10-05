@@ -1,0 +1,43 @@
+{
+  "pair_id": "tokens-studio__figma-plugin__3374-3378",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in packages/tokens-studio-for-figma/src/app/store/models/uiState.tsx",
+    "CONFLICT (content): Merge conflict in packages/tokens-studio-for-figma/src/plugin/asyncMessageHandlers/index.ts",
+    "CONFLICT (content): Merge conflict in packages/tokens-studio-for-figma/src/types/AsyncMessages.ts"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "packages/tokens-studio-for-figma/src/app/store/models/uiState.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "packages/tokens-studio-for-figma/src/plugin/asyncMessageHandlers/index.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/tokens-studio-for-figma/src/types/AsyncMessages.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "kingstinct__react-native-healthkit__240-241",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ff03c137cf96fd1eb87e9993525653a2a243d64b"
+}

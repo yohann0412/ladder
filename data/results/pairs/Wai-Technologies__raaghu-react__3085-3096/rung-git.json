@@ -1,0 +1,10 @@
+{
+  "pair_id": "Wai-Technologies__raaghu-react__3085-3096",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2fd87770397dfda35c45fa42504508f1d785f605"
+}

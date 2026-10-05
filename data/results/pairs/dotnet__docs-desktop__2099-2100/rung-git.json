@@ -1,0 +1,10 @@
+{
+  "pair_id": "dotnet__docs-desktop__2099-2100",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "998c26dddfd8a5554d89c45ba3bb2cb117d692d7"
+}

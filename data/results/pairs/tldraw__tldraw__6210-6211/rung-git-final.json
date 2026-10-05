@@ -1,0 +1,10 @@
+{
+  "pair_id": "tldraw__tldraw__6210-6211",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "222899440f43a0ce57594b38becb3f35b9711a2a"
+}

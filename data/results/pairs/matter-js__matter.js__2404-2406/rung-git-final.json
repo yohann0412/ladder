@@ -1,0 +1,10 @@
+{
+  "pair_id": "matter-js__matter.js__2404-2406",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "cfd22a72379cabc010ea2164d0ca296b170e5a1c"
+}

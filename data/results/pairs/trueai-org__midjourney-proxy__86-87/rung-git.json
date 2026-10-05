@@ -1,0 +1,10 @@
+{
+  "pair_id": "trueai-org__midjourney-proxy__86-87",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d72b0edd8e5fcb3fdedeeb391bb971facce1f8d0"
+}

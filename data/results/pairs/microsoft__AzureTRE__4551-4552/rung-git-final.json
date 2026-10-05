@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__AzureTRE__4551-4552",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "12407387014f0f8ea413b5cfd79a12d7185bc387"
+}

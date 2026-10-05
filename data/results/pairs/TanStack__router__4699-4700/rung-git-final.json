@@ -1,0 +1,10 @@
+{
+  "pair_id": "TanStack__router__4699-4700",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "781885dc98091bccfd7d584309d1371a6d5651b2"
+}

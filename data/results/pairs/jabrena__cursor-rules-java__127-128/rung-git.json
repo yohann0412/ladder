@@ -1,0 +1,10 @@
+{
+  "pair_id": "jabrena__cursor-rules-java__127-128",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2dab12070023f866e0bdf8b580d496b726d6560f"
+}

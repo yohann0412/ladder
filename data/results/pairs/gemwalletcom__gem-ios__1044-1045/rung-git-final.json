@@ -1,0 +1,313 @@
+{
+  "pair_id": "gemwalletcom__gem-ios__1044-1045",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 30, conflicted files: 30 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/ar.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/bn.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/cs.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/da.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/de.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/en.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/es.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/fa.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/fil.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/fr.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/he.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/hi.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/id.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/it.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/ja.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/ko.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/ms.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/nl.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/pl.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/pt-BR.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/ro.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/ru.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/sw.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/th.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/tr.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/uk.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/ur.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/vi.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/zh-Hans.lproj/Localizable.strings",
+    "CONFLICT (content): Merge conflict in Packages/Localization/Sources/Resources/zh-Hant.lproj/Localizable.strings"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "Packages/Localization/Sources/Resources/ar.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/bn.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/cs.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/da.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/de.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/en.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/es.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/fa.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/fil.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/fr.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/he.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/hi.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/id.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/it.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/ja.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/ko.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/ms.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/nl.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/pl.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/pt-BR.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/ro.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/ru.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/sw.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/th.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/tr.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/uk.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/ur.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/vi.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/zh-Hans.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Packages/Localization/Sources/Resources/zh-Hant.lproj/Localizable.strings",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    }
+  ],
+  "merged_tree": null
+}

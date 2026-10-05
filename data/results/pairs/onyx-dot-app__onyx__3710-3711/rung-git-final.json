@@ -1,0 +1,10 @@
+{
+  "pair_id": "onyx-dot-app__onyx__3710-3711",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7861324a385341606c23c157ce34a3964ed512b3"
+}

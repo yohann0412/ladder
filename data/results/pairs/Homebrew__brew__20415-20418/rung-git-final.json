@@ -1,0 +1,10 @@
+{
+  "pair_id": "Homebrew__brew__20415-20418",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ff77f7a89255b730e10bebb10cc0c3a4fd9f78df"
+}

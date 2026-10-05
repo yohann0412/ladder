@@ -1,0 +1,53 @@
+{
+  "pair_id": "dreadl0ck__netcap__38-41",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in decoder/stream/stream.go",
+    "CONFLICT (content): Merge conflict in go.sum",
+    "CONFLICT (content): Merge conflict in netcap.proto",
+    "CONFLICT (content): Merge conflict in types/netcap.pb.go"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "decoder/stream/stream.go",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "go.sum",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "netcap.proto",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "types/netcap.pb.go",
+      "types": [
+        "content"
+      ],
+      "regions": 48,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

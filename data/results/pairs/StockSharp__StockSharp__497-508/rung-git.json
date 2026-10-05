@@ -1,0 +1,10 @@
+{
+  "pair_id": "StockSharp__StockSharp__497-508",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "31b89f943edfc22b0f2788e3f7489e4ebdcba3c1"
+}

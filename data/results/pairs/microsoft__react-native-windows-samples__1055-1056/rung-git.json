@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__react-native-windows-samples__1055-1056",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f8e243382c9702470a8e37273f78a78019a52ad4"
+}

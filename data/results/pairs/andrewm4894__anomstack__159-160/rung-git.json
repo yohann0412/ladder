@@ -1,0 +1,10 @@
+{
+  "pair_id": "andrewm4894__anomstack__159-160",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "91c3d70c50a94a77190e23660ba9add1eb1970a1"
+}

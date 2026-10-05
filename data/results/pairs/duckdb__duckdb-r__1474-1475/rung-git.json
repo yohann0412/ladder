@@ -1,0 +1,10 @@
+{
+  "pair_id": "duckdb__duckdb-r__1474-1475",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4d7464b76d7ff4a414be21fc4bf71c4f17925024"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "NangoHQ__nango__3693-3695",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "beebddf8204102b97b31720113aa6cb246f609c7"
+}

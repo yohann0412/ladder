@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__vstest__15088-15091",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4c08941068f600a99dfd808ef3a447f57a0661c8"
+}

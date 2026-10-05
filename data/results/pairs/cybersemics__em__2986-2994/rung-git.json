@@ -1,0 +1,10 @@
+{
+  "pair_id": "cybersemics__em__2986-2994",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "54036271c2b835bc604b844d022ba26d8ed33b4b"
+}

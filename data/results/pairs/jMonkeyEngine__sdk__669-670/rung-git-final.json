@@ -1,0 +1,10 @@
+{
+  "pair_id": "jMonkeyEngine__sdk__669-670",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0db1d38817255d36cc1d2da29e13c708f8961be0"
+}

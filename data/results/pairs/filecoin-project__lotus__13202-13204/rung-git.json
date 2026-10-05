@@ -1,0 +1,10 @@
+{
+  "pair_id": "filecoin-project__lotus__13202-13204",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7363482eabc0700ed1326fc1fcec1e6bb84321f5"
+}

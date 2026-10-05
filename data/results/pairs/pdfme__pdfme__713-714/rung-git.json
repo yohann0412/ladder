@@ -1,0 +1,10 @@
+{
+  "pair_id": "pdfme__pdfme__713-714",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d8b714e86c84ac54b4582b3b9eabf72e3c8cd5ec"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "celestiaorg__celestia-app__4913-4914",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "179962f9ff61abfb9dbf4a87868e7bd043cf7ab9"
+}

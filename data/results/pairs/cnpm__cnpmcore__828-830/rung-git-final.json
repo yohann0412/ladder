@@ -1,0 +1,10 @@
+{
+  "pair_id": "cnpm__cnpmcore__828-830",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ce30d649312bdc782a285bf052c6e33ac02810d5"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "fireship-io__flamethrower__95-96",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6a56fb1d6f39c091f6b4d9e2af1948de7f74b8e2"
+}

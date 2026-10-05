@@ -1,0 +1,10 @@
+{
+  "pair_id": "marin-community__marin__1392-1400",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "41785f18cba03e4ebc4f50b992b6f34047e30087"
+}

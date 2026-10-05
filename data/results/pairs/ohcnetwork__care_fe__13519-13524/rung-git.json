@@ -1,0 +1,10 @@
+{
+  "pair_id": "ohcnetwork__care_fe__13519-13524",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5614f0fba1e156ab5a532f775cd0c73f1cf70886"
+}

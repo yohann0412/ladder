@@ -1,0 +1,10 @@
+{
+  "pair_id": "lawrencegripper__azbrowse__640-641",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "adcb5bf7eaeee9e438846fae69d6e73fe759000d"
+}

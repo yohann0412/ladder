@@ -1,0 +1,10 @@
+{
+  "pair_id": "EduMIPS64__edumips64__1364-1379",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0ce81731d56e7003cb6185ddc261560e78bdeefa"
+}

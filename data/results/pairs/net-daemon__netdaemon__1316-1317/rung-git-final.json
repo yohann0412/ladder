@@ -1,0 +1,10 @@
+{
+  "pair_id": "net-daemon__netdaemon__1316-1317",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "daf4343c7e5290d9fa90e89563cf211108217237"
+}

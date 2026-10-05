@@ -1,0 +1,10 @@
+{
+  "pair_id": "rezaakb__pinns-torch__18-19",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "11de6cc54b532a55282757ba3cbe700015ab57a0"
+}

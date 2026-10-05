@@ -1,0 +1,123 @@
+{
+  "pair_id": "tramlinehq__tramline__852-855",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 11, conflicted files: 11 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in app/controllers/integration_listeners/linear_controller.rb",
+    "CONFLICT (add/add): Merge conflict in app/libs/installations/linear/api.rb",
+    "CONFLICT (add/add): Merge conflict in app/models/linear_integration.rb",
+    "CONFLICT (content): Merge conflict in config/credentials.yml.enc",
+    "CONFLICT (content): Merge conflict in config/credentials/production.yml.enc",
+    "CONFLICT (content): Merge conflict in config/credentials/staging.yml.enc",
+    "CONFLICT (content): Merge conflict in db/schema.rb",
+    "CONFLICT (content): Merge conflict in lib/tasks/anonymize.rake",
+    "CONFLICT (add/add): Merge conflict in spec/controllers/integration_listeners/linear_controller_spec.rb",
+    "CONFLICT (add/add): Merge conflict in spec/factories/linear_integrations.rb",
+    "CONFLICT (add/add): Merge conflict in spec/models/linear_integration_spec.rb"
+  ],
+  "types": [
+    "add/add",
+    "add/add",
+    "add/add",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "add/add",
+    "add/add",
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": "app/controllers/integration_listeners/linear_controller.rb",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "app/libs/installations/linear/api.rb",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "app/models/linear_integration.rb",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "config/credentials.yml.enc",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "config/credentials/production.yml.enc",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "config/credentials/staging.yml.enc",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "db/schema.rb",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "lib/tasks/anonymize.rake",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "spec/controllers/integration_listeners/linear_controller_spec.rb",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "spec/factories/linear_integrations.rb",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "spec/models/linear_integration_spec.rb",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

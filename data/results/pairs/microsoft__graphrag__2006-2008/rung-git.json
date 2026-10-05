@@ -1,0 +1,43 @@
+{
+  "pair_id": "microsoft__graphrag__2006-2008",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in graphrag/config/defaults.py",
+    "CONFLICT (modify/delete): poetry.lock deleted in b and modified in a.  Version a of poetry.lock left in tree.",
+    "CONFLICT (content): Merge conflict in pyproject.toml"
+  ],
+  "types": [
+    "content",
+    "modify/delete",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "graphrag/config/defaults.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "poetry.lock",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "pyproject.toml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

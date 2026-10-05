@@ -1,0 +1,10 @@
+{
+  "pair_id": "specmatic__specmatic__1855-1856",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d4bd0858e6029c9d598d9e4023edc88de7d0e647"
+}

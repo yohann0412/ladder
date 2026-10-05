@@ -1,0 +1,10 @@
+{
+  "pair_id": "Azure-Samples__azure-search-openai-demo__2630-2632",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "709ffcb2c0a9acb5ecbd63ac1cf070cbab9be4a5"
+}

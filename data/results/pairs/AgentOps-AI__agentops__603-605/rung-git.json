@@ -1,0 +1,33 @@
+{
+  "pair_id": "AgentOps-AI__agentops__603-605",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in .github/workflows/python-testing.yml",
+    "CONFLICT (content): Merge conflict in tox.ini"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/python-testing.yml",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "config_ci"
+    },
+    {
+      "path": "tox.ini",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

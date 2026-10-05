@@ -1,0 +1,10 @@
+{
+  "pair_id": "GlareDB__glaredb__3513-3514",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "592236d9889356e16c9b4a3e7a1598c3cf1ed9cf"
+}

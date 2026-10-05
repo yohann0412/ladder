@@ -1,0 +1,10 @@
+{
+  "pair_id": "public-ui__kolibri__7896-7898",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5b16b9af1b0dbec82ec272963b0f89fa8dded576"
+}

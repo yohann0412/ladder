@@ -1,0 +1,10 @@
+{
+  "pair_id": "Mangaba-ai__mangaba_ai__9-10",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "29f13ac0e932800f831cf5a276b97e5f03ade7ca"
+}

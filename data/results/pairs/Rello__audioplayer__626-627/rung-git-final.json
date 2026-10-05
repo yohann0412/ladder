@@ -1,0 +1,10 @@
+{
+  "pair_id": "Rello__audioplayer__626-627",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ca01b9c722f284216bcafdff60634c1c5e5a579e"
+}

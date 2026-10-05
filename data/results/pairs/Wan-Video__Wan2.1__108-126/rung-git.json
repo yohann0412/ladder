@@ -1,0 +1,23 @@
+{
+  "pair_id": "Wan-Video__Wan2.1__108-126",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in wan/utils/fm_solvers_unipc.py"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "wan/utils/fm_solvers_unipc.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

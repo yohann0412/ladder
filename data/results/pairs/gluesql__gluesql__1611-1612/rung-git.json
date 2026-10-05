@@ -1,0 +1,10 @@
+{
+  "pair_id": "gluesql__gluesql__1611-1612",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2ba293afcfcd57ac6a20fb7a23b9e8e338ad0712"
+}

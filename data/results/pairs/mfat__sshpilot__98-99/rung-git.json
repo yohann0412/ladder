@@ -1,0 +1,10 @@
+{
+  "pair_id": "mfat__sshpilot__98-99",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0adc70ba2f40b48b07921350dccf960800729a47"
+}

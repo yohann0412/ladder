@@ -1,0 +1,10 @@
+{
+  "pair_id": "ag2ai__build-with-ag2__8-9",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b98dbff96969eb873c36ad8242e415d64b36be3b"
+}

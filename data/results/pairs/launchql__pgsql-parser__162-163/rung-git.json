@@ -1,0 +1,23 @@
+{
+  "pair_id": "launchql__pgsql-parser__162-163",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in packages/transform/src/transformers/v13-to-v14.ts"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 6,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

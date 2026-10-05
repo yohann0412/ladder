@@ -1,0 +1,43 @@
+{
+  "pair_id": "Bittu5134__ORV-Reader__1292-1302",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in chapters/cont/657.txt",
+    "CONFLICT (content): Merge conflict in chapters/cont/669.txt",
+    "CONFLICT (content): Merge conflict in chapters/cont/823.txt"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "chapters/cont/657.txt",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "chapters/cont/669.txt",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "chapters/cont/823.txt",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

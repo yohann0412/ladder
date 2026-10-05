@@ -1,0 +1,23 @@
+{
+  "pair_id": "ai-shifu__ai-shifu__341-345",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/api/flaskr/service/study/runscript.py"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/api/flaskr/service/study/runscript.py",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

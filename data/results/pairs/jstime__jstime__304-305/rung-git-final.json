@@ -1,0 +1,53 @@
+{
+  "pair_id": "jstime__jstime__304-305",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in Cargo.lock",
+    "CONFLICT (content): Merge conflict in cli/tests/test_cli.rs",
+    "CONFLICT (content): Merge conflict in core/Cargo.toml",
+    "CONFLICT (content): Merge conflict in core/src/builtins/mod.rs"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "Cargo.lock",
+      "types": [
+        "content"
+      ],
+      "regions": 10,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "cli/tests/test_cli.rs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "core/Cargo.toml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "core/src/builtins/mod.rs",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,73 @@
+{
+  "pair_id": "analogdotnow__Analog__123-129",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 6, conflicted files: 6 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in packages/api/src/providers/google-calendar.ts",
+    "CONFLICT (content): Merge conflict in packages/api/src/providers/google-calendar/utils.ts",
+    "CONFLICT (content): Merge conflict in packages/api/src/providers/interfaces.ts",
+    "CONFLICT (content): Merge conflict in packages/api/src/providers/microsoft-calendar.ts",
+    "CONFLICT (content): Merge conflict in packages/api/src/providers/microsoft-calendar/utils.ts",
+    "CONFLICT (content): Merge conflict in packages/api/src/routers/events.ts"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "packages/api/src/providers/google-calendar.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "packages/api/src/providers/google-calendar/utils.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/api/src/providers/interfaces.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/api/src/providers/microsoft-calendar.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/api/src/providers/microsoft-calendar/utils.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/api/src/routers/events.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "Osly-AI__PocketManus__2-3",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "78604190d9805ef1311d1d83f21a7c78057da442"
+}

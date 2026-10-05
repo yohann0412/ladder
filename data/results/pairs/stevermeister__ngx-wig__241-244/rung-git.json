@@ -1,0 +1,10 @@
+{
+  "pair_id": "stevermeister__ngx-wig__241-244",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "fbcd3a99d6a4bd576853724fbc302fb74857ede1"
+}

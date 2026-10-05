@@ -1,0 +1,23 @@
+{
+  "pair_id": "sqlpage__SQLPage__976-977",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/webserver/oidc.rs"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/webserver/oidc.rs",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

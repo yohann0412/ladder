@@ -1,0 +1,10 @@
+{
+  "pair_id": "theopenco__llmgateway__77-78",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "787a72d2feffe4625b0a87c194e99d38d46ee79b"
+}

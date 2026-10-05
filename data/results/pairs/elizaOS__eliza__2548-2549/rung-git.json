@@ -1,0 +1,23 @@
+{
+  "pair_id": "elizaOS__eliza__2548-2549",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in pnpm-lock.yaml"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "pnpm-lock.yaml",
+      "types": [
+        "content"
+      ],
+      "regions": 36,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

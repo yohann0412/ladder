@@ -1,0 +1,10 @@
+{
+  "pair_id": "deepmodeling__dpdata__881-888",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "eef43782b97b061df0c2aa42d4a0024068cd7d6f"
+}

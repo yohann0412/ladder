@@ -1,0 +1,10 @@
+{
+  "pair_id": "NUWCDIVNPT__stig-manager__1686-1689",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "3685731ef312cfc48c7057afb4c29a7726f4624d"
+}

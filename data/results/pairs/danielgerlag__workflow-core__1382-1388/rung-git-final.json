@@ -1,0 +1,10 @@
+{
+  "pair_id": "danielgerlag__workflow-core__1382-1388",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e798970019381c5b9f192a8987475334debf7662"
+}

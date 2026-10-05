@@ -1,0 +1,10 @@
+{
+  "pair_id": "briangu__klongpy__11-12",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7faa1aacd8cb27eaae6cb3811d2ec08ce7166121"
+}

@@ -170,3 +170,65 @@ candidate (880 same-agent, 16 cross-agent; 17,348 candidate pairs before the exc
 matching entry 7). 35 repositories had only paper pairs as candidates. The acceptance test's
 lower bound of 900 was my estimate from entry 7's 931, made before the exclusion; it was
 lowered to 890. The rule itself is unchanged.
+
+## 13. Phase 3 step 2: git rung reconciliation with the replay study
+
+All 747 paper pairs went through `ladder rung git --in-cache` at final heads (the study's
+method: merge-tree on the two PR heads, git's own merge base) and at replay heads (with the
+recorded replay merge base). No record has status `error`. Final heads exist for 732 pairs.
+
+| stratum | paper | this harness, final heads (95% Wilson) |
+|---|---|---|
+| same-agent | 119/601 = 19.8% | 113/612 = 18.5% [15.6, 21.7] |
+| cross-agent | 48/115 = 41.7% | 50/120 = 41.7% [33.2, 50.6] |
+| pooled | 167/716 = 23.3% | 163/732 = 22.3% [19.4, 25.4] |
+
+Within 5 points in both strata, as F3 requires. Conflict types at final heads: content 56.5%
+(paper 57.6%), modify/delete 32.1% (26.8%), add/add 11.2% (15.1%), of 1,325 messages (paper
+1,652).
+
+Every disagreement was classified by re-running the study's own procedure
+(`run_replay.py`: fetch both PR refs at depth 80, `git merge-tree`) today, and again with full
+history:
+
+| pair | paper | study's method today (depth 80) | full history |
+|---|---|---|---|
+| microsoft/vscode-mssql 19567-19577 | CONFLICT, 1 | conflict, 1 message | clean |
+| static-frame/static-frame 1068-1069 | CONFLICT, 1 | conflict, 1 | clean |
+| microsoft/typescript-go 1086-1093 | CONFLICT, 4 | conflict, 4 | clean |
+| microsoft/vscode-python 25103-25156 | CONFLICT, 10 | conflict, 10 | clean |
+| microsoft/onnxruntime 24931-24947 | CONFLICT, 29 | conflict, 29 | clean |
+| MetaMask/metamask-extension 34098-34489 | CONFLICT, 23 | conflict, 23 | clean |
+| Azure/azure-container-networking 3671-3672 | CONFLICT, 1 | **clean** | clean |
+| google-gemini/gemini-cli 3417-4286 | 37 messages | 37 | 1 |
+| Significant-Gravitas/AutoGPT 9958-10340 | 241 messages | 241 | 12 |
+
+- 8 of 9 disagreements are artifacts of the study's depth-80 shallow fetch: with truncated
+  history, merge-tree sees a different merge base or merge-base set and reports conflicts
+  that the full history does not have (the study's method reproduces its own numbers exactly
+  today). These 8 also explain the type-share gap (AutoGPT alone accounts for 229 of the 327
+  missing messages, most of them add/add).
+- 1 pair (azure-container-networking) is clean even with the study's own method today:
+  unexplained; possibly a transient fetch problem at the study's run.
+- No paper-CLEAN pair conflicts at final heads. 16 pairs the study could not evaluate are
+  evaluable here (11 UNAVAIL_fetch, 5 UNAVAIL_nobase): 3 of them conflict.
+
+Transition table, paper label x final heads x replay heads (pairs):
+
+| paper | final | replay | n |
+|---|---|---|---|
+| CLEAN | clean | clean | 525 |
+| CLEAN | clean | **conflicted** | 9 |
+| CLEAN | clean | unrecoverable | 15 |
+| CONFLICT | clean | clean | 6 |
+| CONFLICT | clean | unrecoverable | 1 |
+| CONFLICT | conflicted | **clean** | 7 |
+| CONFLICT | conflicted | conflicted | 144 |
+| CONFLICT | conflicted | unrecoverable | 9 |
+| UNAVAIL_fetch | clean / conflicted / unavailable | same | 10 / 1 / 14 |
+| UNAVAIL_nobase | clean / conflicted / unavailable | same | 3 / 2 / 1 |
+
+Rewinding contaminated heads changes the label of 16 pairs: 9 paper-CLEAN pairs conflict
+once the absorbed resolution is removed (their final heads merge cleanly because one side
+already contains the resolution), and 7 paper-CONFLICT pairs merge cleanly. The paper-set
+ladder set (conflicting at replay heads) is 156 pairs.

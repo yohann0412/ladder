@@ -1,0 +1,10 @@
+{
+  "pair_id": "encounter__decomp-toolkit__115-116",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "204a84e3e5d72d840b205b34dd24dd1d74defe16"
+}

@@ -1,0 +1,33 @@
+{
+  "pair_id": "ryokun6__ryos__13-14",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in api/chat-rooms.js",
+    "CONFLICT (content): Merge conflict in src/apps/chats/components/ChatMessages.tsx"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "api/chat-rooms.js",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "src/apps/chats/components/ChatMessages.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

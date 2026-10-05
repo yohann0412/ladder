@@ -1,0 +1,10 @@
+{
+  "pair_id": "DaveSkender__Stock.Indicators__1342-1343",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5a10615420d4e6d984ef231dcbb54393cd2d744c"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "nagisa77__OpenIsle__149-153",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5be25d90efe49337ff368cbb8aca53866d86d08e"
+}

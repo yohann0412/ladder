@@ -1,0 +1,10 @@
+{
+  "pair_id": "monarch-initiative__mondo__8843-8868",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5ce5bfdeddb1e910904708bd3720b3860942fef5"
+}

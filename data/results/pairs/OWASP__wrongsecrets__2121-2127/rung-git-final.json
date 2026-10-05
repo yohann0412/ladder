@@ -1,0 +1,10 @@
+{
+  "pair_id": "OWASP__wrongsecrets__2121-2127",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "9cc80eee9d02d0249c47eb55f9c1007b25f8e273"
+}

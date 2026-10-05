@@ -1,0 +1,10 @@
+{
+  "pair_id": "mostafaalagamy__Metrolist__984-985",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "8b8b9a6f9b35fcd38cc8c3b77f7edd1f53ac0469"
+}

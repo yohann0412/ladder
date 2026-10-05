@@ -1,0 +1,10 @@
+{
+  "pair_id": "vectordotdev__vector__23345-23357",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4960ea98350146ea330a976b6dc097fd78e50e90"
+}

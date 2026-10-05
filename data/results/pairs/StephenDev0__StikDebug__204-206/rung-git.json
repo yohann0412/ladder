@@ -1,0 +1,23 @@
+{
+  "pair_id": "StephenDev0__StikDebug__204-206",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in StikJIT/StikJITApp.swift"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "StikJIT/StikJITApp.swift",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,83 @@
+{
+  "pair_id": "OWASP__wrongsecrets__2123-2125",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 7, conflicted files: 7 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in .github/scripts/generate_thymeleaf_previews.py",
+    "CONFLICT (add/add): Merge conflict in src/main/java/org/owasp/wrongsecrets/challenges/docker/Challenge57.java",
+    "CONFLICT (add/add): Merge conflict in src/main/resources/explanations/challenge57.adoc",
+    "CONFLICT (add/add): Merge conflict in src/main/resources/explanations/challenge57_hint.adoc",
+    "CONFLICT (add/add): Merge conflict in src/main/resources/explanations/challenge57_reason.adoc",
+    "CONFLICT (content): Merge conflict in src/main/resources/wrong-secrets-configuration.yaml",
+    "CONFLICT (add/add): Merge conflict in src/test/java/org/owasp/wrongsecrets/challenges/docker/Challenge57Test.java"
+  ],
+  "types": [
+    "content",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "content",
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": ".github/scripts/generate_thymeleaf_previews.py",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "config_ci"
+    },
+    {
+      "path": "src/main/java/org/owasp/wrongsecrets/challenges/docker/Challenge57.java",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/main/resources/explanations/challenge57.adoc",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "src/main/resources/explanations/challenge57_hint.adoc",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "src/main/resources/explanations/challenge57_reason.adoc",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "src/main/resources/wrong-secrets-configuration.yaml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "src/test/java/org/owasp/wrongsecrets/challenges/docker/Challenge57Test.java",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

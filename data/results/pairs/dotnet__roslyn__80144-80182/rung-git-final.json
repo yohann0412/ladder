@@ -1,0 +1,10 @@
+{
+  "pair_id": "dotnet__roslyn__80144-80182",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a78ad87029f4827cc1e90baed8ceafe3aac5372d"
+}

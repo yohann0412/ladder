@@ -1,0 +1,10 @@
+{
+  "pair_id": "amplitude__Amplitude-TypeScript__1104-1105",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "42f4d8c3994deeab58c102ff940639368bdc2025"
+}

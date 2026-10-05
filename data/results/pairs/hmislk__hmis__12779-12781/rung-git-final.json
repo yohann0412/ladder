@@ -1,0 +1,10 @@
+{
+  "pair_id": "hmislk__hmis__12779-12781",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c892edee7af628584b773c043c13b7d2bd0db452"
+}

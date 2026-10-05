@@ -1,0 +1,10 @@
+{
+  "pair_id": "yangkyeongmo__mcp-server-apache-airflow__39-40",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "437af2ecb7bfa69e8ae39b04a190e068a0197174"
+}

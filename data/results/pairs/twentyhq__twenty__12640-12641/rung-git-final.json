@@ -1,0 +1,10 @@
+{
+  "pair_id": "twentyhq__twenty__12640-12641",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2cb0cd646c87271ec9f1cd72326a8346dfb90dd9"
+}

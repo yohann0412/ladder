@@ -1,0 +1,10 @@
+{
+  "pair_id": "novuhq__novu__8338-8339",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "85d7ca7e5af503220ff90e892b561a62cc80303c"
+}

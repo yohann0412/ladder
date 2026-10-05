@@ -1,0 +1,10 @@
+{
+  "pair_id": "lingodotdev__lingo.dev__700-701",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "406068c795e3bef2e7e538aed3eed060909c73b1"
+}

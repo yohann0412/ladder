@@ -1,0 +1,10 @@
+{
+  "pair_id": "econ-ark__HARK__1555-1559",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e30e7dc222787106902803b2778c9fac04d0dbbc"
+}

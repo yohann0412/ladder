@@ -1,0 +1,10 @@
+{
+  "pair_id": "espresso3389__pdfrx__382-383",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "8d3c6212be4055d87e330dcf031d7b3787b3da04"
+}

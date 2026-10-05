@@ -1,0 +1,10 @@
+{
+  "pair_id": "simonw__tools__33-34",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7c99ed3fbc28d85f7eef2712a3a1f11e5cc6289a"
+}

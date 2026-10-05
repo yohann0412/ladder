@@ -1,0 +1,10 @@
+{
+  "pair_id": "openai__openai-realtime-agents__56-58",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "526f55e8e984334a504336bdb953fe3457627ea8"
+}

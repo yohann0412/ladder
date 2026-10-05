@@ -1,0 +1,10 @@
+{
+  "pair_id": "antiwork__gumroad__114-144",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "8d3a6c5378586720b4a7a031b73d11aa028e1670"
+}

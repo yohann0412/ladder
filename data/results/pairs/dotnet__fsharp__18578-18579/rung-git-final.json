@@ -1,0 +1,23 @@
+{
+  "pair_id": "dotnet__fsharp__18578-18579",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in .github/workflows/commands.yml"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/commands.yml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

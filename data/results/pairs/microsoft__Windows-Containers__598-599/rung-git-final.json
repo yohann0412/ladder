@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__Windows-Containers__598-599",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "87ed97ea813e45c81b68c7a085a4a2fbd9ce0ebb"
+}

@@ -1,0 +1,33 @@
+{
+  "pair_id": "ishaan1013__shadow__3-4",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in apps/frontend/package.json",
+    "CONFLICT (content): Merge conflict in package-lock.json"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "apps/frontend/package.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "package-lock.json",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "thomasjjj__Telegram-Snowball-Sampling__10-11",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e316164f05ec3840d795a2233e92c8409b5b1605"
+}

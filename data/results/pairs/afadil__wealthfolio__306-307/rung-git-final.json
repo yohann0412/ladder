@@ -1,0 +1,10 @@
+{
+  "pair_id": "afadil__wealthfolio__306-307",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a13ba74fea2b4184e0d5379c2611cdcacdb79592"
+}

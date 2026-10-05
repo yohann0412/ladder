@@ -1,0 +1,10 @@
+{
+  "pair_id": "aztfmod__terraform-provider-azurecaf__301-302",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "cd9ad91f01ceaddcdf823a72942c4f138743356e"
+}

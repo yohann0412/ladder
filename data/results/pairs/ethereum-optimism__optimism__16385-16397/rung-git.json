@@ -1,0 +1,126 @@
+{
+  "pair_id": "ethereum-optimism__optimism__16385-16397",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 12, conflicted files: 11 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in op-devstack/sysgo/l2_cl.go",
+    "CONFLICT (content): Merge conflict in op-e2e/actions/helpers/l2_verifier.go",
+    "CONFLICT (content): Merge conflict in op-e2e/actions/interop/interop_test.go",
+    "CONFLICT (content): Merge conflict in op-node/rollup/derive/pipeline.go",
+    "CONFLICT (content): Merge conflict in op-node/rollup/driver/driver.go",
+    "CONFLICT (content): Merge conflict in op-node/rollup/driver/state.go",
+    "CONFLICT (content): Merge conflict in op-node/rollup/interop/iface.go",
+    "CONFLICT (content): Merge conflict in op-node/rollup/interop/indexing/system.go",
+    "CONFLICT (rename/delete): op-node/rollup/interop/managed/system_test.go renamed to op-node/rollup/interop/indexing/system_test.go in a, but deleted in b.",
+    "CONFLICT (modify/delete): op-node/rollup/interop/indexing/system_test.go deleted in b and modified in a.  Version a of op-node/rollup/interop/indexing/system_test.go left in tree.",
+    "CONFLICT (content): Merge conflict in op-program/client/tasks/deposits_block.go",
+    "CONFLICT (content): Merge conflict in op-supervisor/supervisor/backend/syncnode/rpc.go"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "rename/delete",
+    "modify/delete",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "op-devstack/sysgo/l2_cl.go",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "op-e2e/actions/helpers/l2_verifier.go",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "op-e2e/actions/interop/interop_test.go",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "op-node/rollup/derive/pipeline.go",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "op-node/rollup/driver/driver.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "op-node/rollup/driver/state.go",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "op-node/rollup/interop/iface.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "op-node/rollup/interop/indexing/system.go",
+      "types": [
+        "content"
+      ],
+      "regions": 6,
+      "category": "source"
+    },
+    {
+      "path": "op-node/rollup/interop/indexing/system_test.go",
+      "types": [
+        "rename/delete",
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "op-program/client/tasks/deposits_block.go",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "op-supervisor/supervisor/backend/syncnode/rpc.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

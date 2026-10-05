@@ -1,0 +1,10 @@
+{
+  "pair_id": "OpenHFT__Java-Thread-Affinity__138-140",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "3aa0a4d4968264549fdad5a27c2c3811836c43f8"
+}

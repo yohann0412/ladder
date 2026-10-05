@@ -1,0 +1,43 @@
+{
+  "pair_id": "jina-ai__deepsearch-ui__18-21",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in app.js",
+    "CONFLICT (content): Merge conflict in index.html",
+    "CONFLICT (content): Merge conflict in styles.css"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "app.js",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "index.html",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "styles.css",
+      "types": [
+        "content"
+      ],
+      "regions": 5,
+      "category": "other"
+    }
+  ],
+  "merged_tree": null
+}

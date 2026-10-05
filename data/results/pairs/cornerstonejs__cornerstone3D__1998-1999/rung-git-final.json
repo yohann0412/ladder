@@ -1,0 +1,10 @@
+{
+  "pair_id": "cornerstonejs__cornerstone3D__1998-1999",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "603c57ae5bdfe6254f7707424865b878253dad6e"
+}

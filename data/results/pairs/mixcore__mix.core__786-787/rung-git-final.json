@@ -1,0 +1,10 @@
+{
+  "pair_id": "mixcore__mix.core__786-787",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "fd15ea8c3acbe66b8ba2d0e2ffa5145d782c9a74"
+}

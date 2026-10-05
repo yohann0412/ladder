@@ -1,0 +1,10 @@
+{
+  "pair_id": "SpudGunMan__meshing-around__203-204",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4649302ac548dbd7cbc056532a7b5de61979057a"
+}

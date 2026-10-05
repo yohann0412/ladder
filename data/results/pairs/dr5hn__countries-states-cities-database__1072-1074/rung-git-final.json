@@ -1,0 +1,10 @@
+{
+  "pair_id": "dr5hn__countries-states-cities-database__1072-1074",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f685cd9c02caea5f0402a5c32c8ce5634dedb375"
+}

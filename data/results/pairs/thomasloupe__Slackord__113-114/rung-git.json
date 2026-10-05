@@ -1,0 +1,23 @@
+{
+  "pair_id": "thomasloupe__Slackord__113-114",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in Slackord/Classes/ImportJson.cs"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "Slackord/Classes/ImportJson.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

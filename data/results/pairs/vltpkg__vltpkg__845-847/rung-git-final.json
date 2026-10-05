@@ -1,0 +1,10 @@
+{
+  "pair_id": "vltpkg__vltpkg__845-847",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0a083f69eb05bb590ceaf95ada4630247172a3fe"
+}

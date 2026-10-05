@@ -1,0 +1,10 @@
+{
+  "pair_id": "hacs__integration__4693-4694",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "04fdfc037b60d07b40ae245833cbee4a04fbe87c"
+}

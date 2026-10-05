@@ -1,0 +1,10 @@
+{
+  "pair_id": "orbitalapi__orbital__19-21",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "614aaff2e2a129e411849d1d7b63d26b884c00a6"
+}

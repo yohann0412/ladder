@@ -1,0 +1,10 @@
+{
+  "pair_id": "copper-project__copper-rs__409-411",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "557d863c85169318abfcee1dc968075d08a594f6"
+}

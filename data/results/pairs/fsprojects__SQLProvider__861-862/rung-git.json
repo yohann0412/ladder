@@ -1,0 +1,10 @@
+{
+  "pair_id": "fsprojects__SQLProvider__861-862",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b0963302609205c97dee84d7fa83929bf325c8d3"
+}

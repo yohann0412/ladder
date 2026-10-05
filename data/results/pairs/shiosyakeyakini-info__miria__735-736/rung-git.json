@@ -1,0 +1,10 @@
+{
+  "pair_id": "shiosyakeyakini-info__miria__735-736",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5aa56978f53fb5c581077cbcd74b5e7353cd633a"
+}

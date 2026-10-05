@@ -1,0 +1,10 @@
+{
+  "pair_id": "Automattic__wp-feature-api__53-54",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b2ce26f89b1a275ab601a12200143fb1e7d4e3b0"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "maplibre__maputnik__1261-1262",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "73abe32c12c900a2045c9a120d1856600a3f03d4"
+}

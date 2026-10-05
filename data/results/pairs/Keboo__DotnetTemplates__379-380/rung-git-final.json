@@ -1,0 +1,53 @@
+{
+  "pair_id": "Keboo__DotnetTemplates__379-380",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in README.md",
+    "CONFLICT (content): Merge conflict in templates/Console/ConsoleApp/README.md",
+    "CONFLICT (content): Merge conflict in templates/Library/NuGet/README.md",
+    "CONFLICT (content): Merge conflict in templates/WPF/WpfApp/README.md"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "templates/Console/ConsoleApp/README.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "templates/Library/NuGet/README.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "templates/WPF/WpfApp/README.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "lukasoppermann__style-dictionary-utils__116-118",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "11bb5c1c7003b11a4fa0dbacddf1410cadb1ada3"
+}

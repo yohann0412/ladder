@@ -1,0 +1,10 @@
+{
+  "pair_id": "oras-project__oras__1861-1868",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e1c9bc19a711e3bf555ce46c8458bbd957a7f186"
+}

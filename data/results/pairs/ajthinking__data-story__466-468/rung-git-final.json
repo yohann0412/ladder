@@ -1,0 +1,10 @@
+{
+  "pair_id": "ajthinking__data-story__466-468",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "43d83e4997ce1edc0bc0bc05419986bd4456a14b"
+}

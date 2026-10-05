@@ -1,0 +1,10 @@
+{
+  "pair_id": "gacela-project__gacela__325-326",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b0d8881bcfbd89e1c48c1712490ea19d2723a96f"
+}

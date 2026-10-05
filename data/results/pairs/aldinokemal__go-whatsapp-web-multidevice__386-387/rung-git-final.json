@@ -1,0 +1,10 @@
+{
+  "pair_id": "aldinokemal__go-whatsapp-web-multidevice__386-387",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ec14b21bed05c3030dc1c6f83941fa2a3e10ca08"
+}

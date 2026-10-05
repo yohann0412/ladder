@@ -1,0 +1,10 @@
+{
+  "pair_id": "ShaunLawrie__PwshSpectreConsole__97-99",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "65424f25b9ab5307c3fccc2422e61126fcd54a22"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "mcpgod__cli__7-8",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "1b497adb36b2d74baf22393db4ce52f55b7f3088"
+}

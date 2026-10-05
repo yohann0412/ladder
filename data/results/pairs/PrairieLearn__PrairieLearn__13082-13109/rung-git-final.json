@@ -1,0 +1,10 @@
+{
+  "pair_id": "PrairieLearn__PrairieLearn__13082-13109",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "8d344f10a5863de239b83090043676d284cdea1a"
+}

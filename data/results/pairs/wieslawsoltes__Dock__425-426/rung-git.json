@@ -1,0 +1,10 @@
+{
+  "pair_id": "wieslawsoltes__Dock__425-426",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e7a6baa0c710e8d4a47ad4d5d895ff5e6615afaf"
+}

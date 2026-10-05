@@ -1,0 +1,10 @@
+{
+  "pair_id": "commaai__openpilot__35511-35512",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0b3f095fdaedb7aa2b48db162eaa979ee8f968ba"
+}

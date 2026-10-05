@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__generative-ai-with-javascript__120-122",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "547c500aaac238e284dc379b45ece34a12504a6a"
+}

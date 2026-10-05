@@ -1,0 +1,23 @@
+{
+  "pair_id": "lwyBZss8924d__DeepSearchAgents__9-14",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in src/agents/servers/run_fastmcp.py"
+  ],
+  "types": [
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": "src/agents/servers/run_fastmcp.py",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

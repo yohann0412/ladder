@@ -1,0 +1,23 @@
+{
+  "pair_id": "magiclabs__magic-js__873-874",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in yarn.lock"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "yarn.lock",
+      "types": [
+        "content"
+      ],
+      "regions": 227,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

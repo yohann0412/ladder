@@ -1,0 +1,10 @@
+{
+  "pair_id": "abuzuhri__Amazon-SP-API-CSharp__867-869",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "63a017c0dd0dfbde06254c35a118143aa63acd54"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "fulldecent__FDWaveformView__158-159",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in README.md"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

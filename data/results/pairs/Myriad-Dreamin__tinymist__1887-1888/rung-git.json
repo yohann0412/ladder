@@ -1,0 +1,10 @@
+{
+  "pair_id": "Myriad-Dreamin__tinymist__1887-1888",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "18e03f1d8c8904936af45bb88a4fa0adab33b7db"
+}

@@ -1,0 +1,33 @@
+{
+  "pair_id": "groupultra__telegram-search__269-287",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/components/layout/SidebarSelector.vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/layouts/default.vue"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "packages/stage-ui/src/components/layout/SidebarSelector.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/layouts/default.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 8,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

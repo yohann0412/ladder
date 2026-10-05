@@ -1,0 +1,10 @@
+{
+  "pair_id": "hotovo__aider-desk__159-163",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "dc57c2bf0128f377ad144d3e309a5542ee83f4d1"
+}

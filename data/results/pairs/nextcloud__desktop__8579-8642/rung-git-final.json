@@ -1,0 +1,10 @@
+{
+  "pair_id": "nextcloud__desktop__8579-8642",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "10bef645cee667c7c932395ce424d859757f8b8d"
+}

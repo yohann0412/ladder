@@ -1,0 +1,10 @@
+{
+  "pair_id": "CoreWCF__CoreWCF__1606-1612",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "442ba09af29b94edf82aa6d4fd28e09597eeaf1d"
+}

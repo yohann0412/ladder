@@ -1,0 +1,10 @@
+{
+  "pair_id": "openfoodfacts__openfoodfacts-server__12327-12386",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "8368cf25c401520654baf0fbfbeede4b04ce0b77"
+}

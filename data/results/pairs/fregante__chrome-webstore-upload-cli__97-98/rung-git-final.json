@@ -1,0 +1,10 @@
+{
+  "pair_id": "fregante__chrome-webstore-upload-cli__97-98",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4778f2d6409c267460fa610375b31c0d5259f7b7"
+}

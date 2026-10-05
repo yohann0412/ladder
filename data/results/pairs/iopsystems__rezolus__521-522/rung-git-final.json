@@ -1,0 +1,10 @@
+{
+  "pair_id": "iopsystems__rezolus__521-522",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a74e7f5611bb7c307147986c82532bf84b8a43b3"
+}

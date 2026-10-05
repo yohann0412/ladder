@@ -1,0 +1,10 @@
+{
+  "pair_id": "mendableai__firecrawl-mcp-server__72-73",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2a64aab0c51aae9fc5efa3c1dc6d67ce13d026a3"
+}

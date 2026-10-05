@@ -1,0 +1,10 @@
+{
+  "pair_id": "TheAlgorithms__R__188-190",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "3c87398043a91b092c238d2c0925f860041a0b95"
+}

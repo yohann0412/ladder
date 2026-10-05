@@ -1,0 +1,10 @@
+{
+  "pair_id": "langchain-ai__langchain__32149-32153",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "07253acd96adaeac7c2ca8b86adb6d27dd93d3a7"
+}

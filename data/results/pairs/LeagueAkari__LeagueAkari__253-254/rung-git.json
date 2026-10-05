@@ -1,0 +1,10 @@
+{
+  "pair_id": "LeagueAkari__LeagueAkari__253-254",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0013873530f4ede3b198e554e10cb347392d6d7e"
+}

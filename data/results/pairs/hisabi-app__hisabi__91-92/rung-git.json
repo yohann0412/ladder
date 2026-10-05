@@ -1,0 +1,10 @@
+{
+  "pair_id": "hisabi-app__hisabi__91-92",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b51d3944b4ad23b614326516882e06c08e7a6570"
+}

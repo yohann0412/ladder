@@ -1,0 +1,10 @@
+{
+  "pair_id": "tomhrr__cosh__167-168",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "01268a0b966e29c067430a9c3f3dd1470ee297fa"
+}

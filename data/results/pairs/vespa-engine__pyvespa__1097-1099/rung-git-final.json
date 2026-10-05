@@ -1,0 +1,10 @@
+{
+  "pair_id": "vespa-engine__pyvespa__1097-1099",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "aefb2b4a0a727dab4f0937aaac2aaa8b2847f938"
+}

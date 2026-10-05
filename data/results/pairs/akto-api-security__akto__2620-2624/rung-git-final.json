@@ -1,0 +1,10 @@
+{
+  "pair_id": "akto-api-security__akto__2620-2624",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "248adce7061b559fb2e7548caff2a5b80e58f82d"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "LayerZero-Labs__devtools__1504-1506",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d61d608be1f2d22b4881b04252fc1237020a8a87"
+}

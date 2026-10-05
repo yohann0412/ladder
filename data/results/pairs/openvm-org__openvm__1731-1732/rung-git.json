@@ -1,0 +1,10 @@
+{
+  "pair_id": "openvm-org__openvm__1731-1732",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "fc5c8a63a8d3e6d22c9db8a4d8eb6781344b142c"
+}

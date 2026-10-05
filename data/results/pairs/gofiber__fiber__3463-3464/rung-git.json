@@ -1,0 +1,10 @@
+{
+  "pair_id": "gofiber__fiber__3463-3464",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0e0ee02075b02f37cff3be54fda62955da19132d"
+}

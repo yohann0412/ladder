@@ -1,0 +1,10 @@
+{
+  "pair_id": "sunithvs__devb.io__98-99",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4a78c5d99806a6073e0f01edb572b86ba8af33b4"
+}

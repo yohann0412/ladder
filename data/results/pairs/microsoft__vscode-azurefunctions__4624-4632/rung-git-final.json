@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__vscode-azurefunctions__4624-4632",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0e9da4ef7e020829ef31bbd1c108795425236a42"
+}

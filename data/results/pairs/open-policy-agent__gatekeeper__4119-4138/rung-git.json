@@ -1,0 +1,10 @@
+{
+  "pair_id": "open-policy-agent__gatekeeper__4119-4138",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5735b087737c13ffe1e54f0ff19da41fdcbece57"
+}

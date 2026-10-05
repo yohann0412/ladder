@@ -1,0 +1,10 @@
+{
+  "pair_id": "oraios__serena__167-168",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d2e7b21d99fe21e7f478ebccb07dffd012753054"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "safe-global__safe-wallet-monorepo__5920-5944",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6d8e0488e56e2a34424d6857ae7885665cef256b"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "JuliaSymbolics__Symbolics.jl__1598-1599",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "53b13d5441d2dbc5e73704223784d5cc2e0e2e2f"
+}

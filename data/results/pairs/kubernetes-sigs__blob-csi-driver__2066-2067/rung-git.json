@@ -1,0 +1,10 @@
+{
+  "pair_id": "kubernetes-sigs__blob-csi-driver__2066-2067",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "46442571b5ff8859f7475aa9c2e73cd6fde6beea"
+}

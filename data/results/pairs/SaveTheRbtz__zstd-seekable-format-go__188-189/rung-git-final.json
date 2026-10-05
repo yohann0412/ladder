@@ -1,0 +1,10 @@
+{
+  "pair_id": "SaveTheRbtz__zstd-seekable-format-go__188-189",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6b1f0cfc83bb1727a60ad751c9d9279654e7eb2d"
+}

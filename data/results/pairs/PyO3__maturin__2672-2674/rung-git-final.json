@@ -1,0 +1,10 @@
+{
+  "pair_id": "PyO3__maturin__2672-2674",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c22b17c8c4b01f859fc21582bab581edaaacd1db"
+}

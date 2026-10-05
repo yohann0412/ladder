@@ -1,0 +1,10 @@
+{
+  "pair_id": "Azure__azure-cli-extensions__8771-8779",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "9d4b2f0f10cc5ac26d30957fdaa15181ced4e5a6"
+}

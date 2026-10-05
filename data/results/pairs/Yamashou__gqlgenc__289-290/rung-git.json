@@ -1,0 +1,10 @@
+{
+  "pair_id": "Yamashou__gqlgenc__289-290",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f38609004d8275583b13e00646b8c092d1b16c27"
+}

@@ -1,0 +1,43 @@
+{
+  "pair_id": "Cap-go__capgo__1012-1036",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in bun.lockb",
+    "CONFLICT (content): Merge conflict in package.json",
+    "CONFLICT (content): Merge conflict in supabase/functions/_backend/plugins/channel_self.ts"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "bun.lockb",
+      "types": [
+        "content"
+      ],
+      "regions": 0,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "package.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "supabase/functions/_backend/plugins/channel_self.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

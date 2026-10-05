@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__graphrag__1944-1956",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6c08e4c2bbb92f5cec28107ebab366cddf3fbd60"
+}

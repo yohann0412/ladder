@@ -1,0 +1,10 @@
+{
+  "pair_id": "seasonedcc__remix-forms__306-307",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "94d0105be4c975cac6ba9dcb07a7d400c4a9166c"
+}

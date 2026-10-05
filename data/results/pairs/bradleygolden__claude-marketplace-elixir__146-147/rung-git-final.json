@@ -1,0 +1,23 @@
+{
+  "pair_id": "bradleygolden__claude-marketplace-elixir__146-147",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in lib/claude/plugins/phoenix.ex"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "lib/claude/plugins/phoenix.ex",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

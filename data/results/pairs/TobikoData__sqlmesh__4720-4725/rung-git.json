@@ -1,0 +1,10 @@
+{
+  "pair_id": "TobikoData__sqlmesh__4720-4725",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "1ff49e782ef063e7d218a3f3a5d07521c783f3e3"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "kavishdevar__librepods__177-179",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e523d6c97a011e4718aae0c70e9c135c345e3ace"
+}

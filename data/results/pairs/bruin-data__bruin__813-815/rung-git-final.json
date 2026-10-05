@@ -1,0 +1,10 @@
+{
+  "pair_id": "bruin-data__bruin__813-815",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6641ee3500e0426e4447c040c644413c7b766a07"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "docling-project__docling__1925-1926",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b4a740ff70ef29b6681b290ade74f210c2ed5f80"
+}

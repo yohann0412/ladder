@@ -1,0 +1,10 @@
+{
+  "pair_id": "oss-apps__split-pro__260-262",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "9e992aa345c3f65dbc2beae2a21449451bdd949e"
+}

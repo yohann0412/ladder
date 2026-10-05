@@ -1,0 +1,10 @@
+{
+  "pair_id": "gopasspw__gopass__3231-3232",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "dd6214f022c98a13fd6df4454439db12095c6cc2"
+}

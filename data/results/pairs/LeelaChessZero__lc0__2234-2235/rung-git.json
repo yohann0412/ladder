@@ -1,0 +1,10 @@
+{
+  "pair_id": "LeelaChessZero__lc0__2234-2235",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "fd2923f778897714f740b1b02f07e02cf45563bc"
+}

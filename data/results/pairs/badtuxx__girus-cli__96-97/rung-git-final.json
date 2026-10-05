@@ -1,0 +1,10 @@
+{
+  "pair_id": "badtuxx__girus-cli__96-97",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "bc3de84b9353591ff3e2f7ed9a4702f834d2ca3e"
+}

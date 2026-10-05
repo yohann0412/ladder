@@ -1,0 +1,10 @@
+{
+  "pair_id": "dotnet__dev-proxy__1267-1274",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0402282be74b2ffa9bcf8d7ff4ba6cf00a5e7560"
+}

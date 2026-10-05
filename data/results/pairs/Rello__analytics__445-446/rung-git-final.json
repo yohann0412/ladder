@@ -1,0 +1,10 @@
+{
+  "pair_id": "Rello__analytics__445-446",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c87183eb18f3a6ffe70fe143395433428f37e5d4"
+}

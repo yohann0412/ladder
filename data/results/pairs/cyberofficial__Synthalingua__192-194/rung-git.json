@@ -1,0 +1,10 @@
+{
+  "pair_id": "cyberofficial__Synthalingua__192-194",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "36689fd1a16183bda92a0378278ac0d9d9754f12"
+}

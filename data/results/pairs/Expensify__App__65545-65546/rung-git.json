@@ -1,0 +1,10 @@
+{
+  "pair_id": "Expensify__App__65545-65546",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6c7b9a777f7284e80c9c9c74d99523c94287ed49"
+}

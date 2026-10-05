@@ -1,0 +1,10 @@
+{
+  "pair_id": "RevenueCat__purchases-android__2463-2490",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "eb13a35a07da6b8b88fd45316519f772690dbd5e"
+}

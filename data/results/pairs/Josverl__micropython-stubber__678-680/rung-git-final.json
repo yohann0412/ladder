@@ -1,0 +1,10 @@
+{
+  "pair_id": "Josverl__micropython-stubber__678-680",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "db9c29f77d8f655021763140bc0eca98ae2c1852"
+}

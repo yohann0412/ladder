@@ -1,0 +1,10 @@
+{
+  "pair_id": "coder__coder__17940-17971",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ca51b526e0cfb1a0ac9a7ba97043ee846683b175"
+}

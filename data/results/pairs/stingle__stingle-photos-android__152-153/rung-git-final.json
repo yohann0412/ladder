@@ -1,0 +1,10 @@
+{
+  "pair_id": "stingle__stingle-photos-android__152-153",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6c58015c0bc099112d79ff6ade0c5d0fd1a6a4cd"
+}

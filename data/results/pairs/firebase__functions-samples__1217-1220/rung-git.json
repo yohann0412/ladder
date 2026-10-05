@@ -1,0 +1,10 @@
+{
+  "pair_id": "firebase__functions-samples__1217-1220",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0af35a12d86b6127f0ebc77dbc3ba8b9acabd2c5"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "vitejs__vite__20460-20468",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7a276d33f2da9d6b49b4696f276a31ee7c5083cf"
+}

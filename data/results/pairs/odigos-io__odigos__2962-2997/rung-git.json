@@ -1,0 +1,43 @@
+{
+  "pair_id": "odigos-io__odigos__2962-2997",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in instrumentor/controllers/agentenabled/instrumentationconfig_controller.go",
+    "CONFLICT (content): Merge conflict in instrumentor/controllers/agentenabled/rollout/rollout.go",
+    "CONFLICT (content): Merge conflict in instrumentor/controllers/agentenabled/sync.go"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "instrumentor/controllers/agentenabled/instrumentationconfig_controller.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/rollout/rollout.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/sync.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

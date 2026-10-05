@@ -1,0 +1,10 @@
+{
+  "pair_id": "adrgs__requestrepo__65-66",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "bb9d64124fc1666251ad0725d3d0a1d4731e4c87"
+}

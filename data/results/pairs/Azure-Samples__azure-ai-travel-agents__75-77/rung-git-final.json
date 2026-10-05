@@ -1,0 +1,10 @@
+{
+  "pair_id": "Azure-Samples__azure-ai-travel-agents__75-77",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "3ca6d076f38888c062e68d9463e1e559a7a8b921"
+}

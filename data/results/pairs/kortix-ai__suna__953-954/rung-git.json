@@ -1,0 +1,10 @@
+{
+  "pair_id": "kortix-ai__suna__953-954",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ce64901aa5d1cd8c8a1beda0ef82d7e429269a07"
+}

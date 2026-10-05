@@ -1,0 +1,10 @@
+{
+  "pair_id": "fredrikburmester__streamystats__187-189",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "9c1f182affc6107cfa35c60f410db523d2204f13"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "Pikachuxxxx__Razix__424-426",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "8037089aa79e9b689e12272802fa4d9f371e52a3"
+}

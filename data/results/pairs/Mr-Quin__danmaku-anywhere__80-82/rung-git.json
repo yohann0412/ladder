@@ -1,0 +1,10 @@
+{
+  "pair_id": "Mr-Quin__danmaku-anywhere__80-82",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "feaf651369320ff2454455036d7df2548ca8116f"
+}

@@ -1,0 +1,33 @@
+{
+  "pair_id": "near__nearcore__13126-13127",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in chain/chain/src/types.rs",
+    "CONFLICT (content): Merge conflict in core/primitives/src/utils.rs"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "chain/chain/src/types.rs",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "core/primitives/src/utils.rs",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

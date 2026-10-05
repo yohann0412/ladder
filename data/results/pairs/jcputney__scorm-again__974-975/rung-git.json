@@ -1,0 +1,10 @@
+{
+  "pair_id": "jcputney__scorm-again__974-975",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "16a4d3a5f0b980de9bb2bcce2dabde40191129f8"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "copper-project__copper-rs__409-410",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in core/cu29_runtime/src/curuntime.rs"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "core/cu29_runtime/src/curuntime.rs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

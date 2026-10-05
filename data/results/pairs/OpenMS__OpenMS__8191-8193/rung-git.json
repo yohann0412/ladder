@@ -1,0 +1,10 @@
+{
+  "pair_id": "OpenMS__OpenMS__8191-8193",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0ccc54a2f0812409e07ba3e8cadead45ec3fee73"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "abi__screenshot-to-code__512-513",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e21e3b89dcbdf201b37c75d466f68c2cec606a3b"
+}

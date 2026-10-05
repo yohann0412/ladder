@@ -1,0 +1,10 @@
+{
+  "pair_id": "enviodev__hyperindex__579-608",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "284176f6ca2f51b960ce6910b41d0d989a26e8cc"
+}

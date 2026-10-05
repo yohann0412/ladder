@@ -1,0 +1,23 @@
+{
+  "pair_id": "Automattic__wordpress-mcp__29-30",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in includes/Core/McpProxyRoutes.php"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "includes/Core/McpProxyRoutes.php",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "dotnet__docs-aspire__3710-3711",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ecf0e3e2ab790c8ae1ae03b25bf279ddcc071f76"
+}

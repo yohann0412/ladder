@@ -1,0 +1,33 @@
+{
+  "pair_id": "go-vikunja__vikunja__868-871",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in frontend/src/components/base/BaseButton.story.vue",
+    "CONFLICT (content): Merge conflict in frontend/src/components/base/Expandable.vue"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "frontend/src/components/base/BaseButton.story.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "frontend/src/components/base/Expandable.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 8,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

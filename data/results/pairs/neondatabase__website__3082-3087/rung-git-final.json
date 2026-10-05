@@ -1,0 +1,10 @@
+{
+  "pair_id": "neondatabase__website__3082-3087",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ba5141fd9c4796085957eba8d16a414f94afdee3"
+}

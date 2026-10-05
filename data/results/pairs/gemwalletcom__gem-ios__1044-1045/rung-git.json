@@ -1,0 +1,10 @@
+{
+  "pair_id": "gemwalletcom__gem-ios__1044-1045",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "52681d1e71f852a2f3be08f5f577044826933b40"
+}

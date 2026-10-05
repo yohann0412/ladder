@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__agent-framework__1154-1202",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0087a1321656ee1c1badc172898840b9c9466d95"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "tinyplex__tinybase__250-251",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5fea77f998004a06c27bfd41a30be5d423d0249e"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "cloudwego__pilota__314-316",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5afa9fb255d088944a478b87fc420585ad6114a0"
+}

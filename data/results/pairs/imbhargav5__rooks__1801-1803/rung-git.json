@@ -1,0 +1,10 @@
+{
+  "pair_id": "imbhargav5__rooks__1801-1803",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "fe715f5066d243e275ab4b0d2a2e32f213b73336"
+}

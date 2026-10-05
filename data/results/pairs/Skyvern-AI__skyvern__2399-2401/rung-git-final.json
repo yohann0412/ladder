@@ -1,0 +1,10 @@
+{
+  "pair_id": "Skyvern-AI__skyvern__2399-2401",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "15a72047512d5cd9c0ee5140a756564c7f70604f"
+}

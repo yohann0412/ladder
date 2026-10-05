@@ -1,0 +1,43 @@
+{
+  "pair_id": "laiso__askrepo__8-9",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in .github/workflows/ci.yml",
+    "CONFLICT (modify/delete): .vscode/launch.json deleted in b and modified in a.  Version a of .vscode/launch.json left in tree.",
+    "CONFLICT (modify/delete): .vscode/tasks.json deleted in b and modified in a.  Version a of .vscode/tasks.json left in tree."
+  ],
+  "types": [
+    "add/add",
+    "modify/delete",
+    "modify/delete"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": ".vscode/launch.json",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "config_ci"
+    },
+    {
+      "path": ".vscode/tasks.json",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

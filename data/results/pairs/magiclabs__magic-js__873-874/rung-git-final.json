@@ -1,0 +1,93 @@
+{
+  "pair_id": "magiclabs__magic-js__873-874",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 8, conflicted files: 8 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in package.json",
+    "CONFLICT (content): Merge conflict in packages/@magic-sdk/provider/test/spec/modules/user/showSettings.spec.ts",
+    "CONFLICT (content): Merge conflict in packages/@magic-sdk/react-native-bare/package.json",
+    "CONFLICT (content): Merge conflict in packages/@magic-sdk/react-native-bare/test/setup.ts",
+    "CONFLICT (content): Merge conflict in packages/@magic-sdk/react-native-bare/test/spec/react-native-webview-controller/_post.spec.ts",
+    "CONFLICT (content): Merge conflict in packages/@magic-sdk/react-native-expo/package.json",
+    "CONFLICT (content): Merge conflict in packages/@magic-sdk/react-native-expo/test/setup.ts",
+    "CONFLICT (content): Merge conflict in yarn.lock"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "package.json",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "packages/@magic-sdk/provider/test/spec/modules/user/showSettings.spec.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/@magic-sdk/react-native-bare/package.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "packages/@magic-sdk/react-native-bare/test/setup.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/@magic-sdk/react-native-bare/test/spec/react-native-webview-controller/_post.spec.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "packages/@magic-sdk/react-native-expo/package.json",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "packages/@magic-sdk/react-native-expo/test/setup.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "yarn.lock",
+      "types": [
+        "content"
+      ],
+      "regions": 103,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

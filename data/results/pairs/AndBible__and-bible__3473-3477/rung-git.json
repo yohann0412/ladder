@@ -1,0 +1,10 @@
+{
+  "pair_id": "AndBible__and-bible__3473-3477",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "fd7ecd82f1ee4a751d0fdd4e8f40461f330034df"
+}

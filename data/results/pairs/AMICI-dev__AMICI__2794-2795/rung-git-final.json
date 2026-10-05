@@ -1,0 +1,23 @@
+{
+  "pair_id": "AMICI-dev__AMICI__2794-2795",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in tests/benchmark-models/test_petab_benchmark_jax.py"
+  ],
+  "types": [
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": "tests/benchmark-models/test_petab_benchmark_jax.py",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

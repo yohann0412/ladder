@@ -1,0 +1,10 @@
+{
+  "pair_id": "elsa-workflows__elsa-core__6654-6655",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7b22046c445a7deedc74e4e2d442fd461e8f61ec"
+}

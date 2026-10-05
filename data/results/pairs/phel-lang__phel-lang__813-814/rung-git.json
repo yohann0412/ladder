@@ -1,0 +1,10 @@
+{
+  "pair_id": "phel-lang__phel-lang__813-814",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5f8549341abab4c0d8e5a2a7cfec57b0f068aa5a"
+}

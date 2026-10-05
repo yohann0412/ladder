@@ -1,0 +1,10 @@
+{
+  "pair_id": "proximafusion__vmecpp__340-341",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4c34af5ab2e3885f2228adc48bed64f9ed7edfaa"
+}

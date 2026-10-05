@@ -1,0 +1,43 @@
+{
+  "pair_id": "vespa-engine__pyvespa__1097-1099",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in vespa/package.py",
+    "CONFLICT (content): Merge conflict in vespa/templates/macros.txt",
+    "CONFLICT (content): Merge conflict in vespa/templates/schema.txt"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "vespa/package.py",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "vespa/templates/macros.txt",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "vespa/templates/schema.txt",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__playwright__36012-36014",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "51311b944398f0623431736990fdf3c82b084faf"
+}

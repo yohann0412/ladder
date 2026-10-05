@@ -1,0 +1,10 @@
+{
+  "pair_id": "assaydepot__red-candle__26-27",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "850a2649c384e9febda67129e36d0f579095b270"
+}

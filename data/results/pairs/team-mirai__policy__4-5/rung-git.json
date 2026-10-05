@@ -1,0 +1,10 @@
+{
+  "pair_id": "team-mirai__policy__4-5",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "177c46fa7e867ccdf2e7612983aae280948de136"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "groupultra__telegram-search__269-287",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/layouts/default.vue"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "packages/stage-ui/src/layouts/default.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 7,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

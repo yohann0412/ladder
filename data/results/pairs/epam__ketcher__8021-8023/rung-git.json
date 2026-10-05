@@ -1,0 +1,10 @@
+{
+  "pair_id": "epam__ketcher__8021-8023",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "83f2ed1b568e6ec05734986aa9be9879f6fb319e"
+}

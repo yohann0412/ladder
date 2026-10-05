@@ -1,0 +1,33 @@
+{
+  "pair_id": "dyoshikawa__rulesync__189-190",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/core/importer.test.ts",
+    "CONFLICT (content): Merge conflict in src/core/importer.ts"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/core/importer.test.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 5,
+      "category": "source"
+    },
+    {
+      "path": "src/core/importer.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "FerretDB__FerretDB__5183-5356",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c4db292ab4e73704cf8e58227ed0bf3ac46852bd"
+}

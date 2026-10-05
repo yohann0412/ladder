@@ -1,0 +1,33 @@
+{
+  "pair_id": "vltpkg__vltpkg__1060-1061",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in src/cli-sdk/src/commands/ci.ts",
+    "CONFLICT (content): Merge conflict in src/graph/src/install.ts"
+  ],
+  "types": [
+    "add/add",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/cli-sdk/src/commands/ci.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/graph/src/install.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

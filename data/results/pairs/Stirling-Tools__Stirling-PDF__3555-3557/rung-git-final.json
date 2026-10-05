@@ -1,0 +1,10 @@
+{
+  "pair_id": "Stirling-Tools__Stirling-PDF__3555-3557",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a42b6964a8f4ae3a24f067824b5cfb55a51198c1"
+}

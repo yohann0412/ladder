@@ -1,0 +1,10 @@
+{
+  "pair_id": "airbytehq__PyAirbyte__582-587",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "cac899f3c1c2f034686c3f47d7c9c42890b12e27"
+}

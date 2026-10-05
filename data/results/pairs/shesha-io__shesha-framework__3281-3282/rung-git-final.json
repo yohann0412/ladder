@@ -1,0 +1,10 @@
+{
+  "pair_id": "shesha-io__shesha-framework__3281-3282",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f0a8a2e2bd3c18e8f3119753a747a4c4ad84d8fc"
+}

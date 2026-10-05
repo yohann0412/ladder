@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__PSRule__3018-3020",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "df35466e530546ea48ebd478dfa7eede9898bce2"
+}

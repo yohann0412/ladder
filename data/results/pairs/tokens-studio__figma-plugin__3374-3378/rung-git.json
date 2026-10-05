@@ -1,0 +1,10 @@
+{
+  "pair_id": "tokens-studio__figma-plugin__3374-3378",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "fa5a636d61715ed836a3f99f35ba762f7e8bde29"
+}

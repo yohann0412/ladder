@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__autogen__6563-6565",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e8a251e48101cb7610b97ebbafddff090ecb70d7"
+}

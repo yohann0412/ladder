@@ -1,0 +1,10 @@
+{
+  "pair_id": "rsyslog__rsyslog__5665-5668",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "885eb0030f4d4c0e4c1019988d99ef375c7a0eda"
+}

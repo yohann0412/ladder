@@ -1,0 +1,10 @@
+{
+  "pair_id": "HumanSignal__label-studio__7850-7861",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "18ee1ee3a99d736033ca297810fe0014a381768d"
+}

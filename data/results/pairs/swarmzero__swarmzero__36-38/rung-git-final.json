@@ -1,0 +1,10 @@
+{
+  "pair_id": "swarmzero__swarmzero__36-38",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "9ad911c4e6ac8ffc5a4edcdb1e56a7c2b8196160"
+}

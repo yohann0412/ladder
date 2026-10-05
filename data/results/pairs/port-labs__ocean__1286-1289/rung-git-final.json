@@ -1,0 +1,10 @@
+{
+  "pair_id": "port-labs__ocean__1286-1289",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f815578b36b6e910f0bf2ac999f5e1dbb8d15669"
+}

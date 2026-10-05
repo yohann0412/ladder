@@ -1,0 +1,10 @@
+{
+  "pair_id": "MitchTalmadge__AMP-dockerized__238-240",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0350d4b45555a36a1bf7276f955d9445fbb68643"
+}

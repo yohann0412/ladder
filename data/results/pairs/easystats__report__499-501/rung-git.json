@@ -1,0 +1,10 @@
+{
+  "pair_id": "easystats__report__499-501",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ca2fc8f73d8d332bdf2d10e8036e0ba76eba179a"
+}

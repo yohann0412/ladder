@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__vscode-jupyter__16724-16725",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "45306d4f72aaaab953f42c75322bef62250ec1c6"
+}

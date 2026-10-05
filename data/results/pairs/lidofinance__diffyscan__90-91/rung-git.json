@@ -1,0 +1,10 @@
+{
+  "pair_id": "lidofinance__diffyscan__90-91",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c4cb8f37e276cb7da6c162ab08b8b30f3594ff44"
+}

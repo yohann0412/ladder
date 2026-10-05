@@ -1,0 +1,10 @@
+{
+  "pair_id": "boldsoftware__sketch__111-112",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ce2dd2f1da3a052f84f9e03f4ad67915a17612d5"
+}

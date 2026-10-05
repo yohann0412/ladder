@@ -1,0 +1,23 @@
+{
+  "pair_id": "livingbio__typed-ffmpeg__742-744",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/ffmpeg/compile/compile_cli.py"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/ffmpeg/compile/compile_cli.py",
+      "types": [
+        "content"
+      ],
+      "regions": 11,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

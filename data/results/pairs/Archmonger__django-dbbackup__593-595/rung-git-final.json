@@ -1,0 +1,10 @@
+{
+  "pair_id": "Archmonger__django-dbbackup__593-595",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2a0f5a2a2654a18e0604c94c903eaf6cd4f10618"
+}

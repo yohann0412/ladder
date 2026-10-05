@@ -1,0 +1,10 @@
+{
+  "pair_id": "fulldecent__FDWaveformView__158-159",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0c6d30a1c30bb1fa9d17c2eca3bac478055a50e3"
+}

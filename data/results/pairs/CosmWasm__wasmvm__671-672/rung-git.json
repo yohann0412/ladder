@@ -1,0 +1,10 @@
+{
+  "pair_id": "CosmWasm__wasmvm__671-672",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "76cdd9397e34bc4e830cbe0722db270be52d76de"
+}

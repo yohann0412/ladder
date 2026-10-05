@@ -1,0 +1,10 @@
+{
+  "pair_id": "rockbite__localforge__26-27",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "de47485d213e843b53b102945c1d9916b9e06c59"
+}

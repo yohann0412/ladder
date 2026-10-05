@@ -1,0 +1,103 @@
+{
+  "pair_id": "tegnike__aituber-kit__331-332",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 9, conflicted files: 9 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in locales/ar/translation.json",
+    "CONFLICT (content): Merge conflict in locales/de/translation.json",
+    "CONFLICT (content): Merge conflict in locales/es/translation.json",
+    "CONFLICT (content): Merge conflict in locales/fr/translation.json",
+    "CONFLICT (content): Merge conflict in locales/hi/translation.json",
+    "CONFLICT (content): Merge conflict in locales/it/translation.json",
+    "CONFLICT (content): Merge conflict in locales/pl/translation.json",
+    "CONFLICT (content): Merge conflict in locales/pt/translation.json",
+    "CONFLICT (content): Merge conflict in locales/ru/translation.json"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "locales/ar/translation.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "locales/de/translation.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "locales/es/translation.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "locales/fr/translation.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "locales/hi/translation.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "locales/it/translation.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "locales/pl/translation.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "locales/pt/translation.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "locales/ru/translation.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

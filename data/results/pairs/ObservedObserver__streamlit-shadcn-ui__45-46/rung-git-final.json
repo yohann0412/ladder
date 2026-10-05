@@ -1,0 +1,10 @@
+{
+  "pair_id": "ObservedObserver__streamlit-shadcn-ui__45-46",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "944bd2461a3af014a434e9776a5e555a8cc1998d"
+}

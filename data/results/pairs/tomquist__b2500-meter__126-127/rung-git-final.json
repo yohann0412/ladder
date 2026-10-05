@@ -1,0 +1,10 @@
+{
+  "pair_id": "tomquist__b2500-meter__126-127",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "42f06abe9c19dfdac456f32ea6f26d5fda4c0e92"
+}

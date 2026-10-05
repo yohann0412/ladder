@@ -1,0 +1,33 @@
+{
+  "pair_id": "0xfurai__peekaping__91-92",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in apps/server/src/modules/notification_channel/listener.go",
+    "CONFLICT (content): Merge conflict in apps/web/src/app/notification-channels/components/create-edit-notification-channel.tsx"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "apps/server/src/modules/notification_channel/listener.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "apps/web/src/app/notification-channels/components/create-edit-notification-channel.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

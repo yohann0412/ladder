@@ -1,0 +1,10 @@
+{
+  "pair_id": "UI5__webcomponents__12217-12220",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ce418c0bd29c95adc5b1f531ec4906cd566c0da8"
+}

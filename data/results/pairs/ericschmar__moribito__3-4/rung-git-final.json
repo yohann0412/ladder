@@ -1,0 +1,10 @@
+{
+  "pair_id": "ericschmar__moribito__3-4",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "bf37f40e5ec2768e7df1686d49b137bda387067d"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "onlook-dev__onlook__938-943",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "02afb8d168c9bd3a12baabcf704b55497a1be5ce"
+}

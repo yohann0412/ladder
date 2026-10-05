@@ -1,0 +1,23 @@
+{
+  "pair_id": "cloudposse__atmos__1310-1311",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in AGENTS.md"
+  ],
+  "types": [
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

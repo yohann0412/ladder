@@ -1,0 +1,10 @@
+{
+  "pair_id": "hazzik__DelegateDecompiler__268-270",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ffbdd21d182b531d1319e4b7e11096df470fb110"
+}

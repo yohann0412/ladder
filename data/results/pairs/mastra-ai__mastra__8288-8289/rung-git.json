@@ -1,0 +1,10 @@
+{
+  "pair_id": "mastra-ai__mastra__8288-8289",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "1688bf791838bdab99cb73871480850aacaa8168"
+}

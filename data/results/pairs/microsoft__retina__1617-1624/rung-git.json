@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__retina__1617-1624",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e2c1d5a978d202409f358efd8b4bcda26a81313d"
+}

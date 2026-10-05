@@ -1,0 +1,23 @@
+{
+  "pair_id": "LuxDL__Lux.jl__1497-1498",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in lib/MLDataDevices/Project.toml"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "lib/MLDataDevices/Project.toml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

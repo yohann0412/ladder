@@ -1,0 +1,23 @@
+{
+  "pair_id": "bentoml__BentoML__5176-5194",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/_bentoml_impl/frameworks/importer.py"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/_bentoml_impl/frameworks/importer.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "google__adk-docs__612-613",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e7a9079b0f5a406a36c44e249bdb2957a10a943c"
+}

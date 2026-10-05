@@ -1,0 +1,10 @@
+{
+  "pair_id": "sysadminsmedia__homebox__861-862",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "29b379b0d8b1b821f9ddea076fcba0a796274624"
+}

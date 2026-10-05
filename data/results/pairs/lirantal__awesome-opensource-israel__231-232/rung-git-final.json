@@ -1,0 +1,10 @@
+{
+  "pair_id": "lirantal__awesome-opensource-israel__231-232",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "aaf336f3b24b586673128649c8ebaaf96718c805"
+}

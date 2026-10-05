@@ -1,0 +1,10 @@
+{
+  "pair_id": "openai__openai-agents-python__736-737",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d5f7c4d749ea0a31697ea0124499e90cf83e2efc"
+}

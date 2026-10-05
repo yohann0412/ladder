@@ -1,0 +1,10 @@
+{
+  "pair_id": "Azure-Samples__openai-chat-vision-quickstart__54-56",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "91dfb704d66e1052a5ac71ab8430bf0550b8eaf6"
+}

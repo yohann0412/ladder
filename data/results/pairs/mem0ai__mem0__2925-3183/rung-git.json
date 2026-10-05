@@ -1,0 +1,10 @@
+{
+  "pair_id": "mem0ai__mem0__2925-3183",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7a14c7f6dcd9af0a7fe03b756014a55c50c753ef"
+}

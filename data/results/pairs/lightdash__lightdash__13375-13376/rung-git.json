@@ -1,0 +1,10 @@
+{
+  "pair_id": "lightdash__lightdash__13375-13376",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "778c3afeb39e2e2dda127dd5f5087370f05f936e"
+}

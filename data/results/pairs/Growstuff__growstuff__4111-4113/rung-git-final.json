@@ -1,0 +1,10 @@
+{
+  "pair_id": "Growstuff__growstuff__4111-4113",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4bdb625b77f34e258da8e9590b8ff0f765708286"
+}

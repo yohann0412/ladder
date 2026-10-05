@@ -1,0 +1,10 @@
+{
+  "pair_id": "modelcontextprotocol__inspector__125-126",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7959dd81a57b21a4dc638ebede255a3214e38a99"
+}

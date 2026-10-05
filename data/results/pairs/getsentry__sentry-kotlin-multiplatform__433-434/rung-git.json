@@ -1,0 +1,23 @@
+{
+  "pair_id": "getsentry__sentry-kotlin-multiplatform__433-434",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in sentry-kotlin-multiplatform/src/appleMain/kotlin/io/sentry/kotlin/multiplatform/nsexception/Throwable.kt"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "sentry-kotlin-multiplatform/src/appleMain/kotlin/io/sentry/kotlin/multiplatform/nsexception/Throwable.kt",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

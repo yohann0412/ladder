@@ -1,0 +1,53 @@
+{
+  "pair_id": "langchain-ai__agents-from-scratch__31-32",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in notebooks/agent.ipynb",
+    "CONFLICT (content): Merge conflict in notebooks/evaluation.ipynb",
+    "CONFLICT (content): Merge conflict in notebooks/hitl.ipynb",
+    "CONFLICT (content): Merge conflict in notebooks/memory.ipynb"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "notebooks/agent.ipynb",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "notebooks/evaluation.ipynb",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "notebooks/hitl.ipynb",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "notebooks/memory.ipynb",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    }
+  ],
+  "merged_tree": null
+}

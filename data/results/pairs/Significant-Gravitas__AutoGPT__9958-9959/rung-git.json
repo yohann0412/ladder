@@ -1,0 +1,33 @@
+{
+  "pair_id": "Significant-Gravitas__AutoGPT__9958-9959",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in autogpt_platform/backend/backend/blocks/google/gmail.py",
+    "CONFLICT (content): Merge conflict in docs/content/platform/blocks/google/gmail.md"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "types": [
+        "content"
+      ],
+      "regions": 6,
+      "category": "source"
+    },
+    {
+      "path": "docs/content/platform/blocks/google/gmail.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

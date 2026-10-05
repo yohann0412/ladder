@@ -1,0 +1,10 @@
+{
+  "pair_id": "huggingface__blog__2871-2872",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f192fbca732244a23ef38b66dabe846e002053f0"
+}

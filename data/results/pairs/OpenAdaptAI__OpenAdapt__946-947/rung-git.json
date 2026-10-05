@@ -1,0 +1,33 @@
+{
+  "pair_id": "OpenAdaptAI__OpenAdapt__946-947",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in deploy/deploy/models/omniparser/deploy.py",
+    "CONFLICT (add/add): Merge conflict in openadapt/run_omnimcp.py"
+  ],
+  "types": [
+    "add/add",
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": "deploy/deploy/models/omniparser/deploy.py",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "openadapt/run_omnimcp.py",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

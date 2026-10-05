@@ -1,0 +1,10 @@
+{
+  "pair_id": "jlowin__fastmcp__490-492",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "53d8661b8e3f055685061e44bfbee294568a8aaa"
+}

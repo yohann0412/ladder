@@ -1,0 +1,43 @@
+{
+  "pair_id": "open-telemetry__otel-arrow__850-856",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in rust/experimental/query_engine/engine-recordset/src/scalar_expressions.rs",
+    "CONFLICT (content): Merge conflict in rust/experimental/query_engine/kql-parser/src/kql.pest",
+    "CONFLICT (content): Merge conflict in rust/experimental/query_engine/kql-parser/src/scalar_expression.rs"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "rust/experimental/query_engine/engine-recordset/src/scalar_expressions.rs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "rust/experimental/query_engine/kql-parser/src/kql.pest",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "other"
+    },
+    {
+      "path": "rust/experimental/query_engine/kql-parser/src/scalar_expression.rs",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

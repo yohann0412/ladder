@@ -1,0 +1,10 @@
+{
+  "pair_id": "evstack__ev-node__2289-2290",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d890aaf95214e52834d3be14f7b292b5ab197b40"
+}

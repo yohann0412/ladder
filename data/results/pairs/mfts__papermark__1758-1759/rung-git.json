@@ -1,0 +1,10 @@
+{
+  "pair_id": "mfts__papermark__1758-1759",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a77ebddd65f46823176aed324789c36810a4f265"
+}

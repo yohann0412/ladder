@@ -1,0 +1,10 @@
+{
+  "pair_id": "f__mcptools__57-58",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b70f6b2921d1553be3e3b2614c6a9962480497f4"
+}

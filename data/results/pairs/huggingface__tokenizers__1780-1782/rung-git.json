@@ -1,0 +1,43 @@
+{
+  "pair_id": "huggingface__tokenizers__1780-1782",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in bindings/python/py_src/tokenizers/decoders/__init__.pyi",
+    "CONFLICT (content): Merge conflict in bindings/python/src/decoders.rs",
+    "CONFLICT (content): Merge conflict in tokenizers/src/tokenizer/mod.rs"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "bindings/python/py_src/tokenizers/decoders/__init__.pyi",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "bindings/python/src/decoders.rs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "tokenizers/src/tokenizer/mod.rs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

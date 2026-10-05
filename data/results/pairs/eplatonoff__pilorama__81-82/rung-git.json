@@ -1,0 +1,10 @@
+{
+  "pair_id": "eplatonoff__pilorama__81-82",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5fced3a5df20c153bf15ca61c406ece287a7ee17"
+}

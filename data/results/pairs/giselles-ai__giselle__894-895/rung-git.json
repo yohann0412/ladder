@@ -1,0 +1,10 @@
+{
+  "pair_id": "giselles-ai__giselle__894-895",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5a55af2c14bba9ae5cecba6ff38286f694d69208"
+}

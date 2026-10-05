@@ -1,0 +1,53 @@
+{
+  "pair_id": "antiwork__shortest__332-333",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in apps/nextjs/package.json",
+    "CONFLICT (content): Merge conflict in package.json",
+    "CONFLICT (content): Merge conflict in pnpm-lock.yaml",
+    "CONFLICT (content): Merge conflict in pnpm-workspace.yaml"
+  ],
+  "types": [
+    "add/add",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "apps/nextjs/package.json",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "package.json",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "types": [
+        "content"
+      ],
+      "regions": 16,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

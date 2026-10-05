@@ -1,0 +1,10 @@
+{
+  "pair_id": "version-fox__vfox__547-548",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5373d1d7c56e17ce07b0a23ffb8e7bb68a60449c"
+}

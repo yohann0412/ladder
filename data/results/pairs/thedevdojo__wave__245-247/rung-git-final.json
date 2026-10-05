@@ -1,0 +1,10 @@
+{
+  "pair_id": "thedevdojo__wave__245-247",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "bb3b6019682a8756f2a418a8ae2882ee5ff87ed8"
+}

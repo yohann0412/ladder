@@ -1,0 +1,23 @@
+{
+  "pair_id": "neondatabase-labs__mcp-server-neon__41-51",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in CHANGELOG.md"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

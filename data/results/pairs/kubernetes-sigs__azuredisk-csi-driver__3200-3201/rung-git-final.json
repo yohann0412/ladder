@@ -1,0 +1,10 @@
+{
+  "pair_id": "kubernetes-sigs__azuredisk-csi-driver__3200-3201",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "33d6d147204f43579a2be51d5ed5f2a8c347ec11"
+}

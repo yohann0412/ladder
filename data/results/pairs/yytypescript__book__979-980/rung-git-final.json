@@ -1,0 +1,10 @@
+{
+  "pair_id": "yytypescript__book__979-980",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "9df18f53f723c815d237a1b2f84b70123d105e47"
+}

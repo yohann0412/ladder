@@ -1,0 +1,10 @@
+{
+  "pair_id": "TypedDevs__bashunit__403-404",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "8b8038e412b8125bf0d63be7c2f158b4dffbb73e"
+}

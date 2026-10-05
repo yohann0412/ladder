@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__Microsoft365DSC__6154-6228",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "76e95168cff09f5f5ff16dd6019571609168cfb9"
+}

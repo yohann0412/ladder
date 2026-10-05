@@ -1,0 +1,10 @@
+{
+  "pair_id": "getsentry__sentry__93709-93728",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "9886397787356faa76c18673224e048791f13d5e"
+}

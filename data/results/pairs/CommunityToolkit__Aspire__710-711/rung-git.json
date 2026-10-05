@@ -1,0 +1,10 @@
+{
+  "pair_id": "CommunityToolkit__Aspire__710-711",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "fcf698cbc4e78fcbf6846fbb552286da4847f5c9"
+}

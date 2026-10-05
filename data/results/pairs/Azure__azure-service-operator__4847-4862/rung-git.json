@@ -1,0 +1,10 @@
+{
+  "pair_id": "Azure__azure-service-operator__4847-4862",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a1ee6b16f874bd642092af217ab11c6d52c36b74"
+}

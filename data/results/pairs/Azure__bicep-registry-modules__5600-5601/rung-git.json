@@ -1,0 +1,10 @@
+{
+  "pair_id": "Azure__bicep-registry-modules__5600-5601",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "babe7a12bf7b6c5406c3306306f754db8478be9c"
+}

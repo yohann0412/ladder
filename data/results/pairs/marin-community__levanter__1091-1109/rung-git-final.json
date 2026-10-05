@@ -1,0 +1,10 @@
+{
+  "pair_id": "marin-community__levanter__1091-1109",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f05b4326b59567276082f38dbcc1f7b9bbdcff11"
+}

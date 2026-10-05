@@ -1,0 +1,23 @@
+{
+  "pair_id": "CodingAleCR__http_interceptor__161-162",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in test/models/retry_policy_test.dart"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "test/models/retry_policy_test.dart",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

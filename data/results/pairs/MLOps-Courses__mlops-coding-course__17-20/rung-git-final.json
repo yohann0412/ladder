@@ -1,0 +1,10 @@
+{
+  "pair_id": "MLOps-Courses__mlops-coding-course__17-20",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "daf6a65b0d11e91f7802bec7cf151de0d0f1c8c5"
+}

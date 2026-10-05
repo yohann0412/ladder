@@ -1,0 +1,10 @@
+{
+  "pair_id": "leonardsellem__n8n-mcp-server__25-26",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ee333e8237f6a3362ecf3acf9ae12d1951195f4d"
+}

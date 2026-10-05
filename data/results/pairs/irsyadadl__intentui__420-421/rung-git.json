@@ -1,0 +1,10 @@
+{
+  "pair_id": "irsyadadl__intentui__420-421",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c67332aae03926d3bee48b630f98a73ae7470102"
+}

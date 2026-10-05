@@ -1,0 +1,10 @@
+{
+  "pair_id": "smat-dev__jinni__8-9",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "3877bc212affdddcb4bdb3e983db682f0fff86cd"
+}

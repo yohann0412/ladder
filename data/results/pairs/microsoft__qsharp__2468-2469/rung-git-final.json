@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__qsharp__2468-2469",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2c5300bb61d8674eb328e1eeb98d9bf7755a3bdc"
+}

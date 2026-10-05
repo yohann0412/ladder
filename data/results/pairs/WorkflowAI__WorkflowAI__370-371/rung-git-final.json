@@ -1,0 +1,10 @@
+{
+  "pair_id": "WorkflowAI__WorkflowAI__370-371",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0d3def7aaf5aadab1da75a7ff8c7f1ace6a77fdd"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "mehah__otclient__1236-1237",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e8a06cb46b78b9daa7376ed7d6461279ef7163d2"
+}

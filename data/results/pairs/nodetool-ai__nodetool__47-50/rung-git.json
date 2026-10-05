@@ -1,0 +1,10 @@
+{
+  "pair_id": "nodetool-ai__nodetool__47-50",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a127acd5c58b223d9d6abccba666940968e6e658"
+}

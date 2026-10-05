@@ -1,0 +1,10 @@
+{
+  "pair_id": "debloper__piosk__88-89",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "71f29187f3d2d82cf711c3b507195599147abe2f"
+}

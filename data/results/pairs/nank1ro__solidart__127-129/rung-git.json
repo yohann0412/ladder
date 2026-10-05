@@ -1,0 +1,10 @@
+{
+  "pair_id": "nank1ro__solidart__127-129",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d81f71a549f1aea2dcf56ba5ad5ff58ec125d756"
+}

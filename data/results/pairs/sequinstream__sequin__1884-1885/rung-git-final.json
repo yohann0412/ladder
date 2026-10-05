@@ -1,0 +1,93 @@
+{
+  "pair_id": "sequinstream__sequin__1884-1885",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 8, conflicted files: 8 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in assets/svelte/consumers/types.ts",
+    "CONFLICT (content): Merge conflict in assets/svelte/functions/Edit.svelte",
+    "CONFLICT (content): Merge conflict in docs/reference/routing.mdx",
+    "CONFLICT (content): Merge conflict in lib/sequin/consumers/routing_function.ex",
+    "CONFLICT (add/add): Merge conflict in lib/sequin/runtime/routing/consumers/typesense.ex",
+    "CONFLICT (content): Merge conflict in lib/sequin/runtime/routing/routing.ex",
+    "CONFLICT (content): Merge conflict in lib/sequin_web/live/functions/edit.ex",
+    "CONFLICT (content): Merge conflict in test/support/factory/functions_factory.ex"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "add/add",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "assets/svelte/consumers/types.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "assets/svelte/functions/Edit.svelte",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "docs/reference/routing.mdx",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "docs_text"
+    },
+    {
+      "path": "lib/sequin/consumers/routing_function.ex",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "lib/sequin/runtime/routing/consumers/typesense.ex",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "lib/sequin/runtime/routing/routing.ex",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "lib/sequin_web/live/functions/edit.ex",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "test/support/factory/functions_factory.ex",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

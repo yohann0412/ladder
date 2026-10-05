@@ -1,0 +1,10 @@
+{
+  "pair_id": "StarRocks__starrocks__61219-61224",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "36666d8d6ae0e7bb482ed3231e1503b36607736f"
+}

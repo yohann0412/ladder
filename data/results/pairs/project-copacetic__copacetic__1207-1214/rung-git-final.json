@@ -1,0 +1,10 @@
+{
+  "pair_id": "project-copacetic__copacetic__1207-1214",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2253c1e8e6f470629dbc3f20b8eb3e57dc04a3a9"
+}

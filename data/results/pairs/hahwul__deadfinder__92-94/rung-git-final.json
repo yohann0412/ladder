@@ -1,0 +1,10 @@
+{
+  "pair_id": "hahwul__deadfinder__92-94",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "41bcb8d52dbbfb8b7714090c5d10d96ecf1b2a9b"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "dotnet__AspNetCore.Docs__35895-35945",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0c09d160eda3fdf5897804408425b1e8a3090be0"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "pdfme__pdfme__761-763",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "208dbe097a8dcee9c2d507738b13170f2f23526d"
+}

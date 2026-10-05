@@ -1,0 +1,10 @@
+{
+  "pair_id": "ublue-os__bluefin__2853-2854",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "be673ea3fefc65bea23b8209b4326b79f1e62eb1"
+}

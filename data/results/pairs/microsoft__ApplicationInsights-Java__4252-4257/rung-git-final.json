@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__ApplicationInsights-Java__4252-4257",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e9cfdbf5a1e3154fec9d5447767e1f504dc29fd7"
+}

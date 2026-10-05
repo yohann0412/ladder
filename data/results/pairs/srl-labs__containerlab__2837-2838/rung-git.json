@@ -1,0 +1,10 @@
+{
+  "pair_id": "srl-labs__containerlab__2837-2838",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4c3572716b7b4e5caeacefae357f8501697fd691"
+}

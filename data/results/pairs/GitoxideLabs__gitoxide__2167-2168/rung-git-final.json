@@ -1,0 +1,10 @@
+{
+  "pair_id": "GitoxideLabs__gitoxide__2167-2168",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2a5c9d2227751c15405bbc5566205fc3171360a8"
+}

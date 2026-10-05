@@ -1,0 +1,10 @@
+{
+  "pair_id": "calcom__cal.com__18376-18378",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2d08099a475167f9ef401f42d5995eca455be7f3"
+}

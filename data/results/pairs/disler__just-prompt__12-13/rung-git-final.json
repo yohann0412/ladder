@@ -1,0 +1,10 @@
+{
+  "pair_id": "disler__just-prompt__12-13",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "74fa414369eace084da186bded4638aaf5755f1b"
+}

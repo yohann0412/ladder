@@ -1,0 +1,10 @@
+{
+  "pair_id": "christianhelle__refitter__685-689",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2bf187fc8dba3c36593dff0754aa83fade36a64f"
+}

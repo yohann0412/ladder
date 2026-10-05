@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__project-oagents__107-108",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "1a9bf487b51a239a386fc33c9926d152a6073afa"
+}

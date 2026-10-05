@@ -1,0 +1,10 @@
+{
+  "pair_id": "appsmithorg__appsmith__38335-38336",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2192c7d1e7a7a97b108a7d9bc684b1c9cc2c858b"
+}

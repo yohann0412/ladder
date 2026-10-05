@@ -1,0 +1,10 @@
+{
+  "pair_id": "QuantEcon__lecture-python.myst__574-581",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "579a41270c7dbfafe025b28b31c9d02c2c849ca2"
+}

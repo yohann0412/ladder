@@ -1,0 +1,10 @@
+{
+  "pair_id": "demergent-labs__azle__3057-3058",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5f78e9976b2ff385ae7e9dd2c9a297626f3714f8"
+}

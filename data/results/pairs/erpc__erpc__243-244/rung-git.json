@@ -1,0 +1,10 @@
+{
+  "pair_id": "erpc__erpc__243-244",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ec4cf0a7dac3e339926e9292082f31caab4873df"
+}

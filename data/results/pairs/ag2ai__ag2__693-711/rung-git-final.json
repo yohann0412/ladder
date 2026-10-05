@@ -1,0 +1,10 @@
+{
+  "pair_id": "ag2ai__ag2__693-711",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a9fe5dbf85394bef2c1fe921e143c6ea76dbd11e"
+}

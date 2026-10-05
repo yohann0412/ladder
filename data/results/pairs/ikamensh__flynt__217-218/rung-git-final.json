@@ -1,0 +1,10 @@
+{
+  "pair_id": "ikamensh__flynt__217-218",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "384cf627a61494c4bba55ab90e30d1db048e430a"
+}

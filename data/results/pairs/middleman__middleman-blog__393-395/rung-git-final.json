@@ -1,0 +1,23 @@
+{
+  "pair_id": "middleman__middleman-blog__393-395",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in .gitignore"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

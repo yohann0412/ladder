@@ -1,0 +1,10 @@
+{
+  "pair_id": "lordmauve__wasabi2d__80-81",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6386ebddfbc9f4532f06350a24f9a9dfb0b6ff7a"
+}

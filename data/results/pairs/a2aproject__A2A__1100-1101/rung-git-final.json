@@ -1,0 +1,10 @@
+{
+  "pair_id": "a2aproject__A2A__1100-1101",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0c26d4b7ec9b1cbc4c7dbd05bc37b6a7aa63944c"
+}

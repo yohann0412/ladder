@@ -1,0 +1,10 @@
+{
+  "pair_id": "CycloneDX__cyclonedx-dotnet__955-956",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "1896eef58e29e3ba0ae1f8ac213edd1ef53ee621"
+}

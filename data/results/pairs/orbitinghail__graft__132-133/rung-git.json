@@ -1,0 +1,10 @@
+{
+  "pair_id": "orbitinghail__graft__132-133",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2c6ed19a275e387d9e7fe4f16eb153c695d5798c"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "primer__view_components__3512-3518",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c09d71aa3038927a2e3633a443d0fd0f15512e21"
+}

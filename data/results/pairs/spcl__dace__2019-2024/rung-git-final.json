@@ -1,0 +1,23 @@
+{
+  "pair_id": "spcl__dace__2019-2024",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in .github/workflows/copilot-setup-steps.yml"
+  ],
+  "types": [
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "EdgeTranslate__EdgeTranslate__634-636",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "cce3459c7aa98d3e10f6de18197934e578b9a821"
+}

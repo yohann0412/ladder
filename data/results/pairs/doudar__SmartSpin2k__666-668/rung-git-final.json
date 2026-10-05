@@ -1,0 +1,10 @@
+{
+  "pair_id": "doudar__SmartSpin2k__666-668",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "752ad5acf421592ce0a0bed18cde2de58dca3c3e"
+}

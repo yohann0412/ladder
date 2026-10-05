@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__azure-devops-mcp__247-248",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "913bf0d2babc441c53aa9977e0a94671178dd7f0"
+}

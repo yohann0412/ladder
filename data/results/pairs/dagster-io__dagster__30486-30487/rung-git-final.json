@@ -1,0 +1,10 @@
+{
+  "pair_id": "dagster-io__dagster__30486-30487",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "25c081b961e038e9515adb28c35e0ed8d20db822"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "Cogmasters__concord__209-210",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ff157650c39103768ec4beb52f2ea653a8cd7cc4"
+}

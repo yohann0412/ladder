@@ -1,0 +1,10 @@
+{
+  "pair_id": "iterative__datachain__1190-1191",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "40ebb5a6737e33a09df50a01471ad8f24f66ea40"
+}

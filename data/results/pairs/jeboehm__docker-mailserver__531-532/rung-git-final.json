@@ -1,0 +1,23 @@
+{
+  "pair_id": "jeboehm__docker-mailserver__531-532",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in .github/workflows/release.yml"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/release.yml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

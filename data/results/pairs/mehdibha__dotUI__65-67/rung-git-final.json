@@ -1,0 +1,33 @@
+{
+  "pair_id": "mehdibha__dotUI__65-67",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in www/modules/styles/components/create-style-modal.tsx",
+    "CONFLICT (content): Merge conflict in www/modules/styles/hooks/use-create-style.ts"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "www/modules/styles/components/create-style-modal.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 5,
+      "category": "source"
+    },
+    {
+      "path": "www/modules/styles/hooks/use-create-style.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "Shopify__roast__244-245",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5ed350e18d1125e5ed2df38856b7ae7f3855ee7d"
+}

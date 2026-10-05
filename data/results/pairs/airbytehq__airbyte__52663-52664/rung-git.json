@@ -1,0 +1,33 @@
+{
+  "pair_id": "airbytehq__airbyte__52663-52664",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in airbyte-ci/connectors/base_images/poetry.lock",
+    "CONFLICT (content): Merge conflict in airbyte-ci/connectors/base_images/pyproject.toml"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "airbyte-ci/connectors/base_images/poetry.lock",
+      "types": [
+        "content"
+      ],
+      "regions": 28,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "airbyte-ci/connectors/base_images/pyproject.toml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

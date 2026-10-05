@@ -1,0 +1,10 @@
+{
+  "pair_id": "logiscape__mcp-sdk-php__27-28",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "df0f6919f9bb3289329231d276cc8f1e816fb475"
+}

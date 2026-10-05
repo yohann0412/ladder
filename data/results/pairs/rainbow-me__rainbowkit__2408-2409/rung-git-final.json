@@ -1,0 +1,10 @@
+{
+  "pair_id": "rainbow-me__rainbowkit__2408-2409",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "54c6ba4ca6aaba82d653f7df6913f3c9f6a2ae41"
+}

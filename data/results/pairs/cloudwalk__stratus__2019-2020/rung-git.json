@@ -1,0 +1,10 @@
+{
+  "pair_id": "cloudwalk__stratus__2019-2020",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "dcd08f8d537099515662534a0ba957ea1cf4c04b"
+}

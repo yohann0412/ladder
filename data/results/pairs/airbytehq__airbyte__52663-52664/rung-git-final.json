@@ -1,0 +1,53 @@
+{
+  "pair_id": "airbytehq__airbyte__52663-52664",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in airbyte-ci/connectors/live-tests/README.md",
+    "CONFLICT (content): Merge conflict in airbyte-ci/connectors/live-tests/pyproject.toml",
+    "CONFLICT (content): Merge conflict in airbyte-ci/connectors/pipelines/README.md",
+    "CONFLICT (content): Merge conflict in airbyte-ci/connectors/pipelines/pyproject.toml"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "airbyte-ci/connectors/live-tests/README.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "airbyte-ci/connectors/live-tests/pyproject.toml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "airbyte-ci/connectors/pipelines/README.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "airbyte-ci/connectors/pipelines/pyproject.toml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

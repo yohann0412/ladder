@@ -1,0 +1,10 @@
+{
+  "pair_id": "ika-rwth-aachen__mqtt_client__83-84",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "cdb5e94e359348fcd21031075ef974805571baf7"
+}

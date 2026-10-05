@@ -1,0 +1,10 @@
+{
+  "pair_id": "project-numina__kimina-lean-server__20-21",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "facc709d11218f19a258e485ad3ba6ed19865662"
+}

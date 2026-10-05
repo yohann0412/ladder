@@ -1,0 +1,10 @@
+{
+  "pair_id": "kubetail-org__kubetail__381-382",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "3570abe3249d03b7e98ae727eae293f91c06c72d"
+}

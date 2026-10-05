@@ -1,0 +1,10 @@
+{
+  "pair_id": "btwld__mix__622-624",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "90c025301a7b52d35556a11b5f1ea8dc6f86e8d1"
+}

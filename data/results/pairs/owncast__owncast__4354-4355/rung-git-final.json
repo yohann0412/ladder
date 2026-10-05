@@ -1,0 +1,10 @@
+{
+  "pair_id": "owncast__owncast__4354-4355",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "832a1ea23378b7f7a735b87b008945702bd405b0"
+}

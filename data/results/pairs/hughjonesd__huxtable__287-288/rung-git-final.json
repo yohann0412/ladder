@@ -1,0 +1,10 @@
+{
+  "pair_id": "hughjonesd__huxtable__287-288",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d9b718b5b74f012ea405bb0d9667a8e4681e16b6"
+}

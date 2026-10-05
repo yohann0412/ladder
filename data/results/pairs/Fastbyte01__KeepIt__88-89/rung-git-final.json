@@ -1,0 +1,10 @@
+{
+  "pair_id": "Fastbyte01__KeepIt__88-89",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e5714652c54ce0616b484d17bd75167c08be3df7"
+}

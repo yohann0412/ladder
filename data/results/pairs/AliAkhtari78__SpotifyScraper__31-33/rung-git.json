@@ -1,0 +1,10 @@
+{
+  "pair_id": "AliAkhtari78__SpotifyScraper__31-33",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "eb7e4dc4de76ba24968a46f13a8761369ad658aa"
+}

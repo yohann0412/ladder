@@ -1,0 +1,10 @@
+{
+  "pair_id": "roboflow__inference__1295-1296",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "409321f5bc07a7ff28bb39f480af7118768d700b"
+}

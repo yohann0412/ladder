@@ -1,0 +1,10 @@
+{
+  "pair_id": "chrxh__alien__160-165",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "61d96b0ba92bd358d17958decd28024d1b48e8ba"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "SimonHalvdansson__Harmonic-HN__212-213",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f3723528b6bd183599c02b2057420404807affb5"
+}

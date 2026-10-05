@@ -1,0 +1,43 @@
+{
+  "pair_id": "luohy15__y-gui__3-4",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in frontend/src/components/ChatView/ChatView.tsx",
+    "CONFLICT (content): Merge conflict in frontend/src/components/ChatView/MessageActions.tsx",
+    "CONFLICT (content): Merge conflict in frontend/src/components/ChatView/MessageItem.tsx"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "frontend/src/components/ChatView/ChatView.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "frontend/src/components/ChatView/MessageActions.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "frontend/src/components/ChatView/MessageItem.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

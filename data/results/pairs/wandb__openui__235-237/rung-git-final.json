@@ -1,0 +1,63 @@
+{
+  "pair_id": "wandb__openui__235-237",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 5, conflicted files: 5 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in frontend/src/components/Chat.tsx",
+    "CONFLICT (content): Merge conflict in frontend/src/components/CodeEditor.tsx",
+    "CONFLICT (modify/delete): frontend/src/components/CurrentUiContext.tsx deleted in b and modified in a.  Version a of frontend/src/components/CurrentUiContext.tsx left in tree.",
+    "CONFLICT (content): Merge conflict in frontend/src/components/HtmlAnnotator.tsx",
+    "CONFLICT (content): Merge conflict in frontend/src/components/Prompt.tsx"
+  ],
+  "types": [
+    "content",
+    "content",
+    "modify/delete",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "frontend/src/components/Chat.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "frontend/src/components/CodeEditor.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "frontend/src/components/CurrentUiContext.tsx",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "frontend/src/components/HtmlAnnotator.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "frontend/src/components/Prompt.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 10,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

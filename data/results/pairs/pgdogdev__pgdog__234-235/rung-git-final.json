@@ -1,0 +1,10 @@
+{
+  "pair_id": "pgdogdev__pgdog__234-235",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "838eee43a7bab2cbcdc25cb8c141a81aba727055"
+}

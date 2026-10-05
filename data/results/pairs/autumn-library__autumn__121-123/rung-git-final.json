@@ -1,0 +1,10 @@
+{
+  "pair_id": "autumn-library__autumn__121-123",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "edd42f57f8e85a5080df782a584ded598a94b5fc"
+}

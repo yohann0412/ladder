@@ -1,0 +1,10 @@
+{
+  "pair_id": "harrisonwang__docxy__1-2",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "fc6b79ceb0e33002b2e02ebf0c38061c79ed51aa"
+}

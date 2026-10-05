@@ -1,0 +1,23 @@
+{
+  "pair_id": "block__goose__2620-2621",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in crates/goose-server/src/routes/reply.rs"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "crates/goose-server/src/routes/reply.rs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

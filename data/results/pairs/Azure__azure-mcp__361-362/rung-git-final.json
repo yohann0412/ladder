@@ -1,0 +1,10 @@
+{
+  "pair_id": "Azure__azure-mcp__361-362",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ddc80288822ff048f7126e13d7904f4d7c64888b"
+}

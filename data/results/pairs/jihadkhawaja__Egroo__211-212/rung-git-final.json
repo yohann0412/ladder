@@ -1,0 +1,10 @@
+{
+  "pair_id": "jihadkhawaja__Egroo__211-212",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c471339c4149d89f581464a1e9d3f1d8e67a8cfe"
+}

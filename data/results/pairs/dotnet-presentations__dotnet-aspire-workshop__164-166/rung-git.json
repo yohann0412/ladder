@@ -1,0 +1,10 @@
+{
+  "pair_id": "dotnet-presentations__dotnet-aspire-workshop__164-166",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "33f405175551842bfe5c5de99f2a57224e0b6418"
+}

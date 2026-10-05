@@ -1,0 +1,10 @@
+{
+  "pair_id": "assistant-ui__assistant-ui__2124-2127",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "9994af7688bbe30147c64035d01fa9aa7f5c8852"
+}

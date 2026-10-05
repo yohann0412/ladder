@@ -1,0 +1,10 @@
+{
+  "pair_id": "monosans__proxy-scraper-checker__695-696",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d2f2a6e360b90fcdd47828bf126417e1a9ba8030"
+}

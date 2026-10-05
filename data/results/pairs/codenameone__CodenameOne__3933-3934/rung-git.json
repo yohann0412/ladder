@@ -1,0 +1,10 @@
+{
+  "pair_id": "codenameone__CodenameOne__3933-3934",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6c50ea8a759a070824e7a53b28d08fa094a2eb4c"
+}

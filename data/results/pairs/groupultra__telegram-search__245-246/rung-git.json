@@ -1,0 +1,213 @@
+{
+  "pair_id": "groupultra__telegram-search__245-246",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 20, conflicted files: 20 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/components/ChatSelector.vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/components/SearchDialog.vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/components/layout/ChatsCollapse.vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/components/layout/SettingsDialog.vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/components/layout/SidebarSelector.vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/components/layout/UserDropdown.vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/components/messages/MediaRenderer.vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/components/messages/MessageBubble.vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/components/messages/MessageList.vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/components/ui/Button/Button.vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/components/ui/SelectDropdown.vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/layouts/default.vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/pages/[...all].vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/pages/chat/[id].vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/pages/login.vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/pages/search/[id].vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/pages/search/index.vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/pages/settings.vue",
+    "CONFLICT (content): Merge conflict in packages/stage-ui/src/pages/sync.vue",
+    "CONFLICT (content): Merge conflict in pnpm-lock.yaml"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "packages/stage-ui/src/components/ChatSelector.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/components/SearchDialog.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/components/layout/ChatsCollapse.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/components/layout/SettingsDialog.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 5,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/components/layout/SidebarSelector.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/components/layout/UserDropdown.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/components/messages/MediaRenderer.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/components/messages/MessageBubble.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/components/messages/MessageList.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/components/ui/Button/Button.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/components/ui/SelectDropdown.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/layouts/default.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 5,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/pages/[...all].vue",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/pages/chat/[id].vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/pages/login.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 10,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/pages/search/[id].vue",
+      "types": [
+        "content"
+      ],
+      "regions": 5,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/pages/search/index.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 5,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/pages/settings.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 39,
+      "category": "source"
+    },
+    {
+      "path": "packages/stage-ui/src/pages/sync.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

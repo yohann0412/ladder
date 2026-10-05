@@ -1,0 +1,10 @@
+{
+  "pair_id": "CameronFoxly__Ascii-Motion__7-9",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "dbf8997c4491e28a9f19169e39b187e2ab6c6be1"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "oxc-project__oxc__12821-12822",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e86f4bdeacc29c3caa141bda00881e0c0e1ea012"
+}

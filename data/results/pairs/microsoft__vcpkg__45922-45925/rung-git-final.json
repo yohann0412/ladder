@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__vcpkg__45922-45925",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "187981a657b5358db85c03decaa94c943a306e77"
+}

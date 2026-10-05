@@ -1,0 +1,103 @@
+{
+  "pair_id": "synth-inc__onit__184-186",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 9, conflicted files: 9 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in macos/Onit/Data/Persistence/Defaults.swift",
+    "CONFLICT (content): Merge conflict in macos/Onit/PanelStateManager/Tethered/PanelStateTetheredManager.swift",
+    "CONFLICT (content): Merge conflict in macos/Onit/UI/Content/ContentView.swift",
+    "CONFLICT (modify/delete): macos/Onit/UI/Panels/OnitAccessoryPanel.swift deleted in b and modified in a.  Version a of macos/Onit/UI/Panels/OnitAccessoryPanel.swift left in tree.",
+    "CONFLICT (content): Merge conflict in macos/Onit/UI/Panels/OnitRegularPanel.swift",
+    "CONFLICT (content): Merge conflict in macos/Onit/UI/Panels/State/OnitPanelState+Position.swift",
+    "CONFLICT (content): Merge conflict in macos/Onit/UI/Panels/State/OnitPanelState.swift",
+    "CONFLICT (content): Merge conflict in macos/Onit/UI/Settings/GeneralTab.swift",
+    "CONFLICT (modify/delete): macos/Onit/Untethered/UntetheredScreenManager.swift deleted in b and modified in a.  Version a of macos/Onit/Untethered/UntetheredScreenManager.swift left in tree."
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "modify/delete",
+    "content",
+    "content",
+    "content",
+    "content",
+    "modify/delete"
+  ],
+  "files": [
+    {
+      "path": "macos/Onit/Data/Persistence/Defaults.swift",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "macos/Onit/PanelStateManager/Tethered/PanelStateTetheredManager.swift",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "macos/Onit/UI/Content/ContentView.swift",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "macos/Onit/UI/Panels/OnitAccessoryPanel.swift",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "macos/Onit/UI/Panels/OnitRegularPanel.swift",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "macos/Onit/UI/Panels/State/OnitPanelState+Position.swift",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "macos/Onit/UI/Panels/State/OnitPanelState.swift",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "macos/Onit/UI/Settings/GeneralTab.swift",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "macos/Onit/Untethered/UntetheredScreenManager.swift",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

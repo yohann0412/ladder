@@ -1,0 +1,10 @@
+{
+  "pair_id": "ydb-platform__ydb-go-sdk__1891-1893",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c8552d7122d7203c84dc2880facde768d1bc9892"
+}

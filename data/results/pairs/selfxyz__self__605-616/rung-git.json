@@ -1,0 +1,10 @@
+{
+  "pair_id": "selfxyz__self__605-616",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ae6148128e1b1d3e40e54e87e0f4f13698f071bb"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "dotnet__dotnet-api-docs__11477-11481",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "cfd250b39517dcf9867b0e38c6387f4c95d2edcd"
+}

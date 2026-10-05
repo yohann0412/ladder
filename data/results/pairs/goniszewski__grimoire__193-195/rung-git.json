@@ -1,0 +1,23 @@
+{
+  "pair_id": "goniszewski__grimoire__193-195",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in Dockerfile"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "Dockerfile",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

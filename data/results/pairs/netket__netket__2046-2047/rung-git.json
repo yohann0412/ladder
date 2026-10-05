@@ -1,0 +1,10 @@
+{
+  "pair_id": "netket__netket__2046-2047",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "cda26f7888e539d450b33e05bcb74fe782c17fa9"
+}

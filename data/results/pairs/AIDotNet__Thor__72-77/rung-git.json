@@ -1,0 +1,10 @@
+{
+  "pair_id": "AIDotNet__Thor__72-77",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a452dcf52d8b060d51ae29d069bd8e9a177f8acb"
+}

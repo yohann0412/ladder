@@ -1,0 +1,23 @@
+{
+  "pair_id": "geoarrow__geoarrow-rs__1295-1301",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in rust/geodatafusion-flatgeobuf/src/lib.rs"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "rust/geodatafusion-flatgeobuf/src/lib.rs",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

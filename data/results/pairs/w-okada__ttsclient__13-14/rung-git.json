@@ -1,0 +1,10 @@
+{
+  "pair_id": "w-okada__ttsclient__13-14",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0619a4f8b901f989bfa81e18eceaaedce7d4845f"
+}

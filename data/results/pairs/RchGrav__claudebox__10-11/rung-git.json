@@ -1,0 +1,23 @@
+{
+  "pair_id": "RchGrav__claudebox__10-11",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in claudebox"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "claudebox",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    }
+  ],
+  "merged_tree": null
+}

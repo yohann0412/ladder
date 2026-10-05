@@ -1,0 +1,10 @@
+{
+  "pair_id": "owid__etl__4426-4427",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c4f9e49ceff56a074554acc64438f650107b881b"
+}

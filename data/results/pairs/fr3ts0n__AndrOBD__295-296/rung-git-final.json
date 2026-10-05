@@ -1,0 +1,10 @@
+{
+  "pair_id": "fr3ts0n__AndrOBD__295-296",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "cec25b916bc1a3ff9e4ef6f56dc19a1436bf83d9"
+}

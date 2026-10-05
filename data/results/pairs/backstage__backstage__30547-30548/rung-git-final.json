@@ -1,0 +1,10 @@
+{
+  "pair_id": "backstage__backstage__30547-30548",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "cd0e2950fe861dd57dd07e7e4614800ed848d03d"
+}

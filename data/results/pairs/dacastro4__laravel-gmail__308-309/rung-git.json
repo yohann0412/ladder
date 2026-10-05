@@ -1,0 +1,10 @@
+{
+  "pair_id": "dacastro4__laravel-gmail__308-309",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "8b5d2197d6f5111336a8864edc6a7d76e377eb16"
+}

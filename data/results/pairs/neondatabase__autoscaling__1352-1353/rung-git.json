@@ -1,0 +1,10 @@
+{
+  "pair_id": "neondatabase__autoscaling__1352-1353",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "dce8c17d1d662ad105be8c010f15a91f63f61bcf"
+}

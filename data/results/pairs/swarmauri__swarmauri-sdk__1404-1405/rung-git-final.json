@@ -1,0 +1,10 @@
+{
+  "pair_id": "swarmauri__swarmauri-sdk__1404-1405",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "1fac4096a7709fb0e4ad0d786f955d7859e667e5"
+}

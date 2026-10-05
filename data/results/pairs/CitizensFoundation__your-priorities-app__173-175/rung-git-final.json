@@ -1,0 +1,10 @@
+{
+  "pair_id": "CitizensFoundation__your-priorities-app__173-175",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ed866b879b92c1d77f09cb85e3d2c1ca9d7c8d1b"
+}

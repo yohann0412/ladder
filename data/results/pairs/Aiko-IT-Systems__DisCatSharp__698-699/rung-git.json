@@ -1,0 +1,10 @@
+{
+  "pair_id": "Aiko-IT-Systems__DisCatSharp__698-699",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "60489d7d2af25298b0fc1f42f07c6b13559dfec7"
+}

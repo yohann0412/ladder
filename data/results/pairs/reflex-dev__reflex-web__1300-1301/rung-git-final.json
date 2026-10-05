@@ -1,0 +1,10 @@
+{
+  "pair_id": "reflex-dev__reflex-web__1300-1301",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "39dc3a4335fb239e43ec09835730e0ddbe38b04e"
+}

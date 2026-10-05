@@ -1,0 +1,10 @@
+{
+  "pair_id": "Kanaries__Rath__432-433",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "3f9ca0f5bcb2ae587283308c3520c9338cfa76ab"
+}

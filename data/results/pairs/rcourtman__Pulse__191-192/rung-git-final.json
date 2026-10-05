@@ -1,0 +1,10 @@
+{
+  "pair_id": "rcourtman__Pulse__191-192",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "1f78a22689741d4d29e936c9d92766d2a1e55c03"
+}

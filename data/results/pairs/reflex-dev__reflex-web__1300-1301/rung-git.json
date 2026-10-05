@@ -1,0 +1,23 @@
+{
+  "pair_id": "reflex-dev__reflex-web__1300-1301",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in pcweb/whitelist.py"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "pcweb/whitelist.py",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

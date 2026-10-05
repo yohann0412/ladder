@@ -1,0 +1,10 @@
+{
+  "pair_id": "moxin-org__moly__521-522",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "96d9ed949ef0f1c5051993951a275811eed9dfb9"
+}

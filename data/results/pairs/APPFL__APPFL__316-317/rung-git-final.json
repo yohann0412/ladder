@@ -1,0 +1,10 @@
+{
+  "pair_id": "APPFL__APPFL__316-317",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "33cc96d34d869127ee496f70345c766a4d599fcf"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "jeroenterheerdt__HAsmartirrigation__597-598",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c6e1d10259fb95edec83190a563e0a1a6893feae"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "taiga-family__taiga-ui__11338-11339",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f3a237d30009ee0f26ccda145353d0d8b0b1c93b"
+}

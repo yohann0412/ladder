@@ -1,0 +1,23 @@
+{
+  "pair_id": "airbytehq__PyAirbyte__631-633",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in poetry.lock"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "poetry.lock",
+      "types": [
+        "content"
+      ],
+      "regions": 151,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

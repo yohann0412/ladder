@@ -1,0 +1,10 @@
+{
+  "pair_id": "rspamd__rspamd__5662-5663",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e40dd1f4aabdb75f3b1a76031566c2c242547c46"
+}

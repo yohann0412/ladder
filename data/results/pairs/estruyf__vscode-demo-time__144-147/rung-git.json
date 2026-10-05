@@ -1,0 +1,10 @@
+{
+  "pair_id": "estruyf__vscode-demo-time__144-147",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d13389894c85eb3af045df26d8d2943260f654d6"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "mediar-ai__terminator__31-32",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "15184f85595cb313d34247d9db830967c6ca2c67"
+}

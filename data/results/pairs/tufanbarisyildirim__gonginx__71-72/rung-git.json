@@ -1,0 +1,10 @@
+{
+  "pair_id": "tufanbarisyildirim__gonginx__71-72",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "36e857022564c0bb2a2244b8126054479e472f46"
+}

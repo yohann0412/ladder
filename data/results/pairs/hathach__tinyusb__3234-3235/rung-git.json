@@ -1,0 +1,10 @@
+{
+  "pair_id": "hathach__tinyusb__3234-3235",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "baf9e02f9eaecebd68543967259363f65ec3d4dc"
+}

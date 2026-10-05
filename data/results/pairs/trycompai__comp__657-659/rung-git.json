@@ -1,0 +1,10 @@
+{
+  "pair_id": "trycompai__comp__657-659",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4a6501c16cfcd9bf2558d96b9a08faa7a80c0d0b"
+}

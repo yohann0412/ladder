@@ -1,0 +1,223 @@
+{
+  "pair_id": "PepperDash__Essentials__1291-1295",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 21, conflicted files: 21 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/AppDebugRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/DebugSessionRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/DevJsonRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/DevListRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/DevMethodsRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/DevPropsRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/DisableAllStreamDebugRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/DoNotLoadConfigOnNextBootRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/GetFeedbacksForDeviceRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/GetJoinMapForBridgeKeyRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/GetJoinMapForDeviceKeyRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/GetRoutesHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/GetRoutingPortsHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTieLinesRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTypesByFilterRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTypesRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/LoadConfigRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/ReportVersionsRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/RestartProgramRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/SetDeviceStreamDebugRequestHandler.cs",
+    "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/ShowConfigRequestHandler.cs"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/AppDebugRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DebugSessionRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevJsonRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevListRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevMethodsRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevPropsRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DisableAllStreamDebugRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DoNotLoadConfigOnNextBootRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetFeedbacksForDeviceRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetJoinMapForBridgeKeyRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetJoinMapForDeviceKeyRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetRoutesHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetRoutingPortsHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTieLinesRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTypesByFilterRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTypesRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/LoadConfigRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/ReportVersionsRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/RestartProgramRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/SetDeviceStreamDebugRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/ShowConfigRequestHandler.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

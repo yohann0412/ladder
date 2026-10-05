@@ -1,0 +1,10 @@
+{
+  "pair_id": "hirosystems__explorer__2241-2242",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0a4f5f61229add4010c1abf36957f4dd3a3278ee"
+}

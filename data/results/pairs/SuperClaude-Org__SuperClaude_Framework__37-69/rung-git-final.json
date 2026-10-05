@@ -1,0 +1,10 @@
+{
+  "pair_id": "SuperClaude-Org__SuperClaude_Framework__37-69",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "3819fa14c9a3204f3d3e20d463c05dbcf86206ac"
+}

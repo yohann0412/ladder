@@ -1,0 +1,10 @@
+{
+  "pair_id": "yiisoft__docs__247-248",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d2d20e8787646a98acdc1d8c946afbdd00fc00f7"
+}

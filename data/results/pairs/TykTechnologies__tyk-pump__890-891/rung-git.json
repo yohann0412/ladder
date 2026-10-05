@@ -1,0 +1,10 @@
+{
+  "pair_id": "TykTechnologies__tyk-pump__890-891",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "1acecdce2f75c7ffbcee9bcdfb4132e962e0d933"
+}

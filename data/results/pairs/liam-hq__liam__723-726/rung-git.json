@@ -1,0 +1,10 @@
+{
+  "pair_id": "liam-hq__liam__723-726",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2927eacb72dad2c9f5183a30c1e9f38194211a48"
+}

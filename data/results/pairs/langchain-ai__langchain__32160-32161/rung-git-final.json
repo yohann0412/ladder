@@ -1,0 +1,23 @@
+{
+  "pair_id": "langchain-ai__langchain__32160-32161",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in libs/partners/ollama/uv.lock"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "libs/partners/ollama/uv.lock",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

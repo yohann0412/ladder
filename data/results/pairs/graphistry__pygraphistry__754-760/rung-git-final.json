@@ -1,0 +1,23 @@
+{
+  "pair_id": "graphistry__pygraphistry__754-760",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in graphistry/compute/chain_remote.py"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "graphistry/compute/chain_remote.py",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "dotnet__extensions__6919-6922",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in eng/MSBuild/Packaging.targets"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "eng/MSBuild/Packaging.targets",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    }
+  ],
+  "merged_tree": null
+}

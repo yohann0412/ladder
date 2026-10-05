@@ -1,0 +1,10 @@
+{
+  "pair_id": "dailydotdev__apps__4632-4634",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "8f06c6dea354cfc93209e8d40e7d3a0f1af22862"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "camunda__camunda__35374-35632",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "522c6be60b8c83e4f8955194a92a3e7ddbef6b52"
+}

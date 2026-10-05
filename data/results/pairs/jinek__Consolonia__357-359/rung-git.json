@@ -1,0 +1,10 @@
+{
+  "pair_id": "jinek__Consolonia__357-359",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "cdbb1a1601f730ad2e22a8dfcd8a14ff6edf8c12"
+}

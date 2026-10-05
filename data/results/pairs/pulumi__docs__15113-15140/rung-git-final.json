@@ -1,0 +1,10 @@
+{
+  "pair_id": "pulumi__docs__15113-15140",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7483e23f9f08342a6ea45ebbfebd33dadad5cede"
+}

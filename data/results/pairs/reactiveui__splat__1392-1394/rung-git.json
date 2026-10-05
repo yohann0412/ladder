@@ -1,0 +1,10 @@
+{
+  "pair_id": "reactiveui__splat__1392-1394",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "41a1d69cccc7d9f2ca4c962253f6abcbba8ae657"
+}

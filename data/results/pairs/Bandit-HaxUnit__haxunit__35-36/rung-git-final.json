@@ -1,0 +1,10 @@
+{
+  "pair_id": "Bandit-HaxUnit__haxunit__35-36",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "bab45f4b03cb1c2ad40c2ec082c734843e7c160f"
+}

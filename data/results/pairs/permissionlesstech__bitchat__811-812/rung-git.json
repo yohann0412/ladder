@@ -1,0 +1,10 @@
+{
+  "pair_id": "permissionlesstech__bitchat__811-812",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7cb598cf9cb4240c562599373a1fac752fd5873e"
+}

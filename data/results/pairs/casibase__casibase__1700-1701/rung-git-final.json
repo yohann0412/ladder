@@ -1,0 +1,10 @@
+{
+  "pair_id": "casibase__casibase__1700-1701",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b4678baf92c8fc487bd563b98f0101889f2aca28"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "MichelFR__MqDockerUp__489-491",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4169b44309a91da8f0ab150495c3d7bef908c52d"
+}

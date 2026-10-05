@@ -1,0 +1,10 @@
+{
+  "pair_id": "TuringLang__Bijectors.jl__409-411",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e1be01213d82cd552de57ca0482e37636de49ce4"
+}

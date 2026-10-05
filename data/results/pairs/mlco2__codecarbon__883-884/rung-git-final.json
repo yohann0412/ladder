@@ -1,0 +1,29 @@
+{
+  "pair_id": "mlco2__codecarbon__883-884",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (distinct types): .github/copilot-instructions.md had different types on each side; renamed one of them so each can be recorded somewhere."
+  ],
+  "types": [
+    "distinct types"
+  ],
+  "files": [
+    {
+      "path": ".github/copilot-instructions.md",
+      "types": [
+        "distinct types"
+      ],
+      "regions": 0,
+      "category": "config_ci"
+    },
+    {
+      "path": ".github/copilot-instructions.md~b",
+      "types": [],
+      "regions": 0,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

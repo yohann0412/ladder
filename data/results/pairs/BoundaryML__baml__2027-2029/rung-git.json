@@ -1,0 +1,10 @@
+{
+  "pair_id": "BoundaryML__baml__2027-2029",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c87923dc14428969bd4c7b9f937866fbbe316673"
+}

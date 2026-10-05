@@ -1,0 +1,10 @@
+{
+  "pair_id": "imfing__hextra__700-707",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "fc4873d25a9011164d875707d12c79f32f832e15"
+}

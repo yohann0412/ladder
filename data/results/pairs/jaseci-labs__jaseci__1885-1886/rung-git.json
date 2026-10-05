@@ -1,0 +1,10 @@
+{
+  "pair_id": "jaseci-labs__jaseci__1885-1886",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "51a248d92ec9b4b68c8b68100f143cff3bdf886b"
+}

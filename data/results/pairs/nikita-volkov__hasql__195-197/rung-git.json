@@ -1,0 +1,10 @@
+{
+  "pair_id": "nikita-volkov__hasql__195-197",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "9666101ae7f446e8bf18cbf077b33a2c9e8fff35"
+}

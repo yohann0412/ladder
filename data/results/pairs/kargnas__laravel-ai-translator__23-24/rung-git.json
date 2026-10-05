@@ -1,0 +1,33 @@
+{
+  "pair_id": "kargnas__laravel-ai-translator__23-24",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/AI/AIProvider.php",
+    "CONFLICT (content): Merge conflict in tests/Unit/AI/AIProviderTest.php"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/AI/AIProvider.php",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "tests/Unit/AI/AIProviderTest.php",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "serilog-contrib__serilog-enrichers-clientinfo__54-55",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in test/Serilog.Enrichers.ClientInfo.Tests/Serilog.Enrichers.ClientInfo.Tests.csproj"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "test/Serilog.Enrichers.ClientInfo.Tests/Serilog.Enrichers.ClientInfo.Tests.csproj",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

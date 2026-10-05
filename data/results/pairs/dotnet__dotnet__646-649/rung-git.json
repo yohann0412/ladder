@@ -1,0 +1,10 @@
+{
+  "pair_id": "dotnet__dotnet__646-649",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d9d9dc314497540cf2cb80b6c127006410b79a6f"
+}

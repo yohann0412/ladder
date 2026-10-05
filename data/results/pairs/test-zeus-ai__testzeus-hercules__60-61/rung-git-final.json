@@ -1,0 +1,213 @@
+{
+  "pair_id": "test-zeus-ai__testzeus-hercules__60-61",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 20, conflicted files: 20 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in .env-example",
+    "CONFLICT (content): Merge conflict in poetry.lock",
+    "CONFLICT (content): Merge conflict in pyproject.toml",
+    "CONFLICT (content): Merge conflict in testzeus_hercules/__main__.py",
+    "CONFLICT (content): Merge conflict in testzeus_hercules/config.py",
+    "CONFLICT (content): Merge conflict in testzeus_hercules/core/agents/browser_nav_agent.py",
+    "CONFLICT (content): Merge conflict in testzeus_hercules/core/agents/high_level_planner_agent.py",
+    "CONFLICT (content): Merge conflict in testzeus_hercules/core/agents_llm_config.py",
+    "CONFLICT (file location): testzeus_hercules/core/extra_tools/clipboard_tools.py added in a inside a directory that was renamed in b, suggesting it should perhaps be moved to testzeus_hercules/core/browser_extra_tools/clipboard_tools.py.",
+    "CONFLICT (content): Merge conflict in testzeus_hercules/core/browser_extra_tools/drag_and_drop_tool.py",
+    "CONFLICT (content): Merge conflict in testzeus_hercules/core/browser_tools/click_using_selector.py",
+    "CONFLICT (content): Merge conflict in testzeus_hercules/core/browser_tools/dropdown_using_selector.py",
+    "CONFLICT (content): Merge conflict in testzeus_hercules/core/browser_tools/enter_text_using_selector.py",
+    "CONFLICT (content): Merge conflict in testzeus_hercules/core/browser_tools/hover.py",
+    "CONFLICT (content): Merge conflict in testzeus_hercules/core/browser_tools/open_url.py",
+    "CONFLICT (content): Merge conflict in testzeus_hercules/core/browser_tools/press_key_combination.py",
+    "CONFLICT (content): Merge conflict in testzeus_hercules/core/browser_tools/upload_file.py",
+    "CONFLICT (content): Merge conflict in testzeus_hercules/core/mobile_tools/visual_skill.py",
+    "CONFLICT (content): Merge conflict in testzeus_hercules/core/runner.py",
+    "CONFLICT (content): Merge conflict in testzeus_hercules/core/simple_hercules.py"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "file location",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": ".env-example",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "poetry.lock",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "pyproject.toml",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "config_ci"
+    },
+    {
+      "path": "testzeus_hercules/__main__.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "testzeus_hercules/core/agents/browser_nav_agent.py",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "testzeus_hercules/core/agents/high_level_planner_agent.py",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "testzeus_hercules/core/agents_llm_config.py",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "testzeus_hercules/core/browser_extra_tools/clipboard_tools.py",
+      "types": [
+        "file location"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "testzeus_hercules/core/browser_extra_tools/drag_and_drop_tool.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/click_using_selector.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/dropdown_using_selector.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/enter_text_using_selector.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/hover.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/open_url.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/press_key_combination.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/upload_file.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "testzeus_hercules/core/mobile_tools/visual_skill.py",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "testzeus_hercules/core/runner.py",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "testzeus_hercules/core/simple_hercules.py",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

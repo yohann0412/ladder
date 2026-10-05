@@ -1,0 +1,23 @@
+{
+  "pair_id": "moonbitlang__core__2247-2248",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in random/random_test.mbt"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "random/random_test.mbt",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    }
+  ],
+  "merged_tree": null
+}

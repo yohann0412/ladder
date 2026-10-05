@@ -1,0 +1,10 @@
+{
+  "pair_id": "receptron__graphai__1158-1159",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "8fa6712083adc6bba91a212282f2681f0705fad8"
+}

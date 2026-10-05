@@ -1,0 +1,10 @@
+{
+  "pair_id": "tegnike__aituber-kit__330-331",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "9538d319d37e397a33836489f15e2a126e542691"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "carverauto__serviceradar__954-955",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e2af24c34790f6f19c868d4c89d26083fb8a3c8e"
+}

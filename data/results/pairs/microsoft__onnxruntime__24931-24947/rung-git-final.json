@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__onnxruntime__24931-24947",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f4c4c42e8b9aa818b931b6202e5100ca1d6e6240"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "browser-use__browser-use__2248-2249",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a1166385261de49b19e92f763ab2c7bef53c33f4"
+}

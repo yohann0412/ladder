@@ -1,0 +1,23 @@
+{
+  "pair_id": "hyperlight-dev__hyperlight__510-512",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in .github/copilot-instructions.md"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": ".github/copilot-instructions.md",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

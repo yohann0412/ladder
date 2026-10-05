@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__debug-gym__126-129",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e852f5c53c1109183f7dc2e4dc1faca027674af5"
+}

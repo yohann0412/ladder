@@ -1,0 +1,10 @@
+{
+  "pair_id": "wolfSSL__wolfBoot__550-552",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "76a4bc90f0e15fb5a66758a7000bf647e7acc3ed"
+}

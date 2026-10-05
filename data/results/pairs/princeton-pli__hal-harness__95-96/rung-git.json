@@ -1,0 +1,10 @@
+{
+  "pair_id": "princeton-pli__hal-harness__95-96",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "98f7ccf1638b64d1b376dd2e8822763241f6983a"
+}

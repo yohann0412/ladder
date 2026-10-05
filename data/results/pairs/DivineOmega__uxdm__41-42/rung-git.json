@@ -1,0 +1,10 @@
+{
+  "pair_id": "DivineOmega__uxdm__41-42",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d29b8dcf236236e361e361ae6ea1a47f756daf5f"
+}

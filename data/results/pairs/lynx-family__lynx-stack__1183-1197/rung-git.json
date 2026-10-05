@@ -1,0 +1,10 @@
+{
+  "pair_id": "lynx-family__lynx-stack__1183-1197",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2e815f04bad066fe2548b2cf0720149c8e1376bf"
+}

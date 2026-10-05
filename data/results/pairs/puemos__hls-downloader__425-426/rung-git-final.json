@@ -1,0 +1,10 @@
+{
+  "pair_id": "puemos__hls-downloader__425-426",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2418961d7f5fd2c252e81670011ea1b49250511e"
+}

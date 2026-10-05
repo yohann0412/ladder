@@ -1,0 +1,10 @@
+{
+  "pair_id": "EvotecIT__Mailozaurr__68-69",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "1d467e2dddd9d7595f8b8ddbb2373bcb67f7a3ed"
+}

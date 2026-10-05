@@ -1,0 +1,10 @@
+{
+  "pair_id": "jacksonkasi1__tnks-data-table__19-20",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "af552038fb58885c1a3196c568646fd2a9792db8"
+}

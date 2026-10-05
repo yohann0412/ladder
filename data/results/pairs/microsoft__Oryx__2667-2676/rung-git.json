@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__Oryx__2667-2676",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in images/constants.yml"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "images/constants.yml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

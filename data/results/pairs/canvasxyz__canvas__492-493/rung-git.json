@@ -1,0 +1,10 @@
+{
+  "pair_id": "canvasxyz__canvas__492-493",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c4dbfdaf35ab21b65a0fe11f25c2c375c1d130de"
+}

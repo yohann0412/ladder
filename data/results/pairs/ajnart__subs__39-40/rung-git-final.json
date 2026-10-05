@@ -1,0 +1,10 @@
+{
+  "pair_id": "ajnart__subs__39-40",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "fac4f1fc53aa7af49b60262df1ed0c305e6ed197"
+}

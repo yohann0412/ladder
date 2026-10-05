@@ -1,0 +1,10 @@
+{
+  "pair_id": "retrage__svc-hook__22-23",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "43cf53d07cd0ae465783376778be85e546c1dcbc"
+}

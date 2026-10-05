@@ -1,0 +1,10 @@
+{
+  "pair_id": "didoo__figma-api__90-92",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7f1da47947e8024114c8b32cc60bfbfbc1fd0979"
+}

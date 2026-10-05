@@ -1,0 +1,10 @@
+{
+  "pair_id": "ishaan1013__shadow__3-4",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e1ed0a713748e493b6cf4c704511fe52b74a9b84"
+}

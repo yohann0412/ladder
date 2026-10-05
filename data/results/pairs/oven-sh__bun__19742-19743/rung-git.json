@@ -1,0 +1,10 @@
+{
+  "pair_id": "oven-sh__bun__19742-19743",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6c7cd420ef72739590b0098ee76e47334d9b3ec8"
+}

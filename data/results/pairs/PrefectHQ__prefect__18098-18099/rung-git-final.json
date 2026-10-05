@@ -1,0 +1,33 @@
+{
+  "pair_id": "PrefectHQ__prefect__18098-18099",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in ui-v2/src/components/work-pools/work-pool-details-header.tsx",
+    "CONFLICT (content): Merge conflict in ui-v2/src/routes/work-pools/work-pool.$workPoolName.tsx"
+  ],
+  "types": [
+    "add/add",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "ui-v2/src/components/work-pools/work-pool-details-header.tsx",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "ui-v2/src/routes/work-pools/work-pool.$workPoolName.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

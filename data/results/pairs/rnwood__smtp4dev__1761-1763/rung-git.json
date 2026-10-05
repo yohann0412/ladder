@@ -1,0 +1,23 @@
+{
+  "pair_id": "rnwood__smtp4dev__1761-1763",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in .github/copilot-instructions.md"
+  ],
+  "types": [
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": ".github/copilot-instructions.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

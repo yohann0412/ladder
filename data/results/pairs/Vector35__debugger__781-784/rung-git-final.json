@@ -1,0 +1,10 @@
+{
+  "pair_id": "Vector35__debugger__781-784",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2f1036dfb395f7346bfde9103993c6647723a806"
+}

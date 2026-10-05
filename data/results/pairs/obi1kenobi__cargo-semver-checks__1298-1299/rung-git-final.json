@@ -1,0 +1,10 @@
+{
+  "pair_id": "obi1kenobi__cargo-semver-checks__1298-1299",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "543a2cffcf63e0c4aa04203f7f5fcbdf90468199"
+}

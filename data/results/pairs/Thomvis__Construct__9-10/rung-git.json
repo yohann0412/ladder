@@ -1,0 +1,10 @@
+{
+  "pair_id": "Thomvis__Construct__9-10",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c8df5672ea981610b952026b1da2a796f82bbd0e"
+}

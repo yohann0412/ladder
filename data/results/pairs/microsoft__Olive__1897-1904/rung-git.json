@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__Olive__1897-1904",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "30f3e950f2775db35c53708c62e2d1bda1aa592b"
+}

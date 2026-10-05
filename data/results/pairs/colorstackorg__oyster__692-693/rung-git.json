@@ -1,0 +1,10 @@
+{
+  "pair_id": "colorstackorg__oyster__692-693",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "1497986eec75fb52dc6a91782bc22dc656824bd6"
+}

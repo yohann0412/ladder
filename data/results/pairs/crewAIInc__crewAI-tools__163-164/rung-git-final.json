@@ -1,0 +1,23 @@
+{
+  "pair_id": "crewAIInc__crewAI-tools__163-164",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in uv.lock"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "uv.lock",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

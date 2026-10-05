@@ -1,0 +1,10 @@
+{
+  "pair_id": "Rudra-ravi__wikipedia-mcp__16-17",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d946eebee86c521786f378439a87a6d784da6314"
+}

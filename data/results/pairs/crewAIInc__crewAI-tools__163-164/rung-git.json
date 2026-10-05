@@ -1,0 +1,53 @@
+{
+  "pair_id": "crewAIInc__crewAI-tools__163-164",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in crewai_tools/tools/file_read_tool/file_read_tool.py",
+    "CONFLICT (add/add): Merge conflict in crewai_tools/tools/linkup/linkup_search_tool.py",
+    "CONFLICT (add/add): Merge conflict in tests/file_read_tool_test.py",
+    "CONFLICT (content): Merge conflict in uv.lock"
+  ],
+  "types": [
+    "content",
+    "add/add",
+    "add/add",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "crewai_tools/tools/file_read_tool/file_read_tool.py",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "crewai_tools/tools/linkup/linkup_search_tool.py",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "tests/file_read_tool_test.py",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "uv.lock",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

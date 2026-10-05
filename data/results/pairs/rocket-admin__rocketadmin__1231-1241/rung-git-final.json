@@ -1,0 +1,10 @@
+{
+  "pair_id": "rocket-admin__rocketadmin__1231-1241",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e01ac85ba9c4eba9d32f95ae45da768f093d3ebe"
+}

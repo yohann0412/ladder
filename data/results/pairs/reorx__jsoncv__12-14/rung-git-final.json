@@ -1,0 +1,10 @@
+{
+  "pair_id": "reorx__jsoncv__12-14",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4e19af0cf675fa254846cc1ba80856268bd70b58"
+}

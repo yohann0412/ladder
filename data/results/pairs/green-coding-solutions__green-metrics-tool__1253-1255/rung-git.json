@@ -1,0 +1,10 @@
+{
+  "pair_id": "green-coding-solutions__green-metrics-tool__1253-1255",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "cfaadaf3a669909de93f999d4226a11ed7f20cb7"
+}

@@ -1,0 +1,33 @@
+{
+  "pair_id": "oxc-project__tsgolint__73-86",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in justfile",
+    "CONFLICT (submodule): Merge conflict in typescript-go"
+  ],
+  "types": [
+    "content",
+    "submodule"
+  ],
+  "files": [
+    {
+      "path": "justfile",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "typescript-go",
+      "types": [
+        "submodule"
+      ],
+      "regions": 0,
+      "category": "other"
+    }
+  ],
+  "merged_tree": null
+}

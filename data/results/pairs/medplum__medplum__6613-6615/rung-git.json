@@ -1,0 +1,10 @@
+{
+  "pair_id": "medplum__medplum__6613-6615",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f6df0fe805f8aebb7bf7cff56f6890ddb70e946e"
+}

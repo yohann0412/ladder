@@ -1,0 +1,10 @@
+{
+  "pair_id": "dotnet__iot__2421-2424",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ef8ebb53f5d57f72dd98bbc10182895b352ac2c6"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "whitphx__vscode-emacs-mcx__2145-2146",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "539681ed8c6b7e964fd7ef0f51394709a4be4721"
+}

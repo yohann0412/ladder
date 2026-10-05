@@ -1,0 +1,10 @@
+{
+  "pair_id": "Equationzhao__g__250-251",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "3fa0343334efaa8102b6119fcc05e2c14eaa8dbf"
+}

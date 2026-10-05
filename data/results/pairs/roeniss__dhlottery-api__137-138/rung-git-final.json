@@ -1,0 +1,10 @@
+{
+  "pair_id": "roeniss__dhlottery-api__137-138",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "13c30589782a0b37cb159ce5ed5af211ab6486ae"
+}

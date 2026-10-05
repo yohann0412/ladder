@@ -1,0 +1,23 @@
+{
+  "pair_id": "PyO3__maturin__2672-2674",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/new_project.rs"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/new_project.rs",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

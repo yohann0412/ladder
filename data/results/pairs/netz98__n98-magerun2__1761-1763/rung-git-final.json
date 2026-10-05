@@ -1,0 +1,23 @@
+{
+  "pair_id": "netz98__n98-magerun2__1761-1763",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in docs/docs/command-docs/admin/index.md"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "docs/docs/command-docs/admin/index.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

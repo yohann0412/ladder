@@ -1,0 +1,23 @@
+{
+  "pair_id": "jeroenterheerdt__HAsmartirrigation__597-598",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in custom_components/smart_irrigation/frontend/dist/smart-irrigation.js"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "types": [
+        "content"
+      ],
+      "regions": 18,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

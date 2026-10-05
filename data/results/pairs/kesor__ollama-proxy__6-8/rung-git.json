@@ -1,0 +1,10 @@
+{
+  "pair_id": "kesor__ollama-proxy__6-8",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "96a33a87088733893b94479bc6b2c406f8f7e62e"
+}
