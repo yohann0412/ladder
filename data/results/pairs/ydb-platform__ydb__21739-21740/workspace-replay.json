@@ -1,0 +1,23 @@
+{
+  "pair_id": "ydb-platform__ydb__21739-21740",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/ydb-platform__ydb__21739-21740",
+  "source_base": "60342a8b96f769fd3bdbae04440e22ae04cb9f0e",
+  "source_a": "a2cebe066da71c0725063df8dc888fa96b60100e",
+  "source_b": "84f077e80abd9a9fb46fd5355c3306e4377c7640",
+  "base_commit": "e9a5172d4dd0aa9ebf1e708f6dc305bda8e98143",
+  "a_commit": "a2e4654dbe4e5ee8882c1ade8b41687e389020b5",
+  "b_commit": "95f731fead773a649c46cefae49e2d3687771c63",
+  "object_count": 128018,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
