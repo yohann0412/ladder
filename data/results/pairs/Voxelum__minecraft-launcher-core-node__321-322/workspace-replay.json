@@ -1,0 +1,23 @@
+{
+  "pair_id": "Voxelum__minecraft-launcher-core-node__321-322",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Voxelum__minecraft-launcher-core-node__321-322",
+  "source_base": "a255c84cd072e7d99cfc6db1482f49627906c2bd",
+  "source_a": "0f64468bc148e6cd5f63097cf5e0e552cd4a7bb9",
+  "source_b": "3859636a82a13dca8657c48e84e5a2eae9eaab0f",
+  "base_commit": "9b2ccf15bb81808e2040fa950b64f675257ebc3c",
+  "a_commit": "343f70b0918c0a2c3f77de11ed8d80007ce9cd53",
+  "b_commit": "553d49aa8301d3348b3160fdd51ba26e826c92b7",
+  "object_count": 410,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

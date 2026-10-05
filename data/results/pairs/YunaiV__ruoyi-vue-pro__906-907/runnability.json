@@ -1,0 +1,15 @@
+{
+  "pair_id": "YunaiV__ruoyi-vue-pro__906-907",
+  "commit": "68645c2db02d32f13f5ef1d31fbfa7d5a81086ae",
+  "language": "java",
+  "package_manager": "mvn",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "java project; no adapter for java (mvn is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
