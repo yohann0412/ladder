@@ -1,0 +1,23 @@
+{
+  "pair_id": "PyO3__maturin__2672-2674",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/PyO3__maturin__2672-2674",
+  "source_base": "64dfe13ae95888b6b6d4cb54541c813ea7c41064",
+  "source_a": "1c0749ec455947aaca3e786905c0657a16394720",
+  "source_b": "ee31140c87e9b2040d21925739091bd86e2eef1a",
+  "base_commit": "0e6ac64ecff442ada33c2eccc63bf07e3ee44fa6",
+  "a_commit": "b16ba8fb48d5ea33d9f941667a18c90d21a428b8",
+  "b_commit": "4f169305e72ff60124fd7adc11445b14eaa31db2",
+  "object_count": 626,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

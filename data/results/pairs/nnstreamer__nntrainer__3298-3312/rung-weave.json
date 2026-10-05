@@ -1,0 +1,18 @@
+{
+  "pair_id": "nnstreamer__nntrainer__3298-3312",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp",
+      "present": true,
+      "has_markers": false,
+      "language": "cpp",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/nnstreamer__nntrainer__3298-3312/weave"
+}

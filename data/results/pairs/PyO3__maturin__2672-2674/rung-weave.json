@@ -1,0 +1,20 @@
+{
+  "pair_id": "PyO3__maturin__2672-2674",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "src/new_project.rs"
+  ],
+  "files": [
+    {
+      "path": "src/new_project.rs",
+      "present": true,
+      "has_markers": true,
+      "language": "rust",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/PyO3__maturin__2672-2674/weave"
+}

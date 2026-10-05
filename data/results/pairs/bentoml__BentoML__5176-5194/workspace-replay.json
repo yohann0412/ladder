@@ -1,0 +1,23 @@
+{
+  "pair_id": "bentoml__BentoML__5176-5194",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/bentoml__BentoML__5176-5194",
+  "source_base": "387e4f9a50319451f337fd65031347a981ca9d9a",
+  "source_a": "d5226e59186a1fa46cbaad60506abb7e08baea3b",
+  "source_b": "5c304cdc7cae2e9382887a4d1a079acb1e888156",
+  "base_commit": "1bd6c53fcbcdd434899a25c7af072c17f596d00f",
+  "a_commit": "c0d7c3a32ce5760f164dabeaaf59e5aab4ae5cb1",
+  "b_commit": "dc9c7dc9741337042511d7e7da95335f607ae87c",
+  "object_count": 1163,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "Mail-0__Zero__1630-1665",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Mail-0__Zero__1630-1665",
+  "source_base": "f60b0fcba00ba8072476ad25fd8d6d2054b59961",
+  "source_a": "c2ae6cb0a4b6122b4018dbee3654c3a0fc949595",
+  "source_b": "d750b9906fe960e0654a2646ec90e3d47916b71e",
+  "base_commit": "ac2f24d81bcca9022dc0baa5b293392ab7253305",
+  "a_commit": "66ab7edd4f628a335a0a58bfd3bf35ce93ed790b",
+  "b_commit": "c1dfc1683640026058186dacbf66c6e076a40cf0",
+  "object_count": 740,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

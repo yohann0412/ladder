@@ -1,0 +1,15 @@
+{
+  "pair_id": "PyO3__maturin__2672-2674",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T06:02:46.346808Z"
+}

@@ -1,0 +1,19 @@
+{
+  "pair_id": "magiclabs__magic-js__873-874",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: yarn.lock version base has 859983 bytes, more than 200000",
+    "input cap: yarn.lock version a has 778717 bytes, more than 200000",
+    "input cap: yarn.lock version b has 837628 bytes, more than 200000",
+    "input cap: yarn.lock version conflicted has 1016846 bytes, more than 200000",
+    "input cap: 3493174 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T06:01:33.385563Z"
+}

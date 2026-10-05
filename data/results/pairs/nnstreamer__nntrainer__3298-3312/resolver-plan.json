@@ -1,0 +1,11 @@
+{
+  "pair_id": "nnstreamer__nntrainer__3298-3312",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T06:01:51.159505Z"
+}

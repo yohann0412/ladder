@@ -1,0 +1,23 @@
+{
+  "pair_id": "huggingface__tokenizers__1780-1782",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/huggingface__tokenizers__1780-1782",
+  "source_base": "e5d781d5b9cbfe149d732bd471ff8b294fe0ce50",
+  "source_a": "a9f16306093849e3c974a9d900ac980f3efa2050",
+  "source_b": "96a956393ff365549dd42f421fd45e9d5efd52a4",
+  "base_commit": "5bc81b27be9320d5f6f9b78bb1bd22db95e6d261",
+  "a_commit": "35ae62084272822a51f9df260a65e7dba7d58883",
+  "b_commit": "43cbef86f123f7902b8d8645e4085453a2927830",
+  "object_count": 571,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

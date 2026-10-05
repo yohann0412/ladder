@@ -1,0 +1,15 @@
+{
+  "pair_id": "theovilardo__PixelPlay__279-281",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: 942783 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T06:02:39.536335Z"
+}

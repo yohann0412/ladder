@@ -1,0 +1,20 @@
+{
+  "pair_id": "nnstreamer__nntrainer__3298-3312",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp"
+  ],
+  "files": [
+    {
+      "path": "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp",
+      "present": true,
+      "has_markers": true,
+      "language": "cpp",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/nnstreamer__nntrainer__3298-3312/mergiraf"
+}

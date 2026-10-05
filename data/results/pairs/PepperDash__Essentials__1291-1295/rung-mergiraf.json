@@ -1,0 +1,158 @@
+{
+  "pair_id": "PepperDash__Essentials__1291-1295",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 21",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/AppDebugRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DebugSessionRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevJsonRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevListRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevMethodsRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevPropsRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DisableAllStreamDebugRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DoNotLoadConfigOnNextBootRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetFeedbacksForDeviceRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetJoinMapForBridgeKeyRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetJoinMapForDeviceKeyRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetRoutesHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetRoutingPortsHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTieLinesRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTypesByFilterRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTypesRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/LoadConfigRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/ReportVersionsRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/RestartProgramRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/SetDeviceStreamDebugRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/ShowConfigRequestHandler.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/PepperDash__Essentials__1291-1295/mergiraf"
+}

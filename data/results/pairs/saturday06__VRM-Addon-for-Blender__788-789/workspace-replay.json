@@ -1,0 +1,23 @@
+{
+  "pair_id": "saturday06__VRM-Addon-for-Blender__788-789",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/saturday06__VRM-Addon-for-Blender__788-789",
+  "source_base": "ea66e8f9aea27c021b52a15d1f184df37d74944e",
+  "source_a": "f035a492c3180c69cbd4a212fc1a22d836607e72",
+  "source_b": "a8227f009eccd0dfba98ac4837f60236e73431d4",
+  "base_commit": "c67a5d1787071b40630eb033acace62ee91be70e",
+  "a_commit": "4526a218e6e15b40386dc62f2bf4c3a654a02a25",
+  "b_commit": "8b8eb7f26b5276312a56948804e88f5869cfeaa8",
+  "object_count": 803,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

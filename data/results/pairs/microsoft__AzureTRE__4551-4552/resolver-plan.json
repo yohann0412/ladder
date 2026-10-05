@@ -1,0 +1,15 @@
+{
+  "pair_id": "microsoft__AzureTRE__4551-4552",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T06:02:01.772385Z"
+}

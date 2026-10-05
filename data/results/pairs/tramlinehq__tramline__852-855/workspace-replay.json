@@ -1,0 +1,23 @@
+{
+  "pair_id": "tramlinehq__tramline__852-855",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/tramlinehq__tramline__852-855",
+  "source_base": "664afda2c40f2b905a0e0acd2d3454411efe56a9",
+  "source_a": "2271a267ad7fd8ab5a4b2bca8a2c2c5065da1252",
+  "source_b": "8abf5e8fb40be0582f5a00d35dd6c91071269114",
+  "base_commit": "6537fcaa67d13e49cd1e24fe34259fe086f60d97",
+  "a_commit": "15547709de8d46ba9e99880991ce17f8ec62afbb",
+  "b_commit": "53a15db8248d5e8d2f4f74d716b677449bded924",
+  "object_count": 1928,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

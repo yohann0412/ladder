@@ -1,0 +1,15 @@
+{
+  "pair_id": "PepperDash__Essentials__1291-1295",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T06:01:28.868258Z"
+}

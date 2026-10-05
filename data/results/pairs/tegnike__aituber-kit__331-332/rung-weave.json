@@ -1,0 +1,74 @@
+{
+  "pair_id": "tegnike__aituber-kit__331-332",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 9",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "locales/ar/translation.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "locales/de/translation.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "locales/es/translation.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "locales/fr/translation.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "locales/hi/translation.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "locales/it/translation.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "locales/pl/translation.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "locales/pt/translation.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "locales/ru/translation.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/tegnike__aituber-kit__331-332/weave"
+}

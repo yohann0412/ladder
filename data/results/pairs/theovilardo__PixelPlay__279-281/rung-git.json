@@ -2,7 +2,7 @@
   "pair_id": "theovilardo__PixelPlay__279-281",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 2, conflicted files: 2",
   "messages": [
     "CONFLICT (content): Merge conflict in app/src/main/java/com/theveloper/pixelplay/presentation/screens/LibraryScreen.kt",
     "CONFLICT (content): Merge conflict in app/src/main/java/com/theveloper/pixelplay/presentation/viewmodel/PlayerViewModel.kt"

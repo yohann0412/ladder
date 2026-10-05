@@ -1,0 +1,15 @@
+{
+  "pair_id": "tegnike__aituber-kit__331-332",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: 977779 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T06:03:09.526990Z"
+}

@@ -1,0 +1,20 @@
+{
+  "pair_id": "rnwood__smtp4dev__1761-1763",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    ".github/copilot-instructions.md"
+  ],
+  "files": [
+    {
+      "path": ".github/copilot-instructions.md",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/rnwood__smtp4dev__1761-1763/mergiraf"
+}

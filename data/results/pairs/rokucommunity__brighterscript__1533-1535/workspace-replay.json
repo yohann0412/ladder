@@ -1,0 +1,23 @@
+{
+  "pair_id": "rokucommunity__brighterscript__1533-1535",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/rokucommunity__brighterscript__1533-1535",
+  "source_base": "9e1350216f5932c74811fcef0dbb7383cb0d0668",
+  "source_a": "40c2972b7c6cf2bc0b0f635dd91ecd4e0d83cd52",
+  "source_b": "e11d97a1259a480a559293bcb8aab03a84987640",
+  "base_commit": "b7d3659bbc2e412c8959e249f6de94264a56851a",
+  "a_commit": "e7295a4cb3dbd9a3457bbd3ba42e09fcac013f4c",
+  "b_commit": "d5f4c38409df431e1f604163898976403f7ed6c6",
+  "object_count": 342,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

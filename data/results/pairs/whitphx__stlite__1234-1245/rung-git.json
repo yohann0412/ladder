@@ -2,7 +2,7 @@
   "pair_id": "whitphx__stlite__1234-1245",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 5, conflicted files: 5 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 5, conflicted files: 5",
   "messages": [
     "CONFLICT (content): Merge conflict in .gitignore",
     "CONFLICT (content): Merge conflict in packages/browser/package.json",

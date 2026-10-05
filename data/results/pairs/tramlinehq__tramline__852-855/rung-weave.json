@@ -1,0 +1,20 @@
+{
+  "pair_id": "tramlinehq__tramline__852-855",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "db/schema.rb"
+  ],
+  "files": [
+    {
+      "path": "db/schema.rb",
+      "present": true,
+      "has_markers": true,
+      "language": "ruby",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/tramlinehq__tramline__852-855/weave"
+}

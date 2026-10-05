@@ -1,0 +1,36 @@
+{
+  "pair_id": "huggingface__tokenizers__1780-1782",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 3 of 3",
+  "remaining_conflicted": [
+    "bindings/python/py_src/tokenizers/decoders/__init__.pyi",
+    "bindings/python/src/decoders.rs",
+    "tokenizers/src/tokenizer/mod.rs"
+  ],
+  "files": [
+    {
+      "path": "bindings/python/py_src/tokenizers/decoders/__init__.pyi",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "bindings/python/src/decoders.rs",
+      "present": true,
+      "has_markers": true,
+      "language": "rust",
+      "parses": false
+    },
+    {
+      "path": "tokenizers/src/tokenizer/mod.rs",
+      "present": true,
+      "has_markers": true,
+      "language": "rust",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/huggingface__tokenizers__1780-1782/weave"
+}

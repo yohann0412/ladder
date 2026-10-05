@@ -1,0 +1,48 @@
+{
+  "pair_id": "whitphx__stlite__1234-1245",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 5",
+  "remaining_conflicted": [
+    ".gitignore"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/browser/package.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "packages/desktop/package.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "packages/kernel/package.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "packages/sharing/package.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/whitphx__stlite__1234-1245/mergiraf"
+}

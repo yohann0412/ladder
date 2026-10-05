@@ -1,0 +1,27 @@
+{
+  "pair_id": "rokucommunity__brighterscript__1533-1535",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 2",
+  "remaining_conflicted": [
+    "src/LanguageServer.spec.ts"
+  ],
+  "files": [
+    {
+      "path": "src/LanguageServer.spec.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    },
+    {
+      "path": "src/LanguageServer.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/rokucommunity__brighterscript__1533-1535/weave"
+}

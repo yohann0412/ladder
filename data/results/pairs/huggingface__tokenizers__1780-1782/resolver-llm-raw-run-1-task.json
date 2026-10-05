@@ -1,0 +1,20 @@
+{
+  "pair_id": "huggingface__tokenizers__1780-1782",
+  "rung": "llm-raw",
+  "run": 1,
+  "task_dir": "/home/user/ladder/work/resolver/huggingface__tokenizers__1780-1782/llm-raw/run-1",
+  "snapshot_dir": "/home/user/ladder/work/resolver/huggingface__tokenizers__1780-1782/llm-raw/run-1/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/huggingface__tokenizers__1780-1782/llm-raw/run-1",
+  "spawn_line": "Read /home/user/ladder/work/resolver/huggingface__tokenizers__1780-1782/llm-raw/run-1/PROMPT.md and follow it exactly.",
+  "files": [
+    "bindings/python/py_src/tokenizers/decoders/__init__.pyi",
+    "bindings/python/src/decoders.rs",
+    "tokenizers/src/tokenizer/mod.rs"
+  ],
+  "input_bytes": 346579,
+  "pr_text_flags": [],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "pending",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T06:01:24.026280Z"
+}

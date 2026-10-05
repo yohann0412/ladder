@@ -1,0 +1,11 @@
+{
+  "pair_id": "saturday06__VRM-Addon-for-Blender__788-789",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T06:00:31.205045Z"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "tegnike__aituber-kit__331-332",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/tegnike__aituber-kit__331-332",
+  "source_base": "8ace4a961fc74e59a81c2fd2e739d845fac33c5b",
+  "source_a": "16a96723f06a26b7b2b05ebe3e2e2b1f6eae27b3",
+  "source_b": "d7b783ab383ee91863375fe358deeb89559ecb50",
+  "base_commit": "fabaa7ff376530e169bfb870184ab828dc9cbf78",
+  "a_commit": "c994e195967d2bbc70edaea5f1563d6143bdc523",
+  "b_commit": "e590cb3232a418b18c31916f56edeea267b9faca",
+  "object_count": 592,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

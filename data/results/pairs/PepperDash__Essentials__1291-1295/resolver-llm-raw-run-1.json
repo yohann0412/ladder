@@ -1,0 +1,15 @@
+{
+  "pair_id": "PepperDash__Essentials__1291-1295",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: 21 conflicted files, more than 20"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T06:01:29.321039Z"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__AzureTRE__4551-4552",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/microsoft__AzureTRE__4551-4552",
+  "source_base": "7e532bd19b7b58d526cf84fa007060574b75ee8f",
+  "source_a": "6ce8df8b740ba7cc10e85e75671b2683cdb0aa41",
+  "source_b": "2b740b9f074135b952c08bb66b9444d6ce9ca823",
+  "base_commit": "1a7378959789d8c8e451205626a621eb71a7be28",
+  "a_commit": "9a9812c402370187d5e050a9b48d5d266192a653",
+  "b_commit": "d087fbd013e4f42be7582bcc6a82786a0a6806a2",
+  "object_count": 1596,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

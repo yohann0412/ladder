@@ -2,7 +2,7 @@
   "pair_id": "PepperDash__Essentials__1291-1295",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 21, conflicted files: 21 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 21, conflicted files: 21",
   "messages": [
     "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/AppDebugRequestHandler.cs",
     "CONFLICT (content): Merge conflict in src/PepperDash.Essentials.Core/Web/RequestHandlers/DebugSessionRequestHandler.cs",

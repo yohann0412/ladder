@@ -1,0 +1,11 @@
+{
+  "pair_id": "tegnike__aituber-kit__331-332",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T06:03:09.284059Z"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "PepperDash__Essentials__1291-1295",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/PepperDash__Essentials__1291-1295",
+  "source_base": "1dbac7d1c816557925974886be7578215728eccd",
+  "source_a": "0674dbda37023f74d58cb32ad37ead24667fdfc6",
+  "source_b": "1c55003a204ce488766eb59f74e07c297478e6d3",
+  "base_commit": "dff84700ba46adb993207a704fc4d9b70982336e",
+  "a_commit": "1d6a76554ee46c4ccca1a699f95af896e55c689b",
+  "b_commit": "dc40b6f363cc3785e4d229246457f55815394151",
+  "object_count": 1430,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

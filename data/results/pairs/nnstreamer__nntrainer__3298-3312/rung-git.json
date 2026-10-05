@@ -2,7 +2,7 @@
   "pair_id": "nnstreamer__nntrainer__3298-3312",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 1, conflicted files: 1",
   "messages": [
     "CONFLICT (content): Merge conflict in nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp"
   ],

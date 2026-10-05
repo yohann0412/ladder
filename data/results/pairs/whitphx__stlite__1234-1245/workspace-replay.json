@@ -1,0 +1,23 @@
+{
+  "pair_id": "whitphx__stlite__1234-1245",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/whitphx__stlite__1234-1245",
+  "source_base": "81c9acefc3dc84a17e72e44c533dc51137b9efa7",
+  "source_a": "1b3415431c8d5ab71494e8bfb86e9e4734fc5c7e",
+  "source_b": "6c56b6c6c10d02195334899d06862f06f4aba021",
+  "base_commit": "4d4f320be3724f4b921503aac6f8842f6fbe1144",
+  "a_commit": "729a54700ed5a7670d4400fbeb05923120492f20",
+  "b_commit": "33a1a400ad53d8d5ce7ef7c2cdd452140b52a391",
+  "object_count": 817,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

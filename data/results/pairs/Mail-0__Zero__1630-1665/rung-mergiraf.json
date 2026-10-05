@@ -1,0 +1,20 @@
+{
+  "pair_id": "Mail-0__Zero__1630-1665",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "apps/mail/components/mail/mail-list.tsx"
+  ],
+  "files": [
+    {
+      "path": "apps/mail/components/mail/mail-list.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/Mail-0__Zero__1630-1665/mergiraf"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "magiclabs__magic-js__873-874",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/magiclabs__magic-js__873-874",
+  "source_base": "153f86b05eb53b2b2f912460e2bc3226d4b0917f",
+  "source_a": "bb1fb68aca77f00737d5d56922debb2b16b48ef3",
+  "source_b": "5bad839a64ac06497b7ce798535824b2f40f695f",
+  "base_commit": "d84f09377290771c598e78afbbac2092c8a2a34b",
+  "a_commit": "761ab35f8c131cc29863d29574e8a4a390ea5215",
+  "b_commit": "23269537c13b68649b484d21b3b78d74e5416d21",
+  "object_count": 674,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

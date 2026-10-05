@@ -1,0 +1,20 @@
+{
+  "pair_id": "saturday06__VRM-Addon-for-Blender__788-789",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "src/io_scene_vrm/importer/abstract_base_vrm_importer.py"
+  ],
+  "files": [
+    {
+      "path": "src/io_scene_vrm/importer/abstract_base_vrm_importer.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/saturday06__VRM-Addon-for-Blender__788-789/mergiraf"
+}

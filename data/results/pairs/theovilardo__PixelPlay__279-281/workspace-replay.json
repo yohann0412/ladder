@@ -1,0 +1,23 @@
+{
+  "pair_id": "theovilardo__PixelPlay__279-281",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/theovilardo__PixelPlay__279-281",
+  "source_base": "28dd1934ac5fc7af7ec0c70275bad9ff6a16791c",
+  "source_a": "629ec3757324692acd586059505f515d0a02003b",
+  "source_b": "e18e7c4cee67a80b929a404e9ec1f327466ab1c7",
+  "base_commit": "7fbc619c2aebc9813316dec065564f951df90e44",
+  "a_commit": "338d979f8d772c4f32eac9d1a6c5d38c6efddd1c",
+  "b_commit": "9f182094347d2ba7de1f7243b819fe513852a627",
+  "object_count": 489,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

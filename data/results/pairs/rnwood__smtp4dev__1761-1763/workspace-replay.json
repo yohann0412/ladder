@@ -1,0 +1,23 @@
+{
+  "pair_id": "rnwood__smtp4dev__1761-1763",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/rnwood__smtp4dev__1761-1763",
+  "source_base": "5cdc6e556f8a4db0c1485deb406390bad9a4eb67",
+  "source_a": "36126f9d737326f10511d5dc9ca79efd9b5b34e9",
+  "source_b": "c7e747d9ad0511b9d6361bfb88e4397325cba201",
+  "base_commit": "68a36d18c0181fa18e05d2c47385c5b40399c185",
+  "a_commit": "2cbd056abe256ea491a6d18f7ee8a09150a25996",
+  "b_commit": "d4455f538fe518aba85e8c3ce831ca857b7c7b31",
+  "object_count": 1186,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
