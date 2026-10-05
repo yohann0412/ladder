@@ -1,0 +1,15 @@
+{
+  "pair_id": "OHIF__Viewers__4958-5097",
+  "commit": "a41ed3bade3befb510f64ed7fc5437279d8b05d4",
+  "language": "node",
+  "package_manager": "yarn",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
