@@ -2,7 +2,7 @@
   "pair_id": "selfxyz__self__727-755",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 7, conflicted files: 7 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 7, conflicted files: 7",
   "messages": [
     "CONFLICT (add/add): Merge conflict in circuits/circuits/register_id/instances/register_id_sha256_sha256_sha224_ecdsa_secp224r1.circom",
     "CONFLICT (content): Merge conflict in circuits/scripts/build/build_cpp.sh",

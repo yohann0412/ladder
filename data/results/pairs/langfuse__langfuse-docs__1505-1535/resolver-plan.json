@@ -1,0 +1,15 @@
+{
+  "pair_id": "langfuse__langfuse-docs__1505-1535",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T08:20:14.717752Z"
+}

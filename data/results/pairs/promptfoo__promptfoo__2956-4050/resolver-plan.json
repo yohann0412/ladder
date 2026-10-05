@@ -1,0 +1,15 @@
+{
+  "pair_id": "promptfoo__promptfoo__2956-4050",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T08:19:16.063446Z"
+}

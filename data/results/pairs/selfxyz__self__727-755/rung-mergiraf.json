@@ -1,0 +1,67 @@
+{
+  "pair_id": "selfxyz__self__727-755",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 6 of 7",
+  "remaining_conflicted": [
+    "circuits/circuits/register_id/instances/register_id_sha256_sha256_sha224_ecdsa_secp224r1.circom",
+    "contracts/ignition/modules/scripts/updateRegistryHubV2.ts",
+    "contracts/ignition/readme.md",
+    "contracts/scripts/constants.ts",
+    "contracts/scripts/setHubV2.ts",
+    "contracts/scripts/setVerifiersV2.ts"
+  ],
+  "files": [
+    {
+      "path": "circuits/circuits/register_id/instances/register_id_sha256_sha256_sha224_ecdsa_secp224r1.circom",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "circuits/scripts/build/build_cpp.sh",
+      "present": true,
+      "has_markers": false,
+      "language": "bash",
+      "parses": true
+    },
+    {
+      "path": "contracts/ignition/modules/scripts/updateRegistryHubV2.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    },
+    {
+      "path": "contracts/ignition/readme.md",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "contracts/scripts/constants.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    },
+    {
+      "path": "contracts/scripts/setHubV2.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    },
+    {
+      "path": "contracts/scripts/setVerifiersV2.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/selfxyz__self__727-755/mergiraf"
+}

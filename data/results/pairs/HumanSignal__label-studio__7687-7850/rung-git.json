@@ -2,7 +2,7 @@
   "pair_id": "HumanSignal__label-studio__7687-7850",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 1, conflicted files: 1",
   "messages": [
     "CONFLICT (content): Merge conflict in label_studio/data_import/uploader.py"
   ],

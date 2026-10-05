@@ -1,0 +1,28 @@
+{
+  "pair_id": "langfuse__langfuse-docs__1505-1535",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 2",
+  "remaining_conflicted": [
+    "pages/docs/scores/data-model.mdx",
+    "pages/docs/tracing-data-model.mdx"
+  ],
+  "files": [
+    {
+      "path": "pages/docs/scores/data-model.mdx",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "pages/docs/tracing-data-model.mdx",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/langfuse__langfuse-docs__1505-1535/mergiraf"
+}

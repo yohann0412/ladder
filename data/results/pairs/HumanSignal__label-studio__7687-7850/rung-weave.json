@@ -1,0 +1,20 @@
+{
+  "pair_id": "HumanSignal__label-studio__7687-7850",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "label_studio/data_import/uploader.py"
+  ],
+  "files": [
+    {
+      "path": "label_studio/data_import/uploader.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/HumanSignal__label-studio__7687-7850/weave"
+}
