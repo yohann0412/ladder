@@ -269,3 +269,21 @@ def test_report_splits_calibration_and_qualifies_claim_b(
     report = out.read_text()
     calibration_section = report.split("## Calibration")[1].split("\n## ")[0]
     assert "LLM" in calibration_section and "structural" in calibration_section
+
+
+def test_report_says_a_small_claim_c_sample_cannot_be_compared(
+    fx: Experiment, tmp_path: Path
+) -> None:
+    fx.ladder("run", "--all", "--no-llm")
+    path = fx.results / "pairs" / "fx06" / "claim-c.json"
+    record = read_json(path)
+    record["merge"] = {**record["merge"], "status": "passed", "failed": 0, "failing_tests": []}
+    record["fails_together"] = False
+    path.write_text(json.dumps(record, indent=2) + "\n")
+
+    fx.ladder("report", "--out", str(tmp_path / "RESULTS.md"))
+    summary = read_json(fx.results / "summary.json")
+    rate = summary["claim_c_fails_together"]
+    assert (rate["numerator"], rate["denominator"]) == (0, 2)
+    claim_c = summary["verdicts"]["C"]
+    assert "cannot be told apart" in claim_c and "12.5%" in claim_c

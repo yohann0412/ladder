@@ -19,7 +19,8 @@ study (Zenodo 10.5281/zenodo.21186464), plus a supplementary sample drawn from A
 fixed rule.
 
 **Results are in [RESULTS.md](RESULTS.md); what could be wrong with them is in
-[reviews/results.md](reviews/results.md).** In short, over 224 conflicting agent-PR pairs:
+[reviews/results.md](reviews/results.md).** In short (Claims A and B over 224 conflicting
+agent-PR pairs, Claim C over 918 pairs that merge cleanly):
 
 - **Claim A (the ladder resolves >= 90% the way maintainers did): falsified.** The
   practical ladder's accepted output matched the maintainers' merge in 22 of 78 pairs that
@@ -29,8 +30,10 @@ fixed rule.
   pre-registered rule (36%), but calibration does not support it.** A reviewer agreed with
   0 of 6 sampled intent-dropped verdicts on LLM outputs. The line-based intent check misreads
   merges that combine or re-implement both sides.
-- **Claim C (pairs that pass alone and fail together):** still running when this was
-  written; see RESULTS.md.
+- **Claim C (pairs that pass alone and fail together): not decided.** 120 of 918 clean pairs
+  were attempted before the pre-registered time cut; only 6 could be decided (0 fail
+  together, 95% CI 0-39%), too few to compare with the 1-12.5% human base rates. Only about
+  one repository in sixteen has a test suite this harness can run green.
 
 ## 30-second quickstart
 

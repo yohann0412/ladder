@@ -621,3 +621,21 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   and the other 798 clean pairs are `not attempted: cut`. The reason is the time budget,
   a resource reason (D19, D25). Before the final D23 redo, 6 of the 120 are decided, and
   none fails together.
+- 21:25: the final D23 redo of the six Claim C records stopped at the floor is done.
+  - vector: build fails (a dependency error).
+  - tldraw: its suite fails at base.
+  - coder: build fails.
+  - twenty: needs secrets.
+  - openops: its suite does not load at base.
+  - cal.com: stopped at the floor again while installing the merge, so its record stays.
+
+  In all, D23 redid 26 pairs (122 records). Six pairs still carry 12 floor-stopped
+  records.
+- 21:30: final `ladder report`.
+  - Claim A falsified (22/78).
+  - Claim B holds by its rule, but calibration does not support it (0/6 on LLM outputs;
+    adjusted 14.0%).
+  - Claim C: 0/6 decided, interval to 39%, which cannot be told apart from the human base
+    rates. The Claim C statement had said "below the 1% base rate" without that
+    qualification. Fixed test-first (reviews/F9e-claim-c-small-sample.md) and the report
+    regenerated.

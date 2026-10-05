@@ -10,6 +10,7 @@ CLAIM_A_MIN_PAIRS = 10
 INTENT_DROPPED_THRESHOLD = 15.0
 TESTS_PASS_DROPPED_THRESHOLD = 10.0
 HUMAN_BASE_RATE = 1.0
+LARGE_TEAM_BASE_RATE = 12.5
 A_BEST_CASE = "A best case"
 CLAIMS = ("A", A_BEST_CASE, "B", "C")
 
@@ -138,6 +139,13 @@ def claim_c(fails_together: Rate) -> str:
         text += " A merge queue already catches these; only automatic repair remains open."
     elif fails_together.numerator == 0 and (fails_together.ci_high or 0.0) < 0.01:
         text += " Zero positives with an upper bound below 1%: not a problem worth solving."
+    elif (fails_together.ci_high or 0.0) * 100 >= HUMAN_BASE_RATE:
+        text += (
+            f" With {fails_together.denominator} decided pairs the interval reaches "
+            f"{(fails_together.ci_high or 0.0) * 100:.1f}%, which covers the human base rates "
+            f"(1% for small teams, up to {LARGE_TEAM_BASE_RATE:g}% for large ones), so the rate "
+            "cannot be told apart from them."
+        )
     return text
 
 

@@ -2,8 +2,7 @@
 
 This is the adversarial review of `RESULTS.md`. For each claim it says what the numbers
 are and what could make them wrong. It also covers what went wrong while the numbers were
-being produced. Numbers are those of the final `ladder report`. Where a number below is
-marked *(final)*, it was checked against `data/results/summary.json` at the end.
+being produced. Numbers are those of the final `ladder report` (`data/results/summary.json`).
 
 ## The verdicts in one paragraph
 
@@ -23,8 +22,10 @@ support it. The reviewer agreed with 0 of 6 intent-dropped verdicts on LLM outpu
 the upper end of that agreement's interval, the rate would be 14.0%, below the
 threshold (D24).
 
-**Claim C** (pairs that pass alone and fail together) is reported as a rate over too
-few decided pairs to compare with the human base rate. See its section.
+**Claim C** (pairs that pass alone and fail together) is **not decided**. 120 of the 918
+clean pairs were attempted in the D19 order before the D25 time budget cut. Only 6 could
+be decided, and none of the 6 fails together: 0/6, 95% CI 0% to 39%. That interval covers
+both human base rates (1% for small teams, 12.5% for large ones).
 
 ## Claim A: what could be wrong
 
@@ -86,14 +87,21 @@ few decided pairs to compare with the human base rate. See its section.
 - **Denominator.** PLAN section 1 says "of conflicting pairs", but the code divides by
   llm-raw outputs that exist (165 of 224). Over all conflicting pairs the rate is 59/224
   = 26.3%, also above 15% (D24 records this).
-- **Tests pass but intent dropped** could be measured on only 6 llm-raw outputs, because
-  few repositories have a suite this harness can run at base (next section). 0/6 says
+- **Tests pass but intent dropped** could be measured on only 7 llm-raw outputs, because
+  few repositories have a suite this harness can run at base (next section). 0/7 says
   little.
 
 ## Runnability and the tests-based cells
 
-Of the repositories checked, only about one in twenty has a suite this harness can
-install and run green at base. The main reasons:
+Of the 344 pairs whose repository was checked, 22 (6.4%) have a suite this harness can
+install and run green at base, two of them after a recorded modification. Of the others:
+- 78 do not build or install;
+- 29 lack a toolchain this machine has (PHP, Java, .NET and others);
+- 13 exceed a time or disk cap;
+- 2 need secrets or services;
+- the rest are "other".
+
+The main reasons:
 
 - Node projects without jest, vitest or mocha;
 - suites that already fail at base;
@@ -106,7 +114,31 @@ in the report should be read as anecdotal. The adapters are scoped in
 
 ## Claim C
 
-*(final numbers after the Claim C waves)*
+- **Coverage.** Waves c01 to c06 of the D19 order are complete. That is 120 pairs with a
+  record, none beyond the cut, and 798 `not attempted: cut` (D25: a two-hour budget after
+  the D23 redo, cut at the last complete wave). The order was fixed before any Claim C
+  result, so the 120 are a seeded random sample of the 918 clean pairs.
+- **Decided: 6, positives: 0.** Of the 114 excluded pairs:
+  - 109 are unrunnable at base: 64 "other", mostly Node projects without
+    jest/vitest/mocha or suites that already fail at base; 30 build failures; 11 missing
+    toolchains; 2 over a cap; 1 needing secrets, 1 needing services;
+  - 2 stopped at the free-disk floor (cal.com, and PRQL in the redo);
+  - 1 fails alone, 1 capped and 1 flaky.
+
+  No merge broke dependency installation while A and B installed (the D19 count is 0).
+- **What could be wrong.**
+  - Six decided pairs cannot support any rate. The upper bound of 39% is not a finding.
+  - Whether a pair can be decided depends heavily on the repository's language and test
+    setup, so even a larger decided set would describe repositories with simple,
+    green-at-base suites, not agent PR pairs in general.
+  - Some pairs were run while parallel workers or redo processes competed for CPU, which
+    can push a suite over its cap. That shows up as `capped` (1 pair), not as a pass or a
+    fail.
+- **Two operational changes** were made on the way, both for disk and both before their
+  effects were known:
+  - the D25 workers were cut from three to one at 18:20;
+  - six Claim C records that stopped at the floor were redone once under D23. One of them
+    (cal.com) stopped again and stays.
 
 ## What went wrong while producing the numbers, and whether it touches them
 
@@ -116,9 +148,18 @@ in the report should be read as anecdotal. The adapters are scoped in
     same time.
   - Fixes F8b to F8f added a disk floor, completion marks, the removal of a deadlocking
     wait, and per-pair temporary and cache directories.
-  - Test runs stopped by the floor were recorded honestly as stopped. D23 then redid all
-    20 such pairs once (110 records), with a rule decided before any redo result. The
-    report counts them.
+  - Test runs stopped by the floor were recorded honestly as stopped. D23 then redid
+    every such pair once, with a rule decided before any redo result: 26 pairs and 122
+    records in all. The report counts them.
+  - Six pairs still carry 12 floor-stopped records after their single redo, and those
+    stay:
+    - goose, both bruin pairs and cal.com need more disk than this 40 GB machine has, even
+      alone;
+    - flow-go and PRQL stopped while two redo processes ran together under D23's second
+      amendment. Running alone would probably have saved them.
+  - The shared cargo registry and pinned Rust toolchains are the one cache still outside
+    each pair's scratch directory. They were cleared by hand whenever no cargo or rustc
+    was running.
 - **Container restarts.** Two restarts (about 10:00 and 10:33) killed the running processes. Every record is
   written atomically and working copies carry completion marks, so a restart costs time,
   not records.
@@ -145,4 +186,4 @@ second try. Claim A's interval is wider than this effect, and its verdict does n
   A semantic intent check is the obvious next step.
 - Only one resolver model and one fixed prompt were used. The LLM rung's numbers describe
   this resolver, not LLM merging in general.
-- Claim C was cut, as D19 allows. See its section.
+- Claim C was cut after 120 of 918 pairs, as D19 and D25 allow. See its section.
