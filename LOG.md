@@ -293,3 +293,28 @@ conflicted file, but A's whitespace change is dropped because the needed edit is
 `core.py`, which the resolver may not write (A's test fails); weave and mergiraf keep the file
 B deleted and drop B instead. fx05's LLM merge of two `retry` modules is mergeable and keeps
 both intents but is not the human's text. The trap scores tests-pass and intent-dropped (B).
+
+## 16. Phase 3 resolver waves, self-output reads, and the first Claim C disk incident
+
+- Resolver runs go in waves of 20 ladder pairs, smallest first (`work/ladder-order.txt`).
+  Each wave is prepared with `ladder run <pairs> --stop-before-truth --prune --skip-claim-c`.
+  One general-purpose subagent is spawned per pending task with the fixed spawn line, at
+  most 20 at a time. No truth file exists while waves run.
+- Transcripts are collected only for subagents that have handed back. `resolve collect`
+  matches every pending task that has a transcript, so a still-running resolver would have
+  been finalized half-done. Collection now goes through a directory that holds only
+  transcripts containing a hand-back tool call. This was caught before the first collection.
+- After waves 1 and 2, 8 of 60 finalized runs had failed the audit, all for reading files in
+  their own output directory after writing them. More appeared in wave 3, together with one
+  run that used Bash (CravateRouge__bloodyAD__81-82 llm-post-weave). All stay
+  `failed: protocol_violation`, and the reporting rule is D20.
+- Claim C wave c01 started alongside resolver waves. Its first runnable pair,
+  PRQL__prql__5286-5287 (Rust), built three cargo targets into one runtime and took free
+  disk from 9 GB to 1.6 GB. I stopped the run and deleted that pair's runtime. No resolver
+  write failed. PRQL has no Claim C record and keeps its place in the order. Claim C is
+  paused until every resolver wave has settled and a free-disk floor exists for installers
+  and test runners (acceptance test committed; implementation in progress). The floor is a
+  resource rule, fixed before any Claim C outcome other than one exclusion
+  (`bmander__graphserver__32-34`, unrunnable: no manifest). `ladder run` groups a wave by
+  repository, so its order inside a wave differs from `data/claimc-order.txt`. That is
+  harmless, because D19 only stops at wave boundaries; wave c01 is rerun in full.
