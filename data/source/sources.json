@@ -1,5 +1,10 @@
 [
   {
+    "md5": "a73d2b8d180ce6a20b7db0b48167cb3c",
+    "name": "hao-li/AIDev@main/pr_commit_details.parquet",
+    "url": "https://huggingface.co/datasets/hao-li/AIDev/resolve/c63c8a57a2de34fc03fa83722412824af4d8753b/pr_commit_details.parquet"
+  },
+  {
     "md5": "e35155c6ac4c94fbb81eb88f3f2f38f6",
     "name": "hao-li/AIDev@main/pull_request.parquet",
     "url": "https://huggingface.co/datasets/hao-li/AIDev/resolve/c63c8a57a2de34fc03fa83722412824af4d8753b/pull_request.parquet"

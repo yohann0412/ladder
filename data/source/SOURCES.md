@@ -1,8 +1,9 @@
 # Pair sources
 
-Written by `ladder pairs fetch-sources`; `ladder pairs load --source <this directory>` reads
-these files offline. Both upstream datasets are licensed CC-BY-4.0
-(https://creativecommons.org/licenses/by/4.0/). What was changed is listed per dataset.
+Written by `ladder pairs fetch-sources`; `ladder pairs load --source <this directory>` and
+`ladder pairs sample-supplementary --source <this directory>` read these files offline. Both
+upstream datasets are licensed CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/). What
+was changed is listed per dataset.
 
 ## Replay study replication package (Zenodo record 21186464)
 
@@ -36,6 +37,16 @@ these files offline. Both upstream datasets are licensed CC-BY-4.0
   replay CSV's name is looked up in `v3` to learn its id; the
   `main` row with that id is used when there is one (the repository was renamed),
   otherwise the `v3` row.
+- `supplementary_candidates.json` (DECISIONS.md D15, rules 1, 2 and 5): derived from the
+  `main` revision's `pull_request.parquet`, `repository.parquet` and `pr_commit_details.parquet`
+  (only its `pr_id` and `filename` columns). A candidate is two PRs of one repository, both
+  with `merged_at`, whose [created_at, merged_at] intervals overlap, whose changed-file sets
+  (union of `filename` over the PR's rows) intersect, and which are not a pair of the replay
+  CSV. Per repository only the first candidate by (later PR's created_at, smaller number,
+  larger number) is kept. One entry per repository, sorted by full name: repo (the full name
+  in `main`), PR a (created first) and PR b, each with repo, number, id, agent,
+  title, body, state, created_at, closed_at, merged_at, html_url; null titles and bodies are
+  written as empty strings.
 - Revisions:
   - `main` = commit `c63c8a57a2de34fc03fa83722412824af4d8753b`
   - `v3` = commit `68ed5f4b80d27a9e057fc57567f38bd322ac73ec`
@@ -44,6 +55,7 @@ these files offline. Both upstream datasets are licensed CC-BY-4.0
 
 | name | md5 | url |
 | --- | --- | --- |
+| `hao-li/AIDev@main/pr_commit_details.parquet` | `a73d2b8d180ce6a20b7db0b48167cb3c` | https://huggingface.co/datasets/hao-li/AIDev/resolve/c63c8a57a2de34fc03fa83722412824af4d8753b/pr_commit_details.parquet |
 | `hao-li/AIDev@main/pull_request.parquet` | `e35155c6ac4c94fbb81eb88f3f2f38f6` | https://huggingface.co/datasets/hao-li/AIDev/resolve/c63c8a57a2de34fc03fa83722412824af4d8753b/pull_request.parquet |
 | `hao-li/AIDev@main/repository.parquet` | `a233a6d7aa6470884915423c908318bb` | https://huggingface.co/datasets/hao-li/AIDev/resolve/c63c8a57a2de34fc03fa83722412824af4d8753b/repository.parquet |
 | `hao-li/AIDev@v3/pull_request.parquet` | `c070361e71ee941b3450d53fcdd07b32` | https://huggingface.co/datasets/hao-li/AIDev/resolve/68ed5f4b80d27a9e057fc57567f38bd322ac73ec/pull_request.parquet |
