@@ -1,0 +1,89 @@
+{
+  "pair_id": "theopenco__llmgateway__208-354",
+  "commit": "ccfd8ce5e7caca1a69385befb3e93a8473fecdc6",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": "vitest",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 35 failed, 0 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "pnpm",
+        "install",
+        "--frozen-lockfile"
+      ],
+      "exit_code": 0,
+      "duration_s": 58.1,
+      "detail": "standard, install cap 900 s: install: exit 0 in 25.6 s; suite failed: 12 passed, 35 failed, 0 errors, 7 skipped (apps/gateway/src/api.spec.ts::test /, apps/gateway/src/api.spec.ts::test /v1/chat/completions e2e success, apps/gateway/src/api.spec.ts::test /v1/chat/completions invalid model, apps/gateway/src/api.spec.ts::test /v1/chat/completions missing Content-Type header, apps/gateway/src/api.spec.ts::test /v1/chat/completions missing Authorization header); first run failed: 12 passed, 35 failed, 0 errors, 7 skipped (apps/gateway/src/api.spec.ts::test /, apps/gateway/src/api.spec.ts::test /v1/chat/completions e2e success, apps/gateway/src/api.spec.ts::test /v1/chat/completions invalid model, apps/gateway/src/api.spec.ts::test /v1/chat/completions missing Content-Type header, apps/gateway/src/api.spec.ts::test /v1/chat/completions missing Authorization header)"
+    },
+    {
+      "command": [
+        "pnpm",
+        "install",
+        "--no-frozen-lockfile"
+      ],
+      "exit_code": 0,
+      "duration_s": 40.2,
+      "detail": "unfrozen (pnpm install without --frozen-lockfile), install cap 900 s: install: exit 0 in 9.8 s; suite failed: 12 passed, 35 failed, 0 errors, 7 skipped (apps/gateway/src/api.spec.ts::test /, apps/gateway/src/api.spec.ts::test /v1/chat/completions e2e success, apps/gateway/src/api.spec.ts::test /v1/chat/completions invalid model, apps/gateway/src/api.spec.ts::test /v1/chat/completions missing Content-Type header, apps/gateway/src/api.spec.ts::test /v1/chat/completions missing Authorization header); first run failed: 12 passed, 35 failed, 0 errors, 7 skipped (apps/gateway/src/api.spec.ts::test /, apps/gateway/src/api.spec.ts::test /v1/chat/completions e2e success, apps/gateway/src/api.spec.ts::test /v1/chat/completions invalid model, apps/gateway/src/api.spec.ts::test /v1/chat/completions missing Content-Type header, apps/gateway/src/api.spec.ts::test /v1/chat/completions missing Authorization header)"
+    }
+  ],
+  "test_count": 54,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/theopenco__llmgateway__208-354/trees/base/node_modules/.bin/vitest",
+      "run",
+      "--coverage.enabled=false",
+      "--reporter=json",
+      "--outputFile=/home/user/ladder/work/runtime/theopenco__llmgateway__208-354/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 12,
+    "failed": 35,
+    "errors": 0,
+    "skipped": 7,
+    "duration_s": 15.9,
+    "retried": true,
+    "failing_tests": [
+      "apps/gateway/src/api.spec.ts::test /",
+      "apps/gateway/src/api.spec.ts::test /v1/chat/completions e2e success",
+      "apps/gateway/src/api.spec.ts::test /v1/chat/completions invalid model",
+      "apps/gateway/src/api.spec.ts::test /v1/chat/completions missing Content-Type header",
+      "apps/gateway/src/api.spec.ts::test /v1/chat/completions missing Authorization header",
+      "apps/gateway/src/api.spec.ts::test /v1/chat/completions with explicit provider",
+      "apps/gateway/src/api.spec.ts::test /v1/chat/completions with llmgateway/auto",
+      "apps/gateway/src/api.spec.ts::test /v1/chat/completions with missing provider API key",
+      "apps/gateway/src/api.spec.ts::test /v1/chat/completions with provider error response",
+      "packages/auth/src/auth.spec.ts::auth hooks should create default organization and project on signup",
+      "apps/api/src/routes/activity.spec.ts::activity endpoint GET /activity should return activity data grouped by day",
+      "apps/api/src/routes/activity.spec.ts::activity endpoint GET /activity should require days parameter",
+      "apps/api/src/routes/activity.spec.ts::activity endpoint GET /activity should require authentication",
+      "apps/api/src/routes/keys-api.spec.ts::keys route GET /keys/api unauthorized",
+      "apps/api/src/routes/keys-api.spec.ts::keys route POST /keys/api unauthorized",
+      "apps/api/src/routes/keys-api.spec.ts::keys route DELETE /keys/api/test-api-key-id unauthorized",
+      "apps/api/src/routes/keys-api.spec.ts::keys route PATCH /keys/api/test-api-key-id unauthorized",
+      "apps/api/src/routes/keys-api.spec.ts::keys route GET /keys/api",
+      "apps/api/src/routes/keys-api.spec.ts::keys route PATCH /keys/api/{id}",
+      "apps/api/src/routes/keys-provider.spec.ts::provider keys route GET /keys/provider unauthorized",
+      "apps/api/src/routes/keys-provider.spec.ts::provider keys route POST /keys/provider unauthorized",
+      "apps/api/src/routes/keys-provider.spec.ts::provider keys route DELETE /keys/provider/test-provider-key-id unauthorized",
+      "apps/api/src/routes/keys-provider.spec.ts::provider keys route PATCH /keys/provider/test-provider-key-id unauthorized",
+      "apps/api/src/routes/keys-provider.spec.ts::provider keys route GET /keys/provider",
+      "apps/api/src/routes/keys-provider.spec.ts::provider keys route POST /keys/provider",
+      "apps/api/src/routes/keys-provider.spec.ts::provider keys route POST /keys/provider with invalid provider",
+      "apps/api/src/routes/keys-provider.spec.ts::provider keys route POST /keys/provider with duplicate provider",
+      "apps/api/src/routes/keys-provider.spec.ts::provider keys route PATCH /keys/provider/{id}",
+      "apps/api/src/routes/keys-provider.spec.ts::provider keys route DELETE /keys/provider/{id}",
+      "apps/api/src/routes/logs.spec.ts::logs route should return 401 when not authenticated",
+      "apps/api/src/routes/logs.spec.ts::logs route filter functionality should filter logs by projectId",
+      "apps/api/src/routes/logs.spec.ts::logs route filter functionality should filter by second projectId",
+      "apps/api/src/routes/logs.spec.ts::logs route pagination functionality should return default limit of 50 logs",
+      "apps/api/src/routes/logs.spec.ts::logs route pagination functionality should respect custom limit parameter",
+      "apps/api/src/routes/logs.spec.ts::logs route pagination functionality should paginate using cursor"
+    ],
+    "detail": "12 passed, 35 failed, 0 errors, 7 skipped (apps/gateway/src/api.spec.ts::test /, apps/gateway/src/api.spec.ts::test /v1/chat/completions e2e success, apps/gateway/src/api.spec.ts::test /v1/chat/completions invalid model, apps/gateway/src/api.spec.ts::test /v1/chat/completions missing Content-Type header, apps/gateway/src/api.spec.ts::test /v1/chat/completions missing Authorization header); first run failed: 12 passed, 35 failed, 0 errors, 7 skipped (apps/gateway/src/api.spec.ts::test /, apps/gateway/src/api.spec.ts::test /v1/chat/completions e2e success, apps/gateway/src/api.spec.ts::test /v1/chat/completions invalid model, apps/gateway/src/api.spec.ts::test /v1/chat/completions missing Content-Type header, apps/gateway/src/api.spec.ts::test /v1/chat/completions missing Authorization header)"
+  },
+  "timeout_s": 600
+}
