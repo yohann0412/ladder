@@ -1,0 +1,48 @@
+{
+  "pair_id": "port-labs__ocean__1286-1289",
+  "commit": "83e569280bc392ace5e809f859734faf74493647",
+  "language": "python",
+  "package_manager": "poetry",
+  "test_runner": "pytest",
+  "status": "runnable",
+  "reason": null,
+  "reason_detail": "",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "poetry",
+        "install",
+        "--no-interaction",
+        "--with",
+        "dev"
+      ],
+      "exit_code": 0,
+      "duration_s": 24.1,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.2 s; install: exit 0 in 6.2 s; pytest: exit 0 in 0.1 s; suite passed: 49 passed, 0 failed, 0 errors, 3 skipped"
+    }
+  ],
+  "test_count": 52,
+  "base_outcome": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/port-labs__ocean__1286-1289/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/port-labs__ocean__1286-1289/reports/base-attempt-1/run-1.report"
+    ],
+    "passed": 49,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 3,
+    "duration_s": 17.6,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "49 passed, 0 failed, 0 errors, 3 skipped"
+  },
+  "timeout_s": 600
+}
