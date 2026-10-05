@@ -1,0 +1,15 @@
+{
+  "pair_id": "icehouse-ventures__laravel-chartjs__35-36",
+  "commit": "47bf2beece9d820367f57dada46ac9bd4c406761",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

@@ -1,0 +1,54 @@
+{
+  "pair_id": "hyperlight-dev__hyperlight__510-512",
+  "commit": "831a52a2fe8c03d4d90b47210d13c5df053bf7ab",
+  "language": "rust",
+  "package_manager": "cargo",
+  "test_runner": "cargo test",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 1 failed, 1 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "cargo",
+        "fetch",
+        "--locked"
+      ],
+      "exit_code": 0,
+      "duration_s": 203.3,
+      "detail": "standard, install cap 900 s: install: exit 0 in 21.3 s; build: exit 0 in 175.1 s; suite failed: 1 passed, 1 failed, 1 errors, 3 skipped (doc-tests hyperlight_host::src/hyperlight_host/src/func/utils.rs - func::utils::for_each_tuple (line 6), build); first run failed: 33 passed, 53 failed, 1 errors, 17 skipped (src/lib.rs::func::call_ctx::tests::ensure_multiusesandbox_single_calls_do_reset_state, src/lib.rs::func::call_ctx::tests::ensure_multiusesandbox_multi_calls_dont_reset_state, src/lib.rs::func::guest_dispatch::tests::test_call_guest_function_by_name_hv, src/lib.rs::func::guest_dispatch::tests::test_trigger_exception_on_guest, src/lib.rs::func::guest_dispatch::tests::test_execute_in_host)"
+    },
+    {
+      "command": [
+        "cargo",
+        "test",
+        "--no-run"
+      ],
+      "exit_code": 101,
+      "duration_s": 3.3,
+      "detail": "cargo-update (updated Cargo.lock to the newest compatible versions), install cap 900 s: install: exit 0 in 2.5 s; build: exit 101 in 0.8 s; output tail:   Downloaded itoa v1.0.18 |   Downloaded icu_normalizer_data v2.3.0 | error: failed to parse manifest at `/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer_data-2.3.0/Cargo.toml` | Caused by: |   feature `edition2024` is required |   The package requires the Cargo feature called `edition2024`, but that feature is not stabilized in this version of Cargo (1.81.0 (2dbb1af80 2024-08-20)). |   Consider trying a newer version of Cargo (this may require the nightly release). |   See https://doc.rust-lang.org/nightly/cargo/reference/unstable.html#edition-2024 for more information about the status of this feature."
+    }
+  ],
+  "test_count": 6,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "cargo",
+      "test",
+      "--no-fail-fast"
+    ],
+    "passed": 1,
+    "failed": 1,
+    "errors": 1,
+    "skipped": 3,
+    "duration_s": 2.9,
+    "retried": true,
+    "failing_tests": [
+      "doc-tests hyperlight_host::src/hyperlight_host/src/func/utils.rs - func::utils::for_each_tuple (line 6)",
+      "build"
+    ],
+    "detail": "1 passed, 1 failed, 1 errors, 3 skipped (doc-tests hyperlight_host::src/hyperlight_host/src/func/utils.rs - func::utils::for_each_tuple (line 6), build); first run failed: 33 passed, 53 failed, 1 errors, 17 skipped (src/lib.rs::func::call_ctx::tests::ensure_multiusesandbox_single_calls_do_reset_state, src/lib.rs::func::call_ctx::tests::ensure_multiusesandbox_multi_calls_dont_reset_state, src/lib.rs::func::guest_dispatch::tests::test_call_guest_function_by_name_hv, src/lib.rs::func::guest_dispatch::tests::test_trigger_exception_on_guest, src/lib.rs::func::guest_dispatch::tests::test_execute_in_host)"
+  },
+  "timeout_s": 600
+}
