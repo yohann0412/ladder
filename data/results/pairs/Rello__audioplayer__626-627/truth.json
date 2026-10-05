@@ -1,0 +1,18 @@
+{
+  "pair_id": "Rello__audioplayer__626-627",
+  "status": "located",
+  "commit": "5305a897d408debea581b1b6d43bc429d8b90333",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "present": true,
+      "sha256": "54bdc7589caf512ea245196a4e8a0bc35250730f1ff84f57b6371c93c2d3df83"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:34:25.605832Z"
+}

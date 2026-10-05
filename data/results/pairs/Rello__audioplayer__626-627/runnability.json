@@ -1,0 +1,15 @@
+{
+  "pair_id": "Rello__audioplayer__626-627",
+  "commit": "fe90e3e15545850bacd9aded55b7ccef0ce77e99",
+  "language": "php",
+  "package_manager": "composer",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "php project; no adapter for php (composer is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

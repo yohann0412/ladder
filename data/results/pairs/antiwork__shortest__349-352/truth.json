@@ -1,0 +1,18 @@
+{
+  "pair_id": "antiwork__shortest__349-352",
+  "status": "located",
+  "commit": "94d766036b4c7636fb671de82d9757ee4003c3ec",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "eslint.config.js",
+      "present": true,
+      "sha256": "9030d5c8d978ad13c53e24e8a3f7b8df99798e72836014f41c1b20dc4fd4ad40"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:34:31.333021Z"
+}

@@ -1,0 +1,113 @@
+{
+  "pair_id": "groupultra__telegram-search__245-246",
+  "status": "located",
+  "commit": "1c6e83240d0e53d1bcce4fab2b4eefbfb4dadd74",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "packages/stage-ui/src/components/ChatSelector.vue",
+      "present": true,
+      "sha256": "94b5b70974ab70085a1a4f0f3c976b2315feca96aeecb8c0cea4d0427b8324f5"
+    },
+    {
+      "path": "packages/stage-ui/src/components/SearchDialog.vue",
+      "present": true,
+      "sha256": "994e481b75cf94776f312c4782ee20b7487794e4c7fdaae66aed212418cccb97"
+    },
+    {
+      "path": "packages/stage-ui/src/components/layout/ChatsCollapse.vue",
+      "present": true,
+      "sha256": "872e729d1d32edabae09679730cb0eedb9df373b22e0f823969f54f0107784b2"
+    },
+    {
+      "path": "packages/stage-ui/src/components/layout/SettingsDialog.vue",
+      "present": true,
+      "sha256": "1971c57f4396d7e1683060ae80a5c90bdda48b9226ca75f39114a8bc450afd1c"
+    },
+    {
+      "path": "packages/stage-ui/src/components/layout/SidebarSelector.vue",
+      "present": true,
+      "sha256": "40517d7da80955d2164118a67f267208ddf587188eacc5c2954270d04f982c84"
+    },
+    {
+      "path": "packages/stage-ui/src/components/layout/UserDropdown.vue",
+      "present": true,
+      "sha256": "b74606446e512197776ca6c2d08ec2c5e7b884a9d4519fb4a2b8cc170df89370"
+    },
+    {
+      "path": "packages/stage-ui/src/components/messages/MediaRenderer.vue",
+      "present": true,
+      "sha256": "86c8671b9a9bf13809ff1571c8185c2a177d7bce8b2c67ac6c6e17af05471322"
+    },
+    {
+      "path": "packages/stage-ui/src/components/messages/MessageBubble.vue",
+      "present": true,
+      "sha256": "ab4760aca7072c12d5b39fc7347bf325658a51264db16f9a130178b6d15241ca"
+    },
+    {
+      "path": "packages/stage-ui/src/components/messages/MessageList.vue",
+      "present": true,
+      "sha256": "879f1ab1620f73fea5f4e2ad8aa4cc06fa0f66df57031ba1e71565a3e2031fb1"
+    },
+    {
+      "path": "packages/stage-ui/src/components/ui/Button/Button.vue",
+      "present": true,
+      "sha256": "f60d4aef7833472565b191c00420b31955634a312a82d7b08ff713d0a8854f01"
+    },
+    {
+      "path": "packages/stage-ui/src/components/ui/SelectDropdown.vue",
+      "present": true,
+      "sha256": "529046b22d5a70dd5928dd81618471deaf3ff41994e0626118db6572ca08a044"
+    },
+    {
+      "path": "packages/stage-ui/src/layouts/default.vue",
+      "present": true,
+      "sha256": "d3c354f8e7bd1f97c5252f13b17eb63907630e3cbc4b780c78e4ef279de467e0"
+    },
+    {
+      "path": "packages/stage-ui/src/pages/[...all].vue",
+      "present": true,
+      "sha256": "add1f0a2d2771aa2482b97ab03768430dbf85867a8f5232bf089deaaf6d11333"
+    },
+    {
+      "path": "packages/stage-ui/src/pages/chat/[id].vue",
+      "present": true,
+      "sha256": "6d3a3b44ba79eff2e80768c97c7e91709d56dfb2bbde575467a882032181a8c3"
+    },
+    {
+      "path": "packages/stage-ui/src/pages/login.vue",
+      "present": true,
+      "sha256": "6a15d2c387503acbb8fd54607c8fd95040b043a48f51655d86a7adb33666427f"
+    },
+    {
+      "path": "packages/stage-ui/src/pages/search/[id].vue",
+      "present": true,
+      "sha256": "fd7901da7c6eb7bfafccccc4be6683f4c4cac5ec6c8330a0ecc5f1205e6534b3"
+    },
+    {
+      "path": "packages/stage-ui/src/pages/search/index.vue",
+      "present": true,
+      "sha256": "fd2f6a248d2d34a7497e078a131e4c78045bb01860ff42b72e2c4d0902757a20"
+    },
+    {
+      "path": "packages/stage-ui/src/pages/settings.vue",
+      "present": true,
+      "sha256": "f7cee912eeda596ff5bc4e99992cd65a38278b71b2c5be192e3b6e7e5c9f9b79"
+    },
+    {
+      "path": "packages/stage-ui/src/pages/sync.vue",
+      "present": true,
+      "sha256": "cc92949bd94c7611b8d8ffe69d8aca6cb91a43363905996669262a91cdfc7bb0"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "present": true,
+      "sha256": "19c67426b20c65f09aa6f4007356e85b60d5865cd1875f76453c682d03c32aea"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:33:50.792135Z"
+}
