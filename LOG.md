@@ -395,3 +395,19 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
 - The variance sample of PLAN 5.6 was drawn with `ladder resolve sample-double --n 30
   --seed 42` from all 224 pairs whose plan has llm-raw run 1. No truth existed when it was
   drawn. The 30 pairs are in `work/double-pairs.txt`; their plans now include llm-raw run 2.
+
+## 21. Final pass and Claim C, run side by side
+
+- Truth extraction and scoring start with the 190 conflicting pairs whose repositories hold
+  no double-run pair (`work/final-first.txt`). The other 34 (`work/final-later.txt`) follow
+  once the double run has been collected: the truth guard holds a whole repository until
+  every resolver run in it has settled.
+- Claim C waves of 20 (D19 order, starting again at c01) run at the same time as the final
+  pass. On this 4-core machine both are mostly bound by dependency installs. Running them
+  together can push more suites past their time caps. A capped suite is recorded as capped
+  and leaves its pair out of the rate, so the report states those counts by cause.
+- Background commands of the agent tool are killed after two hours. So both passes run as
+  detached scripts that resume where they stopped: a pair is skipped once it is pruned
+  (final pass) or has a `claim-c` record (Claim C). Records are written atomically and
+  working copies carry completion marks, so stopping at any point is safe. They were
+  stopped and restarted once, at 09:47, for this reason.
