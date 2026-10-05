@@ -1,0 +1,57 @@
+{
+  "pair_id": "whitphx__vscode-emacs-mcx__2145-2146",
+  "commit": "51112cf6e335f66efa84069ef57fca1bd0edcd49",
+  "language": "node",
+  "package_manager": "yarn",
+  "test_runner": "mocha",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no tests found at base",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "corepack",
+        "yarn",
+        "install",
+        "--frozen-lockfile",
+        "--non-interactive"
+      ],
+      "exit_code": 0,
+      "duration_s": 56.4,
+      "detail": "standard, install cap 900 s: install: exit 0 in 55.9 s; suite error: 0 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 without a readable report; output tail: \u001b[31mError: No test files found: \"test\"\u001b[39m; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+    },
+    {
+      "command": [
+        "corepack",
+        "yarn",
+        "install",
+        "--non-interactive",
+        "--ignore-engines"
+      ],
+      "exit_code": 0,
+      "duration_s": 11.0,
+      "detail": "unfrozen (yarn install with the lockfile unfrozen and engines ignored), install cap 900 s: install: exit 0 in 10.5 s; suite error: 0 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 without a readable report; output tail: \u001b[31mError: No test files found: \"test\"\u001b[39m; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+    }
+  ],
+  "test_count": 0,
+  "base_outcome": {
+    "status": "error",
+    "command": [
+      "/home/user/ladder/work/runtime/whitphx__vscode-emacs-mcx__2145-2146/trees/base/node_modules/.bin/mocha",
+      "--reporter",
+      "json",
+      "--reporter-option",
+      "output=/home/user/ladder/work/runtime/whitphx__vscode-emacs-mcx__2145-2146/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.3,
+    "retried": true,
+    "failing_tests": [],
+    "detail": "0 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 without a readable report; output tail: \u001b[31mError: No test files found: \"test\"\u001b[39m; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "timeout_s": 600
+}

@@ -1,0 +1,65 @@
+{
+  "pair_id": "whitphx__vscode-emacs-mcx__2145-2146",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: other (no tests found at base)",
+  "files_a": [
+    "src/commands/helpers/rectangleMode.ts",
+    "src/commands/kill.ts",
+    "src/commands/move.ts",
+    "src/configuration/configuration.ts",
+    "src/emulator.ts",
+    "src/test/suite/configuration.test.ts",
+    "yarn.lock"
+  ],
+  "files_b": [
+    "CHANGELOG.md",
+    "README.md",
+    "keybindings.json",
+    "package.json",
+    "src/commands/index.ts",
+    "src/commands/rectangle.ts",
+    "src/commands/registers.ts",
+    "src/emulator.ts",
+    "src/extension.ts",
+    "src/rectangle.ts",
+    "src/test/suite/commands/rectangle-unicode.test.ts",
+    "src/test/suite/text-register.test.ts",
+    "src/utils.ts"
+  ]
+}
