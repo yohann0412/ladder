@@ -1,6 +1,8 @@
 """Check a resolver transcript against the pre-registered tool and path rules (PLAN.md 8)."""
 
+import itertools
 import os
+import re
 from pathlib import Path, PurePosixPath
 
 from ladder.schemas import ResolverTask
@@ -8,6 +10,7 @@ from ladder.transcript import ToolCall, Transcript
 
 ALLOWED_TOOLS = frozenset({"Read", "Glob", "Grep", "Write", "SubagentHandback"})
 SHOWN_CHARS = 200
+GLOB_CHARS = frozenset("*?[{")
 
 
 def audit_transcript(transcript: Transcript, task: ResolverTask) -> list[str]:
@@ -32,10 +35,7 @@ def _call_violations(call: ToolCall, task_dir: Path, output_dir: Path) -> list[s
         case "Read":
             return _path_rule(call, "file_path", task_dir, "task directory")
         case "Glob":
-            return [
-                *_path_rule(call, "path", task_dir, "task directory"),
-                *_pattern(call, task_dir),
-            ]
+            return _glob_rule(call, task_dir)
         case "Grep":
             return _path_rule(call, "path", task_dir, "task directory")
         case "Write":
@@ -55,6 +55,13 @@ def _path_rule(call: ToolCall, key: str, root: Path, place: str) -> list[str]:
     return []
 
 
+def _glob_rule(call: ToolCall, task_dir: Path) -> list[str]:
+    """A Glob names its place by a path inside the task directory, or else by its pattern."""
+    if call.arguments.get("path") in (None, ""):
+        return _bare_pattern(call, task_dir)
+    return [*_path_rule(call, "path", task_dir, "task directory"), *_pattern(call, task_dir)]
+
+
 def _pattern(call: ToolCall, task_dir: Path) -> list[str]:
     pattern = call.arguments.get("pattern")
     if not isinstance(pattern, str) or not pattern:
@@ -64,6 +71,27 @@ def _pattern(call: ToolCall, task_dir: Path) -> list[str]:
     if pattern.startswith("/") and not Path(os.path.normpath(pattern)).is_relative_to(task_dir):
         return [f"Glob outside the task directory: {pattern}"]
     return []
+
+
+def _bare_pattern(call: ToolCall, task_dir: Path) -> list[str]:
+    """Without a path, a Glob's pattern must itself be absolute and fixed inside the task dir."""
+    pattern = call.arguments.get("pattern")
+    if not isinstance(pattern, str) or not pattern:
+        return ["Glob without a path", "Glob without a pattern"]
+    if not pattern.startswith("/"):
+        return [f"Glob without a path and with a relative pattern: {pattern}"]
+    if ".." in re.split(r"[/{},]", pattern):
+        return [f"Glob pattern climbs out with '..': {pattern}"]
+    if not _inside(_fixed_prefix(pattern), task_dir):
+        return [f"Glob outside the task directory: {pattern}"]
+    return []
+
+
+def _fixed_prefix(pattern: str) -> str:
+    """The pattern's leading components, up to the first one holding a glob character."""
+    parts = PurePosixPath(pattern).parts
+    fixed = itertools.takewhile(lambda part: not GLOB_CHARS.intersection(part), parts)
+    return str(PurePosixPath(*fixed))
 
 
 def _inside(raw: str, root: Path) -> bool:
