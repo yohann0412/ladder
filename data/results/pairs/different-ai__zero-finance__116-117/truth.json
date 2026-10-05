@@ -1,0 +1,20 @@
+{
+  "pair_id": "different-ai__zero-finance__116-117",
+  "status": "located",
+  "commit": "8b27ef119614f157a356414a06aea395716fc568",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "packages/web/src/app/onboarding/welcome/page.tsx",
+      "present": true,
+      "sha256": "185edebe4d4f77df15241a8f1cd98bceb91a6500555767548a5e2d2428415a15"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [
+    "packages/web/src/app/onboarding/welcome/page.tsx"
+  ],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T11:30:53.527245Z"
+}

@@ -1,0 +1,56 @@
+{
+  "pair_id": "openfga__openfga__2563-2565",
+  "commit": "6a8123602861ab1fb8745076c89918aec5961bb0",
+  "language": "go",
+  "package_manager": "go modules",
+  "test_runner": "go test",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 0 failed, 2 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "go",
+        "mod",
+        "download"
+      ],
+      "exit_code": 0,
+      "duration_s": 349.1,
+      "detail": "standard, install cap 900 s: install: exit 0 in 10.5 s; build: exit 0 in 202.9 s; suite failed: 173 passed, 0 failed, 2 errors, 10 skipped (github.com/openfga/openfga/tests/listobjects, github.com/openfga/openfga/tests/listusers); first run failed: 166 passed, 0 failed, 2 errors, 22 skipped (github.com/openfga/openfga/tests/check, github.com/openfga/openfga/tests/listusers)"
+    },
+    {
+      "command": [
+        "go",
+        "mod",
+        "download"
+      ],
+      "exit_code": 0,
+      "duration_s": 374.5,
+      "detail": "mod-mod (GOFLAGS=-mod=mod, so go.mod and go.sum drift is resolved), install cap 900 s: install: exit 0 in 0.1 s; build: exit 0 in 236.3 s; suite failed: 185 passed, 0 failed, 2 errors, 2 skipped (github.com/openfga/openfga/tests/listusers, github.com/openfga/openfga/tests/listobjects); first run failed: 173 passed, 0 failed, 3 errors, 22 skipped (github.com/openfga/openfga/tests/check, github.com/openfga/openfga/tests/listobjects, github.com/openfga/openfga/tests/listusers)"
+    }
+  ],
+  "test_count": 185,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 173,
+    "failed": 0,
+    "errors": 2,
+    "skipped": 10,
+    "duration_s": 66.3,
+    "retried": true,
+    "failing_tests": [
+      "github.com/openfga/openfga/tests/listobjects",
+      "github.com/openfga/openfga/tests/listusers"
+    ],
+    "detail": "173 passed, 0 failed, 2 errors, 10 skipped (github.com/openfga/openfga/tests/listobjects, github.com/openfga/openfga/tests/listusers); first run failed: 166 passed, 0 failed, 2 errors, 22 skipped (github.com/openfga/openfga/tests/check, github.com/openfga/openfga/tests/listusers)"
+  },
+  "timeout_s": 600
+}

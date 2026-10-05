@@ -1,0 +1,15 @@
+{
+  "pair_id": "onlook-dev__onlook__1849-2041",
+  "commit": "ea97c7f8cb1f2fab7b858e953a59e0c53e134127",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

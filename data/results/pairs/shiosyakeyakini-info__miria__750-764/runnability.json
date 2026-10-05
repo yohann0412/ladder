@@ -1,0 +1,15 @@
+{
+  "pair_id": "shiosyakeyakini-info__miria__750-764",
+  "commit": "b01c83c418528752e4bf6d3656fa1a8c466cb430",
+  "language": "dart",
+  "package_manager": "dart",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "dart project; dart is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
