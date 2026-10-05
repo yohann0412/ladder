@@ -1,0 +1,75 @@
+{
+  "pair_id": "andrewm4894__anomstack__159-160",
+  "commit": "ca33b88b0a4a9fa245d6c8928488b6d8581bd9da",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "suite does not load at base: 1 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/andrewm4894__anomstack__159-160/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/andrewm4894__anomstack__159-160/trees/base",
+        "-r",
+        "requirements-dev.txt",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 72.5,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.2 s; install: exit 0 in 29.1 s; suite failed: 0 passed, 0 failed, 1 errors, 0 skipped (work/runtime/andrewm4894__anomstack__159-160/trees/base/tests/test_jobs.py::work.runtime.andrewm4894__anomstack__159-160.trees.base.tests.test_jobs); first run failed: 0 passed, 0 failed, 1 errors, 0 skipped (work/runtime/andrewm4894__anomstack__159-160/trees/base/tests/test_jobs.py::work.runtime.andrewm4894__anomstack__159-160.trees.base.tests.test_jobs)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/andrewm4894__anomstack__159-160/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/andrewm4894__anomstack__159-160/trees/base",
+        "-r",
+        "requirements-dev.txt",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 42.4,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 2.2 s; suite failed: 0 passed, 0 failed, 1 errors, 0 skipped (work/runtime/andrewm4894__anomstack__159-160/trees/base/tests/test_jobs.py::work.runtime.andrewm4894__anomstack__159-160.trees.base.tests.test_jobs); first run failed: 0 passed, 0 failed, 1 errors, 0 skipped (work/runtime/andrewm4894__anomstack__159-160/trees/base/tests/test_jobs.py::work.runtime.andrewm4894__anomstack__159-160.trees.base.tests.test_jobs)"
+    }
+  ],
+  "test_count": 1,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/andrewm4894__anomstack__159-160/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/andrewm4894__anomstack__159-160/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 1,
+    "skipped": 0,
+    "duration_s": 20.8,
+    "retried": true,
+    "failing_tests": [
+      "work/runtime/andrewm4894__anomstack__159-160/trees/base/tests/test_jobs.py::work.runtime.andrewm4894__anomstack__159-160.trees.base.tests.test_jobs"
+    ],
+    "detail": "0 passed, 0 failed, 1 errors, 0 skipped (work/runtime/andrewm4894__anomstack__159-160/trees/base/tests/test_jobs.py::work.runtime.andrewm4894__anomstack__159-160.trees.base.tests.test_jobs); first run failed: 0 passed, 0 failed, 1 errors, 0 skipped (work/runtime/andrewm4894__anomstack__159-160/trees/base/tests/test_jobs.py::work.runtime.andrewm4894__anomstack__159-160.trees.base.tests.test_jobs)"
+  },
+  "timeout_s": 600
+}
