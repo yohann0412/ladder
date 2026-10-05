@@ -58,3 +58,29 @@ files.
   its own `GOFLAGS`.
 - `e2e/test_runnable.py`, `e2e/test_claim_c.py` and `e2e/test_score.py`, which install the
   fixture's Python project with uv and run its suites: result in LOG.md.
+
+## Follow-up: Node and XDG caches (12:30)
+
+At 12:26, free disk was 4.6 GiB again. The shared pnpm store had grown to 4.5 GB, the npm
+cache to 1.9 GB, puppeteer's browser cache to 0.6 GB and poetry's cache to 1 GB. With no
+Node process running, the npm cache was cleared and the pnpm store pruned. The scratch
+environment now also sets:
+
+- `XDG_CACHE_HOME`, which covers pip, poetry, corepack and prisma;
+- `npm_config_cache`;
+- `npm_config_store_dir`, the pnpm store;
+- `YARN_CACHE_FOLDER`;
+- `PUPPETEER_CACHE_DIR`.
+
+All of them point inside the pair's scratch directory. Checks:
+
+- `npm_config_store_dir=<dir> pnpm store path` prints the scratch store, so pnpm 10
+  honours it.
+- A probe package with one dependency installed through a scratch `Runner` with pnpm and
+  with npm, and `npm test` passed. Its npm cache landed in `scratch/npm-cache`.
+- `e2e/test_runnable.py`, `test_claim_c.py` and `test_score.py` passed again (3 passed).
+
+The cost is the same as for uv and Go: cold Node caches for every pair. A pnpm project
+whose `node_modules` was installed against the old shared store and is reused with the
+new one would abort under pnpm's no-TTY rule. That cannot happen: shards restart only at
+a pair boundary, and a reinstall always starts from an empty environment directory.

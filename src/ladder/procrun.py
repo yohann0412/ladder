@@ -80,7 +80,7 @@ def tool_env(extra: Mapping[str, str] | None = None) -> dict[str, str]:
 class Runner:
     """Runs commands with explicit arguments, a log per step, under a time cap and a disk floor.
 
-    With a scratch directory, temporary files and the uv and Go module caches of every step
+    With a scratch directory, temporary files and the package managers' caches of every step
     live under it, so they are deleted with the pair's runtime instead of piling up.
     """
 
@@ -97,8 +97,13 @@ class Runner:
             "TMPDIR": str(tmp),
             "TMP": str(tmp),
             "TEMP": str(tmp),
+            "XDG_CACHE_HOME": str(scratch / "xdg-cache"),
             "UV_CACHE_DIR": str(scratch / "uv-cache"),
             "GOMODCACHE": str(scratch / "go-mod"),
+            "npm_config_cache": str(scratch / "npm-cache"),
+            "npm_config_store_dir": str(scratch / "pnpm-store"),
+            "YARN_CACHE_FOLDER": str(scratch / "yarn-cache"),
+            "PUPPETEER_CACHE_DIR": str(scratch / "puppeteer"),
         }
 
     def run(

@@ -492,3 +492,9 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   The shared uv cache (6.4 GB) and Go module cache were then cleared (20 GiB free). 18
   records in 8 pairs had been stopped by the free-disk floor. D23 decides, before any redo,
   that all of them are redone once after the final pass.
+- 12:26: 80 of 213 sharded pairs done. Free disk was 4.6 GiB, from a Go pair's runtime
+  (kanister, 5.6 GB, legitimate) and the shared Node caches (pnpm store 4.5 GB, npm 1.9 GB).
+  With no Node process running, the npm cache was cleared and the pnpm store pruned
+  (7.4 GiB free). Node, yarn, puppeteer and XDG caches now also live in each pair's scratch
+  directory (reviews/F8f-pair-scratch.md, follow-up). Shards restart at their next pair
+  boundary.
