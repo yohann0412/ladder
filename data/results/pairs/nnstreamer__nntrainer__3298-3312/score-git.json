@@ -1,0 +1,143 @@
+{
+  "pair_id": "nnstreamer__nntrainer__3298-3312",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": true,
+  "intent_drops": [
+    {
+      "path": "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp",
+      "entity": "__ggml_quantize_row_q8_K",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp",
+      "entity": "__ggml_q4_0_8x8_q8_0_GEMM",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp",
+      "entity": "__ggml_q4_K_8x8_q8_K_GEMM",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp",
+      "entity": "__ggml_vec_dot_q6_K_q8_K",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp",
+      "entity": "__ggml_vec_dot_q6_K_f32",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp",
+      "entity": "__ggml_vec_dot_q6_K",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp",
+      "entity": "__ggml_gemm_q6_K",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp",
+      "entity": "__ggml_dequantize_row_q4_K",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp",
+      "entity": "__ggml_dequantize_row_q6_K",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp",
+      "entity": "__ggml_dequantize_row_q8_K",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp",
+      "entity": "__ggml_repack_q4_0_to_q4_0_8",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp",
+      "entity": "__ggml_repack_q4_K_to_q4_K_8",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp",
+      "entity": "<rest>",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp",
+      "mode": "ast",
+      "language": "cpp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "PooledBuffer",
+        "PooledBuffer.PooledBuffer",
+        "PooledBuffer.data",
+        "PooledBuffer.operator=",
+        "PooledBuffer.size",
+        "PooledBuffer.~PooledBuffer",
+        "QuantizationBufferPool",
+        "QuantizationBufferPool.getBuffer",
+        "QuantizationBufferPool.getInstance",
+        "QuantizationBufferPool.returnBuffer",
+        "__ggml_q4_0_8x8_q8_0_GEMM.__ggml_dequantize_row_q4_K",
+        "__ggml_q4_0_8x8_q8_0_GEMM.__ggml_dequantize_row_q6_K",
+        "__ggml_q4_0_8x8_q8_0_GEMM.__ggml_dequantize_row_q8_K",
+        "__ggml_q4_0_8x8_q8_0_GEMM.__ggml_gemm_q6_K",
+        "__ggml_q4_0_8x8_q8_0_GEMM.__ggml_q4_K_8x8_q8_K_GEMM",
+        "__ggml_q4_0_8x8_q8_0_GEMM.__ggml_repack_q4_0_to_q4_0_8",
+        "__ggml_q4_0_8x8_q8_0_GEMM.__ggml_repack_q4_K_to_q4_K_8",
+        "__ggml_q4_0_8x8_q8_0_GEMM.__ggml_vec_dot_q6_K",
+        "__ggml_q4_0_8x8_q8_0_GEMM.__ggml_vec_dot_q6_K_f32",
+        "__ggml_q4_0_8x8_q8_0_GEMM.__ggml_vec_dot_q6_K_q8_K"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

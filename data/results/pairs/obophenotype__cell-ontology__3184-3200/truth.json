@@ -1,0 +1,18 @@
+{
+  "pair_id": "obophenotype__cell-ontology__3184-3200",
+  "status": "located",
+  "commit": "630a2e8eaee904e278fa929a692eeeb54724492a",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "src/patterns/definitions.owl",
+      "present": true,
+      "sha256": "5a66f00e59079d587e5190547ec326b8a2b17f1c7fdd5ac147c4b660090aa8a0"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T12:44:08.184720Z"
+}

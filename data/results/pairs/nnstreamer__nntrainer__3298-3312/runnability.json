@@ -1,0 +1,15 @@
+{
+  "pair_id": "nnstreamer__nntrainer__3298-3312",
+  "commit": "8ba73a3ae595a2dfbb89ddffc0c4dad479dbc845",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
