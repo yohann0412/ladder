@@ -516,3 +516,8 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   judged from the records (`truth.json` and `score-git.json`). The 4 orphaned pairs run in
   a fourth process (`work/final-sweep.log`), and a final sweep over all 224 pairs follows
   the shards.
+- 13:50: final pass at 189 of 224. The orphan sweep completed its 4 pairs. Shard 1 finished,
+  and shard 0's last 35 pairs run as two processes (`final-shard-0a`, `0b`). Every process
+  now uses per-pair scratch, so the shared pnpm store (3 GB) was removed with no pnpm
+  running. Claim C resumes from wave c02 in D19 order, since two processes leave CPU free.
+  It is paused again at a wave boundary before the D23 redo, which runs alone.
