@@ -1,0 +1,15 @@
+{
+  "pair_id": "ydb-platform__ydb__21739-21740",
+  "commit": "60342a8b96f769fd3bdbae04440e22ae04cb9f0e",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
