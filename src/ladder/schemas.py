@@ -245,6 +245,22 @@ class ResolverRun(Record):
     finalized_at: datetime
 
 
+class PlannedRun(Record):
+    """One resolver run the experiment commits to before any truth is extracted."""
+
+    rung: LlmRung
+    run: int
+
+
+class ResolverPlan(Record):
+    """Every resolver run planned for a pair, or why the pair gets none."""
+
+    pair_id: str
+    runs: list[PlannedRun]
+    excluded_reason: str | None
+    created_at: datetime
+
+
 # ----------------------------------------------------------------------------- truth
 
 
@@ -395,6 +411,41 @@ class Rate(Record):
     pct: float | None
     ci_low: float | None
     ci_high: float | None
+
+
+class RungRow(Record):
+    """One row of the ladder table: every metric of one rung over the ladder set."""
+
+    rung: str
+    available: Rate
+    mergeable: Rate
+    human_equivalent: Rate
+    human_equivalent_unordered: Rate
+    intent_preserved_both: Rate
+    intent_dropped: Rate
+    tests_pass: Rate
+    tests_pass_intent_dropped: Rate
+
+
+class Summary(Record):
+    """Every headline number of an experiment, as written to summary.json."""
+
+    pairs_attempted: int
+    resolve_status: dict[str, int]
+    paper_conflict_rate: dict[str, Rate]
+    final_conflict_rate: dict[str, Rate]
+    replay_conflict_rate: dict[str, Rate]
+    conflict_types: dict[str, int]
+    ladder_set: int
+    truth_located: int
+    rungs: list[RungRow]
+    practical_ladder_human_equivalent: Rate
+    oracle_ladder_human_equivalent: Rate
+    llm_failures: dict[str, int]
+    resolver_agreement: Rate
+    claim_c_fails_together: Rate
+    runnability: dict[str, int]
+    verdicts: dict[str, str]
 
 
 # ----------------------------------------------------------------------------- fixture
