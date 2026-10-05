@@ -1,0 +1,23 @@
+{
+  "pair_id": "elastic__kibana__229804-230272",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/elastic__kibana__229804-230272",
+  "source_base": "db88e009736a81e6be26b83aa125d321d857599a",
+  "source_a": "e01ce72d4cc65e3a387f23e1e4f987787ad97f6f",
+  "source_b": "95d2a914923dfc3cb4f7ba75aabaaa8f797562d8",
+  "base_commit": "1ee41a7f3a2009d0ef2baf45c35da33a3ab53172",
+  "a_commit": "8f514b4e4bea5640d625adf891fc16cc91033bf2",
+  "b_commit": "29ead4f94501e7586c598a1c6145f31d120484a0",
+  "object_count": 110264,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
