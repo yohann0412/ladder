@@ -1,0 +1,23 @@
+{
+  "pair_id": "vectordotdev__vector__23345-23357",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/vectordotdev__vector__23345-23357",
+  "source_base": "326caa5c33129f6280885f10a84073a7b39e554a",
+  "source_a": "97f95a6a1869e75315577829ef81f9fcf6652b85",
+  "source_b": "1689144398a5b5ea42636937290c115c2edcee6c",
+  "base_commit": "b872d0aa9576e50950e8ef1cb027dba00e2134ed",
+  "a_commit": "416e993588c41aebcbac205dd1c94d30b19c6f60",
+  "b_commit": "806705ac218b5b3b58ddcd6a9fd8e8a569ac8ee1",
+  "object_count": 13311,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

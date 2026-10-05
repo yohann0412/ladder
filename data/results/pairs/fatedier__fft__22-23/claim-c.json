@@ -1,0 +1,55 @@
+{
+  "pair_id": "fatedier__fft__22-23",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: other (no tests found at base)",
+  "files_a": [
+    "client/send.go",
+    "pkg/sender/frame.go",
+    "pkg/sender/rtt.go",
+    "pkg/sender/sender.go",
+    "pkg/sender/transfer.go"
+  ],
+  "files_b": [
+    "cmd/bandwidth-test/root.go",
+    "pkg/receiver/receiver.go",
+    "pkg/sender/sender.go",
+    "pkg/sender/transfer.go",
+    "worker/match.go"
+  ]
+}
