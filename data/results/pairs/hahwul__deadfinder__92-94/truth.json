@@ -1,0 +1,18 @@
+{
+  "pair_id": "hahwul__deadfinder__92-94",
+  "status": "located",
+  "commit": "4d350d797f75d7b42dde1efc3ceb7239a67b0611",
+  "method": "absorption",
+  "files": [
+    {
+      "path": ".gitignore",
+      "present": true,
+      "sha256": "ab746533ab3a5715ea8d511913f26c828e0ed5f35daf3fa76db24383c899d8ab"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:23:33.902931Z"
+}

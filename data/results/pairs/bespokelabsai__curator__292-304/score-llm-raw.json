@@ -1,0 +1,17 @@
+{
+  "pair_id": "bespokelabsai__curator__292-304",
+  "rung": "llm-raw",
+  "run": 1,
+  "available": false,
+  "unavailable_reason": "input_cap: input cap: poetry.lock version base has 349464 bytes, more than 200000; input cap: poetry.lock version a has 349374 bytes, more than 200000; input cap: poetry.lock version b has 345460 bytes, more than 200000; input cap: poetry.lock version conflicted has 345810 bytes, more than 200000; input cap: 1627599 bytes in all versions, more than 600000",
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": null,
+  "intent_preserved_b": null,
+  "intent_drops": [],
+  "files": [],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "hahwul__deadfinder__92-94",
+  "commit": "90a509a6de6080e0ba1626e37035d6e6ac49d99b",
+  "language": "ruby",
+  "package_manager": "bundle",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "ruby project; no adapter for ruby (bundle is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

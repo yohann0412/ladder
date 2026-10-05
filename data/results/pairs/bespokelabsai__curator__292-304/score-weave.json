@@ -1,0 +1,531 @@
+{
+  "pair_id": "bespokelabsai__curator__292-304",
+  "rung": "weave",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": true,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/base_online_request_processor.py",
+      "entity": "BaseOnlineRequestProcessor.process_requests_from_file",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/base_online_request_processor.py",
+      "entity": "BaseOnlineRequestProcessor.handle_single_request_with_retries",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/base_online_request_processor.py",
+      "entity": "BaseOnlineRequestProcessor.call_single_request",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/base_online_request_processor.py",
+      "entity": "BaseOnlineRequestProcessor.append_generic_response",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/base_online_request_processor.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/litellm_online_request_processor.py",
+      "entity": "LiteLLMOnlineRequestProcessor.__init__",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/litellm_online_request_processor.py",
+      "entity": "LiteLLMOnlineRequestProcessor.call_single_request",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/litellm_online_request_processor.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/openai_online_request_processor.py",
+      "entity": "OpenAIOnlineRequestProcessor.__init__",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/openai_online_request_processor.py",
+      "entity": "OpenAIOnlineRequestProcessor.get_header_based_rate_limits",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/openai_online_request_processor.py",
+      "entity": "OpenAIOnlineRequestProcessor.estimate_output_tokens",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/openai_online_request_processor.py",
+      "entity": "OpenAIOnlineRequestProcessor.estimate_total_tokens",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/openai_online_request_processor.py",
+      "entity": "OpenAIOnlineRequestProcessor.check_structured_output_support",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/openai_online_request_processor.py",
+      "entity": "OpenAIOnlineRequestProcessor.create_api_specific_request_online",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/openai_online_request_processor.py",
+      "entity": "OpenAIOnlineRequestProcessor.call_single_request",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/openai_online_request_processor.py",
+      "entity": "OpenAIOnlineRequestProcessor.get_token_encoding",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/openai_online_request_processor.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "OpenAIBatchRequestProcessor.__init__",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "OpenAIBatchRequestProcessor.create_api_specific_request",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "OpenAIBatchRequestProcessor.requests_from_generic_request_file",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "OpenAIBatchRequestProcessor.generic_response_file_from_responses",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "OpenAIBatchRequestProcessor.run_batch_operations",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "OpenAIBatchRequestProcessor.run",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "OpenAIBatchRequestProcessor.cancel_batches",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchStatusTracker.n_total_batches",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchStatusTracker.n_unsubmitted_request_files",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchStatusTracker.n_submitted_batches",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchStatusTracker.n_finished_batches",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchStatusTracker.n_downloaded_batches",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchStatusTracker.n_finished_requests",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchStatusTracker.n_downloaded_requests",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchStatusTracker.n_finished_or_downloaded_requests",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchStatusTracker.n_submitted_finished_or_downloaded_batches",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchStatusTracker.n_finished_or_downloaded_batches",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchStatusTracker.mark_as_submitted",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchStatusTracker.mark_as_finished",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchStatusTracker.mark_as_downloaded",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchStatusTracker.update_submitted",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchStatusTracker.__str__",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "request_file_to_response_file",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "response_file_to_request_file",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "requests_from_api_specific_request_file",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "api_specific_response_file_from_responses",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager.__init__",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager.create_batch_file",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager.upload_batch_file",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager.create_batch",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager.submit_batch",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager.cancel_batches",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager.retrieve_batch",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager.cancel_batch",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager.submit_batch_from_request_file",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager.track_already_submitted_batches",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager.track_already_downloaded_batches",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager.submit_batches_from_request_files",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager.check_batch_status",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager.poll_and_process_batches",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager.delete_file",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager.download_batch",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager.download_batch_to_response_file",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "BatchManager._validate_batch_status",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "poetry.lock",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/base_online_request_processor.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "StatusTracker",
+        "StatusTracker.__str__",
+        "StatusTracker.consume_capacity",
+        "StatusTracker.has_capacity",
+        "StatusTracker.update_capacity",
+        "append_generic_response",
+        "call_single_request",
+        "handle_single_request_with_retries"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/litellm_online_request_processor.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/online/openai_online_request_processor.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "__init__",
+        "call_single_request",
+        "check_structured_output_support",
+        "create_api_specific_request_online",
+        "estimate_output_tokens",
+        "estimate_total_tokens",
+        "get_header_based_rate_limits",
+        "get_token_encoding"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/bespokelabs/curator/request_processor/openai_batch_request_processor.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

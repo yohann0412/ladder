@@ -1,0 +1,15 @@
+{
+  "pair_id": "dotnet__extensions__6919-6922",
+  "commit": "de0f507c9436ea4a4c7552aaed26c9dbe354b5df",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

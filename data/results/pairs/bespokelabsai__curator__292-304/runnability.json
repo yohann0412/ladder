@@ -1,0 +1,48 @@
+{
+  "pair_id": "bespokelabsai__curator__292-304",
+  "commit": "e8e8fe3641f2d9ebb188afbb8ad984fbb11c576d",
+  "language": "python",
+  "package_manager": "poetry",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "exceeds_cap",
+  "reason_detail": "suite exceeded the 600 s cap",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "poetry",
+        "install",
+        "--no-interaction",
+        "--with",
+        "dev"
+      ],
+      "exit_code": 0,
+      "duration_s": 611.2,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.2 s; install: exit 0 in 10.8 s; pytest: exit 0 in 0.1 s; suite capped: suite exceeded the 600 s cap"
+    }
+  ],
+  "test_count": 0,
+  "base_outcome": {
+    "status": "capped",
+    "command": [
+      "/home/user/ladder/work/runtime/bespokelabsai__curator__292-304/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/bespokelabsai__curator__292-304/reports/base-attempt-1/run-1.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 600.1,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "suite exceeded the 600 s cap"
+  },
+  "timeout_s": 600
+}

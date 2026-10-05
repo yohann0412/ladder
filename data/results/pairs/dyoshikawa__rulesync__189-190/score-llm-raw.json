@@ -1,0 +1,90 @@
+{
+  "pair_id": "dyoshikawa__rulesync__189-190",
+  "rung": "llm-raw",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": true,
+  "human_equivalent": false,
+  "human_equivalent_unordered": false,
+  "intent_preserved_a": true,
+  "intent_preserved_b": true,
+  "intent_drops": [],
+  "files": [
+    {
+      "path": "src/core/importer.test.ts",
+      "mode": "ast",
+      "language": "typescript",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9518
+    },
+    {
+      "path": "src/core/importer.ts",
+      "mode": "ast",
+      "language": "typescript",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9824
+    }
+  ],
+  "tests_full": {
+    "status": "error",
+    "command": [
+      "corepack",
+      "pnpm",
+      "install",
+      "--no-frozen-lockfile"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "dependency manifests differ from base (package.json); installed again; install failed: install: exit 1 in 9.6 s"
+  },
+  "tests_a": {
+    "status": "error",
+    "command": [
+      "corepack",
+      "pnpm",
+      "install",
+      "--no-frozen-lockfile"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "dependency manifests differ from base (package.json, pnpm-lock.yaml); installed again; install failed: install: exit 1 in 2.8 s"
+  },
+  "tests_b": {
+    "status": "error",
+    "command": [
+      "corepack",
+      "pnpm",
+      "install",
+      "--no-frozen-lockfile"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "dependency manifests differ from base (package.json, pnpm-lock.yaml); installed again; install failed: install: exit 1 in 2.9 s"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pair_id": "dotnet__extensions__6919-6922",
+  "status": "located",
+  "commit": "71b7c1bb13f80c8931d3a1371b817fba32caf9d5",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "eng/MSBuild/Packaging.targets",
+      "present": true,
+      "sha256": "47d5813f361c9554044c02f88edf866b850371b7166ed963b3f13c169532fac3"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:23:48.196757Z"
+}
