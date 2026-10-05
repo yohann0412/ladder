@@ -21,7 +21,7 @@ def test_supplementary_sample(tmp_path: Path) -> None:
     first = _sample(tmp_path / "one.json", 42)
     second = _sample(tmp_path / "two.json", 42)
     assert first == second
-    assert len(first) >= 900
+    assert len(first) >= 890
 
     paper_out = tmp_path / "paper.json"
     run([LADDER, "--pairs", str(paper_out), "pairs", "load", "--source", "data/source"])

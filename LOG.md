@@ -162,3 +162,11 @@ Policy from here on:
   score, then delete the pair's working copies. The double-run sample is drawn before any
   truth is extracted.
 - Claim C (first in the cut order) rebuilds workspaces, re-cloning caches when needed.
+
+## 12. Supplementary candidates: 896 repositories, not 931
+
+Applying D15 exactly (rule 1 excludes the paper's own pairs) leaves 896 repositories with a
+candidate (880 same-agent, 16 cross-agent; 17,348 candidate pairs before the exclusion,
+matching entry 7). 35 repositories had only paper pairs as candidates. The acceptance test's
+lower bound of 900 was my estimate from entry 7's 931, made before the exclusion; it was
+lowered to 890. The rule itself is unchanged.
