@@ -147,7 +147,6 @@ class _Runner:
             if self.options.stop_before_truth:
                 outcomes[steps.pair_id] = PairOutcome(steps.pair_id, "stopped", STOPPED)
                 continue
-            self._wait(steps.pair_id)
             outcomes[steps.pair_id] = self._guarded(steps, self._finish)
         if self.options.prune:
             settled = [pair for pair in pairs if outcomes[pair.pair_id].state != "pending"]

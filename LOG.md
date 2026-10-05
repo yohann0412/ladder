@@ -446,3 +446,8 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   repository root at 10:24. Suites run in their own tree but inherit `PWD` from `ladder`.
   The file was deleted. Running untrusted suites only in a disposable machine (README,
   HOW_TO_RUN_LOCALLY) covers this. No result depends on it.
+- 10:45: the final pass hung on `mlflow__mlflow__16057-16442`. Its own working copies (about
+  4 GB) put free disk under the 5 GiB floor, and a second wait between building and scoring
+  a pair could not end (reviews/F8d-disk-wait-deadlock.md). Deleting the Go module cache and
+  a scratch clone freed the space. The second wait was removed, and the pass was restarted
+  so the fix applies to the remaining pairs.
