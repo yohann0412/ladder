@@ -1,0 +1,25 @@
+{
+  "pair_id": "HumanSignal__label-studio__7687-7850",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 56263,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 1333,
+    "cache_creation_input_tokens": 73786,
+    "cache_read_input_tokens": 284166
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "label_studio/data_import/uploader.py",
+      "action": "keep",
+      "sha256": "0903a3763a002367c8c4bdb4d3966de488b5569450b70f3b600f09db1537cf4d",
+      "rationale": "Kept PR B's redirect-aware filename/extension handling and pre-download Content-Length check, and kept PR A's post-download size check that falls back to the actual content length when the header is missing or invalid, so oversized files without a header are still rejected."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:24:06.105473Z"
+}
