@@ -1,0 +1,18 @@
+{
+  "pair_id": "CapSoftware__Cap__571-574",
+  "status": "located",
+  "commit": "cf0381627f4a7b18620633fa2f5029da704e4b6b",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "apps/web/app/dashboard/caps/Caps.tsx",
+      "present": true,
+      "sha256": "cb858bb1059a6aae023f91e44cb7ad3415c8db529b2017a89136293e5829f4e6"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:51:34.459473Z"
+}

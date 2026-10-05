@@ -1,0 +1,17 @@
+{
+  "pair_id": "pinpoint-apm__pinpoint__12965-12967",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "available": false,
+  "unavailable_reason": "input_cap: input cap: 359 conflicted files, more than 20; input cap: 4479118 bytes in all versions, more than 600000",
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": null,
+  "intent_preserved_b": null,
+  "intent_drops": [],
+  "files": [],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}
