@@ -218,13 +218,14 @@ def test_report_splits_calibration_and_qualifies_claim_b(
 ) -> None:
     fx = fx_resolved
     fx.ladder("run", "fx03", check=False)
-    raw = fx.result("fx03", "resolver-llm-raw-run-1-task")
-    transcript = tmp_path / "raw.jsonl"
-    _install_recorded_run(raw, transcript, extra_read=None)
-    fx.ladder(
-        "resolve", "finalize", "fx03", "--rung", "llm-raw", "--run", "1",
-        "--transcript", str(transcript),
-    )  # fmt: skip
+    for rung in ("llm-raw", "llm-post-weave"):
+        task = fx.result("fx03", f"resolver-{rung}-run-1-task")
+        transcript = tmp_path / f"{rung}.jsonl"
+        _install_recorded_run(task, transcript, extra_read=None)
+        fx.ladder(
+            "resolve", "finalize", "fx03", "--rung", rung, "--run", "1",
+            "--transcript", str(transcript),
+        )  # fmt: skip
     fx.ladder("run", "--all", "--no-llm")
 
     def verdict(rung: str, metric: str, agrees: bool) -> dict[str, Any]:
