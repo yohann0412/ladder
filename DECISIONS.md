@@ -293,3 +293,31 @@ Newest at the bottom.
   pair waited because free space had drifted to 18.7 GiB. 15 GiB leaves 12 GiB above the
   3 GiB floor, more than twice the largest pair's runtime (kanister, about 5.6 GB). Still
   only one redo process runs, alone.
+
+## D24. Reporting Claim B next to the calibration result (after calibration, before the final report)
+
+- Problem: Claim B's fixed rule is computed from the harness's intent-dropped verdict on
+  llm-raw outputs. The calibration of PLAN 5.6 read 20 intent-dropped verdicts (seed 42).
+  The reviewer agreed with 12 of the 14 on git and structural outputs, where the flagged
+  change sat in an unresolved conflict. On LLM outputs the reviewer agreed with 0 of 6. In
+  each, the resolution combined both sides or kept an equivalent implementation of the
+  same change, and exact line containment reported a drop. Claim B is about LLM outputs,
+  and the plan does not say how calibration bears on a verdict.
+- Choice:
+  - The pre-registered verdict is reported exactly as computed.
+  - The Claim B statement also gives the reviewer's agreement on LLM intent-dropped
+    verdicts, with its Wilson interval. It then gives the intent-dropped rate that would
+    remain if the metric's precision on LLM outputs were the upper end of that interval
+    (the interval's upper end times the rate). If that rate is below the 15% threshold,
+    the statement says calibration does not support the verdict.
+  - The calibration section shows agreement separately for LLM and for git or structural
+    outputs.
+  - No record changes. The intent metric is not re-tuned after seeing the sample.
+- Reason: changing the verdict rule after seeing results would add a forking path, and
+  leaving out the calibration would overstate the claim. Reporting both lets a reader see
+  that the verdict rests on a metric whose precision on LLM outputs was low in the only
+  direct check made.
+- Also recorded here: the code takes Claim B's intent-dropped share over llm-raw outputs
+  that exist (59/165 before the D23 redo), while PLAN section 1 says "of conflicting
+  pairs" (59/224). Both are above 15%, so the verdict does not depend on the choice. The
+  report keeps the code's denominator and the results review states the difference.

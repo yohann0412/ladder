@@ -1,0 +1,365 @@
+{
+  "seed": 42,
+  "verdicts": [
+    {
+      "pair_id": "Bittu5134__ORV-Reader__1292-1302",
+      "rung": "mergiraf",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "mergiraf left conflict markers in both chapter files. For text files it falls back to line merging; the score record also shows markers. B's edits there are whitespace only, which normalizes to base, so only A changed the file: A renamed Jonghyuk to Joonghyuk. The output keeps base/B and A side by side inside markers, so A's version is not in effect. The drop is an unresolved conflict, not a silent loss, but the verdict is right."
+    },
+    {
+      "pair_id": "Bittu5134__ORV-Reader__1292-1302",
+      "rung": "weave",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "weave left conflict markers whose 'ours' section is empty: A's renamed lines (Jonghyuk to Joonghyuk) are gone from the conflict, and only base and B's text remain. Weave also appended a '// weave: run weave explain ...' line to a plain-text chapter. A was the only side whose edit survives normalization, and its version is lost. Agree."
+    },
+    {
+      "pair_id": "Cap-go__capgo__1012-1036",
+      "rung": "mergiraf",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "bun.lockb is a binary lockfile both PRs regenerated. In the git merge the driver cannot merge it, so A's version is kept (the harness reason says so; regenerating with mergiraf by hand gives empty output on binary input). B's lockfile entries are missing, so the drop is correct by definition. But no hand resolution of a generated binary lock is meaningful, because the right fix is to regenerate it. Drops like this inflate the manifest_lockfile category."
+    },
+    {
+      "pair_id": "CapSoftware__Cap__571-574",
+      "rung": "weave",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": false,
+      "note": "False positive. Weave's output has B's Caps component verbatim and B's new imports. The only B change not in effect is a semicolon on 'metadata?: VideoMetadata;', inside one unresolved conflict in the VideoData type, plus a weave hint comment. The output has markers and does not parse (score: parses false), so entity extraction cannot see Caps and reports B's version of Caps and <rest> as lost. Entity-level drops on conflicted, unparseable outputs can be artifacts."
+    },
+    {
+      "pair_id": "Rello__analytics__517-518",
+      "rung": "llm-post-weave",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": false,
+      "note": "False positive. B's only change adds the guard rootListId !== 'section-favorites' to the parent-nesting condition. The output, which is A's file verbatim, has the same guard (lines 374-378), with 'if (' on its own line and A's new 'dataset-<type>-<parent>' id. B's added lines do not occur verbatim, so the line-containment check reports a loss, but B's intent is in the output. Line-level containment over-reports drops when the other side rewrote the same lines."
+    },
+    {
+      "pair_id": "Rello__audioplayer__616-617",
+      "rung": "llm-raw",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": false,
+      "note": "Revised under the intent rubric (does the output lack the PR's behaviour change?). Both PRs made the same refactor, moving streaming into MusicService, in two competing ways: A with AudioStreamResponse, B with AudioStream->start(). The output keeps A's. B's exact lines are gone, but no feature of B is lost; the merge picked one of two implementations of the same change."
+    },
+    {
+      "pair_id": "Significant-Gravitas__AutoGPT__9958-9959",
+      "rung": "weave",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "Revised: the verdict is right, but the entity it cites is wrong. The cited GmailReadBlock.run is identical to A's version (parse artifact, since the file does not parse). But 227 of A's 820 added lines, including the new _read_emails helper and its query and scope handling, sit only inside unresolved conflict regions, so part of A's change is not in effect."
+    },
+    {
+      "pair_id": "Swofty-Developments__HypixelSkyBlock__509-511",
+      "rung": "git",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": false,
+      "note": "Revised under the intent rubric. The flagged paths are Gradle build-cache binaries (.gradle/8.7/*.bin, *.lock) that both PRs committed by accident. Git keeps A's copies, so B's bytes are absent, but no PR intent is carried by build caches."
+    },
+    {
+      "pair_id": "acoyfellow__UserDO__5-6",
+      "rung": "llm-raw",
+      "run": 2,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": false,
+      "note": "False positive under the intent rubric. A adds a try block to /logout that decodes the token and calls the DO's logout(). The output, B's file verbatim, already has the same thing in B's own words (tokenParts check, getMyAppDO(...).logout()). A's exact lines are absent, so line containment flags a drop, but A's behaviour is in the output."
+    },
+    {
+      "pair_id": "ethereum-optimism__optimism__16385-16397",
+      "rung": "weave",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "Revised: the verdict is right, but some of the entities it cites are parse artifacts. Weave garbled the files (duplicated definitions, comma-separated imports), and the cited L2API change is present twice. Still, substantive lines of both PRs sit only inside unresolved conflicts: the NewIndexingMode construction in l2_verifier.go, DecodeInvalidatedBlockTx in the test, and B's ManagedBySupervisor handling in driver/state.go. So both sides' changes are partly not in effect."
+    },
+    {
+      "pair_id": "exa-labs__exa-py__81-99",
+      "rung": "git",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "Git rung output: most of B's 425 added lines in exa_py/api.py merged, but B's new ContextContentsOptions class and the context/statuses fields sit only inside an unresolved conflict. Several cited entities are parse artifacts, since the output does not parse, but part of B's change is not in effect."
+    },
+    {
+      "pair_id": "featureform__enrichmcp__45-46",
+      "rung": "mergiraf",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "mergiraf left large unresolved conflicts in both files: 44 of A's and 73 of B's added lines in app.py, and 16 and 54 in the test file, sit only inside conflict regions, including B's OrderItem model and A's lifespan. Both sides' changes are partly not in effect."
+    },
+    {
+      "pair_id": "gensx-inc__gensx__736-766",
+      "rung": "weave",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "All 165 of A's added lines in website/home/app/page.tsx sit only inside weave's conflict regions, so none of A's page change is in effect."
+    },
+    {
+      "pair_id": "hyperlight-dev__hyperlight__510-512",
+      "rung": "llm-raw",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": false,
+      "note": "False positive. The output is B's copilot-instructions.md verbatim, and B already contains A's additions. 8 of A's 10 added lines are there exactly. The other 2 are there with B's typo fixes: the docs/github-labels.md path instead of A's 'docs\\github-labels,md', and a trailing period. Exact line matching misses near-identical lines, but A's intent is fully present."
+    },
+    {
+      "pair_id": "odigos-io__odigos__2962-2997",
+      "rung": "mergiraf",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "B's change to containerInstrumentationConfig's signature (the distroGetter parameter and the crashDetected return path) sits only inside an unresolved conflict. B's other 26 added lines merged. B's API change is not in effect."
+    },
+    {
+      "pair_id": "sam-goodwin__alchemy__239-253",
+      "rung": "mergiraf",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "Both PRs changed WorkflowProps, and 3 of each side's 5 added lines sit only inside mergiraf's unresolved conflict. Neither side's version of the type is in effect."
+    },
+    {
+      "pair_id": "stanford-crfm__levanter__996-1004",
+      "rung": "weave",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "B's clip_update_norm handling ('if self.clip_update_norm is not None: components.append(...)') sits only inside weave's unresolved conflict in optim/config.py. B's other 7 lines merged. That behaviour of B's is not in effect."
+    },
+    {
+      "pair_id": "tokens-studio__figma-plugin__3366-3391",
+      "rung": "git",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "B's 'if (hasLocalData) {' guard in pullTokensFactory.ts sits only inside the git rung's unresolved conflict. The rest of B's 12 lines merged. B's control-flow change is not in effect."
+    },
+    {
+      "pair_id": "vercel__hyper-site__314-315",
+      "rung": "llm-post-weave",
+      "run": 1,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": false,
+      "note": "Competing implementations of the same change. Both PRs moved the site to Next.js's app router. The output keeps B's layout.js and page.js: full metadata, SearchProvider, GoogleTagManager with GA_TRACKING_ID, and a home page that refetches releases with revalidate 60*60*24. A's versions (a Providers wrapper, a gtag Script, and a page re-exporting pages/index with revalidate 60*60*24) are absent line for line. But every behaviour A's versions provide (analytics, daily regeneration, the home page) is in B's. No feature of A is lost."
+    },
+    {
+      "pair_id": "whitphx__stlite__1234-1245",
+      "rung": "llm-raw",
+      "run": 2,
+      "metric": "intent_dropped",
+      "harness_verdict": true,
+      "reviewer_agrees": false,
+      "note": "False positive; the resolver combined both intents. B adds packages/browser/package.json with '@streamlit/app': '1.41.0'. A changed '@streamlit/app' from '1.41.0' to '*' in every other package (desktop, kernel, mountable, sharing). The output keeps B's new file but applies A's '*' convention to it, which is the right merge. The harness compares only with B's version of a file only B touched, so it reports B's version as lost."
+    },
+    {
+      "pair_id": "0xfurai__peekaping__91-92",
+      "rung": "llm-raw",
+      "run": 1,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "Both files of the output are text-identical to the maintainers' resolution."
+    },
+    {
+      "pair_id": "AzureCosmosDB__data-migration-desktop-tool__209-211",
+      "rung": "llm-post-weave",
+      "run": 1,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "RunCommand.cs differs from the maintainers' resolution only by a byte-order mark and trailing whitespace on blank lines, so it is equivalent."
+    },
+    {
+      "pair_id": "CapSoftware__Cap__571-574",
+      "rung": "llm-post-weave",
+      "run": 1,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "Every conflicted file of the output matches the maintainers' resolution line for line once whitespace is normalized (0 differing lines)."
+    },
+    {
+      "pair_id": "CapSoftware__Cap__571-574",
+      "rung": "llm-raw",
+      "run": 1,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "Every conflicted file of the output matches the maintainers' resolution line for line once whitespace is normalized (0 differing lines)."
+    },
+    {
+      "pair_id": "CapSoftware__Cap__571-574",
+      "rung": "mergiraf",
+      "run": 1,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "Every conflicted file of the output matches the maintainers' resolution line for line once whitespace is normalized (0 differing lines)."
+    },
+    {
+      "pair_id": "PyO3__maturin__2672-2674",
+      "rung": "llm-raw",
+      "run": 1,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "Every conflicted file of the output matches the maintainers' resolution line for line once whitespace is normalized (0 differing lines)."
+    },
+    {
+      "pair_id": "astronomer__airflow-ai-sdk__31-32",
+      "rung": "llm-post-weave",
+      "run": 1,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "All 11 conflicted docs/interface/*.md files are deleted both in the output and by the maintainers: a modify/delete conflict resolved as a delete on both sides. Equivalent."
+    },
+    {
+      "pair_id": "astronomer__airflow-ai-sdk__31-32",
+      "rung": "llm-raw",
+      "run": 1,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "All 11 conflicted docs/interface/*.md files are deleted both in the output and by the maintainers: a modify/delete conflict resolved as a delete on both sides. Equivalent."
+    },
+    {
+      "pair_id": "astronomer__airflow-ai-sdk__31-32",
+      "rung": "llm-raw",
+      "run": 2,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "All 11 conflicted docs/interface/*.md files are deleted both in the output and by the maintainers: a modify/delete conflict resolved as a delete on both sides. Equivalent."
+    },
+    {
+      "pair_id": "asynkron__protoactor-go__1164-1165",
+      "rung": "llm-raw",
+      "run": 1,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "actor/deadletter.go matches the maintainers' resolution line for line once whitespace is normalized."
+    },
+    {
+      "pair_id": "gadicc__yahoo-finance2__941-943",
+      "rung": "llm-raw",
+      "run": 1,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "The conflicted dailyGainers.schema.json is deleted both in the output and in the maintainers' resolution (modify/delete resolved as delete). Equivalent."
+    },
+    {
+      "pair_id": "jendrikseipp__rednotebook__841-842",
+      "rung": "llm-raw",
+      "run": 1,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "CHANGELOG.md matches the maintainers' resolution once whitespace is normalized."
+    },
+    {
+      "pair_id": "langgenius__webapp-conversation__182-183",
+      "rung": "llm-raw",
+      "run": 1,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "Both files match the maintainers' resolution once whitespace is normalized."
+    },
+    {
+      "pair_id": "microsoft__graphrag__1944-1956",
+      "rung": "llm-raw",
+      "run": 2,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "factory.py differs from the maintainers' resolution only in how one conditional expression is wrapped across lines (storage_type.value if isinstance(...) else storage_type). Same syntax tree, so equivalent."
+    },
+    {
+      "pair_id": "r-dbi__RPostgres__520-522",
+      "rung": "llm-raw",
+      "run": 2,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "Every conflicted file matches the maintainers' resolution once whitespace is normalized (0 differing lines)."
+    },
+    {
+      "pair_id": "reflex-dev__reflex-web__1300-1301",
+      "rung": "llm-raw",
+      "run": 1,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "Every conflicted file matches the maintainers' resolution once whitespace is normalized (0 differing lines)."
+    },
+    {
+      "pair_id": "reflex-dev__reflex-web__1300-1301",
+      "rung": "weave",
+      "run": 1,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "Every conflicted file matches the maintainers' resolution once whitespace is normalized (0 differing lines)."
+    },
+    {
+      "pair_id": "reneschulte__WriteableBitmapEx__105-106",
+      "rung": "llm-raw",
+      "run": 1,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "Every conflicted file matches the maintainers' resolution once whitespace is normalized (0 differing lines)."
+    },
+    {
+      "pair_id": "sveltejs__kit__14131-14180",
+      "rung": "llm-post-weave",
+      "run": 1,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "Every conflicted file matches the maintainers' resolution once whitespace is normalized (0 differing lines)."
+    },
+    {
+      "pair_id": "sveltejs__kit__14131-14180",
+      "rung": "llm-raw",
+      "run": 1,
+      "metric": "human_equivalent",
+      "harness_verdict": true,
+      "reviewer_agrees": true,
+      "note": "Every conflicted file matches the maintainers' resolution once whitespace is normalized (0 differing lines)."
+    }
+  ]
+}

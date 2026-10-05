@@ -530,3 +530,19 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   `bruin-data__bruin__733-735` and `evergreen-ci__evergreen__9033-9034`. 110 records were
   deleted (runnability, scores including run-2 scores, Claim C). The list is in
   `data/results/redo-d23.json`. Each pair runs once more (`work/d23-redo.log`).
+- 14:20 to 14:45: calibration (PLAN 5.6). 20 intent-dropped and 20 human-equivalent verdicts
+  were drawn with seed 42 from the scores as they stood at 14:06, before the D23 redo
+  deleted some. Those verdicts do not depend on test runs, so the redo cannot change them.
+  Each verdict was read against base, A, B and the maintainers' resolution, fetched by SHA
+  into a scratch clone. Structural outputs were regenerated with the pinned drivers. The
+  rubric is whether the output lacks the PR's behaviour change; exact lines are not
+  required.
+  - Human-equivalent: 20 of 20 agree. Most are identical once whitespace is normalized.
+    One differs by line wrapping, and four are modify/delete pairs that both deleted.
+  - Intent-dropped: 12 of 20 agree. 12 of 14 on git and structural outputs: the change
+    sat in an unresolved conflict. 0 of 6 on LLM outputs: competing or combined
+    implementations, near-identical lines such as typo fixes, or an applied rename that
+    line containment misses. Entity-level drops on unparseable outputs (conflict markers)
+    are often artifacts, though other changes in the same output are really unresolved.
+  - `data/results/calibration.json` holds every verdict with a note. D24 records how the
+    report presents this next to Claim B.

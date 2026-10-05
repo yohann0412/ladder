@@ -211,3 +211,60 @@ def test_report_counts_records_redone_under_d23(fx: Experiment, tmp_path: Path) 
     fx.ladder("report", "--out", str(out))
     summary = read_json(fx.results / "summary.json")
     assert (summary["d23_redone_pairs"], summary["d23_replaced_records"]) == (0, 0)
+
+
+def test_report_splits_calibration_and_qualifies_claim_b(
+    fx_resolved: Experiment, tmp_path: Path
+) -> None:
+    fx = fx_resolved
+    fx.ladder("run", "fx03", check=False)
+    raw = fx.result("fx03", "resolver-llm-raw-run-1-task")
+    transcript = tmp_path / "raw.jsonl"
+    _install_recorded_run(raw, transcript, extra_read=None)
+    fx.ladder(
+        "resolve", "finalize", "fx03", "--rung", "llm-raw", "--run", "1",
+        "--transcript", str(transcript),
+    )  # fmt: skip
+    fx.ladder("run", "--all", "--no-llm")
+
+    def verdict(rung: str, metric: str, agrees: bool) -> dict[str, Any]:
+        return {
+            "pair_id": "fx03",
+            "rung": rung,
+            "run": 1,
+            "metric": metric,
+            "harness_verdict": True,
+            "reviewer_agrees": agrees,
+            "note": "test",
+        }
+
+    calibration = {
+        "seed": 42,
+        "verdicts": [
+            verdict("llm-raw", "intent_dropped", False),
+            verdict("llm-post-weave", "intent_dropped", False),
+            verdict("weave", "intent_dropped", True),
+            verdict("git", "intent_dropped", True),
+            verdict("mergiraf", "intent_dropped", False),
+            verdict("llm-raw", "human_equivalent", True),
+        ],
+    }
+    (fx.results / "calibration.json").write_text(json.dumps(calibration, indent=2) + "\n")
+    out = tmp_path / "RESULTS.md"
+    fx.ladder("report", "--out", str(out))
+    summary = read_json(fx.results / "summary.json")
+
+    split = summary["calibration_agreement"]
+    rate = split["intent_dropped"]["llm"]
+    assert (rate["numerator"], rate["denominator"]) == (0, 2)
+    rate = split["intent_dropped"]["structural"]
+    assert (rate["numerator"], rate["denominator"]) == (2, 3)
+    rate = split["human_equivalent"]["llm"]
+    assert (rate["numerator"], rate["denominator"]) == (1, 1)
+    assert "structural" not in split["human_equivalent"]
+
+    claim_b = summary["verdicts"]["B"]
+    assert "calibration" in claim_b.lower() and "0/2" in claim_b
+    report = out.read_text()
+    calibration_section = report.split("## Calibration")[1].split("\n## ")[0]
+    assert "LLM" in calibration_section and "structural" in calibration_section
