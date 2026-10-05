@@ -5,9 +5,11 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from ladder.gitio import git_text, run_git
+from ladder.jsonio import write_record
+from ladder.layout import Layout
 from ladder.schemas import HeadsKind, Pair, WorkspaceRecord
 from ladder.treecopy import copy_trees
-from ladder.wsverify import Verification
+from ladder.wsverify import Verification, verify_workspace
 
 
 class UnusablePairError(RuntimeError):
@@ -39,6 +41,15 @@ class Synthetic:
     def refs(self) -> dict[str, str]:
         """Return the only refs the workspace may have, mapped to the commits they must name."""
         return {"refs/heads/base": self.base, "refs/heads/a": self.a, "refs/heads/b": self.b}
+
+
+@dataclass(frozen=True)
+class BuiltWorkspace:
+    """A rebuilt workspace, its leak checks, and its record when every check passed."""
+
+    path: Path
+    verification: Verification
+    record: WorkspaceRecord | None
 
 
 def source_commits(pair: Pair, heads: HeadsKind) -> Sources:
@@ -86,6 +97,32 @@ def build_workspace(cache: Path, path: Path, sources: Sources) -> Synthetic:
     run_git(["symbolic-ref", "HEAD", "refs/heads/a"], path)
     run_git(["read-tree", "--reset", "-u", "HEAD"], path)
     return synthetic
+
+
+def build_recorded(layout: Layout, pair: Pair, heads: HeadsKind) -> BuiltWorkspace:
+    """Rebuild and verify a pair's workspace; write its record only when every check passed.
+
+    The previous record is deleted first. Raise UnusablePairError when the pair has no such heads
+    or no repository cache.
+    """
+    record_file = layout.result_file(pair.pair_id, f"workspace-{heads}")
+    record_file.unlink(missing_ok=True)
+    path = layout.workspace_dir(pair.pair_id, heads).resolve()
+    sources = source_commits(pair, heads)
+    synthetic = build_workspace(layout.cache_dir(pair.repo), path, sources)
+    verification = verify_workspace(path, synthetic.refs())
+    if not verification.passed:
+        return BuiltWorkspace(path, verification, None)
+    record = workspace_record(
+        pair.pair_id,
+        heads,
+        path=path,
+        sources=sources,
+        synthetic=synthetic,
+        verification=verification,
+    )
+    write_record(record_file, record)
+    return BuiltWorkspace(path, verification, record)
 
 
 def workspace_record(
