@@ -5,6 +5,7 @@ from typing import Annotated
 
 import typer
 
+from ladder import pairs_cli
 from ladder.layout import Layout
 
 app = typer.Typer(
@@ -29,3 +30,6 @@ def main(
 ) -> None:
     """Store the experiment layout for the subcommands."""
     ctx.obj = Layout(pairs_file=pairs, work=work, results=results)
+
+
+app.add_typer(pairs_cli.app, name="pairs")
