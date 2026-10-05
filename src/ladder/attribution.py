@@ -16,9 +16,10 @@ from ladder.zenodo import PACKAGE_README, RECORD_ID
 
 HEADER = f"""# Pair sources
 
-Written by `ladder pairs fetch-sources`; `ladder pairs load --source <this directory>` reads
-these files offline. Both upstream datasets are licensed CC-BY-4.0
-(https://creativecommons.org/licenses/by/4.0/). What was changed is listed per dataset.
+Written by `ladder pairs fetch-sources`; `ladder pairs load --source <this directory>` and
+`ladder pairs sample-supplementary --source <this directory>` read these files offline. Both
+upstream datasets are licensed CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/). What
+was changed is listed per dataset.
 
 ## Replay study replication package (Zenodo record {RECORD_ID})
 

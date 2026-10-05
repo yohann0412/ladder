@@ -1,4 +1,4 @@
-"""The `ladder pairs` commands: fetch the pair sources, load pairs, resolve their commits."""
+"""The `ladder pairs` commands: fetch the pair sources, load and sample pairs, resolve them."""
 
 from pathlib import Path
 from typing import Annotated
@@ -9,18 +9,19 @@ from rich.progress import Progress
 
 from ladder.context import layout_from
 from ladder.extracts import AIDEV_PRS, AidevPr, read_rows
-from ladder.jsonio import read_record, write_record
+from ladder.jsonio import read_optional, read_record, write_record
 from ladder.pairload import pairs_from_fixture, pairs_from_source
-from ladder.pairs_view import render_fetch, render_fixture, render_summary
+from ladder.pairs_view import render_fetch, render_fixture, render_summary, render_supplementary
 from ladder.pairselect import UnknownPairError, select_pairs
 from ladder.pairsummary import summarise
 from ladder.resolve import resolve_pairs, with_refs
 from ladder.resolve_view import render_resolve
 from ladder.schemas import PairRefs, PairSet
 from ladder.sources import fetch_sources
+from ladder.supplementary import sample_supplementary, with_supplementary
 
 app = typer.Typer(
-    help="Fetch the pair sources, load pairs into pairs.json and resolve their commits.",
+    help="Fetch the pair sources, load or sample pairs into pairs.json and resolve their commits.",
     no_args_is_help=True,
 )
 
@@ -67,6 +68,28 @@ def load(
         render_fixture(console, pair_set, target)
     else:
         raise typer.BadParameter("pass exactly one of --source and --fixture")
+
+
+@app.command("sample-supplementary")
+def sample_supplementary_command(
+    ctx: typer.Context,
+    source: Annotated[
+        Path,
+        typer.Option(
+            help="Vendored sources holding the supplementary candidates (from fetch-sources).",
+            exists=True,
+            file_okay=False,
+        ),
+    ] = Path("data/source"),
+    seed: Annotated[int, typer.Option(help="Seed of the repository shuffle (D15: 42).")] = 42,
+) -> None:
+    """Write one supplementary pair per candidate repository, offline, in the seed's order."""
+    target = layout_from(ctx).pairs_file
+    existing = read_optional(target, PairSet)
+    pairs = sample_supplementary(source, seed)
+    pair_set = with_supplementary(existing, pairs, source)
+    write_record(target, pair_set)
+    render_supplementary(Console(), pairs, len(pair_set.pairs) - len(pairs), seed, target)
 
 
 @app.command()
