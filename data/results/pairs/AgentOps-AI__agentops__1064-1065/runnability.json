@@ -1,0 +1,50 @@
+{
+  "pair_id": "AgentOps-AI__agentops__1064-1065",
+  "commit": "f9a01c7b57bc846c775d2342a9522c46202ec52d",
+  "language": "python",
+  "package_manager": "uv",
+  "test_runner": "pytest",
+  "status": "runnable",
+  "reason": null,
+  "reason_detail": "",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "sync",
+        "--frozen",
+        "--group",
+        "dev",
+        "--group",
+        "test"
+      ],
+      "exit_code": 0,
+      "duration_s": 16.7,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.2 s; install: exit 0 in 9.7 s; pytest: exit 0 in 0.1 s; suite passed: 218 passed, 0 failed, 0 errors, 1 skipped"
+    }
+  ],
+  "test_count": 219,
+  "base_outcome": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/AgentOps-AI__agentops__1064-1065/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/AgentOps-AI__agentops__1064-1065/reports/base-attempt-1/run-1.report"
+    ],
+    "passed": 218,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 1,
+    "duration_s": 6.7,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "218 passed, 0 failed, 0 errors, 1 skipped"
+  },
+  "timeout_s": 600
+}
