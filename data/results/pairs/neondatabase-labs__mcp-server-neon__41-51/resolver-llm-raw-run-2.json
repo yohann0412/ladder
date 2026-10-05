@@ -1,0 +1,25 @@
+{
+  "pair_id": "neondatabase-labs__mcp-server-neon__41-51",
+  "rung": "llm-raw",
+  "run": 2,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 20826,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 657,
+    "cache_creation_input_tokens": 16303,
+    "cache_read_input_tokens": 265512
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "action": "keep",
+      "sha256": "6f41b51af7305c8a395566412f730e538996e3f76ff6780840518a91204c398d",
+      "rationale": "Kept PR B's released sections intact (0.3.5 with both its entries) and moved PR A's still-unreleased broken-link fix entry into the UNRELEASED section alongside PR B's `__node_version` removal entry."
+    }
+  ],
+  "finalized_at": "2026-10-05T10:00:14.389714Z"
+}

@@ -1,0 +1,37 @@
+{
+  "pair_id": "sam-goodwin__alchemy__239-240",
+  "rung": "llm-raw",
+  "run": 2,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 88627,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 495,
+    "cache_creation_input_tokens": 38856,
+    "cache_read_input_tokens": 249278
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "alchemy/src/cloudflare/bindings.ts",
+      "action": "keep",
+      "sha256": "473a592addfb99f474530da7d6d73091011d26de53262f503afef397c16751f4",
+      "rationale": "Both PRs add an independent type import (Images from PR A, VersionMetadata from PR B) that the already-merged Binding union references, so both imports are kept."
+    },
+    {
+      "path": "alchemy/src/cloudflare/bound.ts",
+      "action": "keep",
+      "sha256": "3baf43a094e23f8fdbd42b4e3aaee59153ec8c5183d2f1e2e22e28230390bf8b",
+      "rationale": "Kept both imports and chained both new conditional branches (Images -> ImagesBinding, then VersionMetadata -> Fetcher) ahead of the Self/Json/Service fallbacks, re-indented consistently."
+    },
+    {
+      "path": "alchemy/src/cloudflare/worker-metadata.ts",
+      "action": "keep",
+      "sha256": "597738836591393a4f09fce55d01824a7cf4400952921a7017c8869359903c0f",
+      "rationale": "Both PRs add a separate else-if branch for their binding type, so both the images and version_metadata branches are kept before the unsupported-type fallback."
+    }
+  ],
+  "finalized_at": "2026-10-05T10:00:14.838249Z"
+}

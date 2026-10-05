@@ -411,3 +411,6 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   (final pass) or has a `claim-c` record (Claim C). Records are written atomically and
   working copies carry completion marks, so stopping at any point is safe. They were
   stopped and restarted once, at 09:47, for this reason.
+- Double run settled: 30 run-2 tasks prepared. 4 were refused at the input cap and 26 went
+  to a subagent. Of those 26, 23 are `ok` and 3 failed the audit only for reading their
+  own output (D20). D22 allowed preparation and these resolvers to overlap.

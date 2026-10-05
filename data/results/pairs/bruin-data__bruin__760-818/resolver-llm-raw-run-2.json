@@ -1,0 +1,27 @@
+{
+  "pair_id": "bruin-data__bruin__760-818",
+  "rung": "llm-raw",
+  "run": 2,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/bruin-data__bruin__760-818/llm-raw/run-2/files/pkg/pipeline/pipeline.go"
+  ],
+  "duration_ms": 209060,
+  "tokens": {
+    "input_tokens": 22,
+    "output_tokens": 1876,
+    "cache_creation_input_tokens": 77218,
+    "cache_read_input_tokens": 868063
+  },
+  "tool_calls": 16,
+  "files": [
+    {
+      "path": "pkg/pipeline/pipeline.go",
+      "action": "keep",
+      "sha256": "155e5867646372249756fc9521719e8447c73ae2a81c1b6f31b893e64bca1e4b",
+      "rationale": "Kept both additions to the materialization const block: PR B's SCD2ByTime/SCD2ByColumn strategy constants (already referenced in AllAvailableMaterializationStrategies) directly after the granularity constants, followed by PR A's ProfilingLevel constants in their own blank-line-separated group."
+    }
+  ],
+  "finalized_at": "2026-10-05T10:00:13.730347Z"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "AzureCosmosDB__data-migration-desktop-tool__209-211",
+  "rung": "llm-raw",
+  "run": 2,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 41125,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 476,
+    "cache_creation_input_tokens": 33890,
+    "cache_read_input_tokens": 255520
+  },
+  "tool_calls": 7,
+  "files": [
+    {
+      "path": "Core/Cosmos.DataTransfer.Core/RunCommand.cs",
+      "action": "keep",
+      "sha256": "50e0bcb406d494cbc11df3c3975430fb6cbe88e4c06e55c4c0cdc4799f5e4548",
+      "rationale": "Took PR A's validated sourceValue/sinkValue arguments, which are already computed with PR B's null-conditional options?.Source/options?.Sink, so both the non-interactive validation and the CS8602 null-safety fix are preserved."
+    }
+  ],
+  "finalized_at": "2026-10-05T10:00:10.850533Z"
+}

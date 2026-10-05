@@ -1,0 +1,25 @@
+{
+  "pair_id": "livingbio__typed-ffmpeg__742-744",
+  "rung": "llm-raw",
+  "run": 2,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 201408,
+  "tokens": {
+    "input_tokens": 28,
+    "output_tokens": 9215,
+    "cache_creation_input_tokens": 98676,
+    "cache_read_input_tokens": 1238576
+  },
+  "tool_calls": 18,
+  "files": [
+    {
+      "path": "src/ffmpeg/compile/compile_cli.py",
+      "action": "keep",
+      "sha256": "82bf73b521e025ea464425e982e7fab35aa7c150119588ad7bf0b63a678d7f48",
+      "rationale": "Kept PR B's syntax-only parsers, validate_* utilities and validate-aware parse_input/parse_output/parse_global plus parse(cli, validate=True) (which still loads filters), together with PR A's parse_cli, parse_with_validation (which loads neither dictionary) and optional filter handling, routing both entry points through a shared _parse_command helper that passes the validate flag through consistently."
+    }
+  ],
+  "finalized_at": "2026-10-05T10:00:14.152520Z"
+}

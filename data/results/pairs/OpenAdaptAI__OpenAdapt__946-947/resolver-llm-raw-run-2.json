@@ -1,0 +1,33 @@
+{
+  "pair_id": "OpenAdaptAI__OpenAdapt__946-947",
+  "rung": "llm-raw",
+  "run": 2,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/OpenAdaptAI__OpenAdapt__946-947/llm-raw/run-2/files/deploy/deploy/models/omniparser/deploy.py"
+  ],
+  "duration_ms": 270034,
+  "tokens": {
+    "input_tokens": 42,
+    "output_tokens": 13071,
+    "cache_creation_input_tokens": 100487,
+    "cache_read_input_tokens": 1998277
+  },
+  "tool_calls": 25,
+  "files": [
+    {
+      "path": "deploy/deploy/models/omniparser/deploy.py",
+      "action": "keep",
+      "sha256": "7c6052dfdc08e2797a897410715de4977d318f7f6e34ed592e1f49f0c1fc8024",
+      "rationale": "PR B's deploy.py is a direct evolution of PR A's identical script (key path beside the script, key-pair management and backup helpers, default-VPC security group and subnet creation, force cleanup, and the missing f-string prefixes in the docker commands fixed), so B's version is kept, plus the missing `import datetime` that its new backup_key_file helper needs."
+    },
+    {
+      "path": "openadapt/run_omnimcp.py",
+      "action": "keep",
+      "sha256": "17f3804a98089d707268e7ca454269cbce6477fd38d33c805e5f61de44e296b6",
+      "rationale": "PR B's runner is a strict superset of PR A's (identical docstring and modes, plus the ComputerUse TODO note and the allow_no_parser/auto_deploy_parser/skip_confirmation options passed through to OmniMCP), so B's version is kept."
+    }
+  ],
+  "finalized_at": "2026-10-05T10:00:11.325241Z"
+}

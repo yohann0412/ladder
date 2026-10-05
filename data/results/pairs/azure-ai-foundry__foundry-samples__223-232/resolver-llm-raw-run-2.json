@@ -1,0 +1,49 @@
+{
+  "pair_id": "azure-ai-foundry__foundry-samples__223-232",
+  "rung": "llm-raw",
+  "run": 2,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 184732,
+  "tokens": {
+    "input_tokens": 32,
+    "output_tokens": 5807,
+    "cache_creation_input_tokens": 105060,
+    "cache_read_input_tokens": 1499788
+  },
+  "tool_calls": 33,
+  "files": [
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/TESTING.md",
+      "action": "keep",
+      "sha256": "80ce922ee594b2a46cd40d7419d2c540e69a4317094197b294c9772b48066ebf",
+      "rationale": "PR B's version is PR A's rewritten document plus B's PROJECT_ENDPOINT/AZURE_MODEL_* env-var table, updated sample table, Inference SDK details and chat-completion guidance, so taking B's content preserves both sides."
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/src/main/java/com/azure/ai/foundry/samples/ChatCompletionSample.java",
+      "action": "keep",
+      "sha256": "8ceb91163b204814ea16be095712879e9b716afa14213007e9d66b6ab5828444",
+      "rationale": "Both sides migrated the sample to the Azure AI Inference SDK, and PR B further evolves A's code to read PROJECT_ENDPOINT, use TokenCredential, and print the response, so B's coherent version is used (dropping A's now-unused DefaultAzureCredential import)."
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/src/main/java/com/azure/ai/foundry/samples/ChatCompletionStreamingSample.java",
+      "action": "keep",
+      "sha256": "7ae1ee4ce6e081990d606b48ee91848bd984cfef86b0b98b2b52ea5b76b5aa6b",
+      "rationale": "PR B refines A's Inference SDK streaming sample to use PROJECT_ENDPOINT and print streamed tokens via completeStream, so B's version supersedes A's with the same structure and imports kept consistent."
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/testing.bat",
+      "action": "keep",
+      "sha256": "f57d352bfaca0de7ef2c707609f5cd7ac0b94beb3345e3299a23fe63583fe218",
+      "rationale": "PR B keeps A's PROJECT_ENDPOINT/AZURE_ENDPOINT validation and SDK banner and adds informational checks for AZURE_MODEL_DEPLOYMENT_NAME, AZURE_MODEL_API_PATH and AZURE_AI_API_KEY before the banner, so B's content combines both."
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/testing.sh",
+      "action": "keep",
+      "sha256": "2ec215303f742f63bc0183aaf721848c7a4ef9d50c8594e49bef3cfbcb673bd8",
+      "rationale": "PR B keeps A's endpoint fallback check and SDK banner inside check_required_env and adds the optional model/API path/auth informational checks, so B's content is the union of both sides."
+    }
+  ],
+  "finalized_at": "2026-10-05T10:00:13.465537Z"
+}

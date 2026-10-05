@@ -1,0 +1,35 @@
+{
+  "pair_id": "Rello__analytics__517-518",
+  "rung": "llm-raw",
+  "run": 2,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Read outside the task directory: /home/user/ladder/work/resolutions/Rello__analytics__517-518/llm-raw/run-2/files/CHANGELOG.md",
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/Rello__analytics__517-518/llm-raw/run-2/files/CHANGELOG.md",
+    "Read outside the task directory: /home/user/ladder/work/resolutions/Rello__analytics__517-518/llm-raw/run-2/files/js/navigation.js"
+  ],
+  "duration_ms": 227504,
+  "tokens": {
+    "input_tokens": 28,
+    "output_tokens": 3534,
+    "cache_creation_input_tokens": 79253,
+    "cache_read_input_tokens": 1130982
+  },
+  "tool_calls": 20,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "action": "keep",
+      "sha256": "b3ec6517c74f0423ea652e60c575a2ceec9e2d6177fa8fc7243d00e75aee5dc4",
+      "rationale": "Kept PR B's 5.7.2 entry and dated 5.7.1 fixed list (including its corrected smart picker wording) and appended PR A's additional grouping fixes plus its Changed and Added subsections to the 5.7.1 section, dropping the duplicate smart picker line."
+    },
+    {
+      "path": "js/navigation.js",
+      "action": "keep",
+      "sha256": "da05cddca9bfcc21a72c9daf85f4bebc2e884ff291b63d2a602948c3ba11a4ec",
+      "rationale": "Both sides added the same section-favorites guard, so PR A's version is used because it also uses the item-type-scoped sublist IDs ('dataset-' + item_type + '-' + id) that the rest of the merged file already generates."
+    }
+  ],
+  "finalized_at": "2026-10-05T10:00:12.519255Z"
+}

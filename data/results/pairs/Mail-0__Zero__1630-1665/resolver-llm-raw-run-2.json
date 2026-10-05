@@ -1,0 +1,25 @@
+{
+  "pair_id": "Mail-0__Zero__1630-1665",
+  "rung": "llm-raw",
+  "run": 2,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 139743,
+  "tokens": {
+    "input_tokens": 20,
+    "output_tokens": 1951,
+    "cache_creation_input_tokens": 89427,
+    "cache_read_input_tokens": 743669
+  },
+  "tool_calls": 14,
+  "files": [
+    {
+      "path": "apps/mail/components/mail/mail-list.tsx",
+      "action": "keep",
+      "sha256": "6f8a53cc3cab04294614737353e64ecdeb4d95787610c48af1a38b4d9a5dc62f",
+      "rationale": "PR A replaced VList with AgGridReact (columnDefs/datasource/context/gridOptions), so PR B's VList-only tuning (count/overscan/itemSize/keepMounted, children renderer and onScroll loadMore threshold) no longer applies and is dropped, while PR B's cleanly merged Thread memoization and MailList cleanups elsewhere in the file are kept."
+    }
+  ],
+  "finalized_at": "2026-10-05T10:00:11.282459Z"
+}

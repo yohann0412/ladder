@@ -1,0 +1,25 @@
+{
+  "pair_id": "microsoft__graphrag__1944-1956",
+  "rung": "llm-raw",
+  "run": 2,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 26554,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 1053,
+    "cache_creation_input_tokens": 20502,
+    "cache_read_input_tokens": 277854
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "graphrag/storage/factory.py",
+      "action": "keep",
+      "sha256": "b2ec96866a60067d71bd33aa255fefb230f5344be08b1d7b40be27af771c493f",
+      "rationale": "Kept PR A's registry-based StorageFactory (register with creator callables, get_storage_types, is_supported_storage_type, module-level default registrations) while applying PR B's rename of OutputType to StorageType throughout, since OutputType no longer exists in the merged enums."
+    }
+  ],
+  "finalized_at": "2026-10-05T10:00:14.378816Z"
+}

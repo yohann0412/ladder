@@ -1,0 +1,31 @@
+{
+  "pair_id": "sam-goodwin__alchemy__239-253",
+  "rung": "llm-raw",
+  "run": 2,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 125668,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 995,
+    "cache_creation_input_tokens": 53575,
+    "cache_read_input_tokens": 416833
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "alchemy/src/cloudflare/worker.ts",
+      "action": "keep",
+      "sha256": "068fd758b9e5be21dcacd4f2a48b750eb78951652e8c3dc79d512ddb29635ed4",
+      "rationale": "Both sides make workflow upserts honor binding.scriptName; kept PR A's version, which already uses `workflow.scriptName ?? workerName` as PR B does and also skips upserting workflows owned by a different script, so B's intent is fully covered."
+    },
+    {
+      "path": "alchemy/src/cloudflare/workflow.ts",
+      "action": "keep",
+      "sha256": "5977702cc36cddf1944ba15706ed02033f13f446f94061ee93260b084828008a",
+      "rationale": "Both PRs add the identical optional scriptName prop to WorkflowProps (differing only by a blank line), so a single copy of the field is kept."
+    }
+  ],
+  "finalized_at": "2026-10-05T10:00:16.150273Z"
+}

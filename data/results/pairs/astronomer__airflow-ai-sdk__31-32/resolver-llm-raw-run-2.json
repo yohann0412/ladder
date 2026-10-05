@@ -1,0 +1,85 @@
+{
+  "pair_id": "astronomer__airflow-ai-sdk__31-32",
+  "rung": "llm-raw",
+  "run": 2,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 30937,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 1096,
+    "cache_creation_input_tokens": 19376,
+    "cache_read_input_tokens": 320472
+  },
+  "tool_calls": 12,
+  "files": [
+    {
+      "path": "docs/interface/airflow_ai_sdk_airflow.md",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR A replaced the flat docs layout with nested per-package files (docs/interface/airflow.md) written by the merged generator, so PR B's regenerated flat file is obsolete and its import-skipping intent lives on in the merged generator script."
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_decorators_agent.md",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR A moved this doc to docs/interface/decorators/agent.md and the merged generator no longer emits flat files, so PR B's regeneration of the old path is superseded."
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_decorators_branch.md",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR A moved this doc to docs/interface/decorators/branch.md and the merged generator no longer emits flat files, so PR B's regeneration of the old path is superseded."
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_decorators_embed.md",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR A moved this doc to docs/interface/decorators/embed.md and the merged generator no longer emits flat files, so PR B's regeneration of the old path is superseded."
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_decorators_llm.md",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR A moved this doc to docs/interface/decorators/llm.md and the merged generator no longer emits flat files, so PR B's regeneration of the old path is superseded."
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_models_base.md",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR A moved this doc to docs/interface/models/base.md and the merged generator no longer emits flat files, so PR B's regeneration of the old path is superseded."
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_models_tool.md",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR A moved this doc to docs/interface/models/tool.md and the merged generator no longer emits flat files, so PR B's regeneration of the old path is superseded."
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_operators_agent.md",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR A moved this doc to docs/interface/operators/agent.md and the merged generator no longer emits flat files, so PR B's regeneration of the old path is superseded."
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_operators_embed.md",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR A moved this doc to docs/interface/operators/embed.md and the merged generator no longer emits flat files, so PR B's regeneration of the old path is superseded."
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_operators_llm.md",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR A moved this doc to docs/interface/operators/llm.md and the merged generator no longer emits flat files, so PR B's regeneration of the old path is superseded."
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_operators_llm_branch.md",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR A moved this doc to docs/interface/operators/llm_branch.md and the merged generator no longer emits flat files, so PR B's regeneration of the old path is superseded."
+    }
+  ],
+  "finalized_at": "2026-10-05T10:00:12.968030Z"
+}

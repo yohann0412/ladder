@@ -1,0 +1,25 @@
+{
+  "pair_id": "Azure__awesome-azd__630-631",
+  "rung": "llm-raw",
+  "run": 2,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 27684,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 511,
+    "cache_creation_input_tokens": 27732,
+    "cache_read_input_tokens": 181305
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "website/src/theme/Navbar/Layout/index.js",
+      "action": "keep",
+      "sha256": "4748347019d9c54e5b0b2ade6286e01f20b455ede9f4252d27f8678938ce99ca",
+      "rationale": "Both PRs made the same defensive fix (try/catch around removeItem and a WcpConsent.siteConsent guard before setNonEssentialCookies), differing only in catch variable name, comment and a blank line, so the conflict region takes PR B's equivalent text while keeping PR B's already-merged typeof oneDS guard."
+    }
+  ],
+  "finalized_at": "2026-10-05T10:00:11.013185Z"
+}

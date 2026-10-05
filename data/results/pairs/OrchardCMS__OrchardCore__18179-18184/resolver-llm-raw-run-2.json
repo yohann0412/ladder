@@ -1,0 +1,25 @@
+{
+  "pair_id": "OrchardCMS__OrchardCore__18179-18184",
+  "rung": "llm-raw",
+  "run": 2,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 37187,
+  "tokens": {
+    "input_tokens": 20,
+    "output_tokens": 2434,
+    "cache_creation_input_tokens": 20313,
+    "cache_read_input_tokens": 485052
+  },
+  "tool_calls": 19,
+  "files": [
+    {
+      "path": "global.json",
+      "action": "keep",
+      "sha256": "0a665ab19c2ebf2c5fc1e46bd8f5c1ff8a252f51da10b6ec627063ca37995bce",
+      "rationale": "Both sides keep the base content unchanged and differ only in line endings (A left a stray CRLF on the last line, B converted fully to LF), so the merged file keeps the identical JSON with consistent LF endings as the repository's text=auto .gitattributes normalizes."
+    }
+  ],
+  "finalized_at": "2026-10-05T10:00:12.402175Z"
+}

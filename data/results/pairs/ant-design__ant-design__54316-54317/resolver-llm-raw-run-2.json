@@ -1,0 +1,25 @@
+{
+  "pair_id": "ant-design__ant-design__54316-54317",
+  "rung": "llm-raw",
+  "run": 2,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 38556,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 521,
+    "cache_creation_input_tokens": 32567,
+    "cache_read_input_tokens": 184812
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "components/splitter/SplitBar.tsx",
+      "action": "keep",
+      "sha256": "08111fe76e5d1452a78df2e6a729c56ebf038ec34e2f9bacdd1c014b98229eba",
+      "rationale": "Kept PR B's useLayoutEffect with its eventHandlerMap loop for the window mouse/touch listeners and its [startPos] dependency array, and added PR A's handleDragEndFallback with its blur/visibilitychange/contextmenu listeners and their matching removals in the cleanup."
+    }
+  ],
+  "finalized_at": "2026-10-05T10:00:12.927528Z"
+}

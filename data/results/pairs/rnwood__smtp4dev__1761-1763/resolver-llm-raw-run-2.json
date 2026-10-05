@@ -1,0 +1,25 @@
+{
+  "pair_id": "rnwood__smtp4dev__1761-1763",
+  "rung": "llm-raw",
+  "run": 2,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 53273,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 1120,
+    "cache_creation_input_tokens": 31489,
+    "cache_read_input_tokens": 290260
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": ".github/copilot-instructions.md",
+      "action": "keep",
+      "sha256": "17de0bd83400a733341f2a715f72fea18a33ba547d631ecb882a483163ec85d6",
+      "rationale": "Both PRs added this file independently, so the merge uses PR B's full development guide as the base and folds in PR A's mandatory testing requirements, E2E testing notes, code quality guidance, key areas, testing checklist, test commands and notes without duplicating overlapping sections."
+    }
+  ],
+  "finalized_at": "2026-10-05T10:00:14.651098Z"
+}
