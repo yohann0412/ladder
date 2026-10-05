@@ -1,0 +1,23 @@
+{
+  "pair_id": "monosans__proxy-scraper-checker__695-696",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/monosans__proxy-scraper-checker__695-696",
+  "source_base": "58e5c1cf343330a7e61455260cedb8dfff097127",
+  "source_a": "555515d623ed6e3e0184e7f9438487a9f28aba77",
+  "source_b": "59bdaf1b2a1375eb975493d6ecc2c5cd29b714ed",
+  "base_commit": "d6a706040d5fe2b2722fa82930c06c4107a8cce0",
+  "a_commit": "aab7c0fbe3c498e2d64369027508b5d421422d5b",
+  "b_commit": "74435b01417c57506aa0c2f598bf82bb433590ef",
+  "object_count": 58,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "pair_id": "Kaljurand__K6nele__119-120",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: other (java project; no adapter for java (gradle is installed))",
+  "files_a": [
+    "app/build.gradle",
+    "app/src/main/AndroidManifest.xml",
+    "app/src/main/java/ee/ioc/phon/android/speak/activity/ComboListActivity.kt",
+    "app/src/main/java/ee/ioc/phon/android/speak/db/AppDatabase.kt",
+    "app/src/main/java/ee/ioc/phon/android/speak/db/ComboDao.kt",
+    "app/src/main/java/ee/ioc/phon/android/speak/db/ComboEntity.kt"
+  ],
+  "files_b": [
+    "docs/server.py"
+  ]
+}

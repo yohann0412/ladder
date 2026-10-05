@@ -1,0 +1,23 @@
+{
+  "pair_id": "dotnet__vscode-dotnet-runtime__2287-2289",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/dotnet__vscode-dotnet-runtime__2287-2289",
+  "source_base": "83e823fe9743b0d09451a2bed01b2cfe2610f3a5",
+  "source_a": "eb527a4f945c10e319d21f9d3bec91914519dc81",
+  "source_b": "45829a8ac046fb118fbf149f1e7b20d424273059",
+  "base_commit": "34afc9f97e92493fe40b3fe0d42cb408c8009012",
+  "a_commit": "d5169920690b716bde829138009865993206e629",
+  "b_commit": "8bf211649c746b17c3e86175033bb3f0eb78ad08",
+  "object_count": 292,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

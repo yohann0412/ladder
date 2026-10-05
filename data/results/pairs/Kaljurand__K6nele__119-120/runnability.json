@@ -1,0 +1,15 @@
+{
+  "pair_id": "Kaljurand__K6nele__119-120",
+  "commit": "0f16fe09684c371318dc1c41949cd4898802a057",
+  "language": "java",
+  "package_manager": "gradle",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "java project; no adapter for java (gradle is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

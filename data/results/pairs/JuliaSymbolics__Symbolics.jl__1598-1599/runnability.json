@@ -1,0 +1,15 @@
+{
+  "pair_id": "JuliaSymbolics__Symbolics.jl__1598-1599",
+  "commit": "c9707bf5aab40f377e5777fbe9468b932ad8cb88",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

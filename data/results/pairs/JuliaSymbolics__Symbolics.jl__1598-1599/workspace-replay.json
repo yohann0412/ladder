@@ -1,0 +1,23 @@
+{
+  "pair_id": "JuliaSymbolics__Symbolics.jl__1598-1599",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/JuliaSymbolics__Symbolics.jl__1598-1599",
+  "source_base": "c9707bf5aab40f377e5777fbe9468b932ad8cb88",
+  "source_a": "d68dec162f7da891c6fd78781b98bf99f0d8e134",
+  "source_b": "aa330ab22388c8ed956719194253af99b26f0a72",
+  "base_commit": "e9e068d543342252b2cb91a84415fea2c673f335",
+  "a_commit": "a5461ca45fa30b7d0714de95d5e96c60f1731337",
+  "b_commit": "8d8509fe8afbf6f144d990b43bfcd9995f647157",
+  "object_count": 251,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

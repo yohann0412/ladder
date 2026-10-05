@@ -1,0 +1,15 @@
+{
+  "pair_id": "dotnet__vscode-dotnet-runtime__2287-2289",
+  "commit": "83e823fe9743b0d09451a2bed01b2cfe2610f3a5",
+  "language": "node",
+  "package_manager": "yarn",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
