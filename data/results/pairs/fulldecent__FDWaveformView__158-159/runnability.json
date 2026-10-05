@@ -1,0 +1,15 @@
+{
+  "pair_id": "fulldecent__FDWaveformView__158-159",
+  "commit": "f470d434969778ede228b8041c6679bc8ae4f4e3",
+  "language": "swift",
+  "package_manager": "swift",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "swift project; swift is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

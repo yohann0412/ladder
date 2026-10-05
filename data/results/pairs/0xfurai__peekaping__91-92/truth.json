@@ -1,0 +1,23 @@
+{
+  "pair_id": "0xfurai__peekaping__91-92",
+  "status": "located",
+  "commit": "561b5d993b6971edf7c1c271452f6967f49d5a74",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "apps/server/src/modules/notification_channel/listener.go",
+      "present": true,
+      "sha256": "5e534a1ccaace85ffee4e9f159526d404a9bbfb919de8960482b919a7005a0e8"
+    },
+    {
+      "path": "apps/web/src/app/notification-channels/components/create-edit-notification-channel.tsx",
+      "present": true,
+      "sha256": "b4a7d64bdc54071442c94718d89e89b5ae1507f6ad5a9923149df53ee2257068"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T14:04:26.302318Z"
+}

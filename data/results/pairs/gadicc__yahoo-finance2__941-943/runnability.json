@@ -1,0 +1,15 @@
+{
+  "pair_id": "gadicc__yahoo-finance2__941-943",
+  "commit": "ea002e14ede0fbc61ceaed44c061f56e5ef79ef8",
+  "language": "deno",
+  "package_manager": "deno",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "deno project; deno is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

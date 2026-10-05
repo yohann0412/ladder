@@ -1,0 +1,18 @@
+{
+  "pair_id": "fulldecent__FDWaveformView__158-159",
+  "status": "located",
+  "commit": "8dd29341a68aed1c93e1fb1085858bfbb6aa863b",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "README.md",
+      "present": true,
+      "sha256": "37dfe9bec94d6a32cd1918f4cd1c845980b9dea0749b3039c4234f1779c84436"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T14:05:57.406640Z"
+}

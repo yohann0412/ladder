@@ -1,0 +1,27 @@
+{
+  "pair_id": "samchon__typia__1636-1640",
+  "status": "located",
+  "commit": "e8ed2bae73d7d427a84d6caf21035c22a2494e9f",
+  "method": "subject_time",
+  "files": [
+    {
+      "path": "test/generate/output/generate_llm.ts",
+      "present": false,
+      "sha256": null
+    }
+  ],
+  "touched_beyond_conflict": [
+    "test/generate/output/generate_http.ts",
+    "test/generate/output/generate_index.ts",
+    "test/generate/output/generate_json.ts",
+    "test/generate/output/generate_misc.ts",
+    "test/generate/output/generate_notations.ts",
+    "test/generate/output/generate_plain.ts",
+    "test/generate/output/generate_protobuf.ts",
+    "test/generate/output/generate_use.ts"
+  ],
+  "outside_region_edit": [],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T14:04:49.503411Z"
+}

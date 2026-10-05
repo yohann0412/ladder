@@ -1,0 +1,15 @@
+{
+  "pair_id": "samchon__typia__1636-1640",
+  "commit": "cccb9cba634e630d9e73d792f622a6eefcaff010",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

@@ -1,0 +1,30 @@
+{
+  "pair_id": "gadicc__yahoo-finance2__941-943",
+  "status": "located",
+  "commit": "0e65c30f9fc5d606e3b428b6f3dcda645cf7a7ba",
+  "method": "subject_time",
+  "files": [
+    {
+      "path": "src/modules/dailyGainers.schema.json",
+      "present": false,
+      "sha256": null
+    }
+  ],
+  "touched_beyond_conflict": [
+    "deno-x86_64-unknown-linux-gnu.zip",
+    "src/modules/chart.schema.json",
+    "src/modules/fundamentalsTimeSeries.schema.json",
+    "src/modules/insights.schema.json",
+    "src/modules/options.schema.json",
+    "src/modules/quote.schema.json",
+    "src/modules/quoteSummary.schema.json",
+    "src/modules/recommendationsBySymbol.schema.json",
+    "src/modules/screener.schema.json",
+    "src/modules/search.schema.json",
+    "src/modules/trendingSymbols.schema.json"
+  ],
+  "outside_region_edit": [],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T14:05:43.171644Z"
+}

@@ -1,0 +1,82 @@
+{
+  "pair_id": "samchon__typia__1636-1640",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": false,
+  "human_equivalent_unordered": false,
+  "intent_preserved_a": true,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "test/generate/output/generate_llm.ts",
+      "entity": "IApplication.createDepartment",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "test/generate/output/generate_llm.ts",
+      "entity": "IApplication.hire",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "test/generate/output/generate_llm.ts",
+      "entity": "IApplication.erase",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "test/generate/output/generate_llm.ts",
+      "entity": "ICompany",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "test/generate/output/generate_llm.ts",
+      "entity": "IDepartment",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "test/generate/output/generate_llm.ts",
+      "entity": "IEmployee",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "test/generate/output/generate_llm.ts",
+      "mode": "ast",
+      "language": "typescript",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "IApplication",
+        "IApplication.createDepartment",
+        "IApplication.erase",
+        "IApplication.establishCompany",
+        "IApplication.hire",
+        "ICompany",
+        "IDepartment",
+        "IEmployee"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.0
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "OWASP__wrongsecrets__2123-2125",
+  "commit": "e74ff07e9130011ac6424d5430dd8b7f08bc1c36",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

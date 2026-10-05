@@ -1,0 +1,65 @@
+{
+  "pair_id": "OWASP__wrongsecrets__2123-2125",
+  "status": "located",
+  "commit": "5b83209436af4378cf46d107a3cc34d1c61ef06a",
+  "method": "absorption",
+  "files": [
+    {
+      "path": ".github/scripts/generate_thymeleaf_previews.py",
+      "present": true,
+      "sha256": "ad931f0e866afa99aa8b48404829be174eafe449ba0c883c59ef852e61e586c0"
+    },
+    {
+      "path": "src/main/java/org/owasp/wrongsecrets/challenges/docker/Challenge57.java",
+      "present": true,
+      "sha256": "86883d1adfb56a53010fa17410c2dfd4d0312677f0b58dfc643c24ba08bb46a2"
+    },
+    {
+      "path": "src/main/resources/explanations/challenge57.adoc",
+      "present": true,
+      "sha256": "16b4145423542949050e84b7df2f6669774eb929b14f090430937585234ede52"
+    },
+    {
+      "path": "src/main/resources/explanations/challenge57_hint.adoc",
+      "present": true,
+      "sha256": "797fe2532285cf3baf213e85679e35fd2182d3323cd850493c6e6ac728586c5c"
+    },
+    {
+      "path": "src/main/resources/explanations/challenge57_reason.adoc",
+      "present": true,
+      "sha256": "725e3d85ebe72e8b46545dcfc37ef6febeab1fa7cfe1ea81d76bd794d7fd8044"
+    },
+    {
+      "path": "src/main/resources/wrong-secrets-configuration.yaml",
+      "present": true,
+      "sha256": "2cf93c9c365eb6407c3d186a636a7d6d43b26ef912e66cda4db486de43ae7357"
+    },
+    {
+      "path": "src/test/java/org/owasp/wrongsecrets/challenges/docker/Challenge57Test.java",
+      "present": true,
+      "sha256": "161b579a797026d04de86e0803e44c9d95737b1e975487b7b048a1aa715eaec5"
+    }
+  ],
+  "touched_beyond_conflict": [
+    ".github/workflows/github-pages-preview.yml",
+    "README.md",
+    "src/main/java/org/owasp/wrongsecrets/challenges/docker/Challenge57Controller.java",
+    "src/main/java/org/owasp/wrongsecrets/challenges/docker/Challenge58.java",
+    "src/main/java/org/owasp/wrongsecrets/challenges/docker/Challenge58Controller.java",
+    "src/main/resources/challenges/challenge-57/challenge-57.snippet",
+    "src/test/e2e/cypress/integration/challenge57.cy.js",
+    "src/test/java/org/owasp/wrongsecrets/challenges/docker/Challenge57ControllerTest.java",
+    "static-site/pr-123/pages/about.html",
+    "static-site/pr-123/pages/challenge-57.html",
+    "static-site/pr-123/pages/challenge-58.html",
+    "static-site/pr-123/pages/challenge-example.html",
+    "static-site/pr-123/pages/stats.html",
+    "static-site/pr-123/pages/welcome.html"
+  ],
+  "outside_region_edit": [
+    ".github/scripts/generate_thymeleaf_previews.py"
+  ],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T14:04:09.680222Z"
+}
