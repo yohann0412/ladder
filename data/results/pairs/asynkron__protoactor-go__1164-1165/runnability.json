@@ -1,0 +1,29 @@
+{
+  "pair_id": "asynkron__protoactor-go__1164-1165",
+  "commit": "b1c970bc0cd35d1c6a0b06ac343aed97d8506279",
+  "language": "go",
+  "package_manager": "go modules",
+  "test_runner": "go test",
+  "status": "unrunnable",
+  "reason": "exceeds_cap",
+  "reason_detail": "build: stopped, free disk below the 3 GiB floor",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "go",
+        "test",
+        "-count=1",
+        "-run",
+        "^$",
+        "./..."
+      ],
+      "exit_code": null,
+      "duration_s": 151.0,
+      "detail": "standard, install cap 900 s: install: exit 0 in 4.7 s; build: stopped, free disk below the 3 GiB floor; output tail: ok  \tgithub.com/asynkron/protoactor-go/actor/middleware/propagator\t0.011s [no tests to run] | ?   \tgithub.com/asynkron/protoactor-go/actor/middleware/protozip\t[no test files] | ok  \tgithub.com/asynkron/protoactor-go/cluster\t0.017s [no tests to run] | ok  \tgithub.com/asynkron/protoactor-go/cluster/cluster_test_tool\t0.018s [no tests to run] | ok  \tgithub.com/asynkron/protoactor-go/cluster/clusterproviders/automanaged\t0.010s [no tests to run] | ok  \tgithub.com/asynkron/protoactor-go/cluster/clusterproviders/consul\t0.013s [no tests to run] | ok  \tgithub.com/asynkron/protoactor-go/cluster/clusterproviders/etcd\t0.021s [no tests to run] | stopped: 3.0 GiB free under /home/user/ladder/work/runtime/asynkron__protoactor-go__1164-1165/trees/base, below the 3 GiB floor set by LADDER_MIN_FREE_GIB"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
