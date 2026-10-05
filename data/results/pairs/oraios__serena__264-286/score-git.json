@@ -1,0 +1,625 @@
+{
+  "pair_id": "oraios__serena__264-286",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": false,
+  "human_equivalent_unordered": false,
+  "intent_preserved_a": true,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Component.__init__",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Component.language_server",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Component.get_project_root",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Component.prompt_factory",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Component.memories_manager",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Component.symbol_manager",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Component.lines_read",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ToolMarkerCanEdit",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ToolMarkerDoesNotRequireActiveProject",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ToolInterface.get_name",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ToolInterface.get_apply_docstring",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ToolInterface.get_apply_fn_metadata",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ToolInterface.apply_ex",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Tool.get_name_from_cls",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Tool.get_name",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Tool.get_apply_fn",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Tool.can_edit",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Tool.get_tool_description",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Tool.get_apply_docstring_from_cls",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Tool.get_apply_docstring",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Tool.get_apply_fn_metadata",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Tool.get_apply_fn_metadata_from_cls",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Tool._log_tool_application",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Tool._limit_length",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "Tool.is_active",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "RestartLanguageServerTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ReadFileTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "CreateTextFileTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ListDirTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "FindFileTool.apply.is_ignored_file",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "GetSymbolsOverviewTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "FindSymbolTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "FindReferencingSymbolsTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ReplaceSymbolBodyTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "InsertAfterSymbolTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "InsertBeforeSymbolTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "EditedFileContext.__init__",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "EditedFileContext.__enter__",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "EditedFileContext.get_original_content",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "EditedFileContext.set_updated_content",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "EditedFileContext.__exit__",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ReplaceRegexTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "DeleteLinesTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ReplaceLinesTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "InsertAtLineTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "CheckOnboardingPerformedTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "OnboardingTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "WriteMemoryTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ReadMemoryTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ListMemoriesTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "DeleteMemoryTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ThinkAboutCollectedInformationTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ThinkAboutTaskAdherenceTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ThinkAboutWhetherYouAreDoneTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "SummarizeChangesTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "PrepareForNewConversationTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "SearchForPatternTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ExecuteShellCommandTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ActivateProjectTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "RemoveProjectTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "SwitchModesTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "GetCurrentConfigTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "InitialInstructionsTool.apply",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "_iter_tool_classes",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ToolRegistry.get_tool_class_by_name",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ToolRegistry.get_all_tool_classes",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ToolRegistry.get_tool_names",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ToolRegistry.tool_dict",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/serena/agent.py",
+      "entity": "ToolRegistry.print_tool_overview",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "src/serena/agent.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "ActivateProjectTool",
+        "ActivateProjectTool.apply",
+        "CheckOnboardingPerformedTool",
+        "CheckOnboardingPerformedTool.apply",
+        "Component",
+        "Component.__init__",
+        "Component.get_project_root",
+        "Component.language_server",
+        "Component.lines_read",
+        "Component.memories_manager",
+        "Component.prompt_factory",
+        "Component.symbol_manager",
+        "CreateTextFileTool",
+        "CreateTextFileTool.apply",
+        "DeleteLinesTool",
+        "DeleteLinesTool.apply",
+        "DeleteMemoryTool",
+        "DeleteMemoryTool.apply",
+        "EditedFileContext",
+        "EditedFileContext.__enter__",
+        "EditedFileContext.__exit__",
+        "EditedFileContext.__init__",
+        "EditedFileContext.get_original_content",
+        "EditedFileContext.set_updated_content",
+        "ExecuteShellCommandTool",
+        "ExecuteShellCommandTool.apply",
+        "FindFileTool",
+        "FindFileTool.apply",
+        "FindFileTool.apply.is_ignored_file",
+        "FindReferencingSymbolsTool",
+        "FindReferencingSymbolsTool.apply",
+        "FindSymbolTool",
+        "FindSymbolTool.apply",
+        "GetCurrentConfigTool",
+        "GetCurrentConfigTool.apply",
+        "GetSymbolsOverviewTool",
+        "GetSymbolsOverviewTool.apply",
+        "InitialInstructionsTool",
+        "InitialInstructionsTool.apply",
+        "InsertAfterSymbolTool",
+        "InsertAfterSymbolTool.apply",
+        "InsertAtLineTool",
+        "InsertAtLineTool.apply",
+        "InsertBeforeSymbolTool",
+        "InsertBeforeSymbolTool.apply",
+        "ListDirTool",
+        "ListDirTool.apply",
+        "ListMemoriesTool",
+        "ListMemoriesTool.apply",
+        "OnboardingTool",
+        "OnboardingTool.apply",
+        "PrepareForNewConversationTool",
+        "PrepareForNewConversationTool.apply",
+        "ReadFileTool",
+        "ReadFileTool.apply",
+        "ReadMemoryTool",
+        "ReadMemoryTool.apply",
+        "RemoveProjectTool",
+        "RemoveProjectTool.apply",
+        "ReplaceLinesTool",
+        "ReplaceLinesTool.apply",
+        "ReplaceRegexTool",
+        "ReplaceRegexTool.apply",
+        "ReplaceSymbolBodyTool",
+        "ReplaceSymbolBodyTool.apply",
+        "RestartLanguageServerTool",
+        "RestartLanguageServerTool.apply",
+        "SearchForPatternTool",
+        "SearchForPatternTool.apply",
+        "SummarizeChangesTool",
+        "SummarizeChangesTool.apply",
+        "SwitchModesTool",
+        "SwitchModesTool.apply",
+        "ThinkAboutCollectedInformationTool",
+        "ThinkAboutCollectedInformationTool.apply",
+        "ThinkAboutTaskAdherenceTool",
+        "ThinkAboutTaskAdherenceTool.apply",
+        "ThinkAboutWhetherYouAreDoneTool",
+        "ThinkAboutWhetherYouAreDoneTool.apply",
+        "Tool",
+        "Tool._limit_length",
+        "Tool._log_tool_application",
+        "Tool.apply_ex",
+        "Tool.apply_ex.task",
+        "Tool.can_edit",
+        "Tool.get_apply_docstring",
+        "Tool.get_apply_docstring_from_cls",
+        "Tool.get_apply_fn",
+        "Tool.get_apply_fn_metadata",
+        "Tool.get_apply_fn_metadata_from_cls",
+        "Tool.get_name",
+        "Tool.get_name_from_cls",
+        "Tool.get_tool_description",
+        "Tool.is_active",
+        "ToolInterface",
+        "ToolInterface.apply_ex",
+        "ToolInterface.get_apply_docstring",
+        "ToolInterface.get_apply_fn_metadata",
+        "ToolInterface.get_name",
+        "ToolMarkerCanEdit",
+        "ToolMarkerDoesNotRequireActiveProject",
+        "ToolRegistry",
+        "ToolRegistry.get_all_tool_classes",
+        "ToolRegistry.get_tool_class_by_name",
+        "ToolRegistry.get_tool_names",
+        "ToolRegistry.print_tool_overview",
+        "ToolRegistry.tool_dict",
+        "WriteMemoryTool",
+        "WriteMemoryTool.apply",
+        "_iter_tool_classes"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.4607
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

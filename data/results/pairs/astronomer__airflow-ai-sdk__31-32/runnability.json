@@ -1,0 +1,68 @@
+{
+  "pair_id": "astronomer__airflow-ai-sdk__31-32",
+  "commit": "75e0f3ce7dad229b8efdb456e33a1770e13aa109",
+  "language": "python",
+  "package_manager": "uv",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 5 failed, 0 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "sync",
+        "--frozen",
+        "--group",
+        "dev"
+      ],
+      "exit_code": 0,
+      "duration_s": 14.2,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 2.8 s; pytest: exit 0 in 0.1 s; suite failed: 16 passed, 5 failed, 0 errors, 0 skipped (tests/operators/test_embed.py::test_execute_returns_vector, tests/operators/test_embed.py::test_execute_with_encode_kwargs, tests/operators/test_embed.py::test_execute_type_error_on_non_str, tests/operators/test_embed.py::test_model_exception_handling, tests/operators/test_embed.py::test_non_string_input_types); first run failed: 16 passed, 5 failed, 0 errors, 0 skipped (tests/operators/test_embed.py::test_execute_returns_vector, tests/operators/test_embed.py::test_execute_with_encode_kwargs, tests/operators/test_embed.py::test_execute_type_error_on_non_str, tests/operators/test_embed.py::test_model_exception_handling, tests/operators/test_embed.py::test_non_string_input_types)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/astronomer__airflow-ai-sdk__31-32/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/astronomer__airflow-ai-sdk__31-32/trees/base",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 11.6,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 4.0 s; suite failed: 0 passed, 0 failed, 4 errors, 0 skipped (tests/operators/test_agent.py::tests.operators.test_agent, tests/operators/test_embed.py::tests.operators.test_embed, tests/operators/test_llm.py::tests.operators.test_llm, tests/operators/test_llm_branch.py::tests.operators.test_llm_branch); first run failed: 0 passed, 0 failed, 4 errors, 0 skipped (tests/operators/test_agent.py::tests.operators.test_agent, tests/operators/test_embed.py::tests.operators.test_embed, tests/operators/test_llm.py::tests.operators.test_llm, tests/operators/test_llm_branch.py::tests.operators.test_llm_branch)"
+    }
+  ],
+  "test_count": 21,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/astronomer__airflow-ai-sdk__31-32/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/astronomer__airflow-ai-sdk__31-32/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 16,
+    "failed": 5,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 5.8,
+    "retried": true,
+    "failing_tests": [
+      "tests/operators/test_embed.py::test_execute_returns_vector",
+      "tests/operators/test_embed.py::test_execute_with_encode_kwargs",
+      "tests/operators/test_embed.py::test_execute_type_error_on_non_str",
+      "tests/operators/test_embed.py::test_model_exception_handling",
+      "tests/operators/test_embed.py::test_non_string_input_types"
+    ],
+    "detail": "16 passed, 5 failed, 0 errors, 0 skipped (tests/operators/test_embed.py::test_execute_returns_vector, tests/operators/test_embed.py::test_execute_with_encode_kwargs, tests/operators/test_embed.py::test_execute_type_error_on_non_str, tests/operators/test_embed.py::test_model_exception_handling, tests/operators/test_embed.py::test_non_string_input_types); first run failed: 16 passed, 5 failed, 0 errors, 0 skipped (tests/operators/test_embed.py::test_execute_returns_vector, tests/operators/test_embed.py::test_execute_with_encode_kwargs, tests/operators/test_embed.py::test_execute_type_error_on_non_str, tests/operators/test_embed.py::test_model_exception_handling, tests/operators/test_embed.py::test_non_string_input_types)"
+  },
+  "timeout_s": 600
+}

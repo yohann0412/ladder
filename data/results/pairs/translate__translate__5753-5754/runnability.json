@@ -1,0 +1,90 @@
+{
+  "pair_id": "translate__translate__5753-5754",
+  "commit": "1f255985de7392767df63417bcb5db92625bf7ae",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "suite does not load at base: 20 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/translate__translate__5753-5754/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/translate__translate__5753-5754/trees/base",
+        "--group",
+        "dev",
+        "--group",
+        "test",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 19.5,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 4.6 s; suite failed: 0 passed, 0 failed, 20 errors, 1 skipped (tests/translate/convert/test_ical2po.py::tests.translate.convert.test_ical2po, tests/translate/convert/test_ini2po.py::tests.translate.convert.test_ini2po, tests/translate/convert/test_md2po.py::tests.translate.convert.test_md2po, tests/translate/convert/test_php2po.py::tests.translate.convert.test_php2po, tests/translate/convert/test_po2ical.py::tests.translate.convert.test_po2ical); first run failed: 0 passed, 0 failed, 20 errors, 1 skipped (tests/translate/convert/test_ical2po.py::tests.translate.convert.test_ical2po, tests/translate/convert/test_ini2po.py::tests.translate.convert.test_ini2po, tests/translate/convert/test_md2po.py::tests.translate.convert.test_md2po, tests/translate/convert/test_php2po.py::tests.translate.convert.test_php2po, tests/translate/convert/test_po2ical.py::tests.translate.convert.test_po2ical)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/translate__translate__5753-5754/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/translate__translate__5753-5754/trees/base",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 13.4,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 1.7 s; suite failed: 0 passed, 0 failed, 24 errors, 1 skipped (tests/translate/convert/test_ical2po.py::tests.translate.convert.test_ical2po, tests/translate/convert/test_ini2po.py::tests.translate.convert.test_ini2po, tests/translate/convert/test_md2po.py::tests.translate.convert.test_md2po, tests/translate/convert/test_php2po.py::tests.translate.convert.test_php2po, tests/translate/convert/test_po2ical.py::tests.translate.convert.test_po2ical); first run failed: 0 passed, 0 failed, 24 errors, 1 skipped (tests/translate/convert/test_ical2po.py::tests.translate.convert.test_ical2po, tests/translate/convert/test_ini2po.py::tests.translate.convert.test_ini2po, tests/translate/convert/test_md2po.py::tests.translate.convert.test_md2po, tests/translate/convert/test_php2po.py::tests.translate.convert.test_php2po, tests/translate/convert/test_po2ical.py::tests.translate.convert.test_po2ical)"
+    }
+  ],
+  "test_count": 21,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/translate__translate__5753-5754/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/translate__translate__5753-5754/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 20,
+    "skipped": 1,
+    "duration_s": 6.8,
+    "retried": true,
+    "failing_tests": [
+      "tests/translate/convert/test_ical2po.py::tests.translate.convert.test_ical2po",
+      "tests/translate/convert/test_ini2po.py::tests.translate.convert.test_ini2po",
+      "tests/translate/convert/test_md2po.py::tests.translate.convert.test_md2po",
+      "tests/translate/convert/test_php2po.py::tests.translate.convert.test_php2po",
+      "tests/translate/convert/test_po2ical.py::tests.translate.convert.test_po2ical",
+      "tests/translate/convert/test_po2ini.py::tests.translate.convert.test_po2ini",
+      "tests/translate/convert/test_po2md.py::tests.translate.convert.test_po2md",
+      "tests/translate/convert/test_po2php.py::tests.translate.convert.test_po2php",
+      "tests/translate/convert/test_po2yaml.py::tests.translate.convert.test_po2yaml",
+      "tests/translate/convert/test_yaml2po.py::tests.translate.convert.test_yaml2po",
+      "tests/translate/services/test_tmserver.py::tests.translate.services.test_tmserver",
+      "tests/translate/storage/test_cpo.py::tests.translate.storage.test_cpo",
+      "tests/translate/storage/test_fluent.py::tests.translate.storage.test_fluent",
+      "tests/translate/storage/test_ini.py::tests.translate.storage.test_ini",
+      "tests/translate/storage/test_markdown.py::tests.translate.storage.test_markdown",
+      "tests/translate/storage/test_php.py::tests.translate.storage.test_php",
+      "tests/translate/storage/test_po.py::tests.translate.storage.test_po",
+      "tests/translate/storage/test_pypo.py::tests.translate.storage.test_pypo",
+      "tests/translate/storage/test_subtitles.py::tests.translate.storage.test_subtitles",
+      "tests/translate/storage/test_yaml.py::tests.translate.storage.test_yaml"
+    ],
+    "detail": "0 passed, 0 failed, 20 errors, 1 skipped (tests/translate/convert/test_ical2po.py::tests.translate.convert.test_ical2po, tests/translate/convert/test_ini2po.py::tests.translate.convert.test_ini2po, tests/translate/convert/test_md2po.py::tests.translate.convert.test_md2po, tests/translate/convert/test_php2po.py::tests.translate.convert.test_php2po, tests/translate/convert/test_po2ical.py::tests.translate.convert.test_po2ical); first run failed: 0 passed, 0 failed, 20 errors, 1 skipped (tests/translate/convert/test_ical2po.py::tests.translate.convert.test_ical2po, tests/translate/convert/test_ini2po.py::tests.translate.convert.test_ini2po, tests/translate/convert/test_md2po.py::tests.translate.convert.test_md2po, tests/translate/convert/test_php2po.py::tests.translate.convert.test_php2po, tests/translate/convert/test_po2ical.py::tests.translate.convert.test_po2ical)"
+  },
+  "timeout_s": 600
+}

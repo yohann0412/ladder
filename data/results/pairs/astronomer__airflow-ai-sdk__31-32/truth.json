@@ -1,0 +1,68 @@
+{
+  "pair_id": "astronomer__airflow-ai-sdk__31-32",
+  "status": "located",
+  "commit": "2030d0c1a59fc653ea29c7b15fe3631d587a832c",
+  "method": "subject_time",
+  "files": [
+    {
+      "path": "docs/interface/airflow_ai_sdk_airflow.md",
+      "present": false,
+      "sha256": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_decorators_agent.md",
+      "present": false,
+      "sha256": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_decorators_branch.md",
+      "present": false,
+      "sha256": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_decorators_embed.md",
+      "present": false,
+      "sha256": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_decorators_llm.md",
+      "present": false,
+      "sha256": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_models_base.md",
+      "present": false,
+      "sha256": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_models_tool.md",
+      "present": false,
+      "sha256": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_operators_agent.md",
+      "present": false,
+      "sha256": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_operators_embed.md",
+      "present": false,
+      "sha256": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_operators_llm.md",
+      "present": false,
+      "sha256": null
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_operators_llm_branch.md",
+      "present": false,
+      "sha256": null
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:36:23.357396Z"
+}

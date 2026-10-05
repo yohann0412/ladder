@@ -1,0 +1,23 @@
+{
+  "pair_id": "translate__translate__5753-5754",
+  "status": "located",
+  "commit": "de8ff6eb7f5caade95a0fe14b76837d8add80559",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "tests/translate/convert/test_po2html.py",
+      "present": true,
+      "sha256": "4598f39df8c9952198423688c79cd499f01a3567c68ffea65fcaae8c7f6f191c"
+    },
+    {
+      "path": "tests/translate/storage/test_html.py",
+      "present": true,
+      "sha256": "7f149f86944778a4aa5ef805031644d2fc96a24fad7fbaa9c6e4d8b4db723e9a"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:36:56.882823Z"
+}
