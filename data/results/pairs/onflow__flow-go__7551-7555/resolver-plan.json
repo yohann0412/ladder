@@ -1,0 +1,15 @@
+{
+  "pair_id": "onflow__flow-go__7551-7555",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T08:02:36.063186Z"
+}

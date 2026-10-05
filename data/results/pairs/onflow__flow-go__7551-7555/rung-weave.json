@@ -1,0 +1,116 @@
+{
+  "pair_id": "onflow__flow-go__7551-7555",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 13 of 13",
+  "remaining_conflicted": [
+    "engine/collection/synchronization/engine_test.go",
+    "engine/collection/synchronization/request_handler.go",
+    "engine/common/synchronization/engine_test.go",
+    "engine/common/synchronization/request_handler.go",
+    "model/messages/collection.go",
+    "model/messages/consensus.go",
+    "model/messages/convert_test.go",
+    "model/messages/dkg.go",
+    "model/messages/exchange.go",
+    "model/messages/execution.go",
+    "model/messages/synchronization.go",
+    "model/messages/verification.go",
+    "network/codec/roundTripHeader_test.go"
+  ],
+  "files": [
+    {
+      "path": "engine/collection/synchronization/engine_test.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "engine/collection/synchronization/request_handler.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "engine/common/synchronization/engine_test.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "engine/common/synchronization/request_handler.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "model/messages/collection.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "model/messages/consensus.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "model/messages/convert_test.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "model/messages/dkg.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "model/messages/exchange.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "model/messages/execution.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "model/messages/synchronization.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "model/messages/verification.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "network/codec/roundTripHeader_test.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/onflow__flow-go__7551-7555/weave"
+}
