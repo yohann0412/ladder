@@ -1,0 +1,45 @@
+{
+  "pair_id": "mfat__sshpilot__98-99",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: build_fails (install: exit 1 in 2.1 s:       ../meson.build:35:9: ERROR: Dependency 'girepository-2.0' is required |       but not found. |       A full log can be found at |       /home/user/ladder/work/runtime/mfat__sshpilot__98-99/scratch/uv-cache/sdists-v9/pypi/pygobject/3.58.0/fTUyQW3PEKKqjyw1XRYzt/src/.mesonpy-sm2p1wti/meson-logs/meson-log.txt |       hint: This usually indicates a problem with the package or the build |       environment.)",
+  "files_a": [
+    "sshpilot/window.py"
+  ],
+  "files_b": []
+}

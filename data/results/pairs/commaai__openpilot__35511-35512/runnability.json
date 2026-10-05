@@ -1,0 +1,44 @@
+{
+  "pair_id": "commaai__openpilot__35511-35512",
+  "commit": "ffb677b53dcaff333b3d996b168e92c510989db0",
+  "language": "python",
+  "package_manager": "uv",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 1 in 1.7 s:           file_stat = os.stat(included_file.path) |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^ |       FileNotFoundError: [Errno 2] No such file or directory: |       '/home/user/ladder/work/runtime/commaai__openpilot__35511-35512/trees/base/msgq' |       hint: This usually indicates a problem with the package or the build |       environment.",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "sync",
+        "--frozen",
+        "--extra",
+        "dev",
+        "--extra",
+        "testing"
+      ],
+      "exit_code": 1,
+      "duration_s": 6.2,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 1 in 6.1 s; output tail:       '-I/root/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/include/python3.12', |       '-c', 'src/pyaudio/device_api.c', '-o', |       'build/temp.linux-x86_64-cpython-312/src/pyaudio/device_api.o']' |       returned non-zero exit status 1. |       hint: This error likely indicates that you need to install a library |       that provides \"portaudio.h\" for `pyaudio@0.2.14` |   help: `pyaudio` (v0.2.14) was included because `openpilot` (v0.1.0) depends |         on `pyaudio`"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/commaai__openpilot__35511-35512/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/commaai__openpilot__35511-35512/trees/base",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 1.7,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 1 in 1.7 s; output tail:       \"/home/user/ladder/work/runtime/commaai__openpilot__35511-35512/scratch/uv-cache/builds-v0/.tmpeh2z8e/lib/python3.12/site-packages/hatchling/builders/wheel.py\", |       line 117, in add_file |           file_stat = os.stat(included_file.path) |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^ |       FileNotFoundError: [Errno 2] No such file or directory: |       '/home/user/ladder/work/runtime/commaai__openpilot__35511-35512/trees/base/msgq' |       hint: This usually indicates a problem with the package or the build |       environment."
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

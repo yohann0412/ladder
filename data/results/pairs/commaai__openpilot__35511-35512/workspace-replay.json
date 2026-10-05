@@ -1,0 +1,23 @@
+{
+  "pair_id": "commaai__openpilot__35511-35512",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/commaai__openpilot__35511-35512",
+  "source_base": "ffb677b53dcaff333b3d996b168e92c510989db0",
+  "source_a": "40a47cec420eabb7c3b470e35240f5de23acfd4c",
+  "source_b": "4470294bbcd514bfbc2aae6938c1f2c20a1fbd45",
+  "base_commit": "d4e138a389dc07dd06c7f33f0c2600800f169b53",
+  "a_commit": "5934aa7ffcfe52489086a90184d75605408bc9be",
+  "b_commit": "33fad0a2d359600d994ce3d8ba3baa1aff4807e4",
+  "object_count": 1699,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

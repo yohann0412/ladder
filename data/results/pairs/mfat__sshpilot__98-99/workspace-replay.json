@@ -1,0 +1,23 @@
+{
+  "pair_id": "mfat__sshpilot__98-99",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/mfat__sshpilot__98-99",
+  "source_base": "32de58296ebdd7b89f26e59d9d5ef5e2df394a6e",
+  "source_a": "51c3d74305af21847f05444d3b6539db603f6b6b",
+  "source_b": "32de58296ebdd7b89f26e59d9d5ef5e2df394a6e",
+  "base_commit": "52a3b53c5b205ba686d1b251ef886f98c1687fc1",
+  "a_commit": "94a37439f111f20aacb931b226a96c9c983b571a",
+  "b_commit": "c475fb69fce629c75a35d5ab49963cde7f1d5b9b",
+  "object_count": 59,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

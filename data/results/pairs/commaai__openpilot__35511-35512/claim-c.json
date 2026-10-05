@@ -1,0 +1,51 @@
+{
+  "pair_id": "commaai__openpilot__35511-35512",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: build_fails (install: exit 1 in 1.7 s:           file_stat = os.stat(included_file.path) |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^ |       FileNotFoundError: [Errno 2] No such file or directory: |       '/home/user/ladder/work/runtime/commaai__openpilot__35511-35512/trees/base/msgq' |       hint: This usually indicates a problem with the package or the build |       environment.)",
+  "files_a": [
+    "cereal/log.capnp",
+    "selfdrive/locationd/lagd.py",
+    "selfdrive/locationd/test/test_lagd.py"
+  ],
+  "files_b": [
+    "cereal/log.capnp",
+    "selfdrive/locationd/test/test_torqued.py",
+    "selfdrive/locationd/torqued.py"
+  ]
+}
