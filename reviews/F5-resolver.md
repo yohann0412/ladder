@@ -30,6 +30,12 @@ and recorded it in `fixtures/recorded/`. `uv run pytest e2e/test_resolver.py -q`
   those files a violation.
 - **Caps**: 20 files, 200 kB per version, 600 kB total (`taskfiles.py`). Recorded in
   `DECISIONS.md` D16.
+- **Renamed files lose one side's version.** `taskfiles.py` reads base, a and b at the
+  conflicted path only. When one side renamed the file and the other edited it, the editing
+  side's version lives under the old path and is left out of `files/<k>/`; the snapshot is
+  the merged working tree, so it does not hold that version either. The resolver then sees
+  the edit only through the conflicted file's markers. Not changed: a different task layout
+  is a protocol change, which would mean a new labeled run over the whole set.
 - **`prepare` does not require the run to be in the plan** (the test prepares an unplanned
   run 2). The truth guard uses the plan, so an unplanned run cannot unblock truth.
 

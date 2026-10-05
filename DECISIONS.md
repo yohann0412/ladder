@@ -196,3 +196,19 @@ Newest at the bottom.
   directory, also after resolving symlinks. Everything else in PLAN.md section 8 is unchanged.
 - Reason: the rule's intent is "every read names a place inside the task directory"; the
   pattern does. Fixed before the real runs, so every real run is audited by one rule.
+
+## D19. Claim C run order (before any Claim C result)
+
+- Problem: 918 pairs merge cleanly at replay heads, in 795 repositories. Classifying
+  runnability and running three suites per pair may not finish for all of them, and Claim C
+  is first in the cut order. A stopping point chosen after seeing results would bias the
+  rate.
+- Choice: pairs are attempted in the order of `sha256("42:" + pair_id)`, written to
+  `data/claimc-order.txt` before the first Claim C run, in waves through
+  `ladder run <pairs> --prune`. Stopping happens only at a wave boundary, only for a
+  resource reason; the index and reason go into `LOG.md`. Pairs after it are reported as
+  `not attempted: cut`. A merge that breaks dependency installation while A and B install
+  is reported as its own count and is not part of the rate.
+- Reason: a seeded random prefix is an unbiased sample of the population whatever its
+  length, and the order is fixed before any outcome exists. Full argument in
+  `reviews/protocol-phase4.md`.
