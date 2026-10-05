@@ -1,0 +1,72 @@
+{
+  "pair_id": "Cap-go__capgo__1012-1036",
+  "commit": "31c108dedd78337f9cfdff3242f82188da196fd7",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": "vitest",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 17 failed, 2 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "npm",
+        "install"
+      ],
+      "exit_code": 1,
+      "duration_s": 38.8,
+      "detail": "standard, install cap 900 s: install: exit 1 in 38.8 s; output tail: npm error Fix the upstream dependency conflict, or retry | npm error this command with --force or --legacy-peer-deps | npm error to accept an incorrect (and potentially broken) dependency resolution. | npm error | npm error | npm error For a full report see: | npm error /home/user/ladder/work/runtime/Cap-go__capgo__1012-1036/scratch/npm-cache/_logs/2026-10-05T13_16_42_429Z-eresolve-report.txt | npm error A complete log of this run can be found in: /home/user/ladder/work/runtime/Cap-go__capgo__1012-1036/scratch/npm-cache/_logs/2026-10-05T13_16_42_429Z-debug-0.log"
+    },
+    {
+      "command": [
+        "npm",
+        "install",
+        "--legacy-peer-deps"
+      ],
+      "exit_code": 0,
+      "duration_s": 103.6,
+      "detail": "legacy-peer-deps (npm install --legacy-peer-deps instead of a clean install), install cap 900 s: install: exit 0 in 95.8 s; suite failed: 0 passed, 17 failed, 2 errors, 75 skipped (tests/cli-new-encryption.test.ts::test key generation test key generation, tests/cli-new-encryption.test.ts::tests CLI upload no encryption test upload without encryption NEW, tests/cli-old-encryption.test.ts::test key generation test key generation, tests/cli-old-encryption.test.ts::tests CLI upload no encryption test upload without encryption OLD, tests/cron_plan.test.ts::[POST] /triggers/cron_plan should return 400 when orgId is missing); first run failed: 0 passed, 17 failed, 2 errors, 75 skipped (tests/cli-new-encryption.test.ts::test key generation test key generation, tests/cli-new-encryption.test.ts::tests CLI upload no encryption test upload without encryption NEW, tests/cli-old-encryption.test.ts::test key generation test key generation, tests/cli-old-encryption.test.ts::tests CLI upload no encryption test upload without encryption OLD, tests/cron_plan.test.ts::[POST] /triggers/cron_plan should return 400 when orgId is missing)"
+    }
+  ],
+  "test_count": 94,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/Cap-go__capgo__1012-1036/trees/base/node_modules/.bin/vitest",
+      "run",
+      "--coverage.enabled=false",
+      "--reporter=json",
+      "--outputFile=/home/user/ladder/work/runtime/Cap-go__capgo__1012-1036/reports/base-attempt-2/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 17,
+    "errors": 2,
+    "skipped": 75,
+    "duration_s": 3.8,
+    "retried": true,
+    "failing_tests": [
+      "tests/cli-new-encryption.test.ts::test key generation test key generation",
+      "tests/cli-new-encryption.test.ts::tests CLI upload no encryption test upload without encryption NEW",
+      "tests/cli-old-encryption.test.ts::test key generation test key generation",
+      "tests/cli-old-encryption.test.ts::tests CLI upload no encryption test upload without encryption OLD",
+      "tests/cron_plan.test.ts::[POST] /triggers/cron_plan should return 400 when orgId is missing",
+      "tests/cron_plan.test.ts::[POST] /triggers/cron_plan should handle too big MAU correctly",
+      "tests/cron_plan.test.ts::[POST] /triggers/cron_plan should handle too big storage correctly",
+      "tests/cron_plan.test.ts::[POST] /triggers/cron_plan should handle too big bandwidth correctly",
+      "tests/ok.test.ts::supabase Client Tests client creation and database query",
+      "tests/ok.test.ts::[GET] /ok Function Test function invocation",
+      "tests/organization-api.test.ts::[GET] /organization get organization",
+      "tests/organization-api.test.ts::[GET] /organization get organization by id",
+      "tests/organization-api.test.ts::[GET] /organization/members get organization members",
+      "tests/organization-api.test.ts::[POST] /organization/members add organization member",
+      "tests/organization-api.test.ts::[DELETE] /organization/members delete organization member",
+      "tests/organization-api.test.ts::[POST] /organization update organization",
+      "tests/organization-api.test.ts::[PUT] /organization create organization",
+      "tests/updates.test.ts",
+      "tests/zod.test.ts"
+    ],
+    "detail": "0 passed, 17 failed, 2 errors, 75 skipped (tests/cli-new-encryption.test.ts::test key generation test key generation, tests/cli-new-encryption.test.ts::tests CLI upload no encryption test upload without encryption NEW, tests/cli-old-encryption.test.ts::test key generation test key generation, tests/cli-old-encryption.test.ts::tests CLI upload no encryption test upload without encryption OLD, tests/cron_plan.test.ts::[POST] /triggers/cron_plan should return 400 when orgId is missing); first run failed: 0 passed, 17 failed, 2 errors, 75 skipped (tests/cli-new-encryption.test.ts::test key generation test key generation, tests/cli-new-encryption.test.ts::tests CLI upload no encryption test upload without encryption NEW, tests/cli-old-encryption.test.ts::test key generation test key generation, tests/cli-old-encryption.test.ts::tests CLI upload no encryption test upload without encryption OLD, tests/cron_plan.test.ts::[POST] /triggers/cron_plan should return 400 when orgId is missing)"
+  },
+  "timeout_s": 600
+}

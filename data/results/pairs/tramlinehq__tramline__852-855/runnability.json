@@ -1,0 +1,15 @@
+{
+  "pair_id": "tramlinehq__tramline__852-855",
+  "commit": "664afda2c40f2b905a0e0acd2d3454411efe56a9",
+  "language": "ruby",
+  "package_manager": "bundle",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "ruby project; no adapter for ruby (bundle is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

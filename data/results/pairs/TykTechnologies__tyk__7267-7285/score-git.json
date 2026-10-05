@@ -1,0 +1,491 @@
+{
+  "pair_id": "TykTechnologies__tyk__7267-7285",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": false,
+  "human_equivalent_unordered": false,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "apidef/oas/operation_test.go",
+      "entity": "TestOAS_fillAllowance",
+      "loser": "a",
+      "reason": "both sides changed it; the resolution keeps the base version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "apidef/oas/operation_test.go",
+      "entity": "TestOAS_fillAllowance",
+      "loser": "b",
+      "reason": "both sides changed it; the resolution keeps the base version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "apidef/oas/operation_test.go",
+      "entity": "TestSplitPath",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "apidef/oas/operation_test.go",
+      "entity": "TestSplitPath",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "apidef/oas/operation_test.go",
+      "entity": "TestGetOperationID.expectedParam",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "apidef/oas/operation_test.go",
+      "entity": "TestGetOperationID.expectedParam",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/mw_jwt.go",
+      "entity": "<rest>",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "entity": "byMiddleware",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "entity": "byMiddleware",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "internal/graphengine/engine_v2.go",
+      "entity": "EngineV2.HandleReverseProxy",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "internal/graphengine/engine_v2.go",
+      "entity": "EngineV2.HandleReverseProxy",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/ci-tests.yml",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9904
+    },
+    {
+      "path": "apidef/oas/example.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9333
+    },
+    {
+      "path": "apidef/oas/oas.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9951
+    },
+    {
+      "path": "apidef/oas/oas_test.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.951
+    },
+    {
+      "path": "apidef/oas/old_oas.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.8411
+    },
+    {
+      "path": "apidef/oas/operation.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9751
+    },
+    {
+      "path": "apidef/oas/operation_test.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "TestOAS_MockResponse_fillMockResponsePaths.expectedParam"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.8458
+    },
+    {
+      "path": "apidef/streams/bento/schema/bento-config-schema.json",
+      "mode": "ast",
+      "language": "json",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.8406
+    },
+    {
+      "path": "apidef/streams/bento/schema/generate_bento_config_schema.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "addURIFormatToHTTPClientRule",
+        "addURIFormatToHTTPClientRule.Apply",
+        "addURIFormatToHTTPClientRule.Name",
+        "addURIFormatToHTTPClientRule.setModifiedURLSection",
+        "arguments",
+        "customValidationRule",
+        "findTemplate",
+        "generateBentoConfigSchema",
+        "insertDefinitionKind",
+        "insertDefinitions",
+        "main",
+        "printErrorAndExit",
+        "saveFile",
+        "scanDefinitions",
+        "scanDefinitionsForKind",
+        "scanProperties",
+        "usage"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.6676
+    },
+    {
+      "path": "gateway/api.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9991
+    },
+    {
+      "path": "gateway/api_definition.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9967
+    },
+    {
+      "path": "gateway/mw_jwt.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9115
+    },
+    {
+      "path": "gateway/mw_mock_response.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "mockFromConfig",
+        "mockFromOAS",
+        "mockResponseMiddleware",
+        "mockResponseMiddleware.EnabledForSpec",
+        "mockResponseMiddleware.Name",
+        "mockResponseMiddleware.ProcessRequest",
+        "mockResponseMiddleware.forward",
+        "mockResponseMiddleware.mockResponse",
+        "newMockResponseMiddleware"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.6748
+    },
+    {
+      "path": "gateway/mw_mock_response_test.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "TestMockFromOAS_ExampleHandling",
+        "TestMockResponse",
+        "TestMockResponseWithInternalRedirect",
+        "Test_mockFromConfig",
+        "Test_mockFromOAS"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.6697
+    },
+    {
+      "path": "gateway/policy.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9798
+    },
+    {
+      "path": "gateway/reverse_proxy.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9964
+    },
+    {
+      "path": "gateway/reverse_proxy_test.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9426
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "TestTraceHttpRequest.HeaderCnf",
+        "TestTraceHttpRequest.UuidDto",
+        "TestTraceHttpRequest.WrappedUuidDto",
+        "TestTraceHttpRequest.typedResponse"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.6325
+    },
+    {
+      "path": "go.mod",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.8837
+    },
+    {
+      "path": "go.sum",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.953
+    },
+    {
+      "path": "goplugin/mw_go_plugin_test.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9196
+    },
+    {
+      "path": "internal/graphengine/engine_v2.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9914
+    },
+    {
+      "path": "internal/oasbuilder/builder.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "Build",
+        "Builder",
+        "Builder.Build",
+        "Builder.appendErrors",
+        "BuilderOption",
+        "EndpointBuilder",
+        "EndpointBuilder.Mock",
+        "EndpointBuilder.MockDefault",
+        "EndpointBuilder.RateLimit",
+        "EndpointBuilder.TransformResponseBody",
+        "EndpointBuilder.TransformResponseHeaders",
+        "EndpointBuilder.build",
+        "EndpointBuilder.operation",
+        "EndpointBuilder.operationId",
+        "EndpointFactory",
+        "New",
+        "WithDelete",
+        "WithGet",
+        "WithGlobalRateLimit",
+        "WithListenPath",
+        "WithPost",
+        "WithPut",
+        "WithTestListenPathAndUpstream",
+        "WithUpstreamUrl",
+        "combine",
+        "newRateLimit",
+        "withEndpoint",
+        "withRandomId"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.6627
+    },
+    {
+      "path": "internal/oasutil/servers.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "ParseServerUrl",
+        "ServerUrl",
+        "ServerUrl.addVariable",
+        "newServerUrl",
+        "serverUrlParser",
+        "serverUrlParser.extractValueBetweenBraces",
+        "serverUrlParser.nextParamName",
+        "serverUrlParser.parse",
+        "serverVariable"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.6587
+    },
+    {
+      "path": "internal/oasutil/servers_test.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "TestParseServerUrl",
+        "TestParseServerUrl.testCase"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.6704
+    },
+    {
+      "path": "swagger.yml",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9997
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

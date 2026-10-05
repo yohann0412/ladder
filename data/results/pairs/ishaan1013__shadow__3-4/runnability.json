@@ -1,0 +1,15 @@
+{
+  "pair_id": "ishaan1013__shadow__3-4",
+  "commit": "c563e4d7bc2d8b48c3950efe169df84f38c0be66",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

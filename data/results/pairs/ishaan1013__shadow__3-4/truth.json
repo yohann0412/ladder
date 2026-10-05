@@ -1,0 +1,28 @@
+{
+  "pair_id": "ishaan1013__shadow__3-4",
+  "status": "located",
+  "commit": "f46f147dc2b3ee32f988ab9cf2d182fdd94c9789",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "apps/frontend/package.json",
+      "present": true,
+      "sha256": "44056c6e359ed8a6cb44e2a6bda48667f970ba8810fd84d4630af343a8797257"
+    },
+    {
+      "path": "package-lock.json",
+      "present": true,
+      "sha256": "b8889a107267a29a22f850a94caa523a6275b45bc750583c2b8fba1e847f2c9d"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "apps/frontend/app/layout.tsx"
+  ],
+  "outside_region_edit": [
+    "apps/frontend/package.json",
+    "package-lock.json"
+  ],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:18:39.077466Z"
+}

@@ -1,0 +1,39 @@
+{
+  "pair_id": "tramlinehq__tramline__852-855",
+  "status": "located",
+  "commit": "1e8dc373d061456da6a62db53408822a982abcb8",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "db/schema.rb",
+      "present": true,
+      "sha256": "09886b5473b3770c5f28cd082e22a1a29a52c7ec1fbe3f12fa63e09198ffc15c"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "Gemfile.lock",
+    "app/controllers/integration_listeners/linear_controller.rb",
+    "app/jobs/workflow_runs/trigger_job.rb",
+    "app/libs/installations/gitlab/api.rb",
+    "app/libs/installations/linear/api.rb",
+    "app/models/bitbucket_integration.rb",
+    "app/models/github_integration.rb",
+    "app/models/gitlab_integration.rb",
+    "app/models/jira_integration.rb",
+    "app/models/linear_integration.rb",
+    "app/models/train.rb",
+    "app/views/trains/_form.html.erb",
+    "config/locales/en.yml",
+    "lib/tasks/anonymize.rake",
+    "spec/controllers/integration_listeners/linear_controller_spec.rb",
+    "spec/factories/linear_integrations.rb",
+    "spec/libs/installations/gitlab/api_spec.rb",
+    "spec/models/linear_integration_spec.rb"
+  ],
+  "outside_region_edit": [
+    "db/schema.rb"
+  ],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:18:52.418630Z"
+}

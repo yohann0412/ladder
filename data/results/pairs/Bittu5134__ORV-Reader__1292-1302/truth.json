@@ -1,0 +1,28 @@
+{
+  "pair_id": "Bittu5134__ORV-Reader__1292-1302",
+  "status": "located",
+  "commit": "45cc0eee8f61bbe9a41b49321af57dce46e4a95a",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "chapters/cont/657.txt",
+      "present": true,
+      "sha256": "265b2ee429995359754531acb78d1f0e22cc281360a1026a459a33f0cc1cb81a"
+    },
+    {
+      "path": "chapters/cont/669.txt",
+      "present": true,
+      "sha256": "51a620770fb7e8ef1fbfea9d4e7fb4c2360d131889a765267b12c0d2e731da7f"
+    },
+    {
+      "path": "chapters/cont/680.txt",
+      "present": true,
+      "sha256": "cdb3e7ab41f02f2683879b24395213f7747dd17c0b2a4aac3493da6baf1ae235"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:18:26.051759Z"
+}

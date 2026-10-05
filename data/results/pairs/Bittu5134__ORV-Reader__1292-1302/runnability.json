@@ -1,0 +1,15 @@
+{
+  "pair_id": "Bittu5134__ORV-Reader__1292-1302",
+  "commit": "3e47f23fe5f40582f2eacf23468e0c469f311063",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

@@ -1,0 +1,627 @@
+{
+  "pair_id": "TykTechnologies__tyk__7267-7285",
+  "rung": "weave",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": false,
+  "human_equivalent_unordered": false,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "apidef/oas/example.go",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "apidef/oas/operation_test.go",
+      "entity": "TestOAS_fillAllowance",
+      "loser": "a",
+      "reason": "both sides changed it; the resolution keeps the base version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "apidef/oas/operation_test.go",
+      "entity": "TestOAS_fillAllowance",
+      "loser": "b",
+      "reason": "both sides changed it; the resolution keeps the base version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "apidef/oas/operation_test.go",
+      "entity": "TestSplitPath",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "apidef/oas/operation_test.go",
+      "entity": "TestSplitPath",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "apidef/oas/operation_test.go",
+      "entity": "TestGetOperationID.expectedParam",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "apidef/oas/operation_test.go",
+      "entity": "TestGetOperationID.expectedParam",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/mw_jwt.go",
+      "entity": "JWTMiddleware.getSecretToVerifySignature",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/mw_jwt.go",
+      "entity": "JWTMiddleware.ProcessRequest",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/mw_jwt.go",
+      "entity": "<rest>",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/mw_jwt.go",
+      "entity": "JWTMiddleware.specCacheKey",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/mw_jwt.go",
+      "entity": "JWTMiddleware.getSecretFromMultipleJWKURIs",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/mw_jwt.go",
+      "entity": "jwkURLsChanged",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/policy.go",
+      "entity": "Gateway.LoadPoliciesFromRPC",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/policy.go",
+      "entity": "Gateway.LoadPoliciesFromRPC",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/reverse_proxy.go",
+      "entity": "ReverseProxy.HandleResponse",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/reverse_proxy.go",
+      "entity": "ReverseProxy.HandleResponse",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "entity": "TestTraceHttpRequest.typedResponse",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "entity": "TestTraceHttpRequest.typedResponse",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "entity": "TestTraceHttpRequest.HeaderCnf",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "entity": "TestTraceHttpRequest.HeaderCnf",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "entity": "TestTraceHttpRequest.UuidDto",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "entity": "TestTraceHttpRequest.UuidDto",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "entity": "TestTraceHttpRequest.WrappedUuidDto",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "entity": "TestTraceHttpRequest.WrappedUuidDto",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "entity": "cntPredicate",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "entity": "cntPredicate",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "entity": "byType",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "entity": "byType",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "entity": "byMiddleware",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "entity": "byMiddleware",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "internal/graphengine/engine_v2.go",
+      "entity": "EngineV2.HandleReverseProxy",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "internal/graphengine/engine_v2.go",
+      "entity": "EngineV2.HandleReverseProxy",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/ci-tests.yml",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9697
+    },
+    {
+      "path": "apidef/oas/example.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.7798
+    },
+    {
+      "path": "apidef/oas/oas.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9798
+    },
+    {
+      "path": "apidef/oas/oas_test.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9893
+    },
+    {
+      "path": "apidef/oas/old_oas.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.793
+    },
+    {
+      "path": "apidef/oas/operation.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": false,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9921
+    },
+    {
+      "path": "apidef/oas/operation_test.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "testCase"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.703
+    },
+    {
+      "path": "apidef/streams/bento/schema/bento-config-schema.json",
+      "mode": "ast",
+      "language": "json",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": true,
+      "human_equivalent_unordered": true,
+      "similarity": 1.0
+    },
+    {
+      "path": "apidef/streams/bento/schema/generate_bento_config_schema.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": true,
+      "human_equivalent_unordered": true,
+      "similarity": 1.0
+    },
+    {
+      "path": "gateway/api.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.993
+    },
+    {
+      "path": "gateway/api_definition.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9641
+    },
+    {
+      "path": "gateway/mw_jwt.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.2063
+    },
+    {
+      "path": "gateway/mw_mock_response.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "mockFromConfig",
+        "mockFromOAS",
+        "mockResponseMiddleware",
+        "mockResponseMiddleware.EnabledForSpec",
+        "mockResponseMiddleware.Name",
+        "mockResponseMiddleware.ProcessRequest",
+        "mockResponseMiddleware.forward",
+        "mockResponseMiddleware.mockResponse",
+        "newMockResponseMiddleware"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.675
+    },
+    {
+      "path": "gateway/mw_mock_response_test.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "TestMockFromOAS_ExampleHandling",
+        "TestMockResponse",
+        "TestMockResponseWithInternalRedirect",
+        "Test_mockFromConfig",
+        "Test_mockFromOAS"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.6697
+    },
+    {
+      "path": "gateway/policy.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.7466
+    },
+    {
+      "path": "gateway/reverse_proxy.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9973
+    },
+    {
+      "path": "gateway/reverse_proxy_test.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9976
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "HeaderCnf",
+        "UuidDto",
+        "WrappedUuidDto",
+        "typedResponse"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.7008
+    },
+    {
+      "path": "go.mod",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.8808
+    },
+    {
+      "path": "go.sum",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9523
+    },
+    {
+      "path": "goplugin/mw_go_plugin_test.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9833
+    },
+    {
+      "path": "internal/graphengine/engine_v2.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9947
+    },
+    {
+      "path": "internal/oasbuilder/builder.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "Build",
+        "Builder",
+        "Builder.Build",
+        "Builder.appendErrors",
+        "BuilderOption",
+        "EndpointBuilder",
+        "EndpointBuilder.Mock",
+        "EndpointBuilder.MockDefault",
+        "EndpointBuilder.RateLimit",
+        "EndpointBuilder.TransformResponseBody",
+        "EndpointBuilder.TransformResponseHeaders",
+        "EndpointBuilder.build",
+        "EndpointBuilder.operation",
+        "EndpointBuilder.operationId",
+        "EndpointFactory",
+        "New",
+        "WithDelete",
+        "WithGet",
+        "WithGlobalRateLimit",
+        "WithListenPath",
+        "WithPost",
+        "WithPut",
+        "WithTestListenPathAndUpstream",
+        "WithUpstreamUrl",
+        "combine",
+        "newRateLimit",
+        "withEndpoint",
+        "withRandomId"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.6628
+    },
+    {
+      "path": "internal/oasutil/servers.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "ParseServerUrl",
+        "ServerUrl",
+        "ServerUrl.addVariable",
+        "newServerUrl",
+        "serverUrlParser",
+        "serverUrlParser.extractValueBetweenBraces",
+        "serverUrlParser.nextParamName",
+        "serverUrlParser.parse",
+        "serverVariable"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.659
+    },
+    {
+      "path": "internal/oasutil/servers_test.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "TestParseServerUrl",
+        "TestParseServerUrl.testCase"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.6708
+    },
+    {
+      "path": "swagger.yml",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9993
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}
