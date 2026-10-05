@@ -26,10 +26,15 @@ CLEAN_GIT_ENV = {
 
 
 def run(
-    argv: list[str], *, cwd: Path = REPO_ROOT, check: bool = True, timeout: float = 900
+    argv: list[str],
+    *,
+    cwd: Path = REPO_ROOT,
+    check: bool = True,
+    timeout: float = 900,
+    extra_env: dict[str, str] | None = None,
 ) -> subprocess.CompletedProcess[str]:
     """Run a command and return its result; fail the test with its output when check fails."""
-    env = {**os.environ, **CLEAN_GIT_ENV}
+    env = {**os.environ, **CLEAN_GIT_ENV, **(extra_env or {})}
     proc = subprocess.run(
         argv, cwd=cwd, capture_output=True, text=True, env=env, timeout=timeout, check=False
     )
@@ -60,7 +65,11 @@ class Experiment:
     results: Path
 
     def ladder(
-        self, *args: str, check: bool = True, timeout: float = 900
+        self,
+        *args: str,
+        check: bool = True,
+        timeout: float = 900,
+        extra_env: dict[str, str] | None = None,
     ) -> subprocess.CompletedProcess[str]:
         """Run the ladder CLI against this experiment."""
         argv = [
@@ -73,7 +82,7 @@ class Experiment:
             str(self.results),
             *args,
         ]
-        return run(argv, check=check, timeout=timeout)
+        return run(argv, check=check, timeout=timeout, extra_env=extra_env)
 
     def result(self, pair_id: str, name: str) -> Any:
         """Read one result record of a pair."""

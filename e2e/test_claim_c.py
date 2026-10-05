@@ -1,4 +1,4 @@
-"""Claim C acceptance: fx06 passes alone and fails together; fx09 passes together."""
+"""Claim C acceptance: fx06 fails together, fx09 passes together, a disk floor stops a suite."""
 
 from conftest import Experiment
 
@@ -26,3 +26,9 @@ def test_claim_c_runner(fx_resolved: Experiment) -> None:
 
     conflicted = fx.ladder("claim-c", "fx01", check=False)
     assert conflicted.returncode != 0
+
+    floor = {"LADDER_MIN_FREE_GIB": "1000000"}
+    fx.ladder("runnable", "fx09", extra_env=floor)
+    starved = fx.result("fx09", "runnability")
+    assert starved["status"] == "unrunnable" and starved["reason"] == "exceeds_cap"
+    assert "free disk" in starved["reason_detail"]
