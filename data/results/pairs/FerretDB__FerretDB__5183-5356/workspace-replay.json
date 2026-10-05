@@ -1,0 +1,23 @@
+{
+  "pair_id": "FerretDB__FerretDB__5183-5356",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/FerretDB__FerretDB__5183-5356",
+  "source_base": "639484df81adeae8e921376cd9c9454423fc0be3",
+  "source_a": "d3579b73958cd9d244454d374e11ace391cc4037",
+  "source_b": "359ba5e81648653d13238f3c590f5c6af43b0bf4",
+  "base_commit": "27ffff482f290bcf8c150917228e0052c52838e4",
+  "a_commit": "a8f41aec4be0eef4c060b2c6fffa375cf4539846",
+  "b_commit": "5c1519f1ff2de76934de609edaa16def5c0fbabe",
+  "object_count": 1561,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
