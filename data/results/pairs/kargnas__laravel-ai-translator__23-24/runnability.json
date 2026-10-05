@@ -1,0 +1,15 @@
+{
+  "pair_id": "kargnas__laravel-ai-translator__23-24",
+  "commit": "725fbe85c8b9012c6b30abef3ab365c574bb1d26",
+  "language": "php",
+  "package_manager": "composer",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "php project; no adapter for php (composer is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

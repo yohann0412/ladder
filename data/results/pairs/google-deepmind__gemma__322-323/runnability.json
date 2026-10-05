@@ -1,0 +1,68 @@
+{
+  "pair_id": "google-deepmind__gemma__322-323",
+  "commit": "e552410c50a38edcdf8122f96321373cafe9a252",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "suite does not load at base: 2 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/google-deepmind__gemma__322-323/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/google-deepmind__gemma__322-323/trees/base[dev]",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 91.1,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 46.8 s; suite failed: 0 passed, 0 failed, 2 errors, 0 skipped (work/runtime/google-deepmind__gemma__322-323/trees/base/gemma/gm/nn/_transformer_test.py::work.runtime.google-deepmind__gemma__322-323.trees.base.gemma.gm.nn._transformer_test, work/runtime/google-deepmind__gemma__322-323/trees/base/gemma/gm/tests/examples_test.py::work.runtime.google-deepmind__gemma__322-323.trees.base.gemma.gm.tests.examples_test); first run failed: 0 passed, 0 failed, 2 errors, 0 skipped (work/runtime/google-deepmind__gemma__322-323/trees/base/gemma/gm/nn/_transformer_test.py::work.runtime.google-deepmind__gemma__322-323.trees.base.gemma.gm.nn._transformer_test, work/runtime/google-deepmind__gemma__322-323/trees/base/gemma/gm/tests/examples_test.py::work.runtime.google-deepmind__gemma__322-323.trees.base.gemma.gm.tests.examples_test)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/google-deepmind__gemma__322-323/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/google-deepmind__gemma__322-323/trees/base",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 43.2,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 1.6 s; suite failed: 0 passed, 0 failed, 2 errors, 0 skipped (work/runtime/google-deepmind__gemma__322-323/trees/base/gemma/gm/nn/_transformer_test.py::work.runtime.google-deepmind__gemma__322-323.trees.base.gemma.gm.nn._transformer_test, work/runtime/google-deepmind__gemma__322-323/trees/base/gemma/gm/tests/examples_test.py::work.runtime.google-deepmind__gemma__322-323.trees.base.gemma.gm.tests.examples_test); first run failed: 0 passed, 0 failed, 2 errors, 0 skipped (work/runtime/google-deepmind__gemma__322-323/trees/base/gemma/gm/nn/_transformer_test.py::work.runtime.google-deepmind__gemma__322-323.trees.base.gemma.gm.nn._transformer_test, work/runtime/google-deepmind__gemma__322-323/trees/base/gemma/gm/tests/examples_test.py::work.runtime.google-deepmind__gemma__322-323.trees.base.gemma.gm.tests.examples_test)"
+    }
+  ],
+  "test_count": 2,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/google-deepmind__gemma__322-323/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/google-deepmind__gemma__322-323/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 2,
+    "skipped": 0,
+    "duration_s": 21.1,
+    "retried": true,
+    "failing_tests": [
+      "work/runtime/google-deepmind__gemma__322-323/trees/base/gemma/gm/nn/_transformer_test.py::work.runtime.google-deepmind__gemma__322-323.trees.base.gemma.gm.nn._transformer_test",
+      "work/runtime/google-deepmind__gemma__322-323/trees/base/gemma/gm/tests/examples_test.py::work.runtime.google-deepmind__gemma__322-323.trees.base.gemma.gm.tests.examples_test"
+    ],
+    "detail": "0 passed, 0 failed, 2 errors, 0 skipped (work/runtime/google-deepmind__gemma__322-323/trees/base/gemma/gm/nn/_transformer_test.py::work.runtime.google-deepmind__gemma__322-323.trees.base.gemma.gm.nn._transformer_test, work/runtime/google-deepmind__gemma__322-323/trees/base/gemma/gm/tests/examples_test.py::work.runtime.google-deepmind__gemma__322-323.trees.base.gemma.gm.tests.examples_test); first run failed: 0 passed, 0 failed, 2 errors, 0 skipped (work/runtime/google-deepmind__gemma__322-323/trees/base/gemma/gm/nn/_transformer_test.py::work.runtime.google-deepmind__gemma__322-323.trees.base.gemma.gm.nn._transformer_test, work/runtime/google-deepmind__gemma__322-323/trees/base/gemma/gm/tests/examples_test.py::work.runtime.google-deepmind__gemma__322-323.trees.base.gemma.gm.tests.examples_test)"
+  },
+  "timeout_s": 600
+}

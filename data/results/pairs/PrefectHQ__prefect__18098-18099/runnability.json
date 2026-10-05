@@ -1,0 +1,48 @@
+{
+  "pair_id": "PrefectHQ__prefect__18098-18099",
+  "commit": "554a7b6cb42c108cc8053368259ec6988ef67f74",
+  "language": "python",
+  "package_manager": "uv",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "exceeds_cap",
+  "reason_detail": "suite exceeded the 600 s cap",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "sync",
+        "--frozen",
+        "--group",
+        "dev"
+      ],
+      "exit_code": 0,
+      "duration_s": 609.4,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 9.1 s; pytest: exit 0 in 0.1 s; suite capped: suite exceeded the 600 s cap"
+    }
+  ],
+  "test_count": 0,
+  "base_outcome": {
+    "status": "capped",
+    "command": [
+      "/home/user/ladder/work/runtime/PrefectHQ__prefect__18098-18099/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/PrefectHQ__prefect__18098-18099/reports/base-attempt-1/run-1.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 600.1,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "suite exceeded the 600 s cap"
+  },
+  "timeout_s": 600
+}

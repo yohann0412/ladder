@@ -1,0 +1,17 @@
+{
+  "pair_id": "wandb__openui__235-237",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "available": false,
+  "unavailable_reason": "audit_impossible: audit impossible: transcript line 120 is unparseable: Invalid JSON: EOF while parsing a string at line 1 column 4035; output: rationale.json was not written; output: unexpected file files/frontend/src/components/CodeEditor.tsx; output: unexpected file files/frontend/src/components/CurrentUiContext.tsx",
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": null,
+  "intent_preserved_b": null,
+  "intent_drops": [],
+  "files": [],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

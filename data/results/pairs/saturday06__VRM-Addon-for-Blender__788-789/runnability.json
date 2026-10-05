@@ -1,0 +1,15 @@
+{
+  "pair_id": "saturday06__VRM-Addon-for-Blender__788-789",
+  "commit": "ea66e8f9aea27c021b52a15d1f184df37d74944e",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
