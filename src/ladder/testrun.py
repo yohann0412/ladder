@@ -3,6 +3,7 @@
 from pathlib import Path
 
 from ladder.adapters.base import TEST_CAP_S, Adapter, Site, Strategy, SuiteCommand
+from ladder.diskfloor import stopped_below
 from ladder.procrun import Runner
 from ladder.schemas import TestOutcome, TestStatus
 
@@ -68,10 +69,14 @@ def _run_once(
     notes = [command.note] if command.note else []
     if step.missing:
         return outcome("error", command.argv, "; ".join([step.summary(), *notes]))
-    if step.timed_out:
-        detail = f"suite exceeded the {TEST_CAP_S} s cap"
-        timed = outcome("capped", command.argv, "; ".join([detail, *notes]))
-        return timed.model_copy(update={"duration_s": round(step.duration_s, 1)})
+    if step.timed_out or step.disk_floor:
+        detail = (
+            f"suite exceeded the {TEST_CAP_S} s cap"
+            if step.timed_out
+            else f"suite {stopped_below(step.floor_gib)}"
+        )
+        capped = outcome("capped", command.argv, "; ".join([detail, *notes]))
+        return capped.model_copy(update={"duration_s": round(step.duration_s, 1)})
     log_text = step.output()
     counts = adapter.parse(site, report, log_text)
     if counts is None:

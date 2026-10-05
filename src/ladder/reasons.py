@@ -4,6 +4,7 @@ import re
 from dataclasses import dataclass
 
 from ladder.adapters.base import INSTALL_CAP_S, TEST_CAP_S
+from ladder.diskfloor import FREE_DISK
 from ladder.procrun import StepResult
 from ladder.schemas import TestOutcome, UnrunnableReason
 
@@ -53,7 +54,13 @@ def _limits(steps: list[StepResult], outcomes: list[TestOutcome]) -> Reason | No
     timed_out = next((step for step in steps if step.timed_out), None)
     if timed_out is not None:
         return "exceeds_cap", f"{timed_out.name} exceeded the {INSTALL_CAP_S} s install cap"
-    if any(result.status == "capped" for result in outcomes):
+    starved = next((step for step in steps if step.disk_floor), None)
+    if starved is not None:
+        return "exceeds_cap", starved.summary()
+    capped = next((result for result in outcomes if result.status == "capped"), None)
+    if capped is not None and FREE_DISK in capped.detail:
+        return "exceeds_cap", capped.detail
+    if capped is not None:
         return "exceeds_cap", f"suite exceeded the {TEST_CAP_S} s cap"
     missing = next((step for step in steps if step.missing), None)
     return ("missing_toolchain", missing.summary()) if missing is not None else None

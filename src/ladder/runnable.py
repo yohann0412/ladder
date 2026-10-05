@@ -75,7 +75,7 @@ def classify(runtime: RuntimeDir, record_id: str, commit: str, export: Exporter)
                 attempts=attempts,
                 outcome=trace.outcome,
             )
-        if any(step.timed_out for step in trace.steps) or (
+        if any(step.timed_out or step.disk_floor for step in trace.steps) or (
             trace.outcome is not None and trace.outcome.status == "capped"
         ):
             break

@@ -1,7 +1,9 @@
-"""Run installers and test runners under a time cap, logging their combined output to a file."""
+"""Run installers and test runners under a time cap and a disk floor, logging their output."""
 
+import contextlib
 import os
 import shutil
+import signal
 import subprocess
 import sys
 import time
@@ -9,10 +11,16 @@ from collections.abc import Mapping, Sequence
 from dataclasses import dataclass
 from pathlib import Path
 
+from ladder.diskfloor import FLOOR_ENV, min_free_gib, stopped_below
+from ladder.diskspace import free_gib
+
 KILL_GRACE_S = 10
+DISK_POLL_S = 2.0
 TAIL_BYTES = 200_000
 TIMEOUT_EXIT_CODES = (124, 137)
 HARNESS_VARIABLES = ("VIRTUAL_ENV", "PYTHONPATH", "PYTHONHOME", "UV_PROJECT_ENVIRONMENT")
+
+Process = subprocess.Popen[bytes]
 
 
 @dataclass(frozen=True)
@@ -26,6 +34,8 @@ class StepResult:
     timed_out: bool
     missing: bool
     log: Path
+    disk_floor: bool
+    floor_gib: float
 
     @property
     def ok(self) -> bool:
@@ -47,6 +57,8 @@ class StepResult:
             return f"{self.name}: {self.argv[0]} not found"
         if self.timed_out:
             return f"{self.name}: timed out after {self.duration_s:.0f} s"
+        if self.disk_floor:
+            return f"{self.name}: {stopped_below(self.floor_gib)}"
         return f"{self.name}: exit {self.exit_code} in {self.duration_s:.1f} s"
 
 
@@ -65,7 +77,7 @@ def tool_env(extra: Mapping[str, str] | None = None) -> dict[str, str]:
 
 @dataclass(frozen=True)
 class Runner:
-    """Runs commands with explicit arguments, one log file per step, each under a time cap."""
+    """Runs commands with explicit arguments, a log per step, under a time cap and a disk floor."""
 
     logs: Path
 
@@ -78,38 +90,105 @@ class Runner:
         cap: int,
         env: Mapping[str, str] | None = None,
     ) -> StepResult:
-        """Run one command; a run longer than cap seconds is killed with its process group."""
+        """Run one command, killing its process group past cap seconds or below the disk floor."""
+        floor = min_free_gib()
         self.logs.mkdir(parents=True, exist_ok=True)
         log = self.logs / f"{name}.log"
         full_env = tool_env(env)
         args = list(argv)
         if shutil.which(args[0], path=full_env["PATH"]) is None:
             log.write_text(f"{args[0]} not found on PATH\n", encoding="utf-8")
-            return StepResult(name, args, None, 0.0, timed_out=False, missing=True, log=log)
+            return StepResult(
+                name,
+                args,
+                None,
+                0.0,
+                timed_out=False,
+                missing=True,
+                log=log,
+                disk_floor=False,
+                floor_gib=floor,
+            )
+        if (free := free_gib(cwd)) < floor:
+            log.write_text(_floor_line("not started", free, cwd, floor), encoding="utf-8")
+            return StepResult(
+                name,
+                args,
+                None,
+                0.0,
+                timed_out=False,
+                missing=False,
+                log=log,
+                disk_floor=True,
+                floor_gib=floor,
+            )
         start = time.monotonic()
         with log.open("wb") as out:
+            proc = subprocess.Popen(
+                ["timeout", f"--kill-after={KILL_GRACE_S}", str(cap), *args],
+                cwd=cwd,
+                env=full_env,
+                stdin=subprocess.DEVNULL,
+                stdout=out,
+                stderr=subprocess.STDOUT,
+                start_new_session=True,
+            )
             try:
-                proc = subprocess.run(
-                    ["timeout", f"--kill-after={KILL_GRACE_S}", str(cap), *args],
-                    cwd=cwd,
-                    env=full_env,
-                    stdin=subprocess.DEVNULL,
-                    stdout=out,
-                    stderr=subprocess.STDOUT,
-                    timeout=cap + 3 * KILL_GRACE_S,
-                    check=False,
-                )
-                code: int | None = proc.returncode
-            except subprocess.TimeoutExpired:
-                code = None
+                code, starved = _watch(proc, cwd, floor, start + cap + 3 * KILL_GRACE_S)
+            except BaseException:
+                _kill(proc)
+                raise
         duration = time.monotonic() - start
+        if starved is not None:
+            with log.open("a", encoding="utf-8") as note:
+                note.write("\n" + _floor_line("stopped", starved, cwd, floor))
+        disk_floor = starved is not None
         timed_out = code is None or (code in TIMEOUT_EXIT_CODES and duration >= cap)
         return StepResult(
             name,
             args,
-            None if timed_out else code,
+            None if timed_out or disk_floor else code,
             duration,
             timed_out=timed_out,
             missing=False,
             log=log,
+            disk_floor=disk_floor,
+            floor_gib=floor,
         )
+
+
+def _watch(
+    proc: Process, cwd: Path, floor: float, backstop: float
+) -> tuple[int | None, float | None]:
+    while (left := backstop - time.monotonic()) > 0:
+        with contextlib.suppress(subprocess.TimeoutExpired):
+            return proc.wait(timeout=min(DISK_POLL_S, left)), None
+        if (free := free_gib(cwd)) < floor:
+            _stop(proc)
+            return proc.returncode, free
+    _kill(proc)
+    return None, None
+
+
+def _stop(proc: Process) -> None:
+    _signal(proc, signal.SIGTERM)
+    with contextlib.suppress(subprocess.TimeoutExpired):
+        proc.wait(timeout=KILL_GRACE_S)
+    _kill(proc)
+
+
+def _kill(proc: Process) -> None:
+    _signal(proc, signal.SIGKILL)
+    proc.wait()
+
+
+def _signal(proc: Process, signum: signal.Signals) -> None:
+    with contextlib.suppress(ProcessLookupError):
+        os.killpg(proc.pid, signum)
+
+
+def _floor_line(what: str, free: float, cwd: Path, floor: float) -> str:
+    return (
+        f"{what}: {free:.1f} GiB free under {cwd}, "
+        f"below the {floor:g} GiB floor set by {FLOOR_ENV}\n"
+    )
