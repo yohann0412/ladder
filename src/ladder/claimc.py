@@ -74,7 +74,7 @@ def run_claim_c(layout: Layout, pair_id: str) -> ClaimCRecord:
             rung.merged_tree,
             runtime.scratch_repo(),
             runtime.tree(MERGE_LABEL),
-            holders=[layout.rung_dir(pair_id, "git")],
+            holders=[layout.rung_dir(pair_id, f"git-{rung.heads}")],
         )
     except MergeMismatch as error:
         merge = outcome("error", [], str(error))
