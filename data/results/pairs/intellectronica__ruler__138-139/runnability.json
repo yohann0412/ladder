@@ -1,0 +1,42 @@
+{
+  "pair_id": "intellectronica__ruler__138-139",
+  "commit": "329181efbbac892568391ae2d6af4f029cefdb1c",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": "jest",
+  "status": "runnable",
+  "reason": null,
+  "reason_detail": "",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "npm",
+        "ci"
+      ],
+      "exit_code": 0,
+      "duration_s": 44.0,
+      "detail": "standard, install cap 900 s: install: exit 0 in 8.6 s; suite passed: 316 passed, 0 failed, 0 errors, 0 skipped"
+    }
+  ],
+  "test_count": 316,
+  "base_outcome": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/intellectronica__ruler__138-139/trees/base/node_modules/.bin/jest",
+      "--ci",
+      "--coverage=false",
+      "--json",
+      "--outputFile=/home/user/ladder/work/runtime/intellectronica__ruler__138-139/reports/base-attempt-1/run-1.report"
+    ],
+    "passed": 316,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 35.4,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "316 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "timeout_s": 600
+}

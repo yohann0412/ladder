@@ -1,0 +1,42 @@
+{
+  "pair_id": "dreadl0ck__netcap__38-41",
+  "commit": "eecf936b7ebe20b6611f044de1e9a21ea450dbd6",
+  "language": "go",
+  "package_manager": "go modules",
+  "test_runner": "go test",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "build: exit 1 in 98.4 s: 2026/10/05 13:08:15 open ../tests/resolvers.log: no such file or directory | FAIL\tgithub.com/dreadl0ck/netcap/resolvers\t0.030s | ?   \tgithub.com/dreadl0ck/netcap/rule\t[no test files] | ok  \tgithub.com/dreadl0ck/netcap/types\t0.013s [no tests to run] | ok  \tgithub.com/dreadl0ck/netcap/utils\t0.017s [no tests to run] | FAIL",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "go",
+        "test",
+        "-count=1",
+        "-run",
+        "^$",
+        "./..."
+      ],
+      "exit_code": 1,
+      "duration_s": 53.5,
+      "detail": "standard, install cap 900 s: install: exit 0 in 29.8 s; build: exit 1 in 23.7 s; output tail: ?   \tgithub.com/dreadl0ck/netcap/decoder/utils\t[no test files] | ?   \tgithub.com/dreadl0ck/netcap/defaults\t[no test files] | ok  \tgithub.com/dreadl0ck/netcap/delimited\t0.020s [no tests to run] | ok  \tgithub.com/dreadl0ck/netcap/encoder\t0.010s [no tests to run] | ?   \tgithub.com/dreadl0ck/netcap/env\t[no test files] | ok  \tgithub.com/dreadl0ck/netcap/logger\t0.006s [no tests to run] | ok  \tgithub.com/dreadl0ck/netcap/utils\t0.008s [no tests to run] | FAIL"
+    },
+    {
+      "command": [
+        "go",
+        "test",
+        "-count=1",
+        "-run",
+        "^$",
+        "./..."
+      ],
+      "exit_code": 1,
+      "duration_s": 98.5,
+      "detail": "mod-mod (GOFLAGS=-mod=mod, so go.mod and go.sum drift is resolved), install cap 900 s: install: exit 0 in 0.1 s; build: exit 1 in 98.4 s; output tail: FAIL\tgithub.com/dreadl0ck/netcap/metrics [build failed] | ok  \tgithub.com/dreadl0ck/netcap/reassembly\t0.042s [no tests to run] | 2026/10/05 13:08:15 open ../tests/resolvers.log: no such file or directory | FAIL\tgithub.com/dreadl0ck/netcap/resolvers\t0.030s | ?   \tgithub.com/dreadl0ck/netcap/rule\t[no test files] | ok  \tgithub.com/dreadl0ck/netcap/types\t0.013s [no tests to run] | ok  \tgithub.com/dreadl0ck/netcap/utils\t0.017s [no tests to run] | FAIL"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
