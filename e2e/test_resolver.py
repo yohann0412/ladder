@@ -9,7 +9,7 @@ from conftest import LADDER, REPO_ROOT, Experiment, git, read_json, run
 RECORDED = REPO_ROOT / "fixtures" / "recorded" / "fx03-llm-raw"
 
 
-def _install_recorded_run(task: dict[str, str], transcript: Path, extra_read: str | None) -> None:
+def install_recorded_run(task: dict[str, str], transcript: Path, extra_read: str | None) -> None:
     out = Path(task["output_dir"])
     shutil.copytree(RECORDED / "output", out, dirs_exist_ok=True)
     text = (RECORDED / "transcript.jsonl").read_text()
@@ -68,7 +68,7 @@ def test_resolver_protocol(fx_resolved: Experiment, fixture_dir: Path, tmp_path:
     assert task["spawn_line"] in pending
 
     transcript = tmp_path / "run-1.jsonl"
-    _install_recorded_run(task, transcript, extra_read=None)
+    install_recorded_run(task, transcript, extra_read=None)
     fx.ladder(
         "resolve",
         "finalize",
@@ -99,7 +99,7 @@ def test_resolver_protocol(fx_resolved: Experiment, fixture_dir: Path, tmp_path:
     fx.ladder("resolve", "prepare", "fx03", "--rung", "llm-raw", "--run", "2")
     task2 = fx.result("fx03", "resolver-llm-raw-run-2-task")
     transcript2 = tmp_path / "run-2.jsonl"
-    _install_recorded_run(task2, transcript2, extra_read=str(fx.work / "truth" / "fx03"))
+    install_recorded_run(task2, transcript2, extra_read=str(fx.work / "truth" / "fx03"))
     fx.ladder(
         "resolve",
         "finalize",

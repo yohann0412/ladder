@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import Any
 
 from conftest import REPO_ROOT, Experiment, read_json
+from test_resolver import install_recorded_run as _install_recorded_run
 
 
 def _count(scenarios: list[dict[str, Any]], rung: str, **want: object) -> int:
@@ -62,3 +63,50 @@ def test_report_numbers_match_expected_table(fx: Experiment, tmp_path: Path) -> 
         assert claim in first_paragraph, claim
     assert set(summary["verdicts"]) == {"A", "B", "C"}
     assert (fx.results / "plots").is_dir() and len(list((fx.results / "plots").glob("*.png"))) >= 3
+
+
+def test_report_separates_own_output_reads_and_cut_transcripts(
+    fx_resolved: Experiment, tmp_path: Path
+) -> None:
+    fx = fx_resolved
+    fx.ladder("run", "fx03", check=False)
+    raw = fx.result("fx03", "resolver-llm-raw-run-1-task")
+    post = fx.result("fx03", "resolver-llm-post-weave-run-1-task")
+
+    own_read = tmp_path / "raw.jsonl"
+    _install_recorded_run(raw, own_read, extra_read=str(Path(raw["output_dir"]) / "rationale.json"))
+    cut = tmp_path / "post.jsonl"
+    _install_recorded_run(post, cut, extra_read=None)
+    text = cut.read_text()
+    cut.write_text(text[: len(text) - 40])
+    for rung, transcript in (("llm-raw", own_read), ("llm-post-weave", cut)):
+        fx.ladder(
+            "resolve",
+            "finalize",
+            "fx03",
+            "--rung",
+            rung,
+            "--run",
+            "1",
+            "--transcript",
+            str(transcript),
+        )
+    assert fx.result("fx03", "resolver-llm-raw-run-1")["failure"] == "protocol_violation"
+    assert fx.result("fx03", "resolver-llm-post-weave-run-1")["failure"] == "audit_impossible"
+
+    fx.ladder("run", "--all", "--no-llm")
+    out = tmp_path / "RESULTS.md"
+    fx.ladder("report", "--out", str(out))
+    summary = read_json(fx.results / "summary.json")
+
+    causes = summary["llm_failure_causes"]
+    assert causes["protocol_violation: own output reads only"] == 1
+    assert causes["audit_impossible: transcript cut off"] == 1
+    primary = summary["practical_ladder_human_equivalent"]
+    bound = summary["claim_a_best_case"]
+    assert bound["denominator"] == primary["denominator"]
+    assert bound["numerator"] == primary["numerator"] + 1
+    assert "A best case" in summary["verdicts"]
+    report = out.read_text()
+    assert "own output reads only" in report and "transcript cut off" in report
+    assert "best-case" in report
