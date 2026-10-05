@@ -1,0 +1,18 @@
+{
+  "pair_id": "kromitgmbh__titra__242-244",
+  "status": "located",
+  "commit": "f03dcf72321586198ab1b2911a4fd9792ce56b1b",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "package-lock.json",
+      "present": true,
+      "sha256": "bce1ab1a7842d8a63cae5d20aadbfc687962dc1d5b68655dbd94c9a620990289"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:53:39.934786Z"
+}

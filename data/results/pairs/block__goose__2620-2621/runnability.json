@@ -1,0 +1,27 @@
+{
+  "pair_id": "block__goose__2620-2621",
+  "commit": "d8d9b9f1bd722b760eacb4c11e1518fca7b889bc",
+  "language": "rust",
+  "package_manager": "cargo",
+  "test_runner": "cargo test",
+  "status": "unrunnable",
+  "reason": "exceeds_cap",
+  "reason_detail": "build: stopped, free disk below the 3 GiB floor",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "cargo",
+        "test",
+        "--no-run",
+        "--locked"
+      ],
+      "exit_code": null,
+      "duration_s": 200.2,
+      "detail": "standard, install cap 900 s: install: exit 0 in 4.1 s; build: stopped, free disk below the 3 GiB floor; output tail:    Compiling rangemap v1.5.1 |    Compiling xml-rs v0.8.25 |    Compiling thin-vec v0.2.13 |    Compiling thousands v0.2.0 |    Compiling lopdf v0.35.0 |    Compiling umya-spreadsheet v2.2.3 |    Compiling docx-rs v0.4.17 | stopped: 3.0 GiB free under /home/user/ladder/work/runtime/block__goose__2620-2621/trees/base, below the 3 GiB floor set by LADDER_MIN_FREE_GIB"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

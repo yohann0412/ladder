@@ -1,0 +1,68 @@
+{
+  "pair_id": "toruseo__UXsim__223-225",
+  "commit": "bd7819a902070c069bb15ed431eff1825fb9b444",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "suite does not load at base: 2 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/toruseo__UXsim__223-225/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/toruseo__UXsim__223-225/trees/base",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 147.8,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 132.6 s; suite failed: 0 passed, 0 failed, 2 errors, 0 skipped (work/runtime/toruseo__UXsim__223-225/trees/base/tests/test_notebook_demos.py::work.runtime.toruseo__UXsim__223-225.trees.base.tests.test_notebook_demos, work/runtime/toruseo__UXsim__223-225/trees/base/tests/test_notebook_demos_extra.py::work.runtime.toruseo__UXsim__223-225.trees.base.tests.test_notebook_demos_extra); first run failed: 0 passed, 0 failed, 2 errors, 0 skipped (work/runtime/toruseo__UXsim__223-225/trees/base/tests/test_notebook_demos.py::work.runtime.toruseo__UXsim__223-225.trees.base.tests.test_notebook_demos, work/runtime/toruseo__UXsim__223-225/trees/base/tests/test_notebook_demos_extra.py::work.runtime.toruseo__UXsim__223-225.trees.base.tests.test_notebook_demos_extra)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/toruseo__UXsim__223-225/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/toruseo__UXsim__223-225/trees/base",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 17.7,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 4.2 s; suite failed: 0 passed, 0 failed, 2 errors, 0 skipped (work/runtime/toruseo__UXsim__223-225/trees/base/tests/test_notebook_demos.py::work.runtime.toruseo__UXsim__223-225.trees.base.tests.test_notebook_demos, work/runtime/toruseo__UXsim__223-225/trees/base/tests/test_notebook_demos_extra.py::work.runtime.toruseo__UXsim__223-225.trees.base.tests.test_notebook_demos_extra); first run failed: 0 passed, 0 failed, 2 errors, 0 skipped (work/runtime/toruseo__UXsim__223-225/trees/base/tests/test_notebook_demos.py::work.runtime.toruseo__UXsim__223-225.trees.base.tests.test_notebook_demos, work/runtime/toruseo__UXsim__223-225/trees/base/tests/test_notebook_demos_extra.py::work.runtime.toruseo__UXsim__223-225.trees.base.tests.test_notebook_demos_extra)"
+    }
+  ],
+  "test_count": 2,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/toruseo__UXsim__223-225/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/toruseo__UXsim__223-225/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 2,
+    "skipped": 0,
+    "duration_s": 7.2,
+    "retried": true,
+    "failing_tests": [
+      "work/runtime/toruseo__UXsim__223-225/trees/base/tests/test_notebook_demos.py::work.runtime.toruseo__UXsim__223-225.trees.base.tests.test_notebook_demos",
+      "work/runtime/toruseo__UXsim__223-225/trees/base/tests/test_notebook_demos_extra.py::work.runtime.toruseo__UXsim__223-225.trees.base.tests.test_notebook_demos_extra"
+    ],
+    "detail": "0 passed, 0 failed, 2 errors, 0 skipped (work/runtime/toruseo__UXsim__223-225/trees/base/tests/test_notebook_demos.py::work.runtime.toruseo__UXsim__223-225.trees.base.tests.test_notebook_demos, work/runtime/toruseo__UXsim__223-225/trees/base/tests/test_notebook_demos_extra.py::work.runtime.toruseo__UXsim__223-225.trees.base.tests.test_notebook_demos_extra); first run failed: 0 passed, 0 failed, 2 errors, 0 skipped (work/runtime/toruseo__UXsim__223-225/trees/base/tests/test_notebook_demos.py::work.runtime.toruseo__UXsim__223-225.trees.base.tests.test_notebook_demos, work/runtime/toruseo__UXsim__223-225/trees/base/tests/test_notebook_demos_extra.py::work.runtime.toruseo__UXsim__223-225.trees.base.tests.test_notebook_demos_extra)"
+  },
+  "timeout_s": 600
+}

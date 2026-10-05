@@ -1,0 +1,18 @@
+{
+  "pair_id": "songtianlun__awesome-prompts__3-4",
+  "status": "located",
+  "commit": "d9c8433636939782f5de8ad5d056be4d60ec693a",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "mkdocs.yml",
+      "present": true,
+      "sha256": "bf4296093864994ff9d3913a209c272fa4d618005f51ad84494a690e76bfb287"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:53:22.749199Z"
+}

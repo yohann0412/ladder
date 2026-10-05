@@ -1,0 +1,23 @@
+{
+  "pair_id": "imfing__hextra__700-707",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/imfing__hextra__700-707",
+  "source_base": "40b1c5f2f1c31e9ab96fdd64f259b957d1741262",
+  "source_a": "7c8f5a57ad2c2a363eb205ca0d5bb73fdd66054a",
+  "source_b": "3df9475f26077137fb095eb0c03b2e3d355d4b98",
+  "base_commit": "edd29e52798b0b6e257b78882c01c2b29f6e55a8",
+  "a_commit": "2a47df64da269cf6d2d5331acfcc04e41db824ed",
+  "b_commit": "e79fcf9075a8b751d27b530058074432627a49af",
+  "object_count": 388,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

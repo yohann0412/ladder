@@ -1,0 +1,24 @@
+{
+  "pair_id": "haydenbleasel__ultracite__176-178",
+  "status": "located",
+  "commit": "ef654f9255d7eacc7474af6e41fa73853e9ccbb8",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "scripts/format.ts",
+      "present": true,
+      "sha256": "320cd7bd6f1071438be8d2ecf173ff1d3e28607ea78d80fd320cf8aba22476ba"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "CHANGELOG.md",
+    "docs/app/(docs)/[[...slug]]/(home)/components/tweets.tsx",
+    "package-lock.json",
+    "package.json",
+    "scripts/initialize.ts"
+  ],
+  "outside_region_edit": [],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:53:48.745164Z"
+}
