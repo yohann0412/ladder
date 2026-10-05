@@ -1,0 +1,29 @@
+{
+  "pair_id": "langgenius__webapp-conversation__182-183",
+  "status": "located",
+  "commit": "c4b8029702244d6358bcf00265a92a16e52ea914",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "app/components/base/streamdown-markdown.tsx",
+      "present": true,
+      "sha256": "2c98963c68a1229ba728be8d88ccab4f787c6d8cdf4a6d396e1df1340fe6b4ec"
+    },
+    {
+      "path": "app/components/index.tsx",
+      "present": true,
+      "sha256": "723af685fea34d432cabdc4eff64607e8a05ffd18ea075d31ac2bbe123ba7bc8"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "app/api/utils/common.ts",
+    "i18n/lang/app.fr.ts",
+    "i18n/lang/common.fr.ts",
+    "i18n/lang/tools.fr.ts",
+    "types/app.ts"
+  ],
+  "outside_region_edit": [],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:27:52.195603Z"
+}

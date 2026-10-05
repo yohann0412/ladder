@@ -1,0 +1,54 @@
+{
+  "pair_id": "Azure__autorest.csharp__5334-5338",
+  "rung": "weave",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": false,
+  "human_equivalent_unordered": false,
+  "intent_preserved_a": true,
+  "intent_preserved_b": true,
+  "intent_drops": [],
+  "files": [
+    {
+      "path": "package-lock.json",
+      "mode": "ast",
+      "language": "json",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.6687
+    },
+    {
+      "path": "package.json",
+      "mode": "ast",
+      "language": "json",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": true,
+      "human_equivalent_unordered": true,
+      "similarity": 1.0
+    },
+    {
+      "path": "src/TypeSpec.Extension/Emitter.Csharp/package.json",
+      "mode": "ast",
+      "language": "json",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": true,
+      "human_equivalent_unordered": true,
+      "similarity": 1.0
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

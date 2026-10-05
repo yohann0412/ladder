@@ -1,0 +1,28 @@
+{
+  "pair_id": "Azure__autorest.csharp__5334-5338",
+  "status": "located",
+  "commit": "33761dece6e1c471271a8fd85898148ed99646d4",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "package-lock.json",
+      "present": true,
+      "sha256": "20e7ba09d00536600c849fc1bd46524f135aee80ea2c596588961555fbdd45b9"
+    },
+    {
+      "path": "package.json",
+      "present": true,
+      "sha256": "bab5f6af746dcc1761326eae9c7c0f1a320b8845d71a476ceaac6577992be492"
+    },
+    {
+      "path": "src/TypeSpec.Extension/Emitter.Csharp/package.json",
+      "present": true,
+      "sha256": "67747593213dc17e3545e862309914e12541b1340dca1e6c38839e3a59b1f0f0"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:29:05.320851Z"
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "dotnet__roslyn__80144-80182",
+  "commit": "87285c13cc29e7b3d0c04b599436c823c367bfdc",
+  "language": "csharp",
+  "package_manager": "dotnet",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "csharp project; dotnet is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

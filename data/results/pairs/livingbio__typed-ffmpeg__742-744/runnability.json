@@ -1,0 +1,42 @@
+{
+  "pair_id": "livingbio__typed-ffmpeg__742-744",
+  "commit": "a2f511dc7f6c012b42bd4532cb7b86b74b56570f",
+  "language": "python",
+  "package_manager": "uv",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 1 in 1.0 s:       Alternatively, set the version in the environment with |       SETUPTOOLS_SCM_PRETEND_VERSION_FOR_TYPED_FFMPEG or |       VCS_VERSIONING_PRETEND_VERSION_FOR_TYPED_FFMPEG, as described in |       https://setuptools-scm.readthedocs.io/en/latest/config/ |       hint: This usually indicates a problem with the package or the build |       environment.",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "sync",
+        "--frozen"
+      ],
+      "exit_code": 1,
+      "duration_s": 1.6,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.2 s; install: exit 1 in 1.5 s; output tail:       https://github.com/user/proj/archive/master.zip use |       git+https://github.com/user/proj.git#egg=proj |       Alternatively, set the version in the environment with |       SETUPTOOLS_SCM_PRETEND_VERSION_FOR_TYPED_FFMPEG or |       VCS_VERSIONING_PRETEND_VERSION_FOR_TYPED_FFMPEG, as described in |       https://setuptools-scm.readthedocs.io/en/latest/config/ |       hint: This usually indicates a problem with the package or the build |       environment."
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/livingbio__typed-ffmpeg__742-744/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/livingbio__typed-ffmpeg__742-744/trees/base",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 1.0,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.1 s; install: exit 1 in 1.0 s; output tail:       https://github.com/user/proj/archive/master.zip use |       git+https://github.com/user/proj.git#egg=proj |       Alternatively, set the version in the environment with |       SETUPTOOLS_SCM_PRETEND_VERSION_FOR_TYPED_FFMPEG or |       VCS_VERSIONING_PRETEND_VERSION_FOR_TYPED_FFMPEG, as described in |       https://setuptools-scm.readthedocs.io/en/latest/config/ |       hint: This usually indicates a problem with the package or the build |       environment."
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

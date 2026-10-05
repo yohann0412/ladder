@@ -1,0 +1,15 @@
+{
+  "pair_id": "luohy15__y-gui__3-4",
+  "commit": "945f9ecc1a593548564e16b62c9a957bf3bf7a3b",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

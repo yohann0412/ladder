@@ -1,0 +1,15 @@
+{
+  "pair_id": "RchGrav__claudebox__10-11",
+  "commit": "1ccfae6fbf5ef7f8e15fafc64762ad97d0635a99",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

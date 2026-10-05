@@ -1,0 +1,46 @@
+{
+  "pair_id": "featureform__enrichmcp__45-46",
+  "commit": "5090fc2811a47785460bbfb05609cd59bd10c41e",
+  "language": "python",
+  "package_manager": "uv",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 1 in 2.9 s:       Alternatively, set the version in the environment |       with SETUPTOOLS_SCM_PRETEND_VERSION_FOR_ENRICHMCP or |       VCS_VERSIONING_PRETEND_VERSION_FOR_ENRICHMCP, as described in |       https://setuptools-scm.readthedocs.io/en/latest/config/ |       hint: This usually indicates a problem with the package or the build |       environment.",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "sync",
+        "--frozen",
+        "--extra",
+        "dev"
+      ],
+      "exit_code": 2,
+      "duration_s": 2.2,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 1.9 s; install: exit 2 in 0.3 s; output tail: error: Failed to parse `uv.lock` |   Caused by: TOML parse error at line 3, column 17 |   | | 3 | annotated-types==0.7.0 |   |                 ^ | extra `=`, expected nothing"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/featureform__enrichmcp__45-46/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/featureform__enrichmcp__45-46/trees/base",
+        "-r",
+        "requirements-dev.txt",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 2.9,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 1 in 2.9 s; output tail:       https://github.com/user/proj/archive/master.zip use |       git+https://github.com/user/proj.git#egg=proj |       Alternatively, set the version in the environment |       with SETUPTOOLS_SCM_PRETEND_VERSION_FOR_ENRICHMCP or |       VCS_VERSIONING_PRETEND_VERSION_FOR_ENRICHMCP, as described in |       https://setuptools-scm.readthedocs.io/en/latest/config/ |       hint: This usually indicates a problem with the package or the build |       environment."
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

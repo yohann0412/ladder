@@ -1,0 +1,15 @@
+{
+  "pair_id": "langgenius__webapp-conversation__182-183",
+  "commit": "d3909927aff2953b0eda40d48717bda65e73b73c",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

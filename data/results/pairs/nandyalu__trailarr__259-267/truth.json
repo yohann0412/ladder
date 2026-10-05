@@ -1,0 +1,23 @@
+{
+  "pair_id": "nandyalu__trailarr__259-267",
+  "status": "located",
+  "commit": "af40cb1d92a4468f9565f4bcf24decb60ae6775c",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "docs/getting-started/02-installation/index.md",
+      "present": true,
+      "sha256": "ea0c649d2b869658567f95f6203051d8f4bdf6a5a1c58f0c0ea08dd8f4663de4"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "docs/getting-started/02-installation/hardware-acceleration.md",
+    "docs/release-notes/2025.md"
+  ],
+  "outside_region_edit": [
+    "docs/getting-started/02-installation/index.md"
+  ],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:28:27.139857Z"
+}

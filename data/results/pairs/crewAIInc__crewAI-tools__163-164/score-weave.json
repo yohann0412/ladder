@@ -1,0 +1,115 @@
+{
+  "pair_id": "crewAIInc__crewAI-tools__163-164",
+  "rung": "weave",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "crewai_tools/tools/file_read_tool/file_read_tool.py",
+      "entity": "FileReadTool._run",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "crewai_tools/tools/file_read_tool/file_read_tool.py",
+      "entity": "FileReadTool._run",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "crewai_tools/tools/file_read_tool/file_read_tool.py",
+      "entity": "FileReadTool._generate_description",
+      "loser": "a",
+      "reason": "both sides changed it; the resolution keeps the base version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "crewai_tools/tools/file_read_tool/file_read_tool.py",
+      "entity": "FileReadTool._generate_description",
+      "loser": "b",
+      "reason": "both sides changed it; the resolution keeps the base version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "crewai_tools/tools/linkup/linkup_search_tool.py",
+      "entity": "<rest>",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "crewai_tools/tools/linkup/linkup_search_tool.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "crewai_tools/tools/file_read_tool/file_read_tool.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "_generate_description"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "crewai_tools/tools/linkup/linkup_search_tool.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "LinkupSearchTool",
+        "LinkupSearchTool.__init__",
+        "LinkupSearchTool._run"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "tests/file_read_tool_test.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "uv.lock",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

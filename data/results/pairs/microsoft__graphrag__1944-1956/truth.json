@@ -1,0 +1,20 @@
+{
+  "pair_id": "microsoft__graphrag__1944-1956",
+  "status": "located",
+  "commit": "079ddfe86e80c4c8c7a8573d55de29fa854b8639",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "graphrag/storage/factory.py",
+      "present": true,
+      "sha256": "673f4c662163089b9f370320bfac14a5781e4e7f8f515da0708d95c3584c201d"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "tests/integration/storage/test_factory.py"
+  ],
+  "outside_region_edit": [],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:28:38.751030Z"
+}

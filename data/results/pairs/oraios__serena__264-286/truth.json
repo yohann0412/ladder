@@ -1,0 +1,32 @@
+{
+  "pair_id": "oraios__serena__264-286",
+  "status": "located",
+  "commit": "194ff3bd699dbcdb181f724a9941115369fe4b5f",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "src/serena/agent.py",
+      "present": true,
+      "sha256": "c43d1bdb4be01d5f0b40328baf36a45d3b1ff88bd049bfefafb8fff9529c93f6"
+    }
+  ],
+  "touched_beyond_conflict": [
+    ".github/workflows/pytest.yml",
+    ".vscode/settings.json",
+    "src/serena/config/serena_config.py",
+    "src/serena/util/exception.py",
+    "src/solidlsp/language_servers/clangd_language_server.py",
+    "src/solidlsp/language_servers/clojure_lsp.py",
+    "src/solidlsp/language_servers/common.py",
+    "src/solidlsp/language_servers/csharp_language_server.py",
+    "src/solidlsp/language_servers/dart_language_server.py",
+    "src/solidlsp/language_servers/intelephense.py",
+    "src/solidlsp/language_servers/rust_analyzer.py",
+    "src/solidlsp/language_servers/terraform_ls.py",
+    "src/solidlsp/language_servers/typescript_language_server.py"
+  ],
+  "outside_region_edit": [],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:28:51.840848Z"
+}

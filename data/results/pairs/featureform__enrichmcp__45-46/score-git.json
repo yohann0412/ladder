@@ -1,0 +1,259 @@
+{
+  "pair_id": "featureform__enrichmcp__45-46",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "examples/sqlalchemy_shop/app.py",
+      "entity": "OrderItem",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "examples/sqlalchemy_shop/app.py",
+      "entity": "lifespan",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestBasicModel.test_simple_model_conversion.User",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestBasicModel.test_excluded_fields.User",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestBasicModel.test_various_column_types",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestBasicModel.test_model_documentation",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestBasicModel.test_default_descriptions",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestRelationships.test_many_to_one_relationship",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestRelationships.test_excluded_relationship.User",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestRelationships.test_excluded_relationship.User",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestRelationships.test_relationship_without_description.User",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestRelationships.test_relationship_without_description.User",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestEdgeCases.test_model_with_no_docstring",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestEdgeCases.test_async_attrs_compatibility",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestEdgeCases.test_generated_model_name",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestEdgeCases.test_model_inheritance",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestEdgeCases.test_sqlalchemy_model_reference_stored",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestComplexScenarios.test_full_ecommerce_model.Product",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestComplexScenarios.test_full_ecommerce_model.Product",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestComplexScenarios.test_full_ecommerce_model.Review",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "entity": "TestComplexScenarios.test_full_ecommerce_model.Review",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "examples/sqlalchemy_shop/app.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "lifespan",
+        "seed_database"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/enrichmcp/__init__.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/enrichmcp/sqlalchemy/mixin.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "_sqlalchemy_type_to_python"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "test_async_attrs_compatibility",
+        "test_async_attrs_compatibility.AsyncUser",
+        "test_async_attrs_compatibility.Base",
+        "test_default_descriptions",
+        "test_default_descriptions.Base",
+        "test_default_descriptions.Item",
+        "test_excluded_fields",
+        "test_excluded_fields.Base",
+        "test_excluded_fields.User",
+        "test_excluded_relationship",
+        "test_excluded_relationship.Base",
+        "test_excluded_relationship.Order",
+        "test_excluded_relationship.User",
+        "test_generated_model_name",
+        "test_generated_model_name.Base",
+        "test_generated_model_name.Customer",
+        "test_many_to_one_relationship",
+        "test_many_to_one_relationship.Base",
+        "test_many_to_one_relationship.Order",
+        "test_many_to_one_relationship.User",
+        "test_model_documentation",
+        "test_model_documentation.Base",
+        "test_model_documentation.Order",
+        "test_model_inheritance",
+        "test_model_inheritance.Base",
+        "test_model_inheritance.Product",
+        "test_nullable_columns",
+        "test_nullable_columns.Base",
+        "test_nullable_columns.Product",
+        "test_relationship_without_description",
+        "test_relationship_without_description.Base",
+        "test_relationship_without_description.Post",
+        "test_relationship_without_description.User",
+        "test_sqlalchemy_model_reference_stored",
+        "test_sqlalchemy_model_reference_stored.Base",
+        "test_sqlalchemy_model_reference_stored.Order",
+        "test_various_column_types",
+        "test_various_column_types.Base",
+        "test_various_column_types.DataTypes"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

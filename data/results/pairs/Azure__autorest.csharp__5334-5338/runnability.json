@@ -1,0 +1,15 @@
+{
+  "pair_id": "Azure__autorest.csharp__5334-5338",
+  "commit": "07b2ab85bafe355109f75b240c12e3b787f0c0c1",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

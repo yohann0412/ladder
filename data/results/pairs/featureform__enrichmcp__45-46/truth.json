@@ -1,0 +1,12 @@
+{
+  "pair_id": "featureform__enrichmcp__45-46",
+  "status": "unlocated",
+  "commit": null,
+  "method": null,
+  "files": [],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:27:40.197664Z"
+}

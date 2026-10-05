@@ -1,0 +1,15 @@
+{
+  "pair_id": "sveltejs__kit__14131-14180",
+  "commit": "6c130634df8d4739cade53edf1ad202570d61fc7",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

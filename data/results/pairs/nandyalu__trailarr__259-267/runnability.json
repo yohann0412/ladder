@@ -1,0 +1,15 @@
+{
+  "pair_id": "nandyalu__trailarr__259-267",
+  "commit": "153a3a4c0b6128f24144a19350bf0835e5dbdb27",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

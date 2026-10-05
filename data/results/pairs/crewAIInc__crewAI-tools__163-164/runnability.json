@@ -1,0 +1,67 @@
+{
+  "pair_id": "crewAIInc__crewAI-tools__163-164",
+  "commit": "940bbcc26617369ebea0a8d1925e7b4c916426b2",
+  "language": "python",
+  "package_manager": "uv",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "suite does not load at base: 6 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "sync",
+        "--frozen"
+      ],
+      "exit_code": 0,
+      "duration_s": 18.5,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 14.8 s; pytest: exit 0 in 0.1 s; suite failed: 0 passed, 0 failed, 6 errors, 0 skipped (work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/base_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.base_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/spider_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.spider_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/brave_search_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.brave_search_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/rag/rag_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.rag.rag_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/selenium_scraping_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.selenium_scraping_tool_test); first run failed: 0 passed, 0 failed, 6 errors, 0 skipped (work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/base_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.base_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/spider_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.spider_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/brave_search_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.brave_search_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/rag/rag_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.rag.rag_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/selenium_scraping_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.selenium_scraping_tool_test)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/crewAIInc__crewAI-tools__163-164/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/crewAIInc__crewAI-tools__163-164/trees/base",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 20.2,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 13.4 s; suite failed: 0 passed, 0 failed, 6 errors, 0 skipped (work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/base_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.base_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/spider_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.spider_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/brave_search_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.brave_search_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/rag/rag_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.rag.rag_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/selenium_scraping_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.selenium_scraping_tool_test); first run failed: 0 passed, 0 failed, 6 errors, 0 skipped (work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/base_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.base_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/spider_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.spider_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/brave_search_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.brave_search_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/rag/rag_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.rag.rag_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/selenium_scraping_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.selenium_scraping_tool_test)"
+    }
+  ],
+  "test_count": 6,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/crewAIInc__crewAI-tools__163-164/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/crewAIInc__crewAI-tools__163-164/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 6,
+    "skipped": 0,
+    "duration_s": 1.6,
+    "retried": true,
+    "failing_tests": [
+      "work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/base_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.base_tool_test",
+      "work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/spider_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.spider_tool_test",
+      "work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/brave_search_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.brave_search_tool_test",
+      "work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/rag/rag_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.rag.rag_tool_test",
+      "work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/selenium_scraping_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.selenium_scraping_tool_test",
+      "work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/test_code_interpreter_tool.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.test_code_interpreter_tool"
+    ],
+    "detail": "0 passed, 0 failed, 6 errors, 0 skipped (work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/base_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.base_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/spider_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.spider_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/brave_search_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.brave_search_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/rag/rag_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.rag.rag_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/selenium_scraping_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.selenium_scraping_tool_test); first run failed: 0 passed, 0 failed, 6 errors, 0 skipped (work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/base_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.base_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/spider_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.spider_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/brave_search_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.brave_search_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/rag/rag_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.rag.rag_tool_test, work/runtime/crewAIInc__crewAI-tools__163-164/trees/base/tests/tools/selenium_scraping_tool_test.py::work.runtime.crewAIInc__crewAI-tools__163-164.trees.base.tests.tools.selenium_scraping_tool_test)"
+  },
+  "timeout_s": 600
+}
