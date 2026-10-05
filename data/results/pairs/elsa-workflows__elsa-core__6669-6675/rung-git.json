@@ -1,0 +1,10 @@
+{
+  "pair_id": "elsa-workflows__elsa-core__6669-6675",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "dc99cb0486606d4ded13699ee6aff823ace96a1d"
+}

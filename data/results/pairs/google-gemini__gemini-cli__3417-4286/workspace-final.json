@@ -1,0 +1,23 @@
+{
+  "pair_id": "google-gemini__gemini-cli__3417-4286",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/google-gemini__gemini-cli__3417-4286",
+  "source_base": "cba272082d15a6b9fb4e21bc27ed1d56fa5b9a56",
+  "source_a": "de737f4f6dd588e2930b1c050a502f5b8492a99b",
+  "source_b": "5ce020ba81df90955fbb52dc361b62ec9cbf245a",
+  "base_commit": "570fb7d8c44704addc799b2e308991c730d69284",
+  "a_commit": "24569b3c4e97dd8e662ffb9f6106dae8831f66be",
+  "b_commit": "f3423373fdecc0e9daf69e3c2490268dd8533297",
+  "object_count": 727,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

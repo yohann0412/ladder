@@ -1,0 +1,23 @@
+{
+  "pair_id": "azure-ai-foundry__foundry-samples__223-232",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/azure-ai-foundry__foundry-samples__223-232",
+  "source_base": "0f5a7ebed18a0239d2e1ad5e7e89770ca5eff428",
+  "source_a": "fe8812590f910983497b1dc8441ce0711f32e430",
+  "source_b": "8ddd2d4ac198b613bbbe2602a195a17d8b1aad2e",
+  "base_commit": "de98bbaa3ac5b6b60b80c1b169d183e0d3ee6b04",
+  "a_commit": "a438da3e09df9a50fc1fe8d93a518d078540aaf7",
+  "b_commit": "20b750a31808eb13fcaf0ff160104fa7ed833931",
+  "object_count": 856,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

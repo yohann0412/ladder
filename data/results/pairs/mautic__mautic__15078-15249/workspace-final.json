@@ -1,0 +1,23 @@
+{
+  "pair_id": "mautic__mautic__15078-15249",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/mautic__mautic__15078-15249",
+  "source_base": "65ff308ac37bdb15a76ca79e6d1c11bcbe1382dd",
+  "source_a": "46d91c0ce20bc480e337dd94068a306efed05ead",
+  "source_b": "1cbc445916bf2c8339294238e34be86c94ac513b",
+  "base_commit": "9f0515dfd989149cd9c5a88af816975fbe04233a",
+  "a_commit": "99077dd14b0d180bf8849f36999c6d9fcf1b9ad9",
+  "b_commit": "2536dc8b8e814c85ccfbcbcddc19c8fc82225ab6",
+  "object_count": 10343,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

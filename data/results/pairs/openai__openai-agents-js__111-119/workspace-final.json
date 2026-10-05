@@ -1,0 +1,23 @@
+{
+  "pair_id": "openai__openai-agents-js__111-119",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/openai__openai-agents-js__111-119",
+  "source_base": "4a0fe867e4acdc0bc7ce7cbba5d3015bc9d18ec9",
+  "source_a": "5d171883455250b9d69ef71af4fbb8277176d99c",
+  "source_b": "09543bf37c6b4ed3e39126d26823222aebb47c41",
+  "base_commit": "46c52d37c230c268f35676c4784d7e1fe497f443",
+  "a_commit": "c943cb320fd2e74737e59742e7aa106b4ee2e623",
+  "b_commit": "e3f81594ca27fa5f3591cf66727098cee2bad97a",
+  "object_count": 886,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

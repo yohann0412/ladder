@@ -1,0 +1,23 @@
+{
+  "pair_id": "opendocument-app__OpenDocument.droid__406-407",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/opendocument-app__OpenDocument.droid__406-407",
+  "source_base": "ca1b929d14df653e092dd40f2902e0e2cdb0fca2",
+  "source_a": "06370adee8a8698617ce666cb830c18df2cba500",
+  "source_b": "d20c59d163e214e150f45dd27c5c26cfceedb925",
+  "base_commit": "1a530083ef8158d70d2119877002e4d95448625a",
+  "a_commit": "127440219d243622002f5e4f1205c36e6f923d9b",
+  "b_commit": "d30100d8f75d321c53d0d6270a510083ae5b15f2",
+  "object_count": 352,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

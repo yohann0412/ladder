@@ -1,0 +1,93 @@
+{
+  "pair_id": "odigos-io__odigos__2962-3049",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 8, conflicted files: 8",
+  "messages": [
+    "CONFLICT (content): Merge conflict in instrumentor/controllers/agentenabled/instrumentationconfig_controller.go",
+    "CONFLICT (content): Merge conflict in instrumentor/controllers/agentenabled/pods_webhook.go",
+    "CONFLICT (content): Merge conflict in instrumentor/controllers/agentenabled/rollout/rollout.go",
+    "CONFLICT (content): Merge conflict in instrumentor/controllers/agentenabled/sync.go",
+    "CONFLICT (modify/delete): instrumentor/controllers/sourceinstrumentation/instrumentedapp_migration_controller.go deleted in b and modified in a.  Version a of instrumentor/controllers/sourceinstrumentation/instrumentedapp_migration_controller.go left in tree.",
+    "CONFLICT (content): Merge conflict in instrumentor/instrumentor.go",
+    "CONFLICT (modify/delete): instrumentor/runtimemigration/runtimemigration.go deleted in b and modified in a.  Version a of instrumentor/runtimemigration/runtimemigration.go left in tree.",
+    "CONFLICT (modify/delete): instrumentor/runtimemigration/utils.go deleted in b and modified in a.  Version a of instrumentor/runtimemigration/utils.go left in tree."
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "modify/delete",
+    "content",
+    "modify/delete",
+    "modify/delete"
+  ],
+  "files": [
+    {
+      "path": "instrumentor/controllers/agentenabled/instrumentationconfig_controller.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/pods_webhook.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/rollout/rollout.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/sync.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "instrumentor/controllers/sourceinstrumentation/instrumentedapp_migration_controller.go",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "instrumentor/instrumentor.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "instrumentor/runtimemigration/utils.go",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

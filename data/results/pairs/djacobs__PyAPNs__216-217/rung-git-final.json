@@ -1,0 +1,23 @@
+{
+  "pair_id": "djacobs__PyAPNs__216-217",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in apns.py"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "apns.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

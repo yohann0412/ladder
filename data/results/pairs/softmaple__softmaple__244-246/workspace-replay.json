@@ -1,0 +1,23 @@
+{
+  "pair_id": "softmaple__softmaple__244-246",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/softmaple__softmaple__244-246",
+  "source_base": "ca011d121671c2a11a5e2abc30c3d0f4e2a1ef70",
+  "source_a": "9d6a2f676d2f89818a30d50d9519e1724d0cb475",
+  "source_b": "8df3d00a91221a2fe2386380ee5ecab7fc136616",
+  "base_commit": "dbdbcacf61427c84ae91447c6ed1697799a36017",
+  "a_commit": "c027500e66d51a9fff811b2febcdeabc3a9ee126",
+  "b_commit": "0f8691172fcba89799a93da34ec30f3df0c69bd1",
+  "object_count": 395,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

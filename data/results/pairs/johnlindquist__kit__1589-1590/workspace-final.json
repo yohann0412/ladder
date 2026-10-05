@@ -1,0 +1,23 @@
+{
+  "pair_id": "johnlindquist__kit__1589-1590",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/johnlindquist__kit__1589-1590",
+  "source_base": "35921f453e40fbd9aa040565478d678bb3328e20",
+  "source_a": "4f90a1a2d43301ec6f6d69b968e458efa42500ac",
+  "source_b": "351f3678a6d42757ef6bdfa62b8d0cdb51456fc9",
+  "base_commit": "bdeea917878da424877277a642a504a62086e894",
+  "a_commit": "bd0485970ac879be2df5072f10a68c782802a166",
+  "b_commit": "31abfb5d38a337cbd3f8ef0ad2aeff2a0b40961f",
+  "object_count": 741,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "pair_id": "stefankoegl__python-json-pointer__65-66",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4",
+  "messages": [
+    "CONFLICT (content): Merge conflict in .github/workflows/test.yaml",
+    "CONFLICT (content): Merge conflict in doc/index.rst",
+    "CONFLICT (content): Merge conflict in setup.py",
+    "CONFLICT (content): Merge conflict in tests.py"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/test.yaml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "doc/index.rst",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "setup.py",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "tests.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

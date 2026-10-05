@@ -1,0 +1,23 @@
+{
+  "pair_id": "manifoldmarkets__manifold__3582-3599",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/manifoldmarkets__manifold__3582-3599",
+  "source_base": "d0f245d144420e3db013b9fc6671c2ef8577796c",
+  "source_a": "7cda958f75578726e87421747e56d89cba13f419",
+  "source_b": "4dd4ac9e2141151222667630a497919ff4dfdee4",
+  "base_commit": "5629a6e6d3158923fadd963d6b9c2c832d5763bd",
+  "a_commit": "822154e8913ab507a5226a28ff231ba632626a70",
+  "b_commit": "c28401c2840b70486e4403427c8bcda78eccd0b5",
+  "object_count": 2884,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

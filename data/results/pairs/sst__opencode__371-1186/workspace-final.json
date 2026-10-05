@@ -1,0 +1,23 @@
+{
+  "pair_id": "sst__opencode__371-1186",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/sst__opencode__371-1186",
+  "source_base": "17fa8c117b03d34febe82712ca67fd708b67875f",
+  "source_a": "adb5448ffcbc7bc4054f426ca4d61e31aa0f5cea",
+  "source_b": "96aea95c91779d9bd910ce9ba55f96b8d93cf823",
+  "base_commit": "68ce02a4fa1b1d03618eed37d16097bae58215e8",
+  "a_commit": "381dc3371acdac0a39c5a52606fb2df33fa58306",
+  "b_commit": "c6f529013c6e477bbf1a6eb92582b745cfb69ee1",
+  "object_count": 696,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

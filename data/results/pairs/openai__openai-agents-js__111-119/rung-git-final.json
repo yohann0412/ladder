@@ -1,0 +1,23 @@
+{
+  "pair_id": "openai__openai-agents-js__111-119",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in packages/agents-extensions/src/metadata.ts"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "packages/agents-extensions/src/metadata.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

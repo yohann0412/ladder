@@ -1,0 +1,53 @@
+{
+  "pair_id": "sst__opencode__371-1186",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in packages/opencode/src/cli/cmd/mcp.ts",
+    "CONFLICT (content): Merge conflict in packages/opencode/src/config/config.ts",
+    "CONFLICT (content): Merge conflict in packages/opencode/src/index.ts",
+    "CONFLICT (content): Merge conflict in packages/opencode/src/mcp/index.ts"
+  ],
+  "types": [
+    "add/add",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "packages/opencode/src/cli/cmd/mcp.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/opencode/src/config/config.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/opencode/src/index.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/opencode/src/mcp/index.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

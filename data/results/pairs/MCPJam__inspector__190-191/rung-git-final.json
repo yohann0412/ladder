@@ -1,0 +1,63 @@
+{
+  "pair_id": "MCPJam__inspector__190-191",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 5, conflicted files: 5",
+  "messages": [
+    "CONFLICT (content): Merge conflict in package-lock.json",
+    "CONFLICT (content): Merge conflict in server/src/index.ts",
+    "CONFLICT (add/add): Merge conflict in server/src/shared/index.ts",
+    "CONFLICT (add/add): Merge conflict in server/src/shared/types.ts",
+    "CONFLICT (add/add): Merge conflict in server/src/shared/utils.ts"
+  ],
+  "types": [
+    "content",
+    "content",
+    "add/add",
+    "add/add",
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": "package-lock.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "server/src/index.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "server/src/shared/index.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "server/src/shared/types.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "server/src/shared/utils.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "Skyscanner__turbolift__173-176",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Skyscanner__turbolift__173-176",
+  "source_base": "ecd25bf57cb648cc8ea11d6724082036313bdd3c",
+  "source_a": "7f1563f0e066e599e9500b1a7db46bd0b0cca703",
+  "source_b": "a19cd0017800fb2f370318fa40c44f8111b859b4",
+  "base_commit": "43ef489b943bf4328e76188dce21cadca3b1391e",
+  "a_commit": "156e69a2aa9ba6073784055e28f31cea46f83979",
+  "b_commit": "8aeb257461855a51ffac2919b7497394e769a8d6",
+  "object_count": 91,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "airbytehq__airbyte__61490-61695",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/airbytehq__airbyte__61490-61695",
+  "source_base": "e94d982d4977c917787db9d91c1346e845de3e00",
+  "source_a": "9d1c9d38a189a5e03618564d24a99b3106a22345",
+  "source_b": "39ae1aef106350fdeb8631d1a1fd67a78bea74ce",
+  "base_commit": "04b242ea35db753cb427b8ad402dd5098ee05f85",
+  "a_commit": "4d7dd2fb2290b5e44e576c9edb892b40b9651c9e",
+  "b_commit": "af261af89f232464cd0c6307f1d35f983ea0b341",
+  "object_count": 22396,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

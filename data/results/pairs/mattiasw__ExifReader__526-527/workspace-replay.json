@@ -1,0 +1,23 @@
+{
+  "pair_id": "mattiasw__ExifReader__526-527",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/mattiasw__ExifReader__526-527",
+  "source_base": "7e3902b833a2e1a2fc951b86b90c800d741f457e",
+  "source_a": "6bba2452ea63c4a8735aae4856fb9079a67f228a",
+  "source_b": "ac736f875723551145191f5d4f5a22307f8220a3",
+  "base_commit": "0f25b1e107d0e0d1c8e8d99a050b0f3b9353a99e",
+  "a_commit": "847145c242151460cce8c1482a1c6e18e6da328b",
+  "b_commit": "336090eda553f7437d55be4ca0ad5b341b0443d5",
+  "object_count": 228,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

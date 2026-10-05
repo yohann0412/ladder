@@ -1,0 +1,73 @@
+{
+  "pair_id": "quarylabs__sqruff__1643-1664",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 6, conflicted files: 6",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in crates/lib-dialects/src/tsql.rs",
+    "CONFLICT (add/add): Merge conflict in crates/lib-dialects/src/tsql_keywords.rs",
+    "CONFLICT (add/add): Merge conflict in crates/lib-dialects/test/fixtures/dialects/tsql/data_types_max.sql",
+    "CONFLICT (add/add): Merge conflict in crates/lib-dialects/test/fixtures/dialects/tsql/data_types_max.yml",
+    "CONFLICT (content): Merge conflict in crates/lib/test/fixtures/rules/std_rule_cases/AL07.yml",
+    "CONFLICT (content): Merge conflict in crates/lib/test/fixtures/rules/std_rule_cases/LT02-indent.yml"
+  ],
+  "types": [
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "crates/lib-dialects/src/tsql.rs",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "crates/lib-dialects/src/tsql_keywords.rs",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "crates/lib-dialects/test/fixtures/dialects/tsql/data_types_max.sql",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "crates/lib-dialects/test/fixtures/dialects/tsql/data_types_max.yml",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "crates/lib/test/fixtures/rules/std_rule_cases/AL07.yml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "crates/lib/test/fixtures/rules/std_rule_cases/LT02-indent.yml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

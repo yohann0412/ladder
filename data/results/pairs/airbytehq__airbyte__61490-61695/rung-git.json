@@ -1,0 +1,23 @@
+{
+  "pair_id": "airbytehq__airbyte__61490-61695",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in airbyte-integrations/connectors/source-s3/source_s3/v4/stream_reader.py"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "airbyte-integrations/connectors/source-s3/source_s3/v4/stream_reader.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

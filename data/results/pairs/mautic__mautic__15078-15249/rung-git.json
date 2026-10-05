@@ -1,0 +1,23 @@
+{
+  "pair_id": "mautic__mautic__15078-15249",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in app/bundles/LeadBundle/Form/Type/CampaignEventLeadFieldValueType.php"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "app/bundles/LeadBundle/Form/Type/CampaignEventLeadFieldValueType.php",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

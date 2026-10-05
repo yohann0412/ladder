@@ -1,0 +1,23 @@
+{
+  "pair_id": "traccar__traccar__5560-5568",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/traccar__traccar__5560-5568",
+  "source_base": "263f63e106c2e4985f5d64208742c3c2c057abbb",
+  "source_a": "0a9e46c0b790acdddbb5e8862bb360d0e014f068",
+  "source_b": "ee338c990e10c07d992544a9dd1929a098570a13",
+  "base_commit": "bf3fa4a0f0495cb9a5610419164335000473fb5b",
+  "a_commit": "eef0fe7ab9373f8a3225af9aa1a05d61fcfec286",
+  "b_commit": "68a6a782ed28db465e7f824807bb5c51fbdb7f94",
+  "object_count": 1654,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

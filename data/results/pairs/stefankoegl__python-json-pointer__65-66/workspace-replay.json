@@ -1,0 +1,23 @@
+{
+  "pair_id": "stefankoegl__python-json-pointer__65-66",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/stefankoegl__python-json-pointer__65-66",
+  "source_base": "f3643addecf9dc66cb7bd120532a8373f19b1e23",
+  "source_a": "afee5075545327313df7962e0054d70e52ec352d",
+  "source_b": "f9daf3ed4b17c30de1fc7befbbdeb4fd98f1cdc9",
+  "base_commit": "64d238f0fd603f84dbd9a5f37ec9dcd01c7194ba",
+  "a_commit": "396a9bfa99b0a313faaaaa4c06388626543232c8",
+  "b_commit": "29a3a4a01d54e47546c20ea60534d80045cca1fd",
+  "object_count": 57,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "langbot-app__LangBot__1407-1514",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/langbot-app__LangBot__1407-1514",
+  "source_base": "cd68760c75221935ef956aaf35ffd9429f037561",
+  "source_a": "46f93d3913020d7c83c3a82136ce2283e0084962",
+  "source_b": "80a25eab41a2bce5e98a7d422521fecd10951d27",
+  "base_commit": "b43a9c4128d6812bb1266e2350602b5bd2dcbba0",
+  "a_commit": "ff096d8c93f0a08a516c608594069775bea29e97",
+  "b_commit": "46d2c3f2e236c3f0abd9f043f6d0401a2dfc74a3",
+  "object_count": 849,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

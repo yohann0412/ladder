@@ -1,0 +1,23 @@
+{
+  "pair_id": "jdx__mise__5638-5828",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/jdx__mise__5638-5828",
+  "source_base": "74271e1659f2d6950ddea7a897b21805ac02cacc",
+  "source_a": "0faffcbd02bfbed04443021ebd6633762635e871",
+  "source_b": "d11b94091059ba78bbfa0fe346a18c7d9db21ea2",
+  "base_commit": "20beeb8ce8a42f7793716e5d8a9823da51b54d1e",
+  "a_commit": "ae0c42fda0929d71e93e60b0d68db2f0f8a4ca78",
+  "b_commit": "fa8f76e0fae1e8e5a9a7ca1cfabd56e37813b6a1",
+  "object_count": 1286,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

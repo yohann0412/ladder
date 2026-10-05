@@ -1,0 +1,23 @@
+{
+  "pair_id": "gofiber__fiber__3508-3582",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/gofiber__fiber__3508-3582",
+  "source_base": "8503eeffca34a1f12b4d427541d22fde5be2d11c",
+  "source_a": "08390f54c7a3596ec191a674d31a9b4873a8bbcb",
+  "source_b": "d124c9a83fe223c1a738a97612947fd5ae95f84d",
+  "base_commit": "6cb34a5777210002b82e4fb9596e496bb46adc69",
+  "a_commit": "1b2358c271b6b313fd07d35984ad651619116827",
+  "b_commit": "a4e3c6eca1446845149bc2f73d6d75e1a80f9659",
+  "object_count": 519,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

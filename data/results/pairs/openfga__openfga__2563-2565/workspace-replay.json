@@ -1,0 +1,23 @@
+{
+  "pair_id": "openfga__openfga__2563-2565",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/openfga__openfga__2563-2565",
+  "source_base": "6a8123602861ab1fb8745076c89918aec5961bb0",
+  "source_a": "6c5bd3c3faa802744f001bc5dfa69bc17c17f560",
+  "source_b": "8579d7349002fe225fb31b426c651efcd6afd96e",
+  "base_commit": "9a24e15e28490b44fd090f9859644a0b99cdc3d6",
+  "a_commit": "c5046b015e34d062088783554feaaa84163cc9b3",
+  "b_commit": "cfc7534932c4133fa2e411143209029e1b47675d",
+  "object_count": 543,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

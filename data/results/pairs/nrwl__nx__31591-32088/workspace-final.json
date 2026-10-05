@@ -1,0 +1,23 @@
+{
+  "pair_id": "nrwl__nx__31591-32088",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/nrwl__nx__31591-32088",
+  "source_base": "7c5faba41be362a24548fe779d6599f205c98e98",
+  "source_a": "940535aa6a4354b947bc37c65d0a074d2044a394",
+  "source_b": "7da286e9a2810160babf5deb269921b6ec65194d",
+  "base_commit": "cde3532f88c7378af1383552fcdd7dc37bbf519f",
+  "a_commit": "01aa3f8c6be29c1649719f7bc632c3d2442287bc",
+  "b_commit": "3cc5f1ff1cee77bb3253b9d350691dc488fd5fe5",
+  "object_count": 14585,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

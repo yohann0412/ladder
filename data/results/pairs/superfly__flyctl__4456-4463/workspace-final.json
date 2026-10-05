@@ -1,0 +1,23 @@
+{
+  "pair_id": "superfly__flyctl__4456-4463",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/superfly__flyctl__4456-4463",
+  "source_base": "1dc18d2ee19ad2f501a95a0958489766925dd4a4",
+  "source_a": "60475577e5099a61eaf5fea69be53f29a3bc5058",
+  "source_b": "15a543882cbad0c9348640cffdd71fb71ac34953",
+  "base_commit": "1dea2810beccce0e9501e5686101e813e254c2e1",
+  "a_commit": "002df722d6913d2b5b3c4eea56d0e90c589576ae",
+  "b_commit": "1df02ca055bf4b09ea31d024ea7a81b84fa14d7f",
+  "object_count": 1099,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

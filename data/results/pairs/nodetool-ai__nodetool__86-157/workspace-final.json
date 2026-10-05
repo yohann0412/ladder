@@ -1,0 +1,23 @@
+{
+  "pair_id": "nodetool-ai__nodetool__86-157",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/nodetool-ai__nodetool__86-157",
+  "source_base": "b173b231241eafb85b97a791826d033890ac0c56",
+  "source_a": "bb566f288792c68935173e2da937aa5802dc7afa",
+  "source_b": "e40644c0ff052d99cafda67e02e06ffd600e754d",
+  "base_commit": "c6c377277bba359d07bf8df54bc7240a245124af",
+  "a_commit": "4210b38bfbed51da3c5a325efb7cbad6b86505fc",
+  "b_commit": "f6d15ee11f69226e2b284f477db55f484dba2a25",
+  "object_count": 1344,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

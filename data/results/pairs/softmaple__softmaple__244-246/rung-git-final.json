@@ -1,0 +1,23 @@
+{
+  "pair_id": "softmaple__softmaple__244-246",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in packages/editor/tsconfig.app.json"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "packages/editor/tsconfig.app.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

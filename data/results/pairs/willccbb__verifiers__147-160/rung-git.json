@@ -1,0 +1,23 @@
+{
+  "pair_id": "willccbb__verifiers__147-160",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in verifiers/envs/tool_env.py"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "verifiers/envs/tool_env.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

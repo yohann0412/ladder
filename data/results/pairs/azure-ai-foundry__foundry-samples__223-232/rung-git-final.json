@@ -1,0 +1,63 @@
+{
+  "pair_id": "azure-ai-foundry__foundry-samples__223-232",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 5, conflicted files: 5",
+  "messages": [
+    "CONFLICT (content): Merge conflict in samples/microsoft/java/mslearn-resources/quickstart/TESTING.md",
+    "CONFLICT (content): Merge conflict in samples/microsoft/java/mslearn-resources/quickstart/src/main/java/com/azure/ai/foundry/samples/ChatCompletionSample.java",
+    "CONFLICT (content): Merge conflict in samples/microsoft/java/mslearn-resources/quickstart/src/main/java/com/azure/ai/foundry/samples/ChatCompletionStreamingSample.java",
+    "CONFLICT (content): Merge conflict in samples/microsoft/java/mslearn-resources/quickstart/testing.bat",
+    "CONFLICT (content): Merge conflict in samples/microsoft/java/mslearn-resources/quickstart/testing.sh"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/TESTING.md",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "docs_text"
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/src/main/java/com/azure/ai/foundry/samples/ChatCompletionSample.java",
+      "types": [
+        "content"
+      ],
+      "regions": 5,
+      "category": "source"
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/src/main/java/com/azure/ai/foundry/samples/ChatCompletionStreamingSample.java",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/testing.bat",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "other"
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/testing.sh",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

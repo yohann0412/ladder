@@ -1,0 +1,23 @@
+{
+  "pair_id": "get-convex__convex-helpers__516-600",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/get-convex__convex-helpers__516-600",
+  "source_base": "c4caac1cee918ddccfc6624efa1e52cbb478077c",
+  "source_a": "162cb25de3d405328fc3b244c69175abce08464d",
+  "source_b": "80a232662b3935ea5fd8765f88d5e366986250a0",
+  "base_commit": "220f7337a9203214b43329c6881dff5be72d98d9",
+  "a_commit": "a99acddc47ba0f7841d689e61f9eaf06ceb490d5",
+  "b_commit": "5f1f7a82faff98570ce64f04fa77230375090fab",
+  "object_count": 176,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "mlflow__mlflow__16057-16442",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/mlflow__mlflow__16057-16442",
+  "source_base": "7685fbde34f7795878dcf9ca95e35da25e739748",
+  "source_a": "9073d21cb9640fc6014230be9bfdca93b2614e9c",
+  "source_b": "3068f9eb19a127f86fe4b25fbb9ef94bcf29c666",
+  "base_commit": "c75fc58210fce6ae0bf1358f9ad26a4c28b92efa",
+  "a_commit": "5d84e614c685731f2dfc9b295f31a1bfbddc6641",
+  "b_commit": "76e5821f60a553504404535843de047cdf0eb7ae",
+  "object_count": 7273,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

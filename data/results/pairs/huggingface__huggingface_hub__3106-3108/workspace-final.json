@@ -1,0 +1,23 @@
+{
+  "pair_id": "huggingface__huggingface_hub__3106-3108",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/huggingface__huggingface_hub__3106-3108",
+  "source_base": "1ebdbf9517797756105058ffd2f92723ff908e46",
+  "source_a": "1746c52251b842e541e4ce19861b201e6bee987f",
+  "source_b": "b6fb21b7ea84d7d5f8bc9389304ea5b0e68a25ee",
+  "base_commit": "35dadcba7d086b619adabb8f09200b0b99226775",
+  "a_commit": "da90c7fd1cf7345daac82aac86fbea36124f21ca",
+  "b_commit": "5157b56ecc253984d5c69cffbfe3b507174879f4",
+  "object_count": 474,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

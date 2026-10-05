@@ -1,0 +1,23 @@
+{
+  "pair_id": "elsa-workflows__elsa-studio__521-526",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/elsa-workflows__elsa-studio__521-526",
+  "source_base": "bbbbf58d0a1d7774437f6cc02e3e396d861aa966",
+  "source_a": "c642f03bfb9df0b78a6fb63d223b4669d117f972",
+  "source_b": "f42d94d35de62c7f0c8c67449be5256ae0820856",
+  "base_commit": "e5ce59bc559968f4ba967919e0d34d2c00f09685",
+  "a_commit": "0c90a8c91e3aae36a2132f217ebaa983a771aeef",
+  "b_commit": "05ca2d259ca7f75d668f00bb9ab46a4b9f2cbd0e",
+  "object_count": 1356,
+  "criss_cross": true,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

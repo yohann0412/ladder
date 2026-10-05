@@ -1,0 +1,23 @@
+{
+  "pair_id": "djacobs__PyAPNs__216-217",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/djacobs__PyAPNs__216-217",
+  "source_base": "833b00f5c58a211d4a00ee4a0c41ca0a0e032270",
+  "source_a": "6d1d42a8fd359cec7827e3fe89946ffa6f9d1ac9",
+  "source_b": "b76654275514db71343c086947320ede6305dc4c",
+  "base_commit": "24beb672f831819f53b3a74993ba0edc8da9fab9",
+  "a_commit": "36d342edb479fbb54fdde9a62ccf66ea76c5d984",
+  "b_commit": "576d605382acd51bde4350734eb32ed78ec41ced",
+  "object_count": 21,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

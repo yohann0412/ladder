@@ -1,0 +1,23 @@
+{
+  "pair_id": "WorkflowAI__WorkflowAI__371-449",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in AGENTS.md"
+  ],
+  "types": [
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

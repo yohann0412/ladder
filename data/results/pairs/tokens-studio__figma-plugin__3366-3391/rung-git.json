@@ -1,0 +1,23 @@
+{
+  "pair_id": "tokens-studio__figma-plugin__3366-3391",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in packages/tokens-studio-for-figma/src/app/components/AppContainer/startupProcessSteps/pullTokensFactory.ts"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "packages/tokens-studio-for-figma/src/app/components/AppContainer/startupProcessSteps/pullTokensFactory.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

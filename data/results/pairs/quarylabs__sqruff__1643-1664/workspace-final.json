@@ -1,0 +1,23 @@
+{
+  "pair_id": "quarylabs__sqruff__1643-1664",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/quarylabs__sqruff__1643-1664",
+  "source_base": "aed2bd93415ad0fc81fe4b530d5435997e713ba7",
+  "source_a": "9f7d8fcf4b1331b8f7874bfdddb191606b6732c6",
+  "source_b": "4490e8b240feef244fc87789a50cc07926b0acc9",
+  "base_commit": "988d6864ccb1a3f7b5b91f45feeac49bdfd733f3",
+  "a_commit": "45eb6bb55e80db32df8a67eddea31af5e5e2c85e",
+  "b_commit": "aaa670b7c8d18be328fe80ed8eac28e13547e394",
+  "object_count": 2577,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

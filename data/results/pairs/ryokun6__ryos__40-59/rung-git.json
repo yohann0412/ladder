@@ -1,0 +1,23 @@
+{
+  "pair_id": "ryokun6__ryos__40-59",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/apps/ipod/components/IpodAppComponent.tsx"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/apps/ipod/components/IpodAppComponent.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

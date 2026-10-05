@@ -1,0 +1,33 @@
+{
+  "pair_id": "get-convex__convex-helpers__516-600",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2",
+  "messages": [
+    "CONFLICT (content): Merge conflict in package-lock.json",
+    "CONFLICT (content): Merge conflict in packages/convex-helpers/package.json"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "package-lock.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "packages/convex-helpers/package.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

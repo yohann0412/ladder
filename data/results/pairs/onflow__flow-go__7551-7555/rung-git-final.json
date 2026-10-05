@@ -1,0 +1,143 @@
+{
+  "pair_id": "onflow__flow-go__7551-7555",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 13, conflicted files: 13",
+  "messages": [
+    "CONFLICT (content): Merge conflict in engine/collection/synchronization/engine_test.go",
+    "CONFLICT (content): Merge conflict in engine/collection/synchronization/request_handler.go",
+    "CONFLICT (content): Merge conflict in engine/common/synchronization/engine_test.go",
+    "CONFLICT (content): Merge conflict in engine/common/synchronization/request_handler.go",
+    "CONFLICT (content): Merge conflict in model/messages/collection.go",
+    "CONFLICT (content): Merge conflict in model/messages/consensus.go",
+    "CONFLICT (content): Merge conflict in model/messages/convert_test.go",
+    "CONFLICT (content): Merge conflict in model/messages/dkg.go",
+    "CONFLICT (content): Merge conflict in model/messages/exchange.go",
+    "CONFLICT (content): Merge conflict in model/messages/execution.go",
+    "CONFLICT (content): Merge conflict in model/messages/synchronization.go",
+    "CONFLICT (content): Merge conflict in model/messages/verification.go",
+    "CONFLICT (content): Merge conflict in network/codec/roundTripHeader_test.go"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "engine/collection/synchronization/engine_test.go",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "engine/collection/synchronization/request_handler.go",
+      "types": [
+        "content"
+      ],
+      "regions": 5,
+      "category": "source"
+    },
+    {
+      "path": "engine/common/synchronization/engine_test.go",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "engine/common/synchronization/request_handler.go",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "model/messages/collection.go",
+      "types": [
+        "content"
+      ],
+      "regions": 7,
+      "category": "source"
+    },
+    {
+      "path": "model/messages/consensus.go",
+      "types": [
+        "content"
+      ],
+      "regions": 7,
+      "category": "source"
+    },
+    {
+      "path": "model/messages/convert_test.go",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "model/messages/dkg.go",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "model/messages/exchange.go",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "model/messages/execution.go",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "model/messages/synchronization.go",
+      "types": [
+        "content"
+      ],
+      "regions": 14,
+      "category": "source"
+    },
+    {
+      "path": "model/messages/verification.go",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "network/codec/roundTripHeader_test.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

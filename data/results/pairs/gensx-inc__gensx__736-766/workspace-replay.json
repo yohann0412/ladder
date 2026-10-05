@@ -1,0 +1,23 @@
+{
+  "pair_id": "gensx-inc__gensx__736-766",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/gensx-inc__gensx__736-766",
+  "source_base": "c56355b45d7156f14a607bf2970a253474a5bdca",
+  "source_a": "b21e8c082a808425c331685f799e1bebaea4c77d",
+  "source_b": "a83e2ca7e04c863f075b2804425888be240446c9",
+  "base_commit": "6541a24e52af6f4fe2557a926205d0a4a1346ae2",
+  "a_commit": "60eaf0de665a086ddf2be4c44b203ddf593263b2",
+  "b_commit": "fc720b1776baa68850530360abec99f7ecd47f57",
+  "object_count": 894,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

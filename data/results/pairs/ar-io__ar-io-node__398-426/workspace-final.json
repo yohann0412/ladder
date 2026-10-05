@@ -1,0 +1,23 @@
+{
+  "pair_id": "ar-io__ar-io-node__398-426",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/ar-io__ar-io-node__398-426",
+  "source_base": "c2f885195fbd974b3fbd94125974e10c7a2fed1c",
+  "source_a": "25aec6f4207620b3a23a6d6cb82452d4ba56e9c4",
+  "source_b": "0a4f82581c0e9cc238b3f98ca6b3fab407e28b7b",
+  "base_commit": "49a05fe4561a29df3505f41319be44fbe2c3e228",
+  "a_commit": "c26a704e5b0d4e0b84149e79f27ca2a461857b14",
+  "b_commit": "6d1509f093159fa9fe62558c255660d8507bd5f7",
+  "object_count": 743,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
