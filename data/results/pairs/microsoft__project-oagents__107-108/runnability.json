@@ -1,0 +1,15 @@
+{
+  "pair_id": "microsoft__project-oagents__107-108",
+  "commit": "6966d92eae2660b27419c13c2675196bde367365",
+  "language": "csharp",
+  "package_manager": "dotnet",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "csharp project; dotnet is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

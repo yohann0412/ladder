@@ -1,0 +1,53 @@
+{
+  "pair_id": "promptfoo__promptfoo__2709-2710",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: other (suite fails at base: 30 failed, 2 errors)",
+  "files_a": [
+    "examples/csv-metadata/README.md",
+    "examples/csv-metadata/promptfooconfig.yaml",
+    "examples/csv-metadata/tests.csv",
+    "site/docs/configuration/parameters.md",
+    "src/commands/eval/filterTests.ts",
+    "src/csv.ts"
+  ],
+  "files_b": [
+    "site/docs/providers/azure.md",
+    "src/providers/azure.ts"
+  ]
+}

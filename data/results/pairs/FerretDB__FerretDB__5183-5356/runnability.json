@@ -1,0 +1,59 @@
+{
+  "pair_id": "FerretDB__FerretDB__5183-5356",
+  "commit": "639484df81adeae8e921376cd9c9454423fc0be3",
+  "language": "go",
+  "package_manager": "go modules",
+  "test_runner": "go test",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 5 failed, 0 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "go",
+        "mod",
+        "download"
+      ],
+      "exit_code": 0,
+      "duration_s": 102.9,
+      "detail": "standard, install cap 900 s: install: exit 0 in 1.3 s; build: exit 0 in 47.9 s; suite failed: 132 passed, 5 failed, 0 errors, 2 skipped (github.com/FerretDB/FerretDB/v2/internal/documentdb/genwrap::TestExtract, github.com/FerretDB/FerretDB/v2/internal/dataapi::TestSmokeDataAPI, github.com/FerretDB/FerretDB/v2/internal/util/state::TestProviderDir/NoAccess, github.com/FerretDB/FerretDB/v2/internal/util/state::TestProviderDir, github.com/FerretDB/FerretDB/v2/internal/util/testutil::TestDirs); first run failed: 132 passed, 5 failed, 0 errors, 2 skipped (github.com/FerretDB/FerretDB/v2/internal/documentdb/genwrap::TestExtract, github.com/FerretDB/FerretDB/v2/internal/dataapi::TestSmokeDataAPI, github.com/FerretDB/FerretDB/v2/internal/util/state::TestProviderDir/NoAccess, github.com/FerretDB/FerretDB/v2/internal/util/state::TestProviderDir, github.com/FerretDB/FerretDB/v2/internal/util/testutil::TestDirs)"
+    },
+    {
+      "command": [
+        "go",
+        "mod",
+        "download"
+      ],
+      "exit_code": 0,
+      "duration_s": 58.5,
+      "detail": "mod-mod (GOFLAGS=-mod=mod, so go.mod and go.sum drift is resolved), install cap 900 s: install: exit 0 in 0.0 s; build: exit 0 in 6.1 s; suite failed: 132 passed, 5 failed, 0 errors, 2 skipped (github.com/FerretDB/FerretDB/v2/internal/documentdb/genwrap::TestExtract, github.com/FerretDB/FerretDB/v2/internal/util/state::TestProviderDir/NoAccess, github.com/FerretDB/FerretDB/v2/internal/util/state::TestProviderDir, github.com/FerretDB/FerretDB/v2/internal/dataapi::TestSmokeDataAPI, github.com/FerretDB/FerretDB/v2/internal/util/testutil::TestDirs); first run failed: 133 passed, 5 failed, 0 errors, 2 skipped (github.com/FerretDB/FerretDB/v2/internal/documentdb/genwrap::TestExtract, github.com/FerretDB/FerretDB/v2/internal/util/state::TestProviderDir/NoAccess, github.com/FerretDB/FerretDB/v2/internal/util/state::TestProviderDir, github.com/FerretDB/FerretDB/v2/internal/dataapi::TestSmokeDataAPI, github.com/FerretDB/FerretDB/v2/internal/util/testutil::TestDirs)"
+    }
+  ],
+  "test_count": 139,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 132,
+    "failed": 5,
+    "errors": 0,
+    "skipped": 2,
+    "duration_s": 26.5,
+    "retried": true,
+    "failing_tests": [
+      "github.com/FerretDB/FerretDB/v2/internal/documentdb/genwrap::TestExtract",
+      "github.com/FerretDB/FerretDB/v2/internal/dataapi::TestSmokeDataAPI",
+      "github.com/FerretDB/FerretDB/v2/internal/util/state::TestProviderDir/NoAccess",
+      "github.com/FerretDB/FerretDB/v2/internal/util/state::TestProviderDir",
+      "github.com/FerretDB/FerretDB/v2/internal/util/testutil::TestDirs"
+    ],
+    "detail": "132 passed, 5 failed, 0 errors, 2 skipped (github.com/FerretDB/FerretDB/v2/internal/documentdb/genwrap::TestExtract, github.com/FerretDB/FerretDB/v2/internal/dataapi::TestSmokeDataAPI, github.com/FerretDB/FerretDB/v2/internal/util/state::TestProviderDir/NoAccess, github.com/FerretDB/FerretDB/v2/internal/util/state::TestProviderDir, github.com/FerretDB/FerretDB/v2/internal/util/testutil::TestDirs); first run failed: 132 passed, 5 failed, 0 errors, 2 skipped (github.com/FerretDB/FerretDB/v2/internal/documentdb/genwrap::TestExtract, github.com/FerretDB/FerretDB/v2/internal/dataapi::TestSmokeDataAPI, github.com/FerretDB/FerretDB/v2/internal/util/state::TestProviderDir/NoAccess, github.com/FerretDB/FerretDB/v2/internal/util/state::TestProviderDir, github.com/FerretDB/FerretDB/v2/internal/util/testutil::TestDirs)"
+  },
+  "timeout_s": 600
+}

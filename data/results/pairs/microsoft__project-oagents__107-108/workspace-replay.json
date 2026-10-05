@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__project-oagents__107-108",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/microsoft__project-oagents__107-108",
+  "source_base": "6966d92eae2660b27419c13c2675196bde367365",
+  "source_a": "4f40f029ef5ad6a7a8bc56209207f950750f5c5c",
+  "source_b": "699105831f9806fab000fd550536a0c637bd36b2",
+  "base_commit": "f10a042ce6e5039f064ceadd743f6bd9d781cf6a",
+  "a_commit": "e4046fda26d4ccf8e4bf3e4d7f3e848094794df9",
+  "b_commit": "f558c8a8368921daaab8b768681ed465ff1ce3e9",
+  "object_count": 554,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "promptfoo__promptfoo__2709-2710",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/promptfoo__promptfoo__2709-2710",
+  "source_base": "27d5185acec6b1005b280fc6d90f94d0fb85fbd1",
+  "source_a": "42dd3d1d68f20cf9e1e6b777c5e7f7a39eec8cf5",
+  "source_b": "efd0a2d416085935ecb58a788d523d0ca0545e78",
+  "base_commit": "7c71f487cc4ab641a7d02f823ca17846cd243270",
+  "a_commit": "dfeecaa4f598a60df80812a107da622d63eecc22",
+  "b_commit": "d5e448d75adcaf659ca303c2cb4cc79d8790cac9",
+  "object_count": 1914,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
