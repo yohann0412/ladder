@@ -1,0 +1,23 @@
+{
+  "pair_id": "electerm__electerm__3979-3980",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/electerm__electerm__3979-3980",
+  "source_base": "f71c13f322bab83c3573c30d2b91dfb0e037234e",
+  "source_a": "97d97e61c22ef2fbf5783a49aab5806087596221",
+  "source_b": "a1ea0892c31d358d7f70fefc61cae584e1c5d0d6",
+  "base_commit": "c1bc3180886a650384df8038cde3bea565648490",
+  "a_commit": "441a0800be0488fd49a9cbad94e217c7a19783cc",
+  "b_commit": "627f0b78ae38be9809f5ad5ae204b92894c36a2b",
+  "object_count": 729,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

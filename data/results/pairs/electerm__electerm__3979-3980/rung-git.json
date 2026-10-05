@@ -2,7 +2,7 @@
   "pair_id": "electerm__electerm__3979-3980",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 3, conflicted files: 3",
   "messages": [
     "CONFLICT (content): Merge conflict in src/client/components/sftp/address-bookmark-item.jsx",
     "CONFLICT (content): Merge conflict in src/client/components/sftp/address-bookmark.jsx",

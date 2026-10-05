@@ -1,0 +1,23 @@
+{
+  "pair_id": "dreadl0ck__netcap__38-41",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/dreadl0ck__netcap__38-41",
+  "source_base": "eecf936b7ebe20b6611f044de1e9a21ea450dbd6",
+  "source_a": "4e8216fbe345f26b359121f715acf70c6cbc3ac3",
+  "source_b": "66b2250656685f063ed2184c1e6e873ec77aca63",
+  "base_commit": "18ea8d26b2540c43764335100efc2a25744c2963",
+  "a_commit": "a153910490e37112cd518e96f0113064ed04c64a",
+  "b_commit": "17c638432b0a826cafad27929f7e2f85956845e8",
+  "object_count": 2485,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

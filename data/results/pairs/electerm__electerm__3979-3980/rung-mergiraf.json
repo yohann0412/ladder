@@ -1,0 +1,36 @@
+{
+  "pair_id": "electerm__electerm__3979-3980",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 3 of 3",
+  "remaining_conflicted": [
+    "src/client/components/sftp/address-bookmark-item.jsx",
+    "src/client/components/sftp/address-bookmark.jsx",
+    "src/client/store/address-bookmark.js"
+  ],
+  "files": [
+    {
+      "path": "src/client/components/sftp/address-bookmark-item.jsx",
+      "present": true,
+      "has_markers": true,
+      "language": "javascript",
+      "parses": false
+    },
+    {
+      "path": "src/client/components/sftp/address-bookmark.jsx",
+      "present": true,
+      "has_markers": true,
+      "language": "javascript",
+      "parses": false
+    },
+    {
+      "path": "src/client/store/address-bookmark.js",
+      "present": true,
+      "has_markers": true,
+      "language": "javascript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/electerm__electerm__3979-3980/mergiraf"
+}
