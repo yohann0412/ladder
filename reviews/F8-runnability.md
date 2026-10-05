@@ -21,8 +21,8 @@ Python (uv), Rust all runnable; cobra fails at base as root, tomlkit build fails
   `node --test`, ava, tap, karma, unittest-only Python projects are "other".
 - **Environment reuse** keys on byte-identical dependency manifests vs base; a lockfile-only
   change triggers a full reinstall (more `error` outcomes if installs fail on a side).
-- **Wrong holder directory** (`rung_dir(pair, "git")` instead of `"git-replay"`) and
-  missing-workspace errors deep in git: sent back as a follow-up.
+- **Wrong holder directory** and missing-workspace errors deep in git: sent back, fixed in
+  ef8427b (rung heads used; clear error naming the rebuild command).
 - **Flaky base counts as runnable**; flaky later runs are excluded from metrics.
 
 ## What was not tested
