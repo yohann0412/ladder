@@ -1,0 +1,15 @@
+{
+  "pair_id": "aavetis__PRarena__20-23",
+  "commit": "8c0ad47e8fa98703a4b5d62524ae279dc9b76ade",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "ryokun6__ryos__40-59",
+  "commit": "8a75fc3aafbde41c241f25a4ebc21fcc3b830f62",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
