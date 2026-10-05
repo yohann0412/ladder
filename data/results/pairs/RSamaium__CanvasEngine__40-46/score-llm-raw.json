@@ -1,0 +1,94 @@
+{
+  "pair_id": "RSamaium__CanvasEngine__40-46",
+  "rung": "llm-raw",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": true,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": true,
+  "intent_preserved_b": true,
+  "intent_drops": [],
+  "files": [
+    {
+      "path": "packages/core/src/components/index.ts",
+      "mode": "ast",
+      "language": "typescript",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/RSamaium__CanvasEngine__40-46/trees/score-llm-raw/node_modules/.bin/vitest",
+      "run",
+      "--coverage.enabled=false",
+      "--reporter=json",
+      "--outputFile=/home/user/ladder/work/runtime/RSamaium__CanvasEngine__40-46/reports/score-llm-raw/run-2.report"
+    ],
+    "passed": 312,
+    "failed": 1,
+    "errors": 0,
+    "skipped": 109,
+    "duration_s": 28.2,
+    "retried": true,
+    "failing_tests": [
+      "tests/components/scroll.spec.ts::Scroll Component should follow target"
+    ],
+    "detail": "dependency manifests differ from base (docs/package-lock.json, docs/package.json, package-lock.json, package.json, packages/compiler/package.json, ...); installed again; 312 passed, 1 failed, 0 errors, 109 skipped (tests/components/scroll.spec.ts::Scroll Component should follow target); first run failed: 312 passed, 1 failed, 0 errors, 109 skipped (tests/components/scroll.spec.ts::Scroll Component should follow target)"
+  },
+  "tests_a": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/RSamaium__CanvasEngine__40-46/trees/score-llm-raw/node_modules/.bin/vitest",
+      "run",
+      "--coverage.enabled=false",
+      "--reporter=json",
+      "--outputFile=/home/user/ladder/work/runtime/RSamaium__CanvasEngine__40-46/reports/score-llm-raw/run-2.report",
+      "tests/components/scroll.spec.ts"
+    ],
+    "passed": 1,
+    "failed": 1,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 2.6,
+    "retried": true,
+    "failing_tests": [
+      "tests/components/scroll.spec.ts::Scroll Component should follow target"
+    ],
+    "detail": "dependency manifests differ from base (docs/package-lock.json, docs/package.json, package-lock.json, package.json, packages/compiler/package.json, ...); installed again; 1 passed, 1 failed, 0 errors, 0 skipped (tests/components/scroll.spec.ts::Scroll Component should follow target); first run failed: 1 passed, 1 failed, 0 errors, 0 skipped (tests/components/scroll.spec.ts::Scroll Component should follow target)"
+  },
+  "tests_b": {
+    "status": "error",
+    "command": [
+      "/home/user/ladder/work/runtime/RSamaium__CanvasEngine__40-46/trees/score-llm-raw/node_modules/.bin/vitest",
+      "run",
+      "--coverage.enabled=false",
+      "--reporter=json",
+      "--outputFile=/home/user/ladder/work/runtime/RSamaium__CanvasEngine__40-46/reports/score-llm-raw/run-2.report",
+      "packages/compiler/tests/compiler.spec.ts",
+      "packages/tiled/tests/class.spec.ts",
+      "packages/tiled/tests/data.ts",
+      "packages/tiled/tests/parser.spec.ts",
+      "packages/tiled/tests/tile-properties.spec.ts",
+      "packages/tiled/tests/tiledmap-multi-layers.spec.ts",
+      "packages/tiled/tests/tiledmap.spec.ts",
+      "tests/engine/cond.spec.ts"
+    ],
+    "passed": 64,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 109,
+    "duration_s": 5.1,
+    "retried": true,
+    "failing_tests": [],
+    "detail": "dependency manifests differ from base (docs/package-lock.json, docs/package.json, package-lock.json, package.json, packages/compiler/package.json, ...); installed again; 64 passed, 0 failed, 0 errors, 109 skipped; runner exited 1 although no test failed; output tail: JSON report written to /home/user/ladder/work/runtime/RSamaium__CanvasEngine__40-46/reports/score-llm-raw/run-2.report; first run error: 64 passed, 0 failed, 0 errors, 109 skipped"
+  }
+}

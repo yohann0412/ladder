@@ -1,0 +1,15 @@
+{
+  "pair_id": "rsyslog__rsyslog__5688-5793",
+  "commit": "0a5109953932dc924f17417e478af448612427b3",
+  "language": "java",
+  "package_manager": "mvn",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "java project; no adapter for java (mvn is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
