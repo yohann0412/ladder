@@ -15,6 +15,7 @@ from ladder.testrun import outcome, run_suite
 from ladder.trees import export_rev, workspace_repo
 
 MAX_LISTED = 5
+INSTALL_FAILED = "install failed"
 
 
 class SuiteUnavailable(RuntimeError):
@@ -48,7 +49,8 @@ class PairSuite:
             note = "environment reused from base"
         failing = next((step for step in steps if not step.ok), None)
         if failing is not None:
-            return outcome("error", failing.argv, f"{note}; install failed: {failing.summary()}")
+            detail = f"{note}; {INSTALL_FAILED}: {failing.summary()}"
+            return outcome("error", failing.argv, detail)
         reports = self.runtime.reports(label)
         result = run_suite(runner, self.adapter, site, self.strategy, reports=reports, only=only)
         return result.model_copy(update={"detail": f"{note}; {result.detail}"})

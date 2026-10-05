@@ -470,6 +470,10 @@ class Summary(Record):
     llm_failure_causes: dict[str, int]
     resolver_agreement: Rate
     claim_c_fails_together: Rate
+    claim_c_clean_pairs: int
+    claim_c_attempted: int
+    claim_c_not_attempted: int
+    claim_c_exclusions: dict[str, int]
     runnability: dict[str, int]
     verdicts: dict[str, str]
 

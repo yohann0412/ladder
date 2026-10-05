@@ -19,6 +19,7 @@ DISK_POLL_S = 2.0
 TAIL_BYTES = 200_000
 TIMEOUT_EXIT_CODES = (124, 137)
 HARNESS_VARIABLES = ("VIRTUAL_ENV", "PYTHONPATH", "PYTHONHOME", "UV_PROJECT_ENVIRONMENT")
+TIMED_OUT = "timed out after"
 
 Process = subprocess.Popen[bytes]
 
@@ -56,7 +57,7 @@ class StepResult:
         if self.missing:
             return f"{self.name}: {self.argv[0]} not found"
         if self.timed_out:
-            return f"{self.name}: timed out after {self.duration_s:.0f} s"
+            return f"{self.name}: {TIMED_OUT} {self.duration_s:.0f} s"
         if self.disk_floor:
             return f"{self.name}: {stopped_below(self.floor_gib)}"
         return f"{self.name}: exit {self.exit_code} in {self.duration_s:.1f} s"

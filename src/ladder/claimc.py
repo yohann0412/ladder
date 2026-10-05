@@ -16,6 +16,8 @@ from ladder.trees import (
 
 SIDES = ("a", "b")
 MERGE_LABEL = "merge"
+UNRUNNABLE_PREFIX = "unrunnable: "
+SUITE_ERROR_PREFIX = "error: "
 
 
 class ClaimCError(RuntimeError):
@@ -54,13 +56,13 @@ def run_claim_c(layout: Layout, pair_id: str) -> ClaimCRecord:
 
     if runnability.status == "unrunnable":
         skipped = not_run(f"repository unrunnable at base: {runnability.reason}")
-        reason = f"unrunnable: {runnability.reason} ({runnability.reason_detail})"
+        reason = f"{UNRUNNABLE_PREFIX}{runnability.reason} ({runnability.reason_detail})"
         return record(skipped, skipped, skipped, reason)
     try:
         suite = open_pair_suite(layout, runnability, workspace)
     except SuiteUnavailable as error:
         skipped = not_run(str(error))
-        return record(skipped, skipped, skipped, f"error: {error}")
+        return record(skipped, skipped, skipped, f"{SUITE_ERROR_PREFIX}{error}")
     runtime = suite.runtime
     outcomes: list[TestOutcome] = []
     for side in SIDES:

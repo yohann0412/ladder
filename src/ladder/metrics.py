@@ -4,6 +4,7 @@ from collections import Counter
 from collections.abc import Callable, Iterable
 
 from ladder.agreement import RunAgreement
+from ladder.claimc_causes import claim_c_cause
 from ladder.collect import Collected, PairRecords
 from ladder.failure_causes import EXCUSED, excused, failure_cause
 from ladder.ladder_metrics import (
@@ -109,6 +110,20 @@ def claim_c_rate(pairs: list[PairRecords]) -> Rate:
     return share(decided, bool)
 
 
+def claim_c_pool(pairs: list[PairRecords]) -> list[PairRecords]:
+    """Return the pairs whose replay-head git record is clean, the pool Claim C draws from."""
+    return [pair for pair in pairs if pair.git is not None and pair.git.status == "clean"]
+
+
+def claim_c_exclusions(pool: list[PairRecords]) -> dict[str, int]:
+    """Count the attempted Claim C records of a pool that were excluded, by their one cause."""
+    return sorted_counts(
+        cause
+        for pair in pool
+        if pair.claim_c is not None and (cause := claim_c_cause(pair.claim_c)) is not None
+    )
+
+
 def runnability_counts(pairs: list[PairRecords]) -> dict[str, int]:
     """Count runnability statuses and, for unrunnable pairs, `unrunnable:<reason>`."""
     labels: list[str] = []
@@ -130,6 +145,8 @@ def summarise(layout: Layout, collected: Collected, agreements: list[RunAgreemen
     best_case = practical_best_case(pairs, lambda pair: excused(layout, pair))
     causes = llm_failures(pairs, lambda run: failure_cause(layout, run))
     fails_together = claim_c_rate(pairs)
+    pool = claim_c_pool(pairs)
+    attempted = sum(pair.claim_c is not None for pair in pool)
     rates = reconciliation(pairs)
     llm_raw = next((row for row in rows if row.rung == "llm-raw"), None)
     return Summary(
@@ -149,6 +166,10 @@ def summarise(layout: Layout, collected: Collected, agreements: list[RunAgreemen
         llm_failure_causes=causes,
         resolver_agreement=rate(sum(item.agrees for item in agreements), len(agreements)),
         claim_c_fails_together=fails_together,
+        claim_c_clean_pairs=len(pool),
+        claim_c_attempted=attempted,
+        claim_c_not_attempted=len(pool) - attempted,
+        claim_c_exclusions=claim_c_exclusions(pool),
         runnability=runnability_counts(pairs),
         verdicts=verdicts(
             practical, None if EXCUSED.isdisjoint(causes) else best_case, llm_raw, fails_together

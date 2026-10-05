@@ -2,6 +2,7 @@
 
 from dataclasses import dataclass
 
+from ladder.claimc_causes import NOT_ATTEMPTED
 from ladder.collect import PairRecords
 from ladder.ladder_metrics import RUNG_ORDER, available, human_equivalent, practical_step
 from ladder.metrics import resolve_status
@@ -75,7 +76,7 @@ def _blocker(pair: PairRecords) -> str:
             return NONE
         return f"truth {'not extracted' if pair.truth is None else pair.truth.status}"
     if pair.claim_c is None:
-        return "no Claim C record"
+        return f"Claim C {NOT_ATTEMPTED}"
     reason = pair.claim_c.excluded_reason
     return NONE if reason is None else f"Claim C excluded: {reason}"
 

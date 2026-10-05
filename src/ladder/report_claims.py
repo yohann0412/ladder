@@ -1,8 +1,7 @@
 """Report sections about the LLM rungs, Claim C and calibration."""
 
-from collections import Counter
-
 from ladder.agreement import RunAgreement
+from ladder.claimc_causes import MERGE_BREAKS_INSTALL, NOT_ATTEMPTED
 from ladder.collect import PairRecords
 from ladder.failure_causes import CUT_TRANSCRIPT, OWN_OUTPUT_READS
 from ladder.md import section, table
@@ -58,10 +57,17 @@ def variance_section(summary: Summary, agreements: list[RunAgreement]) -> str:
 
 
 def claim_c_section(summary: Summary, pairs: list[PairRecords]) -> str:
-    """Return the Claim C rate, exclusions, and every positive pair with tests and files."""
+    """Return the Claim C rate, the pool and its cut, exclusions by cause, and positive pairs."""
     records = [pair.claim_c for pair in pairs if pair.claim_c is not None]
-    excluded = Counter(
-        record.excluded_reason for record in records if record.excluded_reason is not None
+    pool = (
+        f"Of {summary.claim_c_clean_pairs} pairs that merge cleanly at replay heads (the Claim C "
+        f"pool), {summary.claim_c_attempted} were attempted in D19 order and "
+        f"{summary.claim_c_not_attempted} are `{NOT_ATTEMPTED}`."
+    )
+    breaks = (
+        "Merges that break dependency installation while A and B install are reported on their "
+        "own, as D19 asks, and are not part of the rate: "
+        f"{summary.claim_c_exclusions.get(MERGE_BREAKS_INSTALL, 0)}."
     )
     positives = [
         [
@@ -77,7 +83,12 @@ def claim_c_section(summary: Summary, pairs: list[PairRecords]) -> str:
         "Claim C: passes alone, fails together",
         f"Fails together: {cell(summary.claim_c_fails_together)}, over Claim C records with a "
         f"decided outcome ({len(records)} records in all).",
-        table(["excluded because", "pairs"], [list(item) for item in sorted(excluded.items())]),
+        pool,
+        table(
+            ["excluded because", "pairs"],
+            [list(item) for item in summary.claim_c_exclusions.items()],
+        ),
+        breaks,
         "### Positive pairs\n\n"
         + table(
             ["pair", "failing tests at the merge", "files A touched", "files B touched"], positives
