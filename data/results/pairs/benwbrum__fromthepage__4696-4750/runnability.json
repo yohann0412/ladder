@@ -1,0 +1,15 @@
+{
+  "pair_id": "benwbrum__fromthepage__4696-4750",
+  "commit": "f1bdb3e7d8dc3d08513f4c805655983661cd4aa9",
+  "language": "ruby",
+  "package_manager": "bundle",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "ruby project; no adapter for ruby (bundle is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
