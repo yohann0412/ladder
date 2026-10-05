@@ -1,0 +1,25 @@
+{
+  "pair_id": "mautic__mautic__15078-15249",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 39302,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 909,
+    "cache_creation_input_tokens": 33530,
+    "cache_read_input_tokens": 251295
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "app/bundles/LeadBundle/Form/Type/CampaignEventLeadFieldValueType.php",
+      "action": "keep",
+      "sha256": "f9e4418632c63b78bf8ab8eb4f9a83ec42d3d3921a0e03baf27ed713331da60f",
+      "rationale": "Kept PR A's structure (OperatorOptions constants, $isMultiple, named inner builder with CallbackTransformer) and added PR B's two-way single/array value conversion before building the choice field, using $isMultiple in place of PR B's $multiple."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:00:25.064119Z"
+}

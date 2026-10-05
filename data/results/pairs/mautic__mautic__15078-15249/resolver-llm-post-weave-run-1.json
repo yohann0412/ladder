@@ -1,0 +1,25 @@
+{
+  "pair_id": "mautic__mautic__15078-15249",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 44545,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 844,
+    "cache_creation_input_tokens": 34453,
+    "cache_read_input_tokens": 252151
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "app/bundles/LeadBundle/Form/Type/CampaignEventLeadFieldValueType.php",
+      "action": "keep",
+      "sha256": "5a1d53953f02b0ef7f30cfd70df65c1568f429907a9c57fc6e07893e7c853e2f",
+      "rationale": "Kept PR A's OperatorOptions-based $isMultiple, named inner builder and CallbackTransformer structure, and added PR B's two-way value conversion (scalar to array for multi-value operators, array to its first element as a string or '' for single-value operators) before the builder is created."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:00:24.210159Z"
+}

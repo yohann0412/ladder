@@ -1,0 +1,25 @@
+{
+  "pair_id": "shopware__shopware__10496-11072",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 53017,
+  "tokens": {
+    "input_tokens": 24,
+    "output_tokens": 2742,
+    "cache_creation_input_tokens": 23745,
+    "cache_read_input_tokens": 596661
+  },
+  "tool_calls": 18,
+  "files": [
+    {
+      "path": "src/Core/System/Language/LanguageExceptionHandler.php",
+      "action": "keep",
+      "sha256": "32d8c6b4b1c50eb8bd860f19d98d783d1daf9f3da097a0eb83eed062182afd02",
+      "rationale": "PR A deprecated the handler and deliberately removed its foreign-key matching (and the LanguageForeignKeyDeleteException import) because languages now throw RestrictDeleteViolationException, so PR B's tweak of the removed regex to also match 1451 is superseded and the no-op deprecated version is kept."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:00:32.717832Z"
+}

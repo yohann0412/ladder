@@ -1,0 +1,43 @@
+{
+  "pair_id": "vercel__hyper-site__314-315",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 73018,
+  "tokens": {
+    "input_tokens": 22,
+    "output_tokens": 2652,
+    "cache_creation_input_tokens": 35573,
+    "cache_read_input_tokens": 564618
+  },
+  "tool_calls": 30,
+  "files": [
+    {
+      "path": "app/layout.js",
+      "action": "keep",
+      "sha256": "41ab8db0190047f0f1727cdb31d099302d8013ca6b6f0201a5e03b559f993701",
+      "rationale": "Took PR B's root layout, since its SearchProvider, Header, ProgressBar (NProgress) and GoogleTagManager already cover what PR A's Providers/gtag-script layout did, and PR B also carries the full site metadata; layering both would double-wrap the search context and double-load analytics."
+    },
+    {
+      "path": "app/page.js",
+      "action": "keep",
+      "sha256": "f6d3f76ed6314487105ef7b39627e4a7ee2c80cfbc58bac15c725dcce8f5754b",
+      "rationale": "Took PR B's server-component homepage because PR A's version re-exports '../pages/index', and PR B deletes the pages directory, so that import would break after the merge."
+    },
+    {
+      "path": "next.config.js",
+      "action": "keep",
+      "sha256": "3174bef6bccb1d6da60542062567a76e3b8be484c1b3c35747c76e05d885cd94",
+      "rationale": "Combined PR A's typed nextConfig object and experimental appDir flag with PR B's MDX options and its 'jsx' page extension."
+    },
+    {
+      "path": "package.json",
+      "action": "keep",
+      "sha256": "17d7dea02e299f4be81956645d558554b599edc81282c480622fa0dc4e6dc332",
+      "rationale": "Merged the dependency upgrades by taking the newer version from either side (PR B's MDX v3, husky 9, image-size 1.1.1, lint-staged 15.2.1 and @next/third-parties), kept next ^14.1.0, PR A's prettier/shell-quote dev upgrades, and PR B's packageManager field."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:00:33.306729Z"
+}

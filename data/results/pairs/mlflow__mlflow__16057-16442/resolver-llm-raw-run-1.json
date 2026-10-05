@@ -1,0 +1,25 @@
+{
+  "pair_id": "mlflow__mlflow__16057-16442",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 52102,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 472,
+    "cache_creation_input_tokens": 29690,
+    "cache_read_input_tokens": 238153
+  },
+  "tool_calls": 6,
+  "files": [
+    {
+      "path": "tests/entities/test_assessment.py",
+      "action": "keep",
+      "sha256": "d44304f2812d511582ccf7ad4e205a6bb71df7b7a9a6e5a8b14a869400d3a894",
+      "rationale": "Both sides appended independent new tests at the end of the file, so the merge keeps PR A's test_feedback_complex_types_full_integration followed by PR B's test_assessment_value_assignment."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:00:27.450990Z"
+}

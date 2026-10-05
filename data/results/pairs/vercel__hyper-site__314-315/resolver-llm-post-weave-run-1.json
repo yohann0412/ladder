@@ -1,0 +1,43 @@
+{
+  "pair_id": "vercel__hyper-site__314-315",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 81464,
+  "tokens": {
+    "input_tokens": 28,
+    "output_tokens": 4643,
+    "cache_creation_input_tokens": 40089,
+    "cache_read_input_tokens": 775749
+  },
+  "tool_calls": 33,
+  "files": [
+    {
+      "path": "app/layout.js",
+      "action": "keep",
+      "sha256": "41ab8db0190047f0f1727cdb31d099302d8013ca6b6f0201a5e03b559f993701",
+      "rationale": "Took PR B's full root layout (rich metadata, Header, SearchProvider, ProgressBar, GoogleTagManager), which already covers PR A's search-context, NProgress and analytics goals and matches B's search-provider/progress-bar files, so wrapping it in A's Providers as well would duplicate that behavior."
+    },
+    {
+      "path": "app/page.js",
+      "action": "keep",
+      "sha256": "f6d3f76ed6314487105ef7b39627e4a7ee2c80cfbc58bac15c725dcce8f5754b",
+      "rationale": "Took PR B's native server-component homepage because PR B deletes the pages directory, so PR A's re-export from '../pages/index' would no longer resolve; B's version still revalidates daily, like A's."
+    },
+    {
+      "path": "next.config.js",
+      "action": "keep",
+      "sha256": "3174bef6bccb1d6da60542062567a76e3b8be484c1b3c35747c76e05d885cd94",
+      "rationale": "Kept PR A's typed nextConfig object with experimental appDir and PR B's MDX remark/rehype options, and used B's pageExtensions including 'jsx'."
+    },
+    {
+      "path": "package.json",
+      "action": "keep",
+      "sha256": "17d7dea02e299f4be81956645d558554b599edc81282c480622fa0dc4e6dc332",
+      "rationale": "Took PR B's newer dependency versions (MDX 3, husky 9, image-size 1.1.1, lint-staged 15.2.1, plus @next/third-parties and packageManager) and kept PR A's devDependency bumps (prettier 3, shell-quote 1.8), which B did not touch."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:00:33.018623Z"
+}

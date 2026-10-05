@@ -1,0 +1,25 @@
+{
+  "pair_id": "shopware__shopware__10496-11072",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 54698,
+  "tokens": {
+    "input_tokens": 18,
+    "output_tokens": 3320,
+    "cache_creation_input_tokens": 29852,
+    "cache_read_input_tokens": 459647
+  },
+  "tool_calls": 17,
+  "files": [
+    {
+      "path": "src/Core/System/Language/LanguageExceptionHandler.php",
+      "action": "keep",
+      "sha256": "32d8c6b4b1c50eb8bd860f19d98d783d1daf9f3da097a0eb83eed062182afd02",
+      "rationale": "PR A deprecated this handler so that it no longer throws (the DAL now raises RestrictDeleteViolationException, and every other FK exception handler was gutted the same way), which makes PR B's extra 1451 code in the removed regex moot, so the merge keeps A's deprecated, empty matchException without the unused LanguageForeignKeyDeleteException import."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:00:30.347420Z"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "rsyslog__rsyslog__5688-5793",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 473526,
+  "tokens": {
+    "input_tokens": 52,
+    "output_tokens": 29612,
+    "cache_creation_input_tokens": 200534,
+    "cache_read_input_tokens": 4128292
+  },
+  "tool_calls": 39,
+  "files": [
+    {
+      "path": "plugins/omazureeventhubs/omazureeventhubs.c",
+      "action": "keep",
+      "sha256": "d2f15f19cdb07680eae1f2829697946ac7b313c528f6330b38ee1515bd9c2b38",
+      "rationale": "Rebuilt from PR A's version (tab-normalized whitespace, exact-length url_encode allocation with isalnum classification and a for-loop) plus PR B's trailing semicolons on all module macros, resolving the url_encode loop conflict by keeping A's loop/predicate but B's manual hex-table %XX emission (so B's hex table is used and no snprintf is needed), adding <ctype.h> for isalnum, and dropping the duplicated blocks left by the weave driver."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:00:27.678806Z"
+}

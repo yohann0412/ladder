@@ -1,0 +1,25 @@
+{
+  "pair_id": "rsyslog__rsyslog__5688-5793",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 257219,
+  "tokens": {
+    "input_tokens": 34,
+    "output_tokens": 6642,
+    "cache_creation_input_tokens": 81456,
+    "cache_read_input_tokens": 1323657
+  },
+  "tool_calls": 21,
+  "files": [
+    {
+      "path": "plugins/omazureeventhubs/omazureeventhubs.c",
+      "action": "keep",
+      "sha256": "f184d5ed57ac8ea9028d2f59c9bd3085d201f24b01db753f90fe04038850382d",
+      "rationale": "Both PRs replaced the unsafe sprintf in url_encode; I kept PR A's encoding loop because the auto-merged allocation already uses PR A's exact-length isalnum-based count, so the loop must use the identical predicate to stay within the buffer (PR B's differing predicate could overflow), which still fulfils PR B's goal of overrun-free encoding while retaining all other non-conflicting changes from both sides."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:00:27.905777Z"
+}
