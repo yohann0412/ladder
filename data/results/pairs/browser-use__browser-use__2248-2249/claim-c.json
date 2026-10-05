@@ -1,0 +1,49 @@
+{
+  "pair_id": "browser-use__browser-use__2248-2249",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: build_fails (test runner produced no results at base: 0 passed, 0 failed, 0 errors, 0 skipped; runner exited 4 without a readable report; output tail: ERROR: usage: python -m pytest [options] [file_or_dir] [file_or_dir] [...]\npython -m pytest: error: unrecognized arguments: --dist=loadscope\n  inifile: /home/user/ladder/work/runtime/browser-use__browser-use__2248-2249/trees/base/pyproject.toml\n  rootdir: /home/user/ladder/work/runtime/browser-use__browser-use__2248-2249/trees/base; first run error: 0 passed, 0 failed, 0 errors, 0 skipped)",
+  "files_a": [
+    "browser_use/controller/views.py",
+    "browser_use/llm/openai/chat.py",
+    "eval/service.py",
+    "examples/features/sensitive_data.py",
+    "pyproject.toml"
+  ],
+  "files_b": []
+}
