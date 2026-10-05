@@ -8,6 +8,7 @@ import typer
 from ladder import pairs_cli, resolve_cli, score_cli, suites_cli, truth_cli, workspace_cli
 from ladder.layout import Layout
 from ladder.report_cli import app as report_app
+from ladder.run_cli import run as run_command
 from ladder.rung_cli import app as rung_app
 from ladder.syntax_cli import app as syntax_app
 
@@ -45,3 +46,4 @@ app.add_typer(report_app)
 app.add_typer(resolve_cli.app, name="resolve")
 app.add_typer(truth_cli.app, name="truth")
 app.command("score")(score_cli.score)
+app.command("run")(run_command)

@@ -46,14 +46,16 @@ fixture:
 pairs:
     uv run ladder pairs load --source data/source
 
-# Run the ladder on one pair id, or on every fixture scenario with --fixture.
-ladder target:
+# Run the ladder on one pair id, or on every fixture scenario with --fixture (built when
+# missing); further flags such as --no-llm go to `ladder run`. Exit 3: resolver runs pending.
+ladder target *flags:
     #!/usr/bin/env bash
     set -euo pipefail
     if [[ "{{target}}" == "--fixture" ]]; then
-        uv run ladder {{fixture_flags}} run --all --expect fixtures/expected.json
+        [[ -f {{fixture_dir}}/pairs.json ]] || just fixture
+        uv run ladder {{fixture_flags}} run --all --expect fixtures/expected.json {{flags}}
     else
-        uv run ladder run {{target}}
+        uv run ladder run {{target}} {{flags}}
     fi
 
 # Run the ladder on every paper and supplementary pair.

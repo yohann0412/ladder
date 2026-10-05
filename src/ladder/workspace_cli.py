@@ -7,16 +7,10 @@ import typer
 from rich.console import Console
 
 from ladder.context import layout_from
-from ladder.jsonio import read_optional, read_record, write_record
+from ladder.jsonio import read_optional, read_record
 from ladder.pairselect import UnknownPairError, find_pair
 from ladder.schemas import HeadsKind, PairSet, WorkspaceRecord
-from ladder.workspace import (
-    Synthetic,
-    UnusablePairError,
-    build_workspace,
-    source_commits,
-    workspace_record,
-)
+from ladder.workspace import Synthetic, UnusablePairError, build_recorded
 from ladder.workspace_view import render_checks
 from ladder.wsverify import verify_workspace
 
@@ -30,28 +24,18 @@ HeadsOption = Annotated[HeadsKind, typer.Option(help="Which heads the workspace 
 def build(ctx: typer.Context, pair_id: PairArgument, heads: HeadsOption = "replay") -> None:
     """Rebuild a pair's workspace from scratch as three synthetic commits, then verify it."""
     layout = layout_from(ctx)
-    console = Console()
     try:
         pair = find_pair(read_record(layout.pairs_file, PairSet), pair_id)
     except UnknownPairError as error:
         raise typer.BadParameter(str(error)) from error
-    record_file = layout.result_file(pair_id, f"workspace-{heads}")
-    record_file.unlink(missing_ok=True)
-    path = layout.workspace_dir(pair_id, heads).resolve()
     try:
-        sources = source_commits(pair, heads)
-        synthetic = build_workspace(layout.cache_dir(pair.repo), path, sources)
+        built = build_recorded(layout, pair, heads)
     except UnusablePairError as error:
         Console(stderr=True).print(str(error), soft_wrap=True, highlight=False)
         raise typer.Exit(2) from error
-    verification = verify_workspace(path, synthetic.refs())
-    render_checks(console, path, verification)
-    if not verification.passed:
+    render_checks(Console(), built.path, built.verification)
+    if built.record is None:
         raise typer.Exit(1)
-    record = workspace_record(
-        pair_id, heads, path=path, sources=sources, synthetic=synthetic, verification=verification
-    )
-    write_record(record_file, record)
 
 
 @app.command()

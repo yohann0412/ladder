@@ -15,9 +15,11 @@ from ladder.jsonio import read_record
 from ladder.plan import plan_pair, sample_double
 from ladder.prepare import prepare_run
 from ladder.refusal import RefusedError
+from ladder.resolver_collect import match_transcripts
 from ladder.resolver_records import pending_tasks
 from ladder.resolver_view import (
     render_canaries,
+    render_collected,
     render_pending,
     render_plan,
     render_run,
@@ -119,6 +121,43 @@ def finalize(
     except RefusedError as error:
         raise refused(error) from error
     render_run(Console(soft_wrap=True, highlight=False), record)
+
+
+@app.command()
+def collect(
+    ctx: typer.Context,
+    transcripts: Annotated[
+        Path,
+        typer.Option(
+            exists=True, file_okay=False, help="Directory searched recursively for *.jsonl files."
+        ),
+    ],
+    dry_run: Annotated[
+        bool, typer.Option("--dry-run", help="Report the matches without finalizing.")
+    ] = False,
+) -> None:
+    """Finalize every pending task whose spawn line opens exactly one transcript under a directory.
+
+    Tasks with no matching transcript stay pending; tasks with more than one are not finalized
+    and make the command exit 1.
+    """
+    layout = layout_from(ctx)
+    matches = match_transcripts(layout, transcripts)
+    console = Console(soft_wrap=True, highlight=False)
+    finalized = 0
+    for task, path in matches.matched:
+        if dry_run:
+            continue
+        try:
+            record = finalize_run(layout, task.pair_id, task.rung, task.run, path)
+        except RefusedError as error:
+            console.print(f"{task.pair_id}: not finalized: {escape(str(error))}")
+            continue
+        render_run(console, record)
+        finalized += 1
+    render_collected(console, matches, finalized, dry_run=dry_run)
+    if matches.conflicts:
+        raise typer.Exit(1)
 
 
 @canary_app.command("plant")
