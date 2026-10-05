@@ -1,0 +1,23 @@
+{
+  "pair_id": "syncfusion__maui-toolkit__199-202",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/syncfusion__maui-toolkit__199-202",
+  "source_base": "da41cba854dbef13fb613af741af3e3fd4e758c0",
+  "source_a": "81c02e388a88a6130cf4f26eef06f45e4c03d897",
+  "source_b": "aac944040630ec0f83e4c0fb51334f9ce276ee5a",
+  "base_commit": "1eb2e422a55e10da0b7c009bc7efc6089a6c91dd",
+  "a_commit": "40db3d96e89c1a223acae1a90c1dcb52ade8d525",
+  "b_commit": "ef380b112295072ef56c9f543d5134dc110e17a5",
+  "object_count": 2065,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

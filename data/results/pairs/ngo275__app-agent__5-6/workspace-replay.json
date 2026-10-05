@@ -1,0 +1,23 @@
+{
+  "pair_id": "ngo275__app-agent__5-6",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/ngo275__app-agent__5-6",
+  "source_base": "6fb77ad1107558e3bbb4caf880741c2feb282878",
+  "source_a": "6d215fcf36135d2a0ff220b9f528d07919b35816",
+  "source_b": "c17318d20f39cbf48d1836bb91b3ee89421e8546",
+  "base_commit": "28f60a46341fe2792858b45754cc38195f6fa61b",
+  "a_commit": "07b951178837bffb38841039024a85a9ab589a67",
+  "b_commit": "4372b17037a29c711b74980ca5ce1de50afe5666",
+  "object_count": 379,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

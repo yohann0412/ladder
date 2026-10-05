@@ -1,0 +1,15 @@
+{
+  "pair_id": "syncfusion__maui-toolkit__199-202",
+  "commit": "da41cba854dbef13fb613af741af3e3fd4e758c0",
+  "language": "csharp",
+  "package_manager": "dotnet",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "csharp project; dotnet is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
