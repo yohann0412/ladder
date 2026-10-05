@@ -521,3 +521,12 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   now uses per-pair scratch, so the shared pnpm store (3 GB) was removed with no pnpm
   running. Claim C resumes from wave c02 in D19 order, since two processes leave CPU free.
   It is paused again at a wave boundary before the D23 redo, which runs alone.
+- 14:06: final pass complete. All 224 conflicting pairs have truth and a git score. Claim C
+  was paused mid-wave c02 at 14:08 (recorded pairs are kept and skipped when it resumes).
+  The shared Rust caches were cleared: the cargo registry (6.4 GB) and four toolchains
+  that Rust pairs had pinned (3 GB). That left 20 GiB free, as D23 requires.
+- 14:10: D23 redo started, alone. 20 pairs carried the free-disk floor phrase: 17
+  conflicting pairs and the Claim C pairs `PRQL__prql__5286-5287`,
+  `bruin-data__bruin__733-735` and `evergreen-ci__evergreen__9033-9034`. 110 records were
+  deleted (runnability, scores including run-2 scores, Claim C). The list is in
+  `data/results/redo-d23.json`. Each pair runs once more (`work/d23-redo.log`).

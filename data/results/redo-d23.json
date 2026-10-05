@@ -1,0 +1,235 @@
+{
+  "rule": "D23",
+  "pairs": [
+    {
+      "pair_id": "CapSoftware__Cap__571-574",
+      "records": [
+        "runnability.json",
+        "score-git.json",
+        "score-llm-post-weave.json",
+        "score-llm-raw.json",
+        "score-mergiraf.json",
+        "score-weave.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.809869Z"
+    },
+    {
+      "pair_id": "PRQL__prql__5286-5287",
+      "records": [
+        "claim-c.json",
+        "runnability.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.810420Z"
+    },
+    {
+      "pair_id": "WorkflowAI__WorkflowAI__371-449",
+      "records": [
+        "runnability.json",
+        "score-git.json",
+        "score-llm-post-weave.json",
+        "score-llm-raw.json",
+        "score-mergiraf.json",
+        "score-weave.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.812145Z"
+    },
+    {
+      "pair_id": "asynkron__protoactor-go__1164-1165",
+      "records": [
+        "runnability.json",
+        "score-git.json",
+        "score-llm-post-weave.json",
+        "score-llm-raw.json",
+        "score-mergiraf.json",
+        "score-weave.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.813467Z"
+    },
+    {
+      "pair_id": "berachain__beacon-kit__2840-2841",
+      "records": [
+        "runnability.json",
+        "score-git.json",
+        "score-llm-post-weave.json",
+        "score-llm-raw.json",
+        "score-mergiraf.json",
+        "score-weave.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.814966Z"
+    },
+    {
+      "pair_id": "block__goose__2620-2621",
+      "records": [
+        "runnability.json",
+        "score-git.json",
+        "score-llm-post-weave.json",
+        "score-llm-raw.json",
+        "score-mergiraf.json",
+        "score-weave.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.816148Z"
+    },
+    {
+      "pair_id": "bruin-data__bruin__733-735",
+      "records": [
+        "claim-c.json",
+        "runnability.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.816787Z"
+    },
+    {
+      "pair_id": "bruin-data__bruin__760-818",
+      "records": [
+        "runnability.json",
+        "score-git.json",
+        "score-llm-post-weave.json",
+        "score-llm-raw-run-2.json",
+        "score-llm-raw.json",
+        "score-mergiraf.json",
+        "score-weave.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.817985Z"
+    },
+    {
+      "pair_id": "cloudposse__atmos__1310-1311",
+      "records": [
+        "runnability.json",
+        "score-git.json",
+        "score-llm-post-weave.json",
+        "score-llm-raw.json",
+        "score-mergiraf.json",
+        "score-weave.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.819049Z"
+    },
+    {
+      "pair_id": "elizaOS__eliza__2548-2549",
+      "records": [
+        "runnability.json",
+        "score-git.json",
+        "score-llm-post-weave.json",
+        "score-llm-raw.json",
+        "score-mergiraf.json",
+        "score-weave.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.820309Z"
+    },
+    {
+      "pair_id": "ethereum-optimism__optimism__16385-16397",
+      "records": [
+        "runnability.json",
+        "score-git.json",
+        "score-llm-post-weave.json",
+        "score-llm-raw.json",
+        "score-mergiraf.json",
+        "score-weave.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.821864Z"
+    },
+    {
+      "pair_id": "evergreen-ci__evergreen__9033-9034",
+      "records": [
+        "claim-c.json",
+        "runnability.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.822267Z"
+    },
+    {
+      "pair_id": "kanisterio__kanister__3501-3502",
+      "records": [
+        "runnability.json",
+        "score-git.json",
+        "score-llm-post-weave.json",
+        "score-llm-raw.json",
+        "score-mergiraf.json",
+        "score-weave.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.823925Z"
+    },
+    {
+      "pair_id": "kanisterio__kanister__3501-3505",
+      "records": [
+        "runnability.json",
+        "score-git.json",
+        "score-llm-post-weave.json",
+        "score-llm-raw-run-2.json",
+        "score-llm-raw.json",
+        "score-mergiraf.json",
+        "score-weave.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.825237Z"
+    },
+    {
+      "pair_id": "langfuse__langfuse-docs__1505-1535",
+      "records": [
+        "runnability.json",
+        "score-git.json",
+        "score-llm-post-weave.json",
+        "score-llm-raw.json",
+        "score-mergiraf.json",
+        "score-weave.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.827122Z"
+    },
+    {
+      "pair_id": "lwyBZss8924d__DeepSearchAgents__9-14",
+      "records": [
+        "runnability.json",
+        "score-git.json",
+        "score-llm-post-weave.json",
+        "score-llm-raw.json",
+        "score-mergiraf.json",
+        "score-weave.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.831233Z"
+    },
+    {
+      "pair_id": "onflow__flow-go__7551-7555",
+      "records": [
+        "runnability.json",
+        "score-git.json",
+        "score-llm-post-weave.json",
+        "score-llm-raw.json",
+        "score-mergiraf.json",
+        "score-weave.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.832799Z"
+    },
+    {
+      "pair_id": "superfly__flyctl__4456-4463",
+      "records": [
+        "runnability.json",
+        "score-git.json",
+        "score-llm-post-weave.json",
+        "score-llm-raw.json",
+        "score-mergiraf.json",
+        "score-weave.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.834204Z"
+    },
+    {
+      "pair_id": "test-zeus-ai__testzeus-hercules__60-61",
+      "records": [
+        "runnability.json",
+        "score-git.json",
+        "score-llm-post-weave.json",
+        "score-llm-raw.json",
+        "score-mergiraf.json",
+        "score-weave.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.835528Z"
+    },
+    {
+      "pair_id": "zenml-io__zenml__3375-3487",
+      "records": [
+        "runnability.json",
+        "score-git.json",
+        "score-llm-post-weave.json",
+        "score-llm-raw.json",
+        "score-mergiraf.json",
+        "score-weave.json"
+      ],
+      "redone_at": "2026-10-05T14:10:39.837048Z"
+    }
+  ]
+}
