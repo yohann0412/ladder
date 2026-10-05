@@ -1,5 +1,6 @@
 """F9 acceptance: the report's numbers equal those implied by the expected outcomes table."""
 
+import json
 from pathlib import Path
 from typing import Any
 
@@ -110,3 +111,66 @@ def test_report_separates_own_output_reads_and_cut_transcripts(
     report = out.read_text()
     assert "own output reads only" in report and "transcript cut off" in report
     assert "best-case" in report
+
+
+def _rewrite_claim_c(fx: Experiment, pair_id: str, **sides: dict[str, Any]) -> None:
+    """Replace outcomes of a pair's Claim C record, as a real run that went that way would."""
+    path = fx.results / "pairs" / pair_id / "claim-c.json"
+    record = read_json(path)
+    reasons: list[str] = []
+    for side, change in sides.items():
+        record[side] = {**record[side], **change}
+        reasons.append(f"error at {side}: {change['detail'][:200]}")
+    record["fails_together"] = None
+    record["excluded_reason"] = "; ".join(reasons)
+    path.write_text(json.dumps(record, indent=2) + "\n")
+
+
+def test_report_groups_claim_c_exclusions_and_cut(fx: Experiment, tmp_path: Path) -> None:
+    fx.ladder("run", "--all", "--no-llm")
+    assert fx.result("fx09", "claim-c")["a"]["status"] == "passed"
+    install_error = {"status": "error", "failing_tests": [], "passed": 0, "failed": 0}
+    _rewrite_claim_c(
+        fx,
+        "fx09",
+        merge={
+            **install_error,
+            "detail": "dependency manifests differ from base (pyproject.toml); installed "
+            "again; install failed: uv sync: exit 1 in 3.1 s: No solution found",
+        },
+    )
+    _rewrite_claim_c(
+        fx,
+        "fx06",
+        a={
+            **install_error,
+            "detail": "environment reused from base; install failed: build: stopped, free "
+            "disk below the 3 GiB floor",
+        },
+    )
+
+    out = tmp_path / "RESULTS.md"
+    fx.ladder("report", "--out", str(out))
+    summary = read_json(fx.results / "summary.json")
+    assert summary["claim_c_exclusions"] == {
+        "merge breaks dependency installation": 1,
+        "stopped at the free-disk floor": 1,
+    }
+    assert (summary["claim_c_clean_pairs"], summary["claim_c_attempted"]) == (2, 2)
+    assert summary["claim_c_not_attempted"] == 0
+    rate = summary["claim_c_fails_together"]
+    assert (rate["numerator"], rate["denominator"]) == (0, 0)
+    claim_c = out.read_text().split("## Claim C")[1].split("\n## ")[0]
+    assert "merge breaks dependency installation" in claim_c
+    assert "stopped at the free-disk floor" in claim_c
+    assert "No solution found" not in claim_c
+
+    (fx.results / "pairs" / "fx06" / "claim-c.json").unlink()
+    fx.ladder("report", "--out", str(out))
+    summary = read_json(fx.results / "summary.json")
+    assert summary["claim_c_exclusions"] == {"merge breaks dependency installation": 1}
+    assert (summary["claim_c_attempted"], summary["claim_c_not_attempted"]) == (1, 1)
+    report = out.read_text()
+    assert "not attempted: cut" in report.split("## Claim C")[1].split("\n## ")[0]
+    fx06_row = next(line for line in report.splitlines() if line.startswith("| fx06 "))
+    assert "not attempted: cut" in fx06_row
