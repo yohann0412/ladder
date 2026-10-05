@@ -1,0 +1,23 @@
+{
+  "pair_id": "port-labs__ocean__1286-1289",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/port-labs__ocean__1286-1289",
+  "source_base": "83e569280bc392ace5e809f859734faf74493647",
+  "source_a": "0f4e90bd5eb80ec8be90caf950e8dd407afbe9ec",
+  "source_b": "4fad159c2992a0bc55eeaa69102683a789019f0a",
+  "base_commit": "e2dc283abd451f4a6911cbae9ca41794096860cc",
+  "a_commit": "2abb107b6666e46b8c49ed57f4f0344a110701d2",
+  "b_commit": "41961090055c45eee1e7825176340e7da1e10c43",
+  "object_count": 1157,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

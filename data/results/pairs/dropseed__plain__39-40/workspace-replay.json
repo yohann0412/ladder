@@ -1,0 +1,23 @@
+{
+  "pair_id": "dropseed__plain__39-40",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/dropseed__plain__39-40",
+  "source_base": "76929f418d44457ffac1eae871396f1e60277369",
+  "source_a": "07b5f942c97f234f584faf7bd521b2a425b7fa89",
+  "source_b": "6f56e29069921b9bad07a2204988d789fa1d5410",
+  "base_commit": "01fc3ddc7cf1c549e5a49142a2cf075a8742dfac",
+  "a_commit": "d6186c7d94ad793952c45e7ac64fe91acefc3f1d",
+  "b_commit": "f84a4c5624c21b6e7651f87274162e513c6c08c5",
+  "object_count": 1010,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "pair_id": "dropseed__plain__39-40",
+  "commit": "76929f418d44457ffac1eae871396f1e60277369",
+  "language": "python",
+  "package_manager": "uv",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "suite does not load at base: 14 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "sync",
+        "--frozen"
+      ],
+      "exit_code": 0,
+      "duration_s": 2.7,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 0.1 s; pytest: exit 0 in 0.5 s; suite failed: 0 passed, 0 failed, 14 errors, 0 skipped (work/runtime/dropseed__plain__39-40/trees/base/plain/tests/test_cli.py::work.runtime.dropseed__plain__39-40.trees.base.plain.tests.test_cli, work/runtime/dropseed__plain__39-40/trees/base/plain/tests/test_runtime.py::work.runtime.dropseed__plain__39-40.trees.base.plain.tests.test_runtime, work/runtime/dropseed__plain__39-40/trees/base/plain-admin/tests/test_admin.py::work.runtime.dropseed__plain__39-40.trees.base.plain-admin.tests.test_admin, work/runtime/dropseed__plain__39-40/trees/base/plain-api/tests/test_api.py::work.runtime.dropseed__plain__39-40.trees.base.plain-api.tests.test_api, work/runtime/dropseed__plain__39-40/trees/base/plain-elements/tests/test_elements.py::work.runtime.dropseed__plain__39-40.trees.base.plain-elements.tests.test_elements); first run failed: 0 passed, 0 failed, 14 errors, 0 skipped (work/runtime/dropseed__plain__39-40/trees/base/plain/tests/test_cli.py::work.runtime.dropseed__plain__39-40.trees.base.plain.tests.test_cli, work/runtime/dropseed__plain__39-40/trees/base/plain/tests/test_runtime.py::work.runtime.dropseed__plain__39-40.trees.base.plain.tests.test_runtime, work/runtime/dropseed__plain__39-40/trees/base/plain-admin/tests/test_admin.py::work.runtime.dropseed__plain__39-40.trees.base.plain-admin.tests.test_admin, work/runtime/dropseed__plain__39-40/trees/base/plain-api/tests/test_api.py::work.runtime.dropseed__plain__39-40.trees.base.plain-api.tests.test_api, work/runtime/dropseed__plain__39-40/trees/base/plain-elements/tests/test_elements.py::work.runtime.dropseed__plain__39-40.trees.base.plain-elements.tests.test_elements)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/dropseed__plain__39-40/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/dropseed__plain__39-40/trees/base",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 3.6,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 1.6 s; suite failed: 0 passed, 0 failed, 14 errors, 0 skipped (work/runtime/dropseed__plain__39-40/trees/base/plain/tests/test_cli.py::work.runtime.dropseed__plain__39-40.trees.base.plain.tests.test_cli, work/runtime/dropseed__plain__39-40/trees/base/plain/tests/test_runtime.py::work.runtime.dropseed__plain__39-40.trees.base.plain.tests.test_runtime, work/runtime/dropseed__plain__39-40/trees/base/plain-admin/tests/test_admin.py::work.runtime.dropseed__plain__39-40.trees.base.plain-admin.tests.test_admin, work/runtime/dropseed__plain__39-40/trees/base/plain-api/tests/test_api.py::work.runtime.dropseed__plain__39-40.trees.base.plain-api.tests.test_api, work/runtime/dropseed__plain__39-40/trees/base/plain-elements/tests/test_elements.py::work.runtime.dropseed__plain__39-40.trees.base.plain-elements.tests.test_elements); first run failed: 0 passed, 0 failed, 14 errors, 0 skipped (work/runtime/dropseed__plain__39-40/trees/base/plain/tests/test_cli.py::work.runtime.dropseed__plain__39-40.trees.base.plain.tests.test_cli, work/runtime/dropseed__plain__39-40/trees/base/plain/tests/test_runtime.py::work.runtime.dropseed__plain__39-40.trees.base.plain.tests.test_runtime, work/runtime/dropseed__plain__39-40/trees/base/plain-admin/tests/test_admin.py::work.runtime.dropseed__plain__39-40.trees.base.plain-admin.tests.test_admin, work/runtime/dropseed__plain__39-40/trees/base/plain-api/tests/test_api.py::work.runtime.dropseed__plain__39-40.trees.base.plain-api.tests.test_api, work/runtime/dropseed__plain__39-40/trees/base/plain-elements/tests/test_elements.py::work.runtime.dropseed__plain__39-40.trees.base.plain-elements.tests.test_elements)"
+    }
+  ],
+  "test_count": 14,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/dropseed__plain__39-40/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/dropseed__plain__39-40/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 14,
+    "skipped": 0,
+    "duration_s": 1.0,
+    "retried": true,
+    "failing_tests": [
+      "work/runtime/dropseed__plain__39-40/trees/base/plain/tests/test_cli.py::work.runtime.dropseed__plain__39-40.trees.base.plain.tests.test_cli",
+      "work/runtime/dropseed__plain__39-40/trees/base/plain/tests/test_runtime.py::work.runtime.dropseed__plain__39-40.trees.base.plain.tests.test_runtime",
+      "work/runtime/dropseed__plain__39-40/trees/base/plain-admin/tests/test_admin.py::work.runtime.dropseed__plain__39-40.trees.base.plain-admin.tests.test_admin",
+      "work/runtime/dropseed__plain__39-40/trees/base/plain-api/tests/test_api.py::work.runtime.dropseed__plain__39-40.trees.base.plain-api.tests.test_api",
+      "work/runtime/dropseed__plain__39-40/trees/base/plain-elements/tests/test_elements.py::work.runtime.dropseed__plain__39-40.trees.base.plain-elements.tests.test_elements",
+      "work/runtime/dropseed__plain__39-40/trees/base/plain-flags/tests/test_flags.py::work.runtime.dropseed__plain__39-40.trees.base.plain-flags.tests.test_flags",
+      "work/runtime/dropseed__plain__39-40/trees/base/plain-htmx/tests/test_views.py::work.runtime.dropseed__plain__39-40.trees.base.plain-htmx.tests.test_views",
+      "work/runtime/dropseed__plain__39-40/trees/base/plain-models/tests/test_models.py::work.runtime.dropseed__plain__39-40.trees.base.plain-models.tests.test_models",
+      "work/runtime/dropseed__plain__39-40/trees/base/plain-oauth/tests/provider_tests/test_github.py::work.runtime.dropseed__plain__39-40.trees.base.plain-oauth.tests.provider_tests.test_github",
+      "work/runtime/dropseed__plain__39-40/trees/base/plain-oauth/tests/test_backends.py::work.runtime.dropseed__plain__39-40.trees.base.plain-oauth.tests.test_backends",
+      "work/runtime/dropseed__plain__39-40/trees/base/plain-oauth/tests/test_checks.py::work.runtime.dropseed__plain__39-40.trees.base.plain-oauth.tests.test_checks",
+      "work/runtime/dropseed__plain__39-40/trees/base/plain-oauth/tests/test_providers.py::work.runtime.dropseed__plain__39-40.trees.base.plain-oauth.tests.test_providers",
+      "work/runtime/dropseed__plain__39-40/trees/base/plain-sessions/tests/test_sessions.py::work.runtime.dropseed__plain__39-40.trees.base.plain-sessions.tests.test_sessions",
+      "work/runtime/dropseed__plain__39-40/trees/base/plain-worker/tests/test_scheduling.py::work.runtime.dropseed__plain__39-40.trees.base.plain-worker.tests.test_scheduling"
+    ],
+    "detail": "0 passed, 0 failed, 14 errors, 0 skipped (work/runtime/dropseed__plain__39-40/trees/base/plain/tests/test_cli.py::work.runtime.dropseed__plain__39-40.trees.base.plain.tests.test_cli, work/runtime/dropseed__plain__39-40/trees/base/plain/tests/test_runtime.py::work.runtime.dropseed__plain__39-40.trees.base.plain.tests.test_runtime, work/runtime/dropseed__plain__39-40/trees/base/plain-admin/tests/test_admin.py::work.runtime.dropseed__plain__39-40.trees.base.plain-admin.tests.test_admin, work/runtime/dropseed__plain__39-40/trees/base/plain-api/tests/test_api.py::work.runtime.dropseed__plain__39-40.trees.base.plain-api.tests.test_api, work/runtime/dropseed__plain__39-40/trees/base/plain-elements/tests/test_elements.py::work.runtime.dropseed__plain__39-40.trees.base.plain-elements.tests.test_elements); first run failed: 0 passed, 0 failed, 14 errors, 0 skipped (work/runtime/dropseed__plain__39-40/trees/base/plain/tests/test_cli.py::work.runtime.dropseed__plain__39-40.trees.base.plain.tests.test_cli, work/runtime/dropseed__plain__39-40/trees/base/plain/tests/test_runtime.py::work.runtime.dropseed__plain__39-40.trees.base.plain.tests.test_runtime, work/runtime/dropseed__plain__39-40/trees/base/plain-admin/tests/test_admin.py::work.runtime.dropseed__plain__39-40.trees.base.plain-admin.tests.test_admin, work/runtime/dropseed__plain__39-40/trees/base/plain-api/tests/test_api.py::work.runtime.dropseed__plain__39-40.trees.base.plain-api.tests.test_api, work/runtime/dropseed__plain__39-40/trees/base/plain-elements/tests/test_elements.py::work.runtime.dropseed__plain__39-40.trees.base.plain-elements.tests.test_elements)"
+  },
+  "timeout_s": 600
+}
