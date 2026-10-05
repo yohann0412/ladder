@@ -5,7 +5,7 @@ from typing import Annotated
 
 import typer
 
-from ladder import pairs_cli
+from ladder import pairs_cli, workspace_cli
 from ladder.layout import Layout
 
 app = typer.Typer(
@@ -33,3 +33,4 @@ def main(
 
 
 app.add_typer(pairs_cli.app, name="pairs")
+app.add_typer(workspace_cli.app, name="workspace")
