@@ -1,0 +1,10 @@
+{
+  "pair_id": "shopware__shopware__8304-8383",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f3df21aa05abada5e127174cad8e9cb9db9f01fa"
+}

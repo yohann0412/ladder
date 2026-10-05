@@ -1,0 +1,33 @@
+{
+  "pair_id": "open-telemetry__opentelemetry-rust__3102-3111",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in opentelemetry-otlp/src/exporter/http/mod.rs",
+    "CONFLICT (content): Merge conflict in opentelemetry-sdk/Cargo.toml"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "opentelemetry-otlp/src/exporter/http/mod.rs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "opentelemetry-sdk/Cargo.toml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

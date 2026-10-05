@@ -1,0 +1,23 @@
+{
+  "pair_id": "TracecatHQ__tracecat__1524-1526",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in packages/tracecat-registry/tracecat_registry/templates/tools/hybrid_analysis/submit_url.yml"
+  ],
+  "types": [
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": "packages/tracecat-registry/tracecat_registry/templates/tools/hybrid_analysis/submit_url.yml",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

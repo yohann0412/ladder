@@ -1,0 +1,10 @@
+{
+  "pair_id": "alexanderjeurissen__ranger_devicons__126-127",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "35c254e4554c75b6b5f79bd382d59edc53b5c3db"
+}

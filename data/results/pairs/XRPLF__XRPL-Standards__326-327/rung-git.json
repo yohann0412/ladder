@@ -1,0 +1,10 @@
+{
+  "pair_id": "XRPLF__XRPL-Standards__326-327",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "fab8577d817d6de3cdbf96047342a7aebee27bf2"
+}

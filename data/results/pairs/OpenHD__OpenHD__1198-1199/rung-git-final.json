@@ -1,0 +1,10 @@
+{
+  "pair_id": "OpenHD__OpenHD__1198-1199",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "01383c313263a2c3f17d2ca0ba805a6d0bf4e89d"
+}

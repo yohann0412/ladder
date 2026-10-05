@@ -1,0 +1,10 @@
+{
+  "pair_id": "getsentry__sentry-mcp__265-266",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c5ecb75ef6152e0089a9922aedfdf87557e12f1d"
+}

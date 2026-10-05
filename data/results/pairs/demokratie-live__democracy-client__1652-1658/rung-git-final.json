@@ -1,0 +1,23 @@
+{
+  "pair_id": "demokratie-live__democracy-client__1652-1658",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in pnpm-lock.yaml"
+  ],
+  "types": [
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": "pnpm-lock.yaml",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

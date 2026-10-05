@@ -1,0 +1,10 @@
+{
+  "pair_id": "OpenWonderLabs__homebridge-switchbot__1229-1237",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "96d07df009deae24c0e092f36c4098c19da3fc51"
+}

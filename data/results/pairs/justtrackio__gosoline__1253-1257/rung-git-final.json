@@ -1,0 +1,10 @@
+{
+  "pair_id": "justtrackio__gosoline__1253-1257",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5312c508e8abd5381f8cacbd008c81b3d3265199"
+}

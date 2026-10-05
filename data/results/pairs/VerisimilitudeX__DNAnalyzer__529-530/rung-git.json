@@ -1,0 +1,10 @@
+{
+  "pair_id": "VerisimilitudeX__DNAnalyzer__529-530",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0220ca9e5044ad32a431ce3b1113e74c9a1e4aad"
+}

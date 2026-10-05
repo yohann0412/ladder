@@ -1,0 +1,10 @@
+{
+  "pair_id": "projectcalico__calico__11011-11024",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5dd3b78e022109f1738391c93a4cf391a4397c5f"
+}

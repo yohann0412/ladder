@@ -1,0 +1,503 @@
+{
+  "pair_id": "joaovitoriasilva__endurain__315-317",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 49, conflicted files: 49 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in .env.example",
+    "CONFLICT (content): Merge conflict in backend/app/session/schema.py",
+    "CONFLICT (content): Merge conflict in backend/poetry.lock",
+    "CONFLICT (content): Merge conflict in backend/pyproject.toml",
+    "CONFLICT (content): Merge conflict in docs/index.md",
+    "CONFLICT (content): Merge conflict in frontend/app/src/components/Activities/ActivitiesSummaryBreakdownTableComponent.vue",
+    "CONFLICT (content): Merge conflict in frontend/app/src/components/Activities/ActivitiesTableRowComponent.vue",
+    "CONFLICT (content): Merge conflict in frontend/app/src/components/Activities/ActivitiesTypeBreakdownTableComponent.vue",
+    "CONFLICT (content): Merge conflict in frontend/app/src/components/Activities/ActivityLapsComponent.vue",
+    "CONFLICT (content): Merge conflict in frontend/app/src/components/Activities/ActivitySummaryComponent.vue",
+    "CONFLICT (modify/delete): frontend/app/src/components/Activities/UserDistanceStatsComponent.vue deleted in a and modified in b.  Version b of frontend/app/src/components/Activities/UserDistanceStatsComponent.vue left in tree.",
+    "CONFLICT (content): Merge conflict in frontend/app/src/components/FooterComponent.vue",
+    "CONFLICT (content): Merge conflict in frontend/app/src/components/Gears/GearComponentListComponent.vue",
+    "CONFLICT (content): Merge conflict in frontend/app/src/components/Settings/SettingsSecurityZone.vue",
+    "CONFLICT (content): Merge conflict in frontend/app/src/components/Settings/SettingsSideBarComponent.vue",
+    "CONFLICT (content): Merge conflict in frontend/app/src/components/Settings/SettingsUsersZone.vue",
+    "CONFLICT (content): Merge conflict in frontend/app/src/components/Settings/SettingsUsersZone/UsersAddEditUserModalComponent.vue",
+    "CONFLICT (content): Merge conflict in frontend/app/src/components/Settings/SettingsUsersZone/UsersListComponent.vue",
+    "CONFLICT (content): Merge conflict in frontend/app/src/components/Users/UserAvatarComponent.vue",
+    "CONFLICT (content): Merge conflict in frontend/app/src/i18n/ca/activityItems.json",
+    "CONFLICT (content): Merge conflict in frontend/app/src/i18n/ca/components/activities/modals/editActivityModalComponent.json",
+    "CONFLICT (modify/delete): frontend/app/src/i18n/ca/components/activities/userDistanceStatsComponent.json deleted in a and modified in b.  Version b of frontend/app/src/i18n/ca/components/activities/userDistanceStatsComponent.json left in tree.",
+    "CONFLICT (content): Merge conflict in frontend/app/src/i18n/ca/components/settings/settingsSideBarComponent.json",
+    "CONFLICT (modify/delete): frontend/app/src/i18n/de/components/activities/userDistanceStatsComponent.json deleted in a and modified in b.  Version b of frontend/app/src/i18n/de/components/activities/userDistanceStatsComponent.json left in tree.",
+    "CONFLICT (content): Merge conflict in frontend/app/src/i18n/de/components/settings/settingsSideBarComponent.json",
+    "CONFLICT (modify/delete): frontend/app/src/i18n/es/components/activities/userDistanceStatsComponent.json deleted in a and modified in b.  Version b of frontend/app/src/i18n/es/components/activities/userDistanceStatsComponent.json left in tree.",
+    "CONFLICT (content): Merge conflict in frontend/app/src/i18n/es/components/settings/settingsSideBarComponent.json",
+    "CONFLICT (modify/delete): frontend/app/src/i18n/fr/components/activities/userDistanceStatsComponent.json deleted in a and modified in b.  Version b of frontend/app/src/i18n/fr/components/activities/userDistanceStatsComponent.json left in tree.",
+    "CONFLICT (content): Merge conflict in frontend/app/src/i18n/fr/components/settings/settingsSideBarComponent.json",
+    "CONFLICT (content): Merge conflict in frontend/app/src/i18n/index.js",
+    "CONFLICT (content): Merge conflict in frontend/app/src/i18n/nl/components/settings/settingsSideBarComponent.json",
+    "CONFLICT (content): Merge conflict in frontend/app/src/i18n/nl/components/users/userDistanceStatsComponent.json",
+    "CONFLICT (content): Merge conflict in frontend/app/src/i18n/nl/gears/gearView.json",
+    "CONFLICT (content): Merge conflict in frontend/app/src/i18n/nl/searchView.json",
+    "CONFLICT (content): Merge conflict in frontend/app/src/i18n/pt/components/settings/settingsSideBarComponent.json",
+    "CONFLICT (content): Merge conflict in frontend/app/src/i18n/us/components/settings/settingsSecurityZoneComponent.json",
+    "CONFLICT (content): Merge conflict in frontend/app/src/i18n/us/components/settings/settingsSideBarComponent.json",
+    "CONFLICT (content): Merge conflict in frontend/app/src/i18n/us/loginView.json",
+    "CONFLICT (content): Merge conflict in frontend/app/src/main.js",
+    "CONFLICT (content): Merge conflict in frontend/app/src/router/index.js",
+    "CONFLICT (content): Merge conflict in frontend/app/src/services/sessionService.js",
+    "CONFLICT (content): Merge conflict in frontend/app/src/utils/activityUtils.js",
+    "CONFLICT (content): Merge conflict in frontend/app/src/utils/serviceUtils.js",
+    "CONFLICT (content): Merge conflict in frontend/app/src/views/Gears/GearView.vue",
+    "CONFLICT (content): Merge conflict in frontend/app/src/views/HomeView.vue",
+    "CONFLICT (content): Merge conflict in frontend/app/src/views/LoginView.vue",
+    "CONFLICT (content): Merge conflict in frontend/app/src/views/SettingsView.vue",
+    "CONFLICT (content): Merge conflict in frontend/app/src/views/SummaryView.vue",
+    "CONFLICT (content): Merge conflict in frontend/app/src/views/UserView.vue"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "modify/delete",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "modify/delete",
+    "content",
+    "modify/delete",
+    "content",
+    "modify/delete",
+    "content",
+    "modify/delete",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": ".env.example",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "backend/app/session/schema.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "backend/poetry.lock",
+      "types": [
+        "content"
+      ],
+      "regions": 6,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "backend/pyproject.toml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "docs/index.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "frontend/app/src/components/Activities/ActivitiesSummaryBreakdownTableComponent.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/components/Activities/ActivitiesTableRowComponent.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/components/Activities/ActivitiesTypeBreakdownTableComponent.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/components/Activities/ActivityLapsComponent.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/components/Activities/ActivitySummaryComponent.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/components/Activities/UserDistanceStatsComponent.vue",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/components/FooterComponent.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/components/Gears/GearComponentListComponent.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/components/Settings/SettingsSecurityZone.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 10,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/components/Settings/SettingsSideBarComponent.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/components/Settings/SettingsUsersZone.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/components/Settings/SettingsUsersZone/UsersAddEditUserModalComponent.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/components/Settings/SettingsUsersZone/UsersListComponent.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/components/Users/UserAvatarComponent.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/i18n/ca/activityItems.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/i18n/ca/components/activities/modals/editActivityModalComponent.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/i18n/ca/components/activities/userDistanceStatsComponent.json",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/i18n/ca/components/settings/settingsSideBarComponent.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/i18n/de/components/activities/userDistanceStatsComponent.json",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/i18n/de/components/settings/settingsSideBarComponent.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/i18n/es/components/activities/userDistanceStatsComponent.json",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/i18n/es/components/settings/settingsSideBarComponent.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/i18n/fr/components/activities/userDistanceStatsComponent.json",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/i18n/fr/components/settings/settingsSideBarComponent.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/i18n/index.js",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/i18n/nl/components/settings/settingsSideBarComponent.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/i18n/nl/components/users/userDistanceStatsComponent.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/i18n/nl/gears/gearView.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/i18n/nl/searchView.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/i18n/pt/components/settings/settingsSideBarComponent.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/i18n/us/components/settings/settingsSecurityZoneComponent.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/i18n/us/components/settings/settingsSideBarComponent.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/i18n/us/loginView.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "frontend/app/src/main.js",
+      "types": [
+        "content"
+      ],
+      "regions": 7,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/router/index.js",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/services/sessionService.js",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/utils/activityUtils.js",
+      "types": [
+        "content"
+      ],
+      "regions": 16,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/utils/serviceUtils.js",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/views/Gears/GearView.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/views/HomeView.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 7,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/views/LoginView.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 6,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/views/SettingsView.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/views/SummaryView.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "frontend/app/src/views/UserView.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 12,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

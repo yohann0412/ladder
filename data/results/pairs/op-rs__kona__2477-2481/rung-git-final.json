@@ -1,0 +1,10 @@
+{
+  "pair_id": "op-rs__kona__2477-2481",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "58e9fb5aa9bb84714a346cabd1b98481fb166234"
+}

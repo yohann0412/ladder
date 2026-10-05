@@ -1,0 +1,10 @@
+{
+  "pair_id": "iv-org__invidious-companion__184-185",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "89b597c32d80240a36e5d0319d5b05ab5ee41907"
+}

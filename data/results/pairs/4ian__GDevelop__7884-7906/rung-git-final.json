@@ -1,0 +1,10 @@
+{
+  "pair_id": "4ian__GDevelop__7884-7906",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d9fbdeaa88a9f312852e60e67837adc81b958fe4"
+}

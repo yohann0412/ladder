@@ -1,0 +1,73 @@
+{
+  "pair_id": "XRPLF__XRPL-Standards__326-327",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 6, conflicted files: 6 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in .github/workflows/deploy.yml",
+    "CONFLICT (add/add): Merge conflict in .github/workflows/validate-xls.yml",
+    "CONFLICT (add/add): Merge conflict in site/assets/style.css",
+    "CONFLICT (add/add): Merge conflict in site/build_site.py",
+    "CONFLICT (add/add): Merge conflict in site/templates/index.html",
+    "CONFLICT (add/add): Merge conflict in site/xls_parser.py"
+  ],
+  "types": [
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/deploy.yml",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": ".github/workflows/validate-xls.yml",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "site/assets/style.css",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "site/build_site.py",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "site/templates/index.html",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "site/xls_parser.py",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

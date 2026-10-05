@@ -1,0 +1,10 @@
+{
+  "pair_id": "web-infra-dev__midscene__1279-1280",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "fed6c6b9b0f6cb280d3066321f27e2984b9e1025"
+}

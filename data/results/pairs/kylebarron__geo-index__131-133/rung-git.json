@@ -1,0 +1,10 @@
+{
+  "pair_id": "kylebarron__geo-index__131-133",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b5e00f2573d811cd146e5ed50c68ae728f183778"
+}

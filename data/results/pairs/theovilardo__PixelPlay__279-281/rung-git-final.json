@@ -1,0 +1,10 @@
+{
+  "pair_id": "theovilardo__PixelPlay__279-281",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5129c81d11c1e1eeeb89f2277aa4b7aefbcf496a"
+}

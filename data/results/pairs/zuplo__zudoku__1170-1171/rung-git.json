@@ -1,0 +1,10 @@
+{
+  "pair_id": "zuplo__zudoku__1170-1171",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5d7565bd26f1392783f15fa43ca8ec939ff47b50"
+}

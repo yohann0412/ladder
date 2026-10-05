@@ -1,0 +1,10 @@
+{
+  "pair_id": "celestiaorg__celestia-core__1902-1904",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ee6f59786a62d1a37e0c2224f5eb407dfcb3c05e"
+}

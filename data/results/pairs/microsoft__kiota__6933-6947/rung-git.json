@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__kiota__6933-6947",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "63835f4931e209a380ee8f7075342ec64ac311b0"
+}

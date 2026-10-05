@@ -1,0 +1,10 @@
+{
+  "pair_id": "Azure__azure-sdk-for-python__41352-41413",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "8745fb0df1a0a30c0026caf253adfa93cb77675a"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "phan__phan__5090-5092",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7aa2258b2d351c69c74b4efba1a6426b5a3f46ae"
+}

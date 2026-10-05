@@ -1,0 +1,10 @@
+{
+  "pair_id": "datalayer__jupyter-mcp-server__41-43",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "706536196d4501e63db4bea9defc0135294814de"
+}

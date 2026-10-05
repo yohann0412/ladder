@@ -1,0 +1,10 @@
+{
+  "pair_id": "yogeshpaliyal__Deepr__131-133",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "818daf22e334a2cd055a36bddc08e571aa26c74e"
+}

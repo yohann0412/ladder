@@ -1,0 +1,10 @@
+{
+  "pair_id": "hey-api__openapi-ts__2650-2652",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c0a0002c59d5d9b39495fb7a4cbb322d7fc46124"
+}

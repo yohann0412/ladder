@@ -1,0 +1,10 @@
+{
+  "pair_id": "dartsim__dart__2004-2005",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7fa7fe34f5020ef7a8386ebe78fee930bf29d7c0"
+}

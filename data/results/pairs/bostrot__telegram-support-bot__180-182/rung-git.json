@@ -1,0 +1,10 @@
+{
+  "pair_id": "bostrot__telegram-support-bot__180-182",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7657d54fd534c3bcf37720632449197695b0517e"
+}

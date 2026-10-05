@@ -1,0 +1,10 @@
+{
+  "pair_id": "wasp-lang__wasp__3181-3189",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a7aec1d83e192b88ab24280dd95afba6be61155a"
+}

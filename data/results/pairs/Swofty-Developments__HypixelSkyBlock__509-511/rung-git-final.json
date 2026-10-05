@@ -1,0 +1,133 @@
+{
+  "pair_id": "Swofty-Developments__HypixelSkyBlock__509-511",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 12, conflicted files: 12 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in .gradle/8.7/checksums/checksums.lock",
+    "CONFLICT (add/add): Merge conflict in .gradle/8.7/checksums/md5-checksums.bin",
+    "CONFLICT (add/add): Merge conflict in .gradle/8.7/checksums/sha1-checksums.bin",
+    "CONFLICT (add/add): Merge conflict in .gradle/8.7/executionHistory/executionHistory.bin",
+    "CONFLICT (add/add): Merge conflict in .gradle/8.7/executionHistory/executionHistory.lock",
+    "CONFLICT (add/add): Merge conflict in .gradle/8.7/fileHashes/fileHashes.bin",
+    "CONFLICT (add/add): Merge conflict in .gradle/8.7/fileHashes/fileHashes.lock",
+    "CONFLICT (add/add): Merge conflict in .gradle/8.7/fileHashes/resourceHashesCache.bin",
+    "CONFLICT (add/add): Merge conflict in .gradle/buildOutputCleanup/buildOutputCleanup.lock",
+    "CONFLICT (add/add): Merge conflict in .gradle/buildOutputCleanup/cache.properties",
+    "CONFLICT (add/add): Merge conflict in .gradle/buildOutputCleanup/outputFiles.bin",
+    "CONFLICT (content): Merge conflict in type.generic/build.gradle.kts"
+  ],
+  "types": [
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "content"
+  ],
+  "files": [
+    {
+      "path": ".gradle/8.7/checksums/checksums.lock",
+      "types": [
+        "add/add"
+      ],
+      "regions": 0,
+      "category": "other"
+    },
+    {
+      "path": ".gradle/8.7/checksums/md5-checksums.bin",
+      "types": [
+        "add/add"
+      ],
+      "regions": 0,
+      "category": "other"
+    },
+    {
+      "path": ".gradle/8.7/checksums/sha1-checksums.bin",
+      "types": [
+        "add/add"
+      ],
+      "regions": 0,
+      "category": "other"
+    },
+    {
+      "path": ".gradle/8.7/executionHistory/executionHistory.bin",
+      "types": [
+        "add/add"
+      ],
+      "regions": 0,
+      "category": "other"
+    },
+    {
+      "path": ".gradle/8.7/executionHistory/executionHistory.lock",
+      "types": [
+        "add/add"
+      ],
+      "regions": 0,
+      "category": "other"
+    },
+    {
+      "path": ".gradle/8.7/fileHashes/fileHashes.bin",
+      "types": [
+        "add/add"
+      ],
+      "regions": 0,
+      "category": "other"
+    },
+    {
+      "path": ".gradle/8.7/fileHashes/fileHashes.lock",
+      "types": [
+        "add/add"
+      ],
+      "regions": 0,
+      "category": "other"
+    },
+    {
+      "path": ".gradle/8.7/fileHashes/resourceHashesCache.bin",
+      "types": [
+        "add/add"
+      ],
+      "regions": 0,
+      "category": "other"
+    },
+    {
+      "path": ".gradle/buildOutputCleanup/buildOutputCleanup.lock",
+      "types": [
+        "add/add"
+      ],
+      "regions": 0,
+      "category": "other"
+    },
+    {
+      "path": ".gradle/buildOutputCleanup/cache.properties",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": ".gradle/buildOutputCleanup/outputFiles.bin",
+      "types": [
+        "add/add"
+      ],
+      "regions": 0,
+      "category": "other"
+    },
+    {
+      "path": "type.generic/build.gradle.kts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

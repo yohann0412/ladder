@@ -1,0 +1,10 @@
+{
+  "pair_id": "zenml-io__zenml__3678-3679",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "cdb4c3f318cc7f548a53d8a0bc6cfae4462c86a0"
+}

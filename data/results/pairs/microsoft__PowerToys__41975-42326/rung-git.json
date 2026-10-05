@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__PowerToys__41975-42326",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "77a1b437b9edb6362189bb1fa9f8a979b7952183"
+}

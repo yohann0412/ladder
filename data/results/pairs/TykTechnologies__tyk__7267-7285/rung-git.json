@@ -1,0 +1,279 @@
+{
+  "pair_id": "TykTechnologies__tyk__7267-7285",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 28, conflicted files: 26 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in .github/workflows/ci-tests.yml",
+    "CONFLICT (content): Merge conflict in apidef/oas/example.go",
+    "CONFLICT (content): Merge conflict in apidef/oas/oas.go",
+    "CONFLICT (content): Merge conflict in apidef/oas/oas_test.go",
+    "CONFLICT (content): Merge conflict in apidef/oas/old_oas.go",
+    "CONFLICT (content): Merge conflict in apidef/oas/operation.go",
+    "CONFLICT (content): Merge conflict in apidef/oas/operation_test.go",
+    "CONFLICT (content): Merge conflict in apidef/streams/bento/schema/bento-config-schema.json",
+    "CONFLICT (add/add): Merge conflict in apidef/streams/bento/schema/generate_bento_config_schema.go",
+    "CONFLICT (content): Merge conflict in gateway/api.go",
+    "CONFLICT (content): Merge conflict in gateway/api_definition.go",
+    "CONFLICT (content): Merge conflict in gateway/mw_jwt.go",
+    "CONFLICT (rename/delete): gateway/mock_response.go renamed to gateway/mw_mock_response.go in b, but deleted in a.",
+    "CONFLICT (add/add): Merge conflict in gateway/mw_mock_response.go",
+    "CONFLICT (rename/delete): gateway/mock_response_test.go renamed to gateway/mw_mock_response_test.go in b, but deleted in a.",
+    "CONFLICT (add/add): Merge conflict in gateway/mw_mock_response_test.go",
+    "CONFLICT (content): Merge conflict in gateway/policy.go",
+    "CONFLICT (content): Merge conflict in gateway/reverse_proxy.go",
+    "CONFLICT (content): Merge conflict in gateway/reverse_proxy_test.go",
+    "CONFLICT (content): Merge conflict in gateway/tracing_test.go",
+    "CONFLICT (content): Merge conflict in go.mod",
+    "CONFLICT (content): Merge conflict in go.sum",
+    "CONFLICT (content): Merge conflict in goplugin/mw_go_plugin_test.go",
+    "CONFLICT (content): Merge conflict in internal/graphengine/engine_v2.go",
+    "CONFLICT (add/add): Merge conflict in internal/oasbuilder/builder.go",
+    "CONFLICT (add/add): Merge conflict in internal/oasutil/servers.go",
+    "CONFLICT (add/add): Merge conflict in internal/oasutil/servers_test.go",
+    "CONFLICT (content): Merge conflict in swagger.yml"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "add/add",
+    "content",
+    "content",
+    "content",
+    "rename/delete",
+    "add/add",
+    "rename/delete",
+    "add/add",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "add/add",
+    "add/add",
+    "add/add",
+    "content"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/ci-tests.yml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "apidef/oas/example.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "apidef/oas/oas.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "apidef/oas/oas_test.go",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "apidef/oas/old_oas.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "apidef/oas/operation.go",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "apidef/oas/operation_test.go",
+      "types": [
+        "content"
+      ],
+      "regions": 12,
+      "category": "source"
+    },
+    {
+      "path": "apidef/streams/bento/schema/bento-config-schema.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "apidef/streams/bento/schema/generate_bento_config_schema.go",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "gateway/api.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "gateway/api_definition.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "gateway/mw_jwt.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "gateway/mw_mock_response.go",
+      "types": [
+        "rename/delete",
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "gateway/mw_mock_response_test.go",
+      "types": [
+        "rename/delete",
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "gateway/policy.go",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "gateway/reverse_proxy.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "gateway/reverse_proxy_test.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "types": [
+        "content"
+      ],
+      "regions": 6,
+      "category": "source"
+    },
+    {
+      "path": "go.mod",
+      "types": [
+        "content"
+      ],
+      "regions": 25,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "go.sum",
+      "types": [
+        "content"
+      ],
+      "regions": 44,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "goplugin/mw_go_plugin_test.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "internal/graphengine/engine_v2.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "internal/oasbuilder/builder.go",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "internal/oasutil/servers.go",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "internal/oasutil/servers_test.go",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "swagger.yml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

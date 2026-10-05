@@ -1,0 +1,10 @@
+{
+  "pair_id": "TracecatHQ__tracecat__1524-1526",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a58ea8eb3762c82d9823f22d249402b377829674"
+}

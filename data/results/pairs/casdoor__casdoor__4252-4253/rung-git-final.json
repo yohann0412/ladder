@@ -1,0 +1,10 @@
+{
+  "pair_id": "casdoor__casdoor__4252-4253",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "752d7e49d4c78c62eefd3ee3e47f8affce874ae0"
+}

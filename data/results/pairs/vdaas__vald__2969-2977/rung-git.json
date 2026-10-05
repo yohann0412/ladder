@@ -1,0 +1,10 @@
+{
+  "pair_id": "vdaas__vald__2969-2977",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0393bd9af251e4930880f085e2562753f979511e"
+}

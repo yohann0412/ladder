@@ -1,0 +1,23 @@
+{
+  "pair_id": "leoafarias__fvm__850-851",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in lib/src/workflows/ensure_cache.workflow.dart"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "lib/src/workflows/ensure_cache.workflow.dart",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

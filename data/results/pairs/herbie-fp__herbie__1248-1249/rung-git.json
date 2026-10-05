@@ -1,0 +1,10 @@
+{
+  "pair_id": "herbie-fp__herbie__1248-1249",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "04a03163d210a790a488b7b31dca0407a507905f"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "datahub-project__datahub__13752-13958",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "82601e37169960070de09b30201614537de7a9d1"
+}

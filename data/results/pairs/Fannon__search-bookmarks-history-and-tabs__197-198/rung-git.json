@@ -1,0 +1,10 @@
+{
+  "pair_id": "Fannon__search-bookmarks-history-and-tabs__197-198",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "288f66994d05827a5683c7f3526935a6db0bfdd5"
+}

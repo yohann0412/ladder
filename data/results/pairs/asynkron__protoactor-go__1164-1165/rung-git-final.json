@@ -1,0 +1,10 @@
+{
+  "pair_id": "asynkron__protoactor-go__1164-1165",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a68eb2eb090512dff1111a2a36e993937062d7ff"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "open-telemetry__opentelemetry-rust__3102-3111",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "29dfad549a04b303d204305761565939a6d58880"
+}

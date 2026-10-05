@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__genaiscript__1762-1764",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6c5891572044b8c2f27c6c7f4c49dfc3c7487d62"
+}

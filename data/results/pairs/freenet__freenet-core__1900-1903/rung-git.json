@@ -1,0 +1,10 @@
+{
+  "pair_id": "freenet__freenet-core__1900-1903",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "309a058b655edede391f943c1b0d31515e97b1d8"
+}

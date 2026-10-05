@@ -1,0 +1,10 @@
+{
+  "pair_id": "dotnet__Nerdbank.GitVersioning__1245-1246",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a75611993e952458045e26b599aecad982f7b095"
+}

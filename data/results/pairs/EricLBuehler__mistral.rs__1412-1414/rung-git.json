@@ -1,0 +1,10 @@
+{
+  "pair_id": "EricLBuehler__mistral.rs__1412-1414",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "15aa8780a76b34584bc1e1ea42fdb5e10366e811"
+}

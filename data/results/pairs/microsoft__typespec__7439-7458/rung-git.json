@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__typespec__7439-7458",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "1210c6668819652427afd6554991677bfeff6fe9"
+}

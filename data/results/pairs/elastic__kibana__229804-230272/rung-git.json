@@ -1,0 +1,10 @@
+{
+  "pair_id": "elastic__kibana__229804-230272",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6dc209d22816e9ee0ab53361c496acdc59ceaed3"
+}

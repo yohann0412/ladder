@@ -1,0 +1,33 @@
+{
+  "pair_id": "NVIDIA__cuda-python__875-876",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in cuda_core/cuda/core/experimental/_memory.pyx",
+    "CONFLICT (content): Merge conflict in cuda_core/docs/source/release/0.X.Y-notes.rst"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "cuda_core/cuda/core/experimental/_memory.pyx",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "cuda_core/docs/source/release/0.X.Y-notes.rst",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

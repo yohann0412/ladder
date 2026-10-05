@@ -1,0 +1,10 @@
+{
+  "pair_id": "reactiveui__Sextant__887-889",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5ac22d1c455de7681cad6453ee4ce5d4f6437815"
+}

@@ -1,0 +1,33 @@
+{
+  "pair_id": "translate__translate__5753-5754",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in tests/translate/convert/test_po2html.py",
+    "CONFLICT (content): Merge conflict in tests/translate/storage/test_html.py"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "tests/translate/convert/test_po2html.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "tests/translate/storage/test_html.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

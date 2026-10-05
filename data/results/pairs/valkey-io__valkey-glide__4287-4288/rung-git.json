@@ -1,0 +1,10 @@
+{
+  "pair_id": "valkey-io__valkey-glide__4287-4288",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "88547f6ad5f36a972af9f22e1a0f29eda3d4ca92"
+}

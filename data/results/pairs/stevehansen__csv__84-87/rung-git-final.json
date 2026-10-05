@@ -1,0 +1,10 @@
+{
+  "pair_id": "stevehansen__csv__84-87",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "58dc1e8d457f4c3d38d5a52c52d9db0524f72472"
+}

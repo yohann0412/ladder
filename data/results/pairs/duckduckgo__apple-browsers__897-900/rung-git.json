@@ -1,0 +1,10 @@
+{
+  "pair_id": "duckduckgo__apple-browsers__897-900",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "8961c2fb1e8e6a1de46ff6259b7c93a280404782"
+}

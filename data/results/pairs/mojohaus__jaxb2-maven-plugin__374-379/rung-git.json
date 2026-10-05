@@ -1,0 +1,10 @@
+{
+  "pair_id": "mojohaus__jaxb2-maven-plugin__374-379",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "989fae13da485c1c4161a2f89cd28a976c12e57e"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "PBH-BTN__PeerBanHelper__1283-1287",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "af229fbd83ce6db067face218921e097e5fdbd39"
+}

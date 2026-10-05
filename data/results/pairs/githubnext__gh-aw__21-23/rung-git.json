@@ -1,0 +1,10 @@
+{
+  "pair_id": "githubnext__gh-aw__21-23",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "88cbcc41a5d3395cd6acc7c4db7ec52d978e02ac"
+}

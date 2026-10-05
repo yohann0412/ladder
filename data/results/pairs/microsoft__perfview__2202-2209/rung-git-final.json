@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__perfview__2202-2209",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e4328109b22b34f7e963fe0b2b0ad736d8549837"
+}

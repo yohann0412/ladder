@@ -1,0 +1,53 @@
+{
+  "pair_id": "Unity-Technologies__com.unity.toonshader__492-497",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (modify/delete): com.unity.toonshader/Documentation~/whats-new-0.10.x.md deleted in a and modified in b.  Version b of com.unity.toonshader/Documentation~/whats-new-0.10.x.md left in tree.",
+    "CONFLICT (modify/delete): com.unity.toonshader/Documentation~/whats-new-0.7.x.md deleted in a and modified in b.  Version b of com.unity.toonshader/Documentation~/whats-new-0.7.x.md left in tree.",
+    "CONFLICT (modify/delete): com.unity.toonshader/Documentation~/whats-new-0.8.x.md deleted in a and modified in b.  Version b of com.unity.toonshader/Documentation~/whats-new-0.8.x.md left in tree.",
+    "CONFLICT (modify/delete): com.unity.toonshader/Documentation~/whats-new-0.9.x.md deleted in a and modified in b.  Version b of com.unity.toonshader/Documentation~/whats-new-0.9.x.md left in tree."
+  ],
+  "types": [
+    "modify/delete",
+    "modify/delete",
+    "modify/delete",
+    "modify/delete"
+  ],
+  "files": [
+    {
+      "path": "com.unity.toonshader/Documentation~/whats-new-0.10.x.md",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "docs_text"
+    },
+    {
+      "path": "com.unity.toonshader/Documentation~/whats-new-0.7.x.md",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "docs_text"
+    },
+    {
+      "path": "com.unity.toonshader/Documentation~/whats-new-0.8.x.md",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "docs_text"
+    },
+    {
+      "path": "com.unity.toonshader/Documentation~/whats-new-0.9.x.md",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

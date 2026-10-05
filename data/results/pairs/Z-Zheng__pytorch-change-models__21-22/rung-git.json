@@ -1,0 +1,10 @@
+{
+  "pair_id": "Z-Zheng__pytorch-change-models__21-22",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "621ecf5e1a19db2107c4774b7664cc2ba43d8ced"
+}

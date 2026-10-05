@@ -232,3 +232,21 @@ Rewinding contaminated heads changes the label of 16 pairs: 9 paper-CLEAN pairs 
 once the absorbed resolution is removed (their final heads merge cleanly because one side
 already contains the resolution), and 7 paper-CONFLICT pairs merge cleanly. The paper-set
 ladder set (conflicting at replay heads) is 156 pairs.
+
+## 14. Supplementary sample S: stopping point
+
+`ladder pairs sample-supplementary --source data/source --seed 42` appended the 896 candidates
+in their pre-registered order. They were resolved and git-runged in order in batches of 150
+(`pairs resolve --pair ... --jobs 8`, then `rung git --in-cache` at both heads). One batch
+first crashed on a repository whose tag shares its default branch's name (fixed, `LOG.md`/
+`reviews/F1b-resolve.md` follow-up) and was re-run before counting.
+
+The 60th pair that conflicts at replay heads with a located truth commit is at position 502
+(index 501) of the ordered list, so S is the first 502 candidates. The 98 pairs processed
+after it (an artifact of batching) are not part of S per D15; they were removed from
+`data/pairs.json` and their records moved to `work/beyond-stop/` (not reported).
+
+S outcomes (502 pairs): ok and clean 367 (320 with a located truth), ok and conflicting 68
+(60 with a located truth, 8 without), unrecoverable (rebased) 58, fetch failed 9.
+Contamination is as common as in the paper set: in the first 150, 97 pairs had a contaminated
+head.

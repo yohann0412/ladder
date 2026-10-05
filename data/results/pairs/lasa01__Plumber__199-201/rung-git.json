@@ -1,0 +1,10 @@
+{
+  "pair_id": "lasa01__Plumber__199-201",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6407ba483aa1ccdc1605d261143acec6875ff2cb"
+}

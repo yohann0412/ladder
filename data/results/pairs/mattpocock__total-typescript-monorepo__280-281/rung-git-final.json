@@ -1,0 +1,10 @@
+{
+  "pair_id": "mattpocock__total-typescript-monorepo__280-281",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "71cbcd2926277f6de24f86b807344c3dd932186b"
+}

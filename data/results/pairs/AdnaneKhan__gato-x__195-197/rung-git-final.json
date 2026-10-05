@@ -1,0 +1,10 @@
+{
+  "pair_id": "AdnaneKhan__gato-x__195-197",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "71a8a91d8a4bd733c6f2bf25080982c959be100b"
+}

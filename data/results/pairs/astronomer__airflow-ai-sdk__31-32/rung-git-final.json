@@ -1,0 +1,123 @@
+{
+  "pair_id": "astronomer__airflow-ai-sdk__31-32",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 11, conflicted files: 11 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (modify/delete): docs/interface/airflow_ai_sdk_airflow.md deleted in a and modified in b.  Version b of docs/interface/airflow_ai_sdk_airflow.md left in tree.",
+    "CONFLICT (modify/delete): docs/interface/airflow_ai_sdk_decorators_agent.md deleted in a and modified in b.  Version b of docs/interface/airflow_ai_sdk_decorators_agent.md left in tree.",
+    "CONFLICT (modify/delete): docs/interface/airflow_ai_sdk_decorators_branch.md deleted in a and modified in b.  Version b of docs/interface/airflow_ai_sdk_decorators_branch.md left in tree.",
+    "CONFLICT (modify/delete): docs/interface/airflow_ai_sdk_decorators_embed.md deleted in a and modified in b.  Version b of docs/interface/airflow_ai_sdk_decorators_embed.md left in tree.",
+    "CONFLICT (modify/delete): docs/interface/airflow_ai_sdk_decorators_llm.md deleted in a and modified in b.  Version b of docs/interface/airflow_ai_sdk_decorators_llm.md left in tree.",
+    "CONFLICT (modify/delete): docs/interface/airflow_ai_sdk_models_base.md deleted in a and modified in b.  Version b of docs/interface/airflow_ai_sdk_models_base.md left in tree.",
+    "CONFLICT (modify/delete): docs/interface/airflow_ai_sdk_models_tool.md deleted in a and modified in b.  Version b of docs/interface/airflow_ai_sdk_models_tool.md left in tree.",
+    "CONFLICT (modify/delete): docs/interface/airflow_ai_sdk_operators_agent.md deleted in a and modified in b.  Version b of docs/interface/airflow_ai_sdk_operators_agent.md left in tree.",
+    "CONFLICT (modify/delete): docs/interface/airflow_ai_sdk_operators_embed.md deleted in a and modified in b.  Version b of docs/interface/airflow_ai_sdk_operators_embed.md left in tree.",
+    "CONFLICT (modify/delete): docs/interface/airflow_ai_sdk_operators_llm.md deleted in a and modified in b.  Version b of docs/interface/airflow_ai_sdk_operators_llm.md left in tree.",
+    "CONFLICT (modify/delete): docs/interface/airflow_ai_sdk_operators_llm_branch.md deleted in a and modified in b.  Version b of docs/interface/airflow_ai_sdk_operators_llm_branch.md left in tree."
+  ],
+  "types": [
+    "modify/delete",
+    "modify/delete",
+    "modify/delete",
+    "modify/delete",
+    "modify/delete",
+    "modify/delete",
+    "modify/delete",
+    "modify/delete",
+    "modify/delete",
+    "modify/delete",
+    "modify/delete"
+  ],
+  "files": [
+    {
+      "path": "docs/interface/airflow_ai_sdk_airflow.md",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "docs_text"
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_decorators_agent.md",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "docs_text"
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_decorators_branch.md",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "docs_text"
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_decorators_embed.md",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "docs_text"
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_decorators_llm.md",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "docs_text"
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_models_base.md",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "docs_text"
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_models_tool.md",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "docs_text"
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_operators_agent.md",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "docs_text"
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_operators_embed.md",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "docs_text"
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_operators_llm.md",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "docs_text"
+    },
+    {
+      "path": "docs/interface/airflow_ai_sdk_operators_llm_branch.md",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

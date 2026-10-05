@@ -1,0 +1,23 @@
+{
+  "pair_id": "dotCMS__core__32561-32609",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in CLAUDE.md"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "CLAUDE.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

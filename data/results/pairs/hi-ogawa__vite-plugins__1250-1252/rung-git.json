@@ -1,0 +1,10 @@
+{
+  "pair_id": "hi-ogawa__vite-plugins__1250-1252",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ed74d015428ef3162671148508e632e1bc3c7670"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "dotnet__arcade__15953-16010",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e7c481d30318862555aba8a27240a910e8803463"
+}

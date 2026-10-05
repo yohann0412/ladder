@@ -1,0 +1,10 @@
+{
+  "pair_id": "dotnet__EntityFramework.Docs__5113-5119",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "318d33a45f52ef193fcd817d8de537d618240f8d"
+}

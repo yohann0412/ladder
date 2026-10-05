@@ -1,0 +1,10 @@
+{
+  "pair_id": "scoringengine__scoringengine__985-988",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "089f8b16655284427bf020bf7a89329228a87e67"
+}

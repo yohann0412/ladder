@@ -1,0 +1,10 @@
+{
+  "pair_id": "Azure__oav__1090-1094",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "9d6cd23483089b0199bcbb9f2c3e3a36c59d28a1"
+}

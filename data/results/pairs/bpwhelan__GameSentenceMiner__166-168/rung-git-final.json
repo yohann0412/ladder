@@ -1,0 +1,10 @@
+{
+  "pair_id": "bpwhelan__GameSentenceMiner__166-168",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "3bbc08975cfc2bb2b3f33ce5b58206faf49a1cbd"
+}

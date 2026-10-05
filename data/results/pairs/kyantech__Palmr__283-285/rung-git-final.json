@@ -1,0 +1,10 @@
+{
+  "pair_id": "kyantech__Palmr__283-285",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b25d89b9f566122f2d84969d2b72210bc6c792b2"
+}

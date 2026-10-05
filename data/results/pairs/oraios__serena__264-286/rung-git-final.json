@@ -1,0 +1,83 @@
+{
+  "pair_id": "oraios__serena__264-286",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 7, conflicted files: 7 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/solidlsp/language_servers/clangd_language_server.py",
+    "CONFLICT (content): Merge conflict in src/solidlsp/language_servers/clojure_lsp.py",
+    "CONFLICT (add/add): Merge conflict in src/solidlsp/language_servers/common.py",
+    "CONFLICT (content): Merge conflict in src/solidlsp/language_servers/csharp_language_server.py",
+    "CONFLICT (content): Merge conflict in src/solidlsp/language_servers/dart_language_server.py",
+    "CONFLICT (content): Merge conflict in src/solidlsp/language_servers/rust_analyzer.py",
+    "CONFLICT (content): Merge conflict in src/solidlsp/language_servers/terraform_ls.py"
+  ],
+  "types": [
+    "content",
+    "content",
+    "add/add",
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/solidlsp/language_servers/clangd_language_server.py",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "src/solidlsp/language_servers/clojure_lsp.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/solidlsp/language_servers/common.py",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/solidlsp/language_servers/csharp_language_server.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/solidlsp/language_servers/dart_language_server.py",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "src/solidlsp/language_servers/rust_analyzer.py",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "src/solidlsp/language_servers/terraform_ls.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

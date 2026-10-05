@@ -1,0 +1,10 @@
+{
+  "pair_id": "marcominerva__SimpleAuthentication__166-168",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "99020e447a09a2a94980d18bd39fb74365c61a5e"
+}

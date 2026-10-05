@@ -1,0 +1,10 @@
+{
+  "pair_id": "github__gh-gei__1349-1352",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7e9bea619a15899fda9f574b193cf7f058bde40f"
+}

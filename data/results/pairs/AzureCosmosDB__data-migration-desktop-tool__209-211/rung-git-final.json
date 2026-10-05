@@ -1,0 +1,10 @@
+{
+  "pair_id": "AzureCosmosDB__data-migration-desktop-tool__209-211",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ee92b993f757a6f5a1c9db7e05d0b5d195c15e6b"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "r-dbi__RPostgres__520-522",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in tests/testthat/test-ImportLargeObject.R"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "tests/testthat/test-ImportLargeObject.R",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

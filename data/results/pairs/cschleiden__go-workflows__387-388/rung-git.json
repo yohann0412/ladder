@@ -1,0 +1,10 @@
+{
+  "pair_id": "cschleiden__go-workflows__387-388",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0713d8c5b56f7324d3ee7db8c480cb8441df0bc9"
+}

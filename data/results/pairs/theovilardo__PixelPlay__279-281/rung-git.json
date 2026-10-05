@@ -1,0 +1,33 @@
+{
+  "pair_id": "theovilardo__PixelPlay__279-281",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in app/src/main/java/com/theveloper/pixelplay/presentation/screens/LibraryScreen.kt",
+    "CONFLICT (content): Merge conflict in app/src/main/java/com/theveloper/pixelplay/presentation/viewmodel/PlayerViewModel.kt"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "app/src/main/java/com/theveloper/pixelplay/presentation/screens/LibraryScreen.kt",
+      "types": [
+        "content"
+      ],
+      "regions": 16,
+      "category": "source"
+    },
+    {
+      "path": "app/src/main/java/com/theveloper/pixelplay/presentation/viewmodel/PlayerViewModel.kt",
+      "types": [
+        "content"
+      ],
+      "regions": 5,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

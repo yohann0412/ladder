@@ -1,0 +1,10 @@
+{
+  "pair_id": "PowerShell__PowerShell__26233-26243",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "47efb62dc9a520f767d16696cd614f658994c7f3"
+}

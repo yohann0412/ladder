@@ -1,0 +1,10 @@
+{
+  "pair_id": "appwrite__console__2357-2358",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "928cc850e6555bf433ebf9f2eda06c9fdeaf4bb9"
+}

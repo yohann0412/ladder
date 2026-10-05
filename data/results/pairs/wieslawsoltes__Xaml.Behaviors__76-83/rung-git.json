@@ -1,0 +1,10 @@
+{
+  "pair_id": "wieslawsoltes__Xaml.Behaviors__76-83",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "42de81c4f7024eb7cc93a80aad75cfdf8abcc5ac"
+}

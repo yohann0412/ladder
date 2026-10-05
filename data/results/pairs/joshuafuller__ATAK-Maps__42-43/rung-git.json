@@ -1,0 +1,10 @@
+{
+  "pair_id": "joshuafuller__ATAK-Maps__42-43",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6fa2c33049bbdb57aeae3ddacec31950868768a1"
+}

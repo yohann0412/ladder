@@ -1,0 +1,10 @@
+{
+  "pair_id": "langfuse__langfuse-docs__1549-1551",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "bcb3d141d3bfd82836a9059b98a7f608e5e20926"
+}

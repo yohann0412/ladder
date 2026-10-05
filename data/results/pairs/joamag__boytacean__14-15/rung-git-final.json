@@ -1,0 +1,10 @@
+{
+  "pair_id": "joamag__boytacean__14-15",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e0559fb7d6a3d78dca8f460a17d6050ecf8e0e7e"
+}

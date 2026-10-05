@@ -1,0 +1,10 @@
+{
+  "pair_id": "leoafarias__fvm__850-851",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c64722856d588b921e940fc8c8998e01e1e049bc"
+}

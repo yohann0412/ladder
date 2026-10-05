@@ -1,0 +1,10 @@
+{
+  "pair_id": "keephq__keep__5002-5015",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "fa54188081d7a15f14520a435c7265a0d820cbbc"
+}

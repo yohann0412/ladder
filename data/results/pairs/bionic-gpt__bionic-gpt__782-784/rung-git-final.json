@@ -1,0 +1,10 @@
+{
+  "pair_id": "bionic-gpt__bionic-gpt__782-784",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4827f5a4e0a5e494a8529517d97d8f107e7cec51"
+}

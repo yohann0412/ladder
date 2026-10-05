@@ -1,0 +1,10 @@
+{
+  "pair_id": "stakater__application__429-434",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "3e333352dd21f75e1c0747d3941231fd94446f07"
+}

@@ -1,0 +1,53 @@
+{
+  "pair_id": "CravateRouge__bloodyAD__81-82",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in bloodyAD/cli_modules/add.py",
+    "CONFLICT (content): Merge conflict in bloodyAD/cli_modules/get.py",
+    "CONFLICT (content): Merge conflict in bloodyAD/cli_modules/remove.py",
+    "CONFLICT (content): Merge conflict in bloodyAD/network/ldap.py"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "bloodyAD/cli_modules/add.py",
+      "types": [
+        "content"
+      ],
+      "regions": 12,
+      "category": "source"
+    },
+    {
+      "path": "bloodyAD/cli_modules/get.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "bloodyAD/cli_modules/remove.py",
+      "types": [
+        "content"
+      ],
+      "regions": 9,
+      "category": "source"
+    },
+    {
+      "path": "bloodyAD/network/ldap.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "gtg922r__obsidian-numerals__100-104",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c06dc22c9bf6e00a9259212e2551d203355e7fcf"
+}

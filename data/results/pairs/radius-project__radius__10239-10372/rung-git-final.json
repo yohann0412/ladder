@@ -1,0 +1,23 @@
+{
+  "pair_id": "radius-project__radius__10239-10372",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in .github/workflows/nightly-rad-CLI-tests.yaml"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/nightly-rad-CLI-tests.yaml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

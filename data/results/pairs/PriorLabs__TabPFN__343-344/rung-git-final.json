@@ -1,0 +1,10 @@
+{
+  "pair_id": "PriorLabs__TabPFN__343-344",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4bb38c99f7fa40bd58627610eecfe11c564c66af"
+}

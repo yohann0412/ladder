@@ -1,0 +1,133 @@
+{
+  "pair_id": "calcom__cal.com__20580-20595",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 12, conflicted files: 12 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in apps/api/v2/src/modules/organizations/routing-forms/controllers/organizations-routing-forms-responses.controller.e2e-spec.ts",
+    "CONFLICT (add/add): Merge conflict in apps/api/v2/src/modules/organizations/routing-forms/inputs/get-routing-form-responses-params.input.ts",
+    "CONFLICT (add/add): Merge conflict in apps/api/v2/src/modules/organizations/routing-forms/organizations-routing-forms.repository.ts",
+    "CONFLICT (add/add): Merge conflict in apps/api/v2/src/modules/organizations/routing-forms/services/organizations-routing-forms-responses.service.ts",
+    "CONFLICT (add/add): Merge conflict in apps/api/v2/src/modules/organizations/routing-forms/services/organizations-routing-forms.service.ts",
+    "CONFLICT (add/add): Merge conflict in apps/api/v2/src/modules/organizations/teams/routing-forms/organizations-teams-routing-forms.module.ts",
+    "CONFLICT (add/add): Merge conflict in apps/api/v2/src/modules/organizations/teams/routing-forms/repositories/organizations-teams-routing-forms-responses.repository.ts",
+    "CONFLICT (add/add): Merge conflict in apps/api/v2/src/modules/organizations/teams/routing-forms/repositories/organizations-teams-routing-forms.repository.ts",
+    "CONFLICT (add/add): Merge conflict in apps/api/v2/src/modules/organizations/teams/routing-forms/services/organizations-teams-routing-forms-responses.service.ts",
+    "CONFLICT (add/add): Merge conflict in apps/api/v2/src/modules/organizations/teams/routing-forms/services/organizations-teams-routing-forms.service.ts",
+    "CONFLICT (add/add): Merge conflict in packages/prisma/migrations/20250409135411_updated_at_routing_form_response/migration.sql",
+    "CONFLICT (content): Merge conflict in packages/prisma/schema.prisma"
+  ],
+  "types": [
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "apps/api/v2/src/modules/organizations/routing-forms/controllers/organizations-routing-forms-responses.controller.e2e-spec.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "apps/api/v2/src/modules/organizations/routing-forms/inputs/get-routing-form-responses-params.input.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "apps/api/v2/src/modules/organizations/routing-forms/organizations-routing-forms.repository.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "apps/api/v2/src/modules/organizations/routing-forms/services/organizations-routing-forms-responses.service.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "apps/api/v2/src/modules/organizations/routing-forms/services/organizations-routing-forms.service.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "apps/api/v2/src/modules/organizations/teams/routing-forms/organizations-teams-routing-forms.module.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "apps/api/v2/src/modules/organizations/teams/routing-forms/repositories/organizations-teams-routing-forms-responses.repository.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "apps/api/v2/src/modules/organizations/teams/routing-forms/repositories/organizations-teams-routing-forms.repository.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "apps/api/v2/src/modules/organizations/teams/routing-forms/services/organizations-teams-routing-forms-responses.service.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "apps/api/v2/src/modules/organizations/teams/routing-forms/services/organizations-teams-routing-forms.service.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/prisma/migrations/20250409135411_updated_at_routing_form_response/migration.sql",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/prisma/schema.prisma",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    }
+  ],
+  "merged_tree": null
+}

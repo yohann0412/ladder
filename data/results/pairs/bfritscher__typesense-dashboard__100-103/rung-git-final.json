@@ -1,0 +1,10 @@
+{
+  "pair_id": "bfritscher__typesense-dashboard__100-103",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ae661195381848b499b068638b3efcb6e57ad2c6"
+}

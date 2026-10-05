@@ -1,0 +1,10 @@
+{
+  "pair_id": "omerbenamram__evtx__257-258",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2cad002226b227ee6b4beab01cf7c841eccb2031"
+}

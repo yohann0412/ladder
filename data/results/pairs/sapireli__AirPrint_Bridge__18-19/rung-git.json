@@ -1,0 +1,10 @@
+{
+  "pair_id": "sapireli__AirPrint_Bridge__18-19",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "74ec7c856e5501d5ad3116b2951dbd9f4605d7c9"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "intellectronica__ruler__138-139",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e7556e3003b3649993596e4ad2447e934b0f2f9b"
+}

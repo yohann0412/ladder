@@ -1,0 +1,10 @@
+{
+  "pair_id": "modelcontextprotocol__csharp-sdk__779-802",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "1b54285b8d890ffd332c5fa5957e16e7888dce63"
+}

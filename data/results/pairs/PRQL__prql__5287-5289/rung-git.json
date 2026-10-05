@@ -1,0 +1,10 @@
+{
+  "pair_id": "PRQL__prql__5287-5289",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "42f84515c7cd911c73f0f61adf333c622a670673"
+}

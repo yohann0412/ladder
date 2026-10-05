@@ -1,0 +1,10 @@
+{
+  "pair_id": "jscarle__LightResults__56-57",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c859c931224e83c940af51d7a86aaedaca2c3149"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "Puchaczov__Musoq__107-108",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "337b62ac59518dc8e946c4111d0f47bcd57d1cf5"
+}

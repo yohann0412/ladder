@@ -1,0 +1,23 @@
+{
+  "pair_id": "manusa__electronim__504-509",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/settings/__tests__/settings.browser.test.mjs"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/settings/__tests__/settings.browser.test.mjs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

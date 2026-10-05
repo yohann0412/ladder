@@ -1,0 +1,10 @@
+{
+  "pair_id": "AzureAD__microsoft-identity-web__3413-3414",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "954790852ad2ffc4cfc8a8054698580d231b3279"
+}

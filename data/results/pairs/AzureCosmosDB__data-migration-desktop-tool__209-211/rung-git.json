@@ -1,0 +1,23 @@
+{
+  "pair_id": "AzureCosmosDB__data-migration-desktop-tool__209-211",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in Core/Cosmos.DataTransfer.Core/RunCommand.cs"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "Core/Cosmos.DataTransfer.Core/RunCommand.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__wassette__100-119",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in Cargo.lock"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "Cargo.lock",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

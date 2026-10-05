@@ -1,0 +1,10 @@
+{
+  "pair_id": "open-telemetry__opentelemetry.io__7808-7820",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a135e0afa393d5357211cc0f41e086fc08587d37"
+}
