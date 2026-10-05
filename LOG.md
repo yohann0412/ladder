@@ -436,3 +436,13 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   also pushes more suites past their wall-clock caps. The final pass now runs alone.
   Claim C resumes at c02 in the same D19 order once it is done. This is a pause, not a
   cut: no pair is skipped.
+- About 10:33 the container restarted again. It stopped the final pass, the autocommit loop,
+  the watchdog and a fresh-clone check of HOW_TO_RUN_LOCALLY. That check had passed `just
+  setup`, `just tools` and `just check` and was inside `just e2e`. Claim C was already
+  stopping at the c01 boundary. Free disk was 5.1 GiB. Cleared the uv and npm download
+  caches (3.5 GB), which left 7.8 GiB, and restarted the final pass at 10:38 with 182 pairs
+  left. One pair's workspace record, deleted mid-rebuild, is rebuilt by the run.
+- A test suite of some pair wrote `tmp/testutil-filelock.txt` (19 bytes) into the
+  repository root at 10:24. Suites run in their own tree but inherit `PWD` from `ladder`.
+  The file was deleted. Running untrusted suites only in a disposable machine (README,
+  HOW_TO_RUN_LOCALLY) covers this. No result depends on it.
