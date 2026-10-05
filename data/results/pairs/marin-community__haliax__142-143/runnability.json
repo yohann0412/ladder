@@ -1,0 +1,93 @@
+{
+  "pair_id": "marin-community__haliax__142-143",
+  "commit": "39780080a6d77a54001e6b68ba9f03e9cb64ed9d",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 27 failed, 0 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/marin-community__haliax__142-143/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/marin-community__haliax__142-143/trees/base[dev]",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 345.4,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 18.3 s; suite failed: 221 passed, 27 failed, 0 errors, 5 skipped (work/runtime/marin-community__haliax__142-143/trees/base/tests/test_attention.py::test_self_attention_basically_works, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_attention.py::test_alibi_attention_bias, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_attention.py::test_fcm_attention_mask, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_dot.py::test_dot, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_dot.py::test_dot_string_selection); first run failed: 221 passed, 27 failed, 0 errors, 5 skipped (work/runtime/marin-community__haliax__142-143/trees/base/tests/test_attention.py::test_self_attention_basically_works, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_attention.py::test_alibi_attention_bias, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_attention.py::test_fcm_attention_mask, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_dot.py::test_dot, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_dot.py::test_dot_string_selection)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/marin-community__haliax__142-143/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/marin-community__haliax__142-143/trees/base",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 22.1,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 0.9 s; suite failed: 0 passed, 0 failed, 3 errors, 0 skipped (work/runtime/marin-community__haliax__142-143/trees/base/tests/test_fp8.py::work.runtime.marin-community__haliax__142-143.trees.base.tests.test_fp8, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_int8.py::work.runtime.marin-community__haliax__142-143.trees.base.tests.test_int8, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_tree_util.py::work.runtime.marin-community__haliax__142-143.trees.base.tests.test_tree_util); first run failed: 0 passed, 0 failed, 3 errors, 0 skipped (work/runtime/marin-community__haliax__142-143/trees/base/tests/test_fp8.py::work.runtime.marin-community__haliax__142-143.trees.base.tests.test_fp8, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_int8.py::work.runtime.marin-community__haliax__142-143.trees.base.tests.test_int8, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_tree_util.py::work.runtime.marin-community__haliax__142-143.trees.base.tests.test_tree_util)"
+    }
+  ],
+  "test_count": 253,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/marin-community__haliax__142-143/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/marin-community__haliax__142-143/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 221,
+    "failed": 27,
+    "errors": 0,
+    "skipped": 5,
+    "duration_s": 177.0,
+    "retried": true,
+    "failing_tests": [
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_attention.py::test_self_attention_basically_works",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_attention.py::test_alibi_attention_bias",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_attention.py::test_fcm_attention_mask",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_dot.py::test_dot",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_dot.py::test_dot_string_selection",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_dot.py::test_dot_with_output_axes",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_einsum.py::test_einsum_basic_positional",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_einsum.py::test_einsum_positional_aliases",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_einsum.py::test_einsum_basic_named",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_einsum.py::test_einsum_unordered_ellipses",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_einsum.py::test_einsum_unordered_aliases",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_einsum.py::test_einsum_ordered_ellipsis",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_einsum.py::test_einsum_works_with_same_initial_axis_letter",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_einsum.py::test_einsum_examples",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_einsum.py::test_einsum_output_only_mode",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_fp8.py::test_fp8_is_reasonable",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_fp8.py::test_fp_loop",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_fp8.py::test_layer_splicing",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_int8.py::test_int8_is_reasonable",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_nn.py::test_mlp[0]",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_nn.py::test_mlp[1]",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_nn.py::test_mlp[2]",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_nn.py::test_mlp[3]",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_nn.py::test_mlp[4]",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_nn.py::test_mlp[5]",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_pool.py::test_mean_pool_1d",
+      "work/runtime/marin-community__haliax__142-143/trees/base/tests/test_random.py::test_pareto"
+    ],
+    "detail": "221 passed, 27 failed, 0 errors, 5 skipped (work/runtime/marin-community__haliax__142-143/trees/base/tests/test_attention.py::test_self_attention_basically_works, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_attention.py::test_alibi_attention_bias, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_attention.py::test_fcm_attention_mask, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_dot.py::test_dot, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_dot.py::test_dot_string_selection); first run failed: 221 passed, 27 failed, 0 errors, 5 skipped (work/runtime/marin-community__haliax__142-143/trees/base/tests/test_attention.py::test_self_attention_basically_works, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_attention.py::test_alibi_attention_bias, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_attention.py::test_fcm_attention_mask, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_dot.py::test_dot, work/runtime/marin-community__haliax__142-143/trees/base/tests/test_dot.py::test_dot_string_selection)"
+  },
+  "timeout_s": 600
+}

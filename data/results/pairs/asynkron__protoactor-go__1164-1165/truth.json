@@ -1,0 +1,18 @@
+{
+  "pair_id": "asynkron__protoactor-go__1164-1165",
+  "status": "located",
+  "commit": "ebfd465b637bd1569d9ad00a6051ebd559e4de59",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "actor/deadletter.go",
+      "present": true,
+      "sha256": "68ab9879180380b94925d32251b01d7638fdeb0fe2ade20c7214a66847e6020c"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T14:01:16.625065Z"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "theovilardo__PixelPlay__279-281",
+  "status": "located",
+  "commit": "159bf820e20bcbceb560506a18c81f47c08159e9",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "app/src/main/java/com/theveloper/pixelplay/presentation/screens/LibraryScreen.kt",
+      "present": true,
+      "sha256": "638baa1915e3dbcca70f4d96459f6ccd65f6716ebdcbeec9646d10b54d5d2a65"
+    },
+    {
+      "path": "app/src/main/java/com/theveloper/pixelplay/presentation/viewmodel/PlayerViewModel.kt",
+      "present": true,
+      "sha256": "411e00a7e31c216089a0eb952c18cc0d3d4672d4d31b99d697f7b700e0e79e1a"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T14:01:01.413212Z"
+}

@@ -1,0 +1,18 @@
+{
+  "pair_id": "AzureCosmosDB__data-migration-desktop-tool__209-211",
+  "status": "located",
+  "commit": "25027736e44499e22af7ac2bb4418d95f9756082",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "Core/Cosmos.DataTransfer.Core/RunCommand.cs",
+      "present": true,
+      "sha256": "860548cfbcff922624cf66444944520f85df880342593b80432841fd8a2e51bb"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T14:01:10.800842Z"
+}

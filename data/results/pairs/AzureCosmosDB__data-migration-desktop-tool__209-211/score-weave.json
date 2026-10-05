@@ -1,0 +1,54 @@
+{
+  "pair_id": "AzureCosmosDB__data-migration-desktop-tool__209-211",
+  "rung": "weave",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": false,
+  "human_equivalent_unordered": false,
+  "intent_preserved_a": false,
+  "intent_preserved_b": true,
+  "intent_drops": [
+    {
+      "path": "Core/Cosmos.DataTransfer.Core/RunCommand.cs",
+      "entity": "RunCommand.CommandHandler.GetExtensionSelection",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "Core/Cosmos.DataTransfer.Core/RunCommand.cs",
+      "entity": "RunCommand.CommandHandler.BuildSettingsConfiguration",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "Core/Cosmos.DataTransfer.Core/RunCommand.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "BuildSettingsConfiguration",
+        "ExecuteDataTransferOperation",
+        "GetExtensionSelection",
+        "GetSinkConfig",
+        "RunCommand.CommandHandler.Core",
+        "RunCommand.CommandHandler.IsNullOrEmpty",
+        "RunCommand.CommandHandler.IsNullOrWhiteSpace",
+        "RunCommand.CommandHandler.if"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.7222
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

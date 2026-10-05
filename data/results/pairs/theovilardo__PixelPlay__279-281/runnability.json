@@ -1,0 +1,15 @@
+{
+  "pair_id": "theovilardo__PixelPlay__279-281",
+  "commit": "28dd1934ac5fc7af7ec0c70275bad9ff6a16791c",
+  "language": "java",
+  "package_manager": "gradle",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "java project; no adapter for java (gradle is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

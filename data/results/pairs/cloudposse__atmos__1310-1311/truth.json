@@ -1,0 +1,18 @@
+{
+  "pair_id": "cloudposse__atmos__1310-1311",
+  "status": "located",
+  "commit": "4d2f70df2595a71325de68072d1e936e4d58b498",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "present": true,
+      "sha256": "a62589f938351a05188b363b44c735e411253a32429a187d3c17669ddf940d86"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:59:59.001017Z"
+}
