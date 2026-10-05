@@ -2,7 +2,7 @@
   "pair_id": "azure-ai-foundry__foundry-samples__223-232",
   "heads": "final",
   "status": "conflicted",
-  "detail": "conflict messages: 5, conflicted files: 5",
+  "detail": "conflict messages: 5, conflicted files: 5 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in samples/microsoft/java/mslearn-resources/quickstart/TESTING.md",
     "CONFLICT (content): Merge conflict in samples/microsoft/java/mslearn-resources/quickstart/src/main/java/com/azure/ai/foundry/samples/ChatCompletionSample.java",

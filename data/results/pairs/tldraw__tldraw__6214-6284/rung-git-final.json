@@ -2,7 +2,7 @@
   "pair_id": "tldraw__tldraw__6214-6284",
   "heads": "final",
   "status": "clean",
-  "detail": "b merges into a cleanly",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
   "messages": [],
   "types": [],
   "files": [],

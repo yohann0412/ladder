@@ -2,7 +2,7 @@
   "pair_id": "sst__opencode__371-1186",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 4, conflicted files: 4",
+  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (add/add): Merge conflict in packages/opencode/src/cli/cmd/mcp.ts",
     "CONFLICT (content): Merge conflict in packages/opencode/src/config/config.ts",

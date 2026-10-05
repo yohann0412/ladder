@@ -1,0 +1,23 @@
+{
+  "pair_id": "camunda__camunda-modeler__5146-5148",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/camunda__camunda-modeler__5146-5148",
+  "source_base": "016a65803af9ac8d39fa7eda54db7f090080f4bb",
+  "source_a": "7682d0259ef168ded1bc581122b2d2af68f2a94b",
+  "source_b": "c58a167d9272ff1d3136bd1a27e25f14d58c9435",
+  "base_commit": "fa57c1d86760c4cd63e895978af67a0a94e3ad41",
+  "a_commit": "38321ffe3cec7409bc0d7264632dbab5d81bd4c5",
+  "b_commit": "8f178b8fa1f2ca90de44e2b9ea7782d1b21b6314",
+  "object_count": 1363,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__Windows-classic-samples__385-386",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/microsoft__Windows-classic-samples__385-386",
+  "source_base": "2b94df5730177ec27e726b60017c01c97ef1a8fb",
+  "source_a": "79016ab5fb127c1d5f2fdb169178547849dce59a",
+  "source_b": "9c42b9d405888edbfb541d77ce112f529db075ce",
+  "base_commit": "feece195562d519c8254388716689e00ac9f0bb6",
+  "a_commit": "32f0454646b056231d3a1f3aff88ec086a46ffbb",
+  "b_commit": "35ccac217c8912bff011be354c266bed5d83787e",
+  "object_count": 16283,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

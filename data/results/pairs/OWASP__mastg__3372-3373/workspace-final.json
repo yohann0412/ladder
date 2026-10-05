@@ -1,0 +1,23 @@
+{
+  "pair_id": "OWASP__mastg__3372-3373",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/OWASP__mastg__3372-3373",
+  "source_base": "880f7d0987baede8ffe4198ae6ca7490cf783d1a",
+  "source_a": "880f7d0987baede8ffe4198ae6ca7490cf783d1a",
+  "source_b": "360ca8d4763fecbc5034769e905e289276379097",
+  "base_commit": "f1c49b70e6c0b0f5628039e10a920da67c1bf715",
+  "a_commit": "94896a5079fba018bc8773b0f28c7155c563f55d",
+  "b_commit": "13302698e115d4ebc164da5fceddc0896dc13920",
+  "object_count": 1966,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

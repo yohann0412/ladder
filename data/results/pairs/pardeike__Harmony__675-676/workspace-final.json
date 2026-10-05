@@ -1,0 +1,23 @@
+{
+  "pair_id": "pardeike__Harmony__675-676",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/pardeike__Harmony__675-676",
+  "source_base": "420bd2de59fa4156c02ea9cae56d924da50fa04f",
+  "source_a": "0fcea06d76e32888439866a93faca33b485ae06e",
+  "source_b": "45b98327904188a2bc4fb3eeea7f46f45910200c",
+  "base_commit": "b18dbdf67e88ffda168a999378e7c96f20d45edd",
+  "a_commit": "f62bbb912edd6663b6989db024dfd099709db243",
+  "b_commit": "fa3e4fcb79cab4d7fbe05420ecc54a1956e6d89e",
+  "object_count": 406,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

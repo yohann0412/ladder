@@ -2,7 +2,7 @@
   "pair_id": "tokens-studio__figma-plugin__3366-3391",
   "heads": "final",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in packages/tokens-studio-for-figma/src/app/components/AppContainer/startupProcessSteps/pullTokensFactory.ts"
   ],

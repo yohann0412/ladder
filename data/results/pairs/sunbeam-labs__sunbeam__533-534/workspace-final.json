@@ -1,0 +1,23 @@
+{
+  "pair_id": "sunbeam-labs__sunbeam__533-534",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/sunbeam-labs__sunbeam__533-534",
+  "source_base": "026a17eb94e96b02b14dd0beb587d86a868330c9",
+  "source_a": "36d3a37b8b98f784e9ec71bbe2e4fe7b5ee55f0b",
+  "source_b": "026a17eb94e96b02b14dd0beb587d86a868330c9",
+  "base_commit": "22cb7af00862828e017d6d398749b974a7d2cdb3",
+  "a_commit": "d6324d9f77dba9f54eff85086226bb79d165c1d3",
+  "b_commit": "7599e13971e7827f8583572243c57dfcc8d96f54",
+  "object_count": 175,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

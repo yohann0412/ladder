@@ -1,0 +1,33 @@
+{
+  "pair_id": "sunbeam-labs__sunbeam__533-534",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2",
+  "messages": [
+    "CONFLICT (content): Merge conflict in sunbeam/scripts/run.py",
+    "CONFLICT (content): Merge conflict in tests/e2e/test_sunbeam_run.py"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "sunbeam/scripts/run.py",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "tests/e2e/test_sunbeam_run.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

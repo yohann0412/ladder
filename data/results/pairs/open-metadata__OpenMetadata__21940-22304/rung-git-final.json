@@ -1,0 +1,10 @@
+{
+  "pair_id": "open-metadata__OpenMetadata__21940-22304",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6a5ea33f5d15ad1a80bd5e9abd84370dc3d1c422"
+}

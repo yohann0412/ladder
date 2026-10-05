@@ -1,0 +1,23 @@
+{
+  "pair_id": "imgntn__j360__23-24",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/imgntn__j360__23-24",
+  "source_base": "cc04de4b79904d3f02dc21235bd034dda31009a4",
+  "source_a": "f432db0ad46a633048ee38b44e99529cd9739486",
+  "source_b": "dfd4f76e5849f33a9a303a1b2007f0d379fe42b7",
+  "base_commit": "068fbc69f8bb60bb3cc71ee7aa3878bcd48b2d75",
+  "a_commit": "913c3f279307a59733e42f408c3845d76521d080",
+  "b_commit": "8a9a658d9481b1e8abe42f02cbc0a43d74c60e0e",
+  "object_count": 98,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -2,7 +2,7 @@
   "pair_id": "liam-hq__liam__1599-1610",
   "heads": "final",
   "status": "clean",
-  "detail": "b merges into a cleanly",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
   "messages": [],
   "types": [],
   "files": [],

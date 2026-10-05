@@ -2,7 +2,7 @@
   "pair_id": "shiosyakeyakini-info__miria__750-764",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 4, conflicted files: 4",
+  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in lib/l10n/app_ja-oj.arb",
     "CONFLICT (content): Merge conflict in lib/l10n/app_ja.arb",

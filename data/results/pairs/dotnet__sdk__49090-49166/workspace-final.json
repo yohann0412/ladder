@@ -1,0 +1,23 @@
+{
+  "pair_id": "dotnet__sdk__49090-49166",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/dotnet__sdk__49090-49166",
+  "source_base": "5a4097ccc0de4cc551fc47e14d89a1c5b1df8968",
+  "source_a": "5941f26b1d0272de9343701bb5c00f09c7728372",
+  "source_b": "5a4097ccc0de4cc551fc47e14d89a1c5b1df8968",
+  "base_commit": "0caf201edc6f7061a303a3db6ecfcde8ce192388",
+  "a_commit": "e630fedda9a7ef58bcc8cc422fab5d04906c2819",
+  "b_commit": "904f63015c5d7b05d4fb8203c8cc27e2327c7075",
+  "object_count": 9455,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -2,7 +2,7 @@
   "pair_id": "Significant-Gravitas__AutoGPT__9958-10340",
   "heads": "final",
   "status": "conflicted",
-  "detail": "conflict messages: 12, conflicted files: 12",
+  "detail": "conflict messages: 12, conflicted files: 12 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in autogpt_platform/autogpt_libs/poetry.lock",
     "CONFLICT (content): Merge conflict in autogpt_platform/backend/.env.default",

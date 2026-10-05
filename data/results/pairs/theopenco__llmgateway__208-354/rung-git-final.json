@@ -2,7 +2,7 @@
   "pair_id": "theopenco__llmgateway__208-354",
   "heads": "final",
   "status": "conflicted",
-  "detail": "conflict messages: 4, conflicted files: 4",
+  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in apps/ui/src/components/provider-keys/create-provider-key-dialog.tsx",
     "CONFLICT (content): Merge conflict in apps/ui/src/components/provider-keys/provider-keys-list.tsx",

@@ -1,0 +1,53 @@
+{
+  "pair_id": "imgntn__j360__23-24",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/j360.ts",
+    "CONFLICT (content): Merge conflict in test/j360-cli.test.js",
+    "CONFLICT (content): Merge conflict in tools/j360-cli.js",
+    "CONFLICT (content): Merge conflict in tools/j360-cli.ts"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/j360.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "test/j360-cli.test.js",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "tools/j360-cli.js",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "tools/j360-cli.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 7,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

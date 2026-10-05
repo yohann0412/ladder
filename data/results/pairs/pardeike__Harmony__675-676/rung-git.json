@@ -1,0 +1,23 @@
+{
+  "pair_id": "pardeike__Harmony__675-676",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in .github/workflows/test.yml"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/test.yml",
+      "types": [
+        "content"
+      ],
+      "regions": 5,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

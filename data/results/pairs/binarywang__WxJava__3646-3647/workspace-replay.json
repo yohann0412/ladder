@@ -1,0 +1,23 @@
+{
+  "pair_id": "binarywang__WxJava__3646-3647",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/binarywang__WxJava__3646-3647",
+  "source_base": "eb987323e1235de746769582e97cae7a499f9e67",
+  "source_a": "5a1fb5061ce0b80c5eeaf9361df1fd0dce1065a6",
+  "source_b": "6a98a438620e5fe64d9213067fe3fa51c1dbd6b7",
+  "base_commit": "6c08b908fce36fd6e6ad3575ca3b265fa094d9c9",
+  "a_commit": "0027fcaafc3892f0b5fc39ae9dd88edf909f410c",
+  "b_commit": "61fcfa200006bbdd7a62a6dafc51b2930f656d6c",
+  "object_count": 4765,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

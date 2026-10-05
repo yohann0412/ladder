@@ -1,0 +1,23 @@
+{
+  "pair_id": "benbalter__jekyll-relative-links__96-97",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/benbalter__jekyll-relative-links__96-97",
+  "source_base": "2b911c77a7128b60023e678567b76ee0aa3d32fb",
+  "source_a": "64404231be912d643b3aac21960001a935dadd1d",
+  "source_b": "9ac3cb49d87386772e2fa3638347324fe16c7a30",
+  "base_commit": "bf7b0e585359111ea3f2ed075535bcb77a5382b2",
+  "a_commit": "6090a99370f44f5a3f3be297a04bc71481566f2a",
+  "b_commit": "36776352f658ec6ea58031a147b649ba906c006d",
+  "object_count": 87,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

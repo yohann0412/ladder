@@ -2,7 +2,7 @@
   "pair_id": "WorkflowAI__WorkflowAI__371-449",
   "heads": "final",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (add/add): Merge conflict in AGENTS.md"
   ],

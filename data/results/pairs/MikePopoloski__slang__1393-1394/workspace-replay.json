@@ -1,0 +1,23 @@
+{
+  "pair_id": "MikePopoloski__slang__1393-1394",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/MikePopoloski__slang__1393-1394",
+  "source_base": "87a07087e4c87dbabf5f80a1454d78224bbbd504",
+  "source_a": "60a500b93e7d8259d56e769fd1af5219b9d9208d",
+  "source_b": "161ba0314fba75d64d051291b30ac379d7b41ec1",
+  "base_commit": "f2ff98b20257d760fcfdacbc5699d8a33ba2839f",
+  "a_commit": "1a9dca500a2a15922ba7db652fc992d8e8a78ab6",
+  "b_commit": "d4dfa4f3fac3d4f24dd9d59902115c542fcac19a",
+  "object_count": 656,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

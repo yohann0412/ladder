@@ -1,0 +1,43 @@
+{
+  "pair_id": "mariotoffia__FluentDocker__321-322",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3",
+  "messages": [
+    "CONFLICT (content): Merge conflict in Ductus.FluentDocker.Tests/Ductus.FluentDocker.Tests.csproj",
+    "CONFLICT (content): Merge conflict in Ductus.FluentDocker/Services/Impl/DockerComposeCompositeService.cs",
+    "CONFLICT (modify/delete): appveyor.yml deleted in b and modified in a.  Version a of appveyor.yml left in tree."
+  ],
+  "types": [
+    "content",
+    "content",
+    "modify/delete"
+  ],
+  "files": [
+    {
+      "path": "Ductus.FluentDocker.Tests/Ductus.FluentDocker.Tests.csproj",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "Ductus.FluentDocker/Services/Impl/DockerComposeCompositeService.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "appveyor.yml",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "parse-community__parse-dashboard__2872-2873",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/parse-community__parse-dashboard__2872-2873",
+  "source_base": "cfd0bce41eb2030dbe3814ca6bd4deb53f010d7e",
+  "source_a": "bff87470f75a4d8e49ebb8ce02081456af30cd97",
+  "source_b": "1b25449c00e0a08c5beb9cde8d4372488d85184e",
+  "base_commit": "af1a9938411f01470f684cb8a95b73340a7a92da",
+  "a_commit": "a28439586e6e593751785f346918c36e210401c0",
+  "b_commit": "b3d6ea8ecf2e7993a2c3a7cb09a492b5d62803f4",
+  "object_count": 873,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "Sumukh__Ignite__508-509",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/Sumukh__Ignite__508-509",
+  "source_base": "426618cdffa9578a20d32482db406ed5be6def22",
+  "source_a": "c24c255580f6ae81d08bcc1e44a2c385d8daf265",
+  "source_b": "bfc051ac5421dbde2cfa4ac3e3f889417fdb12b1",
+  "base_commit": "91e0a962c80b516e810c18fd831e9bdc7ce91370",
+  "a_commit": "732cda2b22aea55a0c4d99fd8e9a4c34f76e2a3f",
+  "b_commit": "98bd46fe468a039ee200fd8ab9e5f2cd603e3e3c",
+  "object_count": 688,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

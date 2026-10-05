@@ -1,0 +1,23 @@
+{
+  "pair_id": "OHIF__Viewers__4958-4998",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/OHIF__Viewers__4958-4998",
+  "source_base": "a41ed3bade3befb510f64ed7fc5437279d8b05d4",
+  "source_a": "676d3791e7b2c95648f2c31a4baefb5c3809d45c",
+  "source_b": "8dcd88907f2b59323422eb017f89c8e7818726c6",
+  "base_commit": "b75aeb0d38408a17e07427a4d944e86aa31034ff",
+  "a_commit": "06d9f62d06463d2916e7ac87e9c8ba46c2ec2947",
+  "b_commit": "9afb5828d30fc8db594fe224fc54cd36f6f158b8",
+  "object_count": 3426,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

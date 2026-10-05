@@ -2,7 +2,7 @@
   "pair_id": "nodetool-ai__nodetool__86-157",
   "heads": "final",
   "status": "conflicted",
-  "detail": "conflict messages: 2, conflicted files: 2",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in .github/workflows/test.yml",
     "CONFLICT (content): Merge conflict in web/jest.config.ts"

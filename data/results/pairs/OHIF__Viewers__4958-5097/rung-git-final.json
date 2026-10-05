@@ -2,7 +2,7 @@
   "pair_id": "OHIF__Viewers__4958-5097",
   "heads": "final",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in extensions/dicom-video/src/getSopClassHandlerModule.js"
   ],

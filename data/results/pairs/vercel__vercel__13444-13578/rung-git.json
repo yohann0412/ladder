@@ -2,7 +2,7 @@
   "pair_id": "vercel__vercel__13444-13578",
   "heads": "replay",
   "status": "clean",
-  "detail": "b merges into a cleanly",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
   "messages": [],
   "types": [],
   "files": [],

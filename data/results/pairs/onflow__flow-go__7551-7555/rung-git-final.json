@@ -2,7 +2,7 @@
   "pair_id": "onflow__flow-go__7551-7555",
   "heads": "final",
   "status": "conflicted",
-  "detail": "conflict messages: 13, conflicted files: 13",
+  "detail": "conflict messages: 13, conflicted files: 13 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in engine/collection/synchronization/engine_test.go",
     "CONFLICT (content): Merge conflict in engine/collection/synchronization/request_handler.go",

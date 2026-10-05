@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__BotFramework-WebChat__5483-5499",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in CHANGELOG.md"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

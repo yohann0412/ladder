@@ -2,7 +2,7 @@
   "pair_id": "maplibre__maputnik__1258-1259",
   "heads": "final",
   "status": "conflicted",
-  "detail": "conflict messages: 2, conflicted files: 2",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in CHANGELOG.md",
     "CONFLICT (content): Merge conflict in src/components/LayerListItem.tsx"

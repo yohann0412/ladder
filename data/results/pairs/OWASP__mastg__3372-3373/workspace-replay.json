@@ -1,0 +1,23 @@
+{
+  "pair_id": "OWASP__mastg__3372-3373",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/OWASP__mastg__3372-3373",
+  "source_base": "4e60a01ef0ae31735bc5806910d9ef248b22de53",
+  "source_a": "880f7d0987baede8ffe4198ae6ca7490cf783d1a",
+  "source_b": "4e5cf7f266d5a2ed640fb0a84eeb933a282cad66",
+  "base_commit": "8352f02bafd1cd189c338a119627b39ef7b9c4e0",
+  "a_commit": "ed6e4985d703df0c196fd9f6be01ab5b557e4261",
+  "b_commit": "d64168dd0bea73a71289321e916ef7199804dd56",
+  "object_count": 1707,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

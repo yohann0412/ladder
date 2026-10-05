@@ -1,0 +1,23 @@
+{
+  "pair_id": "Azure__azure-sdk-for-java__45590-45595",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/Azure__azure-sdk-for-java__45590-45595",
+  "source_base": "17e28d858f19d0eb32ef859caaa6cd205e4c2b4c",
+  "source_a": "f4ace0009c44b632fcf607aa89b0b0780807784a",
+  "source_b": "c3ce19092b8afdde83b45e4270152b971359843a",
+  "base_commit": "43f2e07f6918459600631ed3942ffd1bc2e30bfe",
+  "a_commit": "c4099fc6323d012212ea255a3cc17d94527580db",
+  "b_commit": "559f2918a53f1a11fc8343eda013565a4dce9846",
+  "object_count": 117595,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

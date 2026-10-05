@@ -2,7 +2,7 @@
   "pair_id": "onlook-dev__onlook__1849-2041",
   "heads": "final",
   "status": "conflicted",
-  "detail": "conflict messages: 3, conflicted files: 3",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in apps/web/client/.env.example",
     "CONFLICT (content): Merge conflict in apps/web/client/src/app/api/chat/route.ts",

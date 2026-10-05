@@ -2,7 +2,7 @@
   "pair_id": "go-vikunja__vikunja__945-1154",
   "heads": "replay",
   "status": "clean",
-  "detail": "b merges into a cleanly",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
   "messages": [],
   "types": [],
   "files": [],

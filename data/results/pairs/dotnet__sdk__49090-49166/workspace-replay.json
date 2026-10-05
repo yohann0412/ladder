@@ -1,0 +1,23 @@
+{
+  "pair_id": "dotnet__sdk__49090-49166",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/dotnet__sdk__49090-49166",
+  "source_base": "660dc110da94601a41b27599769405342d4e07fa",
+  "source_a": "40a7ae27fa512169839bde0288a08fcb75d8f5da",
+  "source_b": "5a4097ccc0de4cc551fc47e14d89a1c5b1df8968",
+  "base_commit": "a07b7f95334b7e17962d6e12e6d7087504ff6c1c",
+  "a_commit": "23750a004bdb66bd20abe375c080085597becca6",
+  "b_commit": "18db7271728e5735fedf9d61ba713219daa78eba",
+  "object_count": 8881,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

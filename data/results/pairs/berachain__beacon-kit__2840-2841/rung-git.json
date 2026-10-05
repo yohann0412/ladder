@@ -2,7 +2,7 @@
   "pair_id": "berachain__beacon-kit__2840-2841",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 5, conflicted files: 5",
+  "detail": "conflict messages: 5, conflicted files: 5 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in node-api/handlers/proof/merkle/generalized_indexes.go",
     "CONFLICT (add/add): Merge conflict in node-api/handlers/proof/merkle/validator_balance.go",

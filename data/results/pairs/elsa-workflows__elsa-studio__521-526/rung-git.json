@@ -2,7 +2,7 @@
   "pair_id": "elsa-workflows__elsa-studio__521-526",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 6, conflicted files: 6",
+  "detail": "conflict messages: 6, conflicted files: 6 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in Directory.Build.props",
     "CONFLICT (content): Merge conflict in Directory.Packages.props",

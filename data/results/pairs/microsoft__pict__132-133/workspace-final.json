@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__pict__132-133",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/microsoft__pict__132-133",
+  "source_base": "0dc3a595f70c841a70287bf17281f66a28155ec4",
+  "source_a": "c6f8185d9466482dd7a8bb3db61e2e853221c317",
+  "source_b": "feb1fd7bb5a5a0bd5ac82ab1b55cbce61190e3e1",
+  "base_commit": "95ed313955635ba5fb66d66672fe24a31fc4fcac",
+  "a_commit": "c6e37622d3a923bb23645a5f1345f4f6bb52ade6",
+  "b_commit": "18a6672764ecef192b2c1454c887712115cfd438",
+  "object_count": 450,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

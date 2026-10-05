@@ -2,7 +2,7 @@
   "pair_id": "mlflow__mlflow__16057-16442",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in tests/entities/test_assessment.py"
   ],

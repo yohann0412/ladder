@@ -1,0 +1,23 @@
+{
+  "pair_id": "mariotoffia__FluentDocker__321-322",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/mariotoffia__FluentDocker__321-322",
+  "source_base": "51418e59f3f2e1ccc050054f76402045dffb1a4f",
+  "source_a": "a86b44194c5e70504aa51b2dfa7ce5f755f7c8cc",
+  "source_b": "ac944429d19c7b7486fddd84f34598633832948f",
+  "base_commit": "b3f2e824338b0a60f8cb5ddda0058010848ec754",
+  "a_commit": "c5958d17333de251c3fe3f843f557b68248e9fd8",
+  "b_commit": "6858f05ad109ca6ac7449793568d6a7f0bc903f2",
+  "object_count": 496,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "navidrome__navidrome__4099-4100",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/navidrome__navidrome__4099-4100",
+  "source_base": "84384006a415f4de0ac98e7824ea5d77687cb87b",
+  "source_a": "9e678250436b937fbd9cca01b716ae1ea2281113",
+  "source_b": "a1be19d41171425ec2a95573a94a798be4e8ac83",
+  "base_commit": "64ecf4841bd1545346326822625dfe60187b5d5c",
+  "a_commit": "77762e1826c8f838b4a879125b63df22316ec5c1",
+  "b_commit": "0a3ea2c73dd98c165a2f6f756f80b3186d80986b",
+  "object_count": 1184,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

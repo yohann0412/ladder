@@ -2,7 +2,7 @@
   "pair_id": "shopware__shopware__10496-11072",
   "heads": "final",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in src/Core/System/Language/LanguageExceptionHandler.php"
   ],

@@ -1,0 +1,10 @@
+{
+  "pair_id": "dotnet__msbuild__11874-11887",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "492ab0710862a166d3d71eac479e520aef7978e5"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "appknox__pyaxmlparser__88-90",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/appknox__pyaxmlparser__88-90",
+  "source_base": "446bf7c2c4e166327cb2cdea14a1fd2dbd1721ef",
+  "source_a": "7248ed7ab000f2023e923dc00fb1162465dd12c2",
+  "source_b": "a2439da9a817582eedec5a34fa86f4b1acec176b",
+  "base_commit": "1fadfad8f8693c38c13e52716a2ea29e8ca6b3a3",
+  "a_commit": "6b5689df4eba7ef45f7219b1b670f7dd6bc0a53e",
+  "b_commit": "e4cb43b2b3a4bb03ea40a9d5cc81170490522a2a",
+  "object_count": 66,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

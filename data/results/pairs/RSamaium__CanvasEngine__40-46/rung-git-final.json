@@ -2,7 +2,7 @@
   "pair_id": "RSamaium__CanvasEngine__40-46",
   "heads": "final",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in packages/core/src/components/index.ts"
   ],

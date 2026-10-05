@@ -1,0 +1,10 @@
+{
+  "pair_id": "pytorch__pytorch__155615-155658",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "00814de179cd990550a04f87d9d8f4fa9b572638"
+}

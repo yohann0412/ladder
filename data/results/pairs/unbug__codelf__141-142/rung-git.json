@@ -1,0 +1,23 @@
+{
+  "pair_id": "unbug__codelf__141-142",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (modify/delete): dist/css/app.css deleted in a and modified in b.  Version b of dist/css/app.css left in tree."
+  ],
+  "types": [
+    "modify/delete"
+  ],
+  "files": [
+    {
+      "path": "dist/css/app.css",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "other"
+    }
+  ],
+  "merged_tree": null
+}

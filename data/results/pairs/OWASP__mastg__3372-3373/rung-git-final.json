@@ -1,0 +1,10 @@
+{
+  "pair_id": "OWASP__mastg__3372-3373",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "108f20878202b02245eaf66c1e63e22f1615e4fb"
+}

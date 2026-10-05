@@ -1,0 +1,23 @@
+{
+  "pair_id": "camunda__camunda__34153-34168",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/camunda__camunda__34153-34168",
+  "source_base": "3eba063af4a1e1a1e654b79ca9623a66417c8275",
+  "source_a": "fa03642b43c680819de7487e7791a4f5a9ae2775",
+  "source_b": "65b4b94a9ee380e30c85c2b8c0ed750eb8484c20",
+  "base_commit": "4ad37ae4fd28290ad9277b94dd1563c999db1b40",
+  "a_commit": "b73acc3f0d1087be024213e068bec43d9c838478",
+  "b_commit": "8f31b2e4528da2a1b90929e71a3826431dfcffc8",
+  "object_count": 20570,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

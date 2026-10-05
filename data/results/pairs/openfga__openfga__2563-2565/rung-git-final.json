@@ -2,7 +2,7 @@
   "pair_id": "openfga__openfga__2563-2565",
   "heads": "final",
   "status": "conflicted",
-  "detail": "conflict messages: 3, conflicted files: 3",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in cmd/migrate/flags.go",
     "CONFLICT (content): Merge conflict in cmd/migrate/migrate.go",

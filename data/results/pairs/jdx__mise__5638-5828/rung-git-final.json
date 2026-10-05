@@ -2,7 +2,7 @@
   "pair_id": "jdx__mise__5638-5828",
   "heads": "final",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in src/cli/tool_stub.rs"
   ],

@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__vcpkg__45922-45923",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/microsoft__vcpkg__45922-45923",
+  "source_base": "ebc2e14093db29fbd8277c7ec8e4eb81a222fdc3",
+  "source_a": "fc16546b08e60064ec898093b5ae985ce40f81d1",
+  "source_b": "aa252346ab412190a26efded409a6673572d48ea",
+  "base_commit": "ad6860c5a60987afce3fda39e4487c5c0c767484",
+  "a_commit": "3debac01130f972b9c5c39acb800cabc58d55bc9",
+  "b_commit": "f19efd7a06aed5a7c05599e05fe912a2ba8b7657",
+  "object_count": 15229,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

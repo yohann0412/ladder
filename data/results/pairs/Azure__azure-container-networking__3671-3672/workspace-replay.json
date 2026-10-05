@@ -1,0 +1,23 @@
+{
+  "pair_id": "Azure__azure-container-networking__3671-3672",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Azure__azure-container-networking__3671-3672",
+  "source_base": "417eff1678eedc7ccd5e45f903714032416e1782",
+  "source_a": "2879cbece560f28238979afdf8712b79dc3162ba",
+  "source_b": "010bf693dda3cc112c2fc3d4ca2d114c457ce3b8",
+  "base_commit": "97e498ecc216e2a4939b9bdab5544866cb09b20b",
+  "a_commit": "9c36b168dd66d8b8de040ebd50e51ea1c7e506aa",
+  "b_commit": "0d7850c3189cad465f16305864a7c890116444f9",
+  "object_count": 2085,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

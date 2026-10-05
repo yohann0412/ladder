@@ -1,0 +1,23 @@
+{
+  "pair_id": "JuliaLang__Pkg.jl__4299-4304",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/JuliaLang__Pkg.jl__4299-4304",
+  "source_base": "d0c6d50ff79d34cf19204b9ab0a0dc8b03fb6b15",
+  "source_a": "5f4f3c3288e3155e74ecba6f9f1a58bd12507c43",
+  "source_b": "7eddf91ac8f7011ae41478c3c592f5de02e2455e",
+  "base_commit": "48fd44530ad7df69e8e812ab321bb88602815d01",
+  "a_commit": "86530f237e4071c280993019c856bc00ea9722cf",
+  "b_commit": "9c7baab2187bd5ea0f2b1593e530268c96a13d9f",
+  "object_count": 718,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

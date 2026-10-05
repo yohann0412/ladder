@@ -1,0 +1,23 @@
+{
+  "pair_id": "Rello__audioplayer__616-617",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/Rello__audioplayer__616-617",
+  "source_base": "8bd06abcc63d61d6c8458c76ebc3c6e00bfe7a6b",
+  "source_a": "351d9a2622840fb8210b79767eb26e1b396d67a0",
+  "source_b": "863b8989ab747eb7ec3ebfaff2b8e66932a77a57",
+  "base_commit": "f76363affd27ddde60fe174fe8eec1cf560d6cd0",
+  "a_commit": "6a03919fa8ebead51472e1bfbc19f95a853aecc7",
+  "b_commit": "bb61b7cbb7c9be462050a0d493ab772a5e46ad85",
+  "object_count": 436,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

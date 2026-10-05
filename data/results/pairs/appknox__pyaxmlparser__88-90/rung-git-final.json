@@ -1,0 +1,53 @@
+{
+  "pair_id": "appknox__pyaxmlparser__88-90",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4",
+  "messages": [
+    "CONFLICT (content): Merge conflict in pyaxmlparser/arscutil.py",
+    "CONFLICT (add/add): Merge conflict in pyaxmlparser/exceptions.py",
+    "CONFLICT (content): Merge conflict in pyaxmlparser/stringblock.py",
+    "CONFLICT (content): Merge conflict in tests/test_parser.py"
+  ],
+  "types": [
+    "content",
+    "add/add",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "pyaxmlparser/arscutil.py",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "pyaxmlparser/exceptions.py",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "pyaxmlparser/stringblock.py",
+      "types": [
+        "content"
+      ],
+      "regions": 10,
+      "category": "source"
+    },
+    {
+      "path": "tests/test_parser.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

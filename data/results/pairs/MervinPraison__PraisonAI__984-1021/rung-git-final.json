@@ -2,7 +2,7 @@
   "pair_id": "MervinPraison__PraisonAI__984-1021",
   "heads": "final",
   "status": "clean",
-  "detail": "b merges into a cleanly",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
   "messages": [],
   "types": [],
   "files": [],

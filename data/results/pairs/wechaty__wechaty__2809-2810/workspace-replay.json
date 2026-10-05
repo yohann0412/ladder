@@ -1,0 +1,23 @@
+{
+  "pair_id": "wechaty__wechaty__2809-2810",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/wechaty__wechaty__2809-2810",
+  "source_base": "ed9ca01abb2dd14fe3ee935e940d292522e6c8e9",
+  "source_a": "dbc12c90f8d7fd36c370e3e44b1d1af7724d4e6c",
+  "source_b": "59087a6badb805550aadd15ee599b6384557080b",
+  "base_commit": "97ea1a6cbacf849b4ecf8ab7743a7ec337db04cc",
+  "a_commit": "6604bed4e511665a41366dd88f53b1a304721831",
+  "b_commit": "822870a190a3cadcd708433899515a22fc84e46a",
+  "object_count": 238,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

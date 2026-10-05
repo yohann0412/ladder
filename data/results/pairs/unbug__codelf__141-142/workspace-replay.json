@@ -1,0 +1,23 @@
+{
+  "pair_id": "unbug__codelf__141-142",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/unbug__codelf__141-142",
+  "source_base": "5cb2e77d7f0a5cb5576c0341a73e9ce9d0b8c793",
+  "source_a": "4e75dd9a4791c64a9bce2902ae30a3724cd0c3a5",
+  "source_b": "6bed80daee01101e656c5379bf0b12d2691bb826",
+  "base_commit": "a12226145da8eb0aa816e02d69ce5e1f4ecc95d3",
+  "a_commit": "c1f9f7a5f39684767db5b013454fb5e0d56cf6a5",
+  "b_commit": "18ac560f6ea3b2786ca0444d1d9c27bd4ff14000",
+  "object_count": 267,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "alexanderjeurissen__ranger_devicons__125-126",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/alexanderjeurissen__ranger_devicons__125-126",
+  "source_base": "f227f212e14996fbb366f945ec3ecaf5dc5f44b0",
+  "source_a": "efcd8d486e34b3bfae95e62870666e9d495c6324",
+  "source_b": "2ab3dd19752814cc72e4e31f475299d6bb0791ea",
+  "base_commit": "279c31833946287762ae3005db7e61575307bfbe",
+  "a_commit": "3b5c6ec45f078b5f0d77f06927c6af2471e32f2a",
+  "b_commit": "2d81cca7f6315536e9be5da8938dba965189d5a3",
+  "object_count": 25,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

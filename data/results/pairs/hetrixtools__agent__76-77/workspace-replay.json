@@ -1,0 +1,23 @@
+{
+  "pair_id": "hetrixtools__agent__76-77",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/hetrixtools__agent__76-77",
+  "source_base": "ab3fb41d5a3f38e831c6962cb63d3c2087f5ba48",
+  "source_a": "dd74333e711e953be6e0d83b0a7237bedce51b88",
+  "source_b": "7239a0d0409ca35fe582733c17b49599741ac35e",
+  "base_commit": "715c833930fc301d5405b032b62f9aad2ab3b445",
+  "a_commit": "be3e5d4149642a3f86a79af2691c3b522aa77dbc",
+  "b_commit": "f192974bf377625da2e444d1f6e12ca7977d67bd",
+  "object_count": 15,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

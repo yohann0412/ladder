@@ -1,0 +1,23 @@
+{
+  "pair_id": "econ-ark__HARK__1555-1556",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/econ-ark__HARK__1555-1556",
+  "source_base": "fc815b59080de7620ffb0e289f19c318555d1274",
+  "source_a": "bb42b26c63e5a5448840e55a34e2fc8d5c1a6ab9",
+  "source_b": "5b84f73e2df82922d7c7001fb9f1a64db86d4cdc",
+  "base_commit": "25bbb8b88f697560cb081ab41cd3640b1656ffde",
+  "a_commit": "7ba671ea73f9f970b8fa5eaa0e76e719efe33651",
+  "b_commit": "fd880cd2c7250b7e599df14f9d7c2ddafa7c3f66",
+  "object_count": 323,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
