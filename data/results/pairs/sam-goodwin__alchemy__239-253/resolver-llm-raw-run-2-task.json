@@ -1,0 +1,19 @@
+{
+  "pair_id": "sam-goodwin__alchemy__239-253",
+  "rung": "llm-raw",
+  "run": 2,
+  "task_dir": "/home/user/ladder/work/resolver/sam-goodwin__alchemy__239-253/llm-raw/run-2",
+  "snapshot_dir": "/home/user/ladder/work/resolver/sam-goodwin__alchemy__239-253/llm-raw/run-2/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/sam-goodwin__alchemy__239-253/llm-raw/run-2",
+  "spawn_line": "Read /home/user/ladder/work/resolver/sam-goodwin__alchemy__239-253/llm-raw/run-2/PROMPT.md and follow it exactly.",
+  "files": [
+    "alchemy/src/cloudflare/worker.ts",
+    "alchemy/src/cloudflare/workflow.ts"
+  ],
+  "input_bytes": 161057,
+  "pr_text_flags": [],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "pending",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T09:35:27.582645Z"
+}

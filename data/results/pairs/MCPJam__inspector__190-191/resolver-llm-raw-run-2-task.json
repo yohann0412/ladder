@@ -1,0 +1,22 @@
+{
+  "pair_id": "MCPJam__inspector__190-191",
+  "rung": "llm-raw",
+  "run": 2,
+  "task_dir": "/home/user/ladder/work/resolver/MCPJam__inspector__190-191/llm-raw/run-2",
+  "snapshot_dir": "/home/user/ladder/work/resolver/MCPJam__inspector__190-191/llm-raw/run-2/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/MCPJam__inspector__190-191/llm-raw/run-2",
+  "spawn_line": "Read /home/user/ladder/work/resolver/MCPJam__inspector__190-191/llm-raw/run-2/PROMPT.md and follow it exactly.",
+  "files": [
+    "package-lock.json",
+    "server/src/index.ts",
+    "server/src/shared/index.ts",
+    "server/src/shared/types.ts",
+    "server/src/shared/utils.ts"
+  ],
+  "input_bytes": 1830942,
+  "pr_text_flags": [],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "input_cap",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T09:34:37.621419Z"
+}

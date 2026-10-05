@@ -1,0 +1,19 @@
+{
+  "pair_id": "MCPJam__inspector__190-191",
+  "rung": "llm-raw",
+  "run": 2,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: package-lock.json version base has 405620 bytes, more than 200000",
+    "input cap: package-lock.json version a has 467655 bytes, more than 200000",
+    "input cap: package-lock.json version b has 415945 bytes, more than 200000",
+    "input cap: package-lock.json version conflicted has 478027 bytes, more than 200000",
+    "input cap: 1830942 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T09:34:37.621634Z"
+}

@@ -1,0 +1,28 @@
+{
+  "pair_id": "astronomer__airflow-ai-sdk__31-32",
+  "rung": "llm-raw",
+  "run": 2,
+  "task_dir": "/home/user/ladder/work/resolver/astronomer__airflow-ai-sdk__31-32/llm-raw/run-2",
+  "snapshot_dir": "/home/user/ladder/work/resolver/astronomer__airflow-ai-sdk__31-32/llm-raw/run-2/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/astronomer__airflow-ai-sdk__31-32/llm-raw/run-2",
+  "spawn_line": "Read /home/user/ladder/work/resolver/astronomer__airflow-ai-sdk__31-32/llm-raw/run-2/PROMPT.md and follow it exactly.",
+  "files": [
+    "docs/interface/airflow_ai_sdk_airflow.md",
+    "docs/interface/airflow_ai_sdk_decorators_agent.md",
+    "docs/interface/airflow_ai_sdk_decorators_branch.md",
+    "docs/interface/airflow_ai_sdk_decorators_embed.md",
+    "docs/interface/airflow_ai_sdk_decorators_llm.md",
+    "docs/interface/airflow_ai_sdk_models_base.md",
+    "docs/interface/airflow_ai_sdk_models_tool.md",
+    "docs/interface/airflow_ai_sdk_operators_agent.md",
+    "docs/interface/airflow_ai_sdk_operators_embed.md",
+    "docs/interface/airflow_ai_sdk_operators_llm.md",
+    "docs/interface/airflow_ai_sdk_operators_llm_branch.md"
+  ],
+  "input_bytes": 21269,
+  "pr_text_flags": [],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "pending",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T09:38:22.905393Z"
+}
