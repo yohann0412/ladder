@@ -1,0 +1,23 @@
+{
+  "pair_id": "block__goose__2620-2621",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/block__goose__2620-2621",
+  "source_base": "d8d9b9f1bd722b760eacb4c11e1518fca7b889bc",
+  "source_a": "51cd9e265a68f7b425a43bd66180cbe188914a29",
+  "source_b": "36f695a977006d8cf3aaa3fa24aed828597585cf",
+  "base_commit": "6a40ccac09c22af2d9de5f15fd78a2dfcd61c6be",
+  "a_commit": "831a3523874e6c72c0d810aa00230c0afc372845",
+  "b_commit": "69a589f88ea4d5b04d34d5d693c1a702d742a581",
+  "object_count": 1548,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
