@@ -377,3 +377,21 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   prepared while those resolvers ran. Free disk stayed above 9.6 GiB. No resolver write
   failed, and every transcript of that batch parses. No record is affected.
 - Fix: the wait step now uses the same strict hand-back pattern as collection.
+
+## 20. All first resolver runs settled; double-run sample drawn
+
+- All 224 conflicting pairs have a resolver plan. 409 run-1 tasks were prepared:
+  - 327 went to a subagent;
+  - 75 were refused because their input was over the input cap (recorded as
+    `failed: input_cap`);
+  - 7 post-weave runs had input identical to the raw run (`identical_input`; no separate
+    run).
+- Of the 327 runs:
+  - 289 are `ok`;
+  - 32 failed the audit only for reading their own output (D20);
+  - 2 failed for other violations (Bash; a harness spill file);
+  - 4 were lost to the full disk (D21).
+  None was re-run.
+- The variance sample of PLAN 5.6 was drawn with `ladder resolve sample-double --n 30
+  --seed 42` from all 224 pairs whose plan has llm-raw run 1. No truth existed when it was
+  drawn. The 30 pairs are in `work/double-pairs.txt`; their plans now include llm-raw run 2.
