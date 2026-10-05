@@ -250,3 +250,46 @@ S outcomes (502 pairs): ok and clean 367 (320 with a located truth), ok and conf
 (60 with a located truth, 8 without), unrecoverable (rebased) 58, fetch failed 9.
 Contamination is as common as in the paper set: in the first 150, 97 pairs had a contaminated
 head.
+
+## 15. Phase 1 acceptance with real resolvers (fixture pilot)
+
+`just ladder --fixture` first stopped with exit 3 and 8 pending resolver tasks (llm-raw for
+fx01, fx02, fx03, fx04, fx05, fx08; llm-post-weave for fx03, fx05). Eight fresh-context
+resolver subagents were spawned in parallel, each with only its spawn line;
+`ladder resolve collect --transcripts <subagent transcript dir>` finalized 7 of them; fx03
+llm-raw matched two transcripts (the earlier recorded run used the same task path) and was
+finalized explicitly with the new one.
+
+**Audit false positive found in the pilot.** fx05 llm-raw was recorded as
+`protocol_violation: Glob without a path`. Its transcript shows two Glob calls with no
+`path` argument but an absolute `pattern` inside its own task directory (for example
+`<task>/files/**/*`), which is exactly what the prompt asks for ("an absolute path that starts
+with" the task directory). The audit implemented "must name a path" as "must pass the `path`
+parameter". Fixed in `audit.py` (a48a6d2): a Glob without `path` passes only when its pattern
+is absolute, has no `..`, and its fixed prefix is inside the task directory; Grep and Read
+rules unchanged (DECISIONS D18). The fx05 transcript was then re-audited (its run record
+moved aside, the same transcript finalized again: `ok`). The resolver was not re-run. This
+happened on the fixture, before any real resolver run.
+
+`just ladder --fixture` then exited 0: **180 cells checked, 0 mismatches, 0 LLM cells
+skipped**. Actual outcomes (M = mergeable, HE = human-equivalent):
+
+| scenario | git final / replay | weave | mergiraf | llm-raw | llm-post-weave | trap | Claim C |
+|---|---|---|---|---|---|---|---|
+| fx01 | conflicted / conflicted | resolved; M, HE, intent ok, passed | resolved; M, HE, intent ok, passed | M, HE, intent ok, passed | n/a | - | - |
+| fx02 | conflicted / conflicted | resolved; M, HE, intent ok, passed | resolved; M, HE, intent ok, passed | M, HE, intent ok, passed | n/a | - | - |
+| fx03 | conflicted / conflicted | conflicted; not M, not HE, intent ok, no tests | conflicted; not M, not HE, intent ok, no tests | M, HE, intent ok, passed | M, HE, intent ok, passed | - | - |
+| fx04 | conflicted / conflicted | conflicted; not M, not HE, drops b, no tests | conflicted; not M, not HE, drops b, no tests | M, HE, drops a, failed | M, HE, drops a, failed | - | - |
+| fx05 | conflicted / conflicted | conflicted; not M, not HE, intent ok, no tests | conflicted; not M, not HE, intent ok, no tests | M, not HE, intent ok, passed | M, not HE, intent ok, passed | - | - |
+| fx06 | clean / clean | - | - | - | - | - | fails together |
+| fx07 | conflicted / conflicted | conflicted; not M, not HE, intent ok, no tests | conflicted; not M, not HE, intent ok, no tests | n/a | n/a | M, not HE, drops b, passed | - |
+| fx08 | conflicted / conflicted | resolved; M, HE, intent ok, passed | resolved; M, HE, intent ok, passed | M, HE, intent ok, passed | n/a | - | - |
+| fx09 | clean / clean | - | - | - | - | - | passes together |
+| fx10 | clean / unrecoverable | - | - | - | - | - | - |
+
+Readings: the LLM resolved fx03 (the LLM-only scenario) human-equivalently, both raw and after
+weave. fx04 shows the protocol's limit: deleting `helpers.py` matches the human on the
+conflicted file, but A's whitespace change is dropped because the needed edit is in
+`core.py`, which the resolver may not write (A's test fails); weave and mergiraf keep the file
+B deleted and drop B instead. fx05's LLM merge of two `retry` modules is mergeable and keeps
+both intents but is not the human's text. The trap scores tests-pass and intent-dropped (B).

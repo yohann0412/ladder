@@ -185,3 +185,14 @@ Newest at the bottom.
   their module, still as pydantic models.
 - Reason: a shared contract file that every format must pass through creates coupling with no
   benefit for formats only one module reads and writes.
+
+## D18. Glob audit rule (pilot correction, before any real resolver run)
+
+- Problem: the audit treated a Glob without a `path` parameter as a violation even when its
+  pattern was an absolute path inside the task directory, which the prompt explicitly allows.
+  Found on fixture fx05 (`LOG.md` entry 15).
+- Choice: a pathless Glob passes when its pattern is absolute, contains no `..` (also inside
+  braces), and its fixed prefix (before the first glob character) is inside the task
+  directory, also after resolving symlinks. Everything else in PLAN.md section 8 is unchanged.
+- Reason: the rule's intent is "every read names a place inside the task directory"; the
+  pattern does. Fixed before the real runs, so every real run is audited by one rule.
