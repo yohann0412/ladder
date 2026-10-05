@@ -1,0 +1,23 @@
+{
+  "pair_id": "TanStack__router__4699-4700",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/TanStack__router__4699-4700",
+  "source_base": "5b2dd557fe180898d93dc526d06ca6269cd0a257",
+  "source_a": "5767e0741539560f1b143ad9c92a897add0e2ad1",
+  "source_b": "7f0e3733b0fea2e5889588c753d03657d57a3193",
+  "base_commit": "731fae960610b81ffabcf4cecc5eefb6106ef944",
+  "a_commit": "d3c10124b3dc8bb71f81a2db0eece3112f0370ff",
+  "b_commit": "0ea93fa5a31e5040a9df9844e6c45cdd0255a05a",
+  "object_count": 3551,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

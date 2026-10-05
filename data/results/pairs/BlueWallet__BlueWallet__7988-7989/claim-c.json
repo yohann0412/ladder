@@ -1,0 +1,56 @@
+{
+  "pair_id": "BlueWallet__BlueWallet__7988-7989",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: build_fails (install: exit 128 in 89.3 s: (Use `node --trace-warnings ...` to show where the warning was created) | npm error code 128 | npm error An unknown git error occurred | npm error command git --no-replace-objects ls-remote ssh://git@github.com/BlueWallet/rn-qr-generator.git | npm error fatal: could not read Username for 'https://github.com': terminal prompts disabled | npm error A complete log of this run can be found in: /root/.npm/_logs/2026-10-05T10_16_12_828Z-debug-0.log)",
+  "files_a": [
+    "class/lnurl.ts",
+    "package-lock.json"
+  ],
+  "files_b": [
+    "blue_modules/checksumWords.ts",
+    "class/blue-app.ts",
+    "class/wallets/abstract-wallet.ts",
+    "class/wallets/multisig-hd-wallet.ts",
+    "class/wallets/slip39-wallets.ts",
+    "package-lock.json",
+    "screen/send/ScanQRCode.tsx",
+    "screen/wallets/PaymentCodesList.tsx",
+    "tests/e2e/helperz.js"
+  ]
+}

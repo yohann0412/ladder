@@ -1,0 +1,35 @@
+{
+  "pair_id": "BlueWallet__BlueWallet__7988-7989",
+  "commit": "c77e159413ae9f75616bd5fde2c522ef1cd574ae",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": "jest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 128 in 89.3 s: (Use `node --trace-warnings ...` to show where the warning was created) | npm error code 128 | npm error An unknown git error occurred | npm error command git --no-replace-objects ls-remote ssh://git@github.com/BlueWallet/rn-qr-generator.git | npm error fatal: could not read Username for 'https://github.com': terminal prompts disabled | npm error A complete log of this run can be found in: /root/.npm/_logs/2026-10-05T10_16_12_828Z-debug-0.log",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "npm",
+        "ci"
+      ],
+      "exit_code": 128,
+      "duration_s": 106.6,
+      "detail": "standard, install cap 900 s: install: exit 128 in 106.6 s; output tail: npm warn skipping integrity check for git dependency ssh://git@github.com/BlueWallet/localized-strings.git | npm warn skipping integrity check for git dependency ssh://git@github.com/BlueWallet/coinselect.git | npm warn skipping integrity check for git dependency ssh://git@github.com/BlueWallet/react-native-true-sheet.git | npm error code 128 | npm error An unknown git error occurred | npm error command git --no-replace-objects ls-remote ssh://git@github.com/BlueWallet/rn-qr-generator.git | npm error fatal: could not read Username for 'https://github.com': terminal prompts disabled | npm error A complete log of this run can be found in: /root/.npm/_logs/2026-10-05T10_14_25_727Z-debug-0.log"
+    },
+    {
+      "command": [
+        "npm",
+        "install",
+        "--legacy-peer-deps"
+      ],
+      "exit_code": 128,
+      "duration_s": 89.3,
+      "detail": "legacy-peer-deps (npm install --legacy-peer-deps instead of a clean install), install cap 900 s: install: exit 128 in 89.3 s; output tail: npm warn skipping integrity check for git dependency ssh://git@github.com/BlueWallet/react-native-true-sheet.git | (node:6684) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 socket listeners added to [ClientRequest]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit | (Use `node --trace-warnings ...` to show where the warning was created) | npm error code 128 | npm error An unknown git error occurred | npm error command git --no-replace-objects ls-remote ssh://git@github.com/BlueWallet/rn-qr-generator.git | npm error fatal: could not read Username for 'https://github.com': terminal prompts disabled | npm error A complete log of this run can be found in: /root/.npm/_logs/2026-10-05T10_16_12_828Z-debug-0.log"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
