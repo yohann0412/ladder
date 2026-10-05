@@ -1,0 +1,69 @@
+{
+  "pair_id": "AgentOps-AI__agentops__603-605",
+  "commit": "915cb590af512bad09f0a238458a40647e2124a8",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "suite does not load at base: 1 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/AgentOps-AI__agentops__603-605/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/AgentOps-AI__agentops__603-605/trees/base",
+        "--group",
+        "dev",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 7.8,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 3.0 s; suite failed: 0 passed, 0 failed, 1 errors, 0 skipped (tests/openai_handlers/test_openai_integration.py::tests.openai_handlers.test_openai_integration); first run failed: 0 passed, 0 failed, 1 errors, 0 skipped (tests/openai_handlers/test_openai_integration.py::tests.openai_handlers.test_openai_integration)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/AgentOps-AI__agentops__603-605/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/AgentOps-AI__agentops__603-605/trees/base",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 5.0,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 1.6 s; suite failed: 0 passed, 0 failed, 8 errors, 0 skipped (tests/openai_handlers/test_openai_integration.py::tests.openai_handlers.test_openai_integration, tests/test_canary.py::tests.test_canary, tests/test_events.py::tests.test_events, tests/test_pre_init.py::tests.test_pre_init, tests/test_record_action.py::tests.test_record_action); first run failed: 0 passed, 0 failed, 8 errors, 0 skipped (tests/openai_handlers/test_openai_integration.py::tests.openai_handlers.test_openai_integration, tests/test_canary.py::tests.test_canary, tests/test_events.py::tests.test_events, tests/test_pre_init.py::tests.test_pre_init, tests/test_record_action.py::tests.test_record_action)"
+    }
+  ],
+  "test_count": 1,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/AgentOps-AI__agentops__603-605/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/AgentOps-AI__agentops__603-605/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 1,
+    "skipped": 0,
+    "duration_s": 2.4,
+    "retried": true,
+    "failing_tests": [
+      "tests/openai_handlers/test_openai_integration.py::tests.openai_handlers.test_openai_integration"
+    ],
+    "detail": "0 passed, 0 failed, 1 errors, 0 skipped (tests/openai_handlers/test_openai_integration.py::tests.openai_handlers.test_openai_integration); first run failed: 0 passed, 0 failed, 1 errors, 0 skipped (tests/openai_handlers/test_openai_integration.py::tests.openai_handlers.test_openai_integration)"
+  },
+  "timeout_s": 600
+}
