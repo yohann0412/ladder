@@ -400,6 +400,30 @@ class RungScore(Record):
     tests_b: TestOutcome | None
 
 
+# ----------------------------------------------------------------------------- calibration
+
+CalibratedMetric = Literal["intent_dropped", "human_equivalent"]
+
+
+class CalibrationVerdict(Record):
+    """The main model's reading of one harness verdict in the calibration sample."""
+
+    pair_id: str
+    rung: str
+    run: int
+    metric: CalibratedMetric
+    harness_verdict: bool
+    reviewer_agrees: bool
+    note: str
+
+
+class CalibrationRecord(Record):
+    """The calibration sample: which verdicts were drawn and whether the reviewer agreed."""
+
+    seed: int
+    verdicts: list[CalibrationVerdict]
+
+
 # ----------------------------------------------------------------------------- report
 
 
