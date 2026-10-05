@@ -1,0 +1,69 @@
+{
+  "pair_id": "lwyBZss8924d__DeepSearchAgents__9-14",
+  "commit": "a72b72033bb9364d762c22c6f85cce1b3491e457",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no tests found at base",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/trees/base[dev,test]",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 85.0,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 1.2 s; install: exit 0 in 77.9 s; suite error: 0 passed, 0 failed, 0 errors, 0 skipped; no tests ran; output tail: /home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/envs/base/lib/python3.13/site-packages/pytest_asyncio/plugin.py:217: PytestDeprecationWarning: The configuration option \"asyncio_default_fixture_loop_scope\" is unset.\nThe event loop scope for asynchronous fixtures will default to the fixture caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to function scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: \"function\", \"class\", \"module\", \"package\", \"session\"\n\n  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))\n============================= test session starts ==============================\nplatform linux -- Python 3.13.1, pytest-8.3.5, pluggy-1.5.0\nrootdir: /home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/trees/base\nconfigfile: pyproject.toml\ntestpaths: tests\nplugins: anyio-4.9.0, langsmith-0.3.28, asyncio-0.26.0, cov-6.1.1\nasyncio: mode=Mode.AUTO, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function\ncollected 0 items\n\n- generated xml file: /home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/reports/base-attempt-1/run-2.report -\n============================ no tests ran in 0.01s =============================; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/trees/base",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 4.7,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 0.9 s; suite error: 0 passed, 0 failed, 0 errors, 0 skipped; no tests ran; output tail: /home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/envs/base/lib/python3.13/site-packages/pytest_asyncio/plugin.py:217: PytestDeprecationWarning: The configuration option \"asyncio_default_fixture_loop_scope\" is unset.\nThe event loop scope for asynchronous fixtures will default to the fixture caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to function scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: \"function\", \"class\", \"module\", \"package\", \"session\"\n\n  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))\n============================= test session starts ==============================\nplatform linux -- Python 3.13.1, pytest-8.3.5, pluggy-1.5.0\nrootdir: /home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/trees/base\nconfigfile: pyproject.toml\ntestpaths: tests\nplugins: anyio-4.9.0, langsmith-0.3.28, asyncio-0.26.0, cov-6.1.1\nasyncio: mode=Mode.AUTO, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function\ncollected 0 items\n\n- generated xml file: /home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/reports/base-attempt-2/run-2.report -\n============================ no tests ran in 0.01s =============================; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+    }
+  ],
+  "test_count": 0,
+  "base_outcome": {
+    "status": "error",
+    "command": [
+      "/home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 1.9,
+    "retried": true,
+    "failing_tests": [],
+    "detail": "0 passed, 0 failed, 0 errors, 0 skipped; no tests ran; output tail: /home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/envs/base/lib/python3.13/site-packages/pytest_asyncio/plugin.py:217: PytestDeprecationWarning: The configuration option \"asyncio_default_fixture_loop_scope\" is unset.\nThe event loop scope for asynchronous fixtures will default to the fixture caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to function scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: \"function\", \"class\", \"module\", \"package\", \"session\"\n\n  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))\n============================= test session starts ==============================\nplatform linux -- Python 3.13.1, pytest-8.3.5, pluggy-1.5.0\nrootdir: /home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/trees/base\nconfigfile: pyproject.toml\ntestpaths: tests\nplugins: anyio-4.9.0, langsmith-0.3.28, asyncio-0.26.0, cov-6.1.1\nasyncio: mode=Mode.AUTO, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function\ncollected 0 items\n\n- generated xml file: /home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/reports/base-attempt-1/run-2.report -\n============================ no tests ran in 0.01s =============================; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "timeout_s": 600
+}
