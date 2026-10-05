@@ -7,6 +7,7 @@ import typer
 
 from ladder import pairs_cli, workspace_cli
 from ladder.layout import Layout
+from ladder.rung_cli import app as rung_app
 from ladder.syntax_cli import app as syntax_app
 
 app = typer.Typer(
@@ -34,5 +35,6 @@ def main(
 
 
 app.add_typer(pairs_cli.app, name="pairs")
+app.add_typer(rung_app, name="rung")
 app.add_typer(syntax_app)
 app.add_typer(workspace_cli.app, name="workspace")
