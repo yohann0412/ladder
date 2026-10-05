@@ -1,0 +1,23 @@
+{
+  "pair_id": "sqlrooms__sqlrooms__56-57",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/sqlrooms__sqlrooms__56-57",
+  "source_base": "1b92c19ae403b923ae1ea85bb9ff16f98a278ead",
+  "source_a": "f8ae905994d8fd2552cb1529006994adca8f49a6",
+  "source_b": "6ef5fbc6ef9832163bf56ee6d6f1172965f0d87b",
+  "base_commit": "c3eba73b0013ab5abe3f3efbaa51703dd2c11b44",
+  "a_commit": "14846c8f8473701c34a4dbbef712e19d0f526e41",
+  "b_commit": "2eb41d2da54a363956f08cb1aa65b71395ea20d9",
+  "object_count": 580,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

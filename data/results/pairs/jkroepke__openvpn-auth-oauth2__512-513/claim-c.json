@@ -1,0 +1,65 @@
+{
+  "pair_id": "jkroepke__openvpn-auth-oauth2__512-513",
+  "a": {
+    "status": "passed",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 130,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 11.3,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 130 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "b": {
+    "status": "passed",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 142,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 12.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 142 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "merge": {
+    "status": "passed",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 137,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 11.5,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 137 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "fails_together": false,
+  "excluded_reason": null,
+  "files_a": [
+    "internal/openvpn/passthrough.go"
+  ],
+  "files_b": [
+    "DEVELOPER.md"
+  ]
+}
