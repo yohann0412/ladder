@@ -1,0 +1,15 @@
+{
+  "pair_id": "MCPJam__inspector__190-191",
+  "commit": "a376e0953d5cb488aaa2d746cdf062569074a1d0",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

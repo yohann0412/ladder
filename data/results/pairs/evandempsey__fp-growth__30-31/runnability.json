@@ -1,0 +1,53 @@
+{
+  "pair_id": "evandempsey__fp-growth__30-31",
+  "commit": "052f9527ea0c779b0ed18f91b20e542fb6c3c17b",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 1 in 1.8 s:       its `build-system.requires`. Otherwise, either add it to your |       `pyproject.toml` under: |       [tool.uv.extra-build-dependencies] |       watchdog = [\"imp\"] |       or `uv pip install imp` into the environment and re-run with |       `--no-build-isolation`.",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/evandempsey__fp-growth__30-31/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/evandempsey__fp-growth__30-31/trees/base",
+        "-r",
+        "requirements.txt",
+        "-r",
+        "requirements_dev.txt",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 3.0,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 1 in 2.9 s; output tail:       on `imp`, but doesn't declare it as a build dependency. If |       `watchdog` is a first-party package, consider adding `imp` to |       its `build-system.requires`. Otherwise, either add it to your |       `pyproject.toml` under: |       [tool.uv.extra-build-dependencies] |       watchdog = [\"imp\"] |       or `uv pip install imp` into the environment and re-run with |       `--no-build-isolation`."
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/evandempsey__fp-growth__30-31/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/evandempsey__fp-growth__30-31/trees/base",
+        "-r",
+        "requirements.txt",
+        "-r",
+        "requirements_dev.txt",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 1.9,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.1 s; install: exit 1 in 1.8 s; output tail:       on `imp`, but doesn't declare it as a build dependency. If |       `watchdog` is a first-party package, consider adding `imp` to |       its `build-system.requires`. Otherwise, either add it to your |       `pyproject.toml` under: |       [tool.uv.extra-build-dependencies] |       watchdog = [\"imp\"] |       or `uv pip install imp` into the environment and re-run with |       `--no-build-isolation`."
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

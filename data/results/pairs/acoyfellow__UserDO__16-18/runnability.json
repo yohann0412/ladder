@@ -1,0 +1,15 @@
+{
+  "pair_id": "acoyfellow__UserDO__16-18",
+  "commit": "169db2191534df1adc0480ecbf6bf1de429f3f09",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

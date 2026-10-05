@@ -1,0 +1,55 @@
+{
+  "pair_id": "openai__openai-agents-js__111-119",
+  "commit": "4a0fe867e4acdc0bc7ce7cbba5d3015bc9d18ec9",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": "vitest",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no tests found at base",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--frozen-lockfile"
+      ],
+      "exit_code": 0,
+      "duration_s": 11.9,
+      "detail": "standard, install cap 900 s: install: exit 0 in 10.2 s; suite error: 0 passed, 0 failed, 0 errors, 0 skipped; no tests ran; output tail: JSON report written to /home/user/ladder/work/runtime/openai__openai-agents-js__111-119/reports/base-attempt-1/run-2.report\n\n\u001b[31m⎯⎯⎯⎯⎯⎯\u001b[1m\u001b[7m Unhandled Error \u001b[27m\u001b[22m⎯⎯⎯⎯⎯⎯⎯\u001b[39m\n\u001b[31m\u001b[1mError\u001b[22m: Failed to load url @openai/agents-core/_shims (resolved id: @openai/agents-core/_shims). Does the file exist?\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m loadAndTransform node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:\u001b[2m35725:17\u001b[22m\u001b[39m\n\n\u001b[31m\u001b[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\u001b[22m\u001b[39m\n\u001b[31m\u001b[1mSerialized Error:\u001b[22m\u001b[39m \u001b[90m{ code: 'ERR_LOAD_URL' }\u001b[39m; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+    },
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--no-frozen-lockfile"
+      ],
+      "exit_code": 0,
+      "duration_s": 6.6,
+      "detail": "unfrozen (pnpm install without --frozen-lockfile), install cap 900 s: install: exit 0 in 5.2 s; suite error: 0 passed, 0 failed, 0 errors, 0 skipped; no tests ran; output tail: JSON report written to /home/user/ladder/work/runtime/openai__openai-agents-js__111-119/reports/base-attempt-2/run-2.report\n\n\u001b[31m⎯⎯⎯⎯⎯⎯\u001b[1m\u001b[7m Unhandled Error \u001b[27m\u001b[22m⎯⎯⎯⎯⎯⎯⎯\u001b[39m\n\u001b[31m\u001b[1mError\u001b[22m: Failed to load url @openai/agents-core/_shims (resolved id: @openai/agents-core/_shims). Does the file exist?\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m loadAndTransform node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:\u001b[2m35725:17\u001b[22m\u001b[39m\n\n\u001b[31m\u001b[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\u001b[22m\u001b[39m\n\u001b[31m\u001b[1mSerialized Error:\u001b[22m\u001b[39m \u001b[90m{ code: 'ERR_LOAD_URL' }\u001b[39m; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+    }
+  ],
+  "test_count": 0,
+  "base_outcome": {
+    "status": "error",
+    "command": [
+      "/home/user/ladder/work/runtime/openai__openai-agents-js__111-119/trees/base/node_modules/.bin/vitest",
+      "run",
+      "--coverage.enabled=false",
+      "--reporter=json",
+      "--outputFile=/home/user/ladder/work/runtime/openai__openai-agents-js__111-119/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.8,
+    "retried": true,
+    "failing_tests": [],
+    "detail": "0 passed, 0 failed, 0 errors, 0 skipped; no tests ran; output tail: JSON report written to /home/user/ladder/work/runtime/openai__openai-agents-js__111-119/reports/base-attempt-1/run-2.report\n\n\u001b[31m⎯⎯⎯⎯⎯⎯\u001b[1m\u001b[7m Unhandled Error \u001b[27m\u001b[22m⎯⎯⎯⎯⎯⎯⎯\u001b[39m\n\u001b[31m\u001b[1mError\u001b[22m: Failed to load url @openai/agents-core/_shims (resolved id: @openai/agents-core/_shims). Does the file exist?\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m loadAndTransform node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:\u001b[2m35725:17\u001b[22m\u001b[39m\n\n\u001b[31m\u001b[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\u001b[22m\u001b[39m\n\u001b[31m\u001b[1mSerialized Error:\u001b[22m\u001b[39m \u001b[90m{ code: 'ERR_LOAD_URL' }\u001b[39m; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "timeout_s": 600
+}

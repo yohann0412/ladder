@@ -1,0 +1,15 @@
+{
+  "pair_id": "middleman__middleman-blog__393-394",
+  "commit": "538c28905e8d0361098545270734b3b27a1a4b20",
+  "language": "ruby",
+  "package_manager": "bundle",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "ruby project; no adapter for ruby (bundle is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
