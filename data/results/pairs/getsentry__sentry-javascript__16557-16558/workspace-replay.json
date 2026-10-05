@@ -1,0 +1,23 @@
+{
+  "pair_id": "getsentry__sentry-javascript__16557-16558",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/getsentry__sentry-javascript__16557-16558",
+  "source_base": "0ce6dc5d7fc6645bcff040e6f8a42e9247c5c18c",
+  "source_a": "bda13796ff18283b08d727cb71e1a88183da342a",
+  "source_b": "0d52d87abc532878b363de20d3fc84574358b613",
+  "base_commit": "30f432a41cba97f5a60c6694b2af220af64fc3e4",
+  "a_commit": "c8cb056748a6f0dfdd2af90a3962183f85512aa6",
+  "b_commit": "8ac355c3d05d853d50d09fb809f02fb0349aa618",
+  "object_count": 6066,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
