@@ -104,3 +104,27 @@ directory: `--results <dir>`.
 | `LADDER_MIN_FREE_GIB` | 3 | installers and test suites stop below this much free disk |
 
 `ladder run --min-free-gb N` also waits before starting each pair until N GiB are free.
+
+## Disk
+
+Each pair's installs and test runs keep their temporary files and package caches (uv, Go,
+npm, pnpm, yarn, puppeteer, XDG) inside `work/runtime/<pair>/scratch`. `--prune` deletes
+them with the pair. The shared caches outside `work/` still grow. Two of them are the
+cargo registry and the Rust toolchains pinned by Rust repositories. The largest pairs
+need 6 to 11 GB while they run. Run one `ladder run` process at a time unless you have
+well over 20 GB free.
+
+A suite stopped by the `LADDER_MIN_FREE_GIB` floor is recorded with the phrase
+`free disk below the` in its outcome. Decision D23 treats such records as infrastructure
+failures and redoes each affected pair once:
+
+```sh
+grep -l "free disk below" data/results/pairs/*/runnability.json \
+  data/results/pairs/*/score-*.json data/results/pairs/*/claim-c.json   # affected pairs
+# for each pair: delete runnability.json, score-*.json and claim-c.json, list them in
+# data/results/redo-d23.json ({"rule": "D23", "pairs": [{"pair_id", "records",
+# "redone_at"}]}), then, with nothing else running:
+uv run ladder run <pairs> --prune --min-free-gb 15
+```
+
+The report counts the redone pairs and records from `data/results/redo-d23.json`.
