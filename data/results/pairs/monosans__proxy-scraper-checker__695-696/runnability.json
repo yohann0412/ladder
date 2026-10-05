@@ -1,0 +1,50 @@
+{
+  "pair_id": "monosans__proxy-scraper-checker__695-696",
+  "commit": "58e5c1cf343330a7e61455260cedb8dfff097127",
+  "language": "rust",
+  "package_manager": "cargo",
+  "test_runner": "cargo test",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no tests found at base",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "cargo",
+        "fetch",
+        "--locked"
+      ],
+      "exit_code": 0,
+      "duration_s": 128.7,
+      "detail": "standard, install cap 900 s: install: exit 0 in 1.9 s; build: exit 0 in 126.1 s; suite error: 0 passed, 0 failed, 0 errors, 0 skipped; runner exited 0 without a readable report; output tail: Finished `test` profile [unoptimized + debuginfo] target(s) in 0.14s\n     Running unittests src/main.rs (/home/user/ladder/work/runtime/monosans__proxy-scraper-checker__695-696/envs/base/debug/deps/proxy_scraper_checker-b4a9395d2d31173f)\n\nrunning 0 tests\n\ntest result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+    },
+    {
+      "command": [
+        "cargo",
+        "update"
+      ],
+      "exit_code": 0,
+      "duration_s": 127.5,
+      "detail": "cargo-update (updated Cargo.lock to the newest compatible versions), install cap 900 s: install: exit 0 in 1.7 s; build: exit 0 in 125.2 s; suite error: 0 passed, 0 failed, 0 errors, 0 skipped; runner exited 0 without a readable report; output tail: Finished `test` profile [unoptimized + debuginfo] target(s) in 0.19s\n     Running unittests src/main.rs (/home/user/ladder/work/runtime/monosans__proxy-scraper-checker__695-696/envs/base/debug/deps/proxy_scraper_checker-a7b327be6e76ee73)\n\nrunning 0 tests\n\ntest result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+    }
+  ],
+  "test_count": 0,
+  "base_outcome": {
+    "status": "error",
+    "command": [
+      "cargo",
+      "test",
+      "--no-fail-fast"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.2,
+    "retried": true,
+    "failing_tests": [],
+    "detail": "0 passed, 0 failed, 0 errors, 0 skipped; runner exited 0 without a readable report; output tail: Finished `test` profile [unoptimized + debuginfo] target(s) in 0.14s\n     Running unittests src/main.rs (/home/user/ladder/work/runtime/monosans__proxy-scraper-checker__695-696/envs/base/debug/deps/proxy_scraper_checker-b4a9395d2d31173f)\n\nrunning 0 tests\n\ntest result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "timeout_s": 600
+}
