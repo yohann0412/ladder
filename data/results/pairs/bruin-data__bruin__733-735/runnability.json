@@ -1,0 +1,53 @@
+{
+  "pair_id": "bruin-data__bruin__733-735",
+  "commit": "9765fd0a5ea1ab39fb7668ad58c92b2042426991",
+  "language": "go",
+  "package_manager": "go modules",
+  "test_runner": "go test",
+  "status": "unrunnable",
+  "reason": "exceeds_cap",
+  "reason_detail": "suite stopped, free disk below the 3 GiB floor; first run error: 118 passed, 0 failed, 0 errors, 0 skipped",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "go",
+        "mod",
+        "download"
+      ],
+      "exit_code": 0,
+      "duration_s": 270.3,
+      "detail": "standard, install cap 900 s: install: exit 0 in 14.8 s; build: exit 0 in 123.8 s; suite error: 151 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 although no test failed; output tail: on\":\"pass\",\"Package\":\"github.com/bruin-data/bruin/pkg/sqlparser\",\"Test\":\"TestGetMissingDependenciesForAsset/asset_with_missing_dependencies\",\"Elapsed\":7.34}\n{\"Time\":\"2026-10-05T15:03:03.351729388Z\",\"Action\":\"output\",\"Package\":\"github.com/bruin-data/bruin/pkg/sqlparser\",\"Test\":\"TestGetMissingDependenciesForAsset/asset_with_external_table_references\",\"Output\":\"--- PASS: TestGetMissingDependenciesForAsset/asset_with_external_table_references (7.49s)\\n\"}\n{\"Time\":\"2026-10-05T15:03:03.351737471Z\",\"Action\":\"pass\",\"Package\":\"github.com/bruin-data/bruin/pkg/sqlparser\",\"Test\":\"TestGetMissingDependenciesForAsset/asset_with_external_table_references\",\"Elapsed\":7.49}\n{\"Time\":\"2026-10-05T15:03:03.351740651Z\",\"Action\":\"output\",\"Package\":\"github.com/bruin-data/bruin/pkg/sqlparser\",\"Test\":\"TestGetMissingDependenciesForAsset\",\"Output\":\"--- PASS: TestGetMissingDependenciesForAsset (0.00s)\\n\"}\n{\"Time\":\"2026-10-05T15:03:03.351743961Z\",\"Action\":\"pass\",\"Package\":\"github.com/bruin-data/bruin/pkg/sqlparser\",\"Test\":\"TestGetMissingDependenciesForAsset\",\"Elapsed\":0}\n{\"Time\":\"2026-10-05T15:03:03.351752873Z\",\"Action\":\"output\",\"Package\":\"github.com/bruin-data/bruin/pkg/sqlparser\",\"Output\":\"PASS\\n\"}\n{\"Time\":\"2026-10-05T15:03:03.509311635Z\",\"Action\":\"output\",\"Package\":\"github.com/bruin-data/bruin/pkg/sqlparser\",\"Output\":\"ok  \\tgithub.com/bruin-data/bruin/pkg/sqlparser\\t39.401s\\n\"}\n{\"Time\":\"2026-10-05T15:03:03.509372229Z\",\"Action\":\"pass\",\"Package\":\"github.com/bruin-data/bruin/pkg/sqlparser\",\"Elapsed\":39.402}; first run error: 151 passed, 0 failed, 0 errors, 0 skipped"
+    },
+    {
+      "command": [
+        "go",
+        "mod",
+        "download"
+      ],
+      "exit_code": 0,
+      "duration_s": 188.7,
+      "detail": "mod-mod (GOFLAGS=-mod=mod, so go.mod and go.sum drift is resolved), install cap 900 s: install: exit 0 in 0.1 s; build: exit 0 in 127.3 s; suite capped: suite stopped, free disk below the 3 GiB floor; first run error: 118 passed, 0 failed, 0 errors, 0 skipped"
+    }
+  ],
+  "test_count": 151,
+  "base_outcome": {
+    "status": "error",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 151,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 64.0,
+    "retried": true,
+    "failing_tests": [],
+    "detail": "151 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 although no test failed; output tail: on\":\"pass\",\"Package\":\"github.com/bruin-data/bruin/pkg/sqlparser\",\"Test\":\"TestGetMissingDependenciesForAsset/asset_with_missing_dependencies\",\"Elapsed\":7.34}\n{\"Time\":\"2026-10-05T15:03:03.351729388Z\",\"Action\":\"output\",\"Package\":\"github.com/bruin-data/bruin/pkg/sqlparser\",\"Test\":\"TestGetMissingDependenciesForAsset/asset_with_external_table_references\",\"Output\":\"--- PASS: TestGetMissingDependenciesForAsset/asset_with_external_table_references (7.49s)\\n\"}\n{\"Time\":\"2026-10-05T15:03:03.351737471Z\",\"Action\":\"pass\",\"Package\":\"github.com/bruin-data/bruin/pkg/sqlparser\",\"Test\":\"TestGetMissingDependenciesForAsset/asset_with_external_table_references\",\"Elapsed\":7.49}\n{\"Time\":\"2026-10-05T15:03:03.351740651Z\",\"Action\":\"output\",\"Package\":\"github.com/bruin-data/bruin/pkg/sqlparser\",\"Test\":\"TestGetMissingDependenciesForAsset\",\"Output\":\"--- PASS: TestGetMissingDependenciesForAsset (0.00s)\\n\"}\n{\"Time\":\"2026-10-05T15:03:03.351743961Z\",\"Action\":\"pass\",\"Package\":\"github.com/bruin-data/bruin/pkg/sqlparser\",\"Test\":\"TestGetMissingDependenciesForAsset\",\"Elapsed\":0}\n{\"Time\":\"2026-10-05T15:03:03.351752873Z\",\"Action\":\"output\",\"Package\":\"github.com/bruin-data/bruin/pkg/sqlparser\",\"Output\":\"PASS\\n\"}\n{\"Time\":\"2026-10-05T15:03:03.509311635Z\",\"Action\":\"output\",\"Package\":\"github.com/bruin-data/bruin/pkg/sqlparser\",\"Output\":\"ok  \\tgithub.com/bruin-data/bruin/pkg/sqlparser\\t39.401s\\n\"}\n{\"Time\":\"2026-10-05T15:03:03.509372229Z\",\"Action\":\"pass\",\"Package\":\"github.com/bruin-data/bruin/pkg/sqlparser\",\"Elapsed\":39.402}; first run error: 151 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "timeout_s": 600
+}

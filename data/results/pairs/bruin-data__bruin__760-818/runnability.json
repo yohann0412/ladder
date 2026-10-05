@@ -1,0 +1,26 @@
+{
+  "pair_id": "bruin-data__bruin__760-818",
+  "commit": "5064ef936d2420a174ee190943bc91bd6872c1cd",
+  "language": "go",
+  "package_manager": "go modules",
+  "test_runner": "go test",
+  "status": "unrunnable",
+  "reason": "exceeds_cap",
+  "reason_detail": "install: stopped, free disk below the 3 GiB floor",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "go",
+        "mod",
+        "download"
+      ],
+      "exit_code": null,
+      "duration_s": 0.0,
+      "detail": "standard, install cap 900 s: install: stopped, free disk below the 3 GiB floor; output tail: not started: 2.9 GiB free under /home/user/ladder/work/runtime/bruin-data__bruin__760-818/trees/base, below the 3 GiB floor set by LADDER_MIN_FREE_GIB"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
