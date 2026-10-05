@@ -1,0 +1,23 @@
+{
+  "pair_id": "langfuse__langfuse__7352-7354",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/langfuse__langfuse__7352-7354",
+  "source_base": "1f55032c3480db7f25da9a65fa9f3577a6fa5f9c",
+  "source_a": "ab8aa2b3ec2f9020f3d8c01cefa87c02dfd27087",
+  "source_b": "a8fde387aad0117f6afd89764c10801b402858d5",
+  "base_commit": "9c6d62d5626ed273d162ec0c9db839caaa85b62c",
+  "a_commit": "86de91a0c871b125db8872343739a1062bac4a9a",
+  "b_commit": "18275795223f7567b5a94dd19c922442108cb36b",
+  "object_count": 2440,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

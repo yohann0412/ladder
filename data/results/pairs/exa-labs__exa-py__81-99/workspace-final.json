@@ -1,0 +1,23 @@
+{
+  "pair_id": "exa-labs__exa-py__81-99",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/exa-labs__exa-py__81-99",
+  "source_base": "5d71677d76792f7bb360a5503da8347a8009ecf0",
+  "source_a": "1b7197434bf302fd5568dbb0d69a8f5fc85d4863",
+  "source_b": "c0f36e29af61aa55b9fd70b7f3271209a4a0f4a8",
+  "base_commit": "96ddd683f804a8ae23824a3131b8bca042b3a8cc",
+  "a_commit": "777d4dac76348b0eab12a6e13a95606cefe21c5c",
+  "b_commit": "923c5ca5a6b385198be481ebff5cf2837aed1944",
+  "object_count": 168,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
