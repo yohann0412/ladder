@@ -616,3 +616,8 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   pairs' working copies, the cargo registry and the extra Rust toolchains were deleted,
   leaving 18 GiB free, and Claim C went on with one worker (D25 amendment). It took the
   earliest incomplete wave first (c02, 12 pairs left).
+- 19:56: Claim C stopped under D25. Waves c01 to c06 are complete, so the cut is at the end
+  of c06: the first 120 pairs of `data/claimc-order.txt` (D19 order) have a Claim C record,
+  and the other 798 clean pairs are `not attempted: cut`. The reason is the time budget,
+  a resource reason (D19, D25). Before the final D23 redo, 6 of the 120 are decided, and
+  none fails together.
