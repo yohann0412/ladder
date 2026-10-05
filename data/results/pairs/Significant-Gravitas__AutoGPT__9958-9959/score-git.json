@@ -1,0 +1,198 @@
+{
+  "pair_id": "Significant-Gravitas__AutoGPT__9958-9959",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": true,
+  "intent_drops": [
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailReadBlock.run",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailSendBlock.Input",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailSendBlock.Output",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailSendBlock.__init__",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailSendBlock.run",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailSendBlock._send_email",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailListLabelsBlock.run",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailListLabelsBlock._list_labels",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailAddLabelBlock.Output",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailAddLabelBlock.run",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailAddLabelBlock._add_label",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailAddLabelBlock._get_or_create_label",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailRemoveLabelBlock.Output",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailRemoveLabelBlock.run",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailRemoveLabelBlock._remove_label",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailCreateDraftBlock.Input",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailCreateDraftBlock.Output",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailCreateDraftBlock.__init__",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailCreateDraftBlock.run",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "entity": "GmailCreateDraftBlock._create_draft",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "Input",
+        "Output",
+        "__init__",
+        "_add_label",
+        "_create_draft",
+        "_get_label_id",
+        "_get_or_create_label",
+        "_get_thread",
+        "_list_labels",
+        "_read_emails",
+        "_remove_label",
+        "_reply",
+        "_send_email",
+        "run"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "docs/content/platform/blocks/google/gmail.md",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

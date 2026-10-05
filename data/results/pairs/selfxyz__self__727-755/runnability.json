@@ -1,0 +1,15 @@
+{
+  "pair_id": "selfxyz__self__727-755",
+  "commit": "8801c6c1d793896a778c4b597531bc710995d30c",
+  "language": "node",
+  "package_manager": "yarn",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
