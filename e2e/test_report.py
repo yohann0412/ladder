@@ -129,7 +129,12 @@ def _rewrite_claim_c(fx: Experiment, pair_id: str, **sides: dict[str, Any]) -> N
 def test_report_groups_claim_c_exclusions_and_cut(fx: Experiment, tmp_path: Path) -> None:
     fx.ladder("run", "--all", "--no-llm")
     assert fx.result("fx09", "claim-c")["a"]["status"] == "passed"
-    install_error = {"status": "error", "failing_tests": [], "passed": 0, "failed": 0}
+    install_error: dict[str, Any] = {
+        "status": "error",
+        "failing_tests": [],
+        "passed": 0,
+        "failed": 0,
+    }
     _rewrite_claim_c(
         fx,
         "fx09",
