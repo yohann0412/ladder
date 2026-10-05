@@ -71,3 +71,12 @@ Running log of what was tried, what failed, and what was learned, in order.
   ("Agent type not found"), at user or project level. A general-purpose subagent's
   transcript (tool calls with inputs, token usage, timestamps) is written to disk and
   can be audited after the run. Decision D6.
+
+## 7. Supplementary pool size (feasibility only, no outcomes looked at)
+
+- AIDev v4 `pr_commit_details.parquet` (1,325,541,903 bytes; first download cut off by an
+  HTTP/2 stream reset, resumed with a range request): 1,775,765 rows, file names for
+  69,654 PRs. 48,451 PRs in `pull_request.parquet` are merged.
+- Under the D15 rule, 931 repositories have at least one candidate pair (17,348 candidate
+  pairs in total). Enough to reach 60 conflicting pairs with truth unless the conflict
+  yield at replay heads is below about 7%.
