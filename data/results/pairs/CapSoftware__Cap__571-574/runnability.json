@@ -1,0 +1,36 @@
+{
+  "pair_id": "CapSoftware__Cap__571-574",
+  "commit": "7b7a3f76939c702a6f7bab88ab89f953d32dbc57",
+  "language": "rust",
+  "package_manager": "cargo",
+  "test_runner": "cargo test",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 101 in 2.8 s:     Updating git repository `https://github.com/FabianLars/tauri-plugin-oauth` |     Updating git repository `https://github.com/ahkohd/tauri-nspanel` | error: failed to select a version for the requirement `device_query = \"^3.0.1\"` |   version 3.0.1 is yanked | location searched: crates.io index | required by package `cap-cursor-capture v0.1.0 (/home/user/ladder/work/runtime/CapSoftware__Cap__571-574/trees/base/crates/cursor-capture)`",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "cargo",
+        "test",
+        "--no-run",
+        "--locked"
+      ],
+      "exit_code": 101,
+      "duration_s": 58.8,
+      "detail": "standard, install cap 900 s: install: exit 0 in 16.2 s; build: exit 101 in 42.5 s; output tail:   --- stderr |   pkg-config exited with status code 1 |   > PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags gdk-3.0 gdk-3.0 >= 3.22 |   The system library `gdk-3.0` required by crate `gdk-sys` was not found. |   The file `gdk-3.0.pc` needs to be installed and the PKG_CONFIG_PATH environment variable must contain its parent directory. |   The PKG_CONFIG_PATH environment variable is not set. |   HINT: if you have installed the library, try setting PKG_CONFIG_PATH to the directory containing `gdk-3.0.pc`. | warning: build failed, waiting for other jobs to finish..."
+    },
+    {
+      "command": [
+        "cargo",
+        "update"
+      ],
+      "exit_code": 101,
+      "duration_s": 2.8,
+      "detail": "cargo-update (updated Cargo.lock to the newest compatible versions), install cap 900 s: install: exit 101 in 2.8 s; output tail:     Updating git repository `https://github.com/RustAudio/cpal` |     Updating git repository `https://github.com/yury/cidre` |     Updating git repository `https://github.com/FabianLars/tauri-plugin-oauth` |     Updating git repository `https://github.com/ahkohd/tauri-nspanel` | error: failed to select a version for the requirement `device_query = \"^3.0.1\"` |   version 3.0.1 is yanked | location searched: crates.io index | required by package `cap-cursor-capture v0.1.0 (/home/user/ladder/work/runtime/CapSoftware__Cap__571-574/trees/base/crates/cursor-capture)`"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
