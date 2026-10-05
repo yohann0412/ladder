@@ -85,6 +85,23 @@ def runnability_section(summary: Summary, pairs: list[PairRecords]) -> str:
     )
 
 
+def _counted(count: int, noun: str) -> str:
+    return f"{count} {noun}" if count == 1 else f"{count} {noun}s"
+
+
+def redo_section(summary: Summary) -> str:
+    """Return how many records in how many pairs D23 deleted and ran again."""
+    if summary.d23_redone_pairs == 0:
+        return section("Redone runs (D23)", "No record was redone under D23.")
+    records = summary.d23_replaced_records
+    return section(
+        "Redone runs (D23)",
+        f"Under D23, {_counted(records, 'record')} in "
+        f"{_counted(summary.d23_redone_pairs, 'pair')} whose test runs were stopped by the "
+        f"free-disk floor {'was' if records == 1 else 'were'} deleted and run again once.",
+    )
+
+
 def pairs_section(pairs: list[PairRecords]) -> str:
     """Return one row per attempted pair with its outcome and blocker."""
     headers = [

@@ -14,7 +14,7 @@ from ladder.ladder_metrics import (
     rung_rows,
 )
 from ladder.layout import Layout
-from ladder.schemas import GitRungResult, Rate, ResolverRun, Summary
+from ladder.schemas import GitRungResult, Rate, RedoRecord, ResolverRun, Summary
 from ladder.stats import rate, share
 from ladder.verdicts import verdicts
 
@@ -137,6 +137,13 @@ def runnability_counts(pairs: list[PairRecords]) -> dict[str, int]:
     return sorted_counts(labels)
 
 
+def redo_counts(record: RedoRecord | None) -> tuple[int, int]:
+    """Return the pairs a redo record lists and the record files it deleted; 0, 0 without it."""
+    if record is None:
+        return 0, 0
+    return len(record.pairs), sum(len(pair.records) for pair in record.pairs)
+
+
 def summarise(layout: Layout, collected: Collected, agreements: list[RunAgreement]) -> Summary:
     """Return the Summary of an experiment's records."""
     pairs = collected.pairs
@@ -149,6 +156,7 @@ def summarise(layout: Layout, collected: Collected, agreements: list[RunAgreemen
     attempted = sum(pair.claim_c is not None for pair in pool)
     rates = reconciliation(pairs)
     llm_raw = next((row for row in rows if row.rung == "llm-raw"), None)
+    redone_pairs, replaced_records = redo_counts(collected.redo_d23)
     return Summary(
         pairs_attempted=len(pairs),
         resolve_status=sorted_counts(resolve_status(pair) for pair in pairs),
@@ -171,6 +179,8 @@ def summarise(layout: Layout, collected: Collected, agreements: list[RunAgreemen
         claim_c_not_attempted=len(pool) - attempted,
         claim_c_exclusions=claim_c_exclusions(pool),
         runnability=runnability_counts(pairs),
+        d23_redone_pairs=redone_pairs,
+        d23_replaced_records=replaced_records,
         verdicts=verdicts(
             practical, None if EXCUSED.isdisjoint(causes) else best_case, llm_raw, fails_together
         ),

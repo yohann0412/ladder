@@ -424,6 +424,24 @@ class CalibrationRecord(Record):
     verdicts: list[CalibrationVerdict]
 
 
+# ----------------------------------------------------------------------------- redo
+
+
+class RedoPair(Record):
+    """One pair whose records were deleted and run again under a redo rule."""
+
+    pair_id: str
+    records: list[str]
+    redone_at: datetime
+
+
+class RedoRecord(Record):
+    """The pairs a redo rule ran again, with the record files it deleted for each."""
+
+    rule: str
+    pairs: list[RedoPair]
+
+
 # ----------------------------------------------------------------------------- report
 
 
@@ -475,6 +493,8 @@ class Summary(Record):
     claim_c_not_attempted: int
     claim_c_exclusions: dict[str, int]
     runnability: dict[str, int]
+    d23_redone_pairs: int
+    d23_replaced_records: int
     verdicts: dict[str, str]
 
 

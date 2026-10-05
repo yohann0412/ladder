@@ -14,6 +14,7 @@ from ladder.report_claims import (
 from ladder.report_data import (
     pairs_section,
     reconciliation_section,
+    redo_section,
     runnability_section,
     status_section,
     taxonomy_section,
@@ -71,6 +72,7 @@ def render_report(
         variance_section(summary, agreements),
         claim_c_section(summary, pairs),
         runnability_section(summary, pairs),
+        redo_section(summary),
         sensitivity_section(summary, pairs),
         category_section(summary, pairs),
         calibration_section(collected.calibration),

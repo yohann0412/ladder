@@ -12,6 +12,7 @@ from ladder.schemas import (
     GitRungResult,
     Pair,
     PairSet,
+    RedoRecord,
     ResolverPlan,
     ResolverRun,
     ResolverTask,
@@ -23,6 +24,7 @@ from ladder.schemas import (
 
 RUN_RECORD = re.compile(r"resolver-.+-run-\d+")
 CALIBRATION_FILE = "calibration.json"
+REDO_D23_FILE = "redo-d23.json"
 
 type RunKey = tuple[str, int]
 
@@ -77,10 +79,11 @@ class PairRecords:
 
 @dataclass(frozen=True)
 class Collected:
-    """Every pair's records, the calibration sample, and result directories of unknown pairs."""
+    """Every pair's records, the calibration sample, the D23 redo record, and unknown pairs."""
 
     pairs: list[PairRecords]
     calibration: CalibrationRecord | None
+    redo_d23: RedoRecord | None
     unknown_dirs: list[str]
 
 
@@ -94,6 +97,7 @@ def collect(layout: Layout) -> Collected:
     return Collected(
         pairs=pairs,
         calibration=read_optional(layout.results / CALIBRATION_FILE, CalibrationRecord),
+        redo_d23=read_optional(layout.results / REDO_D23_FILE, RedoRecord),
         unknown_dirs=[name for name in present if name not in known],
     )
 
