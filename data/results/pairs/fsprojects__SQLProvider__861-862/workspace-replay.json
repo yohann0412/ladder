@@ -1,0 +1,23 @@
+{
+  "pair_id": "fsprojects__SQLProvider__861-862",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/fsprojects__SQLProvider__861-862",
+  "source_base": "357204ab84419e06d40139e9fe384dcc0d6e9ec8",
+  "source_a": "3f45987f26a900669954ef5af6272460861eca8c",
+  "source_b": "32f014edd3780dd67d0692f04f61efa298c0a9de",
+  "base_commit": "d6fd6480e8df4703f5f505752517c2abc3cd72f0",
+  "a_commit": "54537f7ee67c0b2590b731f4f821a86b1ce5ff1b",
+  "b_commit": "000d357e39cd12ac3c60ff4e6a5ebc481b30f97c",
+  "object_count": 433,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

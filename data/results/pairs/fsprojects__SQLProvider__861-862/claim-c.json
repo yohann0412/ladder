@@ -1,0 +1,61 @@
+{
+  "pair_id": "fsprojects__SQLProvider__861-862",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: missing_toolchain"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: missing_toolchain"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: missing_toolchain"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: missing_toolchain (csharp project; dotnet is not installed)",
+  "files_a": [
+    "src/SQLProvider.Common/Operators.fs",
+    "src/SQLProvider.Common/SqlRuntime.Async.fs",
+    "src/SQLProvider.Common/SqlRuntime.Common.fs",
+    "src/SQLProvider.Common/SqlRuntime.Transactions.fs",
+    "src/SQLProvider.Common/SqlSchema.fs",
+    "src/SQLProvider.Common/Ssdt.DacpacParser.fs"
+  ],
+  "files_b": [
+    ".paket/Paket.Restore.targets",
+    "src/SQLProvider.Common/SqlRuntime.Common.fs",
+    "src/SQLProvider.Common/Ssdt.DacpacParser.fs",
+    "src/SQLProvider.Common/Utils.fs",
+    "src/SQLProvider.DesignTime/SqlDesignTime.fs",
+    "src/SQLProvider.Runtime/Providers.DuckDb.fs",
+    "src/SQLProvider.Runtime/Providers.MsSqlServer.Dynamic.fs",
+    "src/SQLProvider.Runtime/Providers.MsSqlServer.Ssdt.fs",
+    "src/SQLProvider.Runtime/Providers.MsSqlServer.fs",
+    "src/SQLProvider.Runtime/Providers.MySql.fs"
+  ]
+}

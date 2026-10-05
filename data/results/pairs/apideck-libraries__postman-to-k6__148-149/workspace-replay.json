@@ -1,0 +1,23 @@
+{
+  "pair_id": "apideck-libraries__postman-to-k6__148-149",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/apideck-libraries__postman-to-k6__148-149",
+  "source_base": "28bacfac676f689d4018fb87e96f37bebb3402d6",
+  "source_a": "5dbbd7abacc6ab0747610f168f8bb3e084b38581",
+  "source_b": "1c6118d713b227c1c0ced6cb773494f6d93a90b5",
+  "base_commit": "94fe8e7df7bf81af81823b532e99d70efd36db81",
+  "a_commit": "ee42552c731946982439ee68dfe4839b4a4cd841",
+  "b_commit": "250374bb61d48f730e620904e9701b5aaef726c9",
+  "object_count": 315,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
