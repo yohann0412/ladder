@@ -1,0 +1,42 @@
+{
+  "pair_id": "mendableai__firecrawl-mcp-server__72-73",
+  "commit": "d8e8d281f6cb9f7a8829f5e7ab8a197c085e8041",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": "jest",
+  "status": "runnable",
+  "reason": null,
+  "reason_detail": "",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "npm",
+        "ci"
+      ],
+      "exit_code": 0,
+      "duration_s": 23.4,
+      "detail": "standard, install cap 900 s: install: exit 0 in 16.4 s; suite passed: 6 passed, 0 failed, 0 errors, 0 skipped"
+    }
+  ],
+  "test_count": 6,
+  "base_outcome": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/mendableai__firecrawl-mcp-server__72-73/trees/base/node_modules/.bin/jest",
+      "--ci",
+      "--coverage=false",
+      "--json",
+      "--outputFile=/home/user/ladder/work/runtime/mendableai__firecrawl-mcp-server__72-73/reports/base-attempt-1/run-1.report"
+    ],
+    "passed": 6,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 7.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "6 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "timeout_s": 600
+}
