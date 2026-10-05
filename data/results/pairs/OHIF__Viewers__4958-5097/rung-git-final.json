@@ -1,0 +1,23 @@
+{
+  "pair_id": "OHIF__Viewers__4958-5097",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in extensions/dicom-video/src/getSopClassHandlerModule.js"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "extensions/dicom-video/src/getSopClassHandlerModule.js",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

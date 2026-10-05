@@ -1,0 +1,23 @@
+{
+  "pair_id": "Kaljurand__K6nele__119-120",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Kaljurand__K6nele__119-120",
+  "source_base": "0f16fe09684c371318dc1c41949cd4898802a057",
+  "source_a": "219f9235fcdf3b5033edf1f2e271f4e4526d00e3",
+  "source_b": "b888187994c9b31210c1808e2dc8799dd5aa9be2",
+  "base_commit": "180256c4f1d9a15d8fa7e9e63808f1c17b2b0688",
+  "a_commit": "0834d50cc7e422e24bbf9843f42b37cf482faa08",
+  "b_commit": "2bcbbfb0df51dc046ac47e89f6162a6a848fa211",
+  "object_count": 321,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

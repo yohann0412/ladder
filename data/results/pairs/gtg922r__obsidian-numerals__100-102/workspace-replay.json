@@ -1,0 +1,23 @@
+{
+  "pair_id": "gtg922r__obsidian-numerals__100-102",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/gtg922r__obsidian-numerals__100-102",
+  "source_base": "30f40f4dfe803225b12a561f67c9fb447e584f7c",
+  "source_a": "3046dc5a41bd3bf0226d0ee60c6fa2b9aea1240b",
+  "source_b": "5c14c669b97ace97b912ce7b7270eab4a6c1790a",
+  "base_commit": "6ab0b8b321d750d631f6f99a5336e1adb4da3fd4",
+  "a_commit": "63d5eaa23e7437a0c1769b33a678de536062e336",
+  "b_commit": "00fd338e0e465d1e165421b976b97c0fe55425b5",
+  "object_count": 53,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

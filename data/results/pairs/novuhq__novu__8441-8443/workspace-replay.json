@@ -1,0 +1,23 @@
+{
+  "pair_id": "novuhq__novu__8441-8443",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/novuhq__novu__8441-8443",
+  "source_base": "180a08cf99c943cf36f52e17b5d339262de5a82f",
+  "source_a": "731d0de33026bea7cc73a6acdcd067eef58a5bc7",
+  "source_b": "ce3843425b6d6f8574d29f21e5ae053ddeea9741",
+  "base_commit": "a67b006c4711f3f8ae67c6dea2fbe6c24c72e4d3",
+  "a_commit": "7f0be55a77795586869d15a51de8e52af9c77c5b",
+  "b_commit": "aee3cd8ca55d6bd61dd8d50e22402e587f476953",
+  "object_count": 7956,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

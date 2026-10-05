@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__playwright__36050-36366",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/microsoft__playwright__36050-36366",
+  "source_base": "5efd582814984e1c57990d5732487cbbb995f1b1",
+  "source_a": "569e3d0714117f41190d95f1679a59defea1b2cd",
+  "source_b": "3d5e8e6f1fbff91957fdb76f5abf6b76b730495a",
+  "base_commit": "75d05c548e27d00d5c66ce4dff3ee05f76254ff4",
+  "a_commit": "884a11d2ee0a4bef6a640458084356f83dee379e",
+  "b_commit": "066c424e7ebe059c8e64d44e8d53524cedcabf95",
+  "object_count": 3355,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

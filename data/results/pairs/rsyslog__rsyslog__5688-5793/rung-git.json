@@ -1,0 +1,23 @@
+{
+  "pair_id": "rsyslog__rsyslog__5688-5793",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in plugins/omazureeventhubs/omazureeventhubs.c"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "plugins/omazureeventhubs/omazureeventhubs.c",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

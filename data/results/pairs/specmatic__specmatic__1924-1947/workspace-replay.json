@@ -1,0 +1,23 @@
+{
+  "pair_id": "specmatic__specmatic__1924-1947",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/specmatic__specmatic__1924-1947",
+  "source_base": "4ec6a5d0655cc04a135fa02db335b3750bc0a0a6",
+  "source_a": "f8c5d61ba3e2021d8352d326d541b2a678d8ee7f",
+  "source_b": "a98db0747e1bf723bc834efccf7a3139d334f00f",
+  "base_commit": "4981b959ae91b8b960e14509650986ed2f3d1a8f",
+  "a_commit": "54441bbd074c43060380b9eb00542f267591869a",
+  "b_commit": "925f4b053d16fb9857fc7b9dcc07c09b573bda46",
+  "object_count": 1620,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

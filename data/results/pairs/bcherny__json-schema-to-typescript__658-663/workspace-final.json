@@ -1,0 +1,23 @@
+{
+  "pair_id": "bcherny__json-schema-to-typescript__658-663",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/bcherny__json-schema-to-typescript__658-663",
+  "source_base": "a5834aa990a58b98a02824e1521f27d4235e1e12",
+  "source_a": "4741a93d514edbaca818327587d801e1b419123a",
+  "source_b": "56c6eca33d445818589ce83378623444033df5a0",
+  "base_commit": "260bdc8fb637a9e283614cbfe409c3c83d83ff6a",
+  "a_commit": "1ebeb313e69c2a880188eb29a4a0224163fad769",
+  "b_commit": "3adcdff69ad9734726c02add42d3bad91e198ca5",
+  "object_count": 587,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

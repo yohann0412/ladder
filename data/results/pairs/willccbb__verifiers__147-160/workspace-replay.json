@@ -1,0 +1,23 @@
+{
+  "pair_id": "willccbb__verifiers__147-160",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/willccbb__verifiers__147-160",
+  "source_base": "f9e10da1e3cf033de6d6eefe9fa60ef3a233cb99",
+  "source_a": "0a5ce40fa2cc9ca371cad910b8b88b1692bac17f",
+  "source_b": "8303bbec24f9655e4e9d319d7f0d5070311ea25d",
+  "base_commit": "774c2563bdb90f68b154cbddf68108b45298ae8d",
+  "a_commit": "da50230f531a0b6e0f16e1865b912c5bd101c95a",
+  "b_commit": "4cf2f63b7a3f2635c6158ef0615dca0c269b47e5",
+  "object_count": 311,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

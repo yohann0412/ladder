@@ -1,0 +1,23 @@
+{
+  "pair_id": "skypilot-org__skypilot__5796-6067",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/skypilot-org__skypilot__5796-6067",
+  "source_base": "687edf041d231b7f5003d7bc24c12e3eddd69fae",
+  "source_a": "5ab20340135d47917a581e685b0763a042a220e4",
+  "source_b": "99dcd6f196d98187453583f71a928fc386bfe08b",
+  "base_commit": "740970872efdbcc7f4ba2b8639c9aab9fd46e691",
+  "a_commit": "76ae8dcd809da613e5af4acff37114615576d92d",
+  "b_commit": "4f43620f4e5a77b11818edc45a27c5ba4c769edd",
+  "object_count": 2158,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "go-vikunja__vikunja__945-1154",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/go-vikunja__vikunja__945-1154",
+  "source_base": "719cb11d44985b3fb812ebf50f3a74ce39cece72",
+  "source_a": "4172da6911dd3ef9cee7094837f7c3066dc4a40a",
+  "source_b": "f94fe47f4c4e48851bcef5995881b945e2c8bbbc",
+  "base_commit": "86248f4e1797541c0d3921fd184dd0deaa352d07",
+  "a_commit": "c0ade1e2df8203b88e36effe8c864d475af2080d",
+  "b_commit": "e279737221acb5b7c7cfcffaf61f9403c32de3f9",
+  "object_count": 1712,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

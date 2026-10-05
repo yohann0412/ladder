@@ -1,0 +1,23 @@
+{
+  "pair_id": "RSamaium__CanvasEngine__40-46",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/RSamaium__CanvasEngine__40-46",
+  "source_base": "dfe125472ae9c2ad3641b63d4fc544bb449e09ce",
+  "source_a": "4d09a9692490b07ee460f01e4052c4e64d92a788",
+  "source_b": "d99a9eb775e170ca8cfe426ad736465ac4851715",
+  "base_commit": "f0689be9fb75f9efede8e5a292c797239fb84425",
+  "a_commit": "9fb75d0ebd9ea3b777bedbd900b0b224d71ad3f4",
+  "b_commit": "045d3ed7703dc66f51ce23c76afdd85b7893d399",
+  "object_count": 381,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

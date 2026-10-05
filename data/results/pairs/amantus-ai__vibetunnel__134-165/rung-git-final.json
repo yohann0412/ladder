@@ -1,0 +1,23 @@
+{
+  "pair_id": "amantus-ai__vibetunnel__134-165",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in ios/VibeTunnel/Views/Welcome/WelcomeView.swift"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "ios/VibeTunnel/Views/Welcome/WelcomeView.swift",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

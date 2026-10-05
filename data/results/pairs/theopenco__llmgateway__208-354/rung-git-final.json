@@ -1,0 +1,53 @@
+{
+  "pair_id": "theopenco__llmgateway__208-354",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4",
+  "messages": [
+    "CONFLICT (content): Merge conflict in apps/ui/src/components/provider-keys/create-provider-key-dialog.tsx",
+    "CONFLICT (content): Merge conflict in apps/ui/src/components/provider-keys/provider-keys-list.tsx",
+    "CONFLICT (add/add): Merge conflict in apps/ui/src/components/provider-keys/provider-logo.ts",
+    "CONFLICT (add/add): Merge conflict in apps/ui/src/components/provider-keys/provider-select.tsx"
+  ],
+  "types": [
+    "content",
+    "content",
+    "add/add",
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": "apps/ui/src/components/provider-keys/create-provider-key-dialog.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "apps/ui/src/components/provider-keys/provider-keys-list.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "apps/ui/src/components/provider-keys/provider-logo.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "apps/ui/src/components/provider-keys/provider-select.tsx",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

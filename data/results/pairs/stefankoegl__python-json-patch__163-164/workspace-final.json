@@ -1,0 +1,23 @@
+{
+  "pair_id": "stefankoegl__python-json-patch__163-164",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/stefankoegl__python-json-patch__163-164",
+  "source_base": "d8e1a6e244728c04229d601bc9a384d9b034c603",
+  "source_a": "cde5bf8bc8dd529eab62e680315dbd1bcb3ae31d",
+  "source_b": "40b6c026fa460365fe5fced1aa76100d1931fefb",
+  "base_commit": "7c3b0bc1c62937e08ad0cf6c80123a4b81648539",
+  "a_commit": "c293e143b1704c72e35a05d15e1d53468f04d232",
+  "b_commit": "c02141b64276fd1647f2177d9913ec6cc6636243",
+  "object_count": 39,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

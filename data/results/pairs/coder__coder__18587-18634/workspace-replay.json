@@ -1,0 +1,23 @@
+{
+  "pair_id": "coder__coder__18587-18634",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/coder__coder__18587-18634",
+  "source_base": "5ed0c7abcb4623c27cef04c79eac9c6e98c9e948",
+  "source_a": "fcddd92b1f6c60ecff04483b0c74c5ba84d1ed36",
+  "source_b": "44928e5ebda498c592dc577ba6d60f9add81e434",
+  "base_commit": "a509d211dd190ba08df285042dd1e4559fe1c0c3",
+  "a_commit": "2f1fb299585b1840be7d692f40934602f3bd72d7",
+  "b_commit": "a2231e4f0cdf6576fc95fcbc3461d06d1a2868b8",
+  "object_count": 9942,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

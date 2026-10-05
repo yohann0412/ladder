@@ -1,0 +1,23 @@
+{
+  "pair_id": "shopware__shopware__10496-11072",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/Core/System/Language/LanguageExceptionHandler.php"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/Core/System/Language/LanguageExceptionHandler.php",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

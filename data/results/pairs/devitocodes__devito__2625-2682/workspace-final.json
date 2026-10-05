@@ -1,0 +1,23 @@
+{
+  "pair_id": "devitocodes__devito__2625-2682",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/devitocodes__devito__2625-2682",
+  "source_base": "a4870583d2e851ca78c5a16dd00cf9291ab304e3",
+  "source_a": "567fbec882fb1ce915408dd8d0e3b805f2f84438",
+  "source_b": "41d1482244e264503d5cd3202f0b633959dbf1c3",
+  "base_commit": "663ff2b487de3741c2aae86ba2d74e26a2c7f37d",
+  "a_commit": "f7a8c0b745d92ac24418f3b73f57d1a5847e4915",
+  "b_commit": "d22aa98430f533da942376f6145ab08c5490c65c",
+  "object_count": 485,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

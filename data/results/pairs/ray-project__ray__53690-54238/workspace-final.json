@@ -1,0 +1,23 @@
+{
+  "pair_id": "ray-project__ray__53690-54238",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/ray-project__ray__53690-54238",
+  "source_base": "6f0ce28e8a4a615f1f3762cc9672fa50f20f749e",
+  "source_a": "4e4f54fd294e93c7cad3a15c925eecb1df0926d4",
+  "source_b": "fe029008bef3a6e0c5533bd3922aa657c11d5fa5",
+  "base_commit": "5b7706c595c5d3a9354a039ef1160675cccea976",
+  "a_commit": "c493747b645e1c4fbbc3cc620a486f0b8b3ca69f",
+  "b_commit": "0125bd1081cdaa44b4e02d554291d1b1f05f03ae",
+  "object_count": 11043,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

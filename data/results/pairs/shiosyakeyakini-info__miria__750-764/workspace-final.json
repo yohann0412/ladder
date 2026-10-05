@@ -1,0 +1,23 @@
+{
+  "pair_id": "shiosyakeyakini-info__miria__750-764",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/shiosyakeyakini-info__miria__750-764",
+  "source_base": "b01c83c418528752e4bf6d3656fa1a8c466cb430",
+  "source_a": "f56699d5214139d4e6b535b51bc2fbd275e955d6",
+  "source_b": "b6344e5b52f75c30d515bd4e1025525364c22012",
+  "base_commit": "b98634c706536116148c483c4a1baebb049bda57",
+  "a_commit": "49a42e401ab1363a0edc616fa684becad182a8ac",
+  "b_commit": "c406febb1b72ccbbaf0a6dc04b96fb8ca0f651c6",
+  "object_count": 1305,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

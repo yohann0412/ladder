@@ -1,0 +1,23 @@
+{
+  "pair_id": "gensx-inc__gensx__736-766",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in website/home/app/page.tsx"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "website/home/app/page.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

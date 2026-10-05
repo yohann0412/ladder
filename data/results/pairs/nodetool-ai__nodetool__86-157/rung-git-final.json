@@ -1,0 +1,33 @@
+{
+  "pair_id": "nodetool-ai__nodetool__86-157",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2",
+  "messages": [
+    "CONFLICT (content): Merge conflict in .github/workflows/test.yml",
+    "CONFLICT (content): Merge conflict in web/jest.config.ts"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/test.yml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "web/jest.config.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

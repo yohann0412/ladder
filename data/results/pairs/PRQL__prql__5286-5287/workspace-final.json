@@ -1,0 +1,23 @@
+{
+  "pair_id": "PRQL__prql__5286-5287",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/PRQL__prql__5286-5287",
+  "source_base": "8fe9f03c72df79b7ce021303999efdf0a15d86e3",
+  "source_a": "a625081881d53f3af75ae17fb0cd82ed0f16c938",
+  "source_b": "b48afed955913c3f61aa1040b9dd95186db41449",
+  "base_commit": "d3e78db01fdcb9b8dfc33ac4ec54b73f5d26cd39",
+  "a_commit": "20568dc1b4024f1b48b329c3a7a38d753f011401",
+  "b_commit": "dd16b489b742f0ad764730f38a4455555e71595c",
+  "object_count": 1064,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

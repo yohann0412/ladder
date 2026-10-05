@@ -1,0 +1,43 @@
+{
+  "pair_id": "openfga__openfga__2563-2565",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3",
+  "messages": [
+    "CONFLICT (content): Merge conflict in cmd/migrate/flags.go",
+    "CONFLICT (content): Merge conflict in cmd/migrate/migrate.go",
+    "CONFLICT (content): Merge conflict in pkg/storage/migrate/migrate.go"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "cmd/migrate/flags.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "cmd/migrate/migrate.go",
+      "types": [
+        "content"
+      ],
+      "regions": 5,
+      "category": "source"
+    },
+    {
+      "path": "pkg/storage/migrate/migrate.go",
+      "types": [
+        "content"
+      ],
+      "regions": 7,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "vercel__vercel__13444-13578",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/vercel__vercel__13444-13578",
+  "source_base": "44e92f7d0d3883c7bff0f91eb116b76ba58f694f",
+  "source_a": "06961f6b0307726be19d00023c5a6be263508cb9",
+  "source_b": "76d6ac10a15cd85644b36898691b3d71f3e1e683",
+  "base_commit": "b5e5820f456e98a2860c6b50c05ae3966dc42f40",
+  "a_commit": "573eb2e4fe38434d2d304c391ea7a77b33469b99",
+  "b_commit": "80d103be4f80b8db47f32dc2f4ea8900f35d7049",
+  "object_count": 9643,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

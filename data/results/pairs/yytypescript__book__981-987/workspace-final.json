@@ -1,0 +1,23 @@
+{
+  "pair_id": "yytypescript__book__981-987",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/yytypescript__book__981-987",
+  "source_base": "f8e2f47774316978144c8082cc0cb7cc515de8f6",
+  "source_a": "b5061cf1d6e4dd6a5c0e9c085f9c6df449373c3d",
+  "source_b": "a22aefd52572534be14ea8edc5f0db9e55119ed0",
+  "base_commit": "ba4bc233aa580db78331243230ef65a7c1b09d65",
+  "a_commit": "ecfbef59e6c7686fea3d5e1beb91cb921dd0998f",
+  "b_commit": "29153df06f99f82cc67c1744da7a9e4411f752e6",
+  "object_count": 538,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

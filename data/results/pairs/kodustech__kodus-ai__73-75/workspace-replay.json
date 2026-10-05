@@ -1,0 +1,23 @@
+{
+  "pair_id": "kodustech__kodus-ai__73-75",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/kodustech__kodus-ai__73-75",
+  "source_base": "0c95796d2f2b1a4330a2cfcfb8bc7157a2885258",
+  "source_a": "e1813bcd6601fe17f02c06414b00b02ab68282f7",
+  "source_b": "7da3f5fa99d28a8e4d43374b89136cedfe270cf0",
+  "base_commit": "83fa11a50fc7dbfeffccd1c594f4550d36fe56d1",
+  "a_commit": "1fc6048cd9abe0c0821e85cba49f58991e69af19",
+  "b_commit": "67ffc7bcb7a143c2c2c9a5c559201840e649b258",
+  "object_count": 2018,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

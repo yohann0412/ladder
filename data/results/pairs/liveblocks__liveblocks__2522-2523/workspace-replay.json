@@ -1,0 +1,23 @@
+{
+  "pair_id": "liveblocks__liveblocks__2522-2523",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/liveblocks__liveblocks__2522-2523",
+  "source_base": "e934a66fe96ff568f05304e58dec73ae388cc782",
+  "source_a": "250a8e9a0347e67323a035e9b28144ce91cba44a",
+  "source_b": "c63c39d6dc72942a65832746b5a5fa1c9e038de4",
+  "base_commit": "d50bf123563ff74bff3819691fdd14a96a927863",
+  "a_commit": "abfa2fa40b8965f2d38424a593e732fdb2667e4a",
+  "b_commit": "3ae74c42a53a99712c413f6afd35cc5d0484d922",
+  "object_count": 3931,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

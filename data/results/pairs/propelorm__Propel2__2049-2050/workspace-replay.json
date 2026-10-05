@@ -1,0 +1,23 @@
+{
+  "pair_id": "propelorm__Propel2__2049-2050",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/propelorm__Propel2__2049-2050",
+  "source_base": "353266c958b165fecb25eea336658e969cc1e6a7",
+  "source_a": "0219401af9d5e562e3439bb0f28cd9f4b8b35020",
+  "source_b": "814eefb2843d234a7c7d1a823c04f711c80603c9",
+  "base_commit": "0a1f3efbc54f270319800347442018071bf1673e",
+  "a_commit": "952aefe907637277a454ee4c26abf95c8945b475",
+  "b_commit": "cef0bce4633ee73ce54a0aa1054fecebff2a2abc",
+  "object_count": 1020,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

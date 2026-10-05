@@ -1,0 +1,23 @@
+{
+  "pair_id": "aavetis__PRarena__20-36",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in docs/index.html"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "docs/index.html",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    }
+  ],
+  "merged_tree": null
+}

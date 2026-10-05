@@ -1,0 +1,23 @@
+{
+  "pair_id": "sakaiproject__sakai__13751-13874",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/sakaiproject__sakai__13751-13874",
+  "source_base": "1fe64d4120aa97c1db162dd95a636ed35e9e4d44",
+  "source_a": "9a434bc9f89464d30b14304a9ea84498c827d37e",
+  "source_b": "956a4183f17d4a2a09b2a7a088de4f0ccfcd0f91",
+  "base_commit": "bc0aa840498ee4681d9d3f75c0d4e5022a49360a",
+  "a_commit": "52f799fef66ea6fd980161eb4034c12498d4e153",
+  "b_commit": "9f2892893763fd24c31e5c9ca1f00be35216372f",
+  "object_count": 25500,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

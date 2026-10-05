@@ -1,0 +1,23 @@
+{
+  "pair_id": "superfly__flyctl__4456-4463",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in internal/appconfig/config.go"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "internal/appconfig/config.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

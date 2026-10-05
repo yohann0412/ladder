@@ -1,0 +1,23 @@
+{
+  "pair_id": "acoyfellow__UserDO__16-18",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/acoyfellow__UserDO__16-18",
+  "source_base": "169db2191534df1adc0480ecbf6bf1de429f3f09",
+  "source_a": "9fd9f06249ee39d728ba739055bab8518ed294c0",
+  "source_b": "94324a776920941ccbdeae00ddc1ae35751dc8aa",
+  "base_commit": "b2c1e799aad9b56413e474477e233dba07d98a22",
+  "a_commit": "3f9bb0c97e6fd748c2232a668feb7543e4677a12",
+  "b_commit": "120a5976a3978a6f11502bef7ee8899f68154de2",
+  "object_count": 138,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

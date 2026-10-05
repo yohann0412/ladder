@@ -1,0 +1,23 @@
+{
+  "pair_id": "codegen-sh__codegen__1164-1168",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/codegen-sh__codegen__1164-1168",
+  "source_base": "d31e69a97c15b61ec72a52c68396e675c0ffe230",
+  "source_a": "839b62a19ec8ef78a1bc5150ef456b310368f679",
+  "source_b": "8308c69ee551488d73e664923f25aed340c27f4f",
+  "base_commit": "7f0f3bf9021d9988bf7984479c0707371c09a130",
+  "a_commit": "e0ddfd75645bd566633297ff49027ea452913a5b",
+  "b_commit": "1c9ad0a3319c2a811fc43cb496905fff07848598",
+  "object_count": 603,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

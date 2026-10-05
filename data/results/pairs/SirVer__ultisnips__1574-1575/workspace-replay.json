@@ -1,0 +1,23 @@
+{
+  "pair_id": "SirVer__ultisnips__1574-1575",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/SirVer__ultisnips__1574-1575",
+  "source_base": "dbc458e110bb49299da76ec53f8b09b4f6dce28a",
+  "source_a": "6e43edea7acfb05bcb699d244c50f462dae78c95",
+  "source_b": "93821de641edd436d86bf28fadfdbb215f53eb19",
+  "base_commit": "5a239c403566f3d12ff1744d2f382cd0e22fc9a0",
+  "a_commit": "993405ae876f405e64ba2cf12dae6b3dadbaaf01",
+  "b_commit": "a96a83a8ea980b2e1d2887a6f656e4916f92d90b",
+  "object_count": 183,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

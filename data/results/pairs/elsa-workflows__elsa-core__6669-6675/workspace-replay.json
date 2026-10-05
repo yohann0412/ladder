@@ -1,0 +1,23 @@
+{
+  "pair_id": "elsa-workflows__elsa-core__6669-6675",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/elsa-workflows__elsa-core__6669-6675",
+  "source_base": "f4ad11eb0fe7098c4d47d4a208dd26ac80ecb45d",
+  "source_a": "5df1b1d16bea11a4c94daccf65ab622b09aa3a39",
+  "source_b": "59b574dfa2001b2b7b0d647fd248bd117a8e2fa4",
+  "base_commit": "5aabaee160fa17f76972af9e07ec74b705a87fc6",
+  "a_commit": "558c369b9220897504879144c2972ca222707cc6",
+  "b_commit": "064315cd4e9836312e3b3cf734342e5cd5c7441e",
+  "object_count": 5347,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "pair_id": "elsa-workflows__elsa-studio__521-526",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 6, conflicted files: 6",
+  "messages": [
+    "CONFLICT (content): Merge conflict in Directory.Build.props",
+    "CONFLICT (content): Merge conflict in Directory.Packages.props",
+    "CONFLICT (modify/delete): src/modules/Elsa.Studio.Agents/Elsa.Studio.Agents.csproj deleted in a and modified in b.  Version b of src/modules/Elsa.Studio.Agents/Elsa.Studio.Agents.csproj left in tree.",
+    "CONFLICT (content): Merge conflict in src/modules/Elsa.Studio.Workflows/Components/WorkflowDefinitionEditor/Components/ActivityProperties/Tabs/LogPersistenceTab.razor",
+    "CONFLICT (content): Merge conflict in src/modules/Elsa.Studio.Workflows/Components/WorkflowDefinitionEditor/Components/WorkflowProperties/Tabs/Properties/Sections/Settings/Settings.razor",
+    "CONFLICT (content): Merge conflict in src/modules/Elsa.Studio.Workflows/Components/WorkflowInstanceList/WorkflowInstanceList.razor.cs"
+  ],
+  "types": [
+    "content",
+    "content",
+    "modify/delete",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "Directory.Build.props",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "Directory.Packages.props",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "src/modules/Elsa.Studio.Agents/Elsa.Studio.Agents.csproj",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "src/modules/Elsa.Studio.Workflows/Components/WorkflowDefinitionEditor/Components/ActivityProperties/Tabs/LogPersistenceTab.razor",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "other"
+    },
+    {
+      "path": "src/modules/Elsa.Studio.Workflows/Components/WorkflowDefinitionEditor/Components/WorkflowProperties/Tabs/Properties/Sections/Settings/Settings.razor",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "other"
+    },
+    {
+      "path": "src/modules/Elsa.Studio.Workflows/Components/WorkflowInstanceList/WorkflowInstanceList.razor.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

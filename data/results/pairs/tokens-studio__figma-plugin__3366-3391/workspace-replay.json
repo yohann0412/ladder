@@ -1,0 +1,23 @@
+{
+  "pair_id": "tokens-studio__figma-plugin__3366-3391",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/tokens-studio__figma-plugin__3366-3391",
+  "source_base": "8a2824d968d276ab0323cf2d5c9b19149f85f29c",
+  "source_a": "8b24f4f3cf6e0381b02b745d16f7ffb3d4e14411",
+  "source_b": "76dd64a6a27a820d3fbc2c10f5bb687b4f1aa171",
+  "base_commit": "09c268bbe1c9eab7c61f9a18f104b2e5bf8abd8a",
+  "a_commit": "2d3dc6bab173f0712d62a89b70a9d2cf9a04127e",
+  "b_commit": "7db609e608a715f897c05d6b451ba5cd162627ed",
+  "object_count": 1969,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

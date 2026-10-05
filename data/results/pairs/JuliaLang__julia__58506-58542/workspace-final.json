@@ -1,0 +1,23 @@
+{
+  "pair_id": "JuliaLang__julia__58506-58542",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/JuliaLang__julia__58506-58542",
+  "source_base": "2bd37fbbabec8aa178cb32ef6f89b0fef973be2b",
+  "source_a": "6fa002d99e2a2986d1343383e0ecb130fff6b608",
+  "source_b": "b1bc152d48a8d82ea75c7a96cbd90c6fcddb6149",
+  "base_commit": "f31c8442dba1da047b9f0866d13fdfc143db0528",
+  "a_commit": "d1fd660f12bad89fb9475a1ab9f3ab081f365833",
+  "b_commit": "f660e68efa613e0e5c56c179a43e2aaba16c6f00",
+  "object_count": 2177,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

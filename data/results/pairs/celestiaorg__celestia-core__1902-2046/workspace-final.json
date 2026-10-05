@@ -1,0 +1,23 @@
+{
+  "pair_id": "celestiaorg__celestia-core__1902-2046",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/celestiaorg__celestia-core__1902-2046",
+  "source_base": "2d7d1ea17b5dbfa01743b59fcf9b53821b387cf4",
+  "source_a": "2c727f9985c3b7fe49f48dfbc82a8d2416262130",
+  "source_b": "293d772a5543c51a500391d5e1e1be24b44a6be3",
+  "base_commit": "1b6f650a01d3b63c78bd4c445b4841062ec0f56a",
+  "a_commit": "77aa4342bfc3b088615e6e3d2b6a0980856c7452",
+  "b_commit": "45bb72b568092ec4773e870de178219befc35eb2",
+  "object_count": 1999,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

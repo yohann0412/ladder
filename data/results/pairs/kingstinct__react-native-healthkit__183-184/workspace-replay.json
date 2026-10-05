@@ -1,0 +1,23 @@
+{
+  "pair_id": "kingstinct__react-native-healthkit__183-184",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/kingstinct__react-native-healthkit__183-184",
+  "source_base": "4aed3031d5089670462e0d588a411518bfd8cb6b",
+  "source_a": "9dcb61d8254cda4f4f55c396358be8b09bfeebee",
+  "source_b": "d821d45e9eac788dce8bbbc39a0afd54e0679b97",
+  "base_commit": "7512fd16bebbcd96f1ca105b523a02ed510a07f1",
+  "a_commit": "887ebf868cf91a2c732a692ded4c6f3557f5b625",
+  "b_commit": "d29c587861442fa9c711e7123dd372550d26eabd",
+  "object_count": 228,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

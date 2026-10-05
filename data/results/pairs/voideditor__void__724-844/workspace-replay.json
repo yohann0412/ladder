@@ -1,0 +1,23 @@
+{
+  "pair_id": "voideditor__void__724-844",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/voideditor__void__724-844",
+  "source_base": "bf062146c93fc98f0d19cad53528d012a652ffce",
+  "source_a": "f490953df3f3e49961b12676193872cca8346d03",
+  "source_b": "b6be6e8d1da58b64746ad91b3f35de37136479b3",
+  "base_commit": "a0479b52c70644acb75dcffcfea90482cc47bd24",
+  "a_commit": "93cf99afe2f9c87f23d03c40d093a3ab1622f9a5",
+  "b_commit": "413f2626648bf64b03f1262de4a304b79d920b37",
+  "object_count": 10458,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "Rello__analytics__517-518",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Rello__analytics__517-518",
+  "source_base": "c35fd2200b1fa5466f633281ff0640b067ef0d15",
+  "source_a": "b616d47070c9e66d4e24bf707ae8d1f8d17e672d",
+  "source_b": "e820fa45ac1a58c4f590498a609a48813e9fe4be",
+  "base_commit": "7732cffcd11492b214697f2720999d2510c6cc06",
+  "a_commit": "f1a2669d4c93d46220ab4ce868f11a3fc43b87d1",
+  "b_commit": "a5756febf61aae6ef1a455321ec575b5c87f4121",
+  "object_count": 1253,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "pair_id": "theopenco__llmgateway__208-354",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3",
+  "messages": [
+    "CONFLICT (content): Merge conflict in apps/ui/src/routes/signup.tsx",
+    "CONFLICT (content): Merge conflict in packages/auth/src/auth.ts",
+    "CONFLICT (content): Merge conflict in pnpm-lock.yaml"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "apps/ui/src/routes/signup.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "packages/auth/src/auth.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "types": [
+        "content"
+      ],
+      "regions": 8,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

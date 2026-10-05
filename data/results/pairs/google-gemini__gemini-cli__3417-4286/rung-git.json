@@ -1,0 +1,23 @@
+{
+  "pair_id": "google-gemini__gemini-cli__3417-4286",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in packages/cli/src/config/config.ts"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "packages/cli/src/config/config.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

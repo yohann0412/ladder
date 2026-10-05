@@ -1,0 +1,23 @@
+{
+  "pair_id": "pytorch__pytorch__155658-157447",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/pytorch__pytorch__155658-157447",
+  "source_base": "c8d39a10457ea5d65184c6e8f037f46c5525d869",
+  "source_a": "a610f7b83e64851199d6fd47eb4518d1c13fa6b9",
+  "source_b": "1fa80914f6e0284abe2eda4ad7e2bdcc6666e150",
+  "base_commit": "c802a02a19bcce693f200495fad4474f2d362235",
+  "a_commit": "e7e3439510cb7552c906f4cd9262fe0002a5db92",
+  "b_commit": "9fd117ed490b2d2cb120b59270e3c4c3b4594a8c",
+  "object_count": 14394,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

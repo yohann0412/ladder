@@ -1,0 +1,23 @@
+{
+  "pair_id": "oven-sh__bun__19743-20217",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/oven-sh__bun__19743-20217",
+  "source_base": "2c5e9e5532391616a513c46f6401d36027676718",
+  "source_a": "f543a91a394ad63c3e12f5426245b2032788fad3",
+  "source_b": "9a1e0754ef8e4e930ddc9b6d5e765010402c96de",
+  "base_commit": "43c84712cead7d23f771f76aa53c17d7c9c8a6d5",
+  "a_commit": "928e6a1518a3e44c9583d73823cc39d974946719",
+  "b_commit": "b1b120569534474931cfc8a71c9603f03652489c",
+  "object_count": 12484,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "odigos-io__odigos__2962-3049",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/odigos-io__odigos__2962-3049",
+  "source_base": "816e76a81b9cd4efad3a98df339c74b59440cf01",
+  "source_a": "82039f51da61fa0ad2a4b6f675c65f4ddabbcce1",
+  "source_b": "d3ed10981b00a8e5e914cecdb53ea666b844a851",
+  "base_commit": "2b4bdae28a2fcada604cf3c06c64a6a73a725098",
+  "a_commit": "df33a89c74583b745adbea33c6957ccaf59048aa",
+  "b_commit": "d478b25b0bc24eea6bc345c35cc60bcfe4a5f2e8",
+  "object_count": 2770,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

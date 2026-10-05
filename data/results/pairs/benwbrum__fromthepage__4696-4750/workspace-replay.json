@@ -1,0 +1,23 @@
+{
+  "pair_id": "benwbrum__fromthepage__4696-4750",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/benwbrum__fromthepage__4696-4750",
+  "source_base": "f1bdb3e7d8dc3d08513f4c805655983661cd4aa9",
+  "source_a": "4d961196f6cf4175ef6abdde22b74bb3fe8ff1e6",
+  "source_b": "addd097176ff33026e1fb6367e8d872008e01912",
+  "base_commit": "9edb4ef78c932a0f9395b5c27e56d13e1e9306d3",
+  "a_commit": "2f5b4cf0d5c807ed679992affb2a86daa52eee8f",
+  "b_commit": "1ffaf0a449ba70f55064504fdb2d945cddc544c9",
+  "object_count": 2666,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

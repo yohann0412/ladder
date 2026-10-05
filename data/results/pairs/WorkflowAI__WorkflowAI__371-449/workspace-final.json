@@ -1,0 +1,23 @@
+{
+  "pair_id": "WorkflowAI__WorkflowAI__371-449",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/WorkflowAI__WorkflowAI__371-449",
+  "source_base": "9b931e652fe6c2abe5c50d517f57c572b5a8489b",
+  "source_a": "d75d95a653fa478fdc1d3e3f170f3d9704935d25",
+  "source_b": "014670678857218a6457f43a71bd608ea90b5be1",
+  "base_commit": "a5dc5882ed004c37c1c126eb0390f31f7e7a3482",
+  "a_commit": "e537cf0dbdb9add1299a5bdfe2a679ae5407b6c6",
+  "b_commit": "21ed05c91b406f0f9c87943c32a769714176e8f0",
+  "object_count": 2882,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

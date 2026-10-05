@@ -1,0 +1,23 @@
+{
+  "pair_id": "MCPJam__inspector__190-191",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/MCPJam__inspector__190-191",
+  "source_base": "a376e0953d5cb488aaa2d746cdf062569074a1d0",
+  "source_a": "c1e3f4dbbaeea1cfd7823d94c73b09c5511d96da",
+  "source_b": "15b5472d59f3c2c4efba73409b7315da15533212",
+  "base_commit": "c9cf75216ec98b3a95b5deaa8d4e8b0b015f75cd",
+  "a_commit": "7523fd3dbfcf8589aa3f1cb93c3f079b514f858a",
+  "b_commit": "e04310a5325af79473fb1d332a00f6e9a1d278ff",
+  "object_count": 264,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "rsyslog__rsyslog__5688-5793",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/rsyslog__rsyslog__5688-5793",
+  "source_base": "0a5109953932dc924f17417e478af448612427b3",
+  "source_a": "f4541bc90c67e139f1605601731eaa999a79faa7",
+  "source_b": "8df341f97e5b07a177c3fe9a102280c4b718b5ba",
+  "base_commit": "dc0cdece8a121519a1952491c162d88341a79fdd",
+  "a_commit": "855789589caf5152a4d1c616384ca364cf844fd8",
+  "b_commit": "759615a124296a1e5f70e8e7ed322a770bbd8b75",
+  "object_count": 3264,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "ElectNewt__Distribt__44-48",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/ElectNewt__Distribt__44-48",
+  "source_base": "705cbf93b5edcc5bd7abd4a4841144542751cfee",
+  "source_a": "220b405a7656ed90cc60852cfe320761af0284a5",
+  "source_b": "e4b89ecf8c60ba9d5404bb24a23a9668200cc0b9",
+  "base_commit": "b7cfff4634b8311980dda753f342e8e8b950ffc6",
+  "a_commit": "b49c2dfb488fa9a94ff38032a81108fdaae9aa07",
+  "b_commit": "7ef6953696cd2c4a5a9d90608aeb66e8307b48c5",
+  "object_count": 373,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

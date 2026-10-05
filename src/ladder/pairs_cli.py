@@ -1,21 +1,27 @@
-"""The `ladder pairs` commands: fetch the pair sources and load pairs into pairs.json."""
+"""The `ladder pairs` commands: fetch the pair sources, load pairs, resolve their commits."""
 
 from pathlib import Path
 from typing import Annotated
 
 import typer
 from rich.console import Console
+from rich.progress import Progress
 
 from ladder.context import layout_from
 from ladder.extracts import AIDEV_PRS, AidevPr, read_rows
-from ladder.jsonio import write_record
+from ladder.jsonio import read_record, write_record
 from ladder.pairload import pairs_from_fixture, pairs_from_source
 from ladder.pairs_view import render_fetch, render_fixture, render_summary
+from ladder.pairselect import UnknownPairError, select_pairs
 from ladder.pairsummary import summarise
+from ladder.resolve import resolve_pairs, with_refs
+from ladder.resolve_view import render_resolve
+from ladder.schemas import PairRefs, PairSet
 from ladder.sources import fetch_sources
 
 app = typer.Typer(
-    help="Fetch the pair sources and load pairs into pairs.json.", no_args_is_help=True
+    help="Fetch the pair sources, load pairs into pairs.json and resolve their commits.",
+    no_args_is_help=True,
 )
 
 
@@ -61,3 +67,39 @@ def load(
         render_fixture(console, pair_set, target)
     else:
         raise typer.BadParameter("pass exactly one of --source and --fixture")
+
+
+@app.command()
+def resolve(
+    ctx: typer.Context,
+    all_pairs: Annotated[bool, typer.Option("--all", help="Resolve every pair.")] = False,
+    pair: Annotated[
+        list[str] | None, typer.Option("--pair", help="Pair id to resolve; repeatable.")
+    ] = None,
+    jobs: Annotated[int, typer.Option(min=1, help="Repositories resolved in parallel.")] = 4,
+    refresh: Annotated[
+        bool, typer.Option("--refresh", help="Also re-fetch the branches of cached clones.")
+    ] = False,
+) -> None:
+    """Fetch both PR heads of each pair and record heads, bases, merge and truth commits."""
+    layout = layout_from(ctx)
+    pair_set = read_record(layout.pairs_file, PairSet)
+    if all_pairs == bool(pair):
+        raise typer.BadParameter("pass either --all or at least one --pair")
+    try:
+        selected = pair_set.pairs if all_pairs else select_pairs(pair_set, pair or [])
+    except UnknownPairError as error:
+        raise typer.BadParameter(str(error)) from error
+    results: dict[str, PairRefs] = {}
+    with Progress(console=Console(stderr=True), transient=True) as progress:
+        task = progress.add_task("resolving pairs", total=len(selected))
+
+        def done(pair_id: str, refs: PairRefs) -> None:
+            results[pair_id] = refs
+            progress.advance(task)
+
+        try:
+            resolve_pairs(layout, selected, jobs=jobs, refresh=refresh, done=done)
+        finally:
+            write_record(layout.pairs_file, with_refs(pair_set, results))
+    render_resolve(Console(), [results[pair.pair_id] for pair in selected])

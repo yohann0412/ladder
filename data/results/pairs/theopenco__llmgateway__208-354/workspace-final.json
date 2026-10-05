@@ -1,0 +1,23 @@
+{
+  "pair_id": "theopenco__llmgateway__208-354",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/theopenco__llmgateway__208-354",
+  "source_base": "37d2c2340b89ae5517d0c8277bbb1a64ea2c0f0c",
+  "source_a": "b6b6831a2d9c634eeb514740f6efeaa44ae2043f",
+  "source_b": "3964b9fc7905227ca656a8e7c2d932a15e7664e1",
+  "base_commit": "83e2c148d61f323c81b40133ff2aa83cae7c7c6a",
+  "a_commit": "73aa2fb65ca6a5e652961e6e5f9682a5fbcee8fd",
+  "b_commit": "7dca941f46f12970cb93b99980d21cb64a152628",
+  "object_count": 762,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

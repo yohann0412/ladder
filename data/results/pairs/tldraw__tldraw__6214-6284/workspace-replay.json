@@ -1,0 +1,23 @@
+{
+  "pair_id": "tldraw__tldraw__6214-6284",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/tldraw__tldraw__6214-6284",
+  "source_base": "2465f32acca232c06382172d93bfe81cbaebbd7c",
+  "source_a": "a7cd3b9d6e8d0568169aa1264ddb4da89d10404c",
+  "source_b": "9a83e195e79c28047a25da7b870aab15d18b6556",
+  "base_commit": "7a26143b290e7b53dbfb873f3551ea323b7bbcb6",
+  "a_commit": "a74b6ea62d92a2b150fda128a04410d64daecf6b",
+  "b_commit": "cddfe3cdbecd58dfbb2f34fb35d4e7bda178a998",
+  "object_count": 4136,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

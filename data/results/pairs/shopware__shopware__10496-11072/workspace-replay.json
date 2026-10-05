@@ -1,0 +1,23 @@
+{
+  "pair_id": "shopware__shopware__10496-11072",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/shopware__shopware__10496-11072",
+  "source_base": "c6efcfe498b23900d3a66fa20bd64be20bf64255",
+  "source_a": "6246dbbaeb85ce2ffe7c8e1fe4c779a25c787a57",
+  "source_b": "53576e1062824b49de4dff0b53854060f479b9f2",
+  "base_commit": "539bde7c8dea48c8f70aaa47b2ea1051d896180c",
+  "a_commit": "466e6e349d1ff983a252d6700145fc9c866ffb5a",
+  "b_commit": "d4681235fb7c940d800fa1eaf4c24e339f358094",
+  "object_count": 30738,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "amantus-ai__vibetunnel__134-165",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/amantus-ai__vibetunnel__134-165",
+  "source_base": "68ce36828a35223acf680471f4bc9c368eefd206",
+  "source_a": "e4a7e278ca68c183d05e2391512399a4355a6997",
+  "source_b": "1e8a676549d864674f9649f851d8caf4d6a5728a",
+  "base_commit": "0c9c9b7b0961a4308fda4331d3e7a1672d5e4c06",
+  "a_commit": "8c204c4ef65ed45e0cff7ac0e033ca29fa082941",
+  "b_commit": "b92c514f0fb9319468fefeea4a7fcb4fe6333c57",
+  "object_count": 1332,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

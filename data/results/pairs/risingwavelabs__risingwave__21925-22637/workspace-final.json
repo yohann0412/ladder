@@ -1,0 +1,23 @@
+{
+  "pair_id": "risingwavelabs__risingwave__21925-22637",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/risingwavelabs__risingwave__21925-22637",
+  "source_base": "95d7e237ed7e51024c330755a1d90aa65838dc39",
+  "source_a": "e72dbfa699b09c89562e7d9ad31d13e834545002",
+  "source_b": "c0539736b51ce4fca8899831b5df10b69ff72eaf",
+  "base_commit": "ee29d30cf013f314f65fb4fe8f5a0d0184d9ad2c",
+  "a_commit": "e9ea4bd6e79aaf9374d08d333c1598ae58a40745",
+  "b_commit": "cc71fa1a4ce5df51c6b171abbac552329221856b",
+  "object_count": 8181,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
