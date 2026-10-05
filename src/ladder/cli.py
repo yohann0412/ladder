@@ -6,6 +6,7 @@ from typing import Annotated
 import typer
 
 from ladder.layout import Layout
+from ladder.syntax_cli import app as syntax_app
 
 app = typer.Typer(
     help="Measure how far up the git -> structural -> LLM ladder agent PR conflicts climb.",
@@ -29,3 +30,6 @@ def main(
 ) -> None:
     """Store the experiment layout for the subcommands."""
     ctx.obj = Layout(pairs_file=pairs, work=work, results=results)
+
+
+app.add_typer(syntax_app)
