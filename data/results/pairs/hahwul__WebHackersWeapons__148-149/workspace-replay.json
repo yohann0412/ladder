@@ -1,0 +1,23 @@
+{
+  "pair_id": "hahwul__WebHackersWeapons__148-149",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/hahwul__WebHackersWeapons__148-149",
+  "source_base": "d10322995c63b3d62137b15890de1115ceca294b",
+  "source_a": "d9070eb8357fd8c7de8255975ef72133e2a9951c",
+  "source_b": "794b2aa9dce885a46ec66c31ea16a17433654b41",
+  "base_commit": "32315baffe99a18814c035a7f852dbbaa67bab1b",
+  "a_commit": "c54a24ab939dcd17de437051fabb53b8b61de19f",
+  "b_commit": "5524a08254842c78f5c23aedca43c145694a5205",
+  "object_count": 569,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

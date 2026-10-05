@@ -1,0 +1,15 @@
+{
+  "pair_id": "Z3Prover__z3__7961-7966",
+  "commit": "c8bdbd2dc4808bce28a075791a098808fc4758a2",
+  "language": "cpp",
+  "package_manager": "cmake",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "cpp project; no adapter for cpp (cmake is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

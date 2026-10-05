@@ -1,0 +1,15 @@
+{
+  "pair_id": "hahwul__WebHackersWeapons__148-149",
+  "commit": "d10322995c63b3d62137b15890de1115ceca294b",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

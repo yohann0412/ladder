@@ -1,0 +1,23 @@
+{
+  "pair_id": "Z3Prover__z3__7961-7966",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Z3Prover__z3__7961-7966",
+  "source_base": "c8bdbd2dc4808bce28a075791a098808fc4758a2",
+  "source_a": "b53896f6b35cf2df8ea030f2ec4e3ddb95cf2bc5",
+  "source_b": "6406265800c1946717a0f032782c106d5ba8552f",
+  "base_commit": "ec764a5e9ab0fff0213092bdf6624a8606567db3",
+  "a_commit": "674d367232833a3f04420624b9ce9e5ecd9d51f7",
+  "b_commit": "46198d200148a371d9a16d625026d962c7461d25",
+  "object_count": 2796,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
