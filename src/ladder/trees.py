@@ -20,14 +20,20 @@ class MergeMismatch(RuntimeError):
 
 
 def find_workspace(layout: Layout, pair_id: str, heads: HeadsKind | None = None) -> WorkspaceRecord:
-    """Return a pair's workspace record: the given heads, else replay, else final."""
+    """Return a pair's existing workspace record: the given heads, else replay, else final."""
     for kind in (heads,) if heads else WORKSPACE_PREFERENCE:
         record = read_optional(layout.result_file(pair_id, f"workspace-{kind}"), WorkspaceRecord)
-        if record is not None:
-            return record
+        if record is None:
+            continue
+        if not workspace_repo(record).is_dir():
+            raise FileNotFoundError(
+                f"{pair_id}'s {kind} workspace {record.path} no longer exists; "
+                f"run ladder workspace build {pair_id} --heads {kind}"
+            )
+        return record
     wanted = heads or " or ".join(WORKSPACE_PREFERENCE)
     raise FileNotFoundError(
-        f"{pair_id} has no {wanted} workspace record; run ladder workspace build"
+        f"{pair_id} has no {wanted} workspace record; run ladder workspace build {pair_id}"
     )
 
 
