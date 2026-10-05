@@ -1,0 +1,25 @@
+{
+  "pair_id": "metacraft-labs__codetracer__189-190",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 42337,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 503,
+    "cache_creation_input_tokens": 63108,
+    "cache_read_input_tokens": 145561
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "src/tui/src/simple_main.rs",
+      "action": "keep",
+      "sha256": "0820c1b185cf5a5068d75d636e4b3b373b842628c295498feb46f072a8ec799b",
+      "rationale": "Combined both PRs by building PR B's per-line styled text (yellow background on the active line, active_line tracking in scrolling) from the output of PR A's with_line_numbers helper, so each rendered line shows the fixed-width number and pipe separator and the active line is still highlighted."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:28:01.792949Z"
+}

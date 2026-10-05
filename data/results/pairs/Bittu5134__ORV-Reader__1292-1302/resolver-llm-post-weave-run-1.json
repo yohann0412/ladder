@@ -1,0 +1,37 @@
+{
+  "pair_id": "Bittu5134__ORV-Reader__1292-1302",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 159480,
+  "tokens": {
+    "input_tokens": 30,
+    "output_tokens": 4081,
+    "cache_creation_input_tokens": 137889,
+    "cache_read_input_tokens": 1248291
+  },
+  "tool_calls": 26,
+  "files": [
+    {
+      "path": "chapters/cont/657.txt",
+      "action": "keep",
+      "sha256": "dab8a0c601d51d1467e41fe49f5f27596d4d7c8176ccb558d2775b3644039edb",
+      "rationale": "Kept PR A's Jonghyuk-to-Joonghyuk spelling fixes throughout and applied PR B's removal of the stray 」 inside the <!>[...] system message, the only change PR B made to this file."
+    },
+    {
+      "path": "chapters/cont/669.txt",
+      "action": "keep",
+      "sha256": "66a1e9e6f4c4e54b5f24e21468c91132cba4e82c25b134c981ca07677dfe19fc",
+      "rationale": "Kept PR A's Joonghyuk spelling corrections everywhere, including the split 'Yoo / Joonghyuk' line pair, and applied PR B's only change, the removal of trailing whitespace at the end of the first line of that pair."
+    },
+    {
+      "path": "chapters/cont/680.txt",
+      "action": "keep",
+      "sha256": "7829c90a3e26a92ba093e069d070b4cc4736a96711da102d6a1bcd97ffcc29cb",
+      "rationale": "Kept PR A's Joonghyuk spelling corrections throughout and applied PR B's trailing-whitespace removals on the 'Suddenly, it’s Lee Hakhyun.' and 'remaining four?' lines, leaving the untouched 'Yoo Jung-hyuk' variants as both sides had them."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:27:56.603668Z"
+}

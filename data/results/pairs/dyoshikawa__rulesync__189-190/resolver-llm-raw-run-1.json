@@ -1,0 +1,31 @@
+{
+  "pair_id": "dyoshikawa__rulesync__189-190",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 168008,
+  "tokens": {
+    "input_tokens": 18,
+    "output_tokens": 4780,
+    "cache_creation_input_tokens": 131437,
+    "cache_read_input_tokens": 709326
+  },
+  "tool_calls": 15,
+  "files": [
+    {
+      "path": "src/core/importer.test.ts",
+      "action": "keep",
+      "sha256": "7ab091d49589e932bc7b1d86a8f7164d9154abb639bddd52eccd35db2de312bc",
+      "rationale": "Kept both module mocks (PR A's automock of CommandsProcessor and PR B's factory mock of IgnoreProcessor) so the merged suite covers both the CommandsProcessor tests and the IgnoreProcessor-based ignore tests."
+    },
+    {
+      "path": "src/core/importer.ts",
+      "action": "keep",
+      "sha256": "20ae07a8544c5623fa09328261a9fe6f2925e4d78d64cd37cbcc4c64466ec3f5",
+      "rationale": "Imported both CommandsProcessor and IgnoreProcessor, and kept PR B's early return for the no-data case but skipped it when the commands feature is on, because PR A's CommandsProcessor (like B's IgnoreProcessor) can still create files from tool directories."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:28:01.559748Z"
+}

@@ -1,0 +1,65 @@
+{
+  "pair_id": "OWASP__wrongsecrets__2123-2125",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/OWASP__wrongsecrets__2123-2125/llm-raw/run-1/files/.github/scripts/generate_thymeleaf_previews.py",
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/OWASP__wrongsecrets__2123-2125/llm-raw/run-1/files/src/main/resources/wrong-secrets-configuration.yaml",
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/OWASP__wrongsecrets__2123-2125/llm-raw/run-1"
+  ],
+  "duration_ms": 567131,
+  "tokens": {
+    "input_tokens": 62,
+    "output_tokens": 16112,
+    "cache_creation_input_tokens": 214994,
+    "cache_read_input_tokens": 4144461
+  },
+  "tool_calls": 56,
+  "files": [
+    {
+      "path": ".github/scripts/generate_thymeleaf_previews.py",
+      "action": "keep",
+      "sha256": "01de24a4de1b5805a6d8f10dabdc2a398615d109a8485af932b59d823bfb093f",
+      "rationale": "Kept PR B's dynamic Challenge 57 (in-browser LLM) page generation and challenge-example override, added PR A's Challenge 58 preview and challenge-58.html page, and dropped PR A's stale static LLM-API-key Challenge 57 preview since Challenge 57 is now PR B's challenge."
+    },
+    {
+      "path": "src/main/java/org/owasp/wrongsecrets/challenges/docker/Challenge57.java",
+      "action": "keep",
+      "sha256": "17e144973b0b8e3401cf2f326244251fb6a4b7890743a202a1eedf6ea4348bc9",
+      "rationale": "Used PR B's FixedAnswerChallenge with the Base64-encoded in-browser LLM secret as the Challenge 57 answer, and retained PR A's getLLMJavaScriptCode() so PR A's non-conflicted Challenge57Controller (/llm-demo, /llm-chat.js) and its test still compile."
+    },
+    {
+      "path": "src/main/resources/explanations/challenge57.adoc",
+      "action": "keep",
+      "sha256": "9732915a69610a447d35ce73e54c18400ad4bf1cfefba143297d61775a710a3b",
+      "rationale": "Took PR B's explanation because Challenge 57's answer, UI snippet and Cypress tests are PR B's in-browser LLM challenge."
+    },
+    {
+      "path": "src/main/resources/explanations/challenge57_hint.adoc",
+      "action": "keep",
+      "sha256": "8d63530fc023acb9820c4f906fe3f7ef1eec9c44904019f7d7a2fff6eb362d68",
+      "rationale": "Took PR B's hint so it matches the in-browser LLM Challenge 57 whose answer is WRONG_SECRETS_LLM_HIDDEN_INSTRUCTION_2024."
+    },
+    {
+      "path": "src/main/resources/explanations/challenge57_reason.adoc",
+      "action": "keep",
+      "sha256": "c0e3e25c90515049edd9a61e833111d8f15ab7ef4d89d240679e2265409cfe8e",
+      "rationale": "Took PR B's reasoning so it matches the in-browser LLM Challenge 57 that the merged class and snippet implement."
+    },
+    {
+      "path": "src/main/resources/wrong-secrets-configuration.yaml",
+      "action": "keep",
+      "sha256": "491dc2ca7d88892f9399f443d99a593a08a75a63a6f3e4fd8d09ed9001cb009d",
+      "rationale": "Kept PR B's Challenge 57 entry with its ui-snippet and appended PR A's Challenge 58 (logging) entry."
+    },
+    {
+      "path": "src/test/java/org/owasp/wrongsecrets/challenges/docker/Challenge57Test.java",
+      "action": "keep",
+      "sha256": "357d66f95853ed0bda2e8a06a471bdfe60e49a84a9fbe92e8a2dac3dc3dfeeb4",
+      "rationale": "Kept PR B's answer and spoiler tests for the in-browser LLM secret, plus PR A's getLLMJavaScriptCode test for the retained method; dropped PR A's sk- key answer tests because that key is no longer the answer."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:27:58.777404Z"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "dotnet__extensions__6919-6922",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 32885,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 494,
+    "cache_creation_input_tokens": 65241,
+    "cache_read_input_tokens": 151257
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "eng/MSBuild/Packaging.targets",
+      "action": "keep",
+      "sha256": "47d5813f361c9554044c02f88edf866b850371b7166ed963b3f13c169532fac3",
+      "rationale": "Combined PR A's override-friendly condition (only set the baseline when a project has not already specified PackageValidationBaselineVersion) with PR B's bump of the default baseline version from 9.8.0 to 9.10.0."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:28:00.686810Z"
+}

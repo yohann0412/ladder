@@ -1,0 +1,27 @@
+{
+  "pair_id": "microsoft__react-native-windows__14829-14830",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/microsoft__react-native-windows__14829-14830/llm-post-weave/run-1/files/vnext/Microsoft.ReactNative/Fabric/Composition/ScrollViewComponentView.cpp"
+  ],
+  "duration_ms": 245312,
+  "tokens": {
+    "input_tokens": 26,
+    "output_tokens": 4811,
+    "cache_creation_input_tokens": 133812,
+    "cache_read_input_tokens": 1078935
+  },
+  "tool_calls": 23,
+  "files": [
+    {
+      "path": "vnext/Microsoft.ReactNative/Fabric/Composition/ScrollViewComponentView.cpp",
+      "action": "keep",
+      "sha256": "bb8cfeeeaa1ba5088fc2c0eb0dff469fe828107937a8019aa5121346a0fad660",
+      "rationale": "Combined both PRs by triggering snap updates on snapToInterval and snapToAlignment changes, keeping PR A's updateSnapPoints/interval logic while passing PR B's converted snapToAlignment to every 4-argument SetSnapPoints call (including inside updateSnapPoints), and restored the missing closing brace of convertSnapToAlignment."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:28:02.828843Z"
+}

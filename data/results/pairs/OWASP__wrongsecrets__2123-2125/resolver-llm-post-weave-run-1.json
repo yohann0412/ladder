@@ -1,0 +1,58 @@
+{
+  "pair_id": "OWASP__wrongsecrets__2123-2125",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/OWASP__wrongsecrets__2123-2125/llm-post-weave/run-1/files/src/main/resources/wrong-secrets-configuration.yaml",
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/OWASP__wrongsecrets__2123-2125/llm-post-weave/run-1"
+  ],
+  "duration_ms": 291485,
+  "tokens": {
+    "input_tokens": 46,
+    "output_tokens": 13369,
+    "cache_creation_input_tokens": 132968,
+    "cache_read_input_tokens": 2066140
+  },
+  "tool_calls": 44,
+  "files": [
+    {
+      "path": "src/main/java/org/owasp/wrongsecrets/challenges/docker/Challenge57.java",
+      "action": "keep",
+      "sha256": "17e144973b0b8e3401cf2f326244251fb6a4b7890743a202a1eedf6ea4348bc9",
+      "rationale": "Challenge 57 is PR B's in-browser LLM challenge (FixedAnswerChallenge with the Base64-encoded hidden-instruction secret), while PR A's getLLMJavaScriptCode() helper and API-key constant are retained because A's cleanly merged Challenge57Controller and its test still call that method."
+    },
+    {
+      "path": "src/main/resources/explanations/challenge57.adoc",
+      "action": "keep",
+      "sha256": "9732915a69610a447d35ce73e54c18400ad4bf1cfefba143297d61775a710a3b",
+      "rationale": "Uses PR B's explanation because Challenge 57 now is the in-browser LLM prompt-injection challenge with B's ui-snippet, and A's API-key text would point players to a wrong answer."
+    },
+    {
+      "path": "src/main/resources/explanations/challenge57_hint.adoc",
+      "action": "keep",
+      "sha256": "8d63530fc023acb9820c4f906fe3f7ef1eec9c44904019f7d7a2fff6eb362d68",
+      "rationale": "Uses PR B's hint so it matches the Challenge 57 answer and the chat UI snippet, since A's sk- API-key hint no longer leads to the accepted solution."
+    },
+    {
+      "path": "src/main/resources/explanations/challenge57_reason.adoc",
+      "action": "keep",
+      "sha256": "c0e3e25c90515049edd9a61e833111d8f15ab7ef4d89d240679e2265409cfe8e",
+      "rationale": "Uses PR B's reasoning about system-prompt secret exposure to match the Challenge 57 implementation that was kept."
+    },
+    {
+      "path": "src/main/resources/wrong-secrets-configuration.yaml",
+      "action": "keep",
+      "sha256": "491dc2ca7d88892f9399f443d99a593a08a75a63a6f3e4fd8d09ed9001cb009d",
+      "rationale": "Keeps PR B's Challenge 57 entry with its ui-snippet and adds PR A's new Challenge 58 (Database Connection String Exposure, logging category) after it."
+    },
+    {
+      "path": "src/test/java/org/owasp/wrongsecrets/challenges/docker/Challenge57Test.java",
+      "action": "keep",
+      "sha256": "357d66f95853ed0bda2e8a06a471bdfe60e49a84a9fbe92e8a2dac3dc3dfeeb4",
+      "rationale": "Keeps PR B's answer and spoiler tests for the hidden LLM secret, plus PR A's test of the JavaScript API-key exposure helper that the merged class still provides; A's tests expecting the API key as the answer are dropped."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:27:58.411824Z"
+}

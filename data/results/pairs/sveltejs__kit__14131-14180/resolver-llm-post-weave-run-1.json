@@ -1,0 +1,25 @@
+{
+  "pair_id": "sveltejs__kit__14131-14180",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 44702,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 927,
+    "cache_creation_input_tokens": 71977,
+    "cache_read_input_tokens": 289592
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "packages/kit/src/runtime/server/cookie.js",
+      "action": "keep",
+      "sha256": "e73a3eb9eb303221ced2a3d5f6c0d89808233127edcda0ac83a1422802198fe7",
+      "rationale": "Kept PR A's Map-based new_cookies keyed by domain/path/name with most-specific-path lookup in get/getAll/get_cookie_header/set_internal, and applied PR B's change of importing the shared text_encoder and using it instead of new TextEncoder() in the dev cookie-size check."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:28:04.479284Z"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "sveltejs__kit__14131-14180",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 42610,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 434,
+    "cache_creation_input_tokens": 64717,
+    "cache_read_input_tokens": 208322
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "packages/kit/src/runtime/server/cookie.js",
+      "action": "keep",
+      "sha256": "e73a3eb9eb303221ced2a3d5f6c0d89808233127edcda0ac83a1422802198fe7",
+      "rationale": "Kept PR A's Map-based keyed cookie storage by serializing from the local `cookie.options` (since `new_cookies[name]` no longer exists) while adopting PR B's shared `text_encoder` import instead of constructing a new TextEncoder."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:28:05.085290Z"
+}
