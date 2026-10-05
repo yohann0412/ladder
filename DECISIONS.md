@@ -357,3 +357,11 @@ Newest at the bottom.
   before any Claim C result, so the attempted pairs remain a seeded random sample of the
   pool. A decided count this small means the rate cannot be compared with the human base
   rate, and the report must say so.
+- Amendment to D25 (18:20, for disk, not for any outcome): three workers kept putting
+  very large repositories on the disk at once (cal.com, openops, coder, tldraw, vector),
+  and their records stopped at the free-disk floor. All workers were stopped at 18:20 and
+  Claim C continues with one worker. The waves are still taken in D19 order, starting with
+  the earliest incomplete wave, so the completed waves remain a prefix. Records already
+  written are kept. Pairs that were interrupted had no record yet and are run by the
+  single worker. The deadline is unchanged: no new wave after 19:17. Floor-stopped records
+  are redone once, alone, under D23 after the waves stop.
