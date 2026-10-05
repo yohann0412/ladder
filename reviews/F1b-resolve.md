@@ -23,8 +23,8 @@ commits); vscode-mssql clean of contamination.
   is not re-read on `--refresh`.
 - **AIDev `merged_at` drives both truth ordering and contamination time.** If AIDev is wrong
   (seen: v3 vs main disagree for 113 PRs), the wrong PR could be called "later".
-- **No network timeout** in clone/fetch: sent back as a follow-up (timeouts, partial clone
-  cleanup).
+- **Network timeouts** (sent back, fixed in 785c039): clone 1800 s, fetch 600 s per attempt,
+  three attempts, timed-out partial clones removed. A killed git may leave a helper alive briefly.
 - **Ties**: equal merged_at -> b counts as later. Rare.
 
 ## What was not tested
