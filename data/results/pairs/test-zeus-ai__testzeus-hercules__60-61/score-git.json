@@ -1,0 +1,1039 @@
+{
+  "pair_id": "test-zeus-ai__testzeus-hercules__60-61",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "testzeus_hercules/__main__.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_config",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_cdp_config",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_trace_path",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.send_config_telemetry",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "NonSingletonConfigManager.__init__",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "SingletonConfigManager.__init__",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "SingletonConfigManager.instance",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "set_global_conf",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_browser_cookies",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.should_enable_browser_logs",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_browser_channel",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_browser_path",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_browser_version",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.should_take_bounding_box_screenshots",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.should_enable_ublock_extension",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.should_auto_accept_screen_sharing",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.should_skip_wait_for_load_state",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.is_portkey_enabled",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_portkey_api_key",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_portkey_config",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_appium_server_url",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_appium_server_port",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_platform_name",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_device_name",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_automation_name",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_app_path",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_appium_apk_path",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_appium_ios_app_path",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_appium_device_uuid",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_appium_platform_version",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_appium_capabilities",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_emulator_avd_name",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_ios_simulator_device",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_ios_bundle_id",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_xcode_org_id",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_xcode_signing_id",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_webdriveragent_path",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_ios_team_id",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_device_manager",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "entity": "BaseConfigManager.get_device_os",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/agents/browser_nav_agent.py",
+      "entity": "<rest>",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/agents_llm_config.py",
+      "entity": "<rest>",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/agents_llm_config.py",
+      "entity": "AgentsLLMConfig.load_from_file",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/agents_llm_config.py",
+      "entity": "AgentsLLMConfig.normalize_agent_config",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/agents_llm_config.py",
+      "entity": "AgentsLLMConfig.get_agent_config",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/agents_llm_config.py",
+      "entity": "AgentsLLMConfig.list_available_agents",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/agents_llm_config.py",
+      "entity": "AgentsLLMConfig.get_active_provider",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/agents_llm_config.py",
+      "entity": "AgentsLLMConfig.list_providers",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_extra_tools/drag_and_drop_tool.py",
+      "entity": "drag_and_drop",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_extra_tools/drag_and_drop_tool.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/click_using_selector.py",
+      "entity": "get_page_data",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/click_using_selector.py",
+      "entity": "click.handle_dialog",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/click_using_selector.py",
+      "entity": "do_click",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/click_using_selector.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/dropdown_using_selector.py",
+      "entity": "select_option.detect_dom_changes",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/dropdown_using_selector.py",
+      "entity": "custom_select_option",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/dropdown_using_selector.py",
+      "entity": "do_select_option",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/dropdown_using_selector.py",
+      "entity": "bulk_select_option",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/dropdown_using_selector.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/enter_text_using_selector.py",
+      "entity": "custom_fill_element",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/enter_text_using_selector.py",
+      "entity": "entertext",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/enter_text_using_selector.py",
+      "entity": "do_entertext",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/enter_text_using_selector.py",
+      "entity": "bulk_enter_text",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/enter_text_using_selector.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/hover.py",
+      "entity": "hover",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/hover.py",
+      "entity": "do_hover",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/hover.py",
+      "entity": "get_tooltip_text",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/hover.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/open_url.py",
+      "entity": "openurl",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/open_url.py",
+      "entity": "ensure_protocol",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/open_url.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/press_key_combination.py",
+      "entity": "press_key_combination.detect_dom_changes",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/press_key_combination.py",
+      "entity": "do_press_key_combination",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/press_key_combination.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/upload_file.py",
+      "entity": "click_and_upload_file",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/upload_file.py",
+      "entity": "click_and_upload",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/upload_file.py",
+      "entity": "bulk_click_and_upload_file",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/upload_file.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/mobile_tools/visual_skill.py",
+      "entity": "compare_visual_screenshot",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/mobile_tools/visual_skill.py",
+      "entity": "_write_comparison_to_file",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/mobile_tools/visual_skill.py",
+      "entity": "validate_visual_feature",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/mobile_tools/visual_skill.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/runner.py",
+      "entity": "BaseRunner.shutdown",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/runner.py",
+      "entity": "BaseRunner.clean_up",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/runner.py",
+      "entity": "BaseRunner.get_agents_map",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/runner.py",
+      "entity": "BaseRunner.save_chat_logs",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/runner.py",
+      "entity": "BaseRunner.run_planner_agent",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/runner.py",
+      "entity": "BaseRunner.run_browser_nav_agent",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/simple_hercules.py",
+      "entity": "SimpleHercules.create.trigger_nested_chat",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/simple_hercules.py",
+      "entity": "SimpleHercules.save_chat_log",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/simple_hercules.py",
+      "entity": "SimpleHercules.__initialize_agents",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/simple_hercules.py",
+      "entity": "SimpleHercules.__create_api_nav_executor_agent",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/simple_hercules.py",
+      "entity": "SimpleHercules.__create_sec_nav_executor_agent",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/simple_hercules.py",
+      "entity": "SimpleHercules.__create_sql_nav_executor_agent",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/simple_hercules.py",
+      "entity": "SimpleHercules.__create_helper_agent",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/simple_hercules.py",
+      "entity": "SimpleHercules.clean_up_plan",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/simple_hercules.py",
+      "entity": "SimpleHercules.process_command",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/simple_hercules.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/simple_hercules.py",
+      "entity": "SimpleHercules.create.get_current_state",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/simple_hercules.py",
+      "entity": "SimpleHercules.__create_navigation_nav_executor_agent.is_navigation_executor_termination_message",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "testzeus_hercules/core/simple_hercules.py",
+      "entity": "SimpleHercules.__create_navigation_nav_agent",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": ".env-example",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "poetry.lock",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "testzeus_hercules/__main__.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "testzeus_hercules/core/agents/browser_nav_agent.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "BrowserNavAgent",
+        "register_tools"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "testzeus_hercules/core/agents/high_level_planner_agent.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "testzeus_hercules/core/agents_llm_config.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "get_active_provider",
+        "get_agent_config",
+        "list_available_agents",
+        "list_providers"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "testzeus_hercules/core/browser_extra_tools/clipboard_tools.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [
+        "read_clipboard"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "testzeus_hercules/core/browser_extra_tools/drag_and_drop_tool.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/click_using_selector.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/dropdown_using_selector.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "find_element_select_type",
+        "interact_with_element_select_type"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/enter_text_using_selector.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/hover.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/open_url.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/press_key_combination.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "detect_dom_changes",
+        "press_key_combination"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/upload_file.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "bulk_click_and_upload_file"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "testzeus_hercules/core/mobile_tools/visual_skill.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "testzeus_hercules/core/runner.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "clean_up",
+        "clean_up_plan",
+        "get_agents_map",
+        "initialize",
+        "process_command",
+        "run_browser_nav_agent",
+        "run_planner_agent",
+        "save_chat_logs",
+        "save_planner_chat_messages",
+        "shutdown",
+        "start",
+        "wait_for_exit"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "testzeus_hercules/core/simple_hercules.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "__create_api_nav_agent",
+        "__create_api_nav_executor_agent",
+        "__create_api_nav_executor_agent.is_api_executor_termination_message",
+        "__create_helper_agent",
+        "__create_mem_agent",
+        "__create_navigation_nav_agent",
+        "__create_navigation_nav_executor_agent",
+        "__create_navigation_nav_executor_agent.is_navigation_executor_termination_message",
+        "__create_planner_agent",
+        "__create_sec_nav_agent",
+        "__create_sec_nav_executor_agent",
+        "__create_sec_nav_executor_agent.is_api_executor_termination_message",
+        "__create_sql_nav_agent",
+        "__create_sql_nav_executor_agent",
+        "__create_sql_nav_executor_agent.is_sql_executor_termination_message",
+        "__create_time_keeper_nav_agent",
+        "__create_time_keeper_nav_executor_agent",
+        "__create_time_keeper_nav_executor_agent.is_time_keeper_executor_termination_message",
+        "__create_user_delegate_agent",
+        "__create_user_delegate_agent.is_planner_termination_message",
+        "__initialize_agents",
+        "_query_memory",
+        "clean_up_plan",
+        "convert_model_config_to_autogen_format",
+        "get_chat_logs_dir",
+        "get_current_state",
+        "my_custom_summary_method",
+        "process_command",
+        "reflection_message",
+        "save_chat_log",
+        "save_to_memory",
+        "set_chat_logs_dir",
+        "state_transition",
+        "trigger_nested_chat"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

@@ -1,0 +1,28 @@
+{
+  "pair_id": "test-zeus-ai__testzeus-hercules__60-61",
+  "commit": "78160c2ebb1704aec5017db67ad0e411a100baa3",
+  "language": "python",
+  "package_manager": "poetry",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "exceeds_cap",
+  "reason_detail": "install: stopped, free disk below the 3 GiB floor",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "poetry",
+        "install",
+        "--no-interaction",
+        "--with",
+        "dev"
+      ],
+      "exit_code": null,
+      "duration_s": 58.2,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: stopped, free disk below the 3 GiB floor; output tail:   - Installing rpds-py (0.23.1) |   - Installing setuptools (75.8.0) |   - Installing sympy (1.13.1) | Installing /home/user/ladder/work/runtime/test-zeus-ai__testzeus-hercules__60-61/envs/base/lib/python3.12/site-packages/nvidia/__init__.py over existing file |   - Installing triton (3.2.0) | Installing /home/user/ladder/work/runtime/test-zeus-ai__testzeus-hercules__60-61/envs/base/lib/python3.12/site-packages/nvidia/__init__.py over existing file | Installing /home/user/ladder/work/runtime/test-zeus-ai__testzeus-hercules__60-61/envs/base/lib/python3.12/site-packages/nvidia/__init__.py over existing file | stopped: 2.9 GiB free under /home/user/ladder/work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base, below the 3 GiB floor set by LADDER_MIN_FREE_GIB"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

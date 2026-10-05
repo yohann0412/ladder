@@ -1,0 +1,70 @@
+{
+  "pair_id": "microsoft__graphrag__1944-1956",
+  "commit": "4a42ac81afade8392586ad3d4f879b3c4789d9d1",
+  "language": "python",
+  "package_manager": "poetry",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 7 failed, 0 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "poetry",
+        "install",
+        "--no-interaction",
+        "--with",
+        "dev"
+      ],
+      "exit_code": 0,
+      "duration_s": 972.0,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 36.0 s; pytest: exit 0 in 0.1 s; suite failed: 106 passed, 7 failed, 0 errors, 4 skipped (tests/integration/storage/test_blob_pipeline_storage.py::test_find, tests/integration/storage/test_blob_pipeline_storage.py::test_dotprefix, tests/integration/storage/test_blob_pipeline_storage.py::test_get_creation_date, tests/integration/storage/test_blob_pipeline_storage.py::test_child, tests/integration/storage/test_factory.py::test_create_blob_storage); first run failed: 106 passed, 7 failed, 0 errors, 4 skipped (tests/integration/storage/test_blob_pipeline_storage.py::test_find, tests/integration/storage/test_blob_pipeline_storage.py::test_dotprefix, tests/integration/storage/test_blob_pipeline_storage.py::test_get_creation_date, tests/integration/storage/test_blob_pipeline_storage.py::test_child, tests/integration/storage/test_factory.py::test_create_blob_storage)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/microsoft__graphrag__1944-1956/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/microsoft__graphrag__1944-1956/trees/base",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 63.5,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 8.2 s; suite failed: 0 passed, 0 failed, 1 errors, 2 skipped (tests/notebook/test_notebooks.py::tests.notebook.test_notebooks); first run failed: 0 passed, 0 failed, 1 errors, 2 skipped (tests/notebook/test_notebooks.py::tests.notebook.test_notebooks)"
+    }
+  ],
+  "test_count": 117,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/microsoft__graphrag__1944-1956/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/microsoft__graphrag__1944-1956/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 106,
+    "failed": 7,
+    "errors": 0,
+    "skipped": 4,
+    "duration_s": 459.8,
+    "retried": true,
+    "failing_tests": [
+      "tests/integration/storage/test_blob_pipeline_storage.py::test_find",
+      "tests/integration/storage/test_blob_pipeline_storage.py::test_dotprefix",
+      "tests/integration/storage/test_blob_pipeline_storage.py::test_get_creation_date",
+      "tests/integration/storage/test_blob_pipeline_storage.py::test_child",
+      "tests/integration/storage/test_factory.py::test_create_blob_storage",
+      "tests/smoke/test_fixtures.py::TestIndexer::test_fixture[min-csv]",
+      "tests/smoke/test_fixtures.py::TestIndexer::test_fixture[text]"
+    ],
+    "detail": "106 passed, 7 failed, 0 errors, 4 skipped (tests/integration/storage/test_blob_pipeline_storage.py::test_find, tests/integration/storage/test_blob_pipeline_storage.py::test_dotprefix, tests/integration/storage/test_blob_pipeline_storage.py::test_get_creation_date, tests/integration/storage/test_blob_pipeline_storage.py::test_child, tests/integration/storage/test_factory.py::test_create_blob_storage); first run failed: 106 passed, 7 failed, 0 errors, 4 skipped (tests/integration/storage/test_blob_pipeline_storage.py::test_find, tests/integration/storage/test_blob_pipeline_storage.py::test_dotprefix, tests/integration/storage/test_blob_pipeline_storage.py::test_get_creation_date, tests/integration/storage/test_blob_pipeline_storage.py::test_child, tests/integration/storage/test_factory.py::test_create_blob_storage)"
+  },
+  "timeout_s": 600
+}

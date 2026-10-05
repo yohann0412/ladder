@@ -1,0 +1,48 @@
+{
+  "pair_id": "microsoft__graphrag__1944-1956",
+  "rung": "weave",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": false,
+  "human_equivalent_unordered": false,
+  "intent_preserved_a": false,
+  "intent_preserved_b": true,
+  "intent_drops": [
+    {
+      "path": "graphrag/storage/factory.py",
+      "entity": "StorageFactory.get_storage_types",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "graphrag/storage/factory.py",
+      "entity": "StorageFactory.is_supported_storage_type",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "graphrag/storage/factory.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "get_storage_types",
+        "is_supported_storage_type"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.832
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}
