@@ -1,0 +1,23 @@
+{
+  "pair_id": "Maintainerr__Maintainerr__1886-1888",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Maintainerr__Maintainerr__1886-1888",
+  "source_base": "15a07fa681eba49b3dbddc4277419a64f18928ed",
+  "source_a": "febdfe3d685a2d2f3848dd70611d24a7044409f0",
+  "source_b": "26cf77a3650bd5d58a219a7884384754d2e6a438",
+  "base_commit": "8a7a347c0c12244cebcc0d472feeffad177254ea",
+  "a_commit": "2f440b0cc3b179a10376e2b1c18f88089fc0319f",
+  "b_commit": "c36a5be414efd95bb377a57ced4e50aa5b2bf790",
+  "object_count": 616,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

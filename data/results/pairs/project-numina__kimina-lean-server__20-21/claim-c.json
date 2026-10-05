@@ -1,0 +1,60 @@
+{
+  "pair_id": "project-numina__kimina-lean-server__20-21",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: other (suite fails at base: 1 failed, 0 errors)",
+  "files_a": [
+    ".env.template",
+    "requirements.txt",
+    "server/config.py",
+    "server/leanrepl.py",
+    "server/server.py",
+    "utils/gcp_logging.py",
+    "utils/gcp_monitoring.py",
+    "utils/repl_cache.py"
+  ],
+  "files_b": [
+    "LICENSE",
+    "README.md",
+    "Technical_Report.pdf",
+    "compose.yaml",
+    "demo/demo.ipynb",
+    "server/leanrepl.py",
+    "setup.py"
+  ]
+}

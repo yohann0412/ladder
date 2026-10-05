@@ -1,0 +1,15 @@
+{
+  "pair_id": "Maintainerr__Maintainerr__1886-1888",
+  "commit": "15a07fa681eba49b3dbddc4277419a64f18928ed",
+  "language": "node",
+  "package_manager": "yarn",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
