@@ -179,3 +179,35 @@ def test_report_groups_claim_c_exclusions_and_cut(fx: Experiment, tmp_path: Path
     assert "not attempted: cut" in report.split("## Claim C")[1].split("\n## ")[0]
     fx06_row = next(line for line in report.splitlines() if line.startswith("| fx06 "))
     assert "not attempted: cut" in fx06_row
+
+
+def test_report_counts_records_redone_under_d23(fx: Experiment, tmp_path: Path) -> None:
+    fx.ladder("run", "--all", "--no-llm")
+    redo = {
+        "rule": "D23",
+        "pairs": [
+            {
+                "pair_id": "fx09",
+                "records": ["runnability.json", "claim-c.json"],
+                "redone_at": "2026-10-05T14:30:00Z",
+            },
+            {
+                "pair_id": "fx03",
+                "records": ["runnability.json", "score-git.json", "score-weave.json"],
+                "redone_at": "2026-10-05T14:31:00Z",
+            },
+        ],
+    }
+    (fx.results / "redo-d23.json").write_text(json.dumps(redo, indent=2) + "\n")
+    out = tmp_path / "RESULTS.md"
+    fx.ladder("report", "--out", str(out))
+    summary = read_json(fx.results / "summary.json")
+    assert summary["d23_redone_pairs"] == 2
+    assert summary["d23_replaced_records"] == 5
+    report = out.read_text()
+    assert "D23" in report and "5 records" in report and "2 pairs" in report
+
+    (fx.results / "redo-d23.json").unlink()
+    fx.ladder("report", "--out", str(out))
+    summary = read_json(fx.results / "summary.json")
+    assert (summary["d23_redone_pairs"], summary["d23_replaced_records"]) == (0, 0)
