@@ -1,0 +1,30 @@
+{
+  "pair_id": "vespa-engine__pyvespa__1097-1099",
+  "status": "located",
+  "commit": "f6445c50a0ceac0b8d934cbc3f73dea6789ba41b",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "vespa/package.py",
+      "present": true,
+      "sha256": "2f7496008979ca7ba81d919f0258fb834b7ba8d673a4e87302504ea7299d74d5"
+    },
+    {
+      "path": "vespa/templates/macros.txt",
+      "present": true,
+      "sha256": "b1c947ba0c05c4cb114da7ae477c4ba283b55a31dd8d8f0fa9c98f06e36f7f77"
+    },
+    {
+      "path": "vespa/templates/schema.txt",
+      "present": true,
+      "sha256": "1df72ffd5df5fa7767ef26c50da1a9ea282561ea5338e30d0f032c2620397726"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "tests/unit/test_package.py"
+  ],
+  "outside_region_edit": [],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:13:56.285236Z"
+}

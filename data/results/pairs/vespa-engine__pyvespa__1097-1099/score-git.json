@@ -1,0 +1,106 @@
+{
+  "pair_id": "vespa-engine__pyvespa__1097-1099",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": false,
+  "human_equivalent_unordered": false,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "vespa/package.py",
+      "entity": "Field.indexing_to_text",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "vespa/package.py",
+      "entity": "<rest>",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "vespa/package.py",
+      "entity": "Field.index_configurations",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "vespa/package.py",
+      "entity": "Field.use_simple_index_syntax",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "vespa/package.py",
+      "entity": "Field.indexing_as_multiline",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "vespa/package.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "__eq__",
+        "__init__",
+        "__repr__",
+        "add_fields",
+        "add_struct_fields",
+        "add_structs",
+        "args_to_text",
+        "fields",
+        "fields_to_text",
+        "index_configurations",
+        "indexing_as_multiline",
+        "indexing_to_text",
+        "struct_fields",
+        "structs",
+        "use_simple_index_syntax"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9883
+    },
+    {
+      "path": "vespa/templates/macros.txt",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9743
+    },
+    {
+      "path": "vespa/templates/schema.txt",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.7306
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

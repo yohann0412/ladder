@@ -1,0 +1,15 @@
+{
+  "pair_id": "aldinokemal__go-whatsapp-web-multidevice__313-314",
+  "commit": "75e9cac568173ae9edfe001bd9f348701e240bfc",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

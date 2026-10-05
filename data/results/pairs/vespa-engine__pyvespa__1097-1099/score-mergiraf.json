@@ -1,0 +1,54 @@
+{
+  "pair_id": "vespa-engine__pyvespa__1097-1099",
+  "rung": "mergiraf",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": false,
+  "human_equivalent_unordered": false,
+  "intent_preserved_a": true,
+  "intent_preserved_b": true,
+  "intent_drops": [],
+  "files": [
+    {
+      "path": "vespa/package.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9926
+    },
+    {
+      "path": "vespa/templates/macros.txt",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9974
+    },
+    {
+      "path": "vespa/templates/schema.txt",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.7306
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

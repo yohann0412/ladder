@@ -1,0 +1,18 @@
+{
+  "pair_id": "aldinokemal__go-whatsapp-web-multidevice__313-314",
+  "status": "located",
+  "commit": "fa509a6c15316bb8783643f5a8803cd0f4d26108",
+  "method": "subject_time",
+  "files": [
+    {
+      "path": "src/pkg/utils/general.go",
+      "present": true,
+      "sha256": "bd39a26ec4d40e829aec175296cc073e8b58942ab377cc317b604b0f0ec86d0a"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": true,
+  "extracted_at": "2026-10-05T13:14:28.157037Z"
+}

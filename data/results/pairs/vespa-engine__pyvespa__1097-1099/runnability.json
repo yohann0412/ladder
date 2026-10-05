@@ -1,0 +1,67 @@
+{
+  "pair_id": "vespa-engine__pyvespa__1097-1099",
+  "commit": "542cb8750d6e5989935d1f6b34d6ccb50f7745f4",
+  "language": "python",
+  "package_manager": "uv",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "suite does not load at base: 4 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "sync",
+        "--frozen",
+        "--extra",
+        "dev"
+      ],
+      "exit_code": 1,
+      "duration_s": 6.3,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.3 s; install: exit 1 in 5.9 s; output tail:       line 10, in <module> |           import distutils.core |       ModuleNotFoundError: No module named 'distutils' |       hint: `distutils` was removed from the standard library in Python 3.12. |       Consider adding a constraint (like `numpy >1.24.4`) to avoid building a |       version of `numpy` that depends on `distutils`. |   help: `numpy` (v1.24.4) was included because `pyvespa[dev]` (v0.dev0) |         depends on `datasets` (v2.19.1) which depends on `numpy`"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/vespa-engine__pyvespa__1097-1099/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/vespa-engine__pyvespa__1097-1099/trees/base",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 7.9,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 2.9 s; suite failed: 0 passed, 0 failed, 4 errors, 0 skipped (tests/integration/test_integration_evaluation.py::tests.integration.test_integration_evaluation, tests/mktestdocs/test_mkdocs.py::tests.mktestdocs.test_mkdocs, tests/mktestdocs/test_mkdocstring.py::tests.mktestdocs.test_mkdocstring, tests/unit/test_application.py::tests.unit.test_application); first run failed: 0 passed, 0 failed, 4 errors, 0 skipped (tests/integration/test_integration_evaluation.py::tests.integration.test_integration_evaluation, tests/mktestdocs/test_mkdocs.py::tests.mktestdocs.test_mkdocs, tests/mktestdocs/test_mkdocstring.py::tests.mktestdocs.test_mkdocstring, tests/unit/test_application.py::tests.unit.test_application)"
+    }
+  ],
+  "test_count": 4,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/vespa-engine__pyvespa__1097-1099/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/vespa-engine__pyvespa__1097-1099/reports/base-attempt-2/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 4,
+    "skipped": 0,
+    "duration_s": 2.3,
+    "retried": true,
+    "failing_tests": [
+      "tests/integration/test_integration_evaluation.py::tests.integration.test_integration_evaluation",
+      "tests/mktestdocs/test_mkdocs.py::tests.mktestdocs.test_mkdocs",
+      "tests/mktestdocs/test_mkdocstring.py::tests.mktestdocs.test_mkdocstring",
+      "tests/unit/test_application.py::tests.unit.test_application"
+    ],
+    "detail": "0 passed, 0 failed, 4 errors, 0 skipped (tests/integration/test_integration_evaluation.py::tests.integration.test_integration_evaluation, tests/mktestdocs/test_mkdocs.py::tests.mktestdocs.test_mkdocs, tests/mktestdocs/test_mkdocstring.py::tests.mktestdocs.test_mkdocstring, tests/unit/test_application.py::tests.unit.test_application); first run failed: 0 passed, 0 failed, 4 errors, 0 skipped (tests/integration/test_integration_evaluation.py::tests.integration.test_integration_evaluation, tests/mktestdocs/test_mkdocs.py::tests.mktestdocs.test_mkdocs, tests/mktestdocs/test_mkdocstring.py::tests.mktestdocs.test_mkdocstring, tests/unit/test_application.py::tests.unit.test_application)"
+  },
+  "timeout_s": 600
+}
