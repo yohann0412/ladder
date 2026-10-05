@@ -1,0 +1,15 @@
+{
+  "pair_id": "Azure__azure-functions-templates__1698-1701",
+  "commit": "ef498c87d1d52ee8aab2476e76bdd4a6ee302af0",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

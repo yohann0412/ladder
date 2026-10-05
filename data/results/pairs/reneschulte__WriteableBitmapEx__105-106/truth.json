@@ -1,0 +1,23 @@
+{
+  "pair_id": "reneschulte__WriteableBitmapEx__105-106",
+  "status": "located",
+  "commit": "2a2d0fec95b231c0688a27010808f17f4b0da23b",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "NUGET_PACKAGE_BUILD.md",
+      "present": true,
+      "sha256": "53a6191c0b4cac12dc34d103833c442d1b59560698bc5ccc635ddd16bc7b6aa4"
+    },
+    {
+      "path": "Nuget/WriteableBitmapEx.nuspec",
+      "present": true,
+      "sha256": "df330fa0cbf9e49538551eca633c4b0c65fdab5ba9cc98854b23f290f96277f5"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": true,
+  "extracted_at": "2026-10-05T13:55:30.672140Z"
+}

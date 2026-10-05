@@ -1,0 +1,25 @@
+{
+  "pair_id": "getsentry__sentry-dart__3079-3084",
+  "status": "located",
+  "commit": "e41d5443e806f714c6d9017702010e222866b911",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "dart/lib/src/hub.dart",
+      "present": true,
+      "sha256": "0dfe0dd2cf52c74d68838d2fccaa5e64f57b4e3f2b16c687359f41b8ef93846f"
+    },
+    {
+      "path": "dart/lib/src/propagation_context.dart",
+      "present": true,
+      "sha256": "e04eb4acaa2b74a2a1de23807b4cd7b601c07edfc68840154df465e6f7fd23dd"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "CHANGELOG.md"
+  ],
+  "outside_region_edit": [],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:55:11.947196Z"
+}

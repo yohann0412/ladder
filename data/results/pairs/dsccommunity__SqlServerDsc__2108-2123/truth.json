@@ -1,0 +1,31 @@
+{
+  "pair_id": "dsccommunity__SqlServerDsc__2108-2123",
+  "status": "located",
+  "commit": "6cff2219e38e5a232e4fc0650be95ffe440cf9a4",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "source/en-US/SqlServerDsc.strings.psd1",
+      "present": true,
+      "sha256": "4336e2d54c9df572a97117aea842c1068993c5dfcd6e1767e90b0926220fffe7"
+    }
+  ],
+  "touched_beyond_conflict": [
+    ".github/copilot-instructions.md",
+    ".github/workflows/code-analysis-built-module.yml",
+    ".github/workflows/code-analysis.yml",
+    ".github/workflows/copilot-setup-steps.yml",
+    ".vscode/settings.json",
+    "CHANGELOG.md",
+    "azure-pipelines.yml",
+    "tests/Integration/Commands/Assert-SqlDscLogin.Integration.Tests.ps1",
+    "tests/Integration/Commands/Uninstall-SqlDscServer.Integration.Tests.ps1",
+    "tests/Unit/Public/Assert-SqlDscLogin.Tests.ps1"
+  ],
+  "outside_region_edit": [
+    "source/en-US/SqlServerDsc.strings.psd1"
+  ],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:55:24.341040Z"
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "dsccommunity__SqlServerDsc__2108-2123",
+  "commit": "1b3ea84057ba7dcbed5eca13d5a4ecde81068126",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

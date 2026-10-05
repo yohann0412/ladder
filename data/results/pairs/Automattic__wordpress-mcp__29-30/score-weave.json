@@ -1,0 +1,44 @@
+{
+  "pair_id": "Automattic__wordpress-mcp__29-30",
+  "rung": "weave",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": true,
+  "intent_drops": [
+    {
+      "path": "includes/Core/McpProxyRoutes.php",
+      "entity": "McpProxyRoutes.check_permission",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": false
+    }
+  ],
+  "files": [
+    {
+      "path": "includes/Core/McpProxyRoutes.php",
+      "mode": "ast",
+      "language": "php",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "__construct",
+        "check_permission",
+        "handle_request",
+        "init",
+        "register_routes"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

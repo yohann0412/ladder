@@ -1,0 +1,18 @@
+{
+  "pair_id": "Azure__azure-functions-templates__1698-1701",
+  "status": "located",
+  "commit": "b6b6380db33ceff9597db63662cf619c98825993",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "Build/package-lock.json",
+      "present": true,
+      "sha256": "132ba43491f86b7c1776fcbcafed5f4d0fa8b2eae469e39fa550242075f680af"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:54:55.757123Z"
+}

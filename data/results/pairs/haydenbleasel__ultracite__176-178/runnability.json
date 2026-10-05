@@ -1,0 +1,61 @@
+{
+  "pair_id": "haydenbleasel__ultracite__176-178",
+  "commit": "754ad2b2a2d06ca332bfe3651cf8df10bac2fbc2",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": "vitest",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 5 failed, 0 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--frozen-lockfile"
+      ],
+      "exit_code": 0,
+      "duration_s": 17.6,
+      "detail": "standard, install cap 900 s: install: exit 0 in 6.7 s; suite failed: 152 passed, 5 failed, 0 errors, 0 skipped (__tests__/format.test.ts::format command should run biome check with --write flag for all files when no files specified, __tests__/format.test.ts::format command should run biome check with --write flag for specific files when files are provided, __tests__/format.test.ts::format command should handle single file, __tests__/format.test.ts::format command should handle errors and exit with code 1, __tests__/format.test.ts::format command should handle non-Error exceptions); first run failed: 152 passed, 5 failed, 0 errors, 0 skipped (__tests__/format.test.ts::format command should run biome check with --write flag for all files when no files specified, __tests__/format.test.ts::format command should run biome check with --write flag for specific files when files are provided, __tests__/format.test.ts::format command should handle single file, __tests__/format.test.ts::format command should handle errors and exit with code 1, __tests__/format.test.ts::format command should handle non-Error exceptions)"
+    },
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--no-frozen-lockfile"
+      ],
+      "exit_code": 0,
+      "duration_s": 14.7,
+      "detail": "unfrozen (pnpm install without --frozen-lockfile), install cap 900 s: install: exit 0 in 3.4 s; suite failed: 152 passed, 5 failed, 0 errors, 0 skipped (__tests__/format.test.ts::format command should run biome check with --write flag for all files when no files specified, __tests__/format.test.ts::format command should run biome check with --write flag for specific files when files are provided, __tests__/format.test.ts::format command should handle single file, __tests__/format.test.ts::format command should handle errors and exit with code 1, __tests__/format.test.ts::format command should handle non-Error exceptions); first run failed: 152 passed, 5 failed, 0 errors, 0 skipped (__tests__/format.test.ts::format command should run biome check with --write flag for all files when no files specified, __tests__/format.test.ts::format command should run biome check with --write flag for specific files when files are provided, __tests__/format.test.ts::format command should handle single file, __tests__/format.test.ts::format command should handle errors and exit with code 1, __tests__/format.test.ts::format command should handle non-Error exceptions)"
+    }
+  ],
+  "test_count": 157,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/haydenbleasel__ultracite__176-178/trees/base/node_modules/.bin/vitest",
+      "run",
+      "--coverage.enabled=false",
+      "--reporter=json",
+      "--outputFile=/home/user/ladder/work/runtime/haydenbleasel__ultracite__176-178/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 152,
+    "failed": 5,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 5.3,
+    "retried": true,
+    "failing_tests": [
+      "__tests__/format.test.ts::format command should run biome check with --write flag for all files when no files specified",
+      "__tests__/format.test.ts::format command should run biome check with --write flag for specific files when files are provided",
+      "__tests__/format.test.ts::format command should handle single file",
+      "__tests__/format.test.ts::format command should handle errors and exit with code 1",
+      "__tests__/format.test.ts::format command should handle non-Error exceptions"
+    ],
+    "detail": "152 passed, 5 failed, 0 errors, 0 skipped (__tests__/format.test.ts::format command should run biome check with --write flag for all files when no files specified, __tests__/format.test.ts::format command should run biome check with --write flag for specific files when files are provided, __tests__/format.test.ts::format command should handle single file, __tests__/format.test.ts::format command should handle errors and exit with code 1, __tests__/format.test.ts::format command should handle non-Error exceptions); first run failed: 152 passed, 5 failed, 0 errors, 0 skipped (__tests__/format.test.ts::format command should run biome check with --write flag for all files when no files specified, __tests__/format.test.ts::format command should run biome check with --write flag for specific files when files are provided, __tests__/format.test.ts::format command should handle single file, __tests__/format.test.ts::format command should handle errors and exit with code 1, __tests__/format.test.ts::format command should handle non-Error exceptions)"
+  },
+  "timeout_s": 600
+}

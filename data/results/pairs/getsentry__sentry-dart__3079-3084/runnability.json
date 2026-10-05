@@ -1,0 +1,15 @@
+{
+  "pair_id": "getsentry__sentry-dart__3079-3084",
+  "commit": "e84389988e6b7df567aac9ba5a8cfe8a6ca6021c",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

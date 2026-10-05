@@ -1,0 +1,23 @@
+{
+  "pair_id": "langchain-ai__langchain__32149-32153",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/langchain-ai__langchain__32149-32153",
+  "source_base": "64261449b837c937f7152b1966b5ec1cf6b745de",
+  "source_a": "6ab85e0befcfd5ca0e3f26721864b3dae5652127",
+  "source_b": "bedb16b5025074a7668c302d124bcb46900518b0",
+  "base_commit": "896f3b2c5586aba0338dc55de256256be41aeebe",
+  "a_commit": "c5e20f93fd7cb30242e4fe746b5b27497bf02259",
+  "b_commit": "719cea6124614911360c21f9822f34e6c3f95cd9",
+  "object_count": 5412,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
