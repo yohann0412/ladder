@@ -7,6 +7,7 @@ from typing import Any
 
 from pydantic import BaseModel, ValidationError
 
+from ladder.jsonlines import json_lines
 from ladder.schemas import TokenUsage
 
 MESSAGE_TYPES = frozenset({"assistant", "user"})
@@ -71,7 +72,7 @@ def read_transcript(path: Path) -> Transcript:
     except (OSError, UnicodeDecodeError) as error:
         raise TranscriptError(f"transcript unreadable: {error}") from error
     lines: list[_Line] = []
-    for number, raw in enumerate(text.splitlines(), start=1):
+    for number, raw in enumerate(json_lines(text), start=1):
         if not raw.strip():
             continue
         try:

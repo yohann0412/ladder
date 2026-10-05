@@ -8,6 +8,8 @@ from pathlib import Path
 
 from pydantic import BaseModel, ValidationError
 
+from ladder.jsonlines import json_lines
+
 CARGO_TEST_LINE = re.compile(r"^test (?P<name>.+?) \.\.\. (?P<result>ok|FAILED|ignored)\b", re.M)
 CARGO_TARGET = re.compile(
     r"^\s+(?:Running (?:unittests )?(?P<target>\S+)|Doc-tests (?P<doc>\S+))", re.M
@@ -151,7 +153,7 @@ class _GoEvent(BaseModel):
 def parse_go_json(log_text: str) -> Counts | None:
     """Read the event stream of go test -json; a package that fails without a test is an error."""
     events: list[_GoEvent] = []
-    for line in log_text.splitlines():
+    for line in json_lines(log_text):
         if not line.startswith("{"):
             continue
         try:
