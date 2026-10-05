@@ -25,5 +25,5 @@ def failure_cause(layout: Layout, run: ResolverRun) -> str | None:
 
 
 def excused(layout: Layout, pair: PairRecords) -> bool:
-    """Return whether any LLM run of a pair failed only for a cause of D20 or D21."""
-    return any(failure_cause(layout, run) in EXCUSED for run in pair.runs.values())
+    """Return whether a ladder (run 1) LLM run of a pair failed only for a cause of D20 or D21."""
+    return any(failure_cause(layout, run) in EXCUSED for run in pair.runs.values() if run.run == 1)
