@@ -1,0 +1,60 @@
+{
+  "pair_id": "neondatabase__autoscaling__1352-1353",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: other (suite fails at base: 4 failed, 0 errors)",
+  "files_a": [
+    "pkg/agent/config.go",
+    "pkg/agent/dispatcher.go",
+    "pkg/agent/runner.go",
+    "pkg/plugin/config.go",
+    "pkg/plugin/entrypoint.go",
+    "pkg/plugin/run.go",
+    "pkg/plugin/watch.go"
+  ],
+  "files_b": [
+    ".github/workflows/build-images.yaml",
+    ".github/workflows/e2e-test.yaml",
+    "Makefile",
+    "pkg/neonvm/controllers/buildtag/nodelete_false.go",
+    "pkg/neonvm/controllers/buildtag/nodelete_true.go",
+    "pkg/neonvm/controllers/buildtag/tagnames.go",
+    "pkg/neonvm/controllers/vm_controller.go",
+    "pkg/neonvm/controllers/vmmigration_controller.go"
+  ]
+}
