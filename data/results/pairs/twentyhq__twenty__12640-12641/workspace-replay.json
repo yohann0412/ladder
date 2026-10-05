@@ -1,0 +1,23 @@
+{
+  "pair_id": "twentyhq__twenty__12640-12641",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/twentyhq__twenty__12640-12641",
+  "source_base": "878e1dbfd97218add3f3f00ba2df17072f9b72bf",
+  "source_a": "af9adb9f2846618c4665b9540b4a7d8aa0266dce",
+  "source_b": "58ce26e3c5f6d8fa5cababc779ebd79dffdc6071",
+  "base_commit": "593cd7e1c6578503894ca5c266842410269a641c",
+  "a_commit": "7f07a9b2ccc939ba4f1457a19688169ae2ddae1e",
+  "b_commit": "0da870d30353b90ab900b69ee8aa99efc502634a",
+  "object_count": 11269,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
