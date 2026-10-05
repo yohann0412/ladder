@@ -88,13 +88,17 @@ def with_refs(pair_set: PairSet, refs: Mapping[str, PairRefs]) -> PairSet:
 def _resolve_repo(cache: Path, pairs: list[Pair], refresh: bool) -> list[tuple[str, PairRefs]]:
     try:
         ensure_clone(pairs[0].clone_url, cache, refresh=refresh)
+        mainline = _mainline(cache)
     except GitError as error:
         failed = datetime.now(UTC)
         return [(pair.pair_id, _fetch_failed(pair, str(error), failed, None, {})) for pair in pairs]
+    return [(pair.pair_id, _resolve_pair(cache, pair, mainline)) for pair in pairs]
+
+
+def _mainline(cache: Path) -> Mainline:
     branch = default_branch(cache)
     chain = chain_log(cache, f"refs/heads/{branch}")
-    mainline = Mainline(branch, chain, frozenset(commit.sha for commit in chain))
-    return [(pair.pair_id, _resolve_pair(cache, pair, mainline)) for pair in pairs]
+    return Mainline(branch, chain, frozenset(commit.sha for commit in chain))
 
 
 def _resolve_pair(cache: Path, pair: Pair, mainline: Mainline) -> PairRefs:
@@ -108,6 +112,15 @@ def _resolve_pair(cache: Path, pair: Pair, mainline: Mainline) -> PairRefs:
             errors.append(f"#{pr.number}: {error}")
     if errors:
         return _fetch_failed(pair, "; ".join(errors), fetched_at, mainline.branch, heads)
+    try:
+        return _relate(cache, pair, mainline, heads, fetched_at)
+    except GitError as error:
+        return _fetch_failed(pair, str(error), fetched_at, mainline.branch, heads)
+
+
+def _relate(
+    cache: Path, pair: Pair, mainline: Mainline, heads: dict[Side, str], fetched_at: datetime
+) -> PairRefs:
     merges = {side: _merge_commit(mainline, heads[side], pr) for side, pr in _prs(pair)}
     rewind_a = _rewind(cache, mainline, heads["a"], merges["b"], pair.b)
     rewind_b = _rewind(cache, mainline, heads["b"], merges["a"], pair.a)

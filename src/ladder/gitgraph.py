@@ -3,9 +3,10 @@
 from dataclasses import dataclass
 from pathlib import Path
 
-from ladder.gitio import git_text, run_git
+from ladder.gitio import GitError, git_text, run_git
 
 FIELD = "\0"
+HEADS = "refs/heads/"
 
 
 @dataclass(frozen=True)
@@ -20,7 +21,10 @@ class ChainCommit:
 
 def default_branch(repo: Path) -> str:
     """Return the branch a bare clone's HEAD names, such as main."""
-    return git_text(["symbolic-ref", "--short", "HEAD"], repo)
+    ref = git_text(["symbolic-ref", "HEAD"], repo)
+    if not ref.startswith(HEADS):
+        raise GitError(f"HEAD names {ref}, not a branch under {HEADS}")
+    return ref.removeprefix(HEADS)
 
 
 def chain_log(repo: Path, ref: str) -> list[ChainCommit]:
