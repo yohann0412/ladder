@@ -1,0 +1,52 @@
+{
+  "pair_id": "twentyhq__twenty__12640-12641",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: exceeds_cap"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: exceeds_cap"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: exceeds_cap"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: exceeds_cap (install: stopped, free disk below the 3 GiB floor)",
+  "files_a": [
+    "packages/twenty-server/src/engine/object-metadata-repository/metadata-to-repository.mapping.ts",
+    "packages/twenty-server/src/modules/calendar/calendar-event-participant-manager/listeners/calendar-event-participant.listener.ts",
+    "packages/twenty-server/src/modules/messaging/message-participant-manager/listeners/message-participant.listener.ts",
+    "packages/twenty-server/src/modules/timeline/repositiories/timeline-activity.repository.ts",
+    "packages/twenty-server/src/modules/timeline/repositories/timeline-activity.repository.ts",
+    "packages/twenty-server/src/modules/timeline/services/timeline-activity.service.ts"
+  ],
+  "files_b": [
+    "packages/twenty-website/README.md"
+  ]
+}
