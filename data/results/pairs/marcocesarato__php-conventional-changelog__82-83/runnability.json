@@ -1,0 +1,15 @@
+{
+  "pair_id": "marcocesarato__php-conventional-changelog__82-83",
+  "commit": "2a153727bab28c85d54184975292a468fac269f7",
+  "language": "php",
+  "package_manager": "composer",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "php project; no adapter for php (composer is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

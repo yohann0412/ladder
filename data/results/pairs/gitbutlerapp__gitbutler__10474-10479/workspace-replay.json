@@ -1,0 +1,23 @@
+{
+  "pair_id": "gitbutlerapp__gitbutler__10474-10479",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/gitbutlerapp__gitbutler__10474-10479",
+  "source_base": "e1eeb8b2f8672031ec52a12df8cee9ea2be9be1a",
+  "source_a": "1302d71068f86418c807c796ffcd74260794d7af",
+  "source_b": "66771e4ac066c370f10739334bfd871fdc60f29e",
+  "base_commit": "6fdd463abf7049104c59d3c47d68dbf16dca1b8f",
+  "a_commit": "59c8685d7117b88ba068c709c01eea8f5a2e4d04",
+  "b_commit": "6e5e10c94ca0b40f45d6ffac93e585341f387ff9",
+  "object_count": 2675,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

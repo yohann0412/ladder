@@ -1,0 +1,70 @@
+{
+  "pair_id": "getsentry__sentry-javascript__16557-16558",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: build_fails (install: exit 1 in 3.6 s:     at ClientRequest.emit (node:events:519:28) |     at HTTPParser.parserOnIncomingClient (node:_http_client:772:27) |     at HTTPParser.parserOnHeadersComplete (node:_http_common:122:17) |     at TLSSocket.socketOnData (node:_http_client:614:22) |     at TLSSocket.emit (node:events:519:28) | info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.)",
+  "files_a": [
+    "dev-packages/browser-integration-tests/suites/tracing/metrics/pageload-measure-spans-details/init.js",
+    "dev-packages/browser-integration-tests/suites/tracing/metrics/pageload-measure-spans-details/test.ts",
+    "dev-packages/browser-integration-tests/suites/tracing/metrics/pageload-measure-spans-domexception-details/init.js",
+    "dev-packages/browser-integration-tests/suites/tracing/metrics/pageload-measure-spans-domexception-details/test.ts",
+    "dev-packages/opentelemetry-v2-tests/package.json",
+    "dev-packages/opentelemetry-v2-tests/test/helpers/isSpan.ts",
+    "dev-packages/opentelemetry-v2-tests/test/helpers/mockSdkInit.ts",
+    "dev-packages/opentelemetry-v2-tests/test/integration/transactions.test.ts",
+    "dev-packages/opentelemetry-v2-tests/test/trace.test.ts",
+    "packages/browser-utils/src/metrics/browserMetrics.ts",
+    "packages/cloudflare/src/async.ts",
+    "packages/core/src/tracing/trace.ts",
+    "packages/core/test/lib/tracing/trace.test.ts",
+    "packages/ember/README.md",
+    "packages/ember/addon/index.ts",
+    "packages/ember/addon/types.ts",
+    "packages/ember/tests/dummy/config/environment.js",
+    "packages/node/src/integrations/tracing/koa.ts",
+    "packages/node/src/integrations/tracing/vercelai/index.ts",
+    "packages/node/src/integrations/tracing/vercelai/types.ts",
+    "packages/node/test/integrations/tracing/koa.test.ts",
+    "packages/nuxt/package.json",
+    "packages/opentelemetry/test/trace.test.ts",
+    "yarn.lock"
+  ],
+  "files_b": [
+    "dev-packages/node-integration-tests/README.md"
+  ]
+}

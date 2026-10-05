@@ -1,0 +1,23 @@
+{
+  "pair_id": "PyLabRobot__pylabrobot__537-549",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/PyLabRobot__pylabrobot__537-549",
+  "source_base": "077d19bb60c8ed40d8c5e0839a77426625a343aa",
+  "source_a": "963269a4045743ece2b455fd9e736f3c5bd1c70a",
+  "source_b": "bc574146940a44d60405d4e36ba8114dadfd292a",
+  "base_commit": "b220a4fc2ddcc3996c91b63e481b58a77acebe6b",
+  "a_commit": "74dc2ea1308df95f4a41b3fff952dc3e87fbe056",
+  "b_commit": "b09ebd0b84df2301c6d12c39f97132cb4e0432b2",
+  "object_count": 791,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

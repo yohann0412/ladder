@@ -1,0 +1,71 @@
+{
+  "pair_id": "PyLabRobot__pylabrobot__537-549",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: build_fails (suite does not load at base: 8 errors)",
+  "files_a": [
+    "pylabrobot/visualizer/lib.js"
+  ],
+  "files_b": [
+    "docs/contributor_guide/index.md",
+    "docs/contributor_guide/new-concrete-backend.md",
+    "docs/contributor_guide/visualizer.md",
+    "docs/resources/carrier/mfx-carrier/mfx_carrier.ipynb",
+    "docs/user_guide/00_liquid-handling/_liquid-handling.rst",
+    "docs/user_guide/00_liquid-handling/hamilton-star/iswap-module.md",
+    "docs/user_guide/00_liquid-handling/moving-channels-around.ipynb",
+    "docs/user_guide/index.md",
+    "pylabrobot/heating_shaking/hamilton_backend.py",
+    "pylabrobot/heating_shaking/inheco_backend.py",
+    "pylabrobot/liquid_handling/backends/hamilton/STAR_backend.py",
+    "pylabrobot/liquid_handling/backends/hamilton/STAR_tests.py",
+    "pylabrobot/liquid_handling/backends/hamilton/vantage_backend.py",
+    "pylabrobot/liquid_handling/backends/hamilton/vantage_tests.py",
+    "pylabrobot/liquid_handling/backends/tecan/EVO_backend.py",
+    "pylabrobot/liquid_handling/backends/tecan/EVO_tests.py",
+    "pylabrobot/liquid_handling/liquid_handler.py",
+    "pylabrobot/liquid_handling/liquid_handler_tests.py",
+    "pylabrobot/resources/porvair/plates.py",
+    "pylabrobot/temperature_controlling/backend.py",
+    "pylabrobot/temperature_controlling/chatterbox.py",
+    "pylabrobot/temperature_controlling/opentrons_backend.py",
+    "pylabrobot/temperature_controlling/temperature_controller.py",
+    "pylabrobot/temperature_controlling/temperature_controller_tests.py",
+    "pylabrobot/visualizer/lib.js"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "marcocesarato__php-conventional-changelog__82-83",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/marcocesarato__php-conventional-changelog__82-83",
+  "source_base": "2a153727bab28c85d54184975292a468fac269f7",
+  "source_a": "d11e0ea7f0ae54fb1f1f289d2b2dd17bf36921de",
+  "source_b": "bb9045ad433abdd962cf751cee6950b88edd99ae",
+  "base_commit": "8c280da3e09ab37901a44f45c68af0c653d0850d",
+  "a_commit": "b8dd81cb7c9dc5ce221b54bf65b366ba089e38bf",
+  "b_commit": "ce877ade08ad879ccf794b3ed78b283cbe228e86",
+  "object_count": 70,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
