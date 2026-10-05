@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "pair_id": "Rello__audioplayer__626-627",
+      "step": "truth",
+      "error": "GitError: git rev-list --objects --no-object-names --no-walk --missing=print 5305a897d408debea581b1b6d43bc429d8b90333 -- CHANGELOG.md css/bar-ui.css css/bar-ui.scss js/dashboard.js js/player.js lib/Controller/PageController.php lib/Controller/ScannerController.php templates/index.php templates/part.audio.php exited 128: fatal: bad object 5305a897d408debea581b1b6d43bc429d8b90333",
+      "time": "2026-10-05T12:07:16.673835Z"
+    }
+  ]
+}

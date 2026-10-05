@@ -1,0 +1,71 @@
+{
+  "pair_id": "mariotoffia__FluentDocker__321-322",
+  "rung": "mergiraf",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "Ductus.FluentDocker/Services/Impl/DockerComposeCompositeService.cs",
+      "entity": "DockerComposeCompositeService.Pause",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "Ductus.FluentDocker/Services/Impl/DockerComposeCompositeService.cs",
+      "entity": "DockerComposeCompositeService.Pause",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "Ductus.FluentDocker.Tests/Ductus.FluentDocker.Tests.csproj",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "Ductus.FluentDocker/Services/Impl/DockerComposeCompositeService.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "DockerComposeCompositeService.Start"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "appveyor.yml",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

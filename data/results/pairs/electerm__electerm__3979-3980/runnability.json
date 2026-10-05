@@ -1,0 +1,15 @@
+{
+  "pair_id": "electerm__electerm__3979-3980",
+  "commit": "f71c13f322bab83c3573c30d2b91dfb0e037234e",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

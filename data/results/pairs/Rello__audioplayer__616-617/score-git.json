@@ -1,0 +1,93 @@
+{
+  "pair_id": "Rello__audioplayer__616-617",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "lib/Controller/MusicController.php",
+      "entity": "MusicController.__construct",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "lib/Controller/MusicController.php",
+      "entity": "MusicController.__construct",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "lib/Controller/MusicController.php",
+      "entity": "MusicController.getPublicAudioInfo",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "lib/Controller/MusicController.php",
+      "entity": "MusicController.getPublicAudioInfo",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "lib/Controller/MusicController.php",
+      "mode": "ast",
+      "language": "php",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "__construct",
+        "getAudioStream",
+        "getPublicAudioInfo"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "lib/Service/MusicService.php",
+      "mode": "ast",
+      "language": "php",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "MusicService",
+        "MusicService.__construct",
+        "MusicService.createAudioStream",
+        "MusicService.createPublicAudioStream",
+        "MusicService.getPublicAudioInfo"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

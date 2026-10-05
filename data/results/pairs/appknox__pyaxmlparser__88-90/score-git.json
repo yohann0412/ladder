@@ -1,0 +1,169 @@
+{
+  "pair_id": "appknox__pyaxmlparser__88-90",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "pyaxmlparser/exceptions.py",
+      "entity": "<rest>",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "pyaxmlparser/exceptions.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": false
+    },
+    {
+      "path": "pyaxmlparser/stringblock.py",
+      "entity": "StringBlock.getStyle",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "pyaxmlparser/stringblock.py",
+      "entity": "StringBlock._decode_bytes",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_parser.py",
+      "entity": "AXMLParserTest.test_should_remove_spaces_from_namespace_uri",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/test_parser.py",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": false
+    },
+    {
+      "path": "tests/test_parser.py",
+      "entity": "BufferValidationTest.test_buffer_underrun_handling",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": false
+    },
+    {
+      "path": "tests/test_parser.py",
+      "entity": "BufferValidationTest.test_string_pool_validation.FakeHeader.__init__",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": false
+    },
+    {
+      "path": "tests/test_parser.py",
+      "entity": "BufferValidationTest.test_malformed_axml_handling",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": false
+    },
+    {
+      "path": "tests/test_parser.py",
+      "entity": "BufferValidationTest.test_graceful_degradation",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": false
+    },
+    {
+      "path": "tests/test_parser.py",
+      "entity": "BufferValidationTest.test_working_apk_regression",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": false
+    }
+  ],
+  "files": [
+    {
+      "path": "pyaxmlparser/arscutil.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "__repr__",
+        "format_value",
+        "get_data",
+        "get_data_type",
+        "get_data_type_string",
+        "get_data_value",
+        "is_reference"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "pyaxmlparser/exceptions.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "ResParserError"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "pyaxmlparser/stringblock.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "_decode16",
+        "_decode8",
+        "_decode_bytes",
+        "_decode_length",
+        "getStyle",
+        "show"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "tests/test_parser.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "test_buffer_underrun_handling",
+        "test_graceful_degradation",
+        "test_malformed_axml_handling",
+        "test_string_pool_validation",
+        "test_string_pool_validation.FakeHeader",
+        "test_string_pool_validation.FakeHeader.__init__",
+        "test_working_apk_regression"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

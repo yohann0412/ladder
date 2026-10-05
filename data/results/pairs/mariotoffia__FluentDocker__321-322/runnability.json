@@ -1,0 +1,15 @@
+{
+  "pair_id": "mariotoffia__FluentDocker__321-322",
+  "commit": "51418e59f3f2e1ccc050054f76402045dffb1a4f",
+  "language": "csharp",
+  "package_manager": "dotnet",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "csharp project; dotnet is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
