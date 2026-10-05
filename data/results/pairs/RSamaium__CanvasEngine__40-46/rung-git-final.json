@@ -1,0 +1,23 @@
+{
+  "pair_id": "RSamaium__CanvasEngine__40-46",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in packages/core/src/components/index.ts"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "packages/core/src/components/index.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

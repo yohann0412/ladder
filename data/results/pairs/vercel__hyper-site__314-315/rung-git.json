@@ -1,0 +1,53 @@
+{
+  "pair_id": "vercel__hyper-site__314-315",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in app/layout.js",
+    "CONFLICT (add/add): Merge conflict in app/page.js",
+    "CONFLICT (content): Merge conflict in next.config.js",
+    "CONFLICT (content): Merge conflict in package.json"
+  ],
+  "types": [
+    "add/add",
+    "add/add",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "app/layout.js",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "app/page.js",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "next.config.js",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "package.json",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

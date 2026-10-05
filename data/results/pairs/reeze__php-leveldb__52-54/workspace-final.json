@@ -1,0 +1,23 @@
+{
+  "pair_id": "reeze__php-leveldb__52-54",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/reeze__php-leveldb__52-54",
+  "source_base": "70ecae7103dbfe0817740f1c2aeaed551e2f67f6",
+  "source_a": "16d37e9010d208a18715a40ef6a8ad62296fdf33",
+  "source_b": "22791bedf00d44ed8e1a4a6cc2c869c85fb819f0",
+  "base_commit": "49e4926657c616140755df672733ad1402c2fb58",
+  "a_commit": "c83d61714abb8feb07d8018313945c3d99785687",
+  "b_commit": "ce0c5b0913aa48ab33161da4f77852d702c0a9ff",
+  "object_count": 91,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

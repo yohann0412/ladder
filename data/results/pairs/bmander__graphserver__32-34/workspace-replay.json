@@ -1,0 +1,23 @@
+{
+  "pair_id": "bmander__graphserver__32-34",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/bmander__graphserver__32-34",
+  "source_base": "a4faf6d4c40eef4a394ad6999673dfa149fb50a2",
+  "source_a": "25b917e318c0a32b650585aa2315b10f1e7bf8c3",
+  "source_b": "e3e1ff46a97581452ed5fddec6f77500eccf7d9b",
+  "base_commit": "573dcd70dfcc473cb9044b5800491336a59bdb8a",
+  "a_commit": "fb7f40d4ea67c3130fa1fe454cedff9388286902",
+  "b_commit": "2952b644eda7c4512c46372dde269cdb6911873e",
+  "object_count": 262,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

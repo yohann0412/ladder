@@ -1,0 +1,23 @@
+{
+  "pair_id": "vercel__hyper-site__314-315",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/vercel__hyper-site__314-315",
+  "source_base": "23d7799e24abdc5ad78f4464bb361adb3cee6762",
+  "source_a": "d6b520839ff0857d0b70b2e278454586788c2b89",
+  "source_b": "6ab07bc6a98f47c599db6f7c0b494cab54f7ca76",
+  "base_commit": "07bfdc4147f19619c174fb2075f1296d5d3d740f",
+  "a_commit": "e646d604ef96e0d4881b7c6c20a2ba9a3a369227",
+  "b_commit": "44cc3ce554dac25afdcc499829bec8c4a8f5ff41",
+  "object_count": 250,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
