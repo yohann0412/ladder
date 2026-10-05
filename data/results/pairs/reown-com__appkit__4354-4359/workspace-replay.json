@@ -1,0 +1,23 @@
+{
+  "pair_id": "reown-com__appkit__4354-4359",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/reown-com__appkit__4354-4359",
+  "source_base": "b132f31d617b6649c1cc0e668ea464e3baad1769",
+  "source_a": "5e16400f0c7c86b7d0c4d5e4badc74f75327e8b0",
+  "source_b": "38b49974a7ba7066c241d6592a42b0b4ed93ff6f",
+  "base_commit": "4650694fd3386179a0b4c1353598e90d9e28a26a",
+  "a_commit": "8f3ec91110d4580c7c25168a230e3c52a6b6a795",
+  "b_commit": "052823965410d63366bd5e3a0bc4849e3b69fac0",
+  "object_count": 3073,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
