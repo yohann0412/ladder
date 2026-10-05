@@ -1,0 +1,262 @@
+{
+  "pair_id": "odigos-io__odigos__2962-3049",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": true,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "instrumentor/controllers/agentenabled/sync.go",
+      "entity": "containerInstrumentationConfig",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/controllers/sourceinstrumentation/instrumentedapp_migration_controller.go",
+      "entity": "InstrumentedApplicationMigrationReconciler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/controllers/sourceinstrumentation/instrumentedapp_migration_controller.go",
+      "entity": "InstrumentedApplicationMigrationReconciler.Reconcile",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "entity": "MigrationRunnable",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "entity": "MigrationRunnable.NeedLeaderElection",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "entity": "MigrationRunnable.Start",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "entity": "odigosOriginalAnnotationFound",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "entity": "MigrationRunnable.fetchAndProcessDeployments",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "entity": "MigrationRunnable.fetchAndProcessStatefulSets",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "entity": "MigrationRunnable.fetchAndProcessDaemonSets",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "entity": "handleContainerRuntimeDetailsUpdate",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "entity": "contains",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "entity": "isEnvVarPresent",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "entity": "deleteOriginalEnvAnnotationInPlace",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "entity": "getPodManifestContainerByName",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "entity": "revertOriginalEnvAnnotationInPlace",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "entity": "MigrationRunnable.handleSingleWorkload",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "entity": "getPodTemplateSpecByWorkloadType",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "entity": "getWorkloadKindByWorkloadType",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/utils.go",
+      "entity": "revertInstrumentationDevices",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/utils.go",
+      "entity": "removeInjectInstrumentationLabel",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "instrumentor/controllers/agentenabled/instrumentationconfig_controller.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/pods_webhook.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/rollout/rollout.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/sync.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "instrumentor/controllers/sourceinstrumentation/instrumentedapp_migration_controller.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "instrumentor/instrumentor.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "instrumentor/runtimemigration/utils.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

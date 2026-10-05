@@ -1,0 +1,42 @@
+{
+  "pair_id": "Significant-Gravitas__AutoGPT__9958-10340",
+  "rung": "weave",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": true,
+  "intent_preserved_b": true,
+  "intent_drops": [],
+  "files": [
+    {
+      "path": "autogpt_platform/backend/backend/blocks/exa/search.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": false,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/exa/similar.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}
