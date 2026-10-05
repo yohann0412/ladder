@@ -1,0 +1,23 @@
+{
+  "pair_id": "project-numina__kimina-lean-server__20-21",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/project-numina__kimina-lean-server__20-21",
+  "source_base": "2aadfcb7aae921ced168a08004e73e360b5641f6",
+  "source_a": "4daf531bef14140df33ddc1e22cb98fce5ce8bdd",
+  "source_b": "5fe05aabfc5f9ebc23665ece5580e5cca0c67ca0",
+  "base_commit": "a07b97f2e116ef8ac5ed0e05eb29e79a32ead874",
+  "a_commit": "65b2698235f847cb8174a730ec23d1d3143d8b35",
+  "b_commit": "0f57d2b7edda268629dca074ddf38fa693774dd4",
+  "object_count": 66,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "liam-hq__liam__685-689",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/liam-hq__liam__685-689",
+  "source_base": "f7c177c77bad455135e8a430f031ae18708ccc73",
+  "source_a": "a8a7421a3fa8397f23610776a70b45366fc941e0",
+  "source_b": "a4339aec68b5234f32e3ec5f139f079d0cde317d",
+  "base_commit": "b1c75be598f7a1be4cc202b3ab703b2c57f033a3",
+  "a_commit": "edd1c39a85e339234e3e1de00f4b842c44a97ddd",
+  "b_commit": "8efc9ccf240a6867b2c38c48d0744dfac26f9959",
+  "object_count": 760,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

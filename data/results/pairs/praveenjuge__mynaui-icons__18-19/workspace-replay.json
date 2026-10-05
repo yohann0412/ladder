@@ -1,0 +1,23 @@
+{
+  "pair_id": "praveenjuge__mynaui-icons__18-19",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/praveenjuge__mynaui-icons__18-19",
+  "source_base": "39547ff9666bc7b120f2066e4be848eb2cea1b12",
+  "source_a": "8e9264030cdebea6a91fd369f33a9000966f832c",
+  "source_b": "4d225e0bb8d7706d79d0dd3cde30ea6038fc2716",
+  "base_commit": "b4f620611b36b5b3a1115f6eaadf1017d7e4d050",
+  "a_commit": "1a1ef907f55e4d9f89aa6306fd680b9ac185cc44",
+  "b_commit": "1d6d30f43948f7350058c4901695fcb6096e2be6",
+  "object_count": 2544,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "praveenjuge__mynaui-icons__18-19",
+  "commit": "39547ff9666bc7b120f2066e4be848eb2cea1b12",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

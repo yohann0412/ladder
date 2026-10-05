@@ -1,0 +1,15 @@
+{
+  "pair_id": "liam-hq__liam__685-689",
+  "commit": "f7c177c77bad455135e8a430f031ae18708ccc73",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
