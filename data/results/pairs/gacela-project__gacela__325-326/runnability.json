@@ -1,0 +1,15 @@
+{
+  "pair_id": "gacela-project__gacela__325-326",
+  "commit": "50af1b83504395f8d8a9f1ea943aaf791b5268d4",
+  "language": "php",
+  "package_manager": "composer",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "php project; no adapter for php (composer is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

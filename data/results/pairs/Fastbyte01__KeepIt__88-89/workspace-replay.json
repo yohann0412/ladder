@@ -1,0 +1,23 @@
+{
+  "pair_id": "Fastbyte01__KeepIt__88-89",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Fastbyte01__KeepIt__88-89",
+  "source_base": "176864f9cd3c101d1a83347ea7e1b0eb009cea39",
+  "source_a": "1f81706d9ec62a53ce479af76f3a7089f2a2f3c4",
+  "source_b": "24849214e9189721bd5fdfaa706543961e611c23",
+  "base_commit": "dae0e8f3a1434cf41f7c241191f1b4f993f23f6e",
+  "a_commit": "f4fbc825820e3ebc0ea9ca01e4ae13d9f0d49ca5",
+  "b_commit": "a3c54c040b62b12b781fc3e5b5b7eba45036a2f1",
+  "object_count": 17004,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

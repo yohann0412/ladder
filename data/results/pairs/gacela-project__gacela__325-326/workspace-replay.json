@@ -1,0 +1,23 @@
+{
+  "pair_id": "gacela-project__gacela__325-326",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/gacela-project__gacela__325-326",
+  "source_base": "50af1b83504395f8d8a9f1ea943aaf791b5268d4",
+  "source_a": "3730b964f360a06409cf46be310a55a27a924f09",
+  "source_b": "1bee0b653dad13bf2234fb11645fb97382ce6480",
+  "base_commit": "5ea5e0bad507c98a271583d488278f60bac1be1e",
+  "a_commit": "d33028a1c9c7e95e52e7778ed6664f622e67cf88",
+  "b_commit": "9e0c183d85b9c3d1a0c182bc9c77af954ae37927",
+  "object_count": 955,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
