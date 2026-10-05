@@ -1,0 +1,38 @@
+{
+  "pair_id": "apideck-libraries__postman-to-k6__148-149",
+  "commit": "28bacfac676f689d4018fb87e96f37bebb3402d6",
+  "language": "node",
+  "package_manager": "yarn",
+  "test_runner": "jest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 1 in 14.8 s: [4/4] Building fresh packages... | $ node scripts/bundle.js | $ husky install | .git can't be found (see https://git.io/Jc3F9) | error Command failed with exit code 1. | info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "yarn",
+        "install",
+        "--frozen-lockfile",
+        "--non-interactive"
+      ],
+      "exit_code": 1,
+      "duration_s": 36.5,
+      "detail": "standard, install cap 900 s: install: exit 1 in 36.5 s; output tail: warning \"@babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex@7.8.3\" has unmet peer dependency \"@babel/core@^7.0.0-0\". | warning \" > @babel/register@7.15.3\" has unmet peer dependency \"@babel/core@^7.0.0-0\". | [5/5] Building fresh packages... | $ node scripts/bundle.js | $ husky install | .git can't be found (see https://git.io/Jc3F9) | error Command failed with exit code 1. | info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command."
+    },
+    {
+      "command": [
+        "yarn",
+        "install",
+        "--non-interactive",
+        "--ignore-engines"
+      ],
+      "exit_code": 1,
+      "duration_s": 14.8,
+      "detail": "unfrozen (yarn install with the lockfile unfrozen and engines ignored), install cap 900 s: install: exit 1 in 14.8 s; output tail: warning \"@babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex@7.8.3\" has unmet peer dependency \"@babel/core@^7.0.0-0\". | warning \" > @babel/register@7.15.3\" has unmet peer dependency \"@babel/core@^7.0.0-0\". | [4/4] Building fresh packages... | $ node scripts/bundle.js | $ husky install | .git can't be found (see https://git.io/Jc3F9) | error Command failed with exit code 1. | info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command."
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

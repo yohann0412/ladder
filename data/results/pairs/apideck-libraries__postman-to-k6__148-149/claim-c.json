@@ -1,0 +1,53 @@
+{
+  "pair_id": "apideck-libraries__postman-to-k6__148-149",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: build_fails (install: exit 1 in 14.8 s: [4/4] Building fresh packages... | $ node scripts/bundle.js | $ husky install | .git can't be found (see https://git.io/Jc3F9) | error Command failed with exit code 1. | info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.)",
+  "files_a": [
+    "CHANGELOG.md",
+    "README.md",
+    "lib/shim/core.js",
+    "test/unit/shim/skip-request.js",
+    "tests/unit/shim/skip-request.test.js"
+  ],
+  "files_b": [
+    "lib/shim/core.js",
+    "test/stub/http.jest.js",
+    "test/stub/k6.jest.js"
+  ]
+}
