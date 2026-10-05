@@ -6,7 +6,7 @@ from rich.console import Console
 from rich.markup import escape
 
 from ladder.resolver_records import run_label
-from ladder.schemas import ResolverPlan, ResolverTask
+from ladder.schemas import ResolverPlan, ResolverRun, ResolverTask
 
 
 def render_plan(console: Console, plan: ResolverPlan) -> None:
@@ -42,3 +42,14 @@ def render_pending(console: Console, tasks: Sequence[ResolverTask]) -> None:
     for task in tasks:
         label = run_label(task.rung, task.run)
         console.print(escape(f"{task.pair_id} {label}: {task.spawn_line}"))
+
+
+def render_run(console: Console, record: ResolverRun) -> None:
+    """Print a run record's outcome and every violation."""
+    label = f"{record.pair_id} {run_label(record.rung, record.run)}"
+    outcome = "ok" if record.failure is None else f"failed ({record.failure})"
+    console.print(
+        f"{label}: {outcome}; tool calls: {record.tool_calls}; files: {len(record.files)}"
+    )
+    for violation in record.violations:
+        console.print(f"  {escape(violation)}")

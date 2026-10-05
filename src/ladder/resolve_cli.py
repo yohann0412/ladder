@@ -1,5 +1,6 @@
 """The `ladder resolve` commands: plan, prepare, audit and ingest resolver subagent runs."""
 
+from pathlib import Path
 from typing import Annotated
 
 import typer
@@ -8,12 +9,19 @@ from rich.markup import escape
 
 from ladder.cli_support import PairArgument, load_pair, refused
 from ladder.context import layout_from
+from ladder.finalize import finalize_run
 from ladder.jsonio import read_record
 from ladder.plan import plan_pair, sample_double
 from ladder.prepare import prepare_run
 from ladder.refusal import RefusedError
 from ladder.resolver_records import pending_tasks
-from ladder.resolver_view import render_pending, render_plan, render_sample, render_task
+from ladder.resolver_view import (
+    render_pending,
+    render_plan,
+    render_run,
+    render_sample,
+    render_task,
+)
 from ladder.schemas import LlmRung, PairSet
 
 app = typer.Typer(
@@ -79,3 +87,28 @@ def pending(ctx: typer.Context) -> None:
     if not tasks:
         Console(stderr=True).print("No pending resolver tasks.")
     render_pending(Console(soft_wrap=True, highlight=False), tasks)
+
+
+@app.command()
+def finalize(
+    ctx: typer.Context,
+    pair_id: PairArgument,
+    rung: RungOption,
+    run: RunOption,
+    *,
+    transcript: Annotated[
+        Path | None, typer.Option(dir_okay=False, help="The subagent's transcript, JSON lines.")
+    ] = None,
+    no_transcript: Annotated[
+        bool, typer.Option("--no-transcript", help="No transcript exists: audit impossible.")
+    ] = False,
+) -> None:
+    """Audit a finished resolver run and record it with its output; failures are recorded too."""
+    if (transcript is not None) == no_transcript:
+        raise typer.BadParameter("pass exactly one of --transcript and --no-transcript")
+    layout = layout_from(ctx)
+    try:
+        record = finalize_run(layout, pair_id, rung, run, transcript)
+    except RefusedError as error:
+        raise refused(error) from error
+    render_run(Console(soft_wrap=True, highlight=False), record)
