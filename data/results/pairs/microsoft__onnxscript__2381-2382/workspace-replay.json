@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__onnxscript__2381-2382",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/microsoft__onnxscript__2381-2382",
+  "source_base": "b76e1b324bf3ce955cf7823a3b680ed4831a3209",
+  "source_a": "50d86f16a4be3ebd861974491c19511a9a8878fb",
+  "source_b": "690aa9562682a0ed977380efd300c545a79aa336",
+  "base_commit": "dadf37443858c9a0f0d74e130c9b61ff1b3ffffa",
+  "a_commit": "6796f1ddd21b0cbe5d90a1322d3a3989878cd352",
+  "b_commit": "b54598a362b8552be345a37dca5fa49fda6b1a93",
+  "object_count": 1031,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

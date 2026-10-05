@@ -1,0 +1,66 @@
+{
+  "pair_id": "Yamashou__gqlgenc__289-290",
+  "a": {
+    "status": "passed",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 171,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 4.5,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 171 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "b": {
+    "status": "passed",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 171,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 4.5,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 171 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "merge": {
+    "status": "passed",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 171,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 4.3,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 171 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "fails_together": false,
+  "excluded_reason": null,
+  "files_a": [
+    "PERFORMANCE_ANALYSIS_REPORT.md",
+    "clientgenv2/template.go"
+  ],
+  "files_b": [
+    "clientv2/client.go"
+  ]
+}
