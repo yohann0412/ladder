@@ -1,0 +1,23 @@
+{
+  "pair_id": "vltpkg__vltpkg__845-847",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/vltpkg__vltpkg__845-847",
+  "source_base": "d36a8ecd795e5ef5f4bd8ca8f549623a2e19ce43",
+  "source_a": "e1e8aa5918a27e6a1af8929ff4f27a62025ff9b4",
+  "source_b": "966c20b72a3238cd8b7e84b135e5b0b6b8ac0f21",
+  "base_commit": "ce2afc01c9ef63c3455a5c3cc700f1d7c26abf39",
+  "a_commit": "55bfbbf246788e82c6736e077635f71276df800d",
+  "b_commit": "c23ae1cdc3a662fc87586582e4796416dc32bdcb",
+  "object_count": 1776,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

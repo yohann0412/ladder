@@ -1,0 +1,15 @@
+{
+  "pair_id": "vltpkg__vltpkg__845-847",
+  "commit": "d36a8ecd795e5ef5f4bd8ca8f549623a2e19ce43",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "trueai-org__midjourney-proxy__86-87",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/trueai-org__midjourney-proxy__86-87",
+  "source_base": "8076a82daa7b07127f44c52bb10800f29ccc3529",
+  "source_a": "9e9318275e8d642698a3a0ed5ed61461e6340ac0",
+  "source_b": "85ad4987e75e0faf5f575676a8efcf574e1b256d",
+  "base_commit": "2ac3f3f61b7a6d2eef368449ad354b730ca4748d",
+  "a_commit": "48b50d00283fd8dfb7c157ce6d3a110c8a82d046",
+  "b_commit": "904a984038b8708dd993f28c74abcc93d052bb81",
+  "object_count": 413,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

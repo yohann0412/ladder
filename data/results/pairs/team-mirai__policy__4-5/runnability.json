@@ -1,0 +1,15 @@
+{
+  "pair_id": "team-mirai__policy__4-5",
+  "commit": "23c83b9cb57ed32b6bb660e3f8b0fd62cc440dd4",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

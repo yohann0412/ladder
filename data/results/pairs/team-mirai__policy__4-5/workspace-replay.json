@@ -1,0 +1,23 @@
+{
+  "pair_id": "team-mirai__policy__4-5",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/team-mirai__policy__4-5",
+  "source_base": "23c83b9cb57ed32b6bb660e3f8b0fd62cc440dd4",
+  "source_a": "f90ebe49714eb74dee0cbe48e62d0b97565fb088",
+  "source_b": "b2701f91a2dd55c8cc9d93d12dd596231794cb48",
+  "base_commit": "3bf201438e5c44ea2b809af02c637415408769c6",
+  "a_commit": "d4524a3e0de7801c411cad12d8fcdc3c5b3df199",
+  "b_commit": "e54a210ae9efdf59479bb6a819a6e32679158194",
+  "object_count": 39,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
