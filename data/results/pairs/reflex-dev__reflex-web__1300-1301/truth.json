@@ -1,0 +1,18 @@
+{
+  "pair_id": "reflex-dev__reflex-web__1300-1301",
+  "status": "located",
+  "commit": "5cc0d89cbe4abc097c91ffd0f2e9472b03a9e371",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "pcweb/whitelist.py",
+      "present": true,
+      "sha256": "4ba7466c2ff55c0cb9425d1c8f7537c9be944be00bc6cf7cd8128ce460c1cf4d"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T12:36:10.216098Z"
+}
