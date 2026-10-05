@@ -249,3 +249,15 @@ Newest at the bottom.
   fact would weaken that rule even when the cause is outside the resolver. These failures
   count against the LLM rung, so recording them can only make Claim A look worse, never
   better.
+
+## D22. Overlapping preparation and resolvers for the double run
+
+- Problem: preparing the 30 double-run pairs stops at the 10 GiB floor after a few pairs,
+  and settled pairs can only be pruned once their run 2 is done. Keeping D21's "no
+  preparation while a resolver runs" would mean one small batch at a time.
+- Choice: for the double run only, resolvers are started as soon as their task is
+  prepared, while preparation continues. The 10 GiB floor still applies before each pair.
+  Each of these pairs takes about 1 GB of working copies.
+- Reason: D21 protects resolver writes from a full disk. The floor checked before each
+  pair, together with the small pairs, gives the same protection. Resolver outputs are
+  kilobytes.
