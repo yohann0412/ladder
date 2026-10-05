@@ -1,0 +1,23 @@
+{
+  "pair_id": "OrchardCMS__OrchardCore__18179-18184",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/OrchardCMS__OrchardCore__18179-18184",
+  "source_base": "cd83239407854b1005b58c7c0c243645e192a42f",
+  "source_a": "a5587abeca41a900641eea9dd122ad42913f2d26",
+  "source_b": "25eaa06c64d8fd8b3c25c34dbea0b065f1e94757",
+  "base_commit": "16d9c7953b5a6da6fff7b3c02838efbeb62b6700",
+  "a_commit": "9d75775dc2159676391e2ab4526a32a965a8fdf8",
+  "b_commit": "3f1eef905486c8b02f556ad711f8a1707f5cd86b",
+  "object_count": 11105,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

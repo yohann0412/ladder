@@ -1,0 +1,15 @@
+{
+  "pair_id": "OrchardCMS__OrchardCore__18179-18184",
+  "commit": "cd83239407854b1005b58c7c0c243645e192a42f",
+  "language": "node",
+  "package_manager": "yarn",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
