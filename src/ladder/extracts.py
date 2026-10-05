@@ -18,9 +18,14 @@ PrKey = tuple[str, int]
 
 
 class AidevPr(Record):
-    """One AIDev pull request a paper pair names; revision None means no revision had it."""
+    """One AIDev pull request a paper pair names; revision None means no revision had it.
+
+    `repo` is the replay CSV's repository name (the lookup key); `repo_now` is the
+    repository's full name in the revision the row came from, which differs after a rename.
+    """
 
     repo: str
+    repo_now: str | None
     number: int
     id: int | None
     agent: str | None
@@ -41,9 +46,15 @@ class AidevPr(Record):
 
 
 class AidevRepo(Record):
-    """One AIDev repository a paper pair lives in; revision None means no revision had it."""
+    """One AIDev repository a paper pair lives in; revision None means no revision had it.
+
+    `full_name` is the replay CSV's name (the lookup key); `full_name_now` is the name in the
+    revision the row came from, which differs after a rename.
+    """
 
     full_name: str
+    full_name_now: str | None
+    id: int | None
     stars: int | None
     forks: int | None
     language: str | None
@@ -56,6 +67,7 @@ def missing_pr(key: PrKey) -> AidevPr:
     """Return the placeholder row of a PR that no dataset revision has."""
     return AidevPr(
         repo=key[0],
+        repo_now=None,
         number=key[1],
         id=None,
         agent=None,
@@ -75,6 +87,8 @@ def missing_repo(full_name: str) -> AidevRepo:
     """Return the placeholder row of a repository that no dataset revision has."""
     return AidevRepo(
         full_name=full_name,
+        full_name_now=None,
+        id=None,
         stars=None,
         forks=None,
         language=None,

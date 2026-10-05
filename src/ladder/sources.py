@@ -5,10 +5,13 @@ from pathlib import Path
 
 from ladder.aidev import (
     DATASET,
-    FALLBACK_REVISIONS,
+    FALLBACK_REVISION,
+    PRIMARY_REVISION,
     TABLES,
     Revision,
-    resolve_revision,
+    recover_prs,
+    recover_repos,
+    resolve_commit,
     select_prs,
     select_repos,
     table_url,
@@ -22,7 +25,6 @@ from ladder.extracts import (
     SOURCES_MD,
     AidevPr,
     AidevRepo,
-    PrKey,
     missing_pr,
     missing_repo,
     write_rows,
@@ -43,24 +45,30 @@ class FetchResult:
 
 
 def fetch_sources(out: Path, downloads: Path) -> FetchResult:
-    """Download the replication package and the AIDev tables, then write the extracts into out."""
+    """Download the replication package and the AIDev tables, then write the extracts into out.
+
+    Rows come from the primary revision by name. A PR or repository it lacks under the
+    replay CSV's name is looked up in the fallback revision to learn its id, and the primary
+    revision's row with that id is used when there is one (the repository was renamed);
+    otherwise the fallback row is kept.
+    """
     files = [fetch_replication_package(downloads, out)]
     rows = read_replay(out / REPLAY_CSV)
     pr_keys = {key for row in rows for key in row.keys}
     repo_names = {row.repo for row in rows}
-    prs: dict[PrKey, AidevPr] = {}
-    repos: dict[str, AidevRepo] = {}
-    revisions: list[Revision] = []
-    for name in FALLBACK_REVISIONS:
-        if pr_keys <= prs.keys() and repo_names <= repos.keys():
-            break
-        revision = resolve_revision(name)
-        tables = downloads / "aidev" / revision.sha
-        files += [_fetch_table(revision, table, tables) for table in TABLES]
-        prs.update((pr.key, pr) for pr in select_prs(tables, revision, pr_keys - prs.keys()))
-        new_repos = select_repos(tables, revision, repo_names - repos.keys())
-        repos.update((repo.full_name, repo) for repo in new_repos)
-        revisions.append(revision)
+    primary, primary_files = _fetch_revision(PRIMARY_REVISION, downloads)
+    files += primary_files
+    revisions = [primary]
+    prs = {pr.key: pr for pr in select_prs(primary, pr_keys)}
+    repos = {repo.full_name: repo for repo in select_repos(primary, repo_names)}
+    if not (pr_keys <= prs.keys() and repo_names <= repos.keys()):
+        fallback, fallback_files = _fetch_revision(FALLBACK_REVISION, downloads)
+        files += fallback_files
+        revisions.append(fallback)
+        recovered_prs = recover_prs(primary, fallback, pr_keys - prs.keys())
+        recovered_repos = recover_repos(primary, fallback, repo_names - repos.keys())
+        prs.update((pr.key, pr) for pr in recovered_prs)
+        repos.update((repo.full_name, repo) for repo in recovered_repos)
     prs.update((key, missing_pr(key)) for key in pr_keys - prs.keys())
     repos.update((name, missing_repo(name)) for name in repo_names - repos.keys())
     result = FetchResult(
@@ -73,10 +81,15 @@ def fetch_sources(out: Path, downloads: Path) -> FetchResult:
     return result
 
 
-def _fetch_table(revision: Revision, table: str, tables: Path) -> SourceFile:
-    url = table_url(revision, table)
-    md5 = download(url, tables / table)
-    return SourceFile(name=f"{DATASET}@{revision.name}/{table}", url=url, md5=md5)
+def _fetch_revision(name: str, downloads: Path) -> tuple[Revision, list[SourceFile]]:
+    sha = resolve_commit(name)
+    revision = Revision(name=name, sha=sha, tables=downloads / "aidev" / sha)
+    files: list[SourceFile] = []
+    for table in TABLES:
+        url = table_url(revision, table)
+        md5 = download(url, revision.tables / table)
+        files.append(SourceFile(name=f"{DATASET}@{name}/{table}", url=url, md5=md5))
+    return revision, files
 
 
 def _write(out: Path, result: FetchResult) -> None:
