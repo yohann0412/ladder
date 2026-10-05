@@ -212,3 +212,22 @@ Newest at the bottom.
 - Reason: a seeded random prefix is an unbiased sample of the population whatever its
   length, and the order is fixed before any outcome exists. Full argument in
   `reviews/protocol-phase4.md`.
+
+## D20. Resolvers that read their own output (before any truth extraction)
+
+- Problem: in waves 1 and 2, 8 of 60 finalized resolver runs failed the audit, every one
+  for the same reason: after writing, the resolver used Read or Grep on a file in its own
+  output directory to check what it wrote. The prompt forbids reads outside the task
+  directory, the output directory is outside it, and the audit applies the written rule
+  correctly. These reads cannot leak the human resolution, because the output directory
+  holds only what the run itself wrote.
+- Choice: the protocol stays as written. Those runs are `failed: protocol_violation` in
+  every primary number, nothing is re-run, and the template does not change. The report
+  states how many LLM runs failed only because of reads under their own output directory.
+  It also gives the Claim A verdict under a best-case bound, where every such pair counts
+  as human-equivalent. If the bound would change the verdict, the outputs of those runs
+  (already ingested by `finalize`) are scored as a separately labeled sensitivity cut;
+  otherwise the bound is enough.
+- Reason: changing the rule after seeing which runs break it would be a post-hoc protocol
+  change. Reporting the bound shows a reader how much the rule costs without letting it
+  move the primary result. Decided before any truth file exists.
