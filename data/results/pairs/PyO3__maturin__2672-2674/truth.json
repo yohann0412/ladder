@@ -1,0 +1,18 @@
+{
+  "pair_id": "PyO3__maturin__2672-2674",
+  "status": "located",
+  "commit": "9a077e19e16809ecfdcb53b74c7d0554f6c1ae01",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "src/new_project.rs",
+      "present": true,
+      "sha256": "a527d58cd5cb8b7ecf7682cc4f9145a7a8739089fa40ee85db87c8f8cb53e8dc"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:37:40.301354Z"
+}

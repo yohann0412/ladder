@@ -1,0 +1,77 @@
+{
+  "pair_id": "translate__translate__5753-5754",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": false,
+  "human_equivalent_unordered": false,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "tests/translate/convert/test_po2html.py",
+      "entity": "TestPO2Html.test_lang_attribute_only_on_html_tag",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/translate/convert/test_po2html.py",
+      "entity": "TestPO2Html.test_button_translation",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/translate/storage/test_html.py",
+      "entity": "TestHTMLExtraction.test_extraction_lang_attribute",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tests/translate/storage/test_html.py",
+      "entity": "TestHTMLExtraction.test_extraction_button",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "tests/translate/convert/test_po2html.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "test_button_translation",
+        "test_lang_attribute_only_on_html_tag"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9538
+    },
+    {
+      "path": "tests/translate/storage/test_html.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "test_extraction_button",
+        "test_extraction_lang_attribute"
+      ],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9167
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}
