@@ -1,0 +1,42 @@
+{
+  "pair_id": "fregante__chrome-webstore-upload__107-108",
+  "commit": "4ac5abdc809ca862b75844b359bb51d81737529b",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": "vitest",
+  "status": "runnable",
+  "reason": null,
+  "reason_detail": "",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "npm",
+        "install"
+      ],
+      "exit_code": 0,
+      "duration_s": 33.0,
+      "detail": "standard, install cap 900 s: install: exit 0 in 30.0 s; suite passed: 17 passed, 0 failed, 0 errors, 2 skipped"
+    }
+  ],
+  "test_count": 19,
+  "base_outcome": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/fregante__chrome-webstore-upload__107-108/trees/base/node_modules/.bin/vitest",
+      "run",
+      "--coverage.enabled=false",
+      "--reporter=json",
+      "--outputFile=/home/user/ladder/work/runtime/fregante__chrome-webstore-upload__107-108/reports/base-attempt-1/run-1.report"
+    ],
+    "passed": 17,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 2,
+    "duration_s": 3.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "17 passed, 0 failed, 0 errors, 2 skipped"
+  },
+  "timeout_s": 600
+}

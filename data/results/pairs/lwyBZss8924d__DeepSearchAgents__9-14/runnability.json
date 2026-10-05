@@ -1,0 +1,33 @@
+{
+  "pair_id": "lwyBZss8924d__DeepSearchAgents__9-14",
+  "commit": "a72b72033bb9364d762c22c6f85cce1b3491e457",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "exceeds_cap",
+  "reason_detail": "install: stopped, free disk below the 3 GiB floor",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/trees/base[dev,test]",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": null,
+      "duration_s": 34.2,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.2 s; install: stopped, free disk below the 3 GiB floor; output tail:    Building wikipedia-api==0.8.1 |    Building litellm==1.65.4.post1 |       Built wikipedia-api==0.8.1 |    Building markupsafe==2.1.5 |       Built markupsafe==2.1.5 |  Downloading gradio |       Built litellm==1.65.4.post1 | stopped: 3.0 GiB free under /home/user/ladder/work/runtime/lwyBZss8924d__DeepSearchAgents__9-14/trees/base, below the 3 GiB floor set by LADDER_MIN_FREE_GIB"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

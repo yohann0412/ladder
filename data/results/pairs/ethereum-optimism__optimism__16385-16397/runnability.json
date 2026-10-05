@@ -1,0 +1,29 @@
+{
+  "pair_id": "ethereum-optimism__optimism__16385-16397",
+  "commit": "5fba9dc7f04be2cf3a17e0f3f29579592b56c51e",
+  "language": "go",
+  "package_manager": "go modules",
+  "test_runner": "go test",
+  "status": "unrunnable",
+  "reason": "exceeds_cap",
+  "reason_detail": "build: stopped, free disk below the 3 GiB floor",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "go",
+        "test",
+        "-count=1",
+        "-run",
+        "^$",
+        "./..."
+      ],
+      "exit_code": null,
+      "duration_s": 564.3,
+      "detail": "standard, install cap 900 s: install: exit 0 in 39.3 s; build: stopped, free disk below the 3 GiB floor; output tail: ok  \tgithub.com/ethereum-optimism/optimism/op-e2e/e2eutils/intentbuilder\t0.063s [no tests to run] | ?   \tgithub.com/ethereum-optimism/optimism/op-e2e/e2eutils/opnode\t[no test files] | ?   \tgithub.com/ethereum-optimism/optimism/op-e2e/e2eutils/receipts\t[no test files] | ?   \tgithub.com/ethereum-optimism/optimism/op-e2e/e2eutils/services\t[no test files] | ?   \tgithub.com/ethereum-optimism/optimism/op-e2e/e2eutils/setuputils\t[no test files] | ?   \tgithub.com/ethereum-optimism/optimism/op-e2e/e2eutils/transactions\t[no test files] | ?   \tgithub.com/ethereum-optimism/optimism/op-e2e/e2eutils/wait\t[no test files] | stopped: 3.0 GiB free under /home/user/ladder/work/runtime/ethereum-optimism__optimism__16385-16397/trees/base, below the 3 GiB floor set by LADDER_MIN_FREE_GIB"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "pushpak1300__ai-chat__4-5",
+  "commit": "356318110c48ebc110a7a7374e6c527b7f4dad2c",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

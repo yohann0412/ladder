@@ -1,0 +1,23 @@
+{
+  "pair_id": "fregante__chrome-webstore-upload__107-108",
+  "status": "located",
+  "commit": "73ba69cd0f51ded2857c6c53a32cdd6b7ccf8c30",
+  "method": "absorption",
+  "files": [
+    {
+      "path": ".gitignore",
+      "present": true,
+      "sha256": "08c0c170887d1de5d679eacf42eb66399c0f50eb5f7fd0a775d14956be03a62e"
+    },
+    {
+      "path": "source/index.ts",
+      "present": true,
+      "sha256": "4cd475b2890045f900123f8b4bbbd659728f24ae10e44f3d6baf805c5797e9df"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T12:41:29.279330Z"
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "johnpapa__shopathome__217-219",
+  "commit": "c6824439e52a847f050f67fa821a605bd362dead",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
