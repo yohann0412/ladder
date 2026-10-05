@@ -1,0 +1,23 @@
+{
+  "pair_id": "PriorLabs__TabPFN__343-344",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/PriorLabs__TabPFN__343-344",
+  "source_base": "6102d8b175c5e66c4790469be2b8d9ec034c6a68",
+  "source_a": "d46d35efe1ca6f082a5eafb8c5b59cf03f0bc551",
+  "source_b": "92aa025d41efa22c7d76d20bad3291b4e572aade",
+  "base_commit": "32274f8c77bee2a871cd9b44aa3cc49803bf5aa8",
+  "a_commit": "cfbf6348d5e5a970353bfb172cdcf8d9d098e71e",
+  "b_commit": "d5fe0ca581351bb0dd3f1536bafbf82c8603e687",
+  "object_count": 92,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
