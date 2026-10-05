@@ -546,3 +546,14 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
     are often artifacts, though other changes in the same output are really unresolved.
   - `data/results/calibration.json` holds every verdict with a note. D24 records how the
     report presents this next to Claim B.
+- 14:44: the D23 redo split into two processes after its first pair (flyctl, now
+  runnable). By 14:51 free disk was 3.9 GiB. The Go process was on flow-go (6.0 GB of
+  runtime). The other process was on `PRQL__prql__5286-5287`, a Rust Claim C pair with
+  6.9 GB of runtime. Splitting by language had wrongly assumed only the Go pairs were
+  large. Three leftovers no process used were deleted:
+  - kanister's 3.5 GB runtime, left by the final pass (that pair is in the redo and gets
+    rebuilt);
+  - the cal.com copies, left by the Claim C wave paused at 14:08;
+  - my own pytest temp directories and the shared uv cache.
+  That brought free disk back to 6.2 GiB. A monitor now reports any drop below 4.5 GiB.
+  Any redo record that stops at the floor again stays, as D23 says.
