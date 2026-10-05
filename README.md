@@ -18,7 +18,19 @@ merge. The pairs come from the replication package of the agent-PR merge-conflic
 study (Zenodo 10.5281/zenodo.21186464), plus a supplementary sample drawn from AIDev by a
 fixed rule.
 
-**Results are in [RESULTS.md](RESULTS.md).**
+**Results are in [RESULTS.md](RESULTS.md); what could be wrong with them is in
+[reviews/results.md](reviews/results.md).** In short, over 224 conflicting agent-PR pairs:
+
+- **Claim A (the ladder resolves >= 90% the way maintainers did): falsified.** The
+  practical ladder's accepted output matched the maintainers' merge in 22 of 78 pairs that
+  have one (28%, 95% CI 19-39%). The oracle ladder reaches 36% and the best-case bound 40%.
+  Human-equivalence was confirmed in 20 of 20 sampled verdicts.
+- **Claim B (the LLM silently drops a PR's intent in >= 15% of pairs): holds by the
+  pre-registered rule (36%), but calibration does not support it.** A reviewer agreed with
+  0 of 6 sampled intent-dropped verdicts on LLM outputs. The line-based intent check misreads
+  merges that combine or re-implement both sides.
+- **Claim C (pairs that pass alone and fail together):** still running when this was
+  written; see RESULTS.md.
 
 ## 30-second quickstart
 
