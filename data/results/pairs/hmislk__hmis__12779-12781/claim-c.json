@@ -1,0 +1,48 @@
+{
+  "pair_id": "hmislk__hmis__12779-12781",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: other (java project; no adapter for java (mvn is installed))",
+  "files_a": [
+    "src/main/java/com/divudi/bean/hr/StaffSalaryController.java"
+  ],
+  "files_b": [
+    "pom.xml",
+    "src/main/java/com/divudi/bean/pharmacy/PharmacyDirectPurchaseController.java"
+  ]
+}

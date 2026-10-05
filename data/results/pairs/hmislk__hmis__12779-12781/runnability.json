@@ -1,0 +1,15 @@
+{
+  "pair_id": "hmislk__hmis__12779-12781",
+  "commit": "c4a0bc2926f1609c121e07fe45b9ea22ed152c4d",
+  "language": "java",
+  "package_manager": "mvn",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "java project; no adapter for java (mvn is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

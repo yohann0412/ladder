@@ -1,0 +1,15 @@
+{
+  "pair_id": "hazzik__DelegateDecompiler__268-270",
+  "commit": "80dac1f21bd6e33a37fef688e10ab1be58f9b910",
+  "language": "csharp",
+  "package_manager": "dotnet",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "csharp project; dotnet is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

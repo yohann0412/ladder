@@ -1,0 +1,23 @@
+{
+  "pair_id": "hazzik__DelegateDecompiler__268-270",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/hazzik__DelegateDecompiler__268-270",
+  "source_base": "80dac1f21bd6e33a37fef688e10ab1be58f9b910",
+  "source_a": "8ecaedceb85413f049d66d6d0475762d80e8a0a8",
+  "source_b": "51313d5c2c33c22130dfff2bb71f298b9079d95b",
+  "base_commit": "e31dc6dfb18b66ab95e5ed937a0327f6d7bed51c",
+  "a_commit": "5cb03c6db98686345944a8c093867bebffbfc8bc",
+  "b_commit": "cd046692432d5702fef039f4a55c0b8340c3a854",
+  "object_count": 234,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

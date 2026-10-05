@@ -1,0 +1,23 @@
+{
+  "pair_id": "hmislk__hmis__12779-12781",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/hmislk__hmis__12779-12781",
+  "source_base": "c4a0bc2926f1609c121e07fe45b9ea22ed152c4d",
+  "source_a": "823a5a22c995141b70528d008c94d27dcc13464a",
+  "source_b": "f09189948d26ad822e7fb7063786184651982a11",
+  "base_commit": "f784dc90d1bb6cfd456cd48c5fb17c2ab61fa823",
+  "a_commit": "301cd64bfd02f110b192e4aee977920b47ccddf1",
+  "b_commit": "cf3ac70b261f652b48bab90afd8603a042c9c9d1",
+  "object_count": 5230,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
