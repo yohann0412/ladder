@@ -1,0 +1,18 @@
+{
+  "pair_id": "intellectronica__ruler__138-139",
+  "status": "located",
+  "commit": "22619f5780387e510da1914523c7db15c33d0329",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "README.md",
+      "present": true,
+      "sha256": "674cca1c3f41322e2c7b0d053caa5eb8ee35c32eb8447fdda19b4e99ab2d7199"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:06:40.784485Z"
+}
