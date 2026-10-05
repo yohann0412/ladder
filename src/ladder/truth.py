@@ -39,6 +39,21 @@ def extract_truth(layout: Layout, pair: Pair) -> TruthRecord:
     return record
 
 
+def audit_truth(layout: Layout) -> list[tuple[str, str]]:
+    """Return every pair with a truth directory whose resolver runs are not all settled."""
+    root = layout.work / TRUTH
+    pair_ids = sorted(p.name for p in root.iterdir() if p.is_dir()) if root.is_dir() else []
+    findings: list[tuple[str, str]] = []
+    for pair_id in pair_ids:
+        plan = read_plan(layout, pair_id)
+        if plan is None:
+            findings.append((pair_id, "no resolver plan"))
+        elif unsettled := unsettled_runs(layout, plan):
+            labels = ", ".join(run_label(run.rung, run.run) for run in unsettled)
+            findings.append((pair_id, f"resolver runs not settled: {labels}"))
+    return findings
+
+
 def _conflicted_git(layout: Layout, pair_id: str) -> GitRungResult:
     git = read_optional(layout.result_file(pair_id, "rung-git"), GitRungResult)
     if git is None:

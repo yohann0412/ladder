@@ -1,4 +1,4 @@
-"""The `ladder truth` commands: extract a pair's human resolution."""
+"""The `ladder truth` commands: extract a pair's human resolution and audit when it was taken."""
 
 import typer
 from rich.console import Console
@@ -8,7 +8,7 @@ from ladder.cli_support import PairArgument, load_pair, refused
 from ladder.context import layout_from
 from ladder.refusal import RefusedError
 from ladder.schemas import TruthRecord
-from ladder.truth import extract_truth
+from ladder.truth import audit_truth, extract_truth
 
 app = typer.Typer(
     help="Extract human resolutions, only after every planned resolver run is settled.",
@@ -26,6 +26,18 @@ def extract(ctx: typer.Context, pair_id: PairArgument) -> None:
     except RefusedError as error:
         raise refused(error) from error
     _render(Console(soft_wrap=True, highlight=False), record)
+
+
+@app.command()
+def audit(ctx: typer.Context) -> None:
+    """Check that every truth directory belongs to a pair whose resolver runs are all settled."""
+    findings = audit_truth(layout_from(ctx))
+    console = Console(soft_wrap=True, highlight=False)
+    for pair_id, problem in findings:
+        console.print(escape(f"{pair_id}: {problem}"))
+    if findings:
+        raise typer.Exit(1)
+    console.print("Every truth directory follows its pair's settled resolver runs.")
 
 
 def _render(console: Console, record: TruthRecord) -> None:
