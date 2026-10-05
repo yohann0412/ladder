@@ -1,7 +1,15 @@
 """Render SOURCES.md: attribution and provenance of the vendored pair sources."""
 
-from ladder.aidev import DATASET, FALLBACK_REVISION, PRIMARY_REVISION, Revision
-from ladder.extracts import AIDEV_PRS, AIDEV_REPOS
+from ladder.aidev import (
+    COMMIT_DETAILS_TABLE,
+    DATASET,
+    FALLBACK_REVISION,
+    PR_TABLE,
+    PRIMARY_REVISION,
+    REPO_TABLE,
+    Revision,
+)
+from ladder.extracts import AIDEV_PRS, AIDEV_REPOS, SUPPLEMENTARY_CANDIDATES
 from ladder.replaycsv import REPLAY_CSV
 from ladder.schemas import SourceFile
 from ladder.zenodo import PACKAGE_README, RECORD_ID
@@ -44,6 +52,16 @@ these files offline. Both upstream datasets are licensed CC-BY-4.0
   replay CSV's name is looked up in `{FALLBACK_REVISION}` to learn its id; the
   `{PRIMARY_REVISION}` row with that id is used when there is one (the repository was renamed),
   otherwise the `{FALLBACK_REVISION}` row.
+- `{SUPPLEMENTARY_CANDIDATES}` (DECISIONS.md D15, rules 1, 2 and 5): derived from the
+  `{PRIMARY_REVISION}` revision's `{PR_TABLE}`, `{REPO_TABLE}` and `{COMMIT_DETAILS_TABLE}`
+  (only its `pr_id` and `filename` columns). A candidate is two PRs of one repository, both
+  with `merged_at`, whose [created_at, merged_at] intervals overlap, whose changed-file sets
+  (union of `filename` over the PR's rows) intersect, and which are not a pair of the replay
+  CSV. Per repository only the first candidate by (later PR's created_at, smaller number,
+  larger number) is kept. One entry per repository, sorted by full name: repo (the full name
+  in `{PRIMARY_REVISION}`), PR a (created first) and PR b, each with repo, number, id, agent,
+  title, body, state, created_at, closed_at, merged_at, html_url; null titles and bodies are
+  written as empty strings.
 """
 
 

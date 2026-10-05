@@ -26,6 +26,12 @@ def render_fetch(console: Console, result: FetchResult, out: Path) -> None:
     console.print(f"AIDev PR rows: {_by_revision(Counter(pr.revision for pr in result.prs))}")
     repo_revisions = Counter(repo.revision for repo in result.repos)
     console.print(f"AIDev repository rows: {_by_revision(repo_revisions)}")
+    candidates = result.candidates
+    strata = Counter(candidate.stratum for candidate in candidates.first)
+    console.print(
+        f"Supplementary candidates: {candidates.pairs} pairs in {len(candidates.first)} "
+        f"repositories; first per repository: same {strata['same']}, cross {strata['cross']}"
+    )
 
 
 def render_summary(console: Console, summary: PairSummary, target: Path) -> None:

@@ -32,7 +32,7 @@ def fetch_sources_command(
         Path, typer.Option(help="Directory to write the vendored source extracts into.")
     ] = Path("data/source"),
 ) -> None:
-    """Download the replication package and AIDev tables and vendor the extracts load reads."""
+    """Download the replication package and AIDev tables and vendor the extracts and candidates."""
     downloads = layout_from(ctx).work / "downloads"
     render_fetch(Console(), fetch_sources(out, downloads), out)
 
