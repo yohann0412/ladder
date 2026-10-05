@@ -1,0 +1,23 @@
+{
+  "pair_id": "dotnet__maui__29578-29580",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/dotnet__maui__29578-29580",
+  "source_base": "acd2a942312384638febe821cbf49b10201d0e7f",
+  "source_a": "0833a722243b956495b804ba77c6ef121b7303c9",
+  "source_b": "6c02a14e117f44a4e9dcc322e1ced78d03b06608",
+  "base_commit": "917d07f12967330b58ad76f4778f58cbc32323ba",
+  "a_commit": "693a8e956db1b4799e720227999c19a18243340a",
+  "b_commit": "2b199e8dc4ad51fe89aa054ea0d614e86b7606e9",
+  "object_count": 16021,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
