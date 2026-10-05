@@ -1,0 +1,59 @@
+{
+  "pair_id": "middleman__middleman-blog__393-395",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: other (ruby project; no adapter for ruby (bundle is installed))",
+  "files_a": [
+    ".gitignore",
+    "lib/middleman-blog/blog_article.rb",
+    "lib/middleman-blog/blog_data.rb",
+    "lib/middleman-blog/commands/article.rb",
+    "lib/middleman-blog/custom_pages.rb",
+    "lib/middleman-blog/extension.rb",
+    "lib/middleman-blog/tag_pages.rb",
+    "lib/middleman-blog/uri_templates.rb",
+    "spec/uri_templates_spec.rb"
+  ],
+  "files_b": [
+    ".gitignore",
+    "features/summary.feature",
+    "fixtures/summary-app/source/layout.erb",
+    "lib/middleman-blog/blog_article.rb",
+    "lib/middleman-blog/truncate_html.rb"
+  ]
+}

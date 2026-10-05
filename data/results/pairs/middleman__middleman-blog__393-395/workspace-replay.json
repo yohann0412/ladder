@@ -1,0 +1,23 @@
+{
+  "pair_id": "middleman__middleman-blog__393-395",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/middleman__middleman-blog__393-395",
+  "source_base": "538c28905e8d0361098545270734b3b27a1a4b20",
+  "source_a": "521243c77ebd441d05765e4670a8a9f558e43b05",
+  "source_b": "77c87113b6e5ace6921daf3f94a8c24832a8c641",
+  "base_commit": "8cb507f69c4d99131380273608313af820f55c4a",
+  "a_commit": "a69d515e469f3b9e658262e80a6be2db9a7a63c0",
+  "b_commit": "b6c6929354ef9c39e458982c242db4e3a9cac677",
+  "object_count": 375,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
