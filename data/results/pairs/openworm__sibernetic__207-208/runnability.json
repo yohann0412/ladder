@@ -1,0 +1,15 @@
+{
+  "pair_id": "openworm__sibernetic__207-208",
+  "commit": "6968339000eb866e2b355a2f1615ccd9328fc283",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

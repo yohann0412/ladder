@@ -1,0 +1,15 @@
+{
+  "pair_id": "python__python-docs-zh-tw__1110-1112",
+  "commit": "885bdf54a0fd25b2d6c0324fa6a0680a4b14b581",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

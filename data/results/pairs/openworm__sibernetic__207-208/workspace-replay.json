@@ -1,0 +1,23 @@
+{
+  "pair_id": "openworm__sibernetic__207-208",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/openworm__sibernetic__207-208",
+  "source_base": "6968339000eb866e2b355a2f1615ccd9328fc283",
+  "source_a": "b80701e620ac5bfdbc8849cbdfc5989a7a68313e",
+  "source_b": "6968339000eb866e2b355a2f1615ccd9328fc283",
+  "base_commit": "64b84b728b4736dc6f4af11ddb3960df369a8d78",
+  "a_commit": "4e29575581ac475ae97b0258cffb7e1f90ecedff",
+  "b_commit": "daee2730f56404efaf8916ddcd97c6571bb640eb",
+  "object_count": 145,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
