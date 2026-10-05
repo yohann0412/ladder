@@ -1,0 +1,62 @@
+{
+  "pair_id": "thomasloupe__Slackord__113-114",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": true,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "Slackord/Classes/ImportJson.cs",
+      "entity": "ImportJson.ProcessSlackDataAsync",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "Slackord/Classes/ImportJson.cs",
+      "entity": "ImportJson.ProcessChannelAsync",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "Slackord/Classes/ImportJson.cs",
+      "entity": "ImportJson.CountTotalJsonFiles",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "Slackord/Classes/ImportJson.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "CountTotalJsonFiles",
+        "DisplayImportSummary",
+        "DisplayThreadWarning",
+        "GetCurrentSession",
+        "ImportJson.foreach",
+        "ProcessChannelAsync",
+        "ReconstructAndSaveChannelAsync",
+        "SetCurrentSession",
+        "if"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

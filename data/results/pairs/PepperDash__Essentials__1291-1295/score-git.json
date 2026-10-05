@@ -1,0 +1,573 @@
+{
+  "pair_id": "PepperDash__Essentials__1291-1295",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": true,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/AppDebugRequestHandler.cs",
+      "entity": "AppDebugRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/AppDebugRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DebugSessionRequestHandler.cs",
+      "entity": "DebugSessionRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DebugSessionRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevJsonRequestHandler.cs",
+      "entity": "DevJsonRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevJsonRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevListRequestHandler.cs",
+      "entity": "DevListRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevListRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevMethodsRequestHandler.cs",
+      "entity": "DevMethodsRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevMethodsRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevPropsRequestHandler.cs",
+      "entity": "DevPropsRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevPropsRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DisableAllStreamDebugRequestHandler.cs",
+      "entity": "DisableAllStreamDebugRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DisableAllStreamDebugRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DoNotLoadConfigOnNextBootRequestHandler.cs",
+      "entity": "DoNotLoadConfigOnNextBootRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DoNotLoadConfigOnNextBootRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetFeedbacksForDeviceRequestHandler.cs",
+      "entity": "GetFeedbacksForDeviceRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetFeedbacksForDeviceRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetJoinMapForBridgeKeyRequestHandler.cs",
+      "entity": "GetJoinMapForBridgeKeyRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetJoinMapForBridgeKeyRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetJoinMapForDeviceKeyRequestHandler.cs",
+      "entity": "GetJoinMapForDeviceKeyRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetJoinMapForDeviceKeyRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetRoutesHandler.cs",
+      "entity": "GetRoutesHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetRoutesHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetRoutingPortsHandler.cs",
+      "entity": "GetRoutingPortsHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetRoutingPortsHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTieLinesRequestHandler.cs",
+      "entity": "GetTieLinesRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTieLinesRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTypesByFilterRequestHandler.cs",
+      "entity": "GetTypesByFilterRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTypesByFilterRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTypesRequestHandler.cs",
+      "entity": "GetTypesRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTypesRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/LoadConfigRequestHandler.cs",
+      "entity": "LoadConfigRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/LoadConfigRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/ReportVersionsRequestHandler.cs",
+      "entity": "ReportVersionsRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/ReportVersionsRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/RestartProgramRequestHandler.cs",
+      "entity": "RestartProgramRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/RestartProgramRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/SetDeviceStreamDebugRequestHandler.cs",
+      "entity": "SetDeviceStreamDebugRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/SetDeviceStreamDebugRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/ShowConfigRequestHandler.cs",
+      "entity": "ShowConfigRequestHandler",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/ShowConfigRequestHandler.cs",
+      "entity": "<rest>",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/AppDebugRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DebugSessionRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "DebugSessionRequestHandler"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevJsonRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevListRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevMethodsRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DevPropsRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DisableAllStreamDebugRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/DoNotLoadConfigOnNextBootRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetFeedbacksForDeviceRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetJoinMapForBridgeKeyRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetJoinMapForDeviceKeyRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetRoutesHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "HandleGet"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetRoutingPortsHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "GetRoutingPortsHandler"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTieLinesRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "GetTieLinesRequestHandler"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTypesByFilterRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/GetTypesRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/LoadConfigRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/ReportVersionsRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/RestartProgramRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/SetDeviceStreamDebugRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/PepperDash.Essentials.Core/Web/RequestHandlers/ShowConfigRequestHandler.cs",
+      "mode": "ast",
+      "language": "c_sharp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

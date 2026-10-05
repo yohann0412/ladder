@@ -1,0 +1,18 @@
+{
+  "pair_id": "copper-project__copper-rs__409-410",
+  "status": "located",
+  "commit": "898306713b17d28493943778e1651dd8e3fa8adc",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "core/cu29_runtime/src/curuntime.rs",
+      "present": true,
+      "sha256": "e033b64febe54d1703ad2ffc64679f6409250c2f45cd5b21d09e9172440e115a"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T12:24:32.122063Z"
+}

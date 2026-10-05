@@ -1,0 +1,27 @@
+{
+  "pair_id": "near__nearcore__13126-13127",
+  "commit": "ea072848f1217596645ab275cf6a38eba2b47d37",
+  "language": "rust",
+  "package_manager": "cargo",
+  "test_runner": "cargo test",
+  "status": "unrunnable",
+  "reason": "exceeds_cap",
+  "reason_detail": "build exceeded the 900 s install cap",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "cargo",
+        "test",
+        "--no-run",
+        "--locked"
+      ],
+      "exit_code": null,
+      "duration_s": 941.3,
+      "detail": "standard, install cap 900 s: install: exit 0 in 41.2 s; build: timed out after 900 s; output tail:    Compiling untrusted v0.7.1 |    Compiling near-async v0.0.0 (/home/user/ladder/work/runtime/near__nearcore__13126-13127/trees/base/core/async) |    Compiling near-client-primitives v0.0.0 (/home/user/ladder/work/runtime/near__nearcore__13126-13127/trees/base/chain/client-primitives) |    Compiling nix v0.24.3 |    Compiling which v4.2.5 |    Compiling near-performance-metrics-macros v0.0.0 (/home/user/ladder/work/runtime/near__nearcore__13126-13127/trees/base/utils/near-performance-metrics-macros) |    Compiling webrtc-util v0.7.0 |    Compiling protobuf-parse v3.0.2"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
