@@ -1,0 +1,17 @@
+{
+  "pair_id": "Rello__analytics__517-518",
+  "rung": "llm-raw",
+  "run": 1,
+  "available": false,
+  "unavailable_reason": "protocol_violation: Grep outside the task directory: /home/user/ladder/work/resolutions/Rello__analytics__517-518/llm-raw/run-1/files/CHANGELOG.md; Grep outside the task directory: /home/user/ladder/work/resolutions/Rello__analytics__517-518/llm-raw/run-1/files",
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": null,
+  "intent_preserved_b": null,
+  "intent_drops": [],
+  "files": [],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

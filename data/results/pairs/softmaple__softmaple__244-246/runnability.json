@@ -1,0 +1,15 @@
+{
+  "pair_id": "softmaple__softmaple__244-246",
+  "commit": "ca011d121671c2a11a5e2abc30c3d0f4e2a1ef70",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "Rello__analytics__517-518",
+  "commit": "c35fd2200b1fa5466f633281ff0640b067ef0d15",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

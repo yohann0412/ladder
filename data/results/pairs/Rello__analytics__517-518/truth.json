@@ -1,0 +1,30 @@
+{
+  "pair_id": "Rello__analytics__517-518",
+  "status": "located",
+  "commit": "6280cc967452d1c2cb8d01a12c77ef8148bcfdbc",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "present": true,
+      "sha256": "848648047c240ce48f5d43808f66d3bab5014660d7606b31ae935ddb38774cae"
+    },
+    {
+      "path": "js/navigation.js",
+      "present": true,
+      "sha256": "08cb6b4710b42a58d56b3f65ed6360af10ab3b8933adfdfae23b9a1f5355c70a"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "l10n/de.js",
+    "l10n/de.json",
+    "l10n/mk.js",
+    "l10n/mk.json"
+  ],
+  "outside_region_edit": [
+    "CHANGELOG.md"
+  ],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T11:03:55.915286Z"
+}
