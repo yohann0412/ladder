@@ -34,3 +34,4 @@ def main(
 
 app.add_typer(pairs_cli.app, name="pairs")
 app.command("runnable")(suites_cli.runnable)
+app.command("claim-c")(suites_cli.claim_c)
