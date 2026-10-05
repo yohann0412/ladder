@@ -505,3 +505,14 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   4.0 GiB, and suites in other shards hit the floor. Records carrying the floor phrase rose
   from 18 to 35 (13 pairs). D23 redoes all of them. The poetry and puppeteer caches were
   cleared with no process using them (6.5 GiB free).
+- 13:31: shard 2 finished (39 done, 3 failed); shard 1 is at 64 of 71 and shard 0 at 35 of 71.
+  The three failures and one older one were caused by the janitor. It decided which
+  repositories were "about to be reached" by list order, but `ladder run` takes
+  repositories in the pairs file's order. So it deleted caches under running truth steps.
+  The failed steps wrote no record. The janitor now deletes a cache only when every
+  conflicting pair of that repository has truth and a git score. A "pruned" log line was
+  also wrong as a sign that a pair is done, because failed pairs are pruned too. Shard
+  restarts that relied on it dropped `Rello__audioplayer__626-627`. Completeness is now
+  judged from the records (`truth.json` and `score-git.json`). The 4 orphaned pairs run in
+  a fourth process (`work/final-sweep.log`), and a final sweep over all 224 pairs follows
+  the shards.
