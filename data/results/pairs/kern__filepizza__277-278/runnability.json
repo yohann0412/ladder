@@ -1,0 +1,15 @@
+{
+  "pair_id": "kern__filepizza__277-278",
+  "commit": "ffd64d8d990ae1283fdeda04e45b8920ffe469d3",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

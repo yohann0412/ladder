@@ -1,0 +1,42 @@
+{
+  "pair_id": "berachain__beacon-kit__2840-2841",
+  "commit": "04a85a1d7fdd5ed72540d91562823bc9776ceb21",
+  "language": "go",
+  "package_manager": "go modules",
+  "test_runner": "go test",
+  "status": "unrunnable",
+  "reason": "exceeds_cap",
+  "reason_detail": "build: stopped, free disk below the 3 GiB floor",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "go",
+        "test",
+        "-count=1",
+        "-run",
+        "^$",
+        "./..."
+      ],
+      "exit_code": 1,
+      "duration_s": 297.6,
+      "detail": "standard, install cap 900 s: install: exit 0 in 13.9 s; build: exit 1 in 283.7 s; output tail: ?   \tgithub.com/berachain/beacon-kit/storage/interfaces/mocks\t[no test files] | ok  \tgithub.com/berachain/beacon-kit/testing/benchmarks\t0.005s [no tests to run] | ok  \tgithub.com/berachain/beacon-kit/testing/e2e\t0.048s [no tests to run] | ?   \tgithub.com/berachain/beacon-kit/testing/e2e/config\t[no test files] | ?   \tgithub.com/berachain/beacon-kit/testing/e2e/suite\t[no test files] | ok  \tgithub.com/berachain/beacon-kit/testing/e2e/suite/types\t0.035s [no tests to run] | ?   \tgithub.com/berachain/beacon-kit/testing/e2e/suite/types/tx\t[no test files] | FAIL"
+    },
+    {
+      "command": [
+        "go",
+        "test",
+        "-count=1",
+        "-run",
+        "^$",
+        "./..."
+      ],
+      "exit_code": null,
+      "duration_s": 132.1,
+      "detail": "mod-mod (GOFLAGS=-mod=mod, so go.mod and go.sum drift is resolved), install cap 900 s: install: exit 0 in 0.1 s; build: stopped, free disk below the 3 GiB floor; output tail: FAIL\tgithub.com/berachain/beacon-kit/da/types [setup failed] | # github.com/berachain/beacon-kit/execution/client/ethclient | package github.com/berachain/beacon-kit/consensus-types/types_test | \timports github.com/berachain/beacon-kit/testing/utils: build constraints exclude all Go files in /home/user/ladder/work/runtime/berachain__beacon-kit__2840-2841/trees/base/testing/utils | FAIL\tgithub.com/berachain/beacon-kit/execution/client/ethclient [setup failed] | ?   \tgithub.com/berachain/beacon-kit/beacon/blockchain/mocks\t[no test files] | ok  \tgithub.com/berachain/beacon-kit/beacon/payload-time\t0.019s [no tests to run] | stopped: 3.0 GiB free under /home/user/ladder/work/runtime/berachain__beacon-kit__2840-2841/trees/base, below the 3 GiB floor set by LADDER_MIN_FREE_GIB"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

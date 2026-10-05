@@ -1,0 +1,44 @@
+{
+  "pair_id": "567-labs__kura__69-75",
+  "commit": "a051c062387a9d9718ecc749a5a1214d51a81a77",
+  "language": "python",
+  "package_manager": "uv",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 1 in 0.3 s:   × No solution found when resolving dependencies: |   ╰─▶ Because only kura==0.4.4 is available and kura==0.4.4 depends on |       mkdocs-rss-plugin>=1.17.1, we can conclude that all versions of kura |       depend on mkdocs-rss-plugin>=1.17.1. |       And because you require mkdocs-rss-plugin==1.16.0 and kura, we can |       conclude that your requirements are unsatisfiable.",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "sync",
+        "--frozen",
+        "--group",
+        "dev"
+      ],
+      "exit_code": 1,
+      "duration_s": 6.3,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 1 in 6.2 s; output tail:           with Popen(*popenargs, **kwargs) as p: |                ~~~~~^^^^^^^^^^^^^^^^^^^^^^ |       TypeError: Popen.__init__() got an unexpected keyword argument 'dry_run' |       hint: This usually indicates a problem with the package or the build |       environment. |   help: `llvmlite` (v0.43.0) was included because `kura` (v0.4.4) depends on |         `umap-learn` (v0.5.7) which depends on `pynndescent` (v0.5.13) which |         depends on `llvmlite`"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/567-labs__kura__69-75/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/567-labs__kura__69-75/trees/base",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 0.3,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 1 in 0.3 s; output tail: Using Python 3.13.1 environment at: /home/user/ladder/work/runtime/567-labs__kura__69-75/envs/base |   × No solution found when resolving dependencies: |   ╰─▶ Because only kura==0.4.4 is available and kura==0.4.4 depends on |       mkdocs-rss-plugin>=1.17.1, we can conclude that all versions of kura |       depend on mkdocs-rss-plugin>=1.17.1. |       And because you require mkdocs-rss-plugin==1.16.0 and kura, we can |       conclude that your requirements are unsatisfiable."
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

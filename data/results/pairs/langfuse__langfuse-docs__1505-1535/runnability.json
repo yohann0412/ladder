@@ -1,0 +1,26 @@
+{
+  "pair_id": "langfuse__langfuse-docs__1505-1535",
+  "commit": "87512fee236f4a3c2add348ea0548179c6326951",
+  "language": "python",
+  "package_manager": "poetry",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "exceeds_cap",
+  "reason_detail": "install: stopped, free disk below the 3 GiB floor",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "poetry",
+        "install",
+        "--no-interaction"
+      ],
+      "exit_code": null,
+      "duration_s": 54.3,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: stopped, free disk below the 3 GiB floor; output tail:   - Installing sniffio (1.3.1) |   - Installing sse-starlette (3.5.0) |   - Installing tzlocal (5.4.4) |   - Installing uvicorn (0.54.0) |   - Installing widgetsnbextension (4.0.16) |   - Installing yarl (1.25.1) |   - Installing zipp (4.1.1) | stopped: 2.8 GiB free under /home/user/ladder/work/runtime/langfuse__langfuse-docs__1505-1535/trees/base, below the 3 GiB floor set by LADDER_MIN_FREE_GIB"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

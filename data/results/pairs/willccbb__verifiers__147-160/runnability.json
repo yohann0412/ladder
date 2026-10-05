@@ -1,0 +1,53 @@
+{
+  "pair_id": "willccbb__verifiers__147-160",
+  "commit": "f9e10da1e3cf033de6d6eefe9fa60ef3a233cb99",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "runnable",
+  "reason": null,
+  "reason_detail": "",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/willccbb__verifiers__147-160/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/willccbb__verifiers__147-160/trees/base[dev]",
+        "--group",
+        "dev",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 12.0,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 5.6 s; suite passed: 135 passed, 0 failed, 0 errors, 0 skipped"
+    }
+  ],
+  "test_count": 135,
+  "base_outcome": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/willccbb__verifiers__147-160/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/willccbb__verifiers__147-160/reports/base-attempt-1/run-1.report"
+    ],
+    "passed": 135,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 6.2,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "135 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "timeout_s": 600
+}

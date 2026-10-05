@@ -1,0 +1,36 @@
+{
+  "pair_id": "sam-goodwin__alchemy__239-240",
+  "status": "located",
+  "commit": "f7f1357d895e051c4840cc893b01644a156886b4",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "alchemy/src/cloudflare/bindings.ts",
+      "present": true,
+      "sha256": "4f23b556c6677cbc3f5f5d58cbfb84866c5a397267abd8d50fb129c45e6416a0"
+    },
+    {
+      "path": "alchemy/src/cloudflare/bound.ts",
+      "present": true,
+      "sha256": "31018c2bdb8b4f99e93c3968fd1b1f630d2ed63d18a8a0d90da999434cc3b959"
+    },
+    {
+      "path": "alchemy/src/cloudflare/worker-metadata.ts",
+      "present": true,
+      "sha256": "2bd38d46ca92057aed65a5fc16256f6f29db1fa8690141fc54e2098802fde663"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "alchemy/src/cloudflare/index.ts",
+    "alchemy/src/cloudflare/wrangler.json.ts",
+    "alchemy/test/cloudflare/version-metadata.test.ts"
+  ],
+  "outside_region_edit": [
+    "alchemy/src/cloudflare/bindings.ts",
+    "alchemy/src/cloudflare/bound.ts",
+    "alchemy/src/cloudflare/worker-metadata.ts"
+  ],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T11:52:52.653547Z"
+}

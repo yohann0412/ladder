@@ -1,0 +1,15 @@
+{
+  "pair_id": "sam-goodwin__alchemy__239-240",
+  "commit": "d97ec2e76e02ea2a474870d39830f082b1550cc3",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

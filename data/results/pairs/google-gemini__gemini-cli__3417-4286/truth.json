@@ -1,0 +1,12 @@
+{
+  "pair_id": "google-gemini__gemini-cli__3417-4286",
+  "status": "not_both_merged",
+  "commit": null,
+  "method": null,
+  "files": [],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T11:53:04.780458Z"
+}
