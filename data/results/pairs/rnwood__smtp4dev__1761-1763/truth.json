@@ -1,0 +1,18 @@
+{
+  "pair_id": "rnwood__smtp4dev__1761-1763",
+  "status": "located",
+  "commit": "db4a4eac54adbef9631fca26d35d8619bbf0360d",
+  "method": "absorption",
+  "files": [
+    {
+      "path": ".github/copilot-instructions.md",
+      "present": true,
+      "sha256": "68b0357b1cc64c5f0a44a98a93e031b417512972d96ee7c15dd1c75f473a47db"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:29:51.931810Z"
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "rnwood__smtp4dev__1761-1763",
+  "commit": "5cdc6e556f8a4db0c1485deb406390bad9a4eb67",
+  "language": "csharp",
+  "package_manager": "dotnet",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "csharp project; dotnet is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

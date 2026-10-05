@@ -1,0 +1,17 @@
+{
+  "pair_id": "Azure__autorest.csharp__5334-5338",
+  "rung": "llm-raw",
+  "run": 1,
+  "available": false,
+  "unavailable_reason": "input_cap: input cap: package-lock.json version base has 317108 bytes, more than 200000; input cap: package-lock.json version a has 317108 bytes, more than 200000; input cap: package-lock.json version b has 317108 bytes, more than 200000; input cap: package-lock.json version conflicted has 317417 bytes, more than 200000; input cap: 1287287 bytes in all versions, more than 600000",
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": null,
+  "intent_preserved_b": null,
+  "intent_drops": [],
+  "files": [],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}
