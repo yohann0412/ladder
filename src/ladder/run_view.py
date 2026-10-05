@@ -21,9 +21,10 @@ from ladder.schemas import (
     TruthRecord,
 )
 
-PairState = Literal["done", "pending", "waiting", "failed"]
+PairState = Literal["done", "stopped", "pending", "waiting", "failed"]
 STATE_STYLES: dict[PairState, str] = {
     "done": "green",
+    "stopped": "cyan",
     "pending": "yellow",
     "waiting": "yellow",
     "failed": "red",

@@ -45,7 +45,19 @@ def run(
     ] = None,
     prune: Annotated[
         bool,
-        typer.Option("--prune", help="Delete each pair's working copies after its last step."),
+        typer.Option(
+            "--prune",
+            help="Delete each pair's working copies after its last step; "
+            "a pair with a pending resolver run keeps everything.",
+        ),
+    ] = False,
+    stop_before_truth: Annotated[
+        bool,
+        typer.Option(
+            "--stop-before-truth",
+            help="Take conflicting pairs only up to their resolver runs: "
+            "no truth, runnability or scores.",
+        ),
     ] = False,
     skip_claim_c: Annotated[
         bool, typer.Option("--skip-claim-c", help="Run no Claim C on clean pairs.")
@@ -61,6 +73,8 @@ def run(
     layout = layout_from(ctx)
     pair_set = read_record(layout.pairs_file, PairSet)
     selected = _select(pair_set, pair_ids or [], all_pairs=all_pairs, origin=origin)
+    if expect is not None and stop_before_truth:
+        raise typer.BadParameter("--expect needs truth and scores, so not --stop-before-truth")
     expectations = None if expect is None else read_record(expect, FixtureExpectations)
     console = Console(soft_wrap=True, highlight=False)
     options = RunOptions(
@@ -69,6 +83,7 @@ def run(
         prune=prune,
         min_free_gib=min_free_gb,
         jobs=jobs,
+        stop_before_truth=stop_before_truth,
     )
     result = run_pairs(layout, pair_set, selected, options, console)
     render_outcomes(console, result.outcomes)

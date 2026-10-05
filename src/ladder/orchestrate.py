@@ -2,9 +2,9 @@
 
 Pairs are taken one repository at a time. Within a repository every pair first goes as far as
 its resolver runs (git rungs, structural rungs, plan, prepare); only then do the pairs whose
-runs are settled extract truth and score. Truth also waits while another pair of the same
-repository has resolver runs pending, because no resolver may start once a same-repository
-truth exists.
+runs are settled extract truth and score, unless the run stops before truth. Truth also waits
+while another pair of the same repository has resolver runs pending, because no resolver may
+start once a same-repository truth exists. A pair with a pending resolver run is never pruned.
 """
 
 import threading
@@ -26,6 +26,11 @@ from ladder.run_view import PairOutcome, claim_c_summary
 from ladder.runlog import append_failure
 from ladder.schemas import GitRungResult, Pair, PairRefs, PairSet, ResolverTask
 
+STOPPED = (
+    "resolver runs settled; truth, runnability and scores are left for a run without "
+    "--stop-before-truth"
+)
+
 
 @dataclass(frozen=True)
 class RunOptions:
@@ -36,6 +41,7 @@ class RunOptions:
     prune: bool
     min_free_gib: float
     jobs: int
+    stop_before_truth: bool
 
 
 @dataclass(frozen=True)
@@ -138,10 +144,14 @@ class _Runner:
             else:
                 outcomes[pair.pair_id] = outcome
         for steps in ready:
+            if self.options.stop_before_truth:
+                outcomes[steps.pair_id] = PairOutcome(steps.pair_id, "stopped", STOPPED)
+                continue
             self._wait(steps.pair_id)
             outcomes[steps.pair_id] = self._guarded(steps, self._finish)
         if self.options.prune:
-            self._prune(pairs)
+            settled = [pair for pair in pairs if outcomes[pair.pair_id].state != "pending"]
+            self._prune(pairs[0].repo, settled)
         return [outcomes[pair.pair_id] for pair in pairs]
 
     def _advance(self, steps: PairSteps) -> PairOutcome | None:
@@ -196,17 +206,16 @@ class _Runner:
         append_failure(self.layout, pair_id, step, error)
         return PairOutcome(pair_id, "failed", f"{step}: {error}")
 
-    def _prune(self, pairs: list[Pair]) -> None:
+    def _prune(self, repo: str, pairs: list[Pair]) -> None:
         for pair in pairs:
             deleted = prune_pair(self.layout, pair.pair_id)
             if deleted:
                 self.say(pair.pair_id, f"pruned {len(deleted)} working directories")
-        repo = pairs[0].repo
         siblings = [pair for pair in self.pair_set.pairs if pair.repo == repo]
         if not any(self._in_ladder(pair.pair_id) for pair in siblings):
             cache = prune_cache(self.layout, repo)
             if cache is not None:
-                self.say(pairs[-1].pair_id, f"pruned the repository cache {cache}")
+                self.say(repo, f"pruned the repository cache {cache}")
 
     def _in_ladder(self, pair_id: str) -> bool:
         record = self.layout.result_file(pair_id, git_record_name("replay"))
