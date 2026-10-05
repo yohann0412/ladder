@@ -1,0 +1,148 @@
+{
+  "pair_id": "willccbb__verifiers__147-160",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": true,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": true,
+  "intent_drops": [
+    {
+      "path": "verifiers/envs/tool_env.py",
+      "entity": "ToolEnv.env_response",
+      "loser": "a",
+      "reason": "both sides changed it; the resolution keeps B's version and lacks lines A added to it",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "verifiers/envs/tool_env.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/willccbb__verifiers__147-160/envs/score-llm-post-weave/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/willccbb__verifiers__147-160/reports/score-llm-post-weave/run-2.report"
+    ],
+    "passed": 144,
+    "failed": 16,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 7.3,
+    "retried": true,
+    "failing_tests": [
+      "tests/test_tool_env.py::TestToolEnv::test_single_tool_call",
+      "tests/test_tool_env.py::TestToolEnv::test_multiple_tool_calls",
+      "tests/test_tool_env.py::TestToolEnv::test_three_tool_calls",
+      "tests/test_tool_env.py::TestToolEnv::test_mixed_valid_invalid_tools",
+      "tests/test_tool_env.py::TestToolEnv::test_invalid_json_in_multiple_tools",
+      "tests/test_tool_env.py::TestToolEnv::test_backward_compatibility_single_tool",
+      "tests/test_tool_env.py::TestToolEnv::test_no_tools_fallback",
+      "tests/test_tool_env.py::TestToolEnv::test_empty_tool_results",
+      "tests/test_tool_env.py::TestToolEnv::test_tool_with_default_args",
+      "tests/test_tool_env.py::TestToolEnv::test_tool_exception_handling",
+      "tests/test_tool_env.py::TestToolEnv::test_empty_results_list_edge_case",
+      "tests/test_tool_env.py::TestToolEnv::test_parse_all_exception_handling",
+      "tests/test_tool_env.py::TestToolEnv::test_missing_tool_attribute",
+      "tests/test_tool_env.py::TestToolEnv::test_tool_results_with_special_characters",
+      "tests/test_tool_env.py::TestToolEnv::test_many_tool_calls",
+      "tests/test_tool_env.py::TestToolEnv::test_max_chars_with_multiple_tools"
+    ],
+    "detail": "dependency manifests differ from base (environments/aime2024/pyproject.toml, environments/aime2025/pyproject.toml, environments/doublecheck/pyproject.toml, environments/gpqa/pyproject.toml, environments/gsm8k/pyproject.toml, ...); installed again; 144 passed, 16 failed, 0 errors, 0 skipped (tests/test_tool_env.py::TestToolEnv::test_single_tool_call, tests/test_tool_env.py::TestToolEnv::test_multiple_tool_calls, tests/test_tool_env.py::TestToolEnv::test_three_tool_calls, tests/test_tool_env.py::TestToolEnv::test_mixed_valid_invalid_tools, tests/test_tool_env.py::TestToolEnv::test_invalid_json_in_multiple_tools); first run failed: 144 passed, 16 failed, 0 errors, 0 skipped (tests/test_tool_env.py::TestToolEnv::test_single_tool_call, tests/test_tool_env.py::TestToolEnv::test_multiple_tool_calls, tests/test_tool_env.py::TestToolEnv::test_three_tool_calls, tests/test_tool_env.py::TestToolEnv::test_mixed_valid_invalid_tools, tests/test_tool_env.py::TestToolEnv::test_invalid_json_in_multiple_tools)"
+  },
+  "tests_a": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/willccbb__verifiers__147-160/envs/score-llm-post-weave/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/willccbb__verifiers__147-160/reports/score-llm-post-weave/run-2.report",
+      "tests/test_tool_env.py",
+      "tests/test_xml_parser.py"
+    ],
+    "passed": 26,
+    "failed": 16,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 6.7,
+    "retried": true,
+    "failing_tests": [
+      "tests/test_tool_env.py::TestToolEnv::test_single_tool_call",
+      "tests/test_tool_env.py::TestToolEnv::test_multiple_tool_calls",
+      "tests/test_tool_env.py::TestToolEnv::test_three_tool_calls",
+      "tests/test_tool_env.py::TestToolEnv::test_mixed_valid_invalid_tools",
+      "tests/test_tool_env.py::TestToolEnv::test_invalid_json_in_multiple_tools",
+      "tests/test_tool_env.py::TestToolEnv::test_backward_compatibility_single_tool",
+      "tests/test_tool_env.py::TestToolEnv::test_no_tools_fallback",
+      "tests/test_tool_env.py::TestToolEnv::test_empty_tool_results",
+      "tests/test_tool_env.py::TestToolEnv::test_tool_with_default_args",
+      "tests/test_tool_env.py::TestToolEnv::test_tool_exception_handling",
+      "tests/test_tool_env.py::TestToolEnv::test_empty_results_list_edge_case",
+      "tests/test_tool_env.py::TestToolEnv::test_parse_all_exception_handling",
+      "tests/test_tool_env.py::TestToolEnv::test_missing_tool_attribute",
+      "tests/test_tool_env.py::TestToolEnv::test_tool_results_with_special_characters",
+      "tests/test_tool_env.py::TestToolEnv::test_many_tool_calls",
+      "tests/test_tool_env.py::TestToolEnv::test_max_chars_with_multiple_tools"
+    ],
+    "detail": "dependency manifests differ from base (environments/aime2024/pyproject.toml, environments/aime2025/pyproject.toml, environments/doublecheck/pyproject.toml, environments/gpqa/pyproject.toml, environments/gsm8k/pyproject.toml, ...); installed again; 26 passed, 16 failed, 0 errors, 0 skipped (tests/test_tool_env.py::TestToolEnv::test_single_tool_call, tests/test_tool_env.py::TestToolEnv::test_multiple_tool_calls, tests/test_tool_env.py::TestToolEnv::test_three_tool_calls, tests/test_tool_env.py::TestToolEnv::test_mixed_valid_invalid_tools, tests/test_tool_env.py::TestToolEnv::test_invalid_json_in_multiple_tools); first run failed: 26 passed, 16 failed, 0 errors, 0 skipped (tests/test_tool_env.py::TestToolEnv::test_single_tool_call, tests/test_tool_env.py::TestToolEnv::test_multiple_tool_calls, tests/test_tool_env.py::TestToolEnv::test_three_tool_calls, tests/test_tool_env.py::TestToolEnv::test_mixed_valid_invalid_tools, tests/test_tool_env.py::TestToolEnv::test_invalid_json_in_multiple_tools)"
+  },
+  "tests_b": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/willccbb__verifiers__147-160/envs/score-llm-post-weave/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/willccbb__verifiers__147-160/reports/score-llm-post-weave/run-2.report",
+      "environments/tool_test/tool_test.py",
+      "examples/grpo/train_tool_test.py",
+      "tests/conftest.py",
+      "tests/mock_openai_client.py",
+      "tests/test_env_group.py",
+      "tests/test_environment.py",
+      "tests/test_multiturn_env.py",
+      "tests/test_parser.py",
+      "tests/test_rubric.py",
+      "tests/test_rubric_group.py",
+      "tests/test_singleturn_env.py",
+      "tests/test_think_parser.py"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 1,
+    "skipped": 0,
+    "duration_s": 6.2,
+    "retried": true,
+    "failing_tests": [
+      "examples/grpo/train_tool_test.py::examples.grpo.train_tool_test"
+    ],
+    "detail": "dependency manifests differ from base (environments/aime2024/pyproject.toml, environments/aime2025/pyproject.toml, environments/doublecheck/pyproject.toml, environments/gpqa/pyproject.toml, environments/gsm8k/pyproject.toml, ...); installed again; 0 passed, 0 failed, 1 errors, 0 skipped (examples/grpo/train_tool_test.py::examples.grpo.train_tool_test); first run failed: 0 passed, 0 failed, 1 errors, 0 skipped (examples/grpo/train_tool_test.py::examples.grpo.train_tool_test)"
+  }
+}
