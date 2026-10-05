@@ -1,0 +1,15 @@
+{
+  "pair_id": "elsa-workflows__elsa-studio__521-526",
+  "commit": "bbbbf58d0a1d7774437f6cc02e3e396d861aa966",
+  "language": "csharp",
+  "package_manager": "dotnet",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "csharp project; dotnet is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
