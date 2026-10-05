@@ -600,6 +600,6 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
 
   Steps 4 (resolver subagents) and 5 (the real experiment) were not rerun from the clone.
   Their commands and flags were checked to exist with `--help`, and this session ran them.
-- 17:40: Claim C pairs pushed free disk to 5.2 GiB (sentry-javascript 7.3 GB, cal.com
+- About 17:30: Claim C pairs pushed free disk to 5.2 GiB (sentry-javascript 7.3 GB, cal.com
   3.7 GB). The shared cargo registry, the one cache still outside per-pair scratch, was
   cleared with no cargo or rustc running (11 GiB free).
