@@ -1,0 +1,17 @@
+{
+  "pair_id": "hackmdio__codimd__1923-1926",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "available": false,
+  "unavailable_reason": "input_cap: input cap: package-lock.json version base has 1654364 bytes, more than 200000; input cap: package-lock.json version a has 1727653 bytes, more than 200000; input cap: package-lock.json version b has 1641573 bytes, more than 200000; input cap: package-lock.json version conflicted has 1774055 bytes, more than 200000; input cap: 6797645 bytes in all versions, more than 600000",
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": null,
+  "intent_preserved_b": null,
+  "intent_drops": [],
+  "files": [],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

@@ -1,0 +1,35 @@
+{
+  "pair_id": "hackmdio__codimd__1923-1926",
+  "commit": "d0e9ea0d6e784b04474b1a74e4d597c3c3f462d6",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": "mocha",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 1 in 39.8 s: npm error     documentation_url: 'https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting' | npm error   } | npm error } | npm error | npm error Node.js v22.22.0 | npm error A complete log of this run can be found in: /root/.npm/_logs/2026-10-05T12_04_49_275Z-debug-0.log",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "npm",
+        "ci"
+      ],
+      "exit_code": 1,
+      "duration_s": 50.7,
+      "detail": "standard, install cap 900 s: install: exit 1 in 50.7 s; output tail: npm error   body: { | npm error     message: \"API rate limit exceeded for 34.57.188.202. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\", | npm error     documentation_url: 'https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting' | npm error   } | npm error } | npm error | npm error Node.js v22.22.0 | npm error A complete log of this run can be found in: /root/.npm/_logs/2026-10-05T12_03_57_276Z-debug-0.log"
+    },
+    {
+      "command": [
+        "npm",
+        "install",
+        "--legacy-peer-deps"
+      ],
+      "exit_code": 1,
+      "duration_s": 39.8,
+      "detail": "legacy-peer-deps (npm install --legacy-peer-deps instead of a clean install), install cap 900 s: install: exit 1 in 39.8 s; output tail: npm error   body: { | npm error     message: \"API rate limit exceeded for 34.72.148.221. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\", | npm error     documentation_url: 'https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting' | npm error   } | npm error } | npm error | npm error Node.js v22.22.0 | npm error A complete log of this run can be found in: /root/.npm/_logs/2026-10-05T12_04_49_275Z-debug-0.log"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
