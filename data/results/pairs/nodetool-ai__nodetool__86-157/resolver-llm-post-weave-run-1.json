@@ -1,0 +1,25 @@
+{
+  "pair_id": "nodetool-ai__nodetool__86-157",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 18616,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 631,
+    "cache_creation_input_tokens": 15939,
+    "cache_read_input_tokens": 215014
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "web/jest.config.ts",
+      "action": "keep",
+      "sha256": "b08c83bfa2dd9538feb48c6ddbcba0ba995acc4d61fab92ba19bbd800082bb55",
+      "rationale": "Took PR B's reformatted config with its new moduleNameMapper mocks and restored coveragePathIgnorePatterns, then added PR A's '/e2e/' entry to testPathIgnorePatterns so Playwright specs stay excluded from Jest."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:29:06.318029Z"
+}

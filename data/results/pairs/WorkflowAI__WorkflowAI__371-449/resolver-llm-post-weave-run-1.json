@@ -1,0 +1,25 @@
+{
+  "pair_id": "WorkflowAI__WorkflowAI__371-449",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 27397,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 559,
+    "cache_creation_input_tokens": 18221,
+    "cache_read_input_tokens": 268816
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "action": "keep",
+      "sha256": "6061aefdc84caaffdc01e3ba6c535976193c9f98a6f2b5356cb797f669d56b85",
+      "rationale": "Both PRs added AGENTS.md independently, so the merge keeps PR B's full monorepo guide as the base and folds PR A's only instruction (run tests with `poetry run pytest -q`) into the Testing infrastructure section."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:29:05.224312Z"
+}

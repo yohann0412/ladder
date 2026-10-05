@@ -1,0 +1,25 @@
+{
+  "pair_id": "bruin-data__bruin__760-818",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 260233,
+  "tokens": {
+    "input_tokens": 28,
+    "output_tokens": 6099,
+    "cache_creation_input_tokens": 154599,
+    "cache_read_input_tokens": 1102683
+  },
+  "tool_calls": 22,
+  "files": [
+    {
+      "path": "pkg/pipeline/pipeline.go",
+      "action": "keep",
+      "sha256": "155e5867646372249756fc9521719e8447c73ae2a81c1b6f31b893e64bca1e4b",
+      "rationale": "Both sides only added constants to the same const block, so the merge keeps PR B's SCD2 materialization strategies next to the other strategy constants and PR A's ProfilingLevel constants as a separate gofmt group after a blank line; the rest of weave's merge (and dropping its trailing weave comment) is kept as is."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:29:05.982576Z"
+}

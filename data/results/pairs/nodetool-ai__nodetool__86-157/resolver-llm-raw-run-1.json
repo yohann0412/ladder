@@ -1,0 +1,31 @@
+{
+  "pair_id": "nodetool-ai__nodetool__86-157",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 25679,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 501,
+    "cache_creation_input_tokens": 18571,
+    "cache_read_input_tokens": 218643
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": ".github/workflows/test.yml",
+      "action": "keep",
+      "sha256": "ff00507afa35c81d760ba69b85b72df0d2986192220ab176829bb04a8b502f6a",
+      "rationale": "Keeps PR B's new 'Run Tests' step for the apps job and then appends PR A's new e2e Playwright job, using B's double-quote formatting throughout."
+    },
+    {
+      "path": "web/jest.config.ts",
+      "action": "keep",
+      "sha256": "b08c83bfa2dd9538feb48c6ddbcba0ba995acc4d61fab92ba19bbd800082bb55",
+      "rationale": "Uses PR B's reformatted single-line arrays and semicolon while adding PR A's '/e2e/' entry to testPathIgnorePatterns so Playwright specs stay excluded from Jest."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:29:06.431500Z"
+}

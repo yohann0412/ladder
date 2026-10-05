@@ -1,0 +1,61 @@
+{
+  "pair_id": "selfxyz__self__727-755",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 153762,
+  "tokens": {
+    "input_tokens": 38,
+    "output_tokens": 5622,
+    "cache_creation_input_tokens": 123578,
+    "cache_read_input_tokens": 1370346
+  },
+  "tool_calls": 39,
+  "files": [
+    {
+      "path": "circuits/circuits/register_id/instances/register_id_sha256_sha256_sha224_ecdsa_secp224r1.circom",
+      "action": "keep",
+      "sha256": "bb31d87b401774739b2c0bb19d918b89a9006809224aa95a6c54b131314caca2",
+      "rationale": "Kept PR A's version that includes ../register_id.circom and instantiates REGISTER_ID, matching the template defined in register_id/register_id.circom and all sibling register_id instances, whereas PR B's REGISTER/register.circom reference does not exist in that directory."
+    },
+    {
+      "path": "circuits/scripts/build/build_cpp.sh",
+      "action": "keep",
+      "sha256": "1c4bac6a3182f4289ab4be962672270d9a399ae6f4ae138686af49074dd4174d",
+      "rationale": "Both sides only trimmed trailing whitespace in the conflicting lines, so PR A's intentional reduction of parallel circom jobs from 5 to 2 is kept along with the shared register_id additions."
+    },
+    {
+      "path": "contracts/ignition/modules/scripts/updateRegistryHubV2.ts",
+      "action": "keep",
+      "sha256": "a8a657c57d091ccba6ec589f192e2b2f2dbcf8e0ba6162fa7c13ce5f41a99c53",
+      "rationale": "Both sides contain the same refactor to the shared constants helpers and try/catch logging; PR A's prettier-formatted version is kept since the differences are only formatting."
+    },
+    {
+      "path": "contracts/ignition/readme.md",
+      "action": "keep",
+      "sha256": "9129617ae452087582d56190de67a426bf02aa2055dc54f62a7c97daf9730a28",
+      "rationale": "Both sides added the same deployment readme; PR A's formatted version is kept because it also fixes the missing 'yarn' prefix on deploy:registry:idcard and the mismatched code fence."
+    },
+    {
+      "path": "contracts/scripts/constants.ts",
+      "action": "keep",
+      "sha256": "e582c597a2f50667cb0aa609794f573a95c1641b9fdfe099d7aae30974aac9d2",
+      "rationale": "Both sides added the same helper module; PR A's prettier-formatted version is kept, including its EU_ID_CARD registry name DeployIdCardRegistryModule#IdentityRegistry which matches the future id produced by deployIdCardRegistry.ts and the prod deployed_addresses.json."
+    },
+    {
+      "path": "contracts/scripts/setHubV2.ts",
+      "action": "keep",
+      "sha256": "7fbe1ebede52b60c41d69fa1c8a93518b3306faa8a6312351f12b2f255926397",
+      "rationale": "Both sides made the same rewrite to use the shared constants with a setHubV2 toggle; PR A's prettier-formatted version is kept as the logic is identical."
+    },
+    {
+      "path": "contracts/scripts/setVerifiersV2.ts",
+      "action": "keep",
+      "sha256": "db5968b14f8c123a892fca09657dd04ba9af4d9e9727647032249881833f2084",
+      "rationale": "Both sides made the same rewrite with per-category toggles and log helpers; PR A's prettier-formatted version is kept since the remaining differences are formatting only."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:29:06.779936Z"
+}

@@ -1,0 +1,31 @@
+{
+  "pair_id": "langfuse__langfuse-docs__1505-1535",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 93647,
+  "tokens": {
+    "input_tokens": 20,
+    "output_tokens": 2497,
+    "cache_creation_input_tokens": 73240,
+    "cache_read_input_tokens": 521660
+  },
+  "tool_calls": 17,
+  "files": [
+    {
+      "path": "pages/docs/scores/data-model.mdx",
+      "action": "keep",
+      "sha256": "dc270b766d875efd80a86730bfb53b0818337dae8941b2f94411027208708f73",
+      "rationale": "Kept PR A's shared <ScoreDataModel /> component (which now owns the score overview, diagram and Score object table) and its 'Score Configuration' heading, plus PR B's cleanly merged 'trace/session/dataset run' wording; PR B's inline dataset-run additions to the duplicated block are superseded by the shared component, which is outside the conflicted files."
+    },
+    {
+      "path": "pages/docs/tracing-data-model.mdx",
+      "action": "keep",
+      "sha256": "f7d86b08098e90cb2d9a9209fb874b7c9237cdad9090a1c269c800bf2028ea48",
+      "rationale": "Combined PR B's broadened intro sentence (traces, observations, sessions and dataset runs) and its dataset-run usage paragraph with PR A's shared <ScoreDataModel /> component, dropping the inline bullet list and mermaid diagram that the component replaces."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:25:21.293959Z"
+}

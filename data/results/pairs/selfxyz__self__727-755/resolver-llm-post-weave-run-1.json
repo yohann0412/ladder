@@ -1,0 +1,55 @@
+{
+  "pair_id": "selfxyz__self__727-755",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 115598,
+  "tokens": {
+    "input_tokens": 32,
+    "output_tokens": 3618,
+    "cache_creation_input_tokens": 105658,
+    "cache_read_input_tokens": 957513
+  },
+  "tool_calls": 38,
+  "files": [
+    {
+      "path": "circuits/circuits/register_id/instances/register_id_sha256_sha256_sha224_ecdsa_secp224r1.circom",
+      "action": "keep",
+      "sha256": "bb31d87b401774739b2c0bb19d918b89a9006809224aa95a6c54b131314caca2",
+      "rationale": "Kept PR A's version, because a register_id instance must include ../register_id.circom and use REGISTER_ID, as every other register_id instance does; PR B's include of ../register.circom points to a file that does not exist in that directory."
+    },
+    {
+      "path": "contracts/ignition/modules/scripts/updateRegistryHubV2.ts",
+      "action": "keep",
+      "sha256": "a8a657c57d091ccba6ec589f192e2b2f2dbcf8e0ba6162fa7c13ce5f41a99c53",
+      "rationale": "Both sides carry the same refactor to the shared constants helpers and logger and differ only in Prettier formatting, so PR A's formatted version is kept."
+    },
+    {
+      "path": "contracts/ignition/readme.md",
+      "action": "keep",
+      "sha256": "9129617ae452087582d56190de67a426bf02aa2055dc54f62a7c97daf9730a28",
+      "rationale": "Both sides added the same deployment readme, and PR A's version is the formatted one that also fixes the missing 'yarn' prefix on deploy:registry:idcard and the unbalanced code fence, so it is kept."
+    },
+    {
+      "path": "contracts/scripts/constants.ts",
+      "action": "keep",
+      "sha256": "e582c597a2f50667cb0aa609794f573a95c1641b9fdfe099d7aae30974aac9d2",
+      "rationale": "Kept PR A's formatted version, whose EU_ID_CARD registry key DeployIdCardRegistryModule#IdentityRegistry matches the future id that deployIdCardRegistry.ts emits and the prod deployed_addresses.json; apart from that key and formatting the two sides are identical."
+    },
+    {
+      "path": "contracts/scripts/setHubV2.ts",
+      "action": "keep",
+      "sha256": "7fbe1ebede52b60c41d69fa1c8a93518b3306faa8a6312351f12b2f255926397",
+      "rationale": "Both sides rewrote the script the same way, using the shared constants and per-attestation toggles, and differ only in formatting, so PR A's Prettier-formatted version is kept."
+    },
+    {
+      "path": "contracts/scripts/setVerifiersV2.ts",
+      "action": "keep",
+      "sha256": "db5968b14f8c123a892fca09657dd04ba9af4d9e9727647032249881833f2084",
+      "rationale": "Both sides contain the same configurable verifier-update script and differ only in formatting, so PR A's Prettier-formatted version is kept."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:25:21.654468Z"
+}

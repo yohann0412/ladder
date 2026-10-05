@@ -1,0 +1,25 @@
+{
+  "pair_id": "bruin-data__bruin__760-818",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 206087,
+  "tokens": {
+    "input_tokens": 22,
+    "output_tokens": 1445,
+    "cache_creation_input_tokens": 109924,
+    "cache_read_input_tokens": 711487
+  },
+  "tool_calls": 12,
+  "files": [
+    {
+      "path": "pkg/pipeline/pipeline.go",
+      "action": "keep",
+      "sha256": "155e5867646372249756fc9521719e8447c73ae2a81c1b6f31b893e64bca1e4b",
+      "rationale": "Both sides only appended constants to the same const block, so the merge keeps PR B's SCD2 materialization strategies (already referenced in AllAvailableMaterializationStrategies) alongside PR A's ProfilingLevel constants (used by Asset.Profiling), with gofmt-consistent alignment."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:29:06.213780Z"
+}

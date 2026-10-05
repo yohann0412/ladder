@@ -1,0 +1,31 @@
+{
+  "pair_id": "langfuse__langfuse-docs__1505-1535",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 64325,
+  "tokens": {
+    "input_tokens": 16,
+    "output_tokens": 1517,
+    "cache_creation_input_tokens": 71153,
+    "cache_read_input_tokens": 383895
+  },
+  "tool_calls": 16,
+  "files": [
+    {
+      "path": "pages/docs/scores/data-model.mdx",
+      "action": "keep",
+      "sha256": "dc270b766d875efd80a86730bfb53b0818337dae8941b2f94411027208708f73",
+      "rationale": "Kept PR A's refactor that replaces the inline score description, diagram and Score table with the shared ScoreDataModel component, and carried over PR B's edit outside that region (scores displayed on trace/session/dataset run); PR B's dataset-run additions to the inline block and table cannot be kept without undoing A's shared component, which is not among the conflicted files."
+    },
+    {
+      "path": "pages/docs/tracing-data-model.mdx",
+      "action": "keep",
+      "sha256": "898a2bdd0111f0b1c3cc8cda1898db03ef0abcf14e0a41dd54cd552fc32ac139",
+      "rationale": "Kept PR A's use of the shared ScoreDataModel component in place of the inline bullet list and mermaid diagram, and merged in PR B's broader intro line saying traces, observations, sessions and dataset runs can be evaluated with scores."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:25:20.261584Z"
+}
