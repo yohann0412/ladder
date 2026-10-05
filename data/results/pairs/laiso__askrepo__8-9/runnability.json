@@ -1,0 +1,15 @@
+{
+  "pair_id": "laiso__askrepo__8-9",
+  "commit": "9a9225d68bd4f802eee18a21b47b896e7305c75b",
+  "language": "deno",
+  "package_manager": "deno",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "deno project; deno is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

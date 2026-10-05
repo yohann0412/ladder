@@ -1,0 +1,45 @@
+{
+  "pair_id": "groupultra__telegram-search__269-287",
+  "status": "located",
+  "commit": "de5e1cb6b4bc9239f3ec24e3db7f157855d2f906",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "packages/stage-ui/src/components/layout/SidebarSelector.vue",
+      "present": true,
+      "sha256": "8695f887bbed06d4e4439e0bc73b4d439d5a1c0e957042073f72198b233047cc"
+    },
+    {
+      "path": "packages/stage-ui/src/layouts/default.vue",
+      "present": true,
+      "sha256": "dd6ac39b713857f20e1b4946b15afaef8c3ffc67ba5633fbf34ab22a611eaf61"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "apps/electron/package.json",
+    "apps/server/package.json",
+    "packages/common/package.json",
+    "packages/common/src/browser/flags.ts",
+    "packages/core/package.json",
+    "packages/core/src/message-resolvers/embedding-resolver.ts",
+    "packages/core/src/message-resolvers/index.ts",
+    "packages/core/src/message-resolvers/jieba-resolver.ts",
+    "packages/core/src/message-resolvers/link-resolver.ts",
+    "packages/core/src/message-resolvers/media-resolver.ts",
+    "packages/core/src/message-resolvers/user-resolver.ts",
+    "packages/core/src/services/connection.ts",
+    "packages/core/src/services/dialog.ts",
+    "packages/core/src/services/message.ts",
+    "packages/core/src/services/session.ts",
+    "packages/core/src/services/takeout.ts",
+    "packages/db/package.json",
+    "packages/db/src/drizzle.ts",
+    "packages/db/src/models/chat-message.ts",
+    "packages/db/src/models/stickers.ts",
+    "pnpm-lock.yaml"
+  ],
+  "outside_region_edit": [],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T12:39:14.221798Z"
+}

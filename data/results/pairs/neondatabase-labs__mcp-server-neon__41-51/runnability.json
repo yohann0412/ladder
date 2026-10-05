@@ -1,0 +1,15 @@
+{
+  "pair_id": "neondatabase-labs__mcp-server-neon__41-51",
+  "commit": "5641d6766ea39a8321eaacffc7703a3254742f60",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

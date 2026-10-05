@@ -11,6 +11,18 @@
       "step": "cache",
       "error": "FileNotFoundError: [Errno 2] No such file or directory: PosixPath('work/cache/AgentOps-AI__agentops.git')",
       "time": "2026-10-05T12:37:01.659948Z"
+    },
+    {
+      "pair_id": "antiwork__shortest__349-352",
+      "step": "truth",
+      "error": "GitError: git rev-list --objects --no-object-names --no-walk --missing=print 94d766036b4c7636fb671de82d9757ee4003c3ec -- eslint.config.js packages/shortest/src/ai/client.ts packages/shortest/src/browser/core/browser-tool.ts packages/shortest/src/cache/cache.ts packages/shortest/src/cache/index.ts packages/shortest/src/core/runner/index.ts packages/shortest/src/index.ts packages/shortest/src/log/event.ts packages/shortest/src/utils/add-to-env.ts packages/shortest/src/utils/add-to-gitignore.ts packages/shortest/tests/unit/ai/client.test.ts exited 128: fatal: bad object 94d766036b4c7636fb671de82d9757ee4003c3ec",
+      "time": "2026-10-05T12:38:39.248307Z"
+    },
+    {
+      "pair_id": "groupultra__telegram-search__245-246",
+      "step": "truth",
+      "error": "GitError: git rev-list --objects --no-object-names --no-walk --missing=print 1c6e83240d0e53d1bcce4fab2b4eefbfb4dadd74 -- packages/stage-ui/src/components/ChatSelector.vue packages/stage-ui/src/components/SearchDialog.vue packages/stage-ui/src/components/layout/ChatsCollapse.vue packages/stage-ui/src/components/layout/SettingsDialog.vue packages/stage-ui/src/components/layout/SidebarSelector.vue packages/stage-ui/src/components/layout/UserDropdown.vue packages/stage-ui/src/components/messages/MediaRenderer.vue packages/stage-ui/src/components/messages/MessageBubble.vue packages/stage-ui/src/components/messages/MessageList.vue packages/stage-ui/src/components/ui/Button/Button.vue packages/stage-ui/src/components/ui/SelectDropdown.vue packages/stage-ui/src/layouts/default.vue packages/stage-ui/src/pages/[...all].vue packages/stage-ui/src/pages/chat/[id].vue packages/stage-ui/src/pages/login.vue packages/stage-ui/src/pages/search/[id].vue packages/stage-ui/src/pages/search/index.vue packages/stage-ui/src/pages/settings.vue packages/stage-ui/src/pages/sync.vue pnpm-lock.yaml SHADCN_MIGRATION.md components.json cspell.config.yaml docs/migrations/STYLE_REPLACEMENT_SUMMARY.md drizzle/0008_gorgeous_skaar.sql drizzle/0009_married_terrax.sql drizzle/0010_friendly_cable.sql drizzle/meta/0008_snapshot.json drizzle/meta/0009_snapshot.json drizzle/meta/0010_snapshot.json drizzle/meta/_journal.json package.json packages/core/src/event-handlers/storage.ts packages/core/src/event-handlers/takeout.ts packages/core/src/message-resolvers/media-resolver.ts packages/core/src/utils/message.ts packages/db/src/models/chat-message-stats.ts packages/db/src/models/chat-message.ts packages/db/src/models/chats.ts packages/db/src/models/photos.ts packages/db/src/models/sticker-packs.ts packages/db/src/models/stickers.ts packages/db/src/models/utils/message.ts packages/db/src/models/utils/photos.ts packages/db/src/schemas/photos.ts packages/stage-ui/package.json packages/stage-ui/src/components/ui/Avatar.vue packages/stage-ui/src/components/ui/Dialog.vue packages/stage-ui/src/components/ui/Stepper.vue packages/stage-ui/src/index.ts packages/stage-ui/src/lib/utils.ts tailwind.config.js uno.config.ts exited 128: fatal: bad object 1c6e83240d0e53d1bcce4fab2b4eefbfb4dadd74",
+      "time": "2026-10-05T12:39:13.273902Z"
     }
   ]
 }

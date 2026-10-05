@@ -1,0 +1,15 @@
+{
+  "pair_id": "StephenDev0__StikDebug__204-206",
+  "commit": "c3f5653086e049f248624671cc4c9e636e43eee8",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

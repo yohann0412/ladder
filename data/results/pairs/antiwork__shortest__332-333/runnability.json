@@ -1,0 +1,15 @@
+{
+  "pair_id": "antiwork__shortest__332-333",
+  "commit": "9f0c8affb2a3869f4f98eebd8f529ca3650a2006",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

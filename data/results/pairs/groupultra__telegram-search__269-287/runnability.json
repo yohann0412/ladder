@@ -1,0 +1,38 @@
+{
+  "pair_id": "groupultra__telegram-search__269-287",
+  "commit": "b6c7dd752e80b2d32ce06286bf684cacecf86b10",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": "vitest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 1 in 4.6 s: Progress: resolved 1173, reused 1172, downloaded 0, added 233 | Progress: resolved 1173, reused 1172, downloaded 0, added 635 |  ERR_PNPM_FETCH_403  GET https://codeload.github.com/electron/node-gyp/tar.gz/06b29aafb7708acef8b3669835c8a7857ebc92d2: Forbidden - 403 | No authorization header was set for the request. | These authorization settings were found: | @jsr:registry=https://npm.jsr.io/",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--frozen-lockfile"
+      ],
+      "exit_code": 1,
+      "duration_s": 17.9,
+      "detail": "standard, install cap 900 s: install: exit 1 in 17.9 s; output tail: Progress: resolved 1173, reused 0, downloaded 1059, added 778 | Progress: resolved 1173, reused 0, downloaded 1072, added 782 | Progress: resolved 1173, reused 0, downloaded 1122, added 801 |  ERR_PNPM_FETCH_403  GET https://codeload.github.com/electron/node-gyp/tar.gz/06b29aafb7708acef8b3669835c8a7857ebc92d2: Forbidden - 403 | No authorization header was set for the request. | These authorization settings were found: | @jsr:registry=https://npm.jsr.io/ | Progress: resolved 1173, reused 0, downloaded 1172, added 1172"
+    },
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--no-frozen-lockfile"
+      ],
+      "exit_code": 1,
+      "duration_s": 4.6,
+      "detail": "unfrozen (pnpm install without --frozen-lockfile), install cap 900 s: install: exit 1 in 4.6 s; output tail: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ | Progress: resolved 1173, reused 402, downloaded 0, added 0 | Progress: resolved 1173, reused 1172, downloaded 0, added 233 | Progress: resolved 1173, reused 1172, downloaded 0, added 635 |  ERR_PNPM_FETCH_403  GET https://codeload.github.com/electron/node-gyp/tar.gz/06b29aafb7708acef8b3669835c8a7857ebc92d2: Forbidden - 403 | No authorization header was set for the request. | These authorization settings were found: | @jsr:registry=https://npm.jsr.io/"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
