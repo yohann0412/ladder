@@ -1,0 +1,23 @@
+{
+  "pair_id": "giselles-ai__giselle__870-902",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/giselles-ai__giselle__870-902",
+  "source_base": "89ee437b45b7104c65113e958c354e38abccab76",
+  "source_a": "f172beeee2a270a14de1aa47cce0f92c501243c9",
+  "source_b": "3f8bf2ddd0b86a4e70edf2ccbeb4bd1eeeb932ad",
+  "base_commit": "5073248bdd7e04f3553801d2b1c466b654c92eef",
+  "a_commit": "5414450cfc0a870725489b13f05ccc19871cb419",
+  "b_commit": "f049747ee0081c38f0065b49c953a86b5c55ec32",
+  "object_count": 1326,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

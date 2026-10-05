@@ -1,0 +1,23 @@
+{
+  "pair_id": "onlook-dev__onlook__1849-2041",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/onlook-dev__onlook__1849-2041",
+  "source_base": "ea97c7f8cb1f2fab7b858e953a59e0c53e134127",
+  "source_a": "fa14301d325e0808c9bf416ac80171d29fe5e349",
+  "source_b": "07f6885b4735e0bbfc6c0a733a55cdedad2f69e4",
+  "base_commit": "a3928e75f22504e6c910fe06e6555b8e87b52500",
+  "a_commit": "b909084688819476db2c238a56606158548d2c03",
+  "b_commit": "ecde2883b3cd8880c9b1908525185ca2d873732b",
+  "object_count": 1650,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

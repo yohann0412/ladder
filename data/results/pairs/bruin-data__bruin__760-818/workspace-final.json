@@ -1,0 +1,23 @@
+{
+  "pair_id": "bruin-data__bruin__760-818",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/bruin-data__bruin__760-818",
+  "source_base": "5064ef936d2420a174ee190943bc91bd6872c1cd",
+  "source_a": "9febc36892e207684b6151b9d071e488ca588007",
+  "source_b": "4309e0bbb2b61266539a1a8d0269607902e3fa9b",
+  "base_commit": "d3ec8e3e3a20b59962ba6c71456c677957aff26c",
+  "a_commit": "4031852fb46162ede853f8f53d98805ca125e0a6",
+  "b_commit": "f497f0752237faac358079e2765d338a6e6ffc37",
+  "object_count": 1607,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

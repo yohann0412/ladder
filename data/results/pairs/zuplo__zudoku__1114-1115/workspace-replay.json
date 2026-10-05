@@ -1,0 +1,23 @@
+{
+  "pair_id": "zuplo__zudoku__1114-1115",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/zuplo__zudoku__1114-1115",
+  "source_base": "9cf1b94a5128e0f4f819ce60b52d7011ea8dd25b",
+  "source_a": "cd9726767562b0aae7838ac05a5b68f390fcfc15",
+  "source_b": "0f94ff4161cfd7364aa331280eef3efd1d7f5c28",
+  "base_commit": "0703b00cbb46a30f11a6ad405ba0e71e94bd4390",
+  "a_commit": "9bc1a210af770b6fdf8de64e6b9eef4b140f7759",
+  "b_commit": "542a7104a613511f1b9fcd2eb68febcb48637933",
+  "object_count": 1060,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

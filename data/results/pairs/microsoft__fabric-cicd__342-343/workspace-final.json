@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__fabric-cicd__342-343",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/microsoft__fabric-cicd__342-343",
+  "source_base": "51272620495d14a89283048b3ee2e1985ca4aa71",
+  "source_a": "4f1b69d9883f0d0d1406ca11def0d54a827b104f",
+  "source_b": "42c9bcb3415cddfa0c06a11c40f691990e5bbf67",
+  "base_commit": "02abdf1188b179a8eb79ac74e2d65fd9a3f98663",
+  "a_commit": "b0fa07da0408ceaccb9022e338619e57b5df9964",
+  "b_commit": "7f2c2e2633393373aa1f62cbc4fcc6e077c5800b",
+  "object_count": 318,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

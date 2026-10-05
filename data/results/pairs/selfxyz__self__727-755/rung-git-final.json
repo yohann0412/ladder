@@ -1,0 +1,83 @@
+{
+  "pair_id": "selfxyz__self__727-755",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 7, conflicted files: 7",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in circuits/circuits/register_id/instances/register_id_sha256_sha256_sha224_ecdsa_secp224r1.circom",
+    "CONFLICT (content): Merge conflict in circuits/scripts/build/build_cpp.sh",
+    "CONFLICT (content): Merge conflict in contracts/ignition/modules/scripts/updateRegistryHubV2.ts",
+    "CONFLICT (add/add): Merge conflict in contracts/ignition/readme.md",
+    "CONFLICT (add/add): Merge conflict in contracts/scripts/constants.ts",
+    "CONFLICT (content): Merge conflict in contracts/scripts/setHubV2.ts",
+    "CONFLICT (content): Merge conflict in contracts/scripts/setVerifiersV2.ts"
+  ],
+  "types": [
+    "add/add",
+    "content",
+    "content",
+    "add/add",
+    "add/add",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "circuits/circuits/register_id/instances/register_id_sha256_sha256_sha224_ecdsa_secp224r1.circom",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "circuits/scripts/build/build_cpp.sh",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "contracts/ignition/modules/scripts/updateRegistryHubV2.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "contracts/ignition/readme.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "contracts/scripts/constants.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "contracts/scripts/setHubV2.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 8,
+      "category": "source"
+    },
+    {
+      "path": "contracts/scripts/setVerifiersV2.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 11,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "567-labs__kura__69-75",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/567-labs__kura__69-75",
+  "source_base": "a051c062387a9d9718ecc749a5a1214d51a81a77",
+  "source_a": "d71cefde865ed437e4ad1a616cf18704a1f2f374",
+  "source_b": "9e3744a556b683ca16f26e3114bb5388ccec2076",
+  "base_commit": "2e0eed40eb6fe7effa7d077f9932fa261fffa9fb",
+  "a_commit": "e0dec7790cf6851b1554899fcb8e1b4c7d555b44",
+  "b_commit": "4daf3fbcf922cf87bcbba31ea4b68a51a1b56272",
+  "object_count": 168,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

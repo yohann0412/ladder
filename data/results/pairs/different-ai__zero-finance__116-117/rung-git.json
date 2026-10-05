@@ -1,0 +1,23 @@
+{
+  "pair_id": "different-ai__zero-finance__116-117",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in packages/web/src/app/onboarding/welcome/page.tsx"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "packages/web/src/app/onboarding/welcome/page.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

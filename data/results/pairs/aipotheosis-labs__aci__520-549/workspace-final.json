@@ -1,0 +1,23 @@
+{
+  "pair_id": "aipotheosis-labs__aci__520-549",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/aipotheosis-labs__aci__520-549",
+  "source_base": "2221d028a245273cda5b71f37be22f96ad889481",
+  "source_a": "eab926b5e368a12c8d6e4e0afbd460ed6d01128b",
+  "source_b": "bee364b3063c27f2bb40ae5d48d5d5be3967d852",
+  "base_commit": "df0ea486670a98f32a58736e6f7b35613278f231",
+  "a_commit": "398559da783e5bfd2f3bdd3d2146ae1dc36db445",
+  "b_commit": "197a6a66ce183fb5bb4c6492ed7c008630b474be",
+  "object_count": 890,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

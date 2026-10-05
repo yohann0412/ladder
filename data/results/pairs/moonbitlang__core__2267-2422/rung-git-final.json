@@ -1,0 +1,33 @@
+{
+  "pair_id": "moonbitlang__core__2267-2422",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2",
+  "messages": [
+    "CONFLICT (content): Merge conflict in json/parse_test.mbt",
+    "CONFLICT (content): Merge conflict in json/utils.mbt"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "json/parse_test.mbt",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "json/utils.mbt",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "other"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "BerriAI__litellm__13110-13122",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/BerriAI__litellm__13110-13122",
+  "source_base": "8d49dd66cbc8858c5c2cd6f12f7ffddcfa922c9a",
+  "source_a": "f08c41cd07db953fbb5e03d55112c5fd9ae7ef16",
+  "source_b": "496580e7acd8d575f2ccfffd7093c8109cf94e5d",
+  "base_commit": "f4b25049b5843492717803b5df3b8ad7dfd5369d",
+  "a_commit": "1bbf6ec091f9bfc13bce91a6cbb0466a55ef5793",
+  "b_commit": "e6358c4226b002f5765439d76a0bd70b7e395a00",
+  "object_count": 4427,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

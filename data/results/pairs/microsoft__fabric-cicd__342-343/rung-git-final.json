@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__fabric-cicd__342-343",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a1dd28f630bf6a5c224889b1550ae939fa17ba92"
+}

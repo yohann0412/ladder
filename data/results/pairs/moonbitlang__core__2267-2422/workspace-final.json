@@ -1,0 +1,23 @@
+{
+  "pair_id": "moonbitlang__core__2267-2422",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/moonbitlang__core__2267-2422",
+  "source_base": "e951f80082f92ea45d013ef1a299d73a3ece8e15",
+  "source_a": "c0e0667892bcc86fbab78a18e574a592403f6e1a",
+  "source_b": "9af401facf87cfc968a6a92aeace9e60cb4e62a5",
+  "base_commit": "2e950c84983320acf6acde0b5ae6f8f233b9017e",
+  "a_commit": "2aaff52ef8a56815284f01a094e1a654b8ccc5ce",
+  "b_commit": "a8cc6b6ee0dcd3221d773a5211cba36bc361e886",
+  "object_count": 1059,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

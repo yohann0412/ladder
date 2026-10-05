@@ -1,0 +1,23 @@
+{
+  "pair_id": "MervinPraison__PraisonAI__984-1021",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/MervinPraison__PraisonAI__984-1021",
+  "source_base": "63286ff1062129e0d65a3488a75349c452e648e0",
+  "source_a": "fda1ca33e48be65bf0d7bc4cfc968fb2f8cf2a69",
+  "source_b": "a0e58744debe2aa716f14156b3dbb8b38bd06e08",
+  "base_commit": "647281daa43b90e43f5ab6109d87987e178b305d",
+  "a_commit": "2e7ad5416ca00e9ffd0a20fdbd2126d20dcc5de3",
+  "b_commit": "780813a19bb9f4f089fe4c3a2fa5ada3213242e5",
+  "object_count": 1270,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

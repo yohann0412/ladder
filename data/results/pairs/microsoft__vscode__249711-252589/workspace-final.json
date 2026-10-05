@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__vscode__249711-252589",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/microsoft__vscode__249711-252589",
+  "source_base": "1b63c82c3963a0beeee5f74fe440e7ff8f97b6da",
+  "source_a": "ab377ece10ce71cbf0fedb94425aed81ac661fcc",
+  "source_b": "b1952570348ac2b2902d60a0f871e6b36c95535c",
+  "base_commit": "0470a1b1aea0ecbbd891dc063358a0786e923edc",
+  "a_commit": "1912658283a603a44fe7f8af4ee899efc98a00b2",
+  "b_commit": "b2ec5396fbf14bc9bb5c09c3d13b4012b0b08e92",
+  "object_count": 12684,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

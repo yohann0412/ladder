@@ -1,0 +1,23 @@
+{
+  "pair_id": "wvlet__wvlet__967-980",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/wvlet__wvlet__967-980",
+  "source_base": "2717c78a23fb58fb7e0720ed5bf957deb721d4e7",
+  "source_a": "ef11a1557d892d96f116896df18730ce1e4569be",
+  "source_b": "6ea4ea72117a19f3f285a26b979ca8b5d190a80e",
+  "base_commit": "b0961487211711963669994e7331d79685a43aa1",
+  "a_commit": "aad8074ede474833c174a68ff862463bf0a0b970",
+  "b_commit": "5e5fe8586783b8a591e3383677086cb04e824f6a",
+  "object_count": 1108,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

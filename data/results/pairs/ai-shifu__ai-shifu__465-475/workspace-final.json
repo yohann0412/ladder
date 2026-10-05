@@ -1,0 +1,23 @@
+{
+  "pair_id": "ai-shifu__ai-shifu__465-475",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/ai-shifu__ai-shifu__465-475",
+  "source_base": "3ad24d9ddd5a4c8eb7e6bbc30ba9a0a4dc430aaa",
+  "source_a": "3292a630519621b3e9758265e3f8b2c8145c76e9",
+  "source_b": "42856fca118ebf627b635063324d855ef60e9f49",
+  "base_commit": "e5300d3e959b4f3989ba4042e6767d0525df7877",
+  "a_commit": "282abb9f32f1a587e38bf2a3b843d7857ca713d7",
+  "b_commit": "ad3bb70b74c98546a702a8daab91ad058e630ce6",
+  "object_count": 1137,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

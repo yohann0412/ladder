@@ -1,0 +1,23 @@
+{
+  "pair_id": "unclecode__crawl4ai__1124-1152",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/unclecode__crawl4ai__1124-1152",
+  "source_base": "897e0173618d20fea5d8952ccdbcdad0febc0fee",
+  "source_a": "60290971144acd9e367bc216f1337c4db73b721c",
+  "source_b": "c8d28316b95412f610d42ace29a03f8a58846368",
+  "base_commit": "bdca8970172326f0cb4bf69fe2c25b6f5eada38c",
+  "a_commit": "c4f50df311d463fb24e97d5c3257f7e0893b6abd",
+  "b_commit": "50cfa5679b4f570f17a8195cdada78f6ef895133",
+  "object_count": 430,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

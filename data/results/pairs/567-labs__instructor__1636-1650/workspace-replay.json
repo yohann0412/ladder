@@ -1,0 +1,23 @@
+{
+  "pair_id": "567-labs__instructor__1636-1650",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/567-labs__instructor__1636-1650",
+  "source_base": "65190a775f9991276fb41d481e57c872d2980e56",
+  "source_a": "a46bd5ba0bcdeba0f9f16a77863e5338c0e55de6",
+  "source_b": "15cf33dd5964c2ae62c99d6dd8f56b9296a91f02",
+  "base_commit": "df458e2846891c02f8f2c9e09485daa3be851a35",
+  "a_commit": "ce546aef5e56cf625db6ca1856f54330991049d2",
+  "b_commit": "3d32ef3648c43b76d75f8623775aff0ef8b454b0",
+  "object_count": 856,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "different-ai__note-companion__406-407",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/different-ai__note-companion__406-407",
+  "source_base": "aacd442ca930d1738ff15b94887f184c75151455",
+  "source_a": "cea8433ec4a4bc7a6895b1203b952e1f6127f164",
+  "source_b": "e21d541a24ea802430a7c3406c3b7d522f1d4478",
+  "base_commit": "9911e754af6ef8fa6cb4003613d5a2fe60cc8ff3",
+  "a_commit": "4a3319976ec92627d795bb80608b5a2580c6074c",
+  "b_commit": "1eda45ee553416822ff36fd527081c16fd1346c8",
+  "object_count": 956,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

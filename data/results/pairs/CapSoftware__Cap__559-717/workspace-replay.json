@@ -1,0 +1,23 @@
+{
+  "pair_id": "CapSoftware__Cap__559-717",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/CapSoftware__Cap__559-717",
+  "source_base": "6c6b81b4914d24dbd2c5d9d1d1f7bae859ce2468",
+  "source_a": "8facdd9c8c877235b05f230bc04c80bd3ad9116c",
+  "source_b": "be5e789ef6549d77ed4285bd19e77173a9d7c2e6",
+  "base_commit": "7233d134badc41a0e1673b6b6b3533d5ca21b21f",
+  "a_commit": "1be23c4f4476fcd1b13b3c1766cf4fec25b448d3",
+  "b_commit": "7f64ce8e00715912cfa0890392e34224a0c6d316",
+  "object_count": 1998,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

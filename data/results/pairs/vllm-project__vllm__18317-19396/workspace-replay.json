@@ -1,0 +1,23 @@
+{
+  "pair_id": "vllm-project__vllm__18317-19396",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/vllm-project__vllm__18317-19396",
+  "source_base": "9ab2c02ff8ef05cb6c4b2bdc9a4faaee61892450",
+  "source_a": "2e773e55b3e6ca8be35c8277b256b0cda8d5c457",
+  "source_b": "e30d84c12d860299460a99ddbcbcc1df3622eef6",
+  "base_commit": "6d98e139907e8ddfc9e485b16580fd71188b1906",
+  "a_commit": "bc4a4ff63e6b638c358980578f3813daa8718d82",
+  "b_commit": "40c07f23e6c4167fd3c4f93a8592511bbd66f678",
+  "object_count": 4620,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

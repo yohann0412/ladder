@@ -1,0 +1,23 @@
+{
+  "pair_id": "promptfoo__promptfoo__2956-4050",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/promptfoo__promptfoo__2956-4050",
+  "source_base": "394abb06ec9006b6a2385e8ef065caeaa28374e1",
+  "source_a": "d4245b4dbeffa0d082e5af79f9954ba341051ae7",
+  "source_b": "b3ad37cf57f18b9f2f27b1cf0417a2af4c89ed9b",
+  "base_commit": "db0005b1e5b4679726632caf824cb35e2d77fd7f",
+  "a_commit": "e2304cb1553581ff59d38ab34edab18ea03ed942",
+  "b_commit": "d77f59f1eb8b9bb422c44b3a66cdc33544e5cf8f",
+  "object_count": 3413,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

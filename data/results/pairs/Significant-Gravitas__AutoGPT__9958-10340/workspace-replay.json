@@ -1,0 +1,23 @@
+{
+  "pair_id": "Significant-Gravitas__AutoGPT__9958-10340",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Significant-Gravitas__AutoGPT__9958-10340",
+  "source_base": "bd425331f11c5a6e8eafc1e52046e4b6c6164c51",
+  "source_a": "e9a3ba36ab5b5faa5c480abbc4a19b5c1ea54f94",
+  "source_b": "0f2b7dd11d16aab25fa9865c6799752c0daa8781",
+  "base_commit": "e264631ba4bb776fbdf141ba176e1d052633ccc3",
+  "a_commit": "dea209a51f2a14a511cfbdbe2d0b51c020c665ee",
+  "b_commit": "643281866282c9f74259f439d9f99ad8bd31c362",
+  "object_count": 5116,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "pair_id": "estruyf__vscode-demo-time__147-157",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/preview/components/MarkdownPreview.tsx",
+    "CONFLICT (content): Merge conflict in src/preview/components/SlideControls.tsx"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/preview/components/MarkdownPreview.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/preview/components/SlideControls.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

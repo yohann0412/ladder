@@ -1,0 +1,33 @@
+{
+  "pair_id": "Significant-Gravitas__AutoGPT__9958-10340",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2",
+  "messages": [
+    "CONFLICT (content): Merge conflict in autogpt_platform/backend/backend/blocks/exa/search.py",
+    "CONFLICT (content): Merge conflict in autogpt_platform/backend/backend/blocks/exa/similar.py"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "autogpt_platform/backend/backend/blocks/exa/search.py",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/exa/similar.py",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

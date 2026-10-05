@@ -1,0 +1,23 @@
+{
+  "pair_id": "bruin-data__bruin__760-818",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in pkg/pipeline/pipeline.go"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "pkg/pipeline/pipeline.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

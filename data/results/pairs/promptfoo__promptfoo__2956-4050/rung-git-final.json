@@ -1,0 +1,43 @@
+{
+  "pair_id": "promptfoo__promptfoo__2956-4050",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3",
+  "messages": [
+    "CONFLICT (content): Merge conflict in package-lock.json",
+    "CONFLICT (content): Merge conflict in package.json",
+    "CONFLICT (content): Merge conflict in src/app/src/pages/eval/components/EvalOutputPromptDialog.tsx"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "package-lock.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "package.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "src/app/src/pages/eval/components/EvalOutputPromptDialog.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 5,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

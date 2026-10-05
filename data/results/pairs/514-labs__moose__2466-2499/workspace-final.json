@@ -1,0 +1,23 @@
+{
+  "pair_id": "514-labs__moose__2466-2499",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/514-labs__moose__2466-2499",
+  "source_base": "2646fd9b7f205b9649d4486f564682b76ca3f00b",
+  "source_a": "af386590aa8fcf7e8fd43caeca2486fa98c6456c",
+  "source_b": "24a5f4cc254499aac7ee16d32e01435b04a26212",
+  "base_commit": "aa7ba3dd6a97e1d4cf4a5e9e05f07ac3f59a975f",
+  "a_commit": "f657165e415127f7f29c55a0f169abc956723eee",
+  "b_commit": "b5ecbd42f473f5534132de5349d8468c6b46801a",
+  "object_count": 1507,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

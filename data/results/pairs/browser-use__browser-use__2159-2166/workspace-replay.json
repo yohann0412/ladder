@@ -1,0 +1,23 @@
+{
+  "pair_id": "browser-use__browser-use__2159-2166",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/browser-use__browser-use__2159-2166",
+  "source_base": "be32400e19d8e5cc004e49e59e97de8875524770",
+  "source_a": "75b9b809a3d61ee1f1fc1232ae2d11f66320d21b",
+  "source_b": "367a5b2de7db20d33bd58c32f992498290ac8749",
+  "base_commit": "290a5511367fefccc2d7ebdb6ff213b4f285290b",
+  "a_commit": "5b7cbbfb00059bfcf3c8b7d7945bc0eadcedf286",
+  "b_commit": "2ca6c8588d77615746939ecf580ef9d7dd3c8fbd",
+  "object_count": 371,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

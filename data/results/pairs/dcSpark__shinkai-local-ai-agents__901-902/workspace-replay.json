@@ -1,0 +1,23 @@
+{
+  "pair_id": "dcSpark__shinkai-local-ai-agents__901-902",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/dcSpark__shinkai-local-ai-agents__901-902",
+  "source_base": "3fbc631683061ffd0b0f2b8751edc4a1f268f65b",
+  "source_a": "1649e81bdf0ebea45ecdd1f99f7788c5bef729d3",
+  "source_b": "c241d09f506c6ee36f58a485fffcb32da6303b7d",
+  "base_commit": "1bf800d10a8f82b3681d6795a50a647b23b711c3",
+  "a_commit": "95fa5dda9d46ac8ee5f22b8d7696411110a2a28a",
+  "b_commit": "416af62ff20d54cd6fe34873ce1069860318a6a5",
+  "object_count": 1296,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

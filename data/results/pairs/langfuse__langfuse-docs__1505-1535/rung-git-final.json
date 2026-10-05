@@ -1,0 +1,33 @@
+{
+  "pair_id": "langfuse__langfuse-docs__1505-1535",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2",
+  "messages": [
+    "CONFLICT (content): Merge conflict in pages/docs/scores/data-model.mdx",
+    "CONFLICT (content): Merge conflict in pages/docs/tracing-data-model.mdx"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "pages/docs/scores/data-model.mdx",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "docs_text"
+    },
+    {
+      "path": "pages/docs/tracing-data-model.mdx",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

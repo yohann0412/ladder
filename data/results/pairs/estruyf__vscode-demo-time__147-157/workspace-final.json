@@ -1,0 +1,23 @@
+{
+  "pair_id": "estruyf__vscode-demo-time__147-157",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/estruyf__vscode-demo-time__147-157",
+  "source_base": "4a53d7cf27cfe3d721fa7b55b2617f540395a020",
+  "source_a": "07d7cc3f74b5559468b154e9e8ee128f43aa49b3",
+  "source_b": "53fcf802cf21ee04515be4179fd6c278e141c2c5",
+  "base_commit": "5a432b0e82aea3d0639e8ea61303703b79136882",
+  "a_commit": "e1711e688577238dfca40bcd75a8c1b9728e0574",
+  "b_commit": "1e825c776346f8f03d7ab3dba6007564622163bb",
+  "object_count": 376,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "bruin-data__ingestr__251-299",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/bruin-data__ingestr__251-299",
+  "source_base": "4121499704dcad1dfc451eec61156d48f840e070",
+  "source_a": "4e98fa9a64361ddfb02cc934a8168062f2721024",
+  "source_b": "4ce7f03f1e42e4a4ef03a3988f79af9b001ad809",
+  "base_commit": "e8bd348dbd62ab6d469c0afac20684fedac5b2d4",
+  "a_commit": "73233ff3513e5e82e07a738780057437a158a7ad",
+  "b_commit": "f66b23fbe99ac6cb765c2e1b3507cc5095edbbaa",
+  "object_count": 462,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

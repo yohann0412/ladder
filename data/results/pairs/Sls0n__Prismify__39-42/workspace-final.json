@@ -1,0 +1,23 @@
+{
+  "pair_id": "Sls0n__Prismify__39-42",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/Sls0n__Prismify__39-42",
+  "source_base": "c195887290a76a5d98cbe9d056553ed5354ee5ac",
+  "source_a": "fbf7aa7f44e4b72861561ab29f6c920a3856646c",
+  "source_b": "0b9faa4f0c18f56589e3c0685cdd18e13501945e",
+  "base_commit": "bd7c20500300c8ac25f90690d719d32f4c88264a",
+  "a_commit": "858a249a0855035b27fac1f99613c680a0691375",
+  "b_commit": "83514d3bc23e1c4580a55403e4d15fa815230c8d",
+  "object_count": 227,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

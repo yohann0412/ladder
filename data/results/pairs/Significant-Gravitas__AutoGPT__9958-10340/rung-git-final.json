@@ -1,0 +1,133 @@
+{
+  "pair_id": "Significant-Gravitas__AutoGPT__9958-10340",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 12, conflicted files: 12",
+  "messages": [
+    "CONFLICT (content): Merge conflict in autogpt_platform/autogpt_libs/poetry.lock",
+    "CONFLICT (content): Merge conflict in autogpt_platform/backend/.env.default",
+    "CONFLICT (content): Merge conflict in autogpt_platform/backend/backend/blocks/google/gmail.py",
+    "CONFLICT (content): Merge conflict in autogpt_platform/backend/backend/server/model.py",
+    "CONFLICT (content): Merge conflict in autogpt_platform/backend/backend/server/routers/v1.py",
+    "CONFLICT (content): Merge conflict in autogpt_platform/backend/backend/server/routers/v1_test.py",
+    "CONFLICT (content): Merge conflict in autogpt_platform/backend/backend/server/v2/store/media.py",
+    "CONFLICT (content): Merge conflict in autogpt_platform/backend/backend/server/v2/store/media_test.py",
+    "CONFLICT (add/add): Merge conflict in autogpt_platform/backend/backend/util/cloud_storage.py",
+    "CONFLICT (content): Merge conflict in autogpt_platform/backend/backend/util/settings.py",
+    "CONFLICT (content): Merge conflict in autogpt_platform/backend/poetry.lock",
+    "CONFLICT (modify/delete): autogpt_platform/frontend/src/components/type-based-input.tsx deleted in a and modified in b.  Version b of autogpt_platform/frontend/src/components/type-based-input.tsx left in tree."
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "add/add",
+    "content",
+    "content",
+    "modify/delete"
+  ],
+  "files": [
+    {
+      "path": "autogpt_platform/autogpt_libs/poetry.lock",
+      "types": [
+        "content"
+      ],
+      "regions": 12,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "autogpt_platform/backend/.env.default",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "autogpt_platform/backend/backend/server/model.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "autogpt_platform/backend/backend/server/routers/v1.py",
+      "types": [
+        "content"
+      ],
+      "regions": 6,
+      "category": "source"
+    },
+    {
+      "path": "autogpt_platform/backend/backend/server/routers/v1_test.py",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "autogpt_platform/backend/backend/server/v2/store/media.py",
+      "types": [
+        "content"
+      ],
+      "regions": 6,
+      "category": "source"
+    },
+    {
+      "path": "autogpt_platform/backend/backend/server/v2/store/media_test.py",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "autogpt_platform/backend/backend/util/cloud_storage.py",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "autogpt_platform/backend/backend/util/settings.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "autogpt_platform/backend/poetry.lock",
+      "types": [
+        "content"
+      ],
+      "regions": 6,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "autogpt_platform/frontend/src/components/type-based-input.tsx",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

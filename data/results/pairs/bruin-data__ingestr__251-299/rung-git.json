@@ -1,0 +1,43 @@
+{
+  "pair_id": "bruin-data__ingestr__251-299",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3",
+  "messages": [
+    "CONFLICT (content): Merge conflict in ingestr/src/factory.py",
+    "CONFLICT (content): Merge conflict in requirements.txt",
+    "CONFLICT (content): Merge conflict in requirements_arm64.txt"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "ingestr/src/factory.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "requirements.txt",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "requirements_arm64.txt",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

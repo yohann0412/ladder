@@ -1,0 +1,23 @@
+{
+  "pair_id": "selfxyz__self__727-755",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/selfxyz__self__727-755",
+  "source_base": "8801c6c1d793896a778c4b597531bc710995d30c",
+  "source_a": "bcd376cb6a1d241cbf45e9b08a9749a68f2c4806",
+  "source_b": "ce3da82e81d06e8f5c5395eb2f1eae5f2a725985",
+  "base_commit": "767429e4e236f570e91570d972b08048dc2f49f2",
+  "a_commit": "4d4185fb54d5a026de9af58dfc19d8dc804e389b",
+  "b_commit": "92a26f256be6cb1bb725d63d63be1ad3592f05be",
+  "object_count": 1756,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

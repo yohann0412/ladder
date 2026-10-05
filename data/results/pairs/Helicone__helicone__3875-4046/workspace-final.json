@@ -1,0 +1,23 @@
+{
+  "pair_id": "Helicone__helicone__3875-4046",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/Helicone__helicone__3875-4046",
+  "source_base": "bc88d034a406b02bb8097545c694a94386209414",
+  "source_a": "ca9473607b4943be3dfd015465633893fac3ab81",
+  "source_b": "7a3aa5c86b554c89c9a6e5a8eb7e16d7c39fc3ef",
+  "base_commit": "14399ddd760ede9ffbf73ceb2ed64451a4b49589",
+  "a_commit": "fbfd7a4a3c6724b3172f01c17a1a23d248fc9caf",
+  "b_commit": "8248e5b40368ef69725ed749c2f81fb825bb0ff3",
+  "object_count": 5529,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

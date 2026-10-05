@@ -1,0 +1,10 @@
+{
+  "pair_id": "getsentry__sentry__93127-93150",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "1c8a6313612abf48dc0df2e3a4b4f68cf34b2510"
+}

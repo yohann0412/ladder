@@ -1,0 +1,23 @@
+{
+  "pair_id": "exa-labs__exa-py__81-99",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in exa_py/api.py"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "exa_py/api.py",
+      "types": [
+        "content"
+      ],
+      "regions": 7,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

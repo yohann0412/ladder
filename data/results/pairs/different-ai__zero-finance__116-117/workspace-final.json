@@ -1,0 +1,23 @@
+{
+  "pair_id": "different-ai__zero-finance__116-117",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/different-ai__zero-finance__116-117",
+  "source_base": "0fdcc5a089ca51f65033fc3696809468adc0ce20",
+  "source_a": "8b27ef119614f157a356414a06aea395716fc568",
+  "source_b": "2ee19ebf781afe6e63af55fbf7f237e6c1ee3465",
+  "base_commit": "d253eabae47122a531623c794b846a42e7f72711",
+  "a_commit": "55d60b3a414a88990961ca959debd79eb2a1f264",
+  "b_commit": "ad5cdb642b70278fccca680675d6df0b47e29b3f",
+  "object_count": 2135,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

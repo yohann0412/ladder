@@ -1,0 +1,43 @@
+{
+  "pair_id": "onlook-dev__onlook__1849-2041",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3",
+  "messages": [
+    "CONFLICT (content): Merge conflict in apps/web/client/.env.example",
+    "CONFLICT (content): Merge conflict in apps/web/client/src/app/api/chat/route.ts",
+    "CONFLICT (add/add): Merge conflict in bun.lockb"
+  ],
+  "types": [
+    "content",
+    "content",
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": "apps/web/client/.env.example",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "apps/web/client/src/app/api/chat/route.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "bun.lockb",
+      "types": [
+        "add/add"
+      ],
+      "regions": 0,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

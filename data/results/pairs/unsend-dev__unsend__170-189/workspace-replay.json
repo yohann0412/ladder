@@ -1,0 +1,23 @@
+{
+  "pair_id": "unsend-dev__unsend__170-189",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/unsend-dev__unsend__170-189",
+  "source_base": "04a3a12d4083feeef0f16a2d7be6a4637b073776",
+  "source_a": "99567d1a4d11ad59a40d8ca7c9754efb6196886b",
+  "source_b": "dfc41bbd6e7b93474d36a5cc02000aa443b8786c",
+  "base_commit": "0893608be2d4060872ddbf15d1907a5ba7e44df7",
+  "a_commit": "74f8a12a6179ccae49f05a515522f4104df4f982",
+  "b_commit": "96824550bd07e9724c715da6c08d06f7f1958c90",
+  "object_count": 650,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "HumanSignal__label-studio__7687-7850",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/HumanSignal__label-studio__7687-7850",
+  "source_base": "1e8224dfa263ded33fc872729a3e60b7e7c1518a",
+  "source_a": "8c7a2a1bdf6bcb46722d7b42bd5b615c59c07b0e",
+  "source_b": "7c5099f43e3c390020e4de0d48b7fdf40a1ec0a0",
+  "base_commit": "573c2b5461c91a52f96bafb1b04e40b8b1819abb",
+  "a_commit": "cfc08f7e3a2b6e85a2f2f0083158fc4d72b8c00f",
+  "b_commit": "183e7e3530980623c22149b8836fd4b2b443a62d",
+  "object_count": 5250,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

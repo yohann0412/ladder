@@ -1,0 +1,23 @@
+{
+  "pair_id": "567-labs__kura__69-75",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in docs/index.md"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "docs/index.md",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

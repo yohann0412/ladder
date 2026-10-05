@@ -1,0 +1,23 @@
+{
+  "pair_id": "HumanSignal__label-studio__7687-7850",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in label_studio/data_import/uploader.py"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "label_studio/data_import/uploader.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "mendableai__firecrawl__1420-1742",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/mendableai__firecrawl__1420-1742",
+  "source_base": "66e65d9422f1b0ca0ab9ebaa34ced1891bbddd91",
+  "source_a": "2c830e864ca251a6f67d8047edce5af1065f2683",
+  "source_b": "8d2098a9af9081777b17032bc0a6b1905947c6ef",
+  "base_commit": "cda1afea849c795a75f355bc38f3d5b301080e62",
+  "a_commit": "1a03f849305617676d2112610adb0d8ff0c3dae9",
+  "b_commit": "c6350ff992b82a8141a25cdf5c45272596cfc33d",
+  "object_count": 1072,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

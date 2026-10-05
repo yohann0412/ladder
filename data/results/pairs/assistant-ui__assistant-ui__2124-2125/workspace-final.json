@@ -1,0 +1,23 @@
+{
+  "pair_id": "assistant-ui__assistant-ui__2124-2125",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/assistant-ui__assistant-ui__2124-2125",
+  "source_base": "75e3c3675ca7266446eadbaf5de423175f654d47",
+  "source_a": "c149b1bfd643e9707e11540e35d5055b512708fe",
+  "source_b": "ce2b671d8d463377e12df10f5cd8209e36bb8eb4",
+  "base_commit": "2a0f41414a42a5e073f20c3708ed3cfd4dcc669d",
+  "a_commit": "259fdc2c35a1fcdd09352de00c7367a6f04099dd",
+  "b_commit": "38267b8fea3764fe558b45745e1c01748c01a8bd",
+  "object_count": 1226,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
