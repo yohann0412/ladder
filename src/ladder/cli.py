@@ -5,7 +5,7 @@ from typing import Annotated
 
 import typer
 
-from ladder import pairs_cli, resolve_cli, workspace_cli
+from ladder import pairs_cli, resolve_cli, truth_cli, workspace_cli
 from ladder.layout import Layout
 from ladder.syntax_cli import app as syntax_app
 
@@ -37,3 +37,4 @@ app.add_typer(pairs_cli.app, name="pairs")
 app.add_typer(syntax_app)
 app.add_typer(workspace_cli.app, name="workspace")
 app.add_typer(resolve_cli.app, name="resolve")
+app.add_typer(truth_cli.app, name="truth")
