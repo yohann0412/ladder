@@ -29,7 +29,7 @@ def pairs_from_source(source_dir: Path) -> PairSet:
     prs = {pr.key: pr for pr in read_rows(source_dir / AIDEV_PRS, AidevPr)}
     pairs = [_paper_pair(row, prs) for row in read_replay(source_dir / REPLAY_CSV)]
     sources = read_rows(source_dir / SOURCES_JSON, SourceFile)
-    return _pair_set(sources, pairs)
+    return build_pair_set(sources, pairs)
 
 
 def pairs_from_fixture(fixture_dir: Path) -> PairSet:
@@ -37,10 +37,11 @@ def pairs_from_fixture(fixture_dir: Path) -> PairSet:
     manifest = read_record(fixture_dir / FIXTURE_MANIFEST, FixtureManifest)
     root = fixture_dir.resolve()
     pairs = [_fixture_pair(root, scenario) for scenario in manifest.scenarios]
-    return _pair_set([], pairs)
+    return build_pair_set([], pairs)
 
 
-def _pair_set(sources: list[SourceFile], pairs: list[Pair]) -> PairSet:
+def build_pair_set(sources: list[SourceFile], pairs: list[Pair]) -> PairSet:
+    """Return a PairSet of pairs, refusing two pairs with one id."""
     counts = Counter(pair.pair_id for pair in pairs)
     duplicates = sorted(pair_id for pair_id, count in counts.items() if count > 1)
     if duplicates:

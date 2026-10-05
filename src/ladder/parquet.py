@@ -21,3 +21,14 @@ def read_matching(
         return []
     table = pq.read_table(path, columns=columns, filters=[(key, "in", list(values))])
     return cast(list[dict[str, object]], table.to_pylist())
+
+
+def read_all(path: Path, columns: list[str]) -> list[dict[str, object]]:
+    """Return the named columns of every row."""
+    return cast(list[dict[str, object]], pq.read_table(path, columns=columns).to_pylist())
+
+
+def read_distinct(path: Path, columns: list[str]) -> dict[str, list[object]]:
+    """Return every distinct combination of the named columns, as one value list per column."""
+    table = pq.read_table(path, columns=columns).group_by(columns).aggregate([])
+    return {name: cast(list[object], table.column(name).to_pylist()) for name in columns}

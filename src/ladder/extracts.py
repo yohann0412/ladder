@@ -7,10 +7,11 @@ from pathlib import Path
 
 from pydantic import BaseModel, TypeAdapter
 
-from ladder.schemas import Record
+from ladder.schemas import Record, Stratum
 
 AIDEV_PRS = "aidev_prs.json"
 AIDEV_REPOS = "aidev_repos.json"
+SUPPLEMENTARY_CANDIDATES = "supplementary_candidates.json"
 SOURCES_JSON = "sources.json"
 SOURCES_MD = "SOURCES.md"
 
@@ -61,6 +62,35 @@ class AidevRepo(Record):
     license: str | None
     revision: str | None
     revision_sha: str | None
+
+
+class CandidatePr(Record):
+    """One merged AIDev pull request of a supplementary candidate pair."""
+
+    repo: str
+    number: int
+    id: int
+    agent: str
+    title: str
+    body: str
+    state: str
+    created_at: datetime
+    closed_at: datetime | None
+    merged_at: datetime
+    html_url: str | None
+
+
+class SupplementaryCandidate(Record):
+    """The candidate pair DECISIONS.md D15 takes from one repository; PR A was created first."""
+
+    repo: str
+    a: CandidatePr
+    b: CandidatePr
+
+    @property
+    def stratum(self) -> Stratum:
+        """Return `same` when one agent opened both PRs, otherwise `cross`."""
+        return "same" if self.a.agent == self.b.agent else "cross"
 
 
 def missing_pr(key: PrKey) -> AidevPr:

@@ -15,6 +15,7 @@ PRIMARY_REVISION = "main"
 FALLBACK_REVISION = "v3"
 PR_TABLE = "pull_request.parquet"
 REPO_TABLE = "repository.parquet"
+COMMIT_DETAILS_TABLE = "pr_commit_details.parquet"
 TABLES = (PR_TABLE, REPO_TABLE)
 
 
@@ -80,6 +81,11 @@ def select_prs(revision: Revision, keys: set[PrKey]) -> list[AidevPr]:
         for row in rows
         if (names[row.repo_id], row.number) in keys
     ]
+
+
+def repo_names_by_id(revision: Revision, ids: set[int]) -> dict[int, str]:
+    """Return the full name of every repository whose id is in ids."""
+    return _repo_names(revision, "id", ids)
 
 
 def recover_repos(primary: Revision, fallback: Revision, names: set[str]) -> list[AidevRepo]:

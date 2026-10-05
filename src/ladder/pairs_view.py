@@ -7,7 +7,7 @@ from rich.console import Console
 from rich.table import Table
 
 from ladder.pairsummary import ConflictRate, PairSummary
-from ladder.schemas import PairSet
+from ladder.schemas import Pair, PairSet
 from ladder.sources import FetchResult
 
 UNAVAILABLE_PREFIX = "UNAVAIL_"
@@ -26,6 +26,26 @@ def render_fetch(console: Console, result: FetchResult, out: Path) -> None:
     console.print(f"AIDev PR rows: {_by_revision(Counter(pr.revision for pr in result.prs))}")
     repo_revisions = Counter(repo.revision for repo in result.repos)
     console.print(f"AIDev repository rows: {_by_revision(repo_revisions)}")
+    candidates = result.candidates
+    strata = Counter(candidate.stratum for candidate in candidates.first)
+    console.print(
+        f"Supplementary candidates: {candidates.pairs} pairs in {len(candidates.first)} "
+        f"repositories; first per repository: same {strata['same']}, cross {strata['cross']}"
+    )
+
+
+def render_supplementary(
+    console: Console, pairs: list[Pair], kept: int, seed: int, target: Path
+) -> None:
+    """Print how many supplementary pairs were sampled, per stratum, and what else was kept."""
+    strata = Counter(pair.stratum for pair in pairs)
+    table = Table(title=f"Supplementary pairs written to {target} (seed {seed})")
+    table.add_column("repositories", justify="right")
+    table.add_column("same", justify="right")
+    table.add_column("cross", justify="right")
+    table.add_column("other pairs kept", justify="right")
+    table.add_row(str(len(pairs)), str(strata["same"]), str(strata["cross"]), str(kept))
+    console.print(table)
 
 
 def render_summary(console: Console, summary: PairSummary, target: Path) -> None:
