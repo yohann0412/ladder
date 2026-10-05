@@ -1,0 +1,15 @@
+{
+  "pair_id": "Significant-Gravitas__AutoGPT__9958-9959",
+  "commit": "bd425331f11c5a6e8eafc1e52046e4b6c6164c51",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

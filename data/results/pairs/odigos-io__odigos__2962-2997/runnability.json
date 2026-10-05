@@ -1,0 +1,15 @@
+{
+  "pair_id": "odigos-io__odigos__2962-2997",
+  "commit": "816e76a81b9cd4efad3a98df339c74b59440cf01",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

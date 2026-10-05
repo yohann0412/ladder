@@ -1,0 +1,162 @@
+{
+  "pair_id": "odigos-io__odigos__2962-3049",
+  "rung": "llm-raw",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": true,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": true,
+  "intent_drops": [
+    {
+      "path": "instrumentor/controllers/agentenabled/pods_webhook.go",
+      "entity": "PodsWebhook.Default",
+      "loser": "a",
+      "reason": "both sides changed it; the resolution keeps B's version and lacks lines A added to it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "entity": "<rest>",
+      "loser": "a",
+      "reason": "both sides changed it; the resolution keeps B's version and lacks lines A added to it",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "instrumentor/controllers/agentenabled/instrumentationconfig_controller.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/pods_webhook.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/rollout/rollout.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/sync.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "instrumentor/controllers/sourceinstrumentation/instrumentedapp_migration_controller.go",
+      "mode": "ast",
+      "language": "go",
+      "present": false,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "instrumentor/instrumentor.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "mode": "ast",
+      "language": "go",
+      "present": false,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "instrumentor/runtimemigration/utils.go",
+      "mode": "ast",
+      "language": "go",
+      "present": false,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other (no recognised project manifest)"
+  },
+  "tests_a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other (no recognised project manifest)"
+  },
+  "tests_b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other (no recognised project manifest)"
+  }
+}
