@@ -1,0 +1,23 @@
+{
+  "pair_id": "QuantEcon__lecture-python.myst__574-581",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/QuantEcon__lecture-python.myst__574-581",
+  "source_base": "461a5e135266402a7a803749338d230e954bf221",
+  "source_a": "a2800233f40bea94580077dafb9eb750e41ccc09",
+  "source_b": "8e578fba3a510bd69e0da117167e6fcb572f2400",
+  "base_commit": "56179bae77731896b60a75aa30ac88e2da30bb11",
+  "a_commit": "0ab221521be49ac058c6ce28ee0c40291fcbd9df",
+  "b_commit": "328536d049fbc09dad1c5d366a171bd618b2ecfe",
+  "object_count": 310,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
