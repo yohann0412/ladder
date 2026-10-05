@@ -90,22 +90,17 @@ def rung_rows(pairs: list[PairRecords]) -> list[RungRow]:
     return [rung_row(rung, pairs) for rung in scored_rungs(pairs)]
 
 
-def practical_llm_rung(pair: PairRecords) -> str | None:
-    """Return which LLM rung the practical ladder climbs to for a pair, if any."""
+def practical_llm_rung(pair: PairRecords) -> str:
+    """Return the LLM rung the practical ladder climbs to when no structural output merges."""
     post_weave_task = pair.tasks.get(("llm-post-weave", 1))
     if post_weave_task is not None and post_weave_task.status == "identical_input":
         return "llm-raw"
-    if pair.planned("llm-post-weave"):
-        return "llm-post-weave"
-    weave_conflict_free = pair.weave is not None and pair.weave.status == "resolved"
-    return None if weave_conflict_free else "llm-raw"
+    return "llm-post-weave" if pair.planned("llm-post-weave") else "llm-raw"
 
 
 def practical_step(pair: PairRecords) -> tuple[str, RungScore] | None:
     """Return the first mergeable output on weave, mergiraf, then the LLM, with its rung."""
-    llm_rung = practical_llm_rung(pair)
-    climb = [*STRUCTURAL_RUNGS, *([] if llm_rung is None else [llm_rung])]
-    for rung in climb:
+    for rung in (*STRUCTURAL_RUNGS, practical_llm_rung(pair)):
         score = pair.score(rung)
         if mergeable(score):
             return rung, score
