@@ -1,0 +1,15 @@
+{
+  "pair_id": "PV-Bhat__vibe-check-mcp-server__8-9",
+  "commit": "00ae50cbab7b887abe13e17ff5e601d1ccf5ac0d",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "l5yth__potato-mesh__30-31",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/l5yth__potato-mesh__30-31",
+  "source_base": "63e8891d97c119b6580278864e7ab77e754679cc",
+  "source_a": "cf3efa9c4df7a26b4c076cde3b06b38ddff30e68",
+  "source_b": "904c62c99ca8098d1e592f442147f1b16902e6e3",
+  "base_commit": "f97e1189bcd11089f94e8c56aaefc577d0820209",
+  "a_commit": "ba3e0e04f2b929006a542b18e82fea4655f091b9",
+  "b_commit": "b19bef2e00a555e5dd6f45c4aa04ded25241e0db",
+  "object_count": 35,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "pair_id": "jina-ai__deepsearch-ui__21-22",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": false,
+  "human_equivalent_unordered": false,
+  "intent_preserved_a": true,
+  "intent_preserved_b": true,
+  "intent_drops": [],
+  "files": [
+    {
+      "path": "app.js",
+      "mode": "ast",
+      "language": "javascript",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9861
+    },
+    {
+      "path": "index.html",
+      "mode": "ast",
+      "language": "html",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9674
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

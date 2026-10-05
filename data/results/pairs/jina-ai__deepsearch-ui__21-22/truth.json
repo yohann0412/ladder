@@ -1,0 +1,26 @@
+{
+  "pair_id": "jina-ai__deepsearch-ui__21-22",
+  "status": "located",
+  "commit": "fb8acbe6f2c5b5cbca718b421ea8d10dcc25290d",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "app.js",
+      "present": true,
+      "sha256": "57d814d607dd72add02450998127711ccf7b0d194889f777c47568d18d665377"
+    },
+    {
+      "path": "index.html",
+      "present": true,
+      "sha256": "c741ca000bf5cf3fc59cabf12872d8067776c48ab58989aa51ed0b85dbbae733"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [
+    "app.js",
+    "index.html"
+  ],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:48:37.909757Z"
+}

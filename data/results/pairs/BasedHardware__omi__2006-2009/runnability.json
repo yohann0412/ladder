@@ -1,0 +1,15 @@
+{
+  "pair_id": "BasedHardware__omi__2006-2009",
+  "commit": "dca508d91f25a58e385ebe64ef1b755fa7ac0eb2",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "jina-ai__deepsearch-ui__21-22",
+  "commit": "6001d03e5dcf026e51635e7f49d145f26db6bb39",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

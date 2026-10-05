@@ -1,0 +1,23 @@
+{
+  "pair_id": "ioBroker__ioBroker.admin__3168-3170",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/ioBroker__ioBroker.admin__3168-3170",
+  "source_base": "105b168bc40c34d10e98cfb26b885ca9e00c6e69",
+  "source_a": "74cad4135d8b3227ff9e4ef40142f8e2c5a976e2",
+  "source_b": "7ad0c2d8a630bf1d19921aacd3d23cc8f6cb4042",
+  "base_commit": "9e1c7684caf3c99aeae6ca5da1573604fed2163c",
+  "a_commit": "585c7b7fe69791502e7726d7c5fcf495a7485afd",
+  "b_commit": "780cff39dbc58c8d70ef1e4d80f4eb18416fd2cf",
+  "object_count": 1061,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

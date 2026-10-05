@@ -1,0 +1,60 @@
+{
+  "pair_id": "Wan-Video__Wan2.1__108-126",
+  "commit": "a326079926a4a347ecda8863dc40ba2d7680a294",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 1 in 0.7 s:       to its `build-system.requires`. Otherwise, either add it to your |       `pyproject.toml` under: |       [tool.uv.extra-build-dependencies] |       flash-attn = [\"torch\"] |       or `uv pip install torch` into the environment and re-run with |       `--no-build-isolation`.",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/Wan-Video__Wan2.1__108-126/envs/base/bin/python",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 23.2,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 1 in 23.1 s; output tail:       depends on `torch`, but doesn't declare it as a build dependency. |       If `flash-attn` is a first-party package, consider adding `torch` |       to its `build-system.requires`. Otherwise, either add it to your |       `pyproject.toml` under: |       [tool.uv.extra-build-dependencies] |       flash-attn = [\"torch\"] |       or `uv pip install torch` into the environment and re-run with |       `--no-build-isolation`."
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/Wan-Video__Wan2.1__108-126/envs/base/bin/python",
+        "torch",
+        "torchvision",
+        "opencv-python",
+        "diffusers",
+        "transformers",
+        "tokenizers",
+        "accelerate",
+        "tqdm",
+        "imageio",
+        "easydict",
+        "ftfy",
+        "dashscope",
+        "imageio-ffmpeg",
+        "flash_attn",
+        "gradio",
+        "numpy",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 0.7,
+      "detail": "unpinned (ignored the version pins in the requirement files), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 1 in 0.7 s; output tail:       depends on `torch`, but doesn't declare it as a build dependency. |       If `flash-attn` is a first-party package, consider adding `torch` |       to its `build-system.requires`. Otherwise, either add it to your |       `pyproject.toml` under: |       [tool.uv.extra-build-dependencies] |       flash-attn = [\"torch\"] |       or `uv pip install torch` into the environment and re-run with |       `--no-build-isolation`."
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

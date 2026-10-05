@@ -1,0 +1,23 @@
+{
+  "pair_id": "toruseo__UXsim__223-225",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/toruseo__UXsim__223-225",
+  "source_base": "bd7819a902070c069bb15ed431eff1825fb9b444",
+  "source_a": "bd46363f640e199c105b252591540041d000457e",
+  "source_b": "6909b322176f0ffcb19386a46b4e87100d6dd88f",
+  "base_commit": "52d447b79eec99f760a07c617d223fdd7ce90efa",
+  "a_commit": "4918140923f641bd66b8563bea6302ca5a0c179b",
+  "b_commit": "df89b9ec2113cd84d44af66568979eeb2046f0c4",
+  "object_count": 150,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

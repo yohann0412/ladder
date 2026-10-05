@@ -1,0 +1,23 @@
+{
+  "pair_id": "ethereum-optimism__specs__819-820",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/ethereum-optimism__specs__819-820",
+  "source_base": "aae321f9a9d2776120716feb3c8cc072d7f8a29b",
+  "source_a": "8cd184ee0716bc716de19050656a7b9be7521873",
+  "source_b": "f1759358d4fbcc4acfbb1e124eefa341084a7b47",
+  "base_commit": "6d280faea500173d74bddd2c599e6b558ef98c90",
+  "a_commit": "6dc618cdd7d0564711c9d94aec3a335ccf6b9fb7",
+  "b_commit": "445bd1213c0c3b5a8b8c1c5e240192776f3b2e1e",
+  "object_count": 223,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

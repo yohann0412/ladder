@@ -1,0 +1,15 @@
+{
+  "pair_id": "ioBroker__ioBroker.admin__3168-3170",
+  "commit": "105b168bc40c34d10e98cfb26b885ca9e00c6e69",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

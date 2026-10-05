@@ -1,0 +1,48 @@
+{
+  "pair_id": "ioBroker__ioBroker.admin__3168-3170",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: other (no jest, vitest or mocha test runner in package.json)",
+  "files_a": [
+    "packages/admin/src-admin/src/components/Instances/InstanceRow.tsx"
+  ],
+  "files_b": [
+    ".github/copilot-instructions.md",
+    "packages/admin/src-admin/package.json"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "gindemit__unity-rlottie__38-40",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/gindemit__unity-rlottie__38-40",
+  "source_base": "a77ac98835545d3511954ac2fde794c869195bc2",
+  "source_a": "24fef02c4db4e511c492bc79a37ed709f6a9510f",
+  "source_b": "f7dbce039daeeb91abbf693eb0507bf82be30fb4",
+  "base_commit": "9cddd3a83f6d67dc8c2bbbbcfe9c73da3a07299c",
+  "a_commit": "d3d0e69bbbc1b6b3b47f20ae8cf1ab4145e3c060",
+  "b_commit": "7ef951a46e8aaef90e0e5c97e905fe3c61ecd1bb",
+  "object_count": 827,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

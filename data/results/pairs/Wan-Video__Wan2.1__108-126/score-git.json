@@ -1,0 +1,48 @@
+{
+  "pair_id": "Wan-Video__Wan2.1__108-126",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "wan/utils/fm_solvers_unipc.py",
+      "entity": "FlowUniPCMultistepScheduler.step",
+      "loser": "a",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": false
+    },
+    {
+      "path": "wan/utils/fm_solvers_unipc.py",
+      "entity": "FlowUniPCMultistepScheduler.step",
+      "loser": "b",
+      "reason": "both sides made the same change; the resolution lacks it",
+      "loser_touched_unconflicted_files": false
+    }
+  ],
+  "files": [
+    {
+      "path": "wan/utils/fm_solvers_unipc.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "__len__",
+        "add_noise"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

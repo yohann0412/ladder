@@ -1,0 +1,15 @@
+{
+  "pair_id": "gindemit__unity-rlottie__38-40",
+  "commit": "a77ac98835545d3511954ac2fde794c869195bc2",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
