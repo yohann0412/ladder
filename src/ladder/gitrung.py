@@ -36,7 +36,7 @@ def run_git_rung(layout: Layout, pair_id: str, heads: HeadsKind) -> GitRungResul
     try:
         result = _merge(copy, pair_id, heads)
     except GitError as error:
-        result = _result(pair_id, heads, "error", str(error))
+        result = git_result(pair_id, heads, "error", str(error))
     write_record(layout.result_file(pair_id, git_record_name(heads)), result)
     return result
 
@@ -49,13 +49,15 @@ def _merge(copy: Path, pair_id: str, heads: HeadsKind) -> GitRungResult:
     merge_clean = merge_b(copy).returncode == 0
     if merge_clean != tree_clean:
         detail = f"git merge-tree is {_word(tree_clean)} but git merge is {_word(merge_clean)}"
-        return _result(pair_id, heads, "error", detail, messages=messages)
+        return git_result(pair_id, heads, "error", detail, messages=messages)
     if tree_clean:
         merged_tree = output.splitlines()[0].strip()
-        return _result(pair_id, heads, "clean", "b merges into a cleanly", merged_tree=merged_tree)
+        return git_result(
+            pair_id, heads, "clean", "b merges into a cleanly", merged_tree=merged_tree
+        )
     files = [_conflicted_file(copy, path, messages) for path in unmerged_paths(copy)]
     detail = f"conflict messages: {len(messages)}, conflicted files: {len(files)}"
-    return _result(pair_id, heads, "conflicted", detail, messages=messages, files=files)
+    return git_result(pair_id, heads, "conflicted", detail, messages=messages, files=files)
 
 
 def _conflicted_file(copy: Path, path: str, messages: list[str]) -> ConflictedFile:
@@ -68,7 +70,7 @@ def _conflicted_file(copy: Path, path: str, messages: list[str]) -> ConflictedFi
     )
 
 
-def _result(
+def git_result(
     pair_id: str,
     heads: HeadsKind,
     status: GitStatus,
@@ -78,6 +80,7 @@ def _result(
     files: Sequence[ConflictedFile] = (),
     merged_tree: str | None = None,
 ) -> GitRungResult:
+    """Return a git rung record with one conflict type per message."""
     return GitRungResult(
         pair_id=pair_id,
         heads=heads,

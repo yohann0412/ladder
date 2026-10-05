@@ -5,6 +5,7 @@ from conftest import REPO_ROOT, Experiment, read_json
 
 def test_git_rung_matches_expected_table(fx_resolved: Experiment) -> None:
     fx = fx_resolved
+    in_cache = Experiment(pairs=fx.pairs, work=fx.work, results=fx.results.parent / "in-cache")
     scenarios = read_json(REPO_ROOT / "fixtures" / "expected.json")["scenarios"]
     checked = 0
     for scenario in scenarios:
@@ -35,4 +36,9 @@ def test_git_rung_matches_expected_table(fx_resolved: Experiment) -> None:
                     assert (f["regions"] >= 1) == ("modify/delete" not in f["types"])
             else:
                 assert got["merged_tree"] and paths == []
+            in_cache.ladder("rung", "git", pair_id, "--heads", heads, "--in-cache")
+            cached = in_cache.result(pair_id, record)
+            assert {k: v for k, v in cached.items() if k != "detail"} == {
+                k: v for k, v in got.items() if k != "detail"
+            }, (pair_id, key)
     assert checked == 19
