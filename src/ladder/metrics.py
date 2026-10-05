@@ -14,13 +14,24 @@ from ladder.ladder_metrics import (
     rung_rows,
 )
 from ladder.layout import Layout
-from ladder.schemas import GitRungResult, Rate, RedoRecord, ResolverRun, Summary
+from ladder.schemas import (
+    CalibratedMetric,
+    CalibrationFamily,
+    CalibrationRecord,
+    CalibrationVerdict,
+    GitRungResult,
+    Rate,
+    RedoRecord,
+    ResolverRun,
+    Summary,
+)
 from ladder.stats import rate, share
 from ladder.verdicts import verdicts
 
 STRATA = ("same", "cross")
 POOL = "pool"
 UNRESOLVED = "unresolved"
+CALIBRATION_FAMILIES: tuple[CalibrationFamily, ...] = ("llm", "structural")
 
 
 def sorted_counts(values: Iterable[str]) -> dict[str, int]:
@@ -144,6 +155,39 @@ def redo_counts(record: RedoRecord | None) -> tuple[int, int]:
     return len(record.pairs), sum(len(pair.records) for pair in record.pairs)
 
 
+def calibration_family(rung: str) -> CalibrationFamily:
+    """Return `llm` for the LLM rungs and `structural` for git, weave, mergiraf and the trap."""
+    return "llm" if rung.startswith("llm") else "structural"
+
+
+def family_agreement(verdicts: list[CalibrationVerdict]) -> dict[CalibrationFamily, Rate]:
+    """Return reviewer agreement per output family, leaving out families with no verdict."""
+    groups: dict[CalibrationFamily, list[CalibrationVerdict]] = {
+        family: [verdict for verdict in verdicts if calibration_family(verdict.rung) == family]
+        for family in CALIBRATION_FAMILIES
+    }
+    return {
+        family: share(group, lambda verdict: verdict.reviewer_agrees)
+        for family, group in groups.items()
+        if group
+    }
+
+
+def calibration_agreement(
+    record: CalibrationRecord | None,
+) -> dict[CalibratedMetric, dict[CalibrationFamily, Rate]]:
+    """Return reviewer agreement per calibrated metric and output family; empty without a record."""
+    if record is None:
+        return {}
+    metrics: list[CalibratedMetric] = sorted({verdict.metric for verdict in record.verdicts})
+    return {
+        metric: family_agreement(
+            [verdict for verdict in record.verdicts if verdict.metric == metric]
+        )
+        for metric in metrics
+    }
+
+
 def summarise(layout: Layout, collected: Collected, agreements: list[RunAgreement]) -> Summary:
     """Return the Summary of an experiment's records."""
     pairs = collected.pairs
@@ -157,6 +201,7 @@ def summarise(layout: Layout, collected: Collected, agreements: list[RunAgreemen
     rates = reconciliation(pairs)
     llm_raw = next((row for row in rows if row.rung == "llm-raw"), None)
     redone_pairs, replaced_records = redo_counts(collected.redo_d23)
+    calibration = calibration_agreement(collected.calibration)
     return Summary(
         pairs_attempted=len(pairs),
         resolve_status=sorted_counts(resolve_status(pair) for pair in pairs),
@@ -181,7 +226,12 @@ def summarise(layout: Layout, collected: Collected, agreements: list[RunAgreemen
         runnability=runnability_counts(pairs),
         d23_redone_pairs=redone_pairs,
         d23_replaced_records=replaced_records,
+        calibration_agreement=calibration,
         verdicts=verdicts(
-            practical, None if EXCUSED.isdisjoint(causes) else best_case, llm_raw, fails_together
+            practical,
+            None if EXCUSED.isdisjoint(causes) else best_case,
+            llm_raw,
+            fails_together,
+            calibration.get("intent_dropped", {}).get("llm"),
         ),
     )

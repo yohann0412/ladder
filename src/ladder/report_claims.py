@@ -6,10 +6,14 @@ from ladder.collect import PairRecords
 from ladder.failure_causes import CUT_TRANSCRIPT, OWN_OUTPUT_READS
 from ladder.md import section, table
 from ladder.ratefmt import cell
-from ladder.schemas import CalibrationRecord, Summary
+from ladder.schemas import CalibrationFamily, CalibrationRecord, Summary
 from ladder.stats import share
 
 SETTLED_TASKS = frozenset({"input_cap", "identical_input"})
+FAMILY_OUTPUTS: dict[CalibrationFamily, str] = {
+    "llm": "LLM rungs",
+    "structural": "git and structural rungs",
+}
 
 
 def _unfinished_runs(pairs: list[PairRecords]) -> int:
@@ -96,8 +100,19 @@ def claim_c_section(summary: Summary, pairs: list[PairRecords]) -> str:
     )
 
 
-def calibration_section(record: CalibrationRecord | None) -> str:
-    """Return reviewer agreement per calibrated metric, or `not run`."""
+def _family_table(summary: Summary) -> str:
+    return table(
+        ["metric", "outputs", "reviewer agrees"],
+        [
+            [metric, FAMILY_OUTPUTS[family], cell(agreement)]
+            for metric, families in summary.calibration_agreement.items()
+            for family, agreement in families.items()
+        ],
+    )
+
+
+def calibration_section(summary: Summary, record: CalibrationRecord | None) -> str:
+    """Return reviewer agreement per calibrated metric, overall and per output family."""
     if record is None:
         return section("Calibration", "Calibration: not run.")
     metrics = sorted({verdict.metric for verdict in record.verdicts})
@@ -128,5 +143,8 @@ def calibration_section(record: CalibrationRecord | None) -> str:
         "Calibration",
         f"Seed {record.seed}, {len(record.verdicts)} verdicts read.",
         rates,
+        "Split by the rungs that produced the output, as D24 asks: LLM rungs are those whose "
+        "name starts with `llm`; git and structural rungs are git, weave, mergiraf and the trap.",
+        _family_table(summary),
         "### Disagreements\n\n" + disagreements,
     )

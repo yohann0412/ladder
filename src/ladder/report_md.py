@@ -75,7 +75,7 @@ def render_report(
         redo_section(summary),
         sensitivity_section(summary, pairs),
         category_section(summary, pairs),
-        calibration_section(collected.calibration),
+        calibration_section(summary, collected.calibration),
         pairs_section(pairs),
     ]
     return "\n\n".join(blocks) + "\n"

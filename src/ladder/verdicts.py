@@ -68,8 +68,34 @@ def _claim_a(subject: str, rate: Rate, measured: str) -> str:
     return f"{subject} holds: {found}, at or above the 90% threshold."
 
 
-def claim_b(llm_raw: RungRow | None) -> str:
-    """Return the Claim B verdict from the llm-raw row's intent rates."""
+def claim_b(llm_raw: RungRow | None, llm_intent_agreement: Rate | None) -> str:
+    """Return the Claim B verdict from the llm-raw row's intent rates, then its calibration (D24).
+
+    llm_intent_agreement is the reviewer's agreement on intent-dropped verdicts on LLM outputs.
+    """
+    verdict = _claim_b(llm_raw)
+    if llm_raw is None or llm_intent_agreement is None:
+        return verdict
+    calibration = _claim_b_calibration(llm_raw.intent_dropped, llm_intent_agreement)
+    return verdict if calibration is None else f"{verdict} {calibration}"
+
+
+def _claim_b_calibration(intent_dropped: Rate, agreement: Rate) -> str | None:
+    if intent_dropped.pct is None or agreement.ci_high is None:
+        return None
+    adjusted = round(agreement.ci_high * intent_dropped.pct, 1)
+    held = adjusted >= INTENT_DROPPED_THRESHOLD
+    side = "at or above" if held else "below"
+    support = "is consistent with" if held else "does not support"
+    return (
+        f"Calibration: the reviewer agreed with {phrase(agreement)} intent-dropped verdicts on "
+        "LLM outputs; if the metric's precision were the interval's upper end, llm-raw intent "
+        f"dropped would be {adjusted:.1f}%, {side} the {INTENT_DROPPED_THRESHOLD:g}% threshold, "
+        f"so calibration {support} this verdict."
+    )
+
+
+def _claim_b(llm_raw: RungRow | None) -> str:
     if llm_raw is None:
         return "Claim B is not measured: no pair has an llm-raw score."
     parts = [
@@ -115,10 +141,18 @@ def claim_c(fails_together: Rate) -> str:
 
 
 def verdicts(
-    practical: Rate, best_case: Rate | None, llm_raw: RungRow | None, fails_together: Rate
+    practical: Rate,
+    best_case: Rate | None,
+    llm_raw: RungRow | None,
+    fails_together: Rate,
+    llm_intent_agreement: Rate | None,
 ) -> dict[str, str]:
     """Return the verdict sentences keyed A, B and C, with `A best case` when a bound is given."""
     claims = {"A": claim_a(practical)}
     if best_case is not None:
         claims[A_BEST_CASE] = claim_a_best_case(best_case)
-    return {**claims, "B": claim_b(llm_raw), "C": claim_c(fails_together)}
+    return {
+        **claims,
+        "B": claim_b(llm_raw, llm_intent_agreement),
+        "C": claim_c(fails_together),
+    }

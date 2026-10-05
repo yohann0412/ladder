@@ -403,6 +403,7 @@ class RungScore(Record):
 # ----------------------------------------------------------------------------- calibration
 
 CalibratedMetric = Literal["intent_dropped", "human_equivalent"]
+CalibrationFamily = Literal["llm", "structural"]
 
 
 class CalibrationVerdict(Record):
@@ -495,6 +496,7 @@ class Summary(Record):
     runnability: dict[str, int]
     d23_redone_pairs: int
     d23_replaced_records: int
+    calibration_agreement: dict[CalibratedMetric, dict[CalibrationFamily, Rate]]
     verdicts: dict[str, str]
 
 
