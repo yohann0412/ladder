@@ -1,0 +1,15 @@
+{
+  "pair_id": "airbytehq__airbyte__61490-61695",
+  "commit": "e94d982d4977c917787db9d91c1346e845de3e00",
+  "language": "java",
+  "package_manager": "gradle",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "java project; no adapter for java (gradle is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

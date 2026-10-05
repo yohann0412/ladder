@@ -1,0 +1,15 @@
+{
+  "pair_id": "tokens-studio__figma-plugin__3366-3391",
+  "commit": "8a2824d968d276ab0323cf2d5c9b19149f85f29c",
+  "language": "node",
+  "package_manager": "yarn",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
