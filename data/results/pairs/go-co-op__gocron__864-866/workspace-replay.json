@@ -1,0 +1,23 @@
+{
+  "pair_id": "go-co-op__gocron__864-866",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/go-co-op__gocron__864-866",
+  "source_base": "5bf6802fe1215604a6dc9316a94b010a1c0c98e6",
+  "source_a": "fb7d7ebe77eddb6ea14f23cbf0fd112d1f9b9a00",
+  "source_b": "1f36f663e7574000a27c317ba0b91069968c3b7b",
+  "base_commit": "f59276b7f9b28d48457c93a02c9dc949142f251c",
+  "a_commit": "45a9302b0c07d5b39fccc6f729a3c2008bcc8156",
+  "b_commit": "9d35508660ffea0f4383848f9e4caacb9beec23c",
+  "object_count": 62,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
