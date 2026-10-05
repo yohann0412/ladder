@@ -107,3 +107,28 @@ Contamination rule flaw found while reviewing the fixture: rule (b) in `PLAN.md`
 the default branch (second parent of its merge), so PR commits made after the other PR
 merged would be mis-flagged as contamination. Revised to the default branch's
 first-parent chain (PLAN.md revision 10).
+
+## 9. Phase 3 step 1: ref resolution over all 747 paper pairs
+
+`uv run ladder pairs load --source data/source` then
+`uv run ladder pairs resolve --all --jobs 8` (8 min 50 s wall; blob-less caches 12 GB).
+
+| status | pairs |
+|---|---|
+| ok | 707 |
+| unrecoverable_rebased | 25 |
+| fetch_failed | 14 |
+| no_merge_base | 1 |
+
+- All 14 fetch failures are among the paper's 25 `UNAVAIL_fetch` pairs; the other 11
+  `UNAVAIL_fetch` pairs and 5 of the 6 `UNAVAIL_nobase` pairs resolve today (full history
+  instead of the paper's depth-80 shallow fetch).
+- Contamination: 105 pairs have a contaminated head (63 on side a, 42 on side b): 75 of the
+  paper's CLEAN pairs and 30 of its CONFLICT pairs. 80 were rewound to a PR commit; 25 were
+  rebased onto the other PR's merge and cannot be replayed (15 paper-CLEAN, 10 paper-CONFLICT).
+- Truth: 196 pairs have both PRs merged and a located truth commit (absorption 66,
+  merge_parent 54, subject_time 66, time_only 10); 24 both-merged pairs have no locatable
+  truth commit; 527 are not both merged.
+- Disk: the blob-less caches took 12 GB, so workspaces and rung copies are deleted after
+  each git rung unless the pair conflicts at replay heads (rebuilt on demand; builds are
+  deterministic).
