@@ -421,3 +421,12 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   floors: 5 GiB before each pair for the final pass, and 8 GiB for Claim C, so Claim C
   backs off first. The 3 GiB floor inside each suite is unchanged. A watchdog now reports
   a stall within five minutes.
+- At 10:20 Claim C was waiting again (7.2 GiB free against its 8 GiB floor). Deleted
+  leftovers of earlier checks (an F8 trial clone, pytest temp directories, old tool builds
+  in the scratchpad), cleared the Go build cache and pruned the pnpm store. That left
+  10 GiB free, and both passes went on without a restart.
+- One Claim C pair was lost to disk while free space was low after the restart.
+  `PRQL__prql__5286-5287` (c01) is recorded with `error at a: … install failed: build:
+  stopped, free disk below the 3 GiB floor`. The guard worked as designed. The pair stays
+  excluded and is reported under that cause. It is not run again: the stop rule makes no
+  exception for a pair that failed for a resource reason.
