@@ -10,7 +10,8 @@ from rich.text import Text
 from ladder.context import layout_from
 from ladder.gitrung import run_git_rung
 from ladder.mergework import RungError
-from ladder.schemas import GitRungResult, HeadsKind
+from ladder.schemas import GitRungResult, HeadsKind, StructuralResult, StructuralTool
+from ladder.structural import run_structural_rung
 
 app = typer.Typer(
     help="Merge one pair at one rung of the ladder and record the outcome.", no_args_is_help=True
@@ -35,6 +36,34 @@ def git_command(
     except RungError as error:
         _fail(error)
     Console().print(_git_line(result))
+
+
+@app.command()
+def structural(
+    ctx: typer.Context,
+    pair: PairArgument,
+    tool: Annotated[StructuralTool, typer.Option(help="Structural merge driver to merge with.")],
+) -> None:
+    """Retry a conflicted replay merge with a structural merge driver on a fresh workspace copy."""
+    try:
+        result = run_structural_rung(layout_from(ctx), pair, tool)
+    except RungError as error:
+        _fail(error)
+    Console().print(_structural_line(result))
+
+
+def _structural_line(result: StructuralResult) -> Text:
+    line = Text(f"{result.pair_id} {result.tool} {result.tool_version}: ")
+    line.append(result.status, style=STATUS_STYLES[result.status])
+    marked = sum(file.has_markers for file in result.files)
+    unparsed = sum(file.parses is False for file in result.files)
+    line.append(
+        f", still conflicted: {len(result.remaining_conflicted)} of {len(result.files)}"
+        f", with markers: {marked}, not parsing: {unparsed}"
+    )
+    if result.status == "error":
+        line.append(f": {result.detail}")
+    return line
 
 
 def _git_line(result: GitRungResult) -> Text:
