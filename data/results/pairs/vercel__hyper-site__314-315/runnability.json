@@ -1,0 +1,15 @@
+{
+  "pair_id": "vercel__hyper-site__314-315",
+  "commit": "23d7799e24abdc5ad78f4464bb361adb3cee6762",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
