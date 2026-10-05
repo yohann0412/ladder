@@ -1,0 +1,31 @@
+{
+  "pair_id": "sam-goodwin__alchemy__239-240",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 82992,
+  "tokens": {
+    "input_tokens": 20,
+    "output_tokens": 2147,
+    "cache_creation_input_tokens": 73507,
+    "cache_read_input_tokens": 526386
+  },
+  "tool_calls": 16,
+  "files": [
+    {
+      "path": "alchemy/src/cloudflare/bound.ts",
+      "action": "keep",
+      "sha256": "3baf43a094e23f8fdbd42b4e3aaee59153ec8c5183d2f1e2e22e28230390bf8b",
+      "rationale": "Kept both type imports and chained both conditional branches (Images -> ImagesBinding from PR A, then VersionMetadata -> Fetcher from PR B) before the Self/Json fallbacks, re-indenting the nested ternary accordingly."
+    },
+    {
+      "path": "alchemy/src/cloudflare/worker-metadata.ts",
+      "action": "keep",
+      "sha256": "597738836591393a4f09fce55d01824a7cf4400952921a7017c8869359903c0f",
+      "rationale": "Both PRs appended a new else-if branch after analytics_engine, so the merge keeps the images branch from PR A followed by the version_metadata branch from PR B, each pushing its own binding type."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:07:48.241125Z"
+}

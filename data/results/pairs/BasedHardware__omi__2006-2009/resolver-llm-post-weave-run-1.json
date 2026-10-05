@@ -1,0 +1,43 @@
+{
+  "pair_id": "BasedHardware__omi__2006-2009",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 262879,
+  "tokens": {
+    "input_tokens": 44,
+    "output_tokens": 12770,
+    "cache_creation_input_tokens": 149606,
+    "cache_read_input_tokens": 2282490
+  },
+  "tool_calls": 40,
+  "files": [
+    {
+      "path": "app/lib/backend/preferences_web.dart",
+      "action": "keep",
+      "sha256": "0dd6aa4045b9f98fea915098eb10ca1580c6bfb841720476aa952af6a3bdc737",
+      "rationale": "Kept PR A's full web SharedPreferencesUtil that mirrors the native interface and added PR B's extra members (name, lastActive* ids and the simplified web save/get stubs), retyping B's nonexistent Conversation/Message types to ServerConversation/ServerMessage so the file compiles."
+    },
+    {
+      "path": "app/lib/main.dart",
+      "action": "keep",
+      "sha256": "8ea5fff641f799601016183983dfbcf154a838e94c169a430fda88c65c08df44",
+      "rationale": "Both sides made the same kIsWeb guards, so the merge takes PR A's body (keeping the TODO comment inside the guard) and adds PR B's platform_imports.dart import."
+    },
+    {
+      "path": "app/lib/utils/platform_imports_io.dart",
+      "action": "keep",
+      "sha256": "6a00fae467e454bdff7792f5bf0f3502f187280fc3f411ab8549824fcdeb3aca",
+      "rationale": "Unified the two native-side shims into one file that re-exports dart:io (including File, Directory and Platform, which covers A's Platform export) and keeps PR B's platform detection helper getters."
+    },
+    {
+      "path": "app/lib/utils/platform_imports_web.dart",
+      "action": "keep",
+      "sha256": "eb7595d8bdb43807c827c8bc84aa91b7728e233b0243356e59de2fba9e4bba90",
+      "rationale": "Merged both web mocks into one compiling set: one Platform class with isFuchsia and isWeb; one File class with B's exists/existsSync/deleteSync and Future<File> writers plus A's equality/hashCode and String absolute (dropping B's duplicate path/absolute getters); Directory built on B's FileSystemEntity plus A's absolute; and a full typed_data re-export."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:07:44.521230Z"
+}

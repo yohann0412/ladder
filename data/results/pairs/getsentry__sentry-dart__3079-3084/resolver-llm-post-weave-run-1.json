@@ -1,0 +1,25 @@
+{
+  "pair_id": "getsentry__sentry-dart__3079-3084",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 109366,
+  "tokens": {
+    "input_tokens": 20,
+    "output_tokens": 4434,
+    "cache_creation_input_tokens": 88679,
+    "cache_read_input_tokens": 610033
+  },
+  "tool_calls": 14,
+  "files": [
+    {
+      "path": "dart/lib/src/hub.dart",
+      "action": "keep",
+      "sha256": "3afd9072e3fa633a650c3fe13b05d323f3bac732ffbe30f3da9f1738e2311698",
+      "rationale": "PR A renamed generateNewTraceId to generateNewTrace (resetting sampleRand) and updated all callers and Hub implementers, while PR B made the old method also reset the propagation context's sampled flag, so the merge keeps only generateNewTrace and resets traceId, sampleRand and sampled together, alongside both PRs' startTransactionWithContext changes (sampleRand reuse and persisting the first sampled decision)."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:07:46.532038Z"
+}

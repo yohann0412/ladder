@@ -1,0 +1,25 @@
+{
+  "pair_id": "mastra-ai__mastra__4308-4309",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 40101,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 1058,
+    "cache_creation_input_tokens": 66373,
+    "cache_read_input_tokens": 264646
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "client-sdks/client-js/src/types.ts",
+      "action": "keep",
+      "sha256": "8ee436265514298ad9494bb3aad1af1902e52f07a7476542899c3fc52490ca56",
+      "rationale": "Kept PR A's Prettify wrapping of GenerateParams, StreamParams and VNextWorkflowWatchResult (plus the Prettify import) while applying PR B's widened `runtimeContext?: RuntimeContext | Record<string, any>` inside both wrapped types and its new `description?: string` field on GetVNextWorkflowResponse."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:07:47.178744Z"
+}

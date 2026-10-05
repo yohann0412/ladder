@@ -1,0 +1,25 @@
+{
+  "pair_id": "pytorch__test-infra__6779-6781",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 124720,
+  "tokens": {
+    "input_tokens": 16,
+    "output_tokens": 896,
+    "cache_creation_input_tokens": 121165,
+    "cache_read_input_tokens": 579609
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "torchci/components/TorchAgentPage.tsx",
+      "action": "keep",
+      "sha256": "37f3bfbdc6c6885d459e509ef68ac33d55f11210829fbf4297eb8af4eec6adad",
+      "rationale": "Kept both sides: PR A's currentSessionId/feedbackVisible state and feedback visibility updates alongside PR B's hasFetchedTitleRef, placeholder in-progress session, suppressed-cancel error handling and fetchChatHistory refreshes in handleSubmit."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:07:47.867205Z"
+}

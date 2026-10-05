@@ -1,0 +1,27 @@
+{
+  "pair_id": "pytorch__test-infra__6779-6781",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/pytorch__test-infra__6779-6781/llm-raw/run-1/files/torchci/components/TorchAgentPage.tsx"
+  ],
+  "duration_ms": 121690,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 1248,
+    "cache_creation_input_tokens": 119427,
+    "cache_read_input_tokens": 479362
+  },
+  "tool_calls": 11,
+  "files": [
+    {
+      "path": "torchci/components/TorchAgentPage.tsx",
+      "action": "keep",
+      "sha256": "37f3bfbdc6c6885d459e509ef68ac33d55f11210829fbf4297eb8af4eec6adad",
+      "rationale": "Combined both sides: kept PR A's currentSessionId/feedbackVisible state, auth-cookie check in fetchChatHistory and feedback-visibility updates, together with PR B's hasFetchedTitleRef, optional showLoading parameter for fetchChatHistory, and chat-history refresh calls after stream completion and on error."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:07:48.000779Z"
+}

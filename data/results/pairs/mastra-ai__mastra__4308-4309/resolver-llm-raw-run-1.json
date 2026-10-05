@@ -1,0 +1,25 @@
+{
+  "pair_id": "mastra-ai__mastra__4308-4309",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 32728,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 328,
+    "cache_creation_input_tokens": 54049,
+    "cache_read_input_tokens": 137079
+  },
+  "tool_calls": 6,
+  "files": [
+    {
+      "path": "client-sdks/client-js/src/types.ts",
+      "action": "keep",
+      "sha256": "8ee436265514298ad9494bb3aad1af1902e52f07a7476542899c3fc52490ca56",
+      "rationale": "Kept PR A's Prettify wrapper around GenerateParams and StreamParams while adopting PR B's widened runtimeContext type (RuntimeContext | Record<string, any>) inside both."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:07:47.705925Z"
+}

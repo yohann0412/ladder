@@ -1,0 +1,31 @@
+{
+  "pair_id": "getsentry__sentry-dart__3079-3084",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 80978,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 1171,
+    "cache_creation_input_tokens": 99210,
+    "cache_read_input_tokens": 401374
+  },
+  "tool_calls": 14,
+  "files": [
+    {
+      "path": "dart/lib/src/hub.dart",
+      "action": "keep",
+      "sha256": "c2dfd64a9e438d8f895c8bc0a350ba15cc78db69975e9629f4100cac6064ce09",
+      "rationale": "Kept PR A's rename to generateNewTrace (used by all callers, noop_hub and hub_adapter) and made it reset traceId, PR A's sampleRand and PR B's sampled flag together, so both per-trace values are cleared when a new trace starts."
+    },
+    {
+      "path": "dart/lib/src/propagation_context.dart",
+      "action": "keep",
+      "sha256": "8521a697f7a95d6d46c36f6fc75c356c8ab4647e078e7cac5c61192064226fb4",
+      "rationale": "Kept both new fields, PR A's sampleRand and PR B's sampled, along with PR B's toSentryTrace that propagates the sampled flag."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:07:46.681710Z"
+}

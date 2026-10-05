@@ -1,0 +1,49 @@
+{
+  "pair_id": "BasedHardware__omi__2006-2009",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 265411,
+  "tokens": {
+    "input_tokens": 36,
+    "output_tokens": 7336,
+    "cache_creation_input_tokens": 122475,
+    "cache_read_input_tokens": 1446235
+  },
+  "tool_calls": 28,
+  "files": [
+    {
+      "path": "app/lib/backend/preferences_web.dart",
+      "action": "keep",
+      "sha256": "4ceefe0308f0673b0a7265aafdf288c35b59f5cd5746316bc8cb54eb04aee73c",
+      "rationale": "Used PR A's full web SharedPreferencesUtil, which mirrors the native API, as the base and added PR B's extra members that don't overlap with it (name, lastActive* ids, simplified web save/get stubs), changing B's nonexistent Conversation/Message types to ServerConversation/ServerMessage so the file compiles."
+    },
+    {
+      "path": "app/lib/main.dart",
+      "action": "keep",
+      "sha256": "8ea5fff641f799601016183983dfbcf154a838e94c169a430fda88c65c08df44",
+      "rationale": "Kept the kIsWeb import that both sides add, added PR B's platform_imports import, and kept PR A's web guard around ServiceManager start, which still carries the original TODO comment."
+    },
+    {
+      "path": "app/lib/utils/platform_imports.dart",
+      "action": "keep",
+      "sha256": "f7d2202da45699bda6abf4eee60f867aa97a1f3a0b9412ade3f1db577b9f8584",
+      "rationale": "Both versions are the same apart from PR A's extra prefixed dart:io import, so the union (PR A's version) was kept."
+    },
+    {
+      "path": "app/lib/utils/platform_imports_io.dart",
+      "action": "keep",
+      "sha256": "2a25e56b0bc2936b9a351d8961c13498e0843d839c2eba156884a1500b0dc524",
+      "rationale": "Re-exported all of dart:io as PR B does, which covers PR A's Platform-only export and also provides File/Directory needed by platform_file helpers on native, and kept PR B's platform-detection helper getters."
+    },
+    {
+      "path": "app/lib/utils/platform_imports_web.dart",
+      "action": "keep",
+      "sha256": "035758b2e681a5cb6df17363e427efc8223bdf9a9e224c7caf2debe10515924c",
+      "rationale": "Combined both web mocks into valid Dart: Platform with the getters from both sides (including isWeb and isFuchsia), a File mock with B's dart:io-like methods plus A's equality/hashCode, B's FileSystemEntity/Directory hierarchy, and the typed_data re-export; B's duplicate path/absolute getters were removed because they would not compile, as were unused imports."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:07:45.652727Z"
+}
