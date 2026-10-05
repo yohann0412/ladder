@@ -1,0 +1,193 @@
+{
+  "pair_id": "TykTechnologies__tyk__7267-7285",
+  "status": "located",
+  "commit": "c3311385160734def43433cff3f4a3198af60e5f",
+  "method": "absorption",
+  "files": [
+    {
+      "path": ".github/workflows/ci-tests.yml",
+      "present": true,
+      "sha256": "a4f5bb468f1fa7db0983b9987aa1eb38ecae72cf5f3f3648fe8ab032000e84e5"
+    },
+    {
+      "path": "apidef/oas/example.go",
+      "present": true,
+      "sha256": "e7838745f930ff3543dd34eb1d0ef33d722564eef1a7f078a001b00a25d72c0d"
+    },
+    {
+      "path": "apidef/oas/oas.go",
+      "present": true,
+      "sha256": "3eb9063a94516fc39ffacdcc8cbc64f86f9579710fc9e25bdebbf42eefee78c5"
+    },
+    {
+      "path": "apidef/oas/oas_test.go",
+      "present": true,
+      "sha256": "fd42c1087694b54dab956ff1fcdd0567479fcf717259df609ef192a37ea84411"
+    },
+    {
+      "path": "apidef/oas/old_oas.go",
+      "present": true,
+      "sha256": "11af9fc08fdf276aece4f6a3382be8e4ca958cfab58134044ee26f1176ebd39c"
+    },
+    {
+      "path": "apidef/oas/operation.go",
+      "present": true,
+      "sha256": "a5ab5fd9d60c248ca55ec22d33ceabcdf3a810a7e797e1b84116e5485f0d3bbe"
+    },
+    {
+      "path": "apidef/oas/operation_test.go",
+      "present": true,
+      "sha256": "ce2124454f21d9b41525dbf63b1dbfa827b440303f2df4d8ae2be5534136e834"
+    },
+    {
+      "path": "apidef/streams/bento/schema/bento-config-schema.json",
+      "present": true,
+      "sha256": "78edca5767e305f8501889a0de3e69e8c3761dad141d60fff83ef44a6392859a"
+    },
+    {
+      "path": "apidef/streams/bento/schema/generate_bento_config_schema.go",
+      "present": true,
+      "sha256": "942e00fe10bc18e9749cc058067b3f71cc1d6b39b08f351c47d7e9517f019778"
+    },
+    {
+      "path": "gateway/api.go",
+      "present": true,
+      "sha256": "9dd3c925a86f0adaba862ff33c39922fc2862f78b4ad8b97e5d5ab8a458cf952"
+    },
+    {
+      "path": "gateway/api_definition.go",
+      "present": true,
+      "sha256": "5750022aa25dc2b7ecf268e5bb7e25309b56f5fc786a31b4ad0609db25aabb05"
+    },
+    {
+      "path": "gateway/mw_jwt.go",
+      "present": true,
+      "sha256": "ef04684e8d8c05b65810165f65a7927d6ab2e30cb7a3cb2b6bc589370e025618"
+    },
+    {
+      "path": "gateway/mw_mock_response.go",
+      "present": true,
+      "sha256": "c0d27d63dad168501b21371da54232142b599e6f79d9b7b1ccedb23e974b5324"
+    },
+    {
+      "path": "gateway/mw_mock_response_test.go",
+      "present": true,
+      "sha256": "34132c7648896044f49daa2a38dfa7773af5507cc9dc2f3db2867f2aabee23f3"
+    },
+    {
+      "path": "gateway/policy.go",
+      "present": true,
+      "sha256": "895f70e71acc3dcf99d27db31b58242a50f2314023bdadffa6afc64f91233f5e"
+    },
+    {
+      "path": "gateway/reverse_proxy.go",
+      "present": true,
+      "sha256": "624973b2e83672dc9a506286f49b597d0cab97befb9a207af210b2331f926cd8"
+    },
+    {
+      "path": "gateway/reverse_proxy_test.go",
+      "present": true,
+      "sha256": "ba9dc32687b149700d9c6438ceb751363430797172800156c92a7168a0e1f04e"
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "present": true,
+      "sha256": "0b2f69a0f1d64a95c2979a2a394bb78525f741b8a722bf17daa983ddf9877a93"
+    },
+    {
+      "path": "go.mod",
+      "present": true,
+      "sha256": "a2941ea34210d6634b87c4c7a0145239f1bbe08ce529365222d7e6e9975f037d"
+    },
+    {
+      "path": "go.sum",
+      "present": true,
+      "sha256": "f06cf94eec0245ed29274f68468ca5e2db4c08f9c8966a9f4f39d7d4ee2b49ca"
+    },
+    {
+      "path": "goplugin/mw_go_plugin_test.go",
+      "present": true,
+      "sha256": "d99ce12ed4c6c7e2eacd4ca5605ef6478d5184d4d72b98c22829c1224da475b8"
+    },
+    {
+      "path": "internal/graphengine/engine_v2.go",
+      "present": true,
+      "sha256": "756a29672d3de470cd3008ee3787b5c4a96680f0368c9ff569f5be3119c2e565"
+    },
+    {
+      "path": "internal/oasbuilder/builder.go",
+      "present": true,
+      "sha256": "472ec9f5fae33160917447e57c111d176a1bde60c1081337a1a26230c4cf520c"
+    },
+    {
+      "path": "internal/oasutil/servers.go",
+      "present": true,
+      "sha256": "9e27a5e6ee4b61d42caab27502c289a8d2d62f737ebeb9bbc990020ee6db44cf"
+    },
+    {
+      "path": "internal/oasutil/servers_test.go",
+      "present": true,
+      "sha256": "adedee4bc5a3cddff52af7bd72a256d17d08bdfd95249808812887f4cd8a9f6d"
+    },
+    {
+      "path": "swagger.yml",
+      "present": true,
+      "sha256": "fdd9ba5abbc30766f2b51adec9f90a4d487e1672b945472fc6ef106f84b5d505"
+    }
+  ],
+  "touched_beyond_conflict": [
+    ".github/workflows/connectivity-review.yml",
+    ".github/workflows/dependency-review.yml",
+    ".github/workflows/performance-review.yml",
+    ".github/workflows/probe.yml",
+    ".github/workflows/release.yml",
+    "apidef/adapter/openapi.go",
+    "apidef/oas/authentication.go",
+    "apidef/oas/default.go",
+    "apidef/oas/default_test.go",
+    "apidef/oas/example_test.go",
+    "apidef/oas/fixtures_test.go",
+    "apidef/oas/root_test.go",
+    "apidef/oas/schema/x-tyk-api-gateway.json",
+    "apidef/oas/schema/x-tyk-api-gateway.strict.json",
+    "apidef/oas/security.go",
+    "apidef/oas/security_test.go",
+    "apidef/oas/url_rewrite.go",
+    "apidef/oas/validator_test.go",
+    "apidef/streams/validator_test.go",
+    "cli/linter/schema.json",
+    "config/config.go",
+    "ctx/ctx_test.go",
+    "gateway/api_definition_test.go",
+    "gateway/api_test.go",
+    "gateway/cert_test.go",
+    "gateway/health_check.go",
+    "gateway/health_check_test.go",
+    "gateway/looping_test.go",
+    "gateway/model_apispec.go",
+    "gateway/mw_jwt_test.go",
+    "gateway/mw_oas_validate_request.go",
+    "gateway/mw_oas_validate_request_test.go",
+    "gateway/mw_streaming_test.go",
+    "gateway/mw_version_check.go",
+    "gateway/testutil.go",
+    "internal/oasutil/paths.go",
+    "internal/oasutil/paths_test.go",
+    "tcp/tcp_test.go"
+  ],
+  "outside_region_edit": [
+    ".github/workflows/ci-tests.yml",
+    "apidef/oas/example.go",
+    "apidef/oas/operation.go",
+    "apidef/oas/operation_test.go",
+    "gateway/api.go",
+    "gateway/api_definition.go",
+    "gateway/mw_jwt.go",
+    "go.mod",
+    "go.sum",
+    "goplugin/mw_go_plugin_test.go"
+  ],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:10:39.082657Z"
+}

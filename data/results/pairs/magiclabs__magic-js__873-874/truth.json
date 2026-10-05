@@ -1,0 +1,33 @@
+{
+  "pair_id": "magiclabs__magic-js__873-874",
+  "status": "located",
+  "commit": "a5cbb0d9911ed88548f061f33a77bcb8c1b44d3b",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "yarn.lock",
+      "present": true,
+      "sha256": "b4e55f608a028c5189acee37fa97110d8571f0235672d2e317c54125bf4d88d0"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "package.json",
+    "packages/@magic-sdk/pnp/package.json",
+    "packages/@magic-sdk/provider/package.json",
+    "packages/@magic-sdk/provider/test/spec/core/view-controller/post.spec.ts",
+    "packages/@magic-sdk/provider/test/spec/modules/user/showSettings.spec.ts",
+    "packages/@magic-sdk/provider/test/spec/util/web-crypto.spec.ts",
+    "packages/@magic-sdk/react-native-bare/package.json",
+    "packages/@magic-sdk/react-native-bare/test/setup.ts",
+    "packages/@magic-sdk/react-native-bare/test/spec/react-native-webview-controller/_post.spec.ts",
+    "packages/@magic-sdk/react-native-bare/test/spec/react-native-webview-controller/handleReactNativeWebViewMessage.spec.ts",
+    "packages/@magic-sdk/react-native-expo/package.json",
+    "packages/@magic-sdk/react-native-expo/test/setup.ts"
+  ],
+  "outside_region_edit": [
+    "yarn.lock"
+  ],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:09:55.720178Z"
+}

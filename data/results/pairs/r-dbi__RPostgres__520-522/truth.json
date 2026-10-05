@@ -1,0 +1,20 @@
+{
+  "pair_id": "r-dbi__RPostgres__520-522",
+  "status": "located",
+  "commit": "ad6b944c01f22d02b24e5c8eb70d469499a5fa3c",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "tests/testthat/test-ImportLargeObject.R",
+      "present": true,
+      "sha256": "19d196de3e5d4c7e86b8ee25d751f1455d8e1dfad6892896c1634148f967b8b4"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "R/PqConnection.R"
+  ],
+  "outside_region_edit": [],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:09:57.017368Z"
+}

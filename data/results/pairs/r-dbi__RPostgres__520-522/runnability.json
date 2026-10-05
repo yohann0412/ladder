@@ -1,0 +1,15 @@
+{
+  "pair_id": "r-dbi__RPostgres__520-522",
+  "commit": "9f04e066c7df35a650660825b9ff72b79d620029",
+  "language": "cpp",
+  "package_manager": "cmake",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "cpp project; no adapter for cpp (cmake is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

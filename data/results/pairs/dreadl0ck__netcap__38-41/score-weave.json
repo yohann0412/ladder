@@ -1,0 +1,17 @@
+{
+  "pair_id": "dreadl0ck__netcap__38-41",
+  "rung": "weave",
+  "run": 1,
+  "available": false,
+  "unavailable_reason": "weave error: types/netcap.pb.go: driver timed out after 120 s, exit 124",
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": null,
+  "intent_preserved_b": null,
+  "intent_drops": [],
+  "files": [],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}
