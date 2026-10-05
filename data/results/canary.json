@@ -1,0 +1,19 @@
+{
+  "planted": [
+    {
+      "pair_id": "Azure__azure-functions-templates__1698-1701",
+      "marker": "LADDERCANARY63121732f77d50e5",
+      "commit": "52e74db8878ad8ae988b7a966a55cc130fa48ad7"
+    },
+    {
+      "pair_id": "getsentry__sentry-dart__3079-3084",
+      "marker": "LADDERCANARY63374280ccfb9ae2",
+      "commit": "b36cc5253b0d805084452e3a11debb261a0bb4a7"
+    },
+    {
+      "pair_id": "langgenius__webapp-conversation__182-183",
+      "marker": "LADDERCANARYd785b652a863d07d",
+      "commit": "5160642409bd0d3fc934ce081894f067892beb5c"
+    }
+  ]
+}
