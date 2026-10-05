@@ -1,0 +1,108 @@
+{
+  "pair_id": "Swofty-Developments__HypixelSkyBlock__509-511",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "error",
+  "detail": ".gradle/buildOutputCleanup/outputFiles.bin: driver exit 2; .gradle/buildOutputCleanup/buildOutputCleanup.lock: driver exit 2; .gradle/8.7/fileHashes/resourceHashesCache.bin: driver exit 2; .gradle/8.7/fileHashes/fileHashes.lock: driver exit 2; .gradle/8.7/fileHashes/fileHashes.bin: driver exit 2; .gradle/8.7/executionHistory/executionHistory.lock: driver exit 2; .gradle/8.7/executionHistory/executionHistory.bin: driver exit 2; .gradle/8.7/checksums/sha1-checksums.bin: driver exit 2; .gradle/8.7/checksums/md5-checksums.bin: driver exit 2; .gradle/8.7/checksums/checksums.lock: driver exit 2",
+  "remaining_conflicted": [
+    ".gradle/8.7/checksums/checksums.lock",
+    ".gradle/8.7/checksums/md5-checksums.bin",
+    ".gradle/8.7/checksums/sha1-checksums.bin",
+    ".gradle/8.7/executionHistory/executionHistory.bin",
+    ".gradle/8.7/executionHistory/executionHistory.lock",
+    ".gradle/8.7/fileHashes/fileHashes.bin",
+    ".gradle/8.7/fileHashes/fileHashes.lock",
+    ".gradle/8.7/fileHashes/resourceHashesCache.bin",
+    ".gradle/buildOutputCleanup/buildOutputCleanup.lock",
+    ".gradle/buildOutputCleanup/cache.properties",
+    ".gradle/buildOutputCleanup/outputFiles.bin",
+    "type.generic/build.gradle.kts"
+  ],
+  "files": [
+    {
+      "path": ".gradle/8.7/checksums/checksums.lock",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": ".gradle/8.7/checksums/md5-checksums.bin",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": ".gradle/8.7/checksums/sha1-checksums.bin",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": ".gradle/8.7/executionHistory/executionHistory.bin",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": ".gradle/8.7/executionHistory/executionHistory.lock",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": ".gradle/8.7/fileHashes/fileHashes.bin",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": ".gradle/8.7/fileHashes/fileHashes.lock",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": ".gradle/8.7/fileHashes/resourceHashesCache.bin",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": ".gradle/buildOutputCleanup/buildOutputCleanup.lock",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": ".gradle/buildOutputCleanup/cache.properties",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": ".gradle/buildOutputCleanup/outputFiles.bin",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "type.generic/build.gradle.kts",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/Swofty-Developments__HypixelSkyBlock__509-511/weave"
+}

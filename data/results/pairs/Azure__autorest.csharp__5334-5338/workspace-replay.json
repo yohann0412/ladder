@@ -1,0 +1,23 @@
+{
+  "pair_id": "Azure__autorest.csharp__5334-5338",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Azure__autorest.csharp__5334-5338",
+  "source_base": "07b2ab85bafe355109f75b240c12e3b787f0c0c1",
+  "source_a": "2db8387d5559ba5bd688343e0d9aec07c5339b74",
+  "source_b": "ccd17d3c1168da566cd76cd25b63edaf1159e40d",
+  "base_commit": "45e54268f056b855f7673791ba28a69a80708516",
+  "a_commit": "e9925d884bf05c6c679fbb10aa9fb8eed5819c3a",
+  "b_commit": "51b979360861fee4597d56883778e12802ae11d6",
+  "object_count": 15238,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

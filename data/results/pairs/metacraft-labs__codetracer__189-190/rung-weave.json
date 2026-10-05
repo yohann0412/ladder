@@ -1,0 +1,20 @@
+{
+  "pair_id": "metacraft-labs__codetracer__189-190",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "src/tui/src/simple_main.rs"
+  ],
+  "files": [
+    {
+      "path": "src/tui/src/simple_main.rs",
+      "present": true,
+      "has_markers": true,
+      "language": "rust",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/metacraft-labs__codetracer__189-190/weave"
+}

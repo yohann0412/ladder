@@ -1,0 +1,20 @@
+{
+  "pair_id": "microsoft__react-native-windows__14829-14830",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "vnext/Microsoft.ReactNative/Fabric/Composition/ScrollViewComponentView.cpp"
+  ],
+  "files": [
+    {
+      "path": "vnext/Microsoft.ReactNative/Fabric/Composition/ScrollViewComponentView.cpp",
+      "present": true,
+      "has_markers": true,
+      "language": "cpp",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/microsoft__react-native-windows__14829-14830/weave"
+}

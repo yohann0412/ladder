@@ -1,0 +1,23 @@
+{
+  "pair_id": "db-ux-design-system__core-web__4772-4775",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/db-ux-design-system__core-web__4772-4775",
+  "source_base": "83819d825921fdd8242eacbe3ff80e593a65654a",
+  "source_a": "d219b171fa45fed092e5750e776e93a424091a76",
+  "source_b": "7c7aae6d7998149f50fed7a060a3063c705f76ce",
+  "base_commit": "5fc80c50291f97dbc19e0808486e5ed3cde1453c",
+  "a_commit": "01a6a98d7a44ecf1b16163a4de5c21e26d39fcf7",
+  "b_commit": "8840dcac9031790b0ecb89264f70e06de03a716f",
+  "object_count": 2895,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

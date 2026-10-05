@@ -1,0 +1,216 @@
+{
+  "pair_id": "TykTechnologies__tyk__7267-7285",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 22 of 26",
+  "remaining_conflicted": [
+    "apidef/oas/example.go",
+    "apidef/oas/oas_test.go",
+    "apidef/oas/operation.go",
+    "apidef/oas/operation_test.go",
+    "apidef/streams/bento/schema/generate_bento_config_schema.go",
+    "gateway/api.go",
+    "gateway/api_definition.go",
+    "gateway/mw_jwt.go",
+    "gateway/mw_mock_response.go",
+    "gateway/mw_mock_response_test.go",
+    "gateway/policy.go",
+    "gateway/reverse_proxy.go",
+    "gateway/reverse_proxy_test.go",
+    "gateway/tracing_test.go",
+    "go.mod",
+    "go.sum",
+    "goplugin/mw_go_plugin_test.go",
+    "internal/graphengine/engine_v2.go",
+    "internal/oasbuilder/builder.go",
+    "internal/oasutil/servers.go",
+    "internal/oasutil/servers_test.go",
+    "swagger.yml"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/ci-tests.yml",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "apidef/oas/example.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "apidef/oas/oas.go",
+      "present": true,
+      "has_markers": false,
+      "language": "go",
+      "parses": true
+    },
+    {
+      "path": "apidef/oas/oas_test.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "apidef/oas/old_oas.go",
+      "present": true,
+      "has_markers": false,
+      "language": "go",
+      "parses": true
+    },
+    {
+      "path": "apidef/oas/operation.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "apidef/oas/operation_test.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "apidef/streams/bento/schema/bento-config-schema.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "apidef/streams/bento/schema/generate_bento_config_schema.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "gateway/api.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "gateway/api_definition.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "gateway/mw_jwt.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "gateway/mw_mock_response.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "gateway/mw_mock_response_test.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "gateway/policy.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "gateway/reverse_proxy.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "gateway/reverse_proxy_test.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "gateway/tracing_test.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "go.mod",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "go.sum",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "goplugin/mw_go_plugin_test.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "internal/graphengine/engine_v2.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "internal/oasbuilder/builder.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "internal/oasutil/servers.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "internal/oasutil/servers_test.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "swagger.yml",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/TykTechnologies__tyk__7267-7285/mergiraf"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "dyoshikawa__rulesync__189-190",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/dyoshikawa__rulesync__189-190",
+  "source_base": "b44ee48f7fd15b0ca4d9db712aed375443950de1",
+  "source_a": "1e9c151764dc8e5992b20527f624757a4f49c07c",
+  "source_b": "55ebe165c42eb3e832b6aaa0605c20d46609217d",
+  "base_commit": "c7ddc33d522b5fb523bec6c6ae69751290d4abd9",
+  "a_commit": "4f4326c3f90a3c88f97e1e7e0d4a116783979c27",
+  "b_commit": "9bada28df6d297f88e8669a17d3bd061e5048a13",
+  "object_count": 568,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

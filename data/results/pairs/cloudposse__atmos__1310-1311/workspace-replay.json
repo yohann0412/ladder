@@ -1,0 +1,23 @@
+{
+  "pair_id": "cloudposse__atmos__1310-1311",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/cloudposse__atmos__1310-1311",
+  "source_base": "80f5f5ceeeb11e09e38e246f8139ad30cbd4ddae",
+  "source_a": "a3ac72d46babe6b1d2c964d0a4a1baade64a5423",
+  "source_b": "416edd5b260476519c5d621d3c513157f36a4115",
+  "base_commit": "107b80e8e796623f1ba580306c78b42ff7e888dd",
+  "a_commit": "31382ad572376454c4b773984a4bf77ea7da8295",
+  "b_commit": "2460df8da6df7612b68eb37ddbb4bbfe6bdd56a7",
+  "object_count": 2081,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

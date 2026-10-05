@@ -1,0 +1,15 @@
+{
+  "pair_id": "db-ux-design-system__core-web__4772-4775",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T09:09:42.059180Z"
+}

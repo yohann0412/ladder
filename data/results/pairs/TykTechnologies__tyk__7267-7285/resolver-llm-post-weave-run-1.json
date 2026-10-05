@@ -1,0 +1,21 @@
+{
+  "pair_id": "TykTechnologies__tyk__7267-7285",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: go.sum version a has 330541 bytes, more than 200000",
+    "input cap: go.sum version conflicted has 354747 bytes, more than 200000",
+    "input cap: swagger.yml version base has 248126 bytes, more than 200000",
+    "input cap: swagger.yml version a has 248332 bytes, more than 200000",
+    "input cap: swagger.yml version b has 248135 bytes, more than 200000",
+    "input cap: swagger.yml version conflicted has 248517 bytes, more than 200000",
+    "input cap: 3575700 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T09:10:10.999423Z"
+}

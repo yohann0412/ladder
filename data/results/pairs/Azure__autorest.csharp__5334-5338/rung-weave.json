@@ -1,0 +1,34 @@
+{
+  "pair_id": "Azure__autorest.csharp__5334-5338",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 3",
+  "remaining_conflicted": [
+    "package-lock.json"
+  ],
+  "files": [
+    {
+      "path": "package-lock.json",
+      "present": true,
+      "has_markers": true,
+      "language": "json",
+      "parses": false
+    },
+    {
+      "path": "package.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "src/TypeSpec.Extension/Emitter.Csharp/package.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/Azure__autorest.csharp__5334-5338/weave"
+}

@@ -2,7 +2,7 @@
   "pair_id": "joaovitoriasilva__endurain__315-317",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 49, conflicted files: 49 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 49, conflicted files: 49",
   "messages": [
     "CONFLICT (content): Merge conflict in .env.example",
     "CONFLICT (content): Merge conflict in backend/app/session/schema.py",

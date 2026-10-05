@@ -1,0 +1,23 @@
+{
+  "pair_id": "joaovitoriasilva__endurain__315-317",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/joaovitoriasilva__endurain__315-317",
+  "source_base": "0e17fafe450b66eda7982311e6f94cee44316684",
+  "source_a": "44e5daf7df7196b6dfcec65d59cb1aa4d1c49167",
+  "source_b": "1024522af38d9559dd466a53c2f6e5bb58cd56ee",
+  "base_commit": "5bc4d951bf489196450198256b5ffbd1335cef44",
+  "a_commit": "7ad2c3a8b9b0cd5314cc8b0d0c98421c8b38c80c",
+  "b_commit": "51d4e155bf2793f74a095d4e4c1fcfc1c6cd1ddc",
+  "object_count": 1839,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

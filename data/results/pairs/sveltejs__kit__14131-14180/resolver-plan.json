@@ -1,0 +1,15 @@
+{
+  "pair_id": "sveltejs__kit__14131-14180",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T09:08:33.586504Z"
+}

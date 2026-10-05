@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__react-native-windows__14829-14830",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/microsoft__react-native-windows__14829-14830",
+  "source_base": "fc7ac6ff732f480997a23ea9bceeac4568c1a95f",
+  "source_a": "b2eed31e42878b83ecb9ec1ec8e30aeae7a0b828",
+  "source_b": "b140442e8556918dacb144333fabb64fb83fe058",
+  "base_commit": "2a9a87eab956dfd489e30fa0bd82a3b8b4d96d54",
+  "a_commit": "38b718b3b272551651278e88bc9c23694a69703b",
+  "b_commit": "2ffea6d3178793a03fb7d2900834e1c0ebe908b4",
+  "object_count": 4122,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

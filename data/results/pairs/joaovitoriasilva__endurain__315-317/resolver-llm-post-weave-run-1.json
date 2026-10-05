@@ -1,0 +1,20 @@
+{
+  "pair_id": "joaovitoriasilva__endurain__315-317",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: 33 conflicted files, more than 20",
+    "input cap: backend/poetry.lock version base has 274244 bytes, more than 200000",
+    "input cap: backend/poetry.lock version a has 292060 bytes, more than 200000",
+    "input cap: backend/poetry.lock version b has 283222 bytes, more than 200000",
+    "input cap: backend/poetry.lock version conflicted has 302786 bytes, more than 200000",
+    "input cap: 2424826 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T09:08:52.311851Z"
+}

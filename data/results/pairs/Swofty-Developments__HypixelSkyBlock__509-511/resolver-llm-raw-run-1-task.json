@@ -1,0 +1,29 @@
+{
+  "pair_id": "Swofty-Developments__HypixelSkyBlock__509-511",
+  "rung": "llm-raw",
+  "run": 1,
+  "task_dir": "/home/user/ladder/work/resolver/Swofty-Developments__HypixelSkyBlock__509-511/llm-raw/run-1",
+  "snapshot_dir": "/home/user/ladder/work/resolver/Swofty-Developments__HypixelSkyBlock__509-511/llm-raw/run-1/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/Swofty-Developments__HypixelSkyBlock__509-511/llm-raw/run-1",
+  "spawn_line": "Read /home/user/ladder/work/resolver/Swofty-Developments__HypixelSkyBlock__509-511/llm-raw/run-1/PROMPT.md and follow it exactly.",
+  "files": [
+    ".gradle/8.7/checksums/checksums.lock",
+    ".gradle/8.7/checksums/md5-checksums.bin",
+    ".gradle/8.7/checksums/sha1-checksums.bin",
+    ".gradle/8.7/executionHistory/executionHistory.bin",
+    ".gradle/8.7/executionHistory/executionHistory.lock",
+    ".gradle/8.7/fileHashes/fileHashes.bin",
+    ".gradle/8.7/fileHashes/fileHashes.lock",
+    ".gradle/8.7/fileHashes/resourceHashesCache.bin",
+    ".gradle/buildOutputCleanup/buildOutputCleanup.lock",
+    ".gradle/buildOutputCleanup/cache.properties",
+    ".gradle/buildOutputCleanup/outputFiles.bin",
+    "type.generic/build.gradle.kts"
+  ],
+  "input_bytes": 15266501,
+  "pr_text_flags": [],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "input_cap",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T09:09:14.332879Z"
+}

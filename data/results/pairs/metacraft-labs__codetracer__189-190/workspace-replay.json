@@ -1,0 +1,23 @@
+{
+  "pair_id": "metacraft-labs__codetracer__189-190",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/metacraft-labs__codetracer__189-190",
+  "source_base": "838e1e5f1b44b9f0854fa1afb44046ef4973e1ea",
+  "source_a": "b5d4a86a8026209646384f41030f8b2b129a94e5",
+  "source_b": "cbec436a1d08080ad1f45aacb3e00c12f0b9adb9",
+  "base_commit": "71b52d27a3946845c3021b7b70f0de7167620746",
+  "a_commit": "a247e5cab5fe6caa8fa4eea2ec91cfc4005624e6",
+  "b_commit": "5c3f6f36459730e6c2e40bf388e9f23582360bec",
+  "object_count": 1119,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

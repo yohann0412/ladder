@@ -1,0 +1,23 @@
+{
+  "pair_id": "sveltejs__kit__14131-14180",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/sveltejs__kit__14131-14180",
+  "source_base": "6c130634df8d4739cade53edf1ad202570d61fc7",
+  "source_a": "5764a8d74a520449f05f00c0b4addae96892f0a9",
+  "source_b": "1e6c0ed77a565f2de647f2d366dd27cfbc0cc1c4",
+  "base_commit": "911c2c2766ea49873b3dd1521d3b0abb6a09292f",
+  "a_commit": "75ad03be08f387a9949135fcc6d9e796b7c1a457",
+  "b_commit": "ff0a2d8d20cdd3e4b825577b9b7753c53af9a6b4",
+  "object_count": 2989,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

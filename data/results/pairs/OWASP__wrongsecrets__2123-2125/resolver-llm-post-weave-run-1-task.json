@@ -1,0 +1,23 @@
+{
+  "pair_id": "OWASP__wrongsecrets__2123-2125",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "task_dir": "/home/user/ladder/work/resolver/OWASP__wrongsecrets__2123-2125/llm-post-weave/run-1",
+  "snapshot_dir": "/home/user/ladder/work/resolver/OWASP__wrongsecrets__2123-2125/llm-post-weave/run-1/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/OWASP__wrongsecrets__2123-2125/llm-post-weave/run-1",
+  "spawn_line": "Read /home/user/ladder/work/resolver/OWASP__wrongsecrets__2123-2125/llm-post-weave/run-1/PROMPT.md and follow it exactly.",
+  "files": [
+    "src/main/java/org/owasp/wrongsecrets/challenges/docker/Challenge57.java",
+    "src/main/resources/explanations/challenge57.adoc",
+    "src/main/resources/explanations/challenge57_hint.adoc",
+    "src/main/resources/explanations/challenge57_reason.adoc",
+    "src/main/resources/wrong-secrets-configuration.yaml",
+    "src/test/java/org/owasp/wrongsecrets/challenges/docker/Challenge57Test.java"
+  ],
+  "input_bytes": 165608,
+  "pr_text_flags": [],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "pending",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T09:10:53.033802Z"
+}

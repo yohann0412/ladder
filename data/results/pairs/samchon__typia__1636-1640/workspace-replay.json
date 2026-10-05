@@ -1,0 +1,23 @@
+{
+  "pair_id": "samchon__typia__1636-1640",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/samchon__typia__1636-1640",
+  "source_base": "cccb9cba634e630d9e73d792f622a6eefcaff010",
+  "source_a": "612233bf81273df3c0fd4c8d5d3c0a2856610e1d",
+  "source_b": "63ee4c151aa1e2be67a5dd6a22ff09123e0d48c3",
+  "base_commit": "37c815938e7c23c2bdec820ba7028bf5d0629624",
+  "a_commit": "4fc5d799e4525b51a6f13557046f665d641e3f9f",
+  "b_commit": "aa1c1505fa56e85ba99cc3e0049b2ab6241a515a",
+  "object_count": 24512,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

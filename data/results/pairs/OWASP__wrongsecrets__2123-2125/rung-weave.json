@@ -1,0 +1,67 @@
+{
+  "pair_id": "OWASP__wrongsecrets__2123-2125",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 6 of 7",
+  "remaining_conflicted": [
+    "src/main/java/org/owasp/wrongsecrets/challenges/docker/Challenge57.java",
+    "src/main/resources/explanations/challenge57.adoc",
+    "src/main/resources/explanations/challenge57_hint.adoc",
+    "src/main/resources/explanations/challenge57_reason.adoc",
+    "src/main/resources/wrong-secrets-configuration.yaml",
+    "src/test/java/org/owasp/wrongsecrets/challenges/docker/Challenge57Test.java"
+  ],
+  "files": [
+    {
+      "path": ".github/scripts/generate_thymeleaf_previews.py",
+      "present": true,
+      "has_markers": false,
+      "language": "python",
+      "parses": true
+    },
+    {
+      "path": "src/main/java/org/owasp/wrongsecrets/challenges/docker/Challenge57.java",
+      "present": true,
+      "has_markers": true,
+      "language": "java",
+      "parses": false
+    },
+    {
+      "path": "src/main/resources/explanations/challenge57.adoc",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/main/resources/explanations/challenge57_hint.adoc",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/main/resources/explanations/challenge57_reason.adoc",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/main/resources/wrong-secrets-configuration.yaml",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/test/java/org/owasp/wrongsecrets/challenges/docker/Challenge57Test.java",
+      "present": true,
+      "has_markers": true,
+      "language": "java",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/OWASP__wrongsecrets__2123-2125/weave"
+}

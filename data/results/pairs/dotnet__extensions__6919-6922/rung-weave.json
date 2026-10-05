@@ -1,0 +1,20 @@
+{
+  "pair_id": "dotnet__extensions__6919-6922",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "eng/MSBuild/Packaging.targets"
+  ],
+  "files": [
+    {
+      "path": "eng/MSBuild/Packaging.targets",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/dotnet__extensions__6919-6922/weave"
+}

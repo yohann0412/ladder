@@ -2,7 +2,7 @@
   "pair_id": "TykTechnologies__tyk__7267-7285",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 28, conflicted files: 26 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 28, conflicted files: 26",
   "messages": [
     "CONFLICT (content): Merge conflict in .github/workflows/ci-tests.yml",
     "CONFLICT (content): Merge conflict in apidef/oas/example.go",

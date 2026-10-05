@@ -1,0 +1,32 @@
+{
+  "pair_id": "Azure__autorest.csharp__5334-5338",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 3",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "package-lock.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "package.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "src/TypeSpec.Extension/Emitter.Csharp/package.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/Azure__autorest.csharp__5334-5338/mergiraf"
+}

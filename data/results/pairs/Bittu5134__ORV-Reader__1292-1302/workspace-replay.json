@@ -1,0 +1,23 @@
+{
+  "pair_id": "Bittu5134__ORV-Reader__1292-1302",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Bittu5134__ORV-Reader__1292-1302",
+  "source_base": "3e47f23fe5f40582f2eacf23468e0c469f311063",
+  "source_a": "9c982096306b415b7d957ad9655d13d104d6e026",
+  "source_b": "d27bd7383e9c208c242acb6108d8be6979684499",
+  "base_commit": "e34d6c7776c064655dde33af5db30fd4029a4500",
+  "a_commit": "b04c5a8152b28862302afb295dd852f8f94d7950",
+  "b_commit": "a149aad23f7ccae26a28c937e142f5c075f86430",
+  "object_count": 2531,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

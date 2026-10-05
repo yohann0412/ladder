@@ -2,7 +2,7 @@
   "pair_id": "translate__translate__5753-5754",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 2, conflicted files: 2",
   "messages": [
     "CONFLICT (content): Merge conflict in tests/translate/convert/test_po2html.py",
     "CONFLICT (content): Merge conflict in tests/translate/storage/test_html.py"

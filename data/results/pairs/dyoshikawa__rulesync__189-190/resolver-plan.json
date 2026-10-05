@@ -1,0 +1,11 @@
+{
+  "pair_id": "dyoshikawa__rulesync__189-190",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T09:11:24.112538Z"
+}

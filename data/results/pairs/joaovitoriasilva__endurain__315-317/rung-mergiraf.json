@@ -1,0 +1,387 @@
+{
+  "pair_id": "joaovitoriasilva__endurain__315-317",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 32 of 49",
+  "remaining_conflicted": [
+    ".env.example",
+    "backend/app/session/schema.py",
+    "backend/poetry.lock",
+    "docs/index.md",
+    "frontend/app/src/components/Activities/ActivitiesSummaryBreakdownTableComponent.vue",
+    "frontend/app/src/components/Activities/ActivitiesTableRowComponent.vue",
+    "frontend/app/src/components/Activities/ActivitiesTypeBreakdownTableComponent.vue",
+    "frontend/app/src/components/Activities/ActivityLapsComponent.vue",
+    "frontend/app/src/components/Activities/ActivitySummaryComponent.vue",
+    "frontend/app/src/components/Activities/UserDistanceStatsComponent.vue",
+    "frontend/app/src/components/FooterComponent.vue",
+    "frontend/app/src/components/Gears/GearComponentListComponent.vue",
+    "frontend/app/src/components/Settings/SettingsSecurityZone.vue",
+    "frontend/app/src/components/Settings/SettingsSideBarComponent.vue",
+    "frontend/app/src/components/Settings/SettingsUsersZone.vue",
+    "frontend/app/src/components/Settings/SettingsUsersZone/UsersAddEditUserModalComponent.vue",
+    "frontend/app/src/components/Settings/SettingsUsersZone/UsersListComponent.vue",
+    "frontend/app/src/components/Users/UserAvatarComponent.vue",
+    "frontend/app/src/i18n/ca/components/activities/userDistanceStatsComponent.json",
+    "frontend/app/src/i18n/de/components/activities/userDistanceStatsComponent.json",
+    "frontend/app/src/i18n/es/components/activities/userDistanceStatsComponent.json",
+    "frontend/app/src/i18n/fr/components/activities/userDistanceStatsComponent.json",
+    "frontend/app/src/i18n/index.js",
+    "frontend/app/src/router/index.js",
+    "frontend/app/src/utils/activityUtils.js",
+    "frontend/app/src/utils/serviceUtils.js",
+    "frontend/app/src/views/Gears/GearView.vue",
+    "frontend/app/src/views/HomeView.vue",
+    "frontend/app/src/views/LoginView.vue",
+    "frontend/app/src/views/SettingsView.vue",
+    "frontend/app/src/views/SummaryView.vue",
+    "frontend/app/src/views/UserView.vue"
+  ],
+  "files": [
+    {
+      "path": ".env.example",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "backend/app/session/schema.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "backend/poetry.lock",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "backend/pyproject.toml",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "docs/index.md",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/components/Activities/ActivitiesSummaryBreakdownTableComponent.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/components/Activities/ActivitiesTableRowComponent.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/components/Activities/ActivitiesTypeBreakdownTableComponent.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/components/Activities/ActivityLapsComponent.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/components/Activities/ActivitySummaryComponent.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/components/Activities/UserDistanceStatsComponent.vue",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/components/FooterComponent.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/components/Gears/GearComponentListComponent.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/components/Settings/SettingsSecurityZone.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/components/Settings/SettingsSideBarComponent.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/components/Settings/SettingsUsersZone.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/components/Settings/SettingsUsersZone/UsersAddEditUserModalComponent.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/components/Settings/SettingsUsersZone/UsersListComponent.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/components/Users/UserAvatarComponent.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/i18n/ca/activityItems.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/i18n/ca/components/activities/modals/editActivityModalComponent.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/i18n/ca/components/activities/userDistanceStatsComponent.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/i18n/ca/components/settings/settingsSideBarComponent.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/i18n/de/components/activities/userDistanceStatsComponent.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/i18n/de/components/settings/settingsSideBarComponent.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/i18n/es/components/activities/userDistanceStatsComponent.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/i18n/es/components/settings/settingsSideBarComponent.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/i18n/fr/components/activities/userDistanceStatsComponent.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/i18n/fr/components/settings/settingsSideBarComponent.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/i18n/index.js",
+      "present": true,
+      "has_markers": true,
+      "language": "javascript",
+      "parses": false
+    },
+    {
+      "path": "frontend/app/src/i18n/nl/components/settings/settingsSideBarComponent.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/i18n/nl/components/users/userDistanceStatsComponent.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/i18n/nl/gears/gearView.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/i18n/nl/searchView.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/i18n/pt/components/settings/settingsSideBarComponent.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/i18n/us/components/settings/settingsSecurityZoneComponent.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/i18n/us/components/settings/settingsSideBarComponent.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/i18n/us/loginView.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/main.js",
+      "present": true,
+      "has_markers": false,
+      "language": "javascript",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/router/index.js",
+      "present": true,
+      "has_markers": true,
+      "language": "javascript",
+      "parses": false
+    },
+    {
+      "path": "frontend/app/src/services/sessionService.js",
+      "present": true,
+      "has_markers": false,
+      "language": "javascript",
+      "parses": true
+    },
+    {
+      "path": "frontend/app/src/utils/activityUtils.js",
+      "present": true,
+      "has_markers": true,
+      "language": "javascript",
+      "parses": false
+    },
+    {
+      "path": "frontend/app/src/utils/serviceUtils.js",
+      "present": true,
+      "has_markers": true,
+      "language": "javascript",
+      "parses": false
+    },
+    {
+      "path": "frontend/app/src/views/Gears/GearView.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/views/HomeView.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/views/LoginView.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/views/SettingsView.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/views/SummaryView.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/app/src/views/UserView.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/joaovitoriasilva__endurain__315-317/mergiraf"
+}

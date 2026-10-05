@@ -1,0 +1,22 @@
+{
+  "pair_id": "Swofty-Developments__HypixelSkyBlock__509-511",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: .gradle/8.7/executionHistory/executionHistory.bin version a has 6197847 bytes, more than 200000",
+    "input cap: .gradle/8.7/executionHistory/executionHistory.bin version b has 484220 bytes, more than 200000",
+    "input cap: .gradle/8.7/executionHistory/executionHistory.bin version conflicted has 6197847 bytes, more than 200000",
+    "input cap: .gradle/8.7/fileHashes/fileHashes.bin version a has 491641 bytes, more than 200000",
+    "input cap: .gradle/8.7/fileHashes/fileHashes.bin version conflicted has 491641 bytes, more than 200000",
+    "input cap: .gradle/8.7/fileHashes/resourceHashesCache.bin version a has 395539 bytes, more than 200000",
+    "input cap: .gradle/8.7/fileHashes/resourceHashesCache.bin version conflicted has 395539 bytes, more than 200000",
+    "input cap: 15266501 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T09:09:14.333228Z"
+}

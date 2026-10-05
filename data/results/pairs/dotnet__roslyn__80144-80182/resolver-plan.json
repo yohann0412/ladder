@@ -1,0 +1,11 @@
+{
+  "pair_id": "dotnet__roslyn__80144-80182",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T09:13:38.593954Z"
+}

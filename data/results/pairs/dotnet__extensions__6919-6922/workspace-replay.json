@@ -1,0 +1,23 @@
+{
+  "pair_id": "dotnet__extensions__6919-6922",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/dotnet__extensions__6919-6922",
+  "source_base": "de0f507c9436ea4a4c7552aaed26c9dbe354b5df",
+  "source_a": "adb122e2f36037f829c37bca94f6b0a7020134c0",
+  "source_b": "ed331bb0b297442564832c1218b5e204f3599ac6",
+  "base_commit": "db31ea1ca0082efbbe62d2a74ce15f1503680e03",
+  "a_commit": "0a42e31150e072a858ee7a5181768a646f806632",
+  "b_commit": "bd12f932926a7731499e694c9dd924af11b23810",
+  "object_count": 3638,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

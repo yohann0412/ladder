@@ -1,0 +1,19 @@
+{
+  "pair_id": "dotnet__roslyn__80144-80182",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: src/Compilers/CSharp/Portable/CSharpResources.resx version base has 477051 bytes, more than 200000",
+    "input cap: src/Compilers/CSharp/Portable/CSharpResources.resx version a has 476599 bytes, more than 200000",
+    "input cap: src/Compilers/CSharp/Portable/CSharpResources.resx version b has 477188 bytes, more than 200000",
+    "input cap: src/Compilers/CSharp/Portable/CSharpResources.resx version conflicted has 476800 bytes, more than 200000",
+    "input cap: 1907638 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T09:13:38.721873Z"
+}

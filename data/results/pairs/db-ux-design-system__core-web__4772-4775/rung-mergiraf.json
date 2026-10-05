@@ -1,0 +1,20 @@
+{
+  "pair_id": "db-ux-design-system__core-web__4772-4775",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "package-lock.json"
+  ],
+  "files": [
+    {
+      "path": "package-lock.json",
+      "present": true,
+      "has_markers": true,
+      "language": "json",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/db-ux-design-system__core-web__4772-4775/mergiraf"
+}

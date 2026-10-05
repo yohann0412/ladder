@@ -1,0 +1,28 @@
+{
+  "pair_id": "dyoshikawa__rulesync__189-190",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 2",
+  "remaining_conflicted": [
+    "src/core/importer.test.ts",
+    "src/core/importer.ts"
+  ],
+  "files": [
+    {
+      "path": "src/core/importer.test.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    },
+    {
+      "path": "src/core/importer.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/dyoshikawa__rulesync__189-190/mergiraf"
+}

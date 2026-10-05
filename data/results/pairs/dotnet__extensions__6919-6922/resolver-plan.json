@@ -1,0 +1,15 @@
+{
+  "pair_id": "dotnet__extensions__6919-6922",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T09:11:34.562502Z"
+}

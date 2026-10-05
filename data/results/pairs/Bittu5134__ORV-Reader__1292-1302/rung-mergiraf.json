@@ -1,0 +1,36 @@
+{
+  "pair_id": "Bittu5134__ORV-Reader__1292-1302",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 3 of 3",
+  "remaining_conflicted": [
+    "chapters/cont/657.txt",
+    "chapters/cont/669.txt",
+    "chapters/cont/680.txt"
+  ],
+  "files": [
+    {
+      "path": "chapters/cont/657.txt",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "chapters/cont/669.txt",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "chapters/cont/680.txt",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/Bittu5134__ORV-Reader__1292-1302/mergiraf"
+}

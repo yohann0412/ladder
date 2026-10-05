@@ -1,0 +1,16 @@
+{
+  "pair_id": "samchon__typia__1636-1640",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: test/generate/output/generate_llm.ts version base has 232431 bytes, more than 200000",
+    "input cap: test/generate/output/generate_llm.ts version conflicted has 234805 bytes, more than 200000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T09:11:18.631898Z"
+}

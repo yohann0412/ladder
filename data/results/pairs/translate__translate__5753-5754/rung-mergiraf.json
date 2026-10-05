@@ -1,0 +1,25 @@
+{
+  "pair_id": "translate__translate__5753-5754",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 2",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "tests/translate/convert/test_po2html.py",
+      "present": true,
+      "has_markers": false,
+      "language": "python",
+      "parses": true
+    },
+    {
+      "path": "tests/translate/storage/test_html.py",
+      "present": true,
+      "has_markers": false,
+      "language": "python",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/translate__translate__5753-5754/mergiraf"
+}

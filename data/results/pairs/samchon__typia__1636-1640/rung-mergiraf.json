@@ -1,0 +1,20 @@
+{
+  "pair_id": "samchon__typia__1636-1640",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "test/generate/output/generate_llm.ts"
+  ],
+  "files": [
+    {
+      "path": "test/generate/output/generate_llm.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/samchon__typia__1636-1640/mergiraf"
+}

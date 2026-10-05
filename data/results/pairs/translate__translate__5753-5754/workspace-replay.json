@@ -1,0 +1,23 @@
+{
+  "pair_id": "translate__translate__5753-5754",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/translate__translate__5753-5754",
+  "source_base": "1f255985de7392767df63417bcb5db92625bf7ae",
+  "source_a": "04f335edceab3782cbed342f9bb111e89b025889",
+  "source_b": "8262103c38ad84555ba846d1669ea0765791e496",
+  "base_commit": "d3fd88dd8dbd2509ac26de8e1c4c00ff29045447",
+  "a_commit": "93c2c2b5ab2832ecd1b96c96c8b83d4aa14558f5",
+  "b_commit": "2e2171a40b95a7d2675fa92e887c617661b5f295",
+  "object_count": 979,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

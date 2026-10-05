@@ -1,0 +1,19 @@
+{
+  "pair_id": "db-ux-design-system__core-web__4772-4775",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: package-lock.json version base has 1619597 bytes, more than 200000",
+    "input cap: package-lock.json version a has 1642884 bytes, more than 200000",
+    "input cap: package-lock.json version b has 1665034 bytes, more than 200000",
+    "input cap: package-lock.json version conflicted has 1818508 bytes, more than 200000",
+    "input cap: 6746023 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T09:09:42.187226Z"
+}

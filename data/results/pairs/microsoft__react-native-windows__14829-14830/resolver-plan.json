@@ -1,0 +1,15 @@
+{
+  "pair_id": "microsoft__react-native-windows__14829-14830",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T09:08:26.611672Z"
+}

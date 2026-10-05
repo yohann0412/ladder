@@ -1,0 +1,23 @@
+{
+  "pair_id": "TykTechnologies__tyk__7267-7285",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/TykTechnologies__tyk__7267-7285",
+  "source_base": "83d4b12c7fb8bb7ea3a1caf2489cff4f4722a119",
+  "source_a": "e6618bb31deddb27c367a5e11d97ed627a531479",
+  "source_b": "c392216ee39809020754644c8efb8e5cdedfe42f",
+  "base_commit": "6887f3141c25733f8defce94c49884628d418055",
+  "a_commit": "62c739287b34b3c06a074a63ea844f7e82bf521a",
+  "b_commit": "f7e643bdd57f52289db42ecc50e8f9eb609b91f7",
+  "object_count": 1562,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
