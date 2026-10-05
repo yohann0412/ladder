@@ -1,0 +1,36 @@
+{
+  "pair_id": "gitbutlerapp__gitbutler__10474-10479",
+  "commit": "e1eeb8b2f8672031ec52a12df8cee9ea2be9be1a",
+  "language": "rust",
+  "package_manager": "cargo",
+  "test_runner": "cargo test",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 101 in 16.8 s:     Updating git repository `https://github.com/GitoxideLabs/gitoxide` |     Updating git repository `https://github.com/gitbutlerapp/tauri-plugin-trafficlights-positioner` | error: failed to select a version for the requirement `gix = \"^0.73.0\"` | candidate versions found which didn't match: 0.88.0 | location searched: Git repository https://github.com/GitoxideLabs/gitoxide?branch=main | required by package `gitbutler-branch v0.0.0 (/home/user/ladder/work/runtime/gitbutlerapp__gitbutler__10474-10479/trees/base/crates/gitbutler-branch)`",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "cargo",
+        "test",
+        "--no-run",
+        "--locked"
+      ],
+      "exit_code": 101,
+      "duration_s": 491.7,
+      "detail": "standard, install cap 900 s: install: exit 0 in 86.7 s; build: exit 101 in 405.0 s; output tail:   explicit panic |   stack backtrace: |      0: std::panicking::begin_panic |                at /rustc/8da623945f83933dd38644d5745532ee032e855b/library/std/src/panicking.rs:769:5 |      1: build_script_build::main |      2: core::ops::function::FnOnce::call_once |   note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace. | warning: build failed, waiting for other jobs to finish..."
+    },
+    {
+      "command": [
+        "cargo",
+        "update"
+      ],
+      "exit_code": 101,
+      "duration_s": 16.8,
+      "detail": "cargo-update (updated Cargo.lock to the newest compatible versions), install cap 900 s: install: exit 101 in 16.8 s; output tail: Updating crates.io index |     Updating git repository `https://github.com/GitoxideLabs/gitoxide` |     Updating git repository `https://github.com/gitbutlerapp/tauri-plugin-trafficlights-positioner` | error: failed to select a version for the requirement `gix = \"^0.73.0\"` | candidate versions found which didn't match: 0.88.0 | location searched: Git repository https://github.com/GitoxideLabs/gitoxide?branch=main | required by package `gitbutler-branch v0.0.0 (/home/user/ladder/work/runtime/gitbutlerapp__gitbutler__10474-10479/trees/base/crates/gitbutler-branch)`"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

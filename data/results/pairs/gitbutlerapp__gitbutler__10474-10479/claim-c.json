@@ -1,0 +1,70 @@
+{
+  "pair_id": "gitbutlerapp__gitbutler__10474-10479",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: build_fails (install: exit 101 in 16.8 s:     Updating git repository `https://github.com/GitoxideLabs/gitoxide` |     Updating git repository `https://github.com/gitbutlerapp/tauri-plugin-trafficlights-positioner` | error: failed to select a version for the requirement `gix = \"^0.73.0\"` | candidate versions found which didn't match: 0.88.0 | location searched: Git repository https://github.com/GitoxideLabs/gitoxide?branch=main | required by package `gitbutler-branch v0.0.0 (/home/user/ladder/work/runtime/gitbutlerapp__gitbutler__10474-10479/trees/base/crates/gitbutler-branch)`)",
+  "files_a": [
+    "packages/ui/src/lib/components/file/typeMap.ts",
+    "packages/ui/src/lib/utils/diffParsing.ts"
+  ],
+  "files_b": [
+    "Cargo.lock",
+    "crates/but-graph/src/api.rs",
+    "crates/but-graph/src/init/mod.rs",
+    "crates/but-graph/src/init/overlay.rs",
+    "crates/but-graph/src/init/post.rs",
+    "crates/but-graph/src/init/walk.rs",
+    "crates/but-graph/src/lib.rs",
+    "crates/but-graph/src/projection/workspace.rs",
+    "crates/but-graph/tests/fixtures/scenarios.sh",
+    "crates/but-graph/tests/graph/init/mod.rs",
+    "crates/but-graph/tests/graph/init/with_workspace.rs",
+    "crates/but-graph/tests/graph/vis.rs",
+    "crates/but-testsupport/src/graph.rs",
+    "crates/but-workspace/src/branch/checkout/utils.rs",
+    "crates/but-workspace/src/branch_details.rs",
+    "crates/but-workspace/src/ui/ref_info.rs",
+    "crates/but-workspace/tests/workspace/branch/create_reference.rs",
+    "crates/but/src/args.rs",
+    "crates/but/src/base/mod.rs",
+    "crates/but/src/branch/mod.rs",
+    "crates/but/src/main.rs",
+    "crates/gitbutler-branch-actions/src/branch.rs",
+    "packages/ui/src/lib/utils/diffParsing.ts"
+  ]
+}
