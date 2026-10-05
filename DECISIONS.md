@@ -175,3 +175,13 @@ Newest at the bottom.
   together above 600,000 bytes.
 - Reason: keeps every run within one subagent's working budget; the report counts cap
   failures separately so a reader can recompute without them.
+
+## D17. Where record models live
+
+- Problem: CONTRIBUTING said every on-disk record lives in `schemas.py`, but several lanes
+  needed module-private formats (vendored AIDev rows, resolver task manifests, canary log,
+  run log, expectation report) while `schemas.py` was protected from them.
+- Choice: `schemas.py` holds the contracts between commands; module-owned formats stay with
+  their module, still as pydantic models.
+- Reason: a shared contract file that every format must pass through creates coupling with no
+  benefit for formats only one module reads and writes.

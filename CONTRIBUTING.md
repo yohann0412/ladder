@@ -18,7 +18,10 @@ just check       # ruff lint, ruff format check, pyright strict
 - **git is called through `ladder.gitio.run_git`** with explicit argument lists. Local
   operations run with user and system git configuration disabled so results do not
   depend on the machine.
-- **Every record written to disk is a pydantic model** from `ladder/schemas.py`.
+- **Every record written to disk is a pydantic model.** The records that connect commands
+  (pairs, rung results, resolver tasks and runs, truth, scores, summary) live in
+  `ladder/schemas.py`; formats owned by one module (vendored extracts, manifests, run logs)
+  live with that module.
 - Small modules with one job each, a one-line docstring on every public function saying
   what it does, no dead or commented-out code, no TODO markers.
 - `ruff` and `pyright --strict` must pass.
