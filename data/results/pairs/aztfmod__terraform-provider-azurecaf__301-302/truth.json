@@ -1,0 +1,23 @@
+{
+  "pair_id": "aztfmod__terraform-provider-azurecaf__301-302",
+  "status": "located",
+  "commit": "c2f013165bf1a4cc2e1dfedd3621c678ed624bf6",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "azurecaf/models_generated.go",
+      "present": true,
+      "sha256": "9980ee956f573fa47378a36c635e504bfcfecb15371d034a311cfebbeed51be8"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "README.md",
+    "azurecaf/models.go",
+    "completness/existing_tf_resources.txt",
+    "resourceDefinition.json"
+  ],
+  "outside_region_edit": [],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T12:28:31.895322Z"
+}

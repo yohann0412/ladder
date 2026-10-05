@@ -1,0 +1,15 @@
+{
+  "pair_id": "serilog-contrib__serilog-enrichers-clientinfo__54-55",
+  "commit": "7d79cb74777ce76010d384e9baf470bb1f920932",
+  "language": "csharp",
+  "package_manager": "dotnet",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "csharp project; dotnet is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
