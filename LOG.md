@@ -461,3 +461,8 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   pairs of `work/final-later.txt` join now. Records do not depend on how pairs are spread
   across processes. Contention can push more suites past their caps, which is recorded as
   `capped` and reported by cause.
+- 11:02: the final pass waited again at 3.4 GiB free. The shared Go build cache had grown to
+  4.1 GB in 40 minutes and the module cache to 1.7 GB. Both were cleared once no `go`
+  process was running (9.1 GiB free). Go builds now use a cache inside each pair's runtime
+  directory, which is deleted with the pair (reviews/F8e-go-cache.md). The sharded pass
+  starts with this change.
