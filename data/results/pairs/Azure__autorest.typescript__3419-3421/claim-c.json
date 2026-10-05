@@ -1,0 +1,57 @@
+{
+  "pair_id": "Azure__autorest.typescript__3419-3421",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: other (no recognised project manifest)",
+  "files_a": [
+    "common/config/rush/pnpm-lock.yaml",
+    "packages/typespec-test/package.json",
+    "packages/typespec-test/test/todo_non_branded/generated/typespec-ts/review/todo-non-branded.api.md",
+    "packages/typespec-test/test/todo_non_branded/generated/typespec-ts/src/api/todoItems/attachments/operations.ts",
+    "packages/typespec-test/test/todo_non_branded/generated/typespec-ts/src/api/todoItems/operations.ts",
+    "packages/typespec-test/test/todo_non_branded/generated/typespec-ts/src/models/models.ts",
+    "packages/typespec-test/test/todo_non_branded/skip",
+    "packages/typespec-ts/package.json",
+    "packages/typespec-ts/test/modularUnit/scenarios/apiOperations/apiOperations.md",
+    "packages/typespec-ts/test/modularUnit/scenarios/enumUnion/enumUnion.md",
+    "packages/typespec-ts/test/modularUnit/scenarios/operations/operations.md"
+  ],
+  "files_b": [
+    ".github/copilot-instructions.md"
+  ]
+}

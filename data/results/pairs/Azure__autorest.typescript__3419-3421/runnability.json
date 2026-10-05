@@ -1,0 +1,15 @@
+{
+  "pair_id": "Azure__autorest.typescript__3419-3421",
+  "commit": "80a2c5c8a99f308f8dc7cbb6fc3398e226da3c61",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
