@@ -1,0 +1,23 @@
+{
+  "pair_id": "ant-design__ant-design__54316-54317",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in components/splitter/SplitBar.tsx"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "components/splitter/SplitBar.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

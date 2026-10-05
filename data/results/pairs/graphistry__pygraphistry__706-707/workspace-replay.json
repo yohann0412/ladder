@@ -1,0 +1,23 @@
+{
+  "pair_id": "graphistry__pygraphistry__706-707",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/graphistry__pygraphistry__706-707",
+  "source_base": "ccdc8677c019c364bc8c4d8c29c851ea0262913e",
+  "source_a": "ccdc8677c019c364bc8c4d8c29c851ea0262913e",
+  "source_b": "cea5069541b38c1abe11d435d489fb262eae34c9",
+  "base_commit": "b776e2eba9b7093d53baef5c206f6bdb0c6d709a",
+  "a_commit": "362c4e9ad153c6f36ab7d4560cbed9f6d7d7556a",
+  "b_commit": "dc9b090fd562e106671c56ce7a534c59229fbc2f",
+  "object_count": 619,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

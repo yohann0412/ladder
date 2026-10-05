@@ -1,0 +1,23 @@
+{
+  "pair_id": "zeroc-ice__ice-demos__492-494",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/zeroc-ice__ice-demos__492-494",
+  "source_base": "c77540dfef60855ea33c0647d84852fde42ec98f",
+  "source_a": "d926700b857989d9af4b233a8f6fb21d112443dd",
+  "source_b": "cef38021eb679ad050198f95b2b5984282d1a27d",
+  "base_commit": "bdd741a1cd09d3b7e57b8d1b46519283be6e7de7",
+  "a_commit": "0603be7e6affa6551d3820e9dd120191b3d6ad60",
+  "b_commit": "d171424eaf484dca2a732b561eba60b0f83ca2fa",
+  "object_count": 1410,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

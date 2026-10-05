@@ -1,0 +1,23 @@
+{
+  "pair_id": "prebid__Prebid.js__13134-13135",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in modules/concertBidAdapter.js"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "modules/concertBidAdapter.js",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

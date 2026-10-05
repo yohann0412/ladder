@@ -1,0 +1,10 @@
+{
+  "pair_id": "evergreen-ci__evergreen__9033-9034",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "03508366daadc20c984c42164ef9b2b6eed01ffb"
+}

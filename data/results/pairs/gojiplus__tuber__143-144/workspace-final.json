@@ -1,0 +1,23 @@
+{
+  "pair_id": "gojiplus__tuber__143-144",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/gojiplus__tuber__143-144",
+  "source_base": "642c486bcde194caeaf7e98a06422ca805ea3e5a",
+  "source_a": "fe35b3915239f4a0e43c8349016784aefa547b17",
+  "source_b": "3de42b461ca56c911f8a93f6afaf4c7c933530b6",
+  "base_commit": "6e92d072c486be5870159ee4a7f04122da2a218d",
+  "a_commit": "3a62c7ddfe06d1af6d2eb7ce542757657a1579ee",
+  "b_commit": "337462cad2ebfb99cb5f9c31e1e2ba3684593a5c",
+  "object_count": 449,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

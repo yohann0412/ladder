@@ -1,0 +1,10 @@
+{
+  "pair_id": "OpenHFT__Chronicle-Threads__274-275",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "12520b77d68c6116d8ef12726e6a18c439c6faea"
+}

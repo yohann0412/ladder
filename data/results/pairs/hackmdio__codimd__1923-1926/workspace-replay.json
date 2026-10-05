@@ -1,0 +1,23 @@
+{
+  "pair_id": "hackmdio__codimd__1923-1926",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/hackmdio__codimd__1923-1926",
+  "source_base": "d0e9ea0d6e784b04474b1a74e4d597c3c3f462d6",
+  "source_a": "e1ccb546391366ddff0e6b76e0fc5979483b0820",
+  "source_b": "14689c52007d40cc1eb187614e527fd3f657836c",
+  "base_commit": "1dc501a98a993d3b92291f5b73c2573579cfe248",
+  "a_commit": "b10e10f7ed7efd0e3c4f27025609abbfc1fade0b",
+  "b_commit": "11cc058d9b3553014c337e86b6364ddb2c8816dc",
+  "object_count": 529,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

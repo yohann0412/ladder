@@ -1,0 +1,23 @@
+{
+  "pair_id": "EasyCorp__EasyAdminBundle__6964-6965",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/EasyCorp__EasyAdminBundle__6964-6965",
+  "source_base": "89b037c3a3bf1af8c352ab5c0b1565d63ef77b09",
+  "source_a": "a2c134a82fb6e24afa88b6b7db8ab55beee88a64",
+  "source_b": "93f2414fcb949194a280c89ed691a736fe88bb5f",
+  "base_commit": "81a4011916aa90ff35eceeb78133fbbc47260e10",
+  "a_commit": "38cd3d98c075f03f650a01b7e2fe0904ee603ed8",
+  "b_commit": "beb9dea55ffc0f61b155c916f7f5ad5d3557c047",
+  "object_count": 1170,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

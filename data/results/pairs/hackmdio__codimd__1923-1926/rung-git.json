@@ -1,0 +1,23 @@
+{
+  "pair_id": "hackmdio__codimd__1923-1926",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in package-lock.json"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "package-lock.json",
+      "types": [
+        "content"
+      ],
+      "regions": 8,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

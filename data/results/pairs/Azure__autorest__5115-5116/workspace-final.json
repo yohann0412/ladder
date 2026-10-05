@@ -1,0 +1,23 @@
+{
+  "pair_id": "Azure__autorest__5115-5116",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/Azure__autorest__5115-5116",
+  "source_base": "46b3f59c6a171f04ba53140174ece9c098d503e4",
+  "source_a": "69342dbab7107ff0af908e324ba8369b4a35295f",
+  "source_b": "5178e2a0a64732a1ed89f178a612184d1ec249d0",
+  "base_commit": "d7d8d0a023036112817dba1adb43ee2eab2be202",
+  "a_commit": "6790ac8362797c254ecab5e6bb62c9b6532446b5",
+  "b_commit": "188537198635dc6f55242a3eebe498f9489c0fcc",
+  "object_count": 4202,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

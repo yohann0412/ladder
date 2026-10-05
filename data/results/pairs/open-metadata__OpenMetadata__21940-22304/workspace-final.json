@@ -1,0 +1,23 @@
+{
+  "pair_id": "open-metadata__OpenMetadata__21940-22304",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/open-metadata__OpenMetadata__21940-22304",
+  "source_base": "7d74efa501e4e73ba25414b2de247b9468e8583e",
+  "source_a": "c5649d544cdb208594d6e9a3a78e92d9d111775e",
+  "source_b": "56f6d98ff288e11dc41bf5ed56bc96a1fba5e168",
+  "base_commit": "27b95bdaa61921c32e05c18a4d70475abbdc9c45",
+  "a_commit": "b43305960327bf635caf1769059caabe8d6ac5b8",
+  "b_commit": "3b41c168dadbf3e0412c91dd5ec2304a62afde83",
+  "object_count": 25107,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

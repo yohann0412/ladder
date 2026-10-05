@@ -1,0 +1,23 @@
+{
+  "pair_id": "nunit__nunit3-vs-adapter__1274-1275",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/nunit__nunit3-vs-adapter__1274-1275",
+  "source_base": "b26a9568fe86d2e8d78d31fe34e9850aa5ff1a23",
+  "source_a": "ff6924ada4e54e52d541bb759a0a47869a683992",
+  "source_b": "da677a51926568ce8fe97e28e931176a4f58ad3a",
+  "base_commit": "230be1daa59eb68361ec03a3af5cb2ac4a748473",
+  "a_commit": "59e8fdb30d58675f6ab41696878e6e03ac4149ac",
+  "b_commit": "85d1a400ba4d4c0195a0152e93d7b4f87b3e3e95",
+  "object_count": 230,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

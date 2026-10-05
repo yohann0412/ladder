@@ -1,0 +1,23 @@
+{
+  "pair_id": "root-gg__plik__532-533",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/root-gg__plik__532-533",
+  "source_base": "a5c53d658541ecd1150ca04b0b8405e8c67f29be",
+  "source_a": "a5c53d658541ecd1150ca04b0b8405e8c67f29be",
+  "source_b": "a0de18faeb3d10fd9da66011419372b0f9d397ce",
+  "base_commit": "7e7c228d6c0f681cf17b40361cf4363ed4837ec5",
+  "a_commit": "c5064857f4f1f87a80a24a9b7225ccbae90b3e62",
+  "b_commit": "56a4ec526241e5d9784f82f56f1e3ccf91695624",
+  "object_count": 3363,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

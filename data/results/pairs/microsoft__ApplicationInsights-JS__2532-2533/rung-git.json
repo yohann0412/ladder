@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__ApplicationInsights-JS__2532-2533",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b4d4349214fa221d9d8f779588574adf8c217d35"
+}

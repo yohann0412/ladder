@@ -1,0 +1,23 @@
+{
+  "pair_id": "apache__pinot__16078-16085",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/apache__pinot__16078-16085",
+  "source_base": "217b731085c443bd6cc43e713c8ff0cd1126a179",
+  "source_a": "cf92428cd8a2729188c8c6db9c632b14eb972956",
+  "source_b": "2fb7ac859796e9573770010c4999b4dedfaf2d6f",
+  "base_commit": "9b423db4695a8e0f39b8127badbe49a794294410",
+  "a_commit": "0e21903612cbdee5ff9d2e5075c56e1776d8c953",
+  "b_commit": "4a8c9a9665cdc7c409b1172e7b32c448dd16925e",
+  "object_count": 8254,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

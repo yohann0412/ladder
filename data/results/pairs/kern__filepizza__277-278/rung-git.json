@@ -1,0 +1,33 @@
+{
+  "pair_id": "kern__filepizza__277-278",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2",
+  "messages": [
+    "CONFLICT (content): Merge conflict in package.json",
+    "CONFLICT (content): Merge conflict in pnpm-lock.yaml"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "package.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

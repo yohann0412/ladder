@@ -1,0 +1,23 @@
+{
+  "pair_id": "prebid__Prebid.js__13134-13135",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/prebid__Prebid.js__13134-13135",
+  "source_base": "0cc1f325614ee71bba47144d4cccb08260a9a3c8",
+  "source_a": "c024422e7b831ab376f5853a0ec0b07424f69f7f",
+  "source_b": "b5d7f50d39932a8f265aad4e6ae4856f0690e2df",
+  "base_commit": "239e03fd896c0c9c7a3a390c7d49258dfe5f24d8",
+  "a_commit": "dc9119a33b017221d6e70897ec5ef6cad334e6b9",
+  "b_commit": "844e744aa9a96534a42ce644fa9015dedbc16e21",
+  "object_count": 3086,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

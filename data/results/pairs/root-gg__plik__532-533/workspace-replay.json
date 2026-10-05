@@ -1,0 +1,23 @@
+{
+  "pair_id": "root-gg__plik__532-533",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/root-gg__plik__532-533",
+  "source_base": "a25b4f51b4f495733e1912b2ab9af506e18beaf1",
+  "source_a": "a5c53d658541ecd1150ca04b0b8405e8c67f29be",
+  "source_b": "41ced8166754d8bb1ddbad549950c1293f776d60",
+  "base_commit": "0a5bb8f6699937b0b3aded5b3780f9500a8f29a2",
+  "a_commit": "4ef0e364d9efa2faae2b45463ca9ba9ffc1e56c0",
+  "b_commit": "1918f67dd312e836b0d7c1f540f0114911d2d18e",
+  "object_count": 3368,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

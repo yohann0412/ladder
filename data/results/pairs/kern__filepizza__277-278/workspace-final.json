@@ -1,0 +1,23 @@
+{
+  "pair_id": "kern__filepizza__277-278",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/kern__filepizza__277-278",
+  "source_base": "ffd64d8d990ae1283fdeda04e45b8920ffe469d3",
+  "source_a": "2e949a4a43fc08b72f9b1e04ecc007e782c729d9",
+  "source_b": "a527114386a79c5836c19d36f248977116826c12",
+  "base_commit": "6f403185c789e54ea82b61b8a0fd44d7492241a6",
+  "a_commit": "2f0b45d32c554fa56083bf1bd1075a109bd776c1",
+  "b_commit": "f86d1537805544f322ebdd3fc942557b01e8fedc",
+  "object_count": 159,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

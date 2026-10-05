@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__GSL__1206-1208",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/microsoft__GSL__1206-1208",
+  "source_base": "466e4ebaa54dcf4257698d707d76d69a90614450",
+  "source_a": "460ced0bd9df755c03905bbc3efecfabf57ebcff",
+  "source_b": "07113572283b72f995960150c5c7e99bd7b321f7",
+  "base_commit": "856b8f4beb4f42adc57f05436d3ce54c54332e9a",
+  "a_commit": "c3844c4182e2a62fd36569af133d8461a074df72",
+  "b_commit": "137875b02ba1ff5163729042c11ba9e6987b68fe",
+  "object_count": 72,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

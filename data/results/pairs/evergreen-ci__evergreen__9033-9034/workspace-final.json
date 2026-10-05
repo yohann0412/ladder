@@ -1,0 +1,23 @@
+{
+  "pair_id": "evergreen-ci__evergreen__9033-9034",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/evergreen-ci__evergreen__9033-9034",
+  "source_base": "2dc0d30a321b0fff900f6e3a597108fbfdecf8aa",
+  "source_a": "6065b07de5089c11072393cf5a8cb3d5c337a2c3",
+  "source_b": "aca4ad73037d7cc6c80a5f6891617c3f37822f8d",
+  "base_commit": "2d7fb9173f38d0505fd3674c5eff30ec90d63b2b",
+  "a_commit": "a3bc7669c27c929054390bcd969ae5391c7cc67d",
+  "b_commit": "044b3f2615389cd83db53fa259319d9acf111408",
+  "object_count": 3354,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

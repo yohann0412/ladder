@@ -1,0 +1,23 @@
+{
+  "pair_id": "StockSharp__StockSharp__465-466",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/StockSharp__StockSharp__465-466",
+  "source_base": "b45f551b96bb60cb242c8017854e051c9f0bc3e9",
+  "source_a": "381765c039f06e04c6ff86885f3220ab4bc72e12",
+  "source_b": "ac45d964a41f059be59886d6688eb38e9a0d465b",
+  "base_commit": "2a6ad29a18da49e9b8fb0e2cddae2361144917a2",
+  "a_commit": "de460423ad8f724186de3f1927d751879b01a09f",
+  "b_commit": "42b232afd222876886c8e6876e5a0bd768d8e850",
+  "object_count": 2465,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

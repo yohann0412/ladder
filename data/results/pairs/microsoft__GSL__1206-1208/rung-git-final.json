@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__GSL__1206-1208",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "50a9af3b5ded9e483a62fcb8d09496c1ec9a8f79"
+}

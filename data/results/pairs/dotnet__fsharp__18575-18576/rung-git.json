@@ -1,0 +1,153 @@
+{
+  "pair_id": "dotnet__fsharp__18575-18576",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 14, conflicted files: 14",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/Compiler/Checking/Expressions/CheckExpressions.fs",
+    "CONFLICT (content): Merge conflict in src/Compiler/xlf/FSComp.txt.cs.xlf",
+    "CONFLICT (content): Merge conflict in src/Compiler/xlf/FSComp.txt.de.xlf",
+    "CONFLICT (content): Merge conflict in src/Compiler/xlf/FSComp.txt.es.xlf",
+    "CONFLICT (content): Merge conflict in src/Compiler/xlf/FSComp.txt.fr.xlf",
+    "CONFLICT (content): Merge conflict in src/Compiler/xlf/FSComp.txt.it.xlf",
+    "CONFLICT (content): Merge conflict in src/Compiler/xlf/FSComp.txt.ja.xlf",
+    "CONFLICT (content): Merge conflict in src/Compiler/xlf/FSComp.txt.ko.xlf",
+    "CONFLICT (content): Merge conflict in src/Compiler/xlf/FSComp.txt.pl.xlf",
+    "CONFLICT (content): Merge conflict in src/Compiler/xlf/FSComp.txt.pt-BR.xlf",
+    "CONFLICT (content): Merge conflict in src/Compiler/xlf/FSComp.txt.ru.xlf",
+    "CONFLICT (content): Merge conflict in src/Compiler/xlf/FSComp.txt.tr.xlf",
+    "CONFLICT (content): Merge conflict in src/Compiler/xlf/FSComp.txt.zh-Hans.xlf",
+    "CONFLICT (content): Merge conflict in src/Compiler/xlf/FSComp.txt.zh-Hant.xlf"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/Compiler/Checking/Expressions/CheckExpressions.fs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.cs.xlf",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.de.xlf",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.es.xlf",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.fr.xlf",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.it.xlf",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.ja.xlf",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.ko.xlf",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.pl.xlf",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.pt-BR.xlf",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.ru.xlf",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.tr.xlf",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.zh-Hans.xlf",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.zh-Hant.xlf",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    }
+  ],
+  "merged_tree": null
+}

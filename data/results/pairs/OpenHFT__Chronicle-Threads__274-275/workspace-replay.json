@@ -1,0 +1,23 @@
+{
+  "pair_id": "OpenHFT__Chronicle-Threads__274-275",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/OpenHFT__Chronicle-Threads__274-275",
+  "source_base": "4ebe922a2e2578cd8747e47bd823ad5d35dee93a",
+  "source_a": "d8516329a71cf8ceaab8998eb47b51e978fc4e73",
+  "source_b": "d590a87894c27730b5bb09c6bd24e6c632118302",
+  "base_commit": "4f71fc6044f74c782f70cd0fb987eebe8b729677",
+  "a_commit": "5758371fdbbda41a41b26f74d40e555fb1e70720",
+  "b_commit": "42d5705a171603490bd4192925a6a2d4c66c0619",
+  "object_count": 117,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

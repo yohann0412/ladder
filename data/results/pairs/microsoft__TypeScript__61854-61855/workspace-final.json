@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__TypeScript__61854-61855",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/microsoft__TypeScript__61854-61855",
+  "source_base": "dd1e258ba56f1b511879372c857fb625de3dec4a",
+  "source_a": "8f480ef909f5053c1197f7dcb48c696a20b8f63b",
+  "source_b": "544d17525a8dfdf44f1de1b74f863c59156b6451",
+  "base_commit": "456cc7a0931ffc7d15d0afd0a528420397c552e8",
+  "a_commit": "3c4fb7e9be2d9dffd8ac39e1835db75e73f76653",
+  "b_commit": "19c1e85f319148526e26a561176b73a102774b1e",
+  "object_count": 70816,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

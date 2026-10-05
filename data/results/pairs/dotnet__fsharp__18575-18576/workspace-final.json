@@ -1,0 +1,23 @@
+{
+  "pair_id": "dotnet__fsharp__18575-18576",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/dotnet__fsharp__18575-18576",
+  "source_base": "087ffa2d42579baec3b6adcd9b8f568c7dd14ccb",
+  "source_a": "8c9c0b48b3bb5206eb2c408321ef4f79277945fb",
+  "source_b": "3dbe6ecfe88b48751992bcf9dcdc32a9cbbff65d",
+  "base_commit": "a5c327b002b4aad53591a59f860c28cf170a85fa",
+  "a_commit": "65a2efb7e53aa3013d80cf2f4eb726ef6f2d7f0e",
+  "b_commit": "f8b1c04d7ed61473161911e667671c84e530b628",
+  "object_count": 12002,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

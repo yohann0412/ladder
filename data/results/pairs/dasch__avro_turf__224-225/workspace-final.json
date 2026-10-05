@@ -1,0 +1,23 @@
+{
+  "pair_id": "dasch__avro_turf__224-225",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/dasch__avro_turf__224-225",
+  "source_base": "81b1e58154aaacd6b1cd9fd026af3eb7ac32558c",
+  "source_a": "b1b1d42d7642fe809870abaa57feb215a778d0d9",
+  "source_b": "7c5ae93b307d0958d3101118feef2eab0b843e62",
+  "base_commit": "446b3a0f9a533a1285a544b328431eddb335201d",
+  "a_commit": "29ef05da3093c3a5ec0f6ad685575029329de802",
+  "b_commit": "88e014d81da07fef75f47eae229a9bc90b62e957",
+  "object_count": 88,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

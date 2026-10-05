@@ -1,0 +1,23 @@
+{
+  "pair_id": "reneschulte__WriteableBitmapEx__94-95",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/reneschulte__WriteableBitmapEx__94-95",
+  "source_base": "5939fb6a6b9678147b81e4a9df18b9181d96e520",
+  "source_a": "fc0a7b7b7636207e3a712896caf22436ad72c308",
+  "source_b": "6cf171fb65c5d0249e1591da9adb5ecf4810b778",
+  "base_commit": "24d3f51d43b8f43c61594036d679d1cce56b540c",
+  "a_commit": "086e46a90ccca79bd79b49cad10ca96c28da588e",
+  "b_commit": "91571f12673cb1389fb07f6063a6dfc35b66035d",
+  "object_count": 343,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

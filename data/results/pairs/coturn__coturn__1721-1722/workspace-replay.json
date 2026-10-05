@@ -1,0 +1,23 @@
+{
+  "pair_id": "coturn__coturn__1721-1722",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/coturn__coturn__1721-1722",
+  "source_base": "68ac0772d9b9055da5f17023f965518bdcd6bf90",
+  "source_a": "2d00efb954c62671e68fc16c7c795ced476d56e1",
+  "source_b": "2bae1415e72ea89c270a23fc337f4a6bd214f436",
+  "base_commit": "fd10a65e33f1ef76243432c5bea3f8179a030978",
+  "a_commit": "45860e0146be288fc9dbf4631a6fd645beba1cdc",
+  "b_commit": "18f146295645adf149acad4b8f6da9d4b32c23ab",
+  "object_count": 363,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "dotnet__Nerdbank.GitVersioning__1208-1209",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/dotnet__Nerdbank.GitVersioning__1208-1209",
+  "source_base": "ea77830606de81dba1e1819ff987672f57c99f4e",
+  "source_a": "59da781b581700f16e8deb5344a3052a8f02baf1",
+  "source_b": "b538c49f6ec40bfb9fba6c0a5c1e99d740f01c24",
+  "base_commit": "b94a4190e17ec2f1b001670bd50a3a5bae0dcdad",
+  "a_commit": "83ea28306f2a7ec259ccd0722b7a51bb799d0fbc",
+  "b_commit": "21e323ef1529fe5727a916bdf87b1230b16443f3",
+  "object_count": 354,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

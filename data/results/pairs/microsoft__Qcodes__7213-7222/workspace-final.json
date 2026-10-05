@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__Qcodes__7213-7222",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/microsoft__Qcodes__7213-7222",
+  "source_base": "499c1c92f109ed7b2f8b872d1d10efd5010f9072",
+  "source_a": "619da72808bb5273e743612924d666d0eeda9648",
+  "source_b": "499c1c92f109ed7b2f8b872d1d10efd5010f9072",
+  "base_commit": "d9d4f188e4e97f25aacb46f3a95827a8ebd35f53",
+  "a_commit": "7e68053920b6c0541c085b7793e490798b039782",
+  "b_commit": "7d140fcad270be76bcbd49d2c472bb59d5c9b858",
+  "object_count": 1174,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

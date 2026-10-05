@@ -1,0 +1,23 @@
+{
+  "pair_id": "movim__movim__1449-1450",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/movim__movim__1449-1450",
+  "source_base": "c1f330c3189d35ee096e9fde6c6e715e2211f378",
+  "source_a": "8a90b5104847ff23b213442ceb6da5c6e5965e44",
+  "source_b": "d26042c64c2c7f2b968057d251293dace3078ff0",
+  "base_commit": "1787fa35fb91282d367ee54bea4bfc9007667acc",
+  "a_commit": "6afa69e6f4f0378396d7d43334d8f3a602fd6489",
+  "b_commit": "bf3d8fe244a9ea63de75f9dbc78ce44cb49bc314",
+  "object_count": 5417,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

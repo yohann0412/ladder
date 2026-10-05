@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__ApplicationInsights-JS__2532-2533",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/microsoft__ApplicationInsights-JS__2532-2533",
+  "source_base": "a38e08e1678879413b46d4af9f88162f1e0a1263",
+  "source_a": "adb5a4bb713b427d32f9fcef78e96e6235791be2",
+  "source_b": "54b5570fe1f56251538b81e8f187ba5b3b706266",
+  "base_commit": "d8a589e6d1dbe456253fdf42f1920a4f2a1092fc",
+  "a_commit": "60f367a76437a3c63cac8a3e83312dc1a961c1d4",
+  "b_commit": "28da97b0f67c83d07a32749de8aa39928c7bf39c",
+  "object_count": 1157,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

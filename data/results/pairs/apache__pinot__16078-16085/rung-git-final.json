@@ -1,0 +1,10 @@
+{
+  "pair_id": "apache__pinot__16078-16085",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f7baf80519d4d18dfec4e0e865d432fb448fadaf"
+}

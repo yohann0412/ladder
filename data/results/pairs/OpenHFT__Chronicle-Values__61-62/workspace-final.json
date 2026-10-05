@@ -1,0 +1,23 @@
+{
+  "pair_id": "OpenHFT__Chronicle-Values__61-62",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/OpenHFT__Chronicle-Values__61-62",
+  "source_base": "3624a4228eff93e078b128b52fb17f9031dd4380",
+  "source_a": "c9dd7f9d49c095695f5d571e6ca1bf301ba26959",
+  "source_b": "4e66eb2270b05a686c3d4a2ac4679a331d951cf0",
+  "base_commit": "80a48a0ac89d3e4f4245e2772fc512836ca98d23",
+  "a_commit": "adfe18e52f87024f1fdbe1d2075609fd65e7657e",
+  "b_commit": "f685f110bec2e2d01388605375e7ece4b9172469",
+  "object_count": 124,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
