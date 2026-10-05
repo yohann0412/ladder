@@ -1,0 +1,38 @@
+{
+  "pair_id": "getsentry__sentry-javascript__16539-16553",
+  "commit": "2a7c1a93fb55cb5e1509e64c389192832aef6c18",
+  "language": "node",
+  "package_manager": "yarn",
+  "test_runner": "vitest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 1 in 6.4 s:     at ClientRequest.emit (node:events:519:28) |     at HTTPParser.parserOnIncomingClient (node:_http_client:772:27) |     at HTTPParser.parserOnHeadersComplete (node:_http_common:122:17) |     at TLSSocket.socketOnData (node:_http_client:614:22) |     at TLSSocket.emit (node:events:519:28) | info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "yarn",
+        "install",
+        "--frozen-lockfile",
+        "--non-interactive"
+      ],
+      "exit_code": 1,
+      "duration_s": 163.1,
+      "detail": "standard, install cap 900 s: install: exit 1 in 163.1 s; output tail:     at Request.emit (node:events:519:28) |     at module.exports.Request.onRequestResponse (/opt/node-tools/node_modules/yarn/lib/cli.js:142287:10) |     at ClientRequest.emit (node:events:519:28) |     at HTTPParser.parserOnIncomingClient (node:_http_client:772:27) |     at HTTPParser.parserOnHeadersComplete (node:_http_common:122:17) |     at TLSSocket.socketOnData (node:_http_client:614:22) |     at TLSSocket.emit (node:events:519:28) | info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command."
+    },
+    {
+      "command": [
+        "yarn",
+        "install",
+        "--non-interactive",
+        "--ignore-engines"
+      ],
+      "exit_code": 1,
+      "duration_s": 6.4,
+      "detail": "unfrozen (yarn install with the lockfile unfrozen and engines ignored), install cap 900 s: install: exit 1 in 6.4 s; output tail:     at Request.emit (node:events:519:28) |     at module.exports.Request.onRequestResponse (/opt/node-tools/node_modules/yarn/lib/cli.js:142287:10) |     at ClientRequest.emit (node:events:519:28) |     at HTTPParser.parserOnIncomingClient (node:_http_client:772:27) |     at HTTPParser.parserOnHeadersComplete (node:_http_common:122:17) |     at TLSSocket.socketOnData (node:_http_client:614:22) |     at TLSSocket.emit (node:events:519:28) | info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command."
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
