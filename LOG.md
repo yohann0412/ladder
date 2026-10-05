@@ -570,3 +570,12 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   118 tests before the stop. `bruin-data__bruin__760-818` then could not install at the
   floor. With the Go-heavy group running alone, this repository's suite needs more disk
   than this 40 GB machine has, so `exceeds_cap` by free disk is the honest record.
+- 16:24: the Go-heavy redo group finished, and the other eight pairs started alone. Four of
+  the 20 redone pairs still carry a floor-stopped record, and they stay (D23):
+  - `onflow__flow-go__7551-7555`: its runnability build stopped at 14:57:23;
+  - `PRQL__prql__5286-5287`: its Claim C record, from the same minute.
+
+  Both came from the window when two redo processes ran together (second amendment) and
+  PRQL's Rust builds filled the disk. The two bruin pairs stopped for their own suite's
+  disk use (see 15:06). So the second amendment cost two redone records. Running alone
+  would probably have avoided that, and the results review says so.
