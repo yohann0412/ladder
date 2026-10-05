@@ -1,0 +1,52 @@
+{
+  "pair_id": "camunda__camunda-modeler__5146-5148",
+  "commit": "016a65803af9ac8d39fa7eda54db7f090080f4bb",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": "mocha",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no tests found at base",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "npm",
+        "ci"
+      ],
+      "exit_code": 0,
+      "duration_s": 174.9,
+      "detail": "standard, install cap 900 s: install: exit 0 in 174.4 s; suite error: 0 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 without a readable report; output tail: \u001b[31mError: No test files found: \"test\"\u001b[39m; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+    },
+    {
+      "command": [
+        "npm",
+        "install",
+        "--legacy-peer-deps"
+      ],
+      "exit_code": 0,
+      "duration_s": 47.8,
+      "detail": "legacy-peer-deps (npm install --legacy-peer-deps instead of a clean install), install cap 900 s: install: exit 0 in 47.3 s; suite error: 0 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 without a readable report; output tail: \u001b[31mError: No test files found: \"test\"\u001b[39m; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+    }
+  ],
+  "test_count": 0,
+  "base_outcome": {
+    "status": "error",
+    "command": [
+      "/home/user/ladder/work/runtime/camunda__camunda-modeler__5146-5148/trees/base/node_modules/.bin/mocha",
+      "--reporter",
+      "json",
+      "--reporter-option",
+      "output=/home/user/ladder/work/runtime/camunda__camunda-modeler__5146-5148/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.2,
+    "retried": true,
+    "failing_tests": [],
+    "detail": "0 passed, 0 failed, 0 errors, 0 skipped; runner exited 1 without a readable report; output tail: \u001b[31mError: No test files found: \"test\"\u001b[39m; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "timeout_s": 600
+}

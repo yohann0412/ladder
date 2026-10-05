@@ -1,0 +1,51 @@
+{
+  "pair_id": "camunda__camunda-modeler__5146-5148",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: other (no tests found at base)",
+  "files_a": [
+    "client/src/plugins/zeebe-plugin/deployment-plugin/DeploymentConfigValidator.js",
+    "client/src/plugins/zeebe-plugin/deployment-plugin/__tests__/DeploymentConfigValidatorSpec.js"
+  ],
+  "files_b": [
+    "client/package.json",
+    "client/src/app/slot-fill/__tests__/FillSpec.js",
+    "client/src/app/slot-fill/__tests__/SlotFillSpec.js",
+    "package-lock.json"
+  ]
+}
