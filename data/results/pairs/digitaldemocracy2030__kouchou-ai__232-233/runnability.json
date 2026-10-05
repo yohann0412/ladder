@@ -1,0 +1,15 @@
+{
+  "pair_id": "digitaldemocracy2030__kouchou-ai__232-233",
+  "commit": "978b7768761aa83481e723308688ff0c5d9c3ac7",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

@@ -1,0 +1,18 @@
+{
+  "pair_id": "digitaldemocracy2030__kouchou-ai__232-233",
+  "status": "located",
+  "commit": "0e6b6baf98a1c320b734fc385c03c0a1ad0f298f",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "server/src/routers/admin_report.py",
+      "present": true,
+      "sha256": "2df53328cee71b48afb3fe7f006a7d4c531d9316d9823e66f43ff4ab8f17ec9e"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T12:49:47.582662Z"
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "microsoft__DacFx__635-640",
+  "commit": "809cf97ba1bbcfe3f2adbb2cef1e1e774f175c2a",
+  "language": "csharp",
+  "package_manager": "dotnet",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "csharp project; dotnet is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

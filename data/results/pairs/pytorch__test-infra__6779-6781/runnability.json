@@ -1,0 +1,90 @@
+{
+  "pair_id": "pytorch__test-infra__6779-6781",
+  "commit": "de5c2337cc306a4cd4f0c7d3ade5c4e5dc26ecc7",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "suite does not load at base: 22 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/pytorch__test-infra__6779-6781/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/pytorch__test-infra__6779-6781/trees/base",
+        "-r",
+        ".mypy_requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 2,
+      "duration_s": 9.4,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 2 in 9.3 s; output tail: If you are trying to create a single distribution with multiple packages | on purpose, you should not rely on automatic discovery. | Instead, consider the following options: | 1. set up custom discovery (`find` directive with `include` or `exclude`) | 2. use a `src-layout` | 3. explicitly set `py_modules` or `packages` with a list of names | To find more information, look for \"package discovery\" on setuptools docs. | hint: This usually indicates a problem with the package or the build environment."
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/pytorch__test-infra__6779-6781/envs/base/bin/python",
+        "mypy",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 4.7,
+      "detail": "unpinned (ignored the version pins in the requirement files), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 1.7 s; suite failed: 0 passed, 0 failed, 22 errors, 0 skipped (work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/benchmark-results-uploader/test_lambda_function.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.benchmark-results-uploader.test_lambda_function, work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/clickhouse-replicator-dynamo/test_lambda_function.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.clickhouse-replicator-dynamo.test_lambda_function, work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/opensearch-gha-jobs/test_lambda_function.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.opensearch-gha-jobs.test_lambda_function, work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/tests/test_lambda_oss_ci_job_queue_time.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.tests.test_lambda_oss_ci_job_queue_time, work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/tests/test_lambda_oss_cur.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.tests.test_lambda_oss_cur); first run failed: 0 passed, 0 failed, 22 errors, 0 skipped (work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/benchmark-results-uploader/test_lambda_function.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.benchmark-results-uploader.test_lambda_function, work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/clickhouse-replicator-dynamo/test_lambda_function.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.clickhouse-replicator-dynamo.test_lambda_function, work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/opensearch-gha-jobs/test_lambda_function.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.opensearch-gha-jobs.test_lambda_function, work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/tests/test_lambda_oss_ci_job_queue_time.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.tests.test_lambda_oss_ci_job_queue_time, work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/tests/test_lambda_oss_cur.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.tests.test_lambda_oss_cur)"
+    }
+  ],
+  "test_count": 22,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/pytorch__test-infra__6779-6781/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/pytorch__test-infra__6779-6781/reports/base-attempt-2/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 22,
+    "skipped": 0,
+    "duration_s": 1.5,
+    "retried": true,
+    "failing_tests": [
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/benchmark-results-uploader/test_lambda_function.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.benchmark-results-uploader.test_lambda_function",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/clickhouse-replicator-dynamo/test_lambda_function.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.clickhouse-replicator-dynamo.test_lambda_function",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/opensearch-gha-jobs/test_lambda_function.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.opensearch-gha-jobs.test_lambda_function",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/tests/test_lambda_oss_ci_job_queue_time.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.tests.test_lambda_oss_ci_job_queue_time",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/tests/test_lambda_oss_cur.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.tests.test_lambda_oss_cur",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/usage-log-aggregator/test_lambda_function.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.usage-log-aggregator.test_lambda_function",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/whl_metadata_upload_pep658/test_lambda_function.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.whl_metadata_upload_pep658.test_lambda_function",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/tools/binary_size_validation/test_binary_size_validation.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.tools.binary_size_validation.test_binary_size_validation",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/tools/device-farm-runner/test_run_on_aws_devicefarm.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.tools.device-farm-runner.test_run_on_aws_devicefarm",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/tools/pkg-helpers/tests/test_conda.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.tools.pkg-helpers.tests.test_conda",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/tools/pkg-helpers/tests/test_cuda.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.tools.pkg-helpers.tests.test_cuda",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/tools/pkg-helpers/tests/test_macos.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.tools.pkg-helpers.tests.test_macos",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/tools/pkg-helpers/tests/test_utils.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.tools.pkg-helpers.tests.test_utils",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/tools/pkg-helpers/tests/test_version.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.tools.pkg-helpers.tests.test_version",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/tools/pkg-helpers/tests/test_wheel.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.tools.pkg-helpers.tests.test_wheel",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/tools/stronghold/tests/api::work.runtime.pytorch__test-infra__6779-6781.trees.base.tools.stronghold.tests.api",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/tools/tests/test_fetch_latest_green_commit.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.tools.tests.test_fetch_latest_green_commit",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/tools/torchci/tests/td/test_calculate_file_test_rating.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.tools.torchci.tests.td.test_calculate_file_test_rating",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/tools/torchci/tests/test_ch_query.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.tools.torchci.tests.test_ch_query",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/tools/torchci/tests/test_check_alerts.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.tools.torchci.tests.test_check_alerts",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/tools/torchci/tests/test_queue_alert.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.tools.torchci.tests.test_queue_alert",
+      "work/runtime/pytorch__test-infra__6779-6781/trees/base/tools/torchci/tests/test_update_test_times.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.tools.torchci.tests.test_update_test_times"
+    ],
+    "detail": "0 passed, 0 failed, 22 errors, 0 skipped (work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/benchmark-results-uploader/test_lambda_function.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.benchmark-results-uploader.test_lambda_function, work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/clickhouse-replicator-dynamo/test_lambda_function.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.clickhouse-replicator-dynamo.test_lambda_function, work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/opensearch-gha-jobs/test_lambda_function.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.opensearch-gha-jobs.test_lambda_function, work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/tests/test_lambda_oss_ci_job_queue_time.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.tests.test_lambda_oss_ci_job_queue_time, work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/tests/test_lambda_oss_cur.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.tests.test_lambda_oss_cur); first run failed: 0 passed, 0 failed, 22 errors, 0 skipped (work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/benchmark-results-uploader/test_lambda_function.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.benchmark-results-uploader.test_lambda_function, work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/clickhouse-replicator-dynamo/test_lambda_function.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.clickhouse-replicator-dynamo.test_lambda_function, work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/opensearch-gha-jobs/test_lambda_function.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.opensearch-gha-jobs.test_lambda_function, work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/tests/test_lambda_oss_ci_job_queue_time.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.tests.test_lambda_oss_ci_job_queue_time, work/runtime/pytorch__test-infra__6779-6781/trees/base/aws/lambda/tests/test_lambda_oss_cur.py::work.runtime.pytorch__test-infra__6779-6781.trees.base.aws.lambda.tests.test_lambda_oss_cur)"
+  },
+  "timeout_s": 600
+}

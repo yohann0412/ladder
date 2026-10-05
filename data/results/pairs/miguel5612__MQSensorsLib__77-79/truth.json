@@ -1,0 +1,18 @@
+{
+  "pair_id": "miguel5612__MQSensorsLib__77-79",
+  "status": "located",
+  "commit": "f7fae4e03cf2d4874a89553ea7732318dc71cb4d",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "src/MQUnifiedsensor.cpp",
+      "present": true,
+      "sha256": "86dc9c12d190dbaabdf216b9db3ce02309b25413a99ff59ab501b04521ccf5dc"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T12:49:40.706176Z"
+}

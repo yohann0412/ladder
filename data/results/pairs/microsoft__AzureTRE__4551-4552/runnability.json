@@ -1,0 +1,69 @@
+{
+  "pair_id": "microsoft__AzureTRE__4551-4552",
+  "commit": "7e532bd19b7b58d526cf84fa007060574b75ee8f",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "suite does not load at base: 1 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/microsoft__AzureTRE__4551-4552/envs/base/bin/python",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 29.0,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 10.5 s; suite failed: 0 passed, 0 failed, 1 errors, 0 skipped (work/runtime/microsoft__AzureTRE__4551-4552/trees/base/e2e_tests::work.runtime.microsoft__AzureTRE__4551-4552.trees.base.e2e_tests); first run failed: 0 passed, 0 failed, 1 errors, 0 skipped (work/runtime/microsoft__AzureTRE__4551-4552/trees/base/e2e_tests::work.runtime.microsoft__AzureTRE__4551-4552.trees.base.e2e_tests)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/microsoft__AzureTRE__4551-4552/envs/base/bin/python",
+        "flake8",
+        "pre-commit",
+        "semantic-version",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 2.3,
+      "detail": "unpinned (ignored the version pins in the requirement files), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 0.3 s; suite failed: 0 passed, 0 failed, 8 errors, 0 skipped (work/runtime/microsoft__AzureTRE__4551-4552/trees/base/airlock_processor/tests/shared_code/test_blob_operations.py::work.runtime.microsoft__AzureTRE__4551-4552.trees.base.airlock_processor.tests.shared_code.test_blob_operations, work/runtime/microsoft__AzureTRE__4551-4552/trees/base/airlock_processor/tests/test_data_deletion_trigger.py::work.runtime.microsoft__AzureTRE__4551-4552.trees.base.airlock_processor.tests.test_data_deletion_trigger, work/runtime/microsoft__AzureTRE__4551-4552/trees/base/airlock_processor/tests/test_status_change_queue_trigger.py::work.runtime.microsoft__AzureTRE__4551-4552.trees.base.airlock_processor.tests.test_status_change_queue_trigger, work/runtime/microsoft__AzureTRE__4551-4552/trees/base/api_app/tests_ma::work.runtime.microsoft__AzureTRE__4551-4552.trees.base.api_app.tests_ma, work/runtime/microsoft__AzureTRE__4551-4552/trees/base/e2e_tests::work.runtime.microsoft__AzureTRE__4551-4552.trees.base.e2e_tests); first run failed: 0 passed, 0 failed, 8 errors, 0 skipped (work/runtime/microsoft__AzureTRE__4551-4552/trees/base/airlock_processor/tests/shared_code/test_blob_operations.py::work.runtime.microsoft__AzureTRE__4551-4552.trees.base.airlock_processor.tests.shared_code.test_blob_operations, work/runtime/microsoft__AzureTRE__4551-4552/trees/base/airlock_processor/tests/test_data_deletion_trigger.py::work.runtime.microsoft__AzureTRE__4551-4552.trees.base.airlock_processor.tests.test_data_deletion_trigger, work/runtime/microsoft__AzureTRE__4551-4552/trees/base/airlock_processor/tests/test_status_change_queue_trigger.py::work.runtime.microsoft__AzureTRE__4551-4552.trees.base.airlock_processor.tests.test_status_change_queue_trigger, work/runtime/microsoft__AzureTRE__4551-4552/trees/base/api_app/tests_ma::work.runtime.microsoft__AzureTRE__4551-4552.trees.base.api_app.tests_ma, work/runtime/microsoft__AzureTRE__4551-4552/trees/base/e2e_tests::work.runtime.microsoft__AzureTRE__4551-4552.trees.base.e2e_tests)"
+    }
+  ],
+  "test_count": 1,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/microsoft__AzureTRE__4551-4552/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/microsoft__AzureTRE__4551-4552/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 1,
+    "skipped": 0,
+    "duration_s": 8.9,
+    "retried": true,
+    "failing_tests": [
+      "work/runtime/microsoft__AzureTRE__4551-4552/trees/base/e2e_tests::work.runtime.microsoft__AzureTRE__4551-4552.trees.base.e2e_tests"
+    ],
+    "detail": "0 passed, 0 failed, 1 errors, 0 skipped (work/runtime/microsoft__AzureTRE__4551-4552/trees/base/e2e_tests::work.runtime.microsoft__AzureTRE__4551-4552.trees.base.e2e_tests); first run failed: 0 passed, 0 failed, 1 errors, 0 skipped (work/runtime/microsoft__AzureTRE__4551-4552/trees/base/e2e_tests::work.runtime.microsoft__AzureTRE__4551-4552.trees.base.e2e_tests)"
+  },
+  "timeout_s": 600
+}

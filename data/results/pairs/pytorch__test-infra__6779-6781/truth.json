@@ -1,0 +1,22 @@
+{
+  "pair_id": "pytorch__test-infra__6779-6781",
+  "status": "located",
+  "commit": "60d41f1ed9462bafb369f0c08d3dbc6293cd78a2",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "torchci/components/TorchAgentPage.tsx",
+      "present": true,
+      "sha256": "673b3c1887bc8fadcfd845f41cdb92f9981312c957492497b061e3b7540a975b"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "torchci/pages/api/torchagent-get-chat-history/index.ts"
+  ],
+  "outside_region_edit": [
+    "torchci/components/TorchAgentPage.tsx"
+  ],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T12:49:13.487751Z"
+}

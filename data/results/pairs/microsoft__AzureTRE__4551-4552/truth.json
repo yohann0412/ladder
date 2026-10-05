@@ -1,0 +1,20 @@
+{
+  "pair_id": "microsoft__AzureTRE__4551-4552",
+  "status": "located",
+  "commit": "c95dc97973797c971a00b29a80c711132b7c5bd5",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "present": true,
+      "sha256": "0e05f248f4811658a723b5b3da9564f8d4f8717e15c3c790a5c46ce4b4862920"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [
+    "CHANGELOG.md"
+  ],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T12:49:34.738343Z"
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "getsentry__sentry-kotlin-multiplatform__433-434",
+  "commit": "4c174cf0eec153d4adcb3c8dffa344e0b1cf0d5d",
+  "language": "java",
+  "package_manager": "gradle",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "java project; no adapter for java (gradle is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

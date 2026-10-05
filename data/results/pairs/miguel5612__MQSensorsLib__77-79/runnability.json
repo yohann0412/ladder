@@ -1,0 +1,15 @@
+{
+  "pair_id": "miguel5612__MQSensorsLib__77-79",
+  "commit": "c927504bf5ce53d82e5b0c98db5c8155b3573e9a",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
