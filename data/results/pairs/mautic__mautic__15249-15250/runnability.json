@@ -1,0 +1,15 @@
+{
+  "pair_id": "mautic__mautic__15249-15250",
+  "commit": "d0307b41ec18bc55dc78a31da0eb2bb3cb7f067f",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
