@@ -414,3 +414,10 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
 - Double run settled: 30 run-2 tasks prepared. 4 were refused at the input cap and 26 went
   to a subagent. Of those 26, 23 are `ok` and 3 failed the audit only for reading their
   own output (D20). D22 allowed preparation and these resolvers to overlap.
+- From 09:47 to about 10:00 both passes waited without making progress: free disk was
+  9.6 GiB against a 10 GiB floor before each pair. A container restart then stopped
+  everything. Settled task snapshots (3 GB), the Go build cache and part of the uv cache
+  were deleted, which left 14 GB free. Both passes were restarted at 10:04 with lower
+  floors: 5 GiB before each pair for the final pass, and 8 GiB for Claim C, so Claim C
+  backs off first. The 3 GiB floor inside each suite is unchanged. A watchdog now reports
+  a stall within five minutes.
