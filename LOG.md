@@ -498,3 +498,10 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   (7.4 GiB free). Node, yarn, puppeteer and XDG caches now also live in each pair's scratch
   directory (reviews/F8f-pair-scratch.md, follow-up). Shards restart at their next pair
   boundary.
+- 12:51: 114 of 213 sharded pairs done. Shards 2 (12:36) and 1 (12:41) restarted on the
+  Node-cache code. Shard 0 is still on kanister, a large Go pair, and restarts after it.
+  The two largest pairs ran at the same time: Unity toonshader (6.4 GB of working copies,
+  the pair D21 already set apart) and kanister (5.2 GB of Go runtime). Free disk fell to
+  4.0 GiB, and suites in other shards hit the floor. Records carrying the floor phrase rose
+  from 18 to 35 (13 pairs). D23 redoes all of them. The poetry and puppeteer caches were
+  cleared with no process using them (6.5 GiB free).
