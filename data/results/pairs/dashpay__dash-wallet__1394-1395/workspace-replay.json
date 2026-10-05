@@ -1,0 +1,23 @@
+{
+  "pair_id": "dashpay__dash-wallet__1394-1395",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/dashpay__dash-wallet__1394-1395",
+  "source_base": "6e22af32462b62d6a13a1d0c81a37cb571fab685",
+  "source_a": "6b2e8dd0c48b92f8ed2a5ff130dcec32d9d91bc7",
+  "source_b": "4acdec4786c5c564dae774c6531e7d7bff1107a4",
+  "base_commit": "648d9b2c1234eae4dc2e7810110b464a7f49ee69",
+  "a_commit": "9ee38acf3307512fed7f3c3986ec7ace28438d89",
+  "b_commit": "c9c3ee417d2078f25196a049f93a71a9ec3c60c3",
+  "object_count": 3083,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

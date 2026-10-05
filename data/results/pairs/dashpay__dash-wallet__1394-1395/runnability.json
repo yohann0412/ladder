@@ -1,0 +1,15 @@
+{
+  "pair_id": "dashpay__dash-wallet__1394-1395",
+  "commit": "6e22af32462b62d6a13a1d0c81a37cb571fab685",
+  "language": "java",
+  "package_manager": "gradle",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "java project; no adapter for java (gradle is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

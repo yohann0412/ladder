@@ -1,0 +1,86 @@
+{
+  "pair_id": "jeroenterheerdt__HAsmartirrigation__597-598",
+  "commit": "8208b1fcb23ea881d32c8ee4a362cbdbb0c1842a",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "suite does not load at base: 6 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/jeroenterheerdt__HAsmartirrigation__597-598/envs/base/bin/python",
+        "-r",
+        "requirements-dev.txt",
+        "-r",
+        "requirements.test.txt",
+        "pytest"
+      ],
+      "exit_code": 2,
+      "duration_s": 0.1,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 2 in 0.0 s; output tail: error: Error parsing included file in `requirements-dev.txt` at position 259 |   Caused by: Error parsing included file in `requirements.test.txt` at position 234 |   Caused by: failed to read from file `core/requirements_test_all.txt`: No such file or directory (os error 2)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/jeroenterheerdt__HAsmartirrigation__597-598/envs/base/bin/python",
+        "requests",
+        "python-dotenv",
+        "homeassistant",
+        "black",
+        "flake8",
+        "isort",
+        "mypy",
+        "pre-commit",
+        "markdown",
+        "pytest",
+        "pytest-cov",
+        "pytest-homeassistant-custom-component",
+        "aiofiles",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 28.4,
+      "detail": "unpinned (ignored the version pins in the requirement files), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 15.0 s; suite failed: 0 passed, 0 failed, 6 errors, 0 skipped (tests/test_continous_updates.py::tests.test_continous_updates, tests/test_continous_updates_edge.py::tests.test_continous_updates_edge, tests/test_service_handlers.py::tests.test_service_handlers, tests/test_services.py::tests.test_services, tests/test_zone_calculation.py::tests.test_zone_calculation); first run failed: 0 passed, 0 failed, 6 errors, 0 skipped (tests/test_continous_updates.py::tests.test_continous_updates, tests/test_continous_updates_edge.py::tests.test_continous_updates_edge, tests/test_service_handlers.py::tests.test_service_handlers, tests/test_services.py::tests.test_services, tests/test_zone_calculation.py::tests.test_zone_calculation)"
+    }
+  ],
+  "test_count": 6,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/jeroenterheerdt__HAsmartirrigation__597-598/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/jeroenterheerdt__HAsmartirrigation__597-598/reports/base-attempt-2/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 6,
+    "skipped": 0,
+    "duration_s": 6.8,
+    "retried": true,
+    "failing_tests": [
+      "tests/test_continous_updates.py::tests.test_continous_updates",
+      "tests/test_continous_updates_edge.py::tests.test_continous_updates_edge",
+      "tests/test_service_handlers.py::tests.test_service_handlers",
+      "tests/test_services.py::tests.test_services",
+      "tests/test_zone_calculation.py::tests.test_zone_calculation",
+      "tests/test_zone_edge_cases.py::tests.test_zone_edge_cases"
+    ],
+    "detail": "0 passed, 0 failed, 6 errors, 0 skipped (tests/test_continous_updates.py::tests.test_continous_updates, tests/test_continous_updates_edge.py::tests.test_continous_updates_edge, tests/test_service_handlers.py::tests.test_service_handlers, tests/test_services.py::tests.test_services, tests/test_zone_calculation.py::tests.test_zone_calculation); first run failed: 0 passed, 0 failed, 6 errors, 0 skipped (tests/test_continous_updates.py::tests.test_continous_updates, tests/test_continous_updates_edge.py::tests.test_continous_updates_edge, tests/test_service_handlers.py::tests.test_service_handlers, tests/test_services.py::tests.test_services, tests/test_zone_calculation.py::tests.test_zone_calculation)"
+  },
+  "timeout_s": 600
+}

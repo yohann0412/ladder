@@ -1,0 +1,192 @@
+{
+  "pair_id": "jeroenterheerdt__HAsmartirrigation__597-598",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": false,
+  "human_equivalent_unordered": false,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "Ra#1",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "Ai",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "Bi",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "Ss",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "xs",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "Es",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "Ms",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "As",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "zs",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "Ts",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "Ds",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "Ys",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "Qs",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "ir",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "ur",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "handleViewWeatherInfo",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "handleViewWateringCalendar",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "styles#1",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "styles#3",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "styles#4",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "render#5",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "styles#5",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "entity": "xa#1",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "mode": "ast",
+      "language": "javascript",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9688
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}
