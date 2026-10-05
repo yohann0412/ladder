@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__graphrag__1944-1956",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/microsoft__graphrag__1944-1956",
+  "source_base": "4a42ac81afade8392586ad3d4f879b3c4789d9d1",
+  "source_a": "4d13011054ce99e968c1b21273aeea1a64c866ea",
+  "source_b": "23e9789733c4b00153d86659bb6f8605d86f7e18",
+  "base_commit": "ac5f046c483a0f4cd1ce3f3558714aa3103b453a",
+  "a_commit": "829d1ff1b990eedc40fb1fc88934c27e9338c7e5",
+  "b_commit": "dfed241ea4f61a823c86297d5e7867b005a8ee34",
+  "object_count": 1031,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "oraios__serena__264-286",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/oraios__serena__264-286",
+  "source_base": "10629e33561b4ebf93627a5ffc9de47bfd1c7595",
+  "source_a": "02487e67fdecd7bab022f7291c102881e4242206",
+  "source_b": "a4dd6bea4d67b4c102c638a62ac0339b4563c437",
+  "base_commit": "8281c72bc20fb78574c0b06ab89de275cf460992",
+  "a_commit": "c6c2ecdf4d288f3047f76c77f8c578c80f1b6ae7",
+  "b_commit": "18d7f15760fc20c61311ae1338749e0a6b10bd0f",
+  "object_count": 415,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "bolna-ai__bolna__218-219",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 115372,
+  "tokens": {
+    "input_tokens": 18,
+    "output_tokens": 7919,
+    "cache_creation_input_tokens": 51475,
+    "cache_read_input_tokens": 540101
+  },
+  "tool_calls": 14,
+  "files": [
+    {
+      "path": "bolna/synthesizer/sarvam_synthesizer.py",
+      "action": "keep",
+      "sha256": "5361afb252056e338a3b698e6fc720f8a4742389736ece23b46ef982e9b0a91f",
+      "rationale": "Kept PR B's websocket streaming support for Sarvam while adopting PR A's refactor: generate now has B's streaming branch plus A's non-streaming HTTP branch (both using the shared set_first_chunk_metadata/set_end_of_stream_metadata/create_audio_packet helpers), and the duplicated push override is dropped because A's BaseSynthesizer.push provides the identical streaming/non-streaming behavior."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:56:55.101460Z"
+}

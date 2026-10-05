@@ -1,0 +1,27 @@
+{
+  "pair_id": "DistroAV__DistroAV__1314-1317",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/DistroAV__DistroAV__1314-1317/llm-post-weave/run-1/files/src/ndi-source.cpp"
+  ],
+  "duration_ms": 182647,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 568,
+    "cache_creation_input_tokens": 142999,
+    "cache_read_input_tokens": 717785
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "src/ndi-source.cpp",
+      "action": "keep",
+      "sha256": "1a15f4226f90c28b5dece2c0293f6210181ef076da0050076d4ecd5e5e11f85d",
+      "rationale": "Kept PR A's timeout/empty-frame handling (process_empty_frame on no connections and on empty captures, ndi_source_t-based process_video2 signature, color params set at receiver reset, width/height getters) and layered in PR B's auto-deactivate property, config flag, default and number_of_connections-based obs_source_set_enabled toggle in the thread loop."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:56:54.284628Z"
+}

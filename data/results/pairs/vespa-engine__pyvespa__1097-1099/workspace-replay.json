@@ -1,0 +1,23 @@
+{
+  "pair_id": "vespa-engine__pyvespa__1097-1099",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/vespa-engine__pyvespa__1097-1099",
+  "source_base": "542cb8750d6e5989935d1f6b34d6ccb50f7745f4",
+  "source_a": "f5515227b0d589a50abab8bca7892e1cbbd80458",
+  "source_b": "61432c4969d8c1bab89433588fb9212338439423",
+  "base_commit": "a3a2a05b138b6d6ff2a3b49f50fdd06ef90c6e4e",
+  "a_commit": "a37f2b4eb7ec16a3be128be1bcdaa8f09dc2f3c3",
+  "b_commit": "9a95101ebf3c5d34208b1bee3753db4e2f5a1cff",
+  "object_count": 481,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

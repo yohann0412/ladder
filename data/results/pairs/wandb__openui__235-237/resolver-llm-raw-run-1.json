@@ -1,0 +1,16 @@
+{
+  "pair_id": "wandb__openui__235-237",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "audit_impossible",
+  "violations": [
+    "audit impossible: transcript line 110 is unparseable: Invalid JSON: EOF while parsing a string at line 1 column 2970",
+    "output: nothing was written to /home/user/ladder/work/resolutions/wandb__openui__235-237/llm-raw/run-1"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T05:57:25.053400Z"
+}

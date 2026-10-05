@@ -1,0 +1,25 @@
+{
+  "pair_id": "reown-com__appkit-react-native__351-361",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 24369,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 127,
+    "cache_creation_input_tokens": 22994,
+    "cache_read_input_tokens": 176262
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "apps/native/tests/shared/pages/WalletPage.ts",
+      "action": "keep",
+      "sha256": "89eae310dd454f5d8107847999b4af5029d5d93805e760566c6c6304a0dd6b5e",
+      "rationale": "Both PRs replaced focus+Space with btn.click() in performRequestAction, so the merge keeps that shared change plus PR A's extra 1000ms wait before the click, along with PR B's non-conflicting wait in disconnectConnection."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:57:00.998902Z"
+}

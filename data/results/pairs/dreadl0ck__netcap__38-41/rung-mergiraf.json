@@ -1,0 +1,44 @@
+{
+  "pair_id": "dreadl0ck__netcap__38-41",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 4 of 4",
+  "remaining_conflicted": [
+    "decoder/stream/stream.go",
+    "go.sum",
+    "netcap.proto",
+    "types/netcap.pb.go"
+  ],
+  "files": [
+    {
+      "path": "decoder/stream/stream.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "go.sum",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "netcap.proto",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "types/netcap.pb.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/dreadl0ck__netcap__38-41/mergiraf"
+}

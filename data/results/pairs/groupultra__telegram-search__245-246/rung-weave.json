@@ -1,0 +1,172 @@
+{
+  "pair_id": "groupultra__telegram-search__245-246",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 20 of 20",
+  "remaining_conflicted": [
+    "packages/stage-ui/src/components/ChatSelector.vue",
+    "packages/stage-ui/src/components/SearchDialog.vue",
+    "packages/stage-ui/src/components/layout/ChatsCollapse.vue",
+    "packages/stage-ui/src/components/layout/SettingsDialog.vue",
+    "packages/stage-ui/src/components/layout/SidebarSelector.vue",
+    "packages/stage-ui/src/components/layout/UserDropdown.vue",
+    "packages/stage-ui/src/components/messages/MediaRenderer.vue",
+    "packages/stage-ui/src/components/messages/MessageBubble.vue",
+    "packages/stage-ui/src/components/messages/MessageList.vue",
+    "packages/stage-ui/src/components/ui/Button/Button.vue",
+    "packages/stage-ui/src/components/ui/SelectDropdown.vue",
+    "packages/stage-ui/src/layouts/default.vue",
+    "packages/stage-ui/src/pages/[...all].vue",
+    "packages/stage-ui/src/pages/chat/[id].vue",
+    "packages/stage-ui/src/pages/login.vue",
+    "packages/stage-ui/src/pages/search/[id].vue",
+    "packages/stage-ui/src/pages/search/index.vue",
+    "packages/stage-ui/src/pages/settings.vue",
+    "packages/stage-ui/src/pages/sync.vue",
+    "pnpm-lock.yaml"
+  ],
+  "files": [
+    {
+      "path": "packages/stage-ui/src/components/ChatSelector.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/components/SearchDialog.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/components/layout/ChatsCollapse.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/components/layout/SettingsDialog.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/components/layout/SidebarSelector.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/components/layout/UserDropdown.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/components/messages/MediaRenderer.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/components/messages/MessageBubble.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/components/messages/MessageList.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/components/ui/Button/Button.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/components/ui/SelectDropdown.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/layouts/default.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/pages/[...all].vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/pages/chat/[id].vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/pages/login.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/pages/search/[id].vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/pages/search/index.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/pages/settings.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/pages/sync.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/groupultra__telegram-search__245-246/weave"
+}

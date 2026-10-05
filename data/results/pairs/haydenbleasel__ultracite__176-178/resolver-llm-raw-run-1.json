@@ -1,0 +1,25 @@
+{
+  "pair_id": "haydenbleasel__ultracite__176-178",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 13683,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 520,
+    "cache_creation_input_tokens": 15482,
+    "cache_read_input_tokens": 171053
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "scripts/format.ts",
+      "action": "keep",
+      "sha256": "320cd7bd6f1071438be8d2ecf173ff1d3e28607ea78d80fd320cf8aba22476ba",
+      "rationale": "Both PRs made the same unsafe-flag spacing fix, so the merge keeps that shared change plus PR A's per-file quoting of paths, which PR B did not touch."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:56:56.429995Z"
+}

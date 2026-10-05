@@ -1,0 +1,27 @@
+{
+  "pair_id": "jendrikseipp__rednotebook__841-842",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Read outside the task directory: /home/user/ladder/work/resolutions/jendrikseipp__rednotebook__841-842/llm-post-weave/run-1/files/CHANGELOG.md"
+  ],
+  "duration_ms": 141212,
+  "tokens": {
+    "input_tokens": 20,
+    "output_tokens": 2153,
+    "cache_creation_input_tokens": 73643,
+    "cache_read_input_tokens": 726105
+  },
+  "tool_calls": 16,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "action": "keep",
+      "sha256": "1a3d02160e010d995b9ac8aa8648ca7211c0bdd37be417983c168160967980fe",
+      "rationale": "Both PRs added an independent entry at the top of the unreleased section, so both are kept (PR A's KDE compositing fix, then PR B's Nvidia DMA-BUF fix) above the existing Wayland StatusIcon entry, and the weave trailer comment is dropped."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:56:57.691614Z"
+}

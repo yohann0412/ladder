@@ -1,0 +1,31 @@
+{
+  "pair_id": "gmathi__NovelLibrary__243-244",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 55245,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 2020,
+    "cache_creation_input_tokens": 40091,
+    "cache_read_input_tokens": 322982
+  },
+  "tool_calls": 15,
+  "files": [
+    {
+      "path": "app/build.gradle",
+      "action": "keep",
+      "sha256": "4a4854bda79d50f63b394e16f3657a976befb481a5643a6b19ae4e180c3dd29a",
+      "rationale": "Both PRs made the release signing config conditional on keystore.properties existing, so PR A's equivalent form (guarding inside the release block, matching the already-guarded signingConfig in buildTypes) is kept along with A's dependency/KSP updates and the trailing weave comment is dropped."
+    },
+    {
+      "path": "gradle.properties",
+      "action": "keep",
+      "sha256": "26d985dd97b574093c8fbe8e7411b1fd0fec585d3a749631805175aa4f51874e",
+      "rationale": "Combined PR B's replacement of the obsolete MaxPermSize with MaxMetaspaceSize and PR A's G1GC/StringDeduplication flags in one jvmargs line, keeping parallel builds (both) and A's configureondemand plus A's other performance settings."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:56:56.068475Z"
+}

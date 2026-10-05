@@ -1,0 +1,23 @@
+{
+  "pair_id": "stanford-crfm__levanter__996-1004",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/stanford-crfm__levanter__996-1004",
+  "source_base": "51c551bda7fd535ae1a873cb0a634ed3900dad5c",
+  "source_a": "4a03c581c1d7ad95a99d8dde4f96e4c63610bccd",
+  "source_b": "c8d6055fef6fcb26f2de1ebc56ce1111dc54a281",
+  "base_commit": "4d7b4981059237f9dc5a7500dd670a5c8d707550",
+  "a_commit": "246720173818af5585f1d2bc310e7c8cd9dadc6e",
+  "b_commit": "c700b2e76c3e4bb5efcee2de4b7bfd7cb294f90c",
+  "object_count": 518,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

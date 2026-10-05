@@ -1,0 +1,23 @@
+{
+  "pair_id": "hyperlight-dev__hyperlight__510-512",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/hyperlight-dev__hyperlight__510-512",
+  "source_base": "831a52a2fe8c03d4d90b47210d13c5df053bf7ab",
+  "source_a": "d176072b44340c6f4943d25cb46e3c3d89ea975e",
+  "source_b": "5b2389d3c164e4bf1535bc437825c7e697c62fe6",
+  "base_commit": "dc0263ec7a2e2cbd39f0594416557ad848b22e3f",
+  "a_commit": "99e6a6ab682fefda22b6933e1022e6846dc617ef",
+  "b_commit": "3972a5f9b8fe42d8221f5d0dc62ec8382200da04",
+  "object_count": 1185,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

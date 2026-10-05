@@ -1,0 +1,23 @@
+{
+  "pair_id": "groupultra__telegram-search__269-287",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/groupultra__telegram-search__269-287",
+  "source_base": "b6c7dd752e80b2d32ce06286bf684cacecf86b10",
+  "source_a": "6302988a4d11738585b25de41b9c553399d18c09",
+  "source_b": "dac8340402675b51fb5b2196f6c645890eb37796",
+  "base_commit": "f4ba1f0a1bb6c6721a3894da10d5c2d091554dc5",
+  "a_commit": "058a2ae5c51b74429f97be07eb7b0a98fc7f228f",
+  "b_commit": "a420233dd61203029c229e9fbad501c526078f26",
+  "object_count": 426,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

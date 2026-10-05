@@ -1,0 +1,25 @@
+{
+  "pair_id": "aztfmod__terraform-provider-azurecaf__301-302",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 417973,
+  "tokens": {
+    "input_tokens": 38,
+    "output_tokens": 6926,
+    "cache_creation_input_tokens": 267684,
+    "cache_read_input_tokens": 1668975
+  },
+  "tool_calls": 26,
+  "files": [
+    {
+      "path": "azurecaf/models_generated.go",
+      "action": "keep",
+      "sha256": "a783744f5d61cc6cfc71205fcb44fbaf45049229a2a18bb88f2c015568e7061c",
+      "rationale": "PR B regenerated the whole file (new formatting and timestamp) and its output already contains PR A's azurerm_bot_service_azure_bot / botaz entries in both maps, so the merge takes B's generated content, which keeps A's resource without the duplicate botaz map key that the partial merge introduced."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:56:54.887315Z"
+}

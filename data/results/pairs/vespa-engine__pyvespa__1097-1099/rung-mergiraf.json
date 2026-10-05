@@ -1,0 +1,35 @@
+{
+  "pair_id": "vespa-engine__pyvespa__1097-1099",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 3",
+  "remaining_conflicted": [
+    "vespa/package.py",
+    "vespa/templates/schema.txt"
+  ],
+  "files": [
+    {
+      "path": "vespa/package.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": true
+    },
+    {
+      "path": "vespa/templates/macros.txt",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "vespa/templates/schema.txt",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/vespa-engine__pyvespa__1097-1099/mergiraf"
+}

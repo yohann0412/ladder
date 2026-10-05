@@ -1,0 +1,25 @@
+{
+  "pair_id": "sunbeam-labs__sunbeam__533-534",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 62476,
+  "tokens": {
+    "input_tokens": 18,
+    "output_tokens": 2405,
+    "cache_creation_input_tokens": 33045,
+    "cache_read_input_tokens": 482891
+  },
+  "tool_calls": 14,
+  "files": [
+    {
+      "path": "sunbeam/scripts/run.py",
+      "action": "keep",
+      "sha256": "ee854eaaf5bd286fea8d4825faf4f078704de6e5ec30cc51920b83eb13d3898f",
+      "rationale": "Kept PR B's in-process snakemake_main runner with --profile/--log_file and pipeline logging, and grafted PR A's analyze_failure helper and --ai flag onto it by running the AI diagnosis on the pipeline log when snakemake exits non-zero or raises, instead of the removed subprocess capture."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:57:01.229893Z"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "nandyalu__trailarr__259-267",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/nandyalu__trailarr__259-267",
+  "source_base": "153a3a4c0b6128f24144a19350bf0835e5dbdb27",
+  "source_a": "337dcea9a2ce7b3f0636c9ad23c7b74bec4907c1",
+  "source_b": "798ebc340c590a6a207dbb43096ffb9ece4b398d",
+  "base_commit": "4294d8c6635349951e425fdfaed8440ee2ea5524",
+  "a_commit": "71115391751017a83e2e2efa7cc2cd201aede9f8",
+  "b_commit": "a3eea7a18e64c31780b05f80992bee097a90b5ee",
+  "object_count": 724,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

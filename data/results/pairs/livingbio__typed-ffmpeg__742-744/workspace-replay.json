@@ -1,0 +1,23 @@
+{
+  "pair_id": "livingbio__typed-ffmpeg__742-744",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/livingbio__typed-ffmpeg__742-744",
+  "source_base": "a2f511dc7f6c012b42bd4532cb7b86b74b56570f",
+  "source_a": "b1c9987acc55bb11dc25c67ffeaa8450dd04eba7",
+  "source_b": "862651602bcd5488e8c52a5a631a08ec4e00d16a",
+  "base_commit": "c7b5c5b10efe763c322016f3e3d354b2c8691d70",
+  "a_commit": "c7940aa5a470cbbecbf85e0aee15b98152fdb6cd",
+  "b_commit": "b36bc06afb98d9be046048362ad863824f25c1e8",
+  "object_count": 888,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

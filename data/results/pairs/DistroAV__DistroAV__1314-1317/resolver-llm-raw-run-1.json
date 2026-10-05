@@ -1,0 +1,25 @@
+{
+  "pair_id": "DistroAV__DistroAV__1314-1317",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 198900,
+  "tokens": {
+    "input_tokens": 26,
+    "output_tokens": 3611,
+    "cache_creation_input_tokens": 71513,
+    "cache_read_input_tokens": 916964
+  },
+  "tool_calls": 15,
+  "files": [
+    {
+      "path": "src/ndi-source.cpp",
+      "action": "keep",
+      "sha256": "1a15f4226f90c28b5dece2c0293f6210181ef076da0050076d4ecd5e5e11f85d",
+      "rationale": "Kept PR A's process_empty_frame(s) call in the no-connection branch together with PR B's reworded 'NOTE:' sleep comment, while retaining PR B's auto_deactivate enable/disable logic and number_of_connections refactor that merged cleanly."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:56:54.376969Z"
+}

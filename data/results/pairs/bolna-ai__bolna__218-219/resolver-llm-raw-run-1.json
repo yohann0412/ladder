@@ -1,0 +1,25 @@
+{
+  "pair_id": "bolna-ai__bolna__218-219",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 154849,
+  "tokens": {
+    "input_tokens": 26,
+    "output_tokens": 7646,
+    "cache_creation_input_tokens": 64103,
+    "cache_read_input_tokens": 889586
+  },
+  "tool_calls": 17,
+  "files": [
+    {
+      "path": "bolna/synthesizer/sarvam_synthesizer.py",
+      "action": "keep",
+      "sha256": "22009d0c057d9ce596d4ba5f53d1ce3f6bdfe65848da8504a89421ba51d0c2ee",
+      "rationale": "Kept PR B's Sarvam websocket streaming support (sender, receiver, establish_connection, stream-aware generate) while applying PR A's refactor: duplicated state, push, cleanup and monitor_connection now come from BaseSynthesizer, both stream and non-stream generate paths use set_first_chunk_metadata/set_end_of_stream_metadata/create_audio_packet, and A's HTTP non-stream path is retained as the else branch."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:56:55.300706Z"
+}

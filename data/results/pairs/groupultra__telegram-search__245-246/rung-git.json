@@ -2,7 +2,7 @@
   "pair_id": "groupultra__telegram-search__245-246",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 20, conflicted files: 20 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 20, conflicted files: 20",
   "messages": [
     "CONFLICT (content): Merge conflict in packages/stage-ui/src/components/ChatSelector.vue",
     "CONFLICT (content): Merge conflict in packages/stage-ui/src/components/SearchDialog.vue",

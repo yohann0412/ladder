@@ -1,0 +1,44 @@
+{
+  "pair_id": "Unity-Technologies__com.unity.toonshader__492-497",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 4 of 4",
+  "remaining_conflicted": [
+    "com.unity.toonshader/Documentation~/whats-new-0.10.x.md",
+    "com.unity.toonshader/Documentation~/whats-new-0.7.x.md",
+    "com.unity.toonshader/Documentation~/whats-new-0.8.x.md",
+    "com.unity.toonshader/Documentation~/whats-new-0.9.x.md"
+  ],
+  "files": [
+    {
+      "path": "com.unity.toonshader/Documentation~/whats-new-0.10.x.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "com.unity.toonshader/Documentation~/whats-new-0.7.x.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "com.unity.toonshader/Documentation~/whats-new-0.8.x.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "com.unity.toonshader/Documentation~/whats-new-0.9.x.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/Unity-Technologies__com.unity.toonshader__492-497/weave"
+}

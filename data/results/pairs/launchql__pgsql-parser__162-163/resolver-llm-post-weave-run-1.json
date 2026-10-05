@@ -1,0 +1,25 @@
+{
+  "pair_id": "launchql__pgsql-parser__162-163",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 145795,
+  "tokens": {
+    "input_tokens": 26,
+    "output_tokens": 6658,
+    "cache_creation_input_tokens": 80698,
+    "cache_read_input_tokens": 1034687
+  },
+  "tool_calls": 17,
+  "files": [
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "action": "keep",
+      "sha256": "a0dfe9e83d2647ec6fb5b85c5b4848d6e775267a1ac35d3ef65450ce361a7a5f",
+      "rationale": "Kept PR A's runtime-schema helpers, cleanTypeNameFields, corrected PG13-to-PG14 A_Const, TypeCast/ColumnDef/Constraint and its fuller transformDefault (which already covers B's CreateTableAsStmt relkind change), while taking PR B's typed SelectStmt (sortClause/limitOffset/limitCount, subsuming A's sortClause fix), generic FunctionParameter, CallStmt and the other new methods, and merging FuncCall to use B's COERCE_SQL_SYNTAX detection plus A's `over` transformation."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:56:58.782246Z"
+}

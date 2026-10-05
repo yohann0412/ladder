@@ -1,0 +1,21 @@
+{
+  "pair_id": "dreadl0ck__netcap__38-41",
+  "rung": "llm-raw",
+  "run": 1,
+  "task_dir": "/home/user/ladder/work/resolver/dreadl0ck__netcap__38-41/llm-raw/run-1",
+  "snapshot_dir": "/home/user/ladder/work/resolver/dreadl0ck__netcap__38-41/llm-raw/run-1/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/dreadl0ck__netcap__38-41/llm-raw/run-1",
+  "spawn_line": "Read /home/user/ladder/work/resolver/dreadl0ck__netcap__38-41/llm-raw/run-1/PROMPT.md and follow it exactly.",
+  "files": [
+    "decoder/stream/stream.go",
+    "go.sum",
+    "netcap.proto",
+    "types/netcap.pb.go"
+  ],
+  "input_bytes": 10966756,
+  "pr_text_flags": [],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "input_cap",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T05:46:20.292968Z"
+}

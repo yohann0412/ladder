@@ -1,0 +1,31 @@
+{
+  "pair_id": "sunbeam-labs__sunbeam__533-534",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 90115,
+  "tokens": {
+    "input_tokens": 20,
+    "output_tokens": 4234,
+    "cache_creation_input_tokens": 41488,
+    "cache_read_input_tokens": 575287
+  },
+  "tool_calls": 17,
+  "files": [
+    {
+      "path": "sunbeam/scripts/run.py",
+      "action": "keep",
+      "sha256": "5a80e3c5489db11b4006b74f385f152f6e4f6c5f83d64e940f54c5b3b80bc848",
+      "rationale": "Kept PR B's in-process snakemake_main invocation, logger and --log_file option, and kept PR A's analyze_failure helper and --ai flag by running the AI diagnosis on the pipeline log when snakemake exits non-zero or raises, since PR A's captured subprocess output no longer exists."
+    },
+    {
+      "path": "tests/e2e/test_sunbeam_run.py",
+      "action": "keep",
+      "sha256": "d70a4bbe8d04e81f107618b42a03cda3994d63c60624a499bc9855e90191d001",
+      "rationale": "Kept PR B's subprocess-based assertions for the target-after-exclude test and appended PR A's new test_sunbeam_run_ai_option test, with the sys import it needs."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:57:01.288152Z"
+}

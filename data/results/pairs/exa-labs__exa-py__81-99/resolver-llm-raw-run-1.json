@@ -1,0 +1,27 @@
+{
+  "pair_id": "exa-labs__exa-py__81-99",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/exa-labs__exa-py__81-99/llm-raw/run-1/files/exa_py/api.py"
+  ],
+  "duration_ms": 324903,
+  "tokens": {
+    "input_tokens": 34,
+    "output_tokens": 9156,
+    "cache_creation_input_tokens": 108905,
+    "cache_read_input_tokens": 1591625
+  },
+  "tool_calls": 24,
+  "files": [
+    {
+      "path": "exa_py/api.py",
+      "action": "keep",
+      "sha256": "243ab9eeaad1ffdbc2c0de46dd2986acaf6c4b375b841eb3c473e8b0f95db9de",
+      "rationale": "Both sides added the same context feature, so I kept one ContextContentsOptions (PR B's documented version), used PR B's SearchResponse fields (context plus statuses, which get_contents now passes), took the equivalent keyword form context=data.get(\"context\") at the conflicting call sites, and dropped the duplicate context print that the auto-merge left in SearchResponse.__str__."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:56:55.823340Z"
+}

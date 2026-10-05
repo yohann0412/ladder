@@ -1,0 +1,31 @@
+{
+  "pair_id": "epicweb-dev__epicshop__254-255",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 101262,
+  "tokens": {
+    "input_tokens": 20,
+    "output_tokens": 1973,
+    "cache_creation_input_tokens": 64826,
+    "cache_read_input_tokens": 679111
+  },
+  "tool_calls": 15,
+  "files": [
+    {
+      "path": "packages/workshop-cli/package.json",
+      "action": "keep",
+      "sha256": "d54eeac7853eb6477bc7bf3e0fece26f0eb91e826ca7753f95c1a77d3603dc71",
+      "rationale": "Drops the direct @epic-web/workshop-app dependency as PR B intends (none of PR A's new CLI modules import it) while keeping PR A's added @epic-web/invariant, openid-client and zod dependencies."
+    },
+    {
+      "path": "packages/workshop-cli/src/cli.ts",
+      "action": "keep",
+      "sha256": "7bf0be1e27759e0b8130b16162c104365e7804d97ad7e3e6bc385edbbcce2d29",
+      "rationale": "Uses PR B's async, prioritized findWorkshopAppDir (env var, --app-location flag, Node resolution, global lookup, monorepo fallback) and node: imports alongside PR A's tool/resource/prompt commands, keeping a single supportedKeys declaration at PR A's position to avoid a duplicate const."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:56:55.720293Z"
+}

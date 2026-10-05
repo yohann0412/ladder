@@ -1,0 +1,28 @@
+{
+  "pair_id": "groupultra__telegram-search__269-287",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 2",
+  "remaining_conflicted": [
+    "packages/stage-ui/src/components/layout/SidebarSelector.vue",
+    "packages/stage-ui/src/layouts/default.vue"
+  ],
+  "files": [
+    {
+      "path": "packages/stage-ui/src/components/layout/SidebarSelector.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "packages/stage-ui/src/layouts/default.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/groupultra__telegram-search__269-287/mergiraf"
+}

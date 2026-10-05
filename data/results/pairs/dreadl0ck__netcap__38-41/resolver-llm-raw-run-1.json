@@ -1,0 +1,19 @@
+{
+  "pair_id": "dreadl0ck__netcap__38-41",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: types/netcap.pb.go version base has 1651664 bytes, more than 200000",
+    "input cap: types/netcap.pb.go version a has 502705 bytes, more than 200000",
+    "input cap: types/netcap.pb.go version b has 3341191 bytes, more than 200000",
+    "input cap: types/netcap.pb.go version conflicted has 4782561 bytes, more than 200000",
+    "input cap: 10966756 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T05:46:20.293255Z"
+}

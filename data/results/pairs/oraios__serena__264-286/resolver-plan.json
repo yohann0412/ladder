@@ -1,0 +1,15 @@
+{
+  "pair_id": "oraios__serena__264-286",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:47:10.217856Z"
+}

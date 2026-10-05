@@ -1,0 +1,27 @@
+{
+  "pair_id": "launchql__pgsql-parser__162-163",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/launchql__pgsql-parser__162-163/llm-raw/run-1/files/packages/transform/src/transformers/v13-to-v14.ts"
+  ],
+  "duration_ms": 190461,
+  "tokens": {
+    "input_tokens": 30,
+    "output_tokens": 13219,
+    "cache_creation_input_tokens": 90851,
+    "cache_read_input_tokens": 1296662
+  },
+  "tool_calls": 21,
+  "files": [
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "action": "keep",
+      "sha256": "b4a198237cf31a49caab07920be5798bc35f2e345ddd01e52c8ef129509099c1",
+      "rationale": "Combined both sides into one compilable transformer: B's typed PG13 imports, CallStmt, context-aware ObjectWithArgs/Drop/Comment/Cast/Grant handlers, SelectStmt sortClause/limitOffset/limitCount fields and SQL-syntax funcformat detection, plus A's PG13-to-PG14 A_Const, cleanTypeNameFields, TypeCast/ColumnDef/Constraint/CreateFunctionStmt/DefElem, runtime-schema helpers and rewritten transformDefault (which already covers B's CreateTableAsStmt relkind rename); the duplicate FuncCall, FunctionParameter and TypeName methods were each merged into a single definition (FuncCall keeps B's funcformat logic plus A's `over` handling, TypeName keeps B's recursive child transform plus A's location/typemod removal)."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:56:59.586389Z"
+}

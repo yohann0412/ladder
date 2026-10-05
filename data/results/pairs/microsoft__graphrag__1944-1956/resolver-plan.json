@@ -1,0 +1,15 @@
+{
+  "pair_id": "microsoft__graphrag__1944-1956",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:46:45.865536Z"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "softmaple__softmaple__244-246",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 19402,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 638,
+    "cache_creation_input_tokens": 17867,
+    "cache_read_input_tokens": 273068
+  },
+  "tool_calls": 11,
+  "files": [
+    {
+      "path": "packages/editor/tsconfig.app.json",
+      "action": "keep",
+      "sha256": "248b9791daf354b93c5b0fa4f9d895fb18b501fa212aab2ce93b16058e2a77cb",
+      "rationale": "Kept PR B's explanatory comment about compiling Storybook sources separately via tsconfig.storybook.json while using PR A's exclude list, which already covers B's story patterns and additionally excludes test files."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:57:01.174367Z"
+}

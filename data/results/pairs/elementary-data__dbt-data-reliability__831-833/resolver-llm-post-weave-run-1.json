@@ -1,0 +1,25 @@
+{
+  "pair_id": "elementary-data__dbt-data-reliability__831-833",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 41666,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 890,
+    "cache_creation_input_tokens": 33126,
+    "cache_read_input_tokens": 247976
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "macros/edr/materializations/test/test.sql",
+      "action": "keep",
+      "sha256": "b005892f1c821446e331cfa8c6d5b28afa8628f7e4519ae6171a3c09209a3743",
+      "rationale": "Kept PR A's table-level sample_limit computation (disable_test_samples meta flag and is_pii_table check) and passed it to query_test_result_rows together with PR B's new flattened_test argument so column-level PII exclusion also applies, dropping weave's trailing annotation line."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:56:55.412393Z"
+}

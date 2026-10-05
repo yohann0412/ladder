@@ -1,0 +1,25 @@
+{
+  "pair_id": "hughjonesd__huxtable__287-288",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 50685,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 845,
+    "cache_creation_input_tokens": 45480,
+    "cache_read_input_tokens": 341485
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "R/html.R",
+      "action": "keep",
+      "sha256": "e71a96eaa92e904290bf22b94ba00abc32c9f1324a383743fa6f2ec4c15cf19d",
+      "rationale": "Kept PR A's refactor of to_html into helper functions and moved PR B's thead/tbody wrapping logic into build_row_html, which now returns the wrapped row HTML string (the table start, colgroup and closing tag stay in to_html, so B's leftover res/table_start lines are dropped)."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:56:57.155205Z"
+}

@@ -1,0 +1,20 @@
+{
+  "pair_id": "livingbio__typed-ffmpeg__742-744",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "src/ffmpeg/compile/compile_cli.py"
+  ],
+  "files": [
+    {
+      "path": "src/ffmpeg/compile/compile_cli.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/livingbio__typed-ffmpeg__742-744/mergiraf"
+}

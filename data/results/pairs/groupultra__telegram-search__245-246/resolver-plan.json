@@ -1,0 +1,15 @@
+{
+  "pair_id": "groupultra__telegram-search__245-246",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:47:04.806373Z"
+}

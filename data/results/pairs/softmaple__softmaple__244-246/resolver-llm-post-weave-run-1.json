@@ -1,0 +1,25 @@
+{
+  "pair_id": "softmaple__softmaple__244-246",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 22646,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 930,
+    "cache_creation_input_tokens": 18295,
+    "cache_read_input_tokens": 273445
+  },
+  "tool_calls": 11,
+  "files": [
+    {
+      "path": "packages/editor/tsconfig.app.json",
+      "action": "keep",
+      "sha256": "248b9791daf354b93c5b0fa4f9d895fb18b501fa212aab2ce93b16058e2a77cb",
+      "rationale": "Both PRs added an exclude list to keep Storybook sources out of the app build; kept PR B's explanatory comment (pointing to tsconfig.storybook.json) and PR A's broader exclude patterns, which cover all of PR B's patterns and also exclude test files."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:57:01.087870Z"
+}

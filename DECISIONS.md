@@ -231,3 +231,21 @@ Newest at the bottom.
 - Reason: changing the rule after seeing which runs break it would be a post-hoc protocol
   change. Reporting the bound shows a reader how much the rule costs without letting it
   move the primary result. Decided before any truth file exists.
+
+## D21. Resolver runs hit by a full disk
+
+- Problem: during wave 6 preparation, one pair (Unity-Technologies__com.unity.toonshader__492-497,
+  a 1.6 GB workspace copied once per rung) filled the disk while wave 5 resolvers were
+  running. Four runs could not write their output, and their transcripts were cut off
+  mid-line: synth-inc__onit__184-186 (both rungs) and wandb__openui__235-237 (both rungs).
+- Choice: the four runs are finalized as written: `failed`, with `audit_impossible`
+  (truncated transcript) or malformed output. None is re-run. The report lists them under
+  their own cause, "infrastructure: disk full", taken mechanically from the truncated
+  transcripts. As in D20, it also gives the Claim A verdict under a best-case bound in which
+  both pairs count as human-equivalent. From now on, pairs are prepared one wave at a time,
+  only while no resolver is running, with at least 10 GiB free. The oversized pair is
+  prepared last, alone.
+- Reason: the rule is that a failed resolver is recorded as failed. A re-run chosen after the
+  fact would weaken that rule even when the cause is outside the resolver. These failures
+  count against the LLM rung, so recording them can only make Claim A look worse, never
+  better.
