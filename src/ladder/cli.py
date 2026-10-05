@@ -5,7 +5,7 @@ from typing import Annotated
 
 import typer
 
-from ladder import pairs_cli, resolve_cli, suites_cli, truth_cli, workspace_cli
+from ladder import pairs_cli, resolve_cli, score_cli, suites_cli, truth_cli, workspace_cli
 from ladder.layout import Layout
 from ladder.report_cli import app as report_app
 from ladder.rung_cli import app as rung_app
@@ -44,3 +44,4 @@ app.command("claim-c")(suites_cli.claim_c)
 app.add_typer(report_app)
 app.add_typer(resolve_cli.app, name="resolve")
 app.add_typer(truth_cli.app, name="truth")
+app.command("score")(score_cli.score)
