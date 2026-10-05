@@ -1,0 +1,25 @@
+{
+  "pair_id": "sam-goodwin__alchemy__239-253",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 138363,
+  "tokens": {
+    "input_tokens": 16,
+    "output_tokens": 2755,
+    "cache_creation_input_tokens": 87943,
+    "cache_read_input_tokens": 451142
+  },
+  "tool_calls": 12,
+  "files": [
+    {
+      "path": "alchemy/src/cloudflare/worker.ts",
+      "action": "keep",
+      "sha256": "068fd758b9e5be21dcacd4f2a48b750eb78951652e8c3dc79d512ddb29635ed4",
+      "rationale": "PR A's side already contains PR B's change (upsertWorkflow uses `workflow.scriptName ?? workerName`) and adds a guard so a workflow is only upserted when it belongs to this worker, plus the queue DLQ settings and the `url ?? true` default, so the resolution keeps A's hunk, which covers both PRs' intent, and drops the weave markers and annotations."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:40:21.399408Z"
+}

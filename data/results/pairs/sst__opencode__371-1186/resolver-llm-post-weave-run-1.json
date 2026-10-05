@@ -1,0 +1,51 @@
+{
+  "pair_id": "sst__opencode__371-1186",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/sst__opencode__371-1186/llm-post-weave/run-1"
+  ],
+  "duration_ms": 255574,
+  "tokens": {
+    "input_tokens": 46,
+    "output_tokens": 9724,
+    "cache_creation_input_tokens": 147038,
+    "cache_read_input_tokens": 2279323
+  },
+  "tool_calls": 35,
+  "files": [
+    {
+      "path": "packages/opencode/src/cli/cmd/mcp.ts",
+      "action": "keep",
+      "sha256": "48be8e3a6babbb510dd1bfd399a9127b930d9fea8d212a99b461267a47500e86",
+      "rationale": "Kept PR A's full mcp command suite (add/remove/list/get/add-json/enable/disable, which its tests exercise) and folded in PR B's interactive prompt flow (with its remote connection check) as the fallback when `mcp add` is run without a name or command/URL, so both behaviours coexist and the interactive path now actually persists the config."
+    },
+    {
+      "path": "packages/opencode/src/config/config.ts",
+      "action": "keep",
+      "sha256": "993364608c7588dab5ee8f593b5e163877b2ff6fec63509c93612a36ba53f1e9",
+      "rationale": "Both sides added the same optional `headers` field to McpRemote with only a different description, so a single field is kept (B's wording) alongside B's other schema and state changes already merged."
+    },
+    {
+      "path": "packages/opencode/src/index.ts",
+      "action": "keep",
+      "sha256": "fb0545260b8ea62fd9830d2ae21b37e8a1618f0e11d1a114f8a49a72f811aa30",
+      "rationale": "Registered McpCommand exactly once (both PRs added it) and kept PR B's new InstallGithubCommand, with a single import of each."
+    },
+    {
+      "path": "packages/opencode/src/mcp/index.ts",
+      "action": "keep",
+      "sha256": "74d420b5e3e5c1a5f590cd11aa41361ced615a3077c55821f134ec14de602c22",
+      "rationale": "Both PRs pass the configured remote headers to the SSE transport; the equivalent `headers: mcp.headers` form is kept once."
+    },
+    {
+      "path": "packages/web/src/content/docs/docs/cli.mdx",
+      "action": "keep",
+      "sha256": "7d6d87bdaa870f6d058e20b54fbf97f1f991be4670f1d2cabc292cf0f4dc05b5",
+      "rationale": "Combined PR A's new mcp command documentation with PR B's wording fix in the auth login section, removed the empty conflict block, and noted the interactive `mcp add` mode."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:40:23.085263Z"
+}

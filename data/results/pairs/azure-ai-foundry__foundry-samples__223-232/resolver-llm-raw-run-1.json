@@ -1,0 +1,49 @@
+{
+  "pair_id": "azure-ai-foundry__foundry-samples__223-232",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 179843,
+  "tokens": {
+    "input_tokens": 44,
+    "output_tokens": 6828,
+    "cache_creation_input_tokens": 142548,
+    "cache_read_input_tokens": 2123242
+  },
+  "tool_calls": 39,
+  "files": [
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/TESTING.md",
+      "action": "keep",
+      "sha256": "80ce922ee594b2a46cd40d7419d2c540e69a4317094197b294c9772b48066ebf",
+      "rationale": "PR B's version is PR A's rewritten document plus the new AZURE_MODEL_* / AZURE_AI_API_KEY variables, updated sample table and chat-completion guidance, so taking B's text preserves both sides."
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/src/main/java/com/azure/ai/foundry/samples/ChatCompletionSample.java",
+      "action": "keep",
+      "sha256": "8ceb91163b204814ea16be095712879e9b716afa14213007e9d66b6ab5828444",
+      "rationale": "PR A's side is the existing Inference-SDK sample (A's PR only targets the C# ImageFileInputs sample), and PR B deliberately reworks it to build the URL from PROJECT_ENDPOINT, so B's version is used with its consistent imports (no unused DefaultAzureCredential)."
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/src/main/java/com/azure/ai/foundry/samples/ChatCompletionStreamingSample.java",
+      "action": "keep",
+      "sha256": "7ae1ee4ce6e081990d606b48ee91848bd984cfef86b0b98b2b52ea5b76b5aa6b",
+      "rationale": "PR B intentionally replaces the AZURE_ENDPOINT-based streaming sample on A's side with the PROJECT_ENDPOINT-based version that prints tokens as they arrive, and A has no independent change here, so B's version is used."
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/testing.bat",
+      "action": "keep",
+      "sha256": "f57d352bfaca0de7ef2c707609f5cd7ac0b94beb3345e3299a23fe63583fe218",
+      "rationale": "PR B's script is PR A's environment-variable-based script plus informational checks for AZURE_MODEL_DEPLOYMENT_NAME, AZURE_MODEL_API_PATH and the auth mode before the SDK banner, so B's content subsumes A's."
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/testing.sh",
+      "action": "keep",
+      "sha256": "2ec215303f742f63bc0183aaf721848c7a4ef9d50c8594e49bef3cfbcb673bd8",
+      "rationale": "PR B's check_required_env keeps PR A's PROJECT_ENDPOINT/AZURE_ENDPOINT check and SDK banner and adds the optional-variable and authentication notices, so B's version contains both sides' intent."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:40:17.286972Z"
+}

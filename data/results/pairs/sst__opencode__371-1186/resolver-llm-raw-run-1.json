@@ -1,0 +1,43 @@
+{
+  "pair_id": "sst__opencode__371-1186",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 145960,
+  "tokens": {
+    "input_tokens": 28,
+    "output_tokens": 7964,
+    "cache_creation_input_tokens": 91246,
+    "cache_read_input_tokens": 915118
+  },
+  "tool_calls": 23,
+  "files": [
+    {
+      "path": "packages/opencode/src/cli/cmd/mcp.ts",
+      "action": "keep",
+      "sha256": "a610f6c4f924755021d4ec90889278e75a47cf87da45843558f241f0db0fa2ae",
+      "rationale": "Both sides added this file with the same exports (McpCommand, McpAddCommand); PR A's non-interactive add/remove/list/get/add-json/enable/disable suite, which persists config and is covered by PR A's tests, supersedes PR B's stub interactive add that never saved anything, so PR A's version is kept."
+    },
+    {
+      "path": "packages/opencode/src/config/config.ts",
+      "action": "keep",
+      "sha256": "993364608c7588dab5ee8f593b5e163877b2ff6fec63509c93612a36ba53f1e9",
+      "rationale": "Both sides added the same optional headers record to McpRemote, differing only in description text, so a single headers field is kept (PR B's wording)."
+    },
+    {
+      "path": "packages/opencode/src/index.ts",
+      "action": "keep",
+      "sha256": "02121c77a2b47fecd84ca49eacb6c41dfca1addb77f8a1d7fb2bd70fcafaf097",
+      "rationale": "Both sides import and register McpCommand, so it is imported and registered once, and PR B's InstallGithubCommand import and registration are added."
+    },
+    {
+      "path": "packages/opencode/src/mcp/index.ts",
+      "action": "keep",
+      "sha256": "74d420b5e3e5c1a5f590cd11aa41361ced615a3077c55821f134ec14de602c22",
+      "rationale": "Both sides pass configured headers to the SSE transport equivalently, so the single headers: mcp.headers line is kept."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:40:23.155385Z"
+}

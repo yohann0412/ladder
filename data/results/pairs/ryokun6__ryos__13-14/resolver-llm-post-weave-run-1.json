@@ -1,0 +1,31 @@
+{
+  "pair_id": "ryokun6__ryos__13-14",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 272874,
+  "tokens": {
+    "input_tokens": 42,
+    "output_tokens": 7210,
+    "cache_creation_input_tokens": 160050,
+    "cache_read_input_tokens": 2178225
+  },
+  "tool_calls": 33,
+  "files": [
+    {
+      "path": "api/chat-rooms.js",
+      "action": "keep",
+      "sha256": "cfceff3a695b3ebf5c6ddea517072749a501c4e6276cad0ef20333b17b49ded2",
+      "rationale": "Both PRs add the same MAX_USERNAME_LENGTH constant and length checks in ensureUserExists and handleCreateUser, which cannot coexist, so a single copy of each check is kept, using PR B's 30-character limit and its more descriptive log and error messages, and weave's spurious blank lines between constants are dropped."
+    },
+    {
+      "path": "src/apps/chats/components/ChatMessages.tsx",
+      "action": "keep",
+      "sha256": "6f5fa6f742d4b9b3372b499916914b9bac337ad8d4f4f8184f08e255545dc5e2",
+      "rationale": "Both PRs wrap the username in a 120px max-width span with ellipsis truncation, so PR B's span is used because it gives the same truncation as PR A's and adds a title attribute that shows the full username on hover."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:40:17.930237Z"
+}

@@ -1,0 +1,43 @@
+{
+  "pair_id": "azure-ai-foundry__foundry-samples__223-232",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 146101,
+  "tokens": {
+    "input_tokens": 38,
+    "output_tokens": 5120,
+    "cache_creation_input_tokens": 123173,
+    "cache_read_input_tokens": 1679294
+  },
+  "tool_calls": 39,
+  "files": [
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/TESTING.md",
+      "action": "keep",
+      "sha256": "80ce922ee594b2a46cd40d7419d2c540e69a4317094197b294c9772b48066ebf",
+      "rationale": "PR B's version is PR A's rewritten guide plus B's PROJECT_ENDPOINT/AZURE_MODEL_* documentation updates, so B's text (in A's original section order) keeps both intents."
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/src/main/java/com/azure/ai/foundry/samples/ChatCompletionSample.java",
+      "action": "keep",
+      "sha256": "8ceb91163b204814ea16be095712879e9b716afa14213007e9d66b6ab5828444",
+      "rationale": "PR B refines the same Inference-SDK sample PR A introduced to use PROJECT_ENDPOINT with blank checks and TokenCredential, so B's version supersedes A's and is taken whole."
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/src/main/java/com/azure/ai/foundry/samples/ChatCompletionStreamingSample.java",
+      "action": "keep",
+      "sha256": "7ae1ee4ce6e081990d606b48ee91848bd984cfef86b0b98b2b52ea5b76b5aa6b",
+      "rationale": "PR B reworks PR A's Inference-SDK streaming sample to read PROJECT_ENDPOINT and print tokens as they arrive, so B's version supersedes A's and is taken whole without the duplicated Javadoc."
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/testing.bat",
+      "action": "keep",
+      "sha256": "f57d352bfaca0de7ef2c707609f5cd7ac0b94beb3345e3299a23fe63583fe218",
+      "rationale": "PR B's script is PR A's script plus informational checks for AZURE_MODEL_DEPLOYMENT_NAME, AZURE_MODEL_API_PATH and AZURE_AI_API_KEY, so B's version contains both sides' changes."
+    }
+  ],
+  "finalized_at": "2026-10-05T08:40:16.721320Z"
+}
