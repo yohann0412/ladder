@@ -5,6 +5,7 @@ from collections.abc import Sequence
 from rich.console import Console
 from rich.markup import escape
 
+from ladder.canary import CanaryHit, PlantedCanary
 from ladder.resolver_records import run_label
 from ladder.schemas import ResolverPlan, ResolverRun, ResolverTask
 
@@ -53,3 +54,12 @@ def render_run(console: Console, record: ResolverRun) -> None:
     )
     for violation in record.violations:
         console.print(f"  {escape(violation)}")
+
+
+def render_canaries(
+    console: Console, planted: Sequence[PlantedCanary], hits: Sequence[CanaryHit]
+) -> None:
+    """Print every canary hit, then how many markers were searched for."""
+    for hit in hits:
+        console.print(escape(f"HIT {hit.marker!r} (planted for {hit.pair_id}) in {hit.path}"))
+    console.print(f"{len(hits)} hits for {len(planted)} planted markers")

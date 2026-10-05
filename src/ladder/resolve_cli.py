@@ -7,6 +7,7 @@ import typer
 from rich.console import Console
 from rich.markup import escape
 
+from ladder.canary import check_canaries, plant_canary
 from ladder.cli_support import PairArgument, load_pair, refused
 from ladder.context import layout_from
 from ladder.finalize import finalize_run
@@ -16,6 +17,7 @@ from ladder.prepare import prepare_run
 from ladder.refusal import RefusedError
 from ladder.resolver_records import pending_tasks
 from ladder.resolver_view import (
+    render_canaries,
     render_pending,
     render_plan,
     render_run,
@@ -27,6 +29,11 @@ from ladder.schemas import LlmRung, PairSet
 app = typer.Typer(
     help="Plan, prepare, audit and ingest resolver subagent runs.", no_args_is_help=True
 )
+canary_app = typer.Typer(
+    help="Plant markers in repository caches and search resolver outputs for them.",
+    no_args_is_help=True,
+)
+app.add_typer(canary_app, name="canary")
 
 RungOption = Annotated[LlmRung, typer.Option(help="The LLM rung the run belongs to.")]
 RunOption = Annotated[int, typer.Option(min=1, help="The run number, from 1.")]
@@ -112,3 +119,30 @@ def finalize(
     except RefusedError as error:
         raise refused(error) from error
     render_run(Console(soft_wrap=True, highlight=False), record)
+
+
+@canary_app.command("plant")
+def canary_plant(
+    ctx: typer.Context,
+    pair_id: PairArgument,
+    marker: Annotated[str, typer.Option(help="The marker text to plant.")],
+) -> None:
+    """Commit a marker on top of the default branch of a pair's repository cache."""
+    layout = layout_from(ctx)
+    _, pair = load_pair(layout, pair_id)
+    try:
+        planted = plant_canary(layout, pair, marker)
+    except RefusedError as error:
+        raise refused(error) from error
+    Console(soft_wrap=True, highlight=False).print(
+        f"Planted {escape(repr(marker))} for {pair_id} at {planted.commit} (refs/ladder/canary)"
+    )
+
+
+@canary_app.command("check")
+def canary_check(ctx: typer.Context) -> None:
+    """Search every resolver output for every planted marker; exit 1 on any hit."""
+    planted, hits = check_canaries(layout_from(ctx))
+    render_canaries(Console(soft_wrap=True, highlight=False), planted, hits)
+    if hits:
+        raise typer.Exit(1)
