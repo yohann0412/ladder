@@ -1,0 +1,15 @@
+{
+  "pair_id": "vaadin__flow__21824-22446",
+  "commit": "2b0d10e7516ae9e2ffce812bae18779c54135c36",
+  "language": "java",
+  "package_manager": "mvn",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "java project; no adapter for java (mvn is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

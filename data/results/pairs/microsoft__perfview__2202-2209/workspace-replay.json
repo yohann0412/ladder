@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__perfview__2202-2209",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/microsoft__perfview__2202-2209",
+  "source_base": "bf245fd802190f4cf9223e2bd9de20707c61ab4c",
+  "source_a": "9d0f742037c6f8517a557a3001014807a940fe3d",
+  "source_b": "c7f656e1cca2d57cab1c383c855dbf0e58aa52ed",
+  "base_commit": "3287111d249d96d14973ba0aa8efe991dbc41a3d",
+  "a_commit": "c3129cf5dbcc172d6cb7ad7543184dcbd8f6677b",
+  "b_commit": "221b07ca8b816d7388f1e21cdeffae26a98fdcc1",
+  "object_count": 882,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

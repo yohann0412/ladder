@@ -1,0 +1,23 @@
+{
+  "pair_id": "zenml-io__zenml__3678-3679",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/zenml-io__zenml__3678-3679",
+  "source_base": "575f262fc14b41469d63786f9037ce63d6dfcdb3",
+  "source_a": "8850ac910770db0f91163f6870261305e5067b51",
+  "source_b": "3b1a2bd2d5321b42b0ceffd8fe35c44829da9735",
+  "base_commit": "4ae02805cf21f94f6e39da46013937b2d2f1d778",
+  "a_commit": "83ab9e6c982c5165782b175cf28d838016a88182",
+  "b_commit": "e24d27353ae9dbce67eba3c9eff4f4cf17c0ac0e",
+  "object_count": 3245,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

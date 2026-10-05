@@ -1,0 +1,61 @@
+{
+  "pair_id": "microsoft__perfview__2202-2209",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: missing_toolchain"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: missing_toolchain"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: missing_toolchain"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: missing_toolchain (csharp project; dotnet is not installed)",
+  "files_a": [
+    "src/TraceEvent/Symbols/SymbolReader.cs"
+  ],
+  "files_b": [
+    ".github/CODEOWNERS",
+    ".github/workflows/copilot-setup-setups.yml",
+    "src/PerfView.Tests/StackViewer/StackWindowTests.cs",
+    "src/PerfView/StackViewer/PerfDataGrid.xaml.cs",
+    "src/PerfView/StackViewer/StackWindow.xaml.cs",
+    "src/TraceEvent/DynamicTraceEventParser.cs",
+    "src/TraceEvent/EventPipe/EventPipeMetadata.cs",
+    "src/TraceEvent/EventPipe/NetTraceFormat.md",
+    "src/TraceEvent/EventPipe/NetTraceFormat_v5.md",
+    "src/TraceEvent/RegisteredTraceEventParser.cs",
+    "src/TraceEvent/Symbols/SymbolReader.cs",
+    "src/TraceEvent/TraceEvent.Tests/Parsing/EventPipeParsing.cs",
+    "src/TraceEvent/TraceEvent.Tests/inputs/eventpipe-dotnetcore5.0-win-x64-arraytypes.nettrace.baseline.txt",
+    "src/TraceEvent/TraceEvent.cs",
+    "src/TraceEvent/TraceLog.cs"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "vaadin__flow__21824-22446",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/vaadin__flow__21824-22446",
+  "source_base": "2b0d10e7516ae9e2ffce812bae18779c54135c36",
+  "source_a": "e0552e57de46d9d3c138c0acc469a1c59345a05a",
+  "source_b": "eacdd01e22b4d2cca6b9b230ba175bbef04891ac",
+  "base_commit": "80993ba97f82b6c9744f479c33d618b96609ad1d",
+  "a_commit": "74b0aeb566995bb5294ea4d7cf8d6908dffd4217",
+  "b_commit": "1e4f7428624e8b46b9b21f6b2f01bde50279eeb6",
+  "object_count": 10707,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

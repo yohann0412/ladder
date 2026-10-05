@@ -1,0 +1,15 @@
+{
+  "pair_id": "microsoft__perfview__2202-2209",
+  "commit": "bf245fd802190f4cf9223e2bd9de20707c61ab4c",
+  "language": "csharp",
+  "package_manager": "dotnet",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "csharp project; dotnet is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
