@@ -1,0 +1,18 @@
+{
+  "pair_id": "Sls0n__Prismify__39-42",
+  "status": "located",
+  "commit": "30fa170c89e5c7a8df87edb7a5d0672f9898ad2c",
+  "method": "subject_time",
+  "files": [
+    {
+      "path": "components/settings-dialog.tsx",
+      "present": true,
+      "sha256": "0b7c245ffee54a5dc2e17d42452eb5ea3807b17b3e8545b2a9f11335723769f7"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": true,
+  "extracted_at": "2026-10-05T11:21:31.688828Z"
+}

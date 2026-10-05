@@ -1,0 +1,15 @@
+{
+  "pair_id": "Sls0n__Prismify__39-42",
+  "commit": "c195887290a76a5d98cbe9d056553ed5354ee5ac",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

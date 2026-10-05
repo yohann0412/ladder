@@ -475,3 +475,6 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   or about to reach (each shard's current pair and the next three), up to 10 GiB free.
   The first round deleted 31 caches. A pair whose cache is gone clones it again, which
   costs time, not records.
+- 11:25: `e2e/test_report.py` re-run on the main checkout after merging F9b: 3 passed in
+  252 s (slow because the three shards were running). An earlier run with a 900 s limit
+  was cut off by that limit after two tests passed. It was a time limit, not a failure.
