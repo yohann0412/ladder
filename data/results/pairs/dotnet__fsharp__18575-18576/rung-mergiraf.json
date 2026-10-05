@@ -1,0 +1,111 @@
+{
+  "pair_id": "dotnet__fsharp__18575-18576",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 14",
+  "remaining_conflicted": [
+    "src/Compiler/Checking/Expressions/CheckExpressions.fs"
+  ],
+  "files": [
+    {
+      "path": "src/Compiler/Checking/Expressions/CheckExpressions.fs",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.cs.xlf",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.de.xlf",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.es.xlf",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.fr.xlf",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.it.xlf",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.ja.xlf",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.ko.xlf",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.pl.xlf",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.pt-BR.xlf",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.ru.xlf",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.tr.xlf",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.zh-Hans.xlf",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/Compiler/xlf/FSComp.txt.zh-Hant.xlf",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/dotnet__fsharp__18575-18576/mergiraf"
+}

@@ -1,0 +1,20 @@
+{
+  "pair_id": "webgptorg__promptbook__274-276",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "src/remote-server/startRemoteServer.ts"
+  ],
+  "files": [
+    {
+      "path": "src/remote-server/startRemoteServer.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/webgptorg__promptbook__274-276/weave"
+}

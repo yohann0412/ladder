@@ -1,0 +1,28 @@
+{
+  "pair_id": "ethereum-optimism__optimism__16385-16397",
+  "rung": "llm-raw",
+  "run": 1,
+  "task_dir": "/home/user/ladder/work/resolver/ethereum-optimism__optimism__16385-16397/llm-raw/run-1",
+  "snapshot_dir": "/home/user/ladder/work/resolver/ethereum-optimism__optimism__16385-16397/llm-raw/run-1/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/ethereum-optimism__optimism__16385-16397/llm-raw/run-1",
+  "spawn_line": "Read /home/user/ladder/work/resolver/ethereum-optimism__optimism__16385-16397/llm-raw/run-1/PROMPT.md and follow it exactly.",
+  "files": [
+    "op-devstack/sysgo/l2_cl.go",
+    "op-e2e/actions/helpers/l2_verifier.go",
+    "op-e2e/actions/interop/interop_test.go",
+    "op-node/rollup/derive/pipeline.go",
+    "op-node/rollup/driver/driver.go",
+    "op-node/rollup/driver/state.go",
+    "op-node/rollup/interop/iface.go",
+    "op-node/rollup/interop/indexing/system.go",
+    "op-node/rollup/interop/indexing/system_test.go",
+    "op-program/client/tasks/deposits_block.go",
+    "op-supervisor/supervisor/backend/syncnode/rpc.go"
+  ],
+  "input_bytes": 497175,
+  "pr_text_flags": [],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "pending",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T08:42:52.929280Z"
+}

@@ -1,0 +1,28 @@
+{
+  "pair_id": "PrefectHQ__prefect__18098-18099",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 2",
+  "remaining_conflicted": [
+    "ui-v2/src/components/work-pools/work-pool-details-header.tsx",
+    "ui-v2/src/routes/work-pools/work-pool.$workPoolName.tsx"
+  ],
+  "files": [
+    {
+      "path": "ui-v2/src/components/work-pools/work-pool-details-header.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    },
+    {
+      "path": "ui-v2/src/routes/work-pools/work-pool.$workPoolName.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/PrefectHQ__prefect__18098-18099/weave"
+}

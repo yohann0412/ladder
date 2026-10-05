@@ -1,0 +1,28 @@
+{
+  "pair_id": "AgentOps-AI__agentops__603-605",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 2",
+  "remaining_conflicted": [
+    ".github/workflows/python-testing.yml",
+    "tox.ini"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/python-testing.yml",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "tox.ini",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/AgentOps-AI__agentops__603-605/weave"
+}

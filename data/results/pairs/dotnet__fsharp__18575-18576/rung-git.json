@@ -2,7 +2,7 @@
   "pair_id": "dotnet__fsharp__18575-18576",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 14, conflicted files: 14 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 14, conflicted files: 14",
   "messages": [
     "CONFLICT (content): Merge conflict in src/Compiler/Checking/Expressions/CheckExpressions.fs",
     "CONFLICT (content): Merge conflict in src/Compiler/xlf/FSComp.txt.cs.xlf",

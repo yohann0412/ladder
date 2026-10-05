@@ -1,0 +1,23 @@
+{
+  "pair_id": "webgptorg__promptbook__274-276",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/webgptorg__promptbook__274-276",
+  "source_base": "3d82206d835d4e597f5849df5fde21c4bb142d79",
+  "source_a": "72e3842f2005f601622077d9662a9c5540e5bb32",
+  "source_b": "c92f9a875a2b7a31308d1435d14c1392a1cd0ac4",
+  "base_commit": "e6b67a189a2c4d12c7bc1d0d5ec345b32c1afd04",
+  "a_commit": "7bad8f7584c1dda8f9553f500070dd26d6a0788c",
+  "b_commit": "bd128f57915b57686516a0c156c51919ae588f7f",
+  "object_count": 2460,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

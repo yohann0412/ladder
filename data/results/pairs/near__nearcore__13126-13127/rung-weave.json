@@ -1,0 +1,27 @@
+{
+  "pair_id": "near__nearcore__13126-13127",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 2",
+  "remaining_conflicted": [
+    "chain/chain/src/types.rs"
+  ],
+  "files": [
+    {
+      "path": "chain/chain/src/types.rs",
+      "present": true,
+      "has_markers": true,
+      "language": "rust",
+      "parses": false
+    },
+    {
+      "path": "core/primitives/src/utils.rs",
+      "present": true,
+      "has_markers": false,
+      "language": "rust",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/near__nearcore__13126-13127/weave"
+}

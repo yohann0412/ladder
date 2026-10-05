@@ -1,0 +1,96 @@
+{
+  "pair_id": "ethereum-optimism__optimism__16385-16397",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 7 of 11",
+  "remaining_conflicted": [
+    "op-e2e/actions/helpers/l2_verifier.go",
+    "op-node/rollup/derive/pipeline.go",
+    "op-node/rollup/driver/driver.go",
+    "op-node/rollup/driver/state.go",
+    "op-node/rollup/interop/iface.go",
+    "op-node/rollup/interop/indexing/system.go",
+    "op-node/rollup/interop/indexing/system_test.go"
+  ],
+  "files": [
+    {
+      "path": "op-devstack/sysgo/l2_cl.go",
+      "present": true,
+      "has_markers": false,
+      "language": "go",
+      "parses": true
+    },
+    {
+      "path": "op-e2e/actions/helpers/l2_verifier.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "op-e2e/actions/interop/interop_test.go",
+      "present": true,
+      "has_markers": false,
+      "language": "go",
+      "parses": true
+    },
+    {
+      "path": "op-node/rollup/derive/pipeline.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "op-node/rollup/driver/driver.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "op-node/rollup/driver/state.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "op-node/rollup/interop/iface.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "op-node/rollup/interop/indexing/system.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "op-node/rollup/interop/indexing/system_test.go",
+      "present": true,
+      "has_markers": false,
+      "language": "go",
+      "parses": true
+    },
+    {
+      "path": "op-program/client/tasks/deposits_block.go",
+      "present": true,
+      "has_markers": false,
+      "language": "go",
+      "parses": true
+    },
+    {
+      "path": "op-supervisor/supervisor/backend/syncnode/rpc.go",
+      "present": true,
+      "has_markers": false,
+      "language": "go",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/ethereum-optimism__optimism__16385-16397/mergiraf"
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "ant-design__ant-design__54316-54317",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T08:41:17.833245Z"
+}

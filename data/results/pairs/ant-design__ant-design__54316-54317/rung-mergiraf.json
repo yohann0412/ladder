@@ -1,0 +1,20 @@
+{
+  "pair_id": "ant-design__ant-design__54316-54317",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "components/splitter/SplitBar.tsx"
+  ],
+  "files": [
+    {
+      "path": "components/splitter/SplitBar.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/ant-design__ant-design__54316-54317/mergiraf"
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "ethereum-optimism__optimism__16385-16397",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T08:42:51.550916Z"
+}

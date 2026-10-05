@@ -1,0 +1,19 @@
+{
+  "pair_id": "microsoft__BotFramework-WebChat__5483-5499",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: CHANGELOG.md version base has 300266 bytes, more than 200000",
+    "input cap: CHANGELOG.md version a has 300623 bytes, more than 200000",
+    "input cap: CHANGELOG.md version b has 301428 bytes, more than 200000",
+    "input cap: CHANGELOG.md version conflicted has 301832 bytes, more than 200000",
+    "input cap: 1204149 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T08:42:00.000927Z"
+}

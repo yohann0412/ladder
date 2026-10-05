@@ -1,0 +1,23 @@
+{
+  "pair_id": "near__nearcore__13126-13127",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/near__nearcore__13126-13127",
+  "source_base": "ea072848f1217596645ab275cf6a38eba2b47d37",
+  "source_a": "0b5c723ab2114488bbfba5539f51f6f323b57ce1",
+  "source_b": "0e4cf0a98db4e7a85b048cda02a5e7c6ddc2bc80",
+  "base_commit": "d0ae53ae1f0a21ed2ff2517a4340ae54b80c697b",
+  "a_commit": "56a0a63e2f0c47b537237f5ceb7d45e7e38471d7",
+  "b_commit": "c88b10225bdd35b21c9ec2e65f0e618160c41a2f",
+  "object_count": 2904,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

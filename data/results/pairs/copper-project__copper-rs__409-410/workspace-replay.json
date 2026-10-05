@@ -1,0 +1,23 @@
+{
+  "pair_id": "copper-project__copper-rs__409-410",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/copper-project__copper-rs__409-410",
+  "source_base": "e908aa1ac9fa5349ea477124d116832a6956fafc",
+  "source_a": "3dcbfc60e4c5f0ca5714238bcd3e73e3f97a8ba5",
+  "source_b": "cf385eb872ed35c9f9759f60c02f6b74b532d0ba",
+  "base_commit": "5001de8390efd2ba7bf743e3adbff8b75d6390cd",
+  "a_commit": "c41bac22d128f511f64d2da3def90702db414a44",
+  "b_commit": "225b618facdfc4cef27a68a1a11b0452522d0793",
+  "object_count": 648,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -2,7 +2,7 @@
   "pair_id": "ethereum-optimism__optimism__16385-16397",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 12, conflicted files: 11 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 12, conflicted files: 11",
   "messages": [
     "CONFLICT (content): Merge conflict in op-devstack/sysgo/l2_cl.go",
     "CONFLICT (content): Merge conflict in op-e2e/actions/helpers/l2_verifier.go",

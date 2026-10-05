@@ -1,0 +1,23 @@
+{
+  "pair_id": "AgentOps-AI__agentops__603-605",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/AgentOps-AI__agentops__603-605",
+  "source_base": "915cb590af512bad09f0a238458a40647e2124a8",
+  "source_a": "fc2438ec3b15d03dcf3e31e52e4ad7eb251cc033",
+  "source_b": "0f14a7365c817b837f3aa2f991427cb9fddc8c19",
+  "base_commit": "3cc30e5f185ef9446bca88fa3eaabc8f5e71721a",
+  "a_commit": "4ece07e33f3da8bbe31b35068ee2b4aa6d7d488d",
+  "b_commit": "bf8ea545a263e9940c65b882dab10dfdc0a597c8",
+  "object_count": 383,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

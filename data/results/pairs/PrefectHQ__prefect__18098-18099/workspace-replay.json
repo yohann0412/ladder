@@ -1,0 +1,23 @@
+{
+  "pair_id": "PrefectHQ__prefect__18098-18099",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/PrefectHQ__prefect__18098-18099",
+  "source_base": "554a7b6cb42c108cc8053368259ec6988ef67f74",
+  "source_a": "a3f70849ba97da374bfbba8db8f9668329c78132",
+  "source_b": "d98d60c664b6a65f718aeb161860b739533322b9",
+  "base_commit": "0e249f972ff95c481f4e8eab796c3c8c7d9f4110",
+  "a_commit": "c22f12ce88b3835e447f31b3ce4f907d95a3b35d",
+  "b_commit": "85c0586bc9f1e241c8ef07c356f1e48ecef520c1",
+  "object_count": 3682,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

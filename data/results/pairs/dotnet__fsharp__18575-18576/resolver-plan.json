@@ -1,0 +1,15 @@
+{
+  "pair_id": "dotnet__fsharp__18575-18576",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T08:41:35.727760Z"
+}

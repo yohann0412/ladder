@@ -1,0 +1,21 @@
+{
+  "pair_id": "microsoft__BotFramework-WebChat__5483-5499",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 1",
+  "remaining_conflicted": [
+    "CHANGELOG.md",
+    "package-lock.json"
+  ],
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/microsoft__BotFramework-WebChat__5483-5499/weave"
+}
