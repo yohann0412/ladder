@@ -1,0 +1,29 @@
+{
+  "pair_id": "onflow__flow-go__7551-7555",
+  "commit": "9c74b832c3bf97b5b9f7be3e988f0aa994a9db5b",
+  "language": "go",
+  "package_manager": "go modules",
+  "test_runner": "go test",
+  "status": "unrunnable",
+  "reason": "exceeds_cap",
+  "reason_detail": "build: stopped, free disk below the 3 GiB floor",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "go",
+        "test",
+        "-count=1",
+        "-run",
+        "^$",
+        "./..."
+      ],
+      "exit_code": null,
+      "duration_s": 518.4,
+      "detail": "standard, install cap 900 s: install: exit 0 in 16.3 s; build: stopped, free disk below the 3 GiB floor; output tail: ok  \tgithub.com/onflow/flow-go/module/finalizer/consensus\t0.221s [no tests to run] | ok  \tgithub.com/onflow/flow-go/module/forest\t0.317s [no tests to run] | ?   \tgithub.com/onflow/flow-go/module/forest/mock\t[no test files] | ?   \tgithub.com/onflow/flow-go/module/grpcclient\t[no test files] | ?   \tgithub.com/onflow/flow-go/module/grpcserver\t[no test files] | ok  \tgithub.com/onflow/flow-go/module/id\t0.240s [no tests to run] | ok  \tgithub.com/onflow/flow-go/module/irrecoverable\t0.394s [no tests to run] | stopped: 3.0 GiB free under /home/user/ladder/work/runtime/onflow__flow-go__7551-7555/trees/base, below the 3 GiB floor set by LADDER_MIN_FREE_GIB"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
