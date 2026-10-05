@@ -1,0 +1,15 @@
+{
+  "pair_id": "nunit__nunit3-vs-adapter__1274-1275",
+  "commit": "b26a9568fe86d2e8d78d31fe34e9850aa5ff1a23",
+  "language": "csharp",
+  "package_manager": "dotnet",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "csharp project; dotnet is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

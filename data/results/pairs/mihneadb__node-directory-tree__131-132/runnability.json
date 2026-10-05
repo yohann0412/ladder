@@ -1,0 +1,54 @@
+{
+  "pair_id": "mihneadb__node-directory-tree__131-132",
+  "commit": "248bc55925493b7094ab6f14a05b42d880df6ddc",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": "mocha",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 1 failed, 0 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "npm",
+        "ci"
+      ],
+      "exit_code": 0,
+      "duration_s": 26.6,
+      "detail": "standard, install cap 900 s: install: exit 0 in 2.4 s; suite failed: 17 passed, 1 failed, 0 errors, 0 skipped (test/test.js::directoryTree should not crash with directories where the user does not have necessary permissions); first run failed: 17 passed, 1 failed, 0 errors, 0 skipped (test/test.js::directoryTree should not crash with directories where the user does not have necessary permissions)"
+    },
+    {
+      "command": [
+        "npm",
+        "install",
+        "--legacy-peer-deps"
+      ],
+      "exit_code": 0,
+      "duration_s": 23.2,
+      "detail": "legacy-peer-deps (npm install --legacy-peer-deps instead of a clean install), install cap 900 s: install: exit 0 in 1.3 s; suite failed: 17 passed, 1 failed, 0 errors, 0 skipped (test/test.js::directoryTree should not crash with directories where the user does not have necessary permissions); first run failed: 17 passed, 1 failed, 0 errors, 0 skipped (test/test.js::directoryTree should not crash with directories where the user does not have necessary permissions)"
+    }
+  ],
+  "test_count": 18,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/mihneadb__node-directory-tree__131-132/trees/base/node_modules/.bin/mocha",
+      "--reporter",
+      "json",
+      "--reporter-option",
+      "output=/home/user/ladder/work/runtime/mihneadb__node-directory-tree__131-132/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 17,
+    "failed": 1,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 10.7,
+    "retried": true,
+    "failing_tests": [
+      "test/test.js::directoryTree should not crash with directories where the user does not have necessary permissions"
+    ],
+    "detail": "17 passed, 1 failed, 0 errors, 0 skipped (test/test.js::directoryTree should not crash with directories where the user does not have necessary permissions); first run failed: 17 passed, 1 failed, 0 errors, 0 skipped (test/test.js::directoryTree should not crash with directories where the user does not have necessary permissions)"
+  },
+  "timeout_s": 600
+}

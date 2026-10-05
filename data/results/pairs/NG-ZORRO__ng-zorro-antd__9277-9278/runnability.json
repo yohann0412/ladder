@@ -1,0 +1,15 @@
+{
+  "pair_id": "NG-ZORRO__ng-zorro-antd__9277-9278",
+  "commit": "7c7de928e52c85d5e5c34a2cf454808742d5daba",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

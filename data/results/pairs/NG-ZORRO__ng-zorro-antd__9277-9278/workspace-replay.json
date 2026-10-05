@@ -1,0 +1,23 @@
+{
+  "pair_id": "NG-ZORRO__ng-zorro-antd__9277-9278",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/NG-ZORRO__ng-zorro-antd__9277-9278",
+  "source_base": "7c7de928e52c85d5e5c34a2cf454808742d5daba",
+  "source_a": "3ffe89da20c979201e7d5a721c3e5ac26d09e691",
+  "source_b": "3a6b72348a99359a371c53beee21871f2b6c72bd",
+  "base_commit": "ce4a5c57e3dc830e924694d3cd348b7f45bffa35",
+  "a_commit": "0752809671fe1f858756fd7695469c3d6dbaa5b5",
+  "b_commit": "46930c065012a2e6f6cb552088fcf1eb1f28abb4",
+  "object_count": 3669,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

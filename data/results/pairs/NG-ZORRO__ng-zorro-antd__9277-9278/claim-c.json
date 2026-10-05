@@ -1,0 +1,53 @@
+{
+  "pair_id": "NG-ZORRO__ng-zorro-antd__9277-9278",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: other (no jest, vitest or mocha test runner in package.json)",
+  "files_a": [
+    "components/input/demo/otp.md",
+    "components/input/demo/otp.ts",
+    "components/input/doc/index.en-US.md",
+    "components/input/doc/index.zh-CN.md",
+    "components/input/input-otp.component.ts",
+    "components/input/input-otp.spec.ts"
+  ],
+  "files_b": [
+    "components/tabs/tab-body.component.ts",
+    "components/tabs/tabs-memory-leak.spec.ts"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "BlueWallet__BlueWallet__7988-7989",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/BlueWallet__BlueWallet__7988-7989",
+  "source_base": "c77e159413ae9f75616bd5fde2c522ef1cd574ae",
+  "source_a": "8ae04cadb2dff9484bfb038637845596e45e01ac",
+  "source_b": "40ad916477e39a9a9552d2c6cb0e0b8f0cc521c2",
+  "base_commit": "fd5966f1d99909ec4cd12e8e2b766bcb639b3da7",
+  "a_commit": "cdb841780c7b1f385ebf106519f9fb2c9c8a9089",
+  "b_commit": "1d7bccf3bf876495ba6567d50f720e7be5f28dcb",
+  "object_count": 1199,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
