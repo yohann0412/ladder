@@ -1,0 +1,62 @@
+{
+  "pair_id": "openops-cloud__openops__666-668",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: exceeds_cap"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: exceeds_cap"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: exceeds_cap"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: exceeds_cap (install: stopped, free disk below the 3 GiB floor)",
+  "files_a": [
+    ".env.template",
+    ".github/workflows/ci.yml",
+    ".github/workflows/release.yml",
+    "Dockerfile",
+    "deploy/docker-compose/docker-compose.yml",
+    "docker-compose.yml",
+    "engine.Dockerfile"
+  ],
+  "files_b": [
+    "README.md",
+    "deploy/docker-compose/README.md",
+    "package-lock.json",
+    "package.json",
+    "packages/engine/src/api-handler.ts",
+    "packages/server/api/src/app/ai/chat/ai-mcp-chat.controller.ts",
+    "packages/server/api/src/app/ai/chat/tools.service.ts",
+    "packages/server/api/src/app/app.ts",
+    "packages/server/api/test/unit/ai/ai-mcp-chat.controller.test.ts",
+    "packages/server/api/test/unit/ai/tools.service.test.ts"
+  ]
+}
