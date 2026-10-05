@@ -1,0 +1,10 @@
+{
+  "pair_id": "evan-liu__karabiner.ts__186-187",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "113799880b73db4a7eafc69e18e63a020600c006"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "julep-ai__julep__1370-1373",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "33d1579c429a7fa5365018e8e8466ee7e2d32120"
+}

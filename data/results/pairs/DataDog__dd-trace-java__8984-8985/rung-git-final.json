@@ -1,0 +1,10 @@
+{
+  "pair_id": "DataDog__dd-trace-java__8984-8985",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "497c427dff44068be29a01c3043566f2d5fa768a"
+}

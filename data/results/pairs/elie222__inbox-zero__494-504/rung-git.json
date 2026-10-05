@@ -1,0 +1,10 @@
+{
+  "pair_id": "elie222__inbox-zero__494-504",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "197fbc55a1935edfaf33d0d4d6591ecd6038c12e"
+}

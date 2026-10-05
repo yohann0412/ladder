@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__lisa__3824-3826",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c5fc170bea185524007bdd6daffd832513140d78"
+}

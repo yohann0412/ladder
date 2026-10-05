@@ -1,0 +1,43 @@
+{
+  "pair_id": "pytorch__test-infra__6779-6781",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in torchci/components/TorchAgentPage.tsx",
+    "CONFLICT (content): Merge conflict in torchci/pages/api/torchagent-get-chat-history/index.ts",
+    "CONFLICT (content): Merge conflict in torchci/pages/api/torchagent-get-history/index.ts"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "torchci/components/TorchAgentPage.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "torchci/pages/api/torchagent-get-chat-history/index.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "torchci/pages/api/torchagent-get-history/index.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

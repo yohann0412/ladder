@@ -1,0 +1,10 @@
+{
+  "pair_id": "TanStack__db__198-203",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "642c3133ff7368eacdfd8393054b48ab5b5631de"
+}

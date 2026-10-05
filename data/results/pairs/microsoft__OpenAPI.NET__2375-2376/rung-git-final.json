@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__OpenAPI.NET__2375-2376",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "8c490e34f868f66e30f1a7b97d11da7297deb6fa"
+}

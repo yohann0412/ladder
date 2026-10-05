@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__vscode-python__25103-25156",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5e58c6dccc3f616981637c29a058519654fc50a8"
+}

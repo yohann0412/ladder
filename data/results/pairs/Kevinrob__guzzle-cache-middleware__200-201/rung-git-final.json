@@ -1,0 +1,10 @@
+{
+  "pair_id": "Kevinrob__guzzle-cache-middleware__200-201",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "90b67fe38f3276da66789c18806291c1734360fc"
+}

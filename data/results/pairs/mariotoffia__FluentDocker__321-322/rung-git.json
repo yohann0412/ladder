@@ -2,7 +2,7 @@
   "pair_id": "mariotoffia__FluentDocker__321-322",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 3, conflicted files: 3",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in Ductus.FluentDocker.Tests/Ductus.FluentDocker.Tests.csproj",
     "CONFLICT (content): Merge conflict in Ductus.FluentDocker/Services/Impl/DockerComposeCompositeService.cs",

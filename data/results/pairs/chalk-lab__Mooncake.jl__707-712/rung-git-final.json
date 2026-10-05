@@ -1,0 +1,33 @@
+{
+  "pair_id": "chalk-lab__Mooncake.jl__707-712",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/fwds_rvs_data.jl",
+    "CONFLICT (content): Merge conflict in test/fwds_rvs_data.jl"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/fwds_rvs_data.jl",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "test/fwds_rvs_data.jl",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

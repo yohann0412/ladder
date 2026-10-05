@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__WinUI-Gallery__1973-1975",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d066a838ece93749e1e0ef9616e651c2dc8ea53d"
+}

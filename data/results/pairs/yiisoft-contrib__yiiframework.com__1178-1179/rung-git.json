@@ -2,7 +2,7 @@
   "pair_id": "yiisoft-contrib__yiiframework.com__1178-1179",
   "heads": "replay",
   "status": "clean",
-  "detail": "b merges into a cleanly",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
   "messages": [],
   "types": [],
   "files": [],

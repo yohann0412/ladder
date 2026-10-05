@@ -1,0 +1,53 @@
+{
+  "pair_id": "featureform__enrichmcp__45-46",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in examples/sqlalchemy_shop/app.py",
+    "CONFLICT (content): Merge conflict in src/enrichmcp/__init__.py",
+    "CONFLICT (content): Merge conflict in src/enrichmcp/sqlalchemy/mixin.py",
+    "CONFLICT (content): Merge conflict in tests/test_sqlalchemy_integration.py"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "examples/sqlalchemy_shop/app.py",
+      "types": [
+        "content"
+      ],
+      "regions": 9,
+      "category": "source"
+    },
+    {
+      "path": "src/enrichmcp/__init__.py",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "src/enrichmcp/sqlalchemy/mixin.py",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "types": [
+        "content"
+      ],
+      "regions": 28,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

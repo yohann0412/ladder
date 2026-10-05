@@ -1,0 +1,10 @@
+{
+  "pair_id": "jlucaso1__whatsapp-rust__12-14",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "1d81692ddc7a40a58588ff176053676c14e60141"
+}

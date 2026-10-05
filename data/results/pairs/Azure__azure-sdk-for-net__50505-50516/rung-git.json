@@ -1,0 +1,10 @@
+{
+  "pair_id": "Azure__azure-sdk-for-net__50505-50516",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "1c3f779405ba1e5fa7b9e6b6f10d7a74082d5876"
+}

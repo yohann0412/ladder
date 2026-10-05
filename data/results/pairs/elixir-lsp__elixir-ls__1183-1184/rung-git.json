@@ -1,0 +1,10 @@
+{
+  "pair_id": "elixir-lsp__elixir-ls__1183-1184",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "253a99208738179940f92fadf40cf8ca259e4983"
+}

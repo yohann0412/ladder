@@ -1,0 +1,10 @@
+{
+  "pair_id": "BlueWallet__BlueWallet__7988-7989",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "9799b661d97cc3942537229b12729198a194c782"
+}

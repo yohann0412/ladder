@@ -1,0 +1,33 @@
+{
+  "pair_id": "railmapgen__rmp__1149-1154",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in package-lock.json",
+    "CONFLICT (content): Merge conflict in src/components/svg-wrapper.tsx"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "package-lock.json",
+      "types": [
+        "content"
+      ],
+      "regions": 17,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "src/components/svg-wrapper.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

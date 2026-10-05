@@ -1,0 +1,10 @@
+{
+  "pair_id": "jkroepke__openvpn-auth-oauth2__535-537",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b1e1a9aa0b52a7e8beab926b516241114f242496"
+}

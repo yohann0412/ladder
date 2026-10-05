@@ -1,0 +1,43 @@
+{
+  "pair_id": "microsoft__PSRule__2973-2974",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in .github/copilot-instructions.md",
+    "CONFLICT (content): Merge conflict in docs/changelog.md",
+    "CONFLICT (add/add): Merge conflict in src/PSRule.Tool/Adapters/AdapterBuilder.cs"
+  ],
+  "types": [
+    "content",
+    "content",
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": ".github/copilot-instructions.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "docs/changelog.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "src/PSRule.Tool/Adapters/AdapterBuilder.cs",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

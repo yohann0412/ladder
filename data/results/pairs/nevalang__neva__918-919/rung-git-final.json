@@ -1,0 +1,10 @@
+{
+  "pair_id": "nevalang__neva__918-919",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "479c4382bd71e9025e562ebf2f7c2cd95dedb8c7"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "invoke-ai__InvokeAI__8210-8215",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4babec236ba0d283d5ec34283cc9e77b7f22cac8"
+}

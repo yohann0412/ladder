@@ -1,0 +1,23 @@
+{
+  "pair_id": "Azure__azure-functions-templates__1698-1701",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in Build/package-lock.json"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "Build/package-lock.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

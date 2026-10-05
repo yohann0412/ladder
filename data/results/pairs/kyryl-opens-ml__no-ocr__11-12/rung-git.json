@@ -1,0 +1,10 @@
+{
+  "pair_id": "kyryl-opens-ml__no-ocr__11-12",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a5b0f4de93cc30b21a18745d7bd430841aee96fb"
+}

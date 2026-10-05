@@ -1,0 +1,10 @@
+{
+  "pair_id": "Z3Prover__z3__7961-7966",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b54e70d98dcc271a833597531a8ef2e7912e0e93"
+}

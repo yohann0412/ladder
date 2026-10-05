@@ -1,0 +1,10 @@
+{
+  "pair_id": "pnp__cli-microsoft365__6811-6813",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2b1b9e02fc82a45bf21ee33b4ae3063a97e21f7e"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "lostintangent__gistpad__391-392",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "21955604322148df2d5b35bbf049f37a5ef62e69"
+}

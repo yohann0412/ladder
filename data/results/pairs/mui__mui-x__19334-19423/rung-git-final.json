@@ -1,0 +1,10 @@
+{
+  "pair_id": "mui__mui-x__19334-19423",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "403f0b1de8b2f10a62241c0c7f0dfb62f8aa1b48"
+}

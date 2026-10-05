@@ -1,0 +1,10 @@
+{
+  "pair_id": "magicbug__Cloudlog__3324-3326",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6015c32b462fdb7ac8e6944374a0f1637ee3b832"
+}

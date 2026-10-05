@@ -1,0 +1,10 @@
+{
+  "pair_id": "zeroc-ice__ice__4104-4108",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7a753b4f1a411d1b7dddf4c83b8cb5d2ced9680a"
+}

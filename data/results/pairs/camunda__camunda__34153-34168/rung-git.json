@@ -1,0 +1,10 @@
+{
+  "pair_id": "camunda__camunda__34153-34168",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6b31debadd952cd156995d2d5789c09a45f0c797"
+}

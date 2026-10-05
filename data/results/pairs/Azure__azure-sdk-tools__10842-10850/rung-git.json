@@ -1,0 +1,10 @@
+{
+  "pair_id": "Azure__azure-sdk-tools__10842-10850",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "667b5bae3527bc9bb106b4d6908f7208874a4aa6"
+}

@@ -1,0 +1,53 @@
+{
+  "pair_id": "bennycode__trading-signals__806-808",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in README.md",
+    "CONFLICT (add/add): Merge conflict in src/momentum/REI/REI.test.ts",
+    "CONFLICT (add/add): Merge conflict in src/momentum/REI/REI.ts",
+    "CONFLICT (content): Merge conflict in src/start/startBenchmark.ts"
+  ],
+  "types": [
+    "content",
+    "add/add",
+    "add/add",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "src/momentum/REI/REI.test.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/momentum/REI/REI.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/start/startBenchmark.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

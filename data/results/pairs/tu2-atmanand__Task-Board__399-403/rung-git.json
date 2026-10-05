@@ -1,0 +1,10 @@
+{
+  "pair_id": "tu2-atmanand__Task-Board__399-403",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a0201156807321d29f56eecc282e6fc7817f1582"
+}

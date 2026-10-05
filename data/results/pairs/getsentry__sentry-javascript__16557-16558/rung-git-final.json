@@ -1,0 +1,10 @@
+{
+  "pair_id": "getsentry__sentry-javascript__16557-16558",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "fd90a11285c5a22d8b2a1350fde29bf5edeffb1b"
+}

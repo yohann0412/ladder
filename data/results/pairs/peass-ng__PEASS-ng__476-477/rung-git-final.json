@@ -1,0 +1,10 @@
+{
+  "pair_id": "peass-ng__PEASS-ng__476-477",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "cdf1f9a171883aeadb8da6616379d9f6854f0573"
+}

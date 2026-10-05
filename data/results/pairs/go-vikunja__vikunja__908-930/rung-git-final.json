@@ -1,0 +1,43 @@
+{
+  "pair_id": "go-vikunja__vikunja__908-930",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in frontend/src/models/user.ts",
+    "CONFLICT (content): Merge conflict in frontend/src/stores/auth.ts",
+    "CONFLICT (content): Merge conflict in pkg/user/error.go"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "frontend/src/models/user.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "frontend/src/stores/auth.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "pkg/user/error.go",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

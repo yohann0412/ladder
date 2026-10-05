@@ -1,0 +1,10 @@
+{
+  "pair_id": "CERTCC__SSVC__1010-1013",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0acf39e7230575a83681d82313a1c3994ec5004d"
+}

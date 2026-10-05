@@ -1,0 +1,10 @@
+{
+  "pair_id": "chalk-lab__Mooncake.jl__707-712",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ce23e7d2a08a315f7cae061e8797d77fc3134087"
+}

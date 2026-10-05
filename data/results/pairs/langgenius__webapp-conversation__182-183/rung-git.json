@@ -1,0 +1,33 @@
+{
+  "pair_id": "langgenius__webapp-conversation__182-183",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in app/components/base/streamdown-markdown.tsx",
+    "CONFLICT (content): Merge conflict in app/components/index.tsx"
+  ],
+  "types": [
+    "add/add",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "app/components/base/streamdown-markdown.tsx",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "app/components/index.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__autogen__6684-6690",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in python/packages/autogen-ext/src/autogen_ext/tools/mcp/_workbench.py"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "python/packages/autogen-ext/src/autogen_ext/tools/mcp/_workbench.py",
+      "types": [
+        "content"
+      ],
+      "regions": 8,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

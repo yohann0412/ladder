@@ -2,7 +2,7 @@
   "pair_id": "apache__pinot__16078-16085",
   "heads": "final",
   "status": "clean",
-  "detail": "b merges into a cleanly",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
   "messages": [],
   "types": [],
   "files": [],

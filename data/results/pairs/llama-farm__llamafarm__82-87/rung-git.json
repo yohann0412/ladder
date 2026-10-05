@@ -1,0 +1,10 @@
+{
+  "pair_id": "llama-farm__llamafarm__82-87",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4b0087a0ac9513164da5f0ec135545be9e6100f9"
+}

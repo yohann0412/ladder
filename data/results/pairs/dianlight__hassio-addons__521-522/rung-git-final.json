@@ -1,0 +1,10 @@
+{
+  "pair_id": "dianlight__hassio-addons__521-522",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "09c69cc226cdf55f4e276896c18b435d841ec9ac"
+}

@@ -1,0 +1,163 @@
+{
+  "pair_id": "dotnet__core__10023-10029",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 15, conflicted files: 15 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in .github/prompts/createprs-for-preview.prompt.md",
+    "CONFLICT (add/add): Merge conflict in .github/prompts/scaffoldpreview.prompt.md",
+    "CONFLICT (add/add): Merge conflict in release-notes/10.0/preview/preview7/10.0.0-preview.7.md",
+    "CONFLICT (add/add): Merge conflict in release-notes/10.0/preview/preview7/README.md",
+    "CONFLICT (add/add): Merge conflict in release-notes/10.0/preview/preview7/aspnetcore.md",
+    "CONFLICT (add/add): Merge conflict in release-notes/10.0/preview/preview7/containers.md",
+    "CONFLICT (add/add): Merge conflict in release-notes/10.0/preview/preview7/csharp.md",
+    "CONFLICT (add/add): Merge conflict in release-notes/10.0/preview/preview7/dotnetmaui.md",
+    "CONFLICT (add/add): Merge conflict in release-notes/10.0/preview/preview7/efcore.md",
+    "CONFLICT (add/add): Merge conflict in release-notes/10.0/preview/preview7/fsharp.md",
+    "CONFLICT (add/add): Merge conflict in release-notes/10.0/preview/preview7/libraries.md",
+    "CONFLICT (add/add): Merge conflict in release-notes/10.0/preview/preview7/runtime.md",
+    "CONFLICT (add/add): Merge conflict in release-notes/10.0/preview/preview7/sdk.md",
+    "CONFLICT (add/add): Merge conflict in release-notes/10.0/preview/preview7/visualbasic.md",
+    "CONFLICT (add/add): Merge conflict in release-notes/10.0/preview/preview7/winforms.md"
+  ],
+  "types": [
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": ".github/prompts/createprs-for-preview.prompt.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": ".github/prompts/scaffoldpreview.prompt.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "release-notes/10.0/preview/preview7/10.0.0-preview.7.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "release-notes/10.0/preview/preview7/README.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "release-notes/10.0/preview/preview7/aspnetcore.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "release-notes/10.0/preview/preview7/containers.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "release-notes/10.0/preview/preview7/csharp.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "release-notes/10.0/preview/preview7/dotnetmaui.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "release-notes/10.0/preview/preview7/efcore.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "release-notes/10.0/preview/preview7/fsharp.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "release-notes/10.0/preview/preview7/libraries.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "release-notes/10.0/preview/preview7/runtime.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "release-notes/10.0/preview/preview7/sdk.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "release-notes/10.0/preview/preview7/visualbasic.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "release-notes/10.0/preview/preview7/winforms.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

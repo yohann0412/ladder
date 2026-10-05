@@ -1,0 +1,10 @@
+{
+  "pair_id": "addok__addok__904-905",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5be1d7af47e61fd532d5153b0397ffc458792bf7"
+}

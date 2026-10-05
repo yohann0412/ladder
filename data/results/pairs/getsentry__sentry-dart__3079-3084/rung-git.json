@@ -1,0 +1,33 @@
+{
+  "pair_id": "getsentry__sentry-dart__3079-3084",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in dart/lib/src/hub.dart",
+    "CONFLICT (content): Merge conflict in dart/lib/src/propagation_context.dart"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "dart/lib/src/hub.dart",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "dart/lib/src/propagation_context.dart",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

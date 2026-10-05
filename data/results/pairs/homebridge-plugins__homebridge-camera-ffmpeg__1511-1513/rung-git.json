@@ -1,0 +1,10 @@
+{
+  "pair_id": "homebridge-plugins__homebridge-camera-ffmpeg__1511-1513",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0af64b376ae8ffb2936d974980f430699c09881e"
+}

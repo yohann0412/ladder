@@ -1,0 +1,10 @@
+{
+  "pair_id": "QL-Win__QuickLook__1712-1713",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b82f22ddc0d792652370f6119f38c695986d7e52"
+}

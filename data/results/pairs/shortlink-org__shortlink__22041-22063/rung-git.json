@@ -1,0 +1,10 @@
+{
+  "pair_id": "shortlink-org__shortlink__22041-22063",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "00d6031cd9434e79c86f0e83334b7fa0a453bdb4"
+}

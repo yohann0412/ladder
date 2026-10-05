@@ -1,0 +1,10 @@
+{
+  "pair_id": "katspaugh__wavesurfer.js__4105-4106",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "799713a03cfd55aa7d710839dc4ed12cb5536b77"
+}

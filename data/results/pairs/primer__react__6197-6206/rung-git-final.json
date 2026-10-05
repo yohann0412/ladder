@@ -1,0 +1,10 @@
+{
+  "pair_id": "primer__react__6197-6206",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ed9760124dc9c69ec0cd7d9c833a2906f1c4813f"
+}

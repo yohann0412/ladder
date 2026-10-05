@@ -1,0 +1,53 @@
+{
+  "pair_id": "quarylabs__sqruff__1664-1671",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in crates/lib-dialects/src/tsql.rs",
+    "CONFLICT (add/add): Merge conflict in crates/lib-dialects/src/tsql_keywords.rs",
+    "CONFLICT (add/add): Merge conflict in crates/lib-dialects/test/fixtures/dialects/tsql/data_types_max.sql",
+    "CONFLICT (add/add): Merge conflict in crates/lib-dialects/test/fixtures/dialects/tsql/data_types_max.yml"
+  ],
+  "types": [
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": "crates/lib-dialects/src/tsql.rs",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "crates/lib-dialects/src/tsql_keywords.rs",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "crates/lib-dialects/test/fixtures/dialects/tsql/data_types_max.sql",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "crates/lib-dialects/test/fixtures/dialects/tsql/data_types_max.yml",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

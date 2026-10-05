@@ -1,0 +1,10 @@
+{
+  "pair_id": "pyth-network__pyth-crosschain__2352-2353",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "27dabbf5401cfe7841d4c0bc0ddac0b875940091"
+}

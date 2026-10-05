@@ -1,0 +1,10 @@
+{
+  "pair_id": "astral-sh__uv__14738-14786",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "becbc0df65c0353c7302821bcbc4893b62d4e872"
+}

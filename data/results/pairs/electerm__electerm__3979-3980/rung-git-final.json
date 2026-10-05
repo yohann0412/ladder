@@ -1,0 +1,43 @@
+{
+  "pair_id": "electerm__electerm__3979-3980",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/client/components/sftp/address-bookmark-item.jsx",
+    "CONFLICT (content): Merge conflict in src/client/components/sftp/address-bookmark.jsx",
+    "CONFLICT (content): Merge conflict in src/client/store/address-bookmark.js"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/client/components/sftp/address-bookmark-item.jsx",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "src/client/components/sftp/address-bookmark.jsx",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "src/client/store/address-bookmark.js",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "michaellatman__mcp-get__112-113",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4cb04947aafc3c3affec41026e2c33736b6ac046"
+}

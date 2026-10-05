@@ -1,0 +1,10 @@
+{
+  "pair_id": "l5yth__potato-mesh__30-31",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "27dc99d8beeb6fcfefee35a8410dbf516f395a67"
+}

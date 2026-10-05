@@ -1,0 +1,10 @@
+{
+  "pair_id": "ad-si__awesome-3d-printing__56-57",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "35c1d1b91638a8a1d80db6116e20de4b940a1604"
+}

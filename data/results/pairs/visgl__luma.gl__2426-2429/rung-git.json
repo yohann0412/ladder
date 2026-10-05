@@ -1,0 +1,10 @@
+{
+  "pair_id": "visgl__luma.gl__2426-2429",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "12889765a8e92264a7ccb74eaababafeed36845d"
+}

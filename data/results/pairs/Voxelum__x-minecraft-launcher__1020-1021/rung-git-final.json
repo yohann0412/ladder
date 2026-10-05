@@ -1,0 +1,10 @@
+{
+  "pair_id": "Voxelum__x-minecraft-launcher__1020-1021",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "194e0776f5dfac2b7357a009ddcfa36044c0fcd8"
+}

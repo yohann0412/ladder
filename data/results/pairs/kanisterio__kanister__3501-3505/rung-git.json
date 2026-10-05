@@ -1,0 +1,23 @@
+{
+  "pair_id": "kanisterio__kanister__3501-3505",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in .golangci.yml"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": ".golangci.yml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

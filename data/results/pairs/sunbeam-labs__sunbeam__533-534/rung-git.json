@@ -2,7 +2,7 @@
   "pair_id": "sunbeam-labs__sunbeam__533-534",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 2, conflicted files: 2",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in sunbeam/scripts/run.py",
     "CONFLICT (content): Merge conflict in tests/e2e/test_sunbeam_run.py"

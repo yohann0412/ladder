@@ -1,0 +1,10 @@
+{
+  "pair_id": "prosekit__prosekit__1055-1057",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ba8cc336733457f9d84d25a2bfbc464a29592d99"
+}

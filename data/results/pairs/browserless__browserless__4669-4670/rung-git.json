@@ -1,0 +1,10 @@
+{
+  "pair_id": "browserless__browserless__4669-4670",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "414e00e1c3a65fa2afebe769daa804f1f2719f4e"
+}

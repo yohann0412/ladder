@@ -1,0 +1,10 @@
+{
+  "pair_id": "vercel__hyper-site__314-317",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f68b770a46c135e81cc9baaf29b04df00dcc81db"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "NG-ZORRO__ng-zorro-antd__9277-9278",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5a5939b97a3b4ee24616a57d8d8119b09f1fdbde"
+}

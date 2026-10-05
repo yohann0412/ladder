@@ -1,0 +1,10 @@
+{
+  "pair_id": "github-copilot-resources__copilot-metrics-viewer__216-217",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b55fb387b7c07287812244acc59f02982ee798d3"
+}

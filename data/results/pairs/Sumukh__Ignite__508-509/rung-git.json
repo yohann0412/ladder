@@ -2,7 +2,7 @@
   "pair_id": "Sumukh__Ignite__508-509",
   "heads": "replay",
   "status": "clean",
-  "detail": "b merges into a cleanly",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
   "messages": [],
   "types": [],
   "files": [],

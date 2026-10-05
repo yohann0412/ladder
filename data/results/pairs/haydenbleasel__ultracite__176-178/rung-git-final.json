@@ -1,0 +1,10 @@
+{
+  "pair_id": "haydenbleasel__ultracite__176-178",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "84c0c7130b64cf51eef63e656a17e1ac13607eb8"
+}

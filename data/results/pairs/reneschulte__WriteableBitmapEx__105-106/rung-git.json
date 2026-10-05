@@ -1,0 +1,33 @@
+{
+  "pair_id": "reneschulte__WriteableBitmapEx__105-106",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in NUGET_PACKAGE_BUILD.md",
+    "CONFLICT (content): Merge conflict in Nuget/WriteableBitmapEx.nuspec"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "NUGET_PACKAGE_BUILD.md",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "docs_text"
+    },
+    {
+      "path": "Nuget/WriteableBitmapEx.nuspec",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "other"
+    }
+  ],
+  "merged_tree": null
+}

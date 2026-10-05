@@ -1,0 +1,73 @@
+{
+  "pair_id": "philosowaffle__peloton-to-garmin__773-775",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 6, conflicted files: 6 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (modify/delete): .cursor/rules/api-development-patterns.mdc deleted in a and modified in b.  Version b of .cursor/rules/api-development-patterns.mdc left in tree.",
+    "CONFLICT (modify/delete): .cursor/rules/configuration-patterns.mdc deleted in a and modified in b.  Version b of .cursor/rules/configuration-patterns.mdc left in tree.",
+    "CONFLICT (content): Merge conflict in .cursor/rules/development-workflow.mdc",
+    "CONFLICT (modify/delete): .cursor/rules/documentation-guide.mdc deleted in a and modified in b.  Version b of .cursor/rules/documentation-guide.mdc left in tree.",
+    "CONFLICT (modify/delete): .cursor/rules/sync-service-patterns.mdc deleted in a and modified in b.  Version b of .cursor/rules/sync-service-patterns.mdc left in tree.",
+    "CONFLICT (modify/delete): .cursor/rules/ui-development.mdc deleted in a and modified in b.  Version b of .cursor/rules/ui-development.mdc left in tree."
+  ],
+  "types": [
+    "modify/delete",
+    "modify/delete",
+    "content",
+    "modify/delete",
+    "modify/delete",
+    "modify/delete"
+  ],
+  "files": [
+    {
+      "path": ".cursor/rules/api-development-patterns.mdc",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "other"
+    },
+    {
+      "path": ".cursor/rules/configuration-patterns.mdc",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "other"
+    },
+    {
+      "path": ".cursor/rules/development-workflow.mdc",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "other"
+    },
+    {
+      "path": ".cursor/rules/documentation-guide.mdc",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "other"
+    },
+    {
+      "path": ".cursor/rules/sync-service-patterns.mdc",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "other"
+    },
+    {
+      "path": ".cursor/rules/ui-development.mdc",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "other"
+    }
+  ],
+  "merged_tree": null
+}

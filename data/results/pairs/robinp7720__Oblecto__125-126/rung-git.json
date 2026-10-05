@@ -1,0 +1,10 @@
+{
+  "pair_id": "robinp7720__Oblecto__125-126",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "27f905788c3a53e7553f4e917912c1af57314c61"
+}

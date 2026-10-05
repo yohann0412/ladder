@@ -1,0 +1,10 @@
+{
+  "pair_id": "Hankanman__Area-Occupancy-Detection__71-72",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d0634beb26b246324f9bd8ca092ec0da12d495d0"
+}

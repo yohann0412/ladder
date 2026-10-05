@@ -2,7 +2,7 @@
   "pair_id": "microsoft__TypeScript__61854-61855",
   "heads": "final",
   "status": "clean",
-  "detail": "b merges into a cleanly",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
   "messages": [],
   "types": [],
   "files": [],

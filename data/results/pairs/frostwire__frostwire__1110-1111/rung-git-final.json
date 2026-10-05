@@ -1,0 +1,10 @@
+{
+  "pair_id": "frostwire__frostwire__1110-1111",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a32d28396fc284f294db2613ed6ee4d2a18b566f"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "github__issue-metrics__570-571",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "48c96d57c1edf3607ef54a4f5d14c35156f4cb75"
+}

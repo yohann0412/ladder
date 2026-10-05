@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__vscode-pull-request-github__7105-7108",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f64d525607a4b8dbec29f3d992ca7aea58ee03e3"
+}

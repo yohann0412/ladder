@@ -1,0 +1,23 @@
+{
+  "pair_id": "theopenco__llmgateway__77-79",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in apps/gateway/src/lib/logs.ts"
+  ],
+  "types": [
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": "apps/gateway/src/lib/logs.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

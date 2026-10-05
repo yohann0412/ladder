@@ -1,0 +1,10 @@
+{
+  "pair_id": "getsentry__sentry-dart__3079-3080",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c254ce7370ed2fd62aa4dc7bb00194d6e8167a18"
+}

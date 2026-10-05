@@ -1,0 +1,263 @@
+{
+  "pair_id": "Comfy-Org__ComfyUI_frontend__4861-5030",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 25, conflicted files: 25 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in browser_tests/tests/subgraph.spec.ts",
+    "CONFLICT (content): Merge conflict in package.json",
+    "CONFLICT (content): Merge conflict in src/components/bottomPanel/BottomPanel.vue",
+    "CONFLICT (content): Merge conflict in src/components/graph/MiniMap.vue",
+    "CONFLICT (add/add): Merge conflict in src/components/graph/MiniMapPanel.vue",
+    "CONFLICT (content): Merge conflict in src/components/topbar/CommandMenubar.vue",
+    "CONFLICT (content): Merge conflict in src/components/topbar/WorkflowTab.vue",
+    "CONFLICT (add/add): Merge conflict in src/composables/bottomPanelTabs/useShortcutsTab.ts",
+    "CONFLICT (content): Merge conflict in src/composables/useCoreCommands.ts",
+    "CONFLICT (modify/delete): src/composables/useMinimap.ts deleted in a and modified in b.  Version b of src/composables/useMinimap.ts left in tree.",
+    "CONFLICT (content): Merge conflict in src/lib/litegraph/src/canvas/LinkConnector.ts",
+    "CONFLICT (add/add): Merge conflict in src/locales/ar/commands.json",
+    "CONFLICT (add/add): Merge conflict in src/locales/ar/main.json",
+    "CONFLICT (add/add): Merge conflict in src/locales/ar/nodeDefs.json",
+    "CONFLICT (add/add): Merge conflict in src/locales/ar/settings.json",
+    "CONFLICT (content): Merge conflict in src/locales/en/commands.json",
+    "CONFLICT (content): Merge conflict in src/locales/fr/main.json",
+    "CONFLICT (content): Merge conflict in src/locales/ja/main.json",
+    "CONFLICT (content): Merge conflict in src/locales/ru/main.json",
+    "CONFLICT (content): Merge conflict in src/locales/zh-TW/main.json",
+    "CONFLICT (content): Merge conflict in src/locales/zh/commands.json",
+    "CONFLICT (content): Merge conflict in src/locales/zh/main.json",
+    "CONFLICT (content): Merge conflict in src/locales/zh/settings.json",
+    "CONFLICT (content): Merge conflict in src/stores/workspace/bottomPanelStore.ts",
+    "CONFLICT (content): Merge conflict in src/types/extensionTypes.ts"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "add/add",
+    "content",
+    "content",
+    "add/add",
+    "content",
+    "modify/delete",
+    "content",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "browser_tests/tests/subgraph.spec.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "package.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "src/components/bottomPanel/BottomPanel.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "src/components/graph/MiniMap.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 5,
+      "category": "source"
+    },
+    {
+      "path": "src/components/graph/MiniMapPanel.vue",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/components/topbar/CommandMenubar.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "src/components/topbar/WorkflowTab.vue",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/composables/bottomPanelTabs/useShortcutsTab.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/composables/useCoreCommands.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/composables/useMinimap.ts",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "src/lib/litegraph/src/canvas/LinkConnector.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/locales/ar/commands.json",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "src/locales/ar/main.json",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "src/locales/ar/nodeDefs.json",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "src/locales/ar/settings.json",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "src/locales/en/commands.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "src/locales/fr/main.json",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "config_ci"
+    },
+    {
+      "path": "src/locales/ja/main.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "src/locales/ru/main.json",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "config_ci"
+    },
+    {
+      "path": "src/locales/zh-TW/main.json",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "config_ci"
+    },
+    {
+      "path": "src/locales/zh/commands.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "src/locales/zh/main.json",
+      "types": [
+        "content"
+      ],
+      "regions": 19,
+      "category": "config_ci"
+    },
+    {
+      "path": "src/locales/zh/settings.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "src/stores/workspace/bottomPanelStore.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "src/types/extensionTypes.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

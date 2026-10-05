@@ -1,0 +1,10 @@
+{
+  "pair_id": "wp-media__wp-rocket__7764-7767",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a0e9265cd15ba4988fe58d24138986388a23d68d"
+}

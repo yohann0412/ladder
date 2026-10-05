@@ -1,0 +1,10 @@
+{
+  "pair_id": "railmapgen__rmp__1149-1154",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0aae4aa6ee2a5a14c1ad06cbe8b9612e5c3ceed2"
+}

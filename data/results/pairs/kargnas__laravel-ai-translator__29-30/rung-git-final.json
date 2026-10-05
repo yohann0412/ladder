@@ -1,0 +1,10 @@
+{
+  "pair_id": "kargnas__laravel-ai-translator__29-30",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "dc72a9d169196c5ac24b3751318cd6ae10bda893"
+}

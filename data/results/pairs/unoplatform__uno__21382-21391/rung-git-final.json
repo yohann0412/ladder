@@ -1,0 +1,10 @@
+{
+  "pair_id": "unoplatform__uno__21382-21391",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "2a8f0f6d8c22478bb121547d94704f4f99477f2e"
+}

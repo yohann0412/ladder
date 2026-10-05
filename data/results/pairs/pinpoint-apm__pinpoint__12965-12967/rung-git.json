@@ -1,0 +1,3726 @@
+{
+  "pair_id": "pinpoint-apm__pinpoint__12965-12967",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 368, conflicted files: 371 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in agent-module/agent-plugins/agent-plugins-parent/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-plugins/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-plugins/proxy-apache/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-plugins/proxy-app/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-plugins/proxy-common/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-plugins/proxy-nginx/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-plugins/proxy-user/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-sdk/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/agent-proxy-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/agent-testweb-commons/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/agentsdk-async-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/arcus-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/bom/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/cassandra3-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/cassandra4-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/closed-module-testlib/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/closed-module-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/dubbo-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/elasticsearch-8-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/elasticsearch-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/grpc-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/httpclient4-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/httpclient5-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/jdk-http-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/jdk-httpclient-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/jetty-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/kafka-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/kafka-streams-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/ktor-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/mariadb-jdbc-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/mongodb-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/mongodb-reactive-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/ning-asynchttpclient-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/okhttp-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/paho-mqtt-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/postgresql-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/reactor-netty-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/reactor-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/reactor-plugin-testweb/src/main/java/com/pinpoint/test/plugin/ReactorPluginController.java",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/redis-lettuce-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/redis-lettuce-plugin-testweb/src/main/java/com/pinpoint/test/plugin/RedisLettucePluginController.java",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/redis-lettuce-plugin-testweb/src/main/java/com/pinpoint/test/plugin/RedisTemplateConfig.java",
+    "CONFLICT (add/add): Merge conflict in agent-module/agent-testweb/redis-lettuce-plugin-testweb/src/test/java/com/pinpoint/test/plugin/RedisServerTest.java",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/resilience4j-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/rocketmq-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/rocketmq-plugin-testweb/rocketmq-original/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/rocketmq-plugin-testweb/rocketmq-springboot/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/rocketmq-plugin-testweb/rocketmq-springcloud-stream/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/spring-boot3-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/spring-boot3-webflux-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/spring-cloud-gateway-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/spring-data-r2dbc-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/spring-webflux-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/thread-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/thrift-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/undertow-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/vertx-3-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-testweb/vertx-4-plugin-testweb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent-tools/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/agent/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/bootstraps/bootstrap-core/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/bootstraps/bootstrap-core/src/main/java/com/navercorp/pinpoint/bootstrap/config/DefaultProfilerConfig.java",
+    "CONFLICT (content): Merge conflict in agent-module/bootstraps/bootstrap-core/src/main/java/com/navercorp/pinpoint/bootstrap/config/ProfilerConfig.java",
+    "CONFLICT (content): Merge conflict in agent-module/bootstraps/bootstrap-core/src/main/java/com/navercorp/pinpoint/bootstrap/plugin/reactor/CoreSubscriberOnNextInterceptor.java",
+    "CONFLICT (content): Merge conflict in agent-module/bootstraps/bootstrap-java15/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/bootstraps/bootstrap-java16/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/bootstraps/bootstrap-java9-internal/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/bootstraps/bootstrap-java9/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/bootstraps/bootstrap-parent/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/bootstraps/bootstrap/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/bootstraps/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/activemq-it/activemq-5-15-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/activemq-it/activemq-5-17-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/activemq-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/cassandra-it/cassandra-2-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/cassandra-it/cassandra-4-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/cassandra-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/clickhouse-jdbc-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/cxf-it/cxf-3-0-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/cxf-it/cxf-3-6-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/cxf-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/druid-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/elasticsearch-it/elasticsearch-6-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/elasticsearch-it/elasticsearch-7-16-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/elasticsearch-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/fastjson-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/google-grpc-it/google-grpc-1-42-it/pom.xml",
+    "CONFLICT (modify/delete): agent-module/plugins-it/google-grpc-it/google-grpc-1-8-it/pom.xml deleted in a and modified in b.  Version b of agent-module/plugins-it/google-grpc-it/google-grpc-1-8-it/pom.xml left in tree.",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/google-grpc-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/google-httpclient-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/gson-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/hbase-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/hikaricp-it/hikaricp-4-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/hikaricp-it/hikaricp-5-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/hikaricp-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/httpclient-it/httpclient-3-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/httpclient-it/httpclient-4-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/httpclient-it/httpclient-5-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/httpclient-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/hystrix-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/ibatis-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/informix-jdbc-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/jackson-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/jdk-http-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/json-lib-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/jtds-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/kafka-it/kafka-2-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/kafka-it/kafka-3-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/kafka-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/kotlin-coroutines-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/lambda-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/log4j-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/log4j2-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/logback-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/mariadb-jdbc-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/mongodb-it/mongodb-3-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/mongodb-it/mongodb-4-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/mongodb-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/mssql-jdbc-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/mybatis-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/mysql-jdbc-driver-plugin-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/netty-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/ning-asyncclient-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/okhttp-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/oracledb-it/oracledb-11-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/oracledb-it/oracledb-19-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/oracledb-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/paho-mqtt-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/postgresql-jdbc-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/process-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/rabbitmq-it/pom.xml",
+    "CONFLICT (add/add): Merge conflict in agent-module/plugins-it/reactor-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/redis-lettuce-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/rxjava-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/spring-data-r2dbc-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/spring-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/spring-it/spring-3-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/spring-it/spring-6-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/thread-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/thrift-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/thrift-it/thrift-0-10-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-it/thrift-it/thrift-0-14-it/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-loader/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-test-module/plugins-it-utils-jdbc/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-test-module/plugins-it-utils/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-test-module/plugins-test/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-test-module/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins-test-module/testcase/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/activemq-client/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/agentsdk-async/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/akka-http/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/apache-dubbo/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/arcus/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/assembly/pom.xml",
+    "CONFLICT (add/add): Merge conflict in agent-module/plugins/aws-sdk-s3/README.md",
+    "CONFLICT (add/add): Merge conflict in agent-module/plugins/aws-sdk-s3/pom.xml",
+    "CONFLICT (rename/delete): agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/ProcessorSubscribeInterceptor.java renamed to agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/AwsSdkS3Constants.java in a, but deleted in b.",
+    "CONFLICT (add/add): Merge conflict in agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/interceptor/AsyncResponseHandlerOnErrorInterceptor.java",
+    "CONFLICT (add/add): Merge conflict in agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/interceptor/AsyncResponseHandlerOnHeadersInterceptor.java",
+    "CONFLICT (add/add): Merge conflict in agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/interceptor/BaseClientHandlerInterceptor.java",
+    "CONFLICT (add/add): Merge conflict in agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/interceptor/HttpResponseHandlerInterceptor.java",
+    "CONFLICT (add/add): Merge conflict in agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/interceptor/S3ClientInterceptor.java",
+    "CONFLICT (add/add): Merge conflict in agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/interceptor/XmlProtocolMarshallerInterceptor.java",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/bom/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/cassandra/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/cassandra4/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/clickhouse-jdbc/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/common-servlet/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/cubrid-jdbc/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/cxf/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/dbcp/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/dbcp2/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/druid/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/elasticsearch/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/elasticsearch8/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/external/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/fastjson/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/google-httpclient/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/grpc/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/gson/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/hbase/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/hikaricp/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/httpclient3/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/httpclient4/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/httpclient5/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/hystrix/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/ibatis/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/informix-jdbc/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/jackson/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/jboss/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/jdk-completable-future/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/jdk-http/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/jdk-httpclient/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/jetty/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/json-lib/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/jsp/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/jtds/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/kafka/pom.xml",
+    "CONFLICT (add/add): Merge conflict in agent-module/plugins/kafka/src/main/java/com/navercorp/pinpoint/plugin/kafka/interceptor/ListenerConsumerInvokeErrorHandlerInterceptor.java",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/kafka/src/main/java/com/navercorp/pinpoint/plugin/kafka/interceptor/ProducerAddHeaderInterceptor.java",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/kotlin-coroutines/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/ktor/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/log4j/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/log4j2/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/logback/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/mariadb-jdbc/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/mongodb/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/mssql-jdbc/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/mybatis/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/mysql-jdbc/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/netty/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/ning-asynchttpclient/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/ning-asynchttpclient/src/main/java/com/navercorp/pinpoint/plugin/ning/asynchttpclient/interceptor/AsyncHandlerOnCompletedInterceptor.java",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/okhttp/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/openwhisk/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/oracle-jdbc/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/paho-mqtt/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/postgresql-jdbc/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/process/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/pulsar/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/rabbitmq/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/reactor-netty/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/reactor/pom.xml",
+    "CONFLICT (rename/rename): agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/ConnectableFluxConstructorInterceptor.java renamed to agent-module/agent-testweb/mysql-jdbc-plugin-testweb/src/main/java/com/pinpoint/test/plugin/MysqlDBPluginTestStarter.java in a and to agent-module/plugins/reactor/src/test/java/com/navercorp/pinpoint/plugin/reactor/ReactorPluginTest.java in b.",
+    "CONFLICT (add/add): Merge conflict in agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/CoreSubscriberRunInterceptor.java",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/FluxAndMonoSubscribeMethodInterceptor.java",
+    "CONFLICT (rename/rename): agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/FluxConstructorInterceptor.java renamed to agent-module/plugins/okhttp/src/main/java/com/navercorp/pinpoint/plugin/okhttp/v2/HeadersBuilder.java in a and to agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/RequestBuilderGetter.java in b.",
+    "CONFLICT (rename/rename): agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/FluxOperatorConstructorInterceptor.java renamed to user/src/main/java/com/navercorp/pinpoint/user/util/UserInfoEncoder.java in a and to agent-module/bootstraps/bootstrap-core/src/main/java/com/navercorp/pinpoint/bootstrap/plugin/reactor/ReactorSubscriberAccessor.java in b.",
+    "CONFLICT (rename/rename): agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/FluxSubscribeInterceptor.java renamed to user/src/main/java/com/navercorp/pinpoint/user/util/DefaultUserInfoEncoder.java in a and to agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/AwsSdkS3Constants.java in b.",
+    "CONFLICT (rename/rename): agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/MonoConstructorInterceptor.java renamed to agent-module/plugins/okhttp/src/main/java/com/navercorp/pinpoint/plugin/okhttp/v3/HeadersBuilder.java in a and to agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/URIGetter.java in b.",
+    "CONFLICT (rename/rename): agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/MonoOperatorConstructorInterceptor.java renamed to commons-timeseries/src/main/java/com/navercorp/pinpoint/common/timeseries/time/RangeValidator.java in a and to agent-module/plugins/kafka/src/main/java/com/navercorp/pinpoint/plugin/kafka/field/getter/StampedRecordGetter.java in b.",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/RunnableSubscriptionInterceptor.java",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/redis-lettuce/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/redis-lettuce/src/main/java/com/navercorp/pinpoint/plugin/redis/lettuce/LettucePlugin.java",
+    "CONFLICT (rename/delete): agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/ReactorPeriodicSchedulerMethodDescriptor.java renamed to agent-module/plugins/redis-lettuce/src/main/java/com/navercorp/pinpoint/plugin/redis/lettuce/interceptor/RedisPubSubListenerMethodDescriptor.java in a, but deleted in b.",
+    "CONFLICT (modify/delete): agent-module/plugins/redis-lettuce/src/main/java/com/navercorp/pinpoint/plugin/redis/lettuce/interceptor/RedisPubSubListenerMethodDescriptor.java deleted in b and modified in a.  Version a of agent-module/plugins/redis-lettuce/src/main/java/com/navercorp/pinpoint/plugin/redis/lettuce/interceptor/RedisPubSubListenerMethodDescriptor.java left in tree.",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/redis-redisson/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/redis/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/resilience4j/pom.xml",
+    "CONFLICT (modify/delete): agent-module/plugins/resin/pom.xml deleted in a and modified in b.  Version b of agent-module/plugins/resin/pom.xml left in tree.",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/resttemplate/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/rocketmq/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/rxjava/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/spring-boot/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/spring-cloud-sleuth/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/spring-data-r2dbc/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/spring-stub/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/spring-tx/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/spring-webflux/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/spring/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/thread/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/thrift/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/tomcat/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/undertow-servlet/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/undertow/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/user/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/vertx/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/weblogic/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/plugins/websphere/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/profiler-logging/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/profiler-optional/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/profiler-optional/profiler-optional-jdk8/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/profiler-optional/profiler-optional-jdk9/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/profiler-optional/profiler-optional-parent/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/profiler-test/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/profiler/pom.xml",
+    "CONFLICT (content): Merge conflict in agent-module/profiler/src/main/java/com/navercorp/pinpoint/profiler/context/ChildTrace.java",
+    "CONFLICT (content): Merge conflict in agent-module/profiler/src/main/java/com/navercorp/pinpoint/profiler/context/DefaultTrace.java",
+    "CONFLICT (content): Merge conflict in agent-module/profiler/src/main/java/com/navercorp/pinpoint/profiler/context/DisableChildTrace.java",
+    "CONFLICT (content): Merge conflict in agent-module/profiler/src/main/java/com/navercorp/pinpoint/profiler/context/DisableTrace.java",
+    "CONFLICT (content): Merge conflict in agent-module/profiler/src/main/java/com/navercorp/pinpoint/profiler/context/grpc/mapper/SpanMessageMapper.java",
+    "CONFLICT (content): Merge conflict in agent-module/profiler/src/main/java/com/navercorp/pinpoint/profiler/context/provider/metadata/SqlMetadataServiceProvider.java",
+    "CONFLICT (content): Merge conflict in agent-module/profiler/src/main/java/com/navercorp/pinpoint/profiler/instrument/scanner/ClassScannerFactory.java",
+    "CONFLICT (modify/delete): agent-module/profiler/src/main/java/com/navercorp/pinpoint/profiler/metadata/UidCachingSqlNormalizer.java deleted in a and modified in b.  Version b of agent-module/profiler/src/main/java/com/navercorp/pinpoint/profiler/metadata/UidCachingSqlNormalizer.java left in tree.",
+    "CONFLICT (content): Merge conflict in agent-module/profiler/src/test/java/com/navercorp/pinpoint/profiler/metadata/SqlUidMetaDataServiceTest.java",
+    "CONFLICT (content): Merge conflict in annotations/pom.xml",
+    "CONFLICT (content): Merge conflict in basic-login/pom.xml",
+    "CONFLICT (content): Merge conflict in batch-alarmsender/pom.xml",
+    "CONFLICT (content): Merge conflict in batch/pom.xml",
+    "CONFLICT (content): Merge conflict in channel/pom.xml",
+    "CONFLICT (content): Merge conflict in collector-monitor/pom.xml",
+    "CONFLICT (content): Merge conflict in collector-starter/pom.xml",
+    "CONFLICT (content): Merge conflict in collector/pom.xml",
+    "CONFLICT (rename/delete): agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/MonoDelaySubscriptionSubscribeInterceptor.java renamed to collector/src/main/java/com/navercorp/pinpoint/collector/heatmap/config/HeatmapPropertySources.java in a, but deleted in b.",
+    "CONFLICT (modify/delete): collector/src/main/java/com/navercorp/pinpoint/collector/heatmap/config/HeatmapPropertySources.java deleted in b and modified in a.  Version a of collector/src/main/java/com/navercorp/pinpoint/collector/heatmap/config/HeatmapPropertySources.java left in tree.",
+    "CONFLICT (modify/delete): collector/src/main/java/com/navercorp/pinpoint/collector/service/StatisticsService.java deleted in a and modified in b.  Version b of collector/src/main/java/com/navercorp/pinpoint/collector/service/StatisticsService.java left in tree.",
+    "CONFLICT (content): Merge conflict in commons-buffer/pom.xml",
+    "CONFLICT (content): Merge conflict in commons-config/pom.xml",
+    "CONFLICT (content): Merge conflict in commons-hbase/pom.xml",
+    "CONFLICT (rename/delete): agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/ParallelFluxConstructorInterceptor.java renamed to commons-hbase/src/main/java/com/navercorp/pinpoint/common/hbase/wd/ByteSaltKey.java in a, but deleted in b.",
+    "CONFLICT (modify/delete): commons-hbase/src/main/java/com/navercorp/pinpoint/common/hbase/wd/ByteSaltKey.java deleted in b and modified in a.  Version a of commons-hbase/src/main/java/com/navercorp/pinpoint/common/hbase/wd/ByteSaltKey.java left in tree.",
+    "CONFLICT (content): Merge conflict in commons-mapstruct-spi/pom.xml",
+    "CONFLICT (content): Merge conflict in commons-mybatis/pom.xml",
+    "CONFLICT (content): Merge conflict in commons-profiler/pom.xml",
+    "CONFLICT (content): Merge conflict in commons-profiler/src/main/java/com/navercorp/pinpoint/common/profiler/sql/DefaultSqlNormalizer.java",
+    "CONFLICT (content): Merge conflict in commons-profiler/src/test/java/com/navercorp/pinpoint/common/profiler/sql/DefaultSqlNormalizerTest.java",
+    "CONFLICT (modify/delete): commons-server-cluster/pom.xml deleted in a and modified in b.  Version b of commons-server-cluster/pom.xml left in tree.",
+    "CONFLICT (content): Merge conflict in commons-server/pom.xml",
+    "CONFLICT (rename/delete): agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/FluxDelaySubscriptionSubscribeInterceptor.java renamed to commons-server/src/main/java/com/navercorp/pinpoint/common/server/metric/dao/TableNameManager.java in a, but deleted in b.",
+    "CONFLICT (modify/delete): commons-server/src/main/java/com/navercorp/pinpoint/common/server/metric/dao/TableNameManager.java deleted in b and modified in a.  Version a of commons-server/src/main/java/com/navercorp/pinpoint/common/server/metric/dao/TableNameManager.java left in tree.",
+    "CONFLICT (rename/delete): agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/ConnectableFluxSubscribeInterceptor.java renamed to commons-server/src/main/java/com/navercorp/pinpoint/common/server/metric/dao/TopicNameManager.java in a, but deleted in b.",
+    "CONFLICT (modify/delete): commons-server/src/main/java/com/navercorp/pinpoint/common/server/metric/dao/TopicNameManager.java deleted in b and modified in a.  Version a of commons-server/src/main/java/com/navercorp/pinpoint/common/server/metric/dao/TopicNameManager.java left in tree.",
+    "CONFLICT (content): Merge conflict in commons/pom.xml",
+    "CONFLICT (content): Merge conflict in commons/src/main/java/com/navercorp/pinpoint/common/Version.java",
+    "CONFLICT (content): Merge conflict in datasource/pom.xml",
+    "CONFLICT (content): Merge conflict in exceptiontrace/exceptiontrace-collector/pom.xml",
+    "CONFLICT (content): Merge conflict in exceptiontrace/exceptiontrace-common/pom.xml",
+    "CONFLICT (content): Merge conflict in exceptiontrace/exceptiontrace-web/pom.xml",
+    "CONFLICT (content): Merge conflict in exceptiontrace/pom.xml",
+    "CONFLICT (modify/delete): flink/pom.xml deleted in a and modified in b.  Version b of flink/pom.xml left in tree.",
+    "CONFLICT (content): Merge conflict in grpc/pom.xml",
+    "CONFLICT (content): Merge conflict in hbase/hbase-docker/pom.xml",
+    "CONFLICT (content): Merge conflict in hbase/hbase-schema-definition/pom.xml",
+    "CONFLICT (content): Merge conflict in hbase/hbase-schema-manager/pom.xml",
+    "CONFLICT (content): Merge conflict in hbase/hbase-schema/pom.xml",
+    "CONFLICT (content): Merge conflict in hbase/pom.xml",
+    "CONFLICT (content): Merge conflict in inspector-module/inspector-collector/pom.xml",
+    "CONFLICT (content): Merge conflict in inspector-module/inspector-commons/pom.xml",
+    "CONFLICT (content): Merge conflict in inspector-module/inspector-web/pom.xml",
+    "CONFLICT (content): Merge conflict in inspector-module/pom.xml",
+    "CONFLICT (content): Merge conflict in log/log-collector/pom.xml",
+    "CONFLICT (content): Merge conflict in log/log-common/pom.xml",
+    "CONFLICT (content): Merge conflict in log/log-web/pom.xml",
+    "CONFLICT (content): Merge conflict in log/pom.xml",
+    "CONFLICT (content): Merge conflict in metric-module/metric-commons/pom.xml",
+    "CONFLICT (content): Merge conflict in metric-module/metric/pom.xml",
+    "CONFLICT (content): Merge conflict in metric-module/pom.xml",
+    "CONFLICT (content): Merge conflict in otlpmetric/otlpmetric-collector/pom.xml",
+    "CONFLICT (content): Merge conflict in otlpmetric/otlpmetric-common/pom.xml",
+    "CONFLICT (content): Merge conflict in otlpmetric/otlpmetric-web/pom.xml",
+    "CONFLICT (content): Merge conflict in otlpmetric/pom.xml",
+    "CONFLICT (content): Merge conflict in pinot/pinot-batch/pom.xml",
+    "CONFLICT (content): Merge conflict in pinot/pinot-config/pom.xml",
+    "CONFLICT (content): Merge conflict in pinot/pinot-datasource/pom.xml",
+    "CONFLICT (content): Merge conflict in pinot/pinot-kafka/pom.xml",
+    "CONFLICT (content): Merge conflict in pinot/pom.xml",
+    "CONFLICT (content): Merge conflict in pom.xml",
+    "CONFLICT (content): Merge conflict in quickstart/testapp/pom.xml",
+    "CONFLICT (content): Merge conflict in realtime/pom.xml",
+    "CONFLICT (content): Merge conflict in realtime/realtime-collector/pom.xml",
+    "CONFLICT (content): Merge conflict in realtime/realtime-common/pom.xml",
+    "CONFLICT (content): Merge conflict in realtime/realtime-web/pom.xml",
+    "CONFLICT (content): Merge conflict in redis/pom.xml",
+    "CONFLICT (modify/delete): rpc/pom.xml deleted in a and modified in b.  Version b of rpc/pom.xml left in tree.",
+    "CONFLICT (modify/delete): testcase/pom.xml deleted in a and modified in b.  Version b of testcase/pom.xml left in tree.",
+    "CONFLICT (modify/delete): thrift-datasender/pom.xml deleted in a and modified in b.  Version b of thrift-datasender/pom.xml left in tree.",
+    "CONFLICT (modify/delete): thrift/pom.xml deleted in a and modified in b.  Version b of thrift/pom.xml left in tree.",
+    "CONFLICT (content): Merge conflict in uristat/pom.xml",
+    "CONFLICT (content): Merge conflict in uristat/uristat-batch/pom.xml",
+    "CONFLICT (content): Merge conflict in uristat/uristat-collector/pom.xml",
+    "CONFLICT (content): Merge conflict in uristat/uristat-common/pom.xml",
+    "CONFLICT (content): Merge conflict in uristat/uristat-web/pom.xml",
+    "CONFLICT (rename/delete): agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/FluxOperatorSubscribeInterceptor.java renamed to uristat/uristat-web/src/main/java/com/navercorp/pinpoint/uristat/web/mapper/MapperConfig.java in a, but deleted in b.",
+    "CONFLICT (modify/delete): uristat/uristat-web/src/main/java/com/navercorp/pinpoint/uristat/web/mapper/MapperConfig.java deleted in b and modified in a.  Version a of uristat/uristat-web/src/main/java/com/navercorp/pinpoint/uristat/web/mapper/MapperConfig.java left in tree.",
+    "CONFLICT (content): Merge conflict in user/pom.xml",
+    "CONFLICT (rename/delete): agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/MonoOperatorSubscribeInterceptor.java renamed to user/src/main/java/com/navercorp/pinpoint/user/UserModule.java in a, but deleted in b.",
+    "CONFLICT (modify/delete): user/src/main/java/com/navercorp/pinpoint/user/UserModule.java deleted in b and modified in a.  Version a of user/src/main/java/com/navercorp/pinpoint/user/UserModule.java left in tree.",
+    "CONFLICT (modify/delete): web-angular/pom.xml deleted in a and modified in b.  Version b of web-angular/pom.xml left in tree.",
+    "CONFLICT (content): Merge conflict in web-frontend/pom.xml",
+    "CONFLICT (content): Merge conflict in web-starter/pom.xml",
+    "CONFLICT (content): Merge conflict in web/pom.xml",
+    "CONFLICT (rename/delete): agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/MonoSubscribeInterceptor.java renamed to web/src/main/java/com/navercorp/pinpoint/web/heatmap/service/EmptyHeatmapService.java in a, but deleted in b.",
+    "CONFLICT (modify/delete): web/src/main/java/com/navercorp/pinpoint/web/heatmap/service/EmptyHeatmapService.java deleted in b and modified in a.  Version a of web/src/main/java/com/navercorp/pinpoint/web/heatmap/service/EmptyHeatmapService.java left in tree.",
+    "CONFLICT (content): Merge conflict in webhook/pom.xml"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "add/add",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "modify/delete",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "add/add",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "add/add",
+    "add/add",
+    "rename/delete",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "add/add",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "rename/rename",
+    "add/add",
+    "content",
+    "rename/rename",
+    "rename/rename",
+    "rename/rename",
+    "rename/rename",
+    "rename/rename",
+    "content",
+    "content",
+    "content",
+    "rename/delete",
+    "modify/delete",
+    "content",
+    "content",
+    "content",
+    "modify/delete",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "modify/delete",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "rename/delete",
+    "modify/delete",
+    "modify/delete",
+    "content",
+    "content",
+    "content",
+    "rename/delete",
+    "modify/delete",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "modify/delete",
+    "content",
+    "rename/delete",
+    "modify/delete",
+    "rename/delete",
+    "modify/delete",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "modify/delete",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "modify/delete",
+    "modify/delete",
+    "modify/delete",
+    "modify/delete",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "rename/delete",
+    "modify/delete",
+    "content",
+    "rename/delete",
+    "modify/delete",
+    "modify/delete",
+    "content",
+    "content",
+    "content",
+    "rename/delete",
+    "modify/delete",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "agent-module/agent-plugins/agent-plugins-parent/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-plugins/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-plugins/proxy-apache/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-plugins/proxy-app/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-plugins/proxy-common/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-plugins/proxy-nginx/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-plugins/proxy-user/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-sdk/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/agent-proxy-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/agent-testweb-commons/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/agentsdk-async-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/arcus-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/bom/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/cassandra3-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/cassandra4-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/closed-module-testlib/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/closed-module-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/dubbo-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/elasticsearch-8-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/elasticsearch-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/grpc-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/httpclient4-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/httpclient5-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/jdk-http-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/jdk-httpclient-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/jetty-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/kafka-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/kafka-streams-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/ktor-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/mariadb-jdbc-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/mongodb-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/mongodb-reactive-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/mysql-jdbc-plugin-testweb/src/main/java/com/pinpoint/test/plugin/MysqlDBPluginTestStarter.java",
+      "types": [
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/agent-testweb/ning-asynchttpclient-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/okhttp-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/paho-mqtt-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/postgresql-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/reactor-netty-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/reactor-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/reactor-plugin-testweb/src/main/java/com/pinpoint/test/plugin/ReactorPluginController.java",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/agent-testweb/redis-lettuce-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/redis-lettuce-plugin-testweb/src/main/java/com/pinpoint/test/plugin/RedisLettucePluginController.java",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/agent-testweb/redis-lettuce-plugin-testweb/src/main/java/com/pinpoint/test/plugin/RedisTemplateConfig.java",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/agent-testweb/redis-lettuce-plugin-testweb/src/test/java/com/pinpoint/test/plugin/RedisServerTest.java",
+      "types": [
+        "add/add"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/agent-testweb/resilience4j-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/rocketmq-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/rocketmq-plugin-testweb/rocketmq-original/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/rocketmq-plugin-testweb/rocketmq-springboot/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/rocketmq-plugin-testweb/rocketmq-springcloud-stream/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/spring-boot3-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/spring-boot3-webflux-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/spring-cloud-gateway-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/spring-data-r2dbc-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/spring-webflux-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/thread-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/thrift-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/undertow-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/vertx-3-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-testweb/vertx-4-plugin-testweb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent-tools/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/agent/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/bootstraps/bootstrap-core/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/bootstraps/bootstrap-core/src/main/java/com/navercorp/pinpoint/bootstrap/config/DefaultProfilerConfig.java",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/bootstraps/bootstrap-core/src/main/java/com/navercorp/pinpoint/bootstrap/config/ProfilerConfig.java",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/bootstraps/bootstrap-core/src/main/java/com/navercorp/pinpoint/bootstrap/plugin/reactor/CoreSubscriberOnNextInterceptor.java",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/bootstraps/bootstrap-core/src/main/java/com/navercorp/pinpoint/bootstrap/plugin/reactor/ReactorSubscriberAccessor.java",
+      "types": [
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/bootstraps/bootstrap-java15/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/bootstraps/bootstrap-java16/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/bootstraps/bootstrap-java9-internal/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/bootstraps/bootstrap-java9/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/bootstraps/bootstrap-parent/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/bootstraps/bootstrap/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/bootstraps/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/activemq-it/activemq-5-15-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/activemq-it/activemq-5-17-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/activemq-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/cassandra-it/cassandra-2-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/cassandra-it/cassandra-4-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/cassandra-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/clickhouse-jdbc-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/cxf-it/cxf-3-0-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/cxf-it/cxf-3-6-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/cxf-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/druid-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/elasticsearch-it/elasticsearch-6-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/elasticsearch-it/elasticsearch-7-16-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/elasticsearch-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/fastjson-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/google-grpc-it/google-grpc-1-42-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/google-grpc-it/google-grpc-1-8-it/pom.xml",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/google-grpc-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/google-httpclient-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/gson-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/hbase-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/hikaricp-it/hikaricp-4-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/hikaricp-it/hikaricp-5-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/hikaricp-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/httpclient-it/httpclient-3-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/httpclient-it/httpclient-4-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/httpclient-it/httpclient-5-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/httpclient-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/hystrix-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/ibatis-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/informix-jdbc-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/jackson-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/jdk-http-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/json-lib-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/jtds-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/kafka-it/kafka-2-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/kafka-it/kafka-3-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/kafka-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/kotlin-coroutines-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/lambda-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/log4j-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/log4j2-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/logback-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/mariadb-jdbc-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/mongodb-it/mongodb-3-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/mongodb-it/mongodb-4-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/mongodb-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/mssql-jdbc-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/mybatis-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/mysql-jdbc-driver-plugin-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/netty-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/ning-asyncclient-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/okhttp-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/oracledb-it/oracledb-11-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/oracledb-it/oracledb-19-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/oracledb-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/paho-mqtt-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/postgresql-jdbc-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/process-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/rabbitmq-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/reactor-it/pom.xml",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/redis-lettuce-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/rxjava-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/spring-data-r2dbc-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/spring-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/spring-it/spring-3-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/spring-it/spring-6-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/thread-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/thrift-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/thrift-it/thrift-0-10-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-it/thrift-it/thrift-0-14-it/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-loader/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-test-module/plugins-it-utils-jdbc/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-test-module/plugins-it-utils/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-test-module/plugins-test/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-test-module/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins-test-module/testcase/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/activemq-client/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/agentsdk-async/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/akka-http/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/apache-dubbo/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/arcus/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/assembly/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/aws-sdk-s3/README.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "agent-module/plugins/aws-sdk-s3/pom.xml",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/AwsSdkS3Constants.java",
+      "types": [
+        "rename/delete",
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/RequestBuilderGetter.java",
+      "types": [
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/URIGetter.java",
+      "types": [
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/interceptor/AsyncResponseHandlerOnErrorInterceptor.java",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/interceptor/AsyncResponseHandlerOnHeadersInterceptor.java",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/interceptor/BaseClientHandlerInterceptor.java",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/interceptor/HttpResponseHandlerInterceptor.java",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/interceptor/S3ClientInterceptor.java",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/aws-sdk-s3/src/main/java/com/navercorp/pinpoint/plugin/aws/sdk/s3/interceptor/XmlProtocolMarshallerInterceptor.java",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/bom/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/cassandra/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/cassandra4/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/clickhouse-jdbc/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/common-servlet/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/cubrid-jdbc/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/cxf/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/dbcp/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/dbcp2/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/druid/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/elasticsearch/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/elasticsearch8/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/external/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/fastjson/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/google-httpclient/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/grpc/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/gson/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/hbase/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/hikaricp/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/httpclient3/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/httpclient4/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/httpclient5/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/hystrix/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/ibatis/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/informix-jdbc/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/jackson/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/jboss/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/jdk-completable-future/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/jdk-http/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/jdk-httpclient/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/jetty/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/json-lib/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/jsp/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/jtds/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/kafka/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/kafka/src/main/java/com/navercorp/pinpoint/plugin/kafka/field/getter/StampedRecordGetter.java",
+      "types": [
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/kafka/src/main/java/com/navercorp/pinpoint/plugin/kafka/interceptor/ListenerConsumerInvokeErrorHandlerInterceptor.java",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/kafka/src/main/java/com/navercorp/pinpoint/plugin/kafka/interceptor/ProducerAddHeaderInterceptor.java",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/kotlin-coroutines/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/ktor/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/log4j/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/log4j2/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/logback/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/mariadb-jdbc/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/mongodb/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/mssql-jdbc/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/mybatis/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/mysql-jdbc/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/netty/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/ning-asynchttpclient/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/ning-asynchttpclient/src/main/java/com/navercorp/pinpoint/plugin/ning/asynchttpclient/interceptor/AsyncHandlerOnCompletedInterceptor.java",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/okhttp/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/okhttp/src/main/java/com/navercorp/pinpoint/plugin/okhttp/v2/HeadersBuilder.java",
+      "types": [
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/okhttp/src/main/java/com/navercorp/pinpoint/plugin/okhttp/v3/HeadersBuilder.java",
+      "types": [
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/openwhisk/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/oracle-jdbc/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/paho-mqtt/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/postgresql-jdbc/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/process/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/pulsar/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/rabbitmq/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/reactor-netty/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/reactor/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/ConnectableFluxConstructorInterceptor.java",
+      "types": [
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/CoreSubscriberRunInterceptor.java",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/FluxAndMonoSubscribeMethodInterceptor.java",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/FluxConstructorInterceptor.java",
+      "types": [
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/FluxOperatorConstructorInterceptor.java",
+      "types": [
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/FluxSubscribeInterceptor.java",
+      "types": [
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/MonoConstructorInterceptor.java",
+      "types": [
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/MonoOperatorConstructorInterceptor.java",
+      "types": [
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/reactor/src/main/java/com/navercorp/pinpoint/plugin/reactor/interceptor/RunnableSubscriptionInterceptor.java",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/reactor/src/test/java/com/navercorp/pinpoint/plugin/reactor/ReactorPluginTest.java",
+      "types": [
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/redis-lettuce/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/redis-lettuce/src/main/java/com/navercorp/pinpoint/plugin/redis/lettuce/LettucePlugin.java",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/redis-lettuce/src/main/java/com/navercorp/pinpoint/plugin/redis/lettuce/interceptor/RedisPubSubListenerMethodDescriptor.java",
+      "types": [
+        "rename/delete",
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/plugins/redis-redisson/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/redis/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/resilience4j/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/resin/pom.xml",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/resttemplate/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/rocketmq/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/rxjava/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/spring-boot/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/spring-cloud-sleuth/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/spring-data-r2dbc/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/spring-stub/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/spring-tx/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/spring-webflux/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/spring/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/thread/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/thrift/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/tomcat/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/undertow-servlet/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/undertow/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/user/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/vertx/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/weblogic/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/plugins/websphere/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/profiler-logging/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/profiler-optional/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/profiler-optional/profiler-optional-jdk8/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/profiler-optional/profiler-optional-jdk9/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/profiler-optional/profiler-optional-parent/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/profiler-test/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/profiler/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "agent-module/profiler/src/main/java/com/navercorp/pinpoint/profiler/context/ChildTrace.java",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/profiler/src/main/java/com/navercorp/pinpoint/profiler/context/DefaultTrace.java",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/profiler/src/main/java/com/navercorp/pinpoint/profiler/context/DisableChildTrace.java",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/profiler/src/main/java/com/navercorp/pinpoint/profiler/context/DisableTrace.java",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/profiler/src/main/java/com/navercorp/pinpoint/profiler/context/grpc/mapper/SpanMessageMapper.java",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/profiler/src/main/java/com/navercorp/pinpoint/profiler/context/provider/metadata/SqlMetadataServiceProvider.java",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/profiler/src/main/java/com/navercorp/pinpoint/profiler/instrument/scanner/ClassScannerFactory.java",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/profiler/src/main/java/com/navercorp/pinpoint/profiler/metadata/UidCachingSqlNormalizer.java",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "agent-module/profiler/src/test/java/com/navercorp/pinpoint/profiler/metadata/SqlUidMetaDataServiceTest.java",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "annotations/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "basic-login/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "batch-alarmsender/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "batch/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "channel/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "collector-monitor/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "collector-starter/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "collector/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "collector/src/main/java/com/navercorp/pinpoint/collector/heatmap/config/HeatmapPropertySources.java",
+      "types": [
+        "rename/delete",
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "collector/src/main/java/com/navercorp/pinpoint/collector/service/StatisticsService.java",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "commons-buffer/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "commons-config/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "commons-hbase/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "commons-hbase/src/main/java/com/navercorp/pinpoint/common/hbase/wd/ByteSaltKey.java",
+      "types": [
+        "rename/delete",
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "commons-mapstruct-spi/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "commons-mybatis/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "commons-profiler/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "commons-profiler/src/main/java/com/navercorp/pinpoint/common/profiler/sql/DefaultSqlNormalizer.java",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "commons-profiler/src/test/java/com/navercorp/pinpoint/common/profiler/sql/DefaultSqlNormalizerTest.java",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "commons-server-cluster/pom.xml",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "commons-server/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "commons-server/src/main/java/com/navercorp/pinpoint/common/server/metric/dao/TableNameManager.java",
+      "types": [
+        "rename/delete",
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "commons-server/src/main/java/com/navercorp/pinpoint/common/server/metric/dao/TopicNameManager.java",
+      "types": [
+        "rename/delete",
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "commons-timeseries/src/main/java/com/navercorp/pinpoint/common/timeseries/time/RangeValidator.java",
+      "types": [
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "commons/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "commons/src/main/java/com/navercorp/pinpoint/common/Version.java",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "datasource/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "exceptiontrace/exceptiontrace-collector/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "exceptiontrace/exceptiontrace-common/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "exceptiontrace/exceptiontrace-web/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "exceptiontrace/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "flink/pom.xml",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "grpc/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "hbase/hbase-docker/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "hbase/hbase-schema-definition/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "hbase/hbase-schema-manager/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "hbase/hbase-schema/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "hbase/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "inspector-module/inspector-collector/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "inspector-module/inspector-commons/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "inspector-module/inspector-web/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "inspector-module/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "log/log-collector/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "log/log-common/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "log/log-web/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "log/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "metric-module/metric-commons/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "metric-module/metric/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "metric-module/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "otlpmetric/otlpmetric-collector/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "otlpmetric/otlpmetric-common/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "otlpmetric/otlpmetric-web/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "otlpmetric/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "pinot/pinot-batch/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "pinot/pinot-config/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "pinot/pinot-datasource/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "pinot/pinot-kafka/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "pinot/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "quickstart/testapp/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "realtime/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "realtime/realtime-collector/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "realtime/realtime-common/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "realtime/realtime-web/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "redis/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "rpc/pom.xml",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "testcase/pom.xml",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "thrift-datasender/pom.xml",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "thrift/pom.xml",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "uristat/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "uristat/uristat-batch/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "uristat/uristat-collector/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "uristat/uristat-common/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "uristat/uristat-web/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "uristat/uristat-web/src/main/java/com/navercorp/pinpoint/uristat/web/mapper/MapperConfig.java",
+      "types": [
+        "rename/delete",
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "user/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "user/src/main/java/com/navercorp/pinpoint/user/UserModule.java",
+      "types": [
+        "rename/delete",
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "user/src/main/java/com/navercorp/pinpoint/user/util/DefaultUserInfoEncoder.java",
+      "types": [
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "user/src/main/java/com/navercorp/pinpoint/user/util/UserInfoEncoder.java",
+      "types": [
+        "rename/rename"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "web-angular/pom.xml",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "web-frontend/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "web-starter/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "web/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    },
+    {
+      "path": "web/src/main/java/com/navercorp/pinpoint/web/heatmap/service/EmptyHeatmapService.java",
+      "types": [
+        "rename/delete",
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "webhook/pom.xml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

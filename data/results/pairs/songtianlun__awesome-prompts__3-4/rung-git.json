@@ -1,0 +1,23 @@
+{
+  "pair_id": "songtianlun__awesome-prompts__3-4",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in mkdocs.yml"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "mkdocs.yml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

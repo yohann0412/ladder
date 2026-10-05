@@ -1,0 +1,10 @@
+{
+  "pair_id": "go-co-op__gocron__864-866",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "57afb4fc260d614270653398a7073ec39bd5f0d6"
+}

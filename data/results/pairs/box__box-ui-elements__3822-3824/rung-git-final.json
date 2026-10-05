@@ -1,0 +1,10 @@
+{
+  "pair_id": "box__box-ui-elements__3822-3824",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "ab6abbca9cc0e39a968fca38f5ef45681e27e6c8"
+}

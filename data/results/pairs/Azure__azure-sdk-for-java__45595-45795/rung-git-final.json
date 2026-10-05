@@ -1,0 +1,10 @@
+{
+  "pair_id": "Azure__azure-sdk-for-java__45595-45795",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b51db54aa6fc8f1b696dacc960361c5f78a2e079"
+}

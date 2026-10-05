@@ -1,0 +1,10 @@
+{
+  "pair_id": "polkadot-cloud__polkadot-staking-dashboard__2790-2794",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "6eee9fed0fe7d8a55d1a5c4c14f417b48f6ee5dd"
+}

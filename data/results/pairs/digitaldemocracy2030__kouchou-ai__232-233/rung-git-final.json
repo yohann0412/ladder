@@ -1,0 +1,10 @@
+{
+  "pair_id": "digitaldemocracy2030__kouchou-ai__232-233",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c95b8cea5db0a595cfb696d21051d561b1e2cb26"
+}

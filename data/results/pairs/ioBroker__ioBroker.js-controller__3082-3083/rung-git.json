@@ -1,0 +1,10 @@
+{
+  "pair_id": "ioBroker__ioBroker.js-controller__3082-3083",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d352649a703cf3ba3858a859980c39099b4e6826"
+}

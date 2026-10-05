@@ -1,0 +1,10 @@
+{
+  "pair_id": "DavidBelicza__TextRank__15-16",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "197ffaa39e1bbe24ba46a261fdc90c1ee940237d"
+}

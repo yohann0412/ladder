@@ -1,0 +1,10 @@
+{
+  "pair_id": "celestiaorg__rsmt2d__361-363",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "bbabe6b4429a06d6de8edfbbc4e9c67732d214e2"
+}

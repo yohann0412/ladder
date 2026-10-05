@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__magentic-ui__55-59",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "011250f3c3b5535045c825887515440a39836d7c"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "keepsuit__laravel-opentelemetry__48-50",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "dc9eb4cfaf8dfcd7b69ddd4a580bf96c06d1c33f"
+}

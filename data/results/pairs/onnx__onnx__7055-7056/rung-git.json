@@ -1,0 +1,10 @@
+{
+  "pair_id": "onnx__onnx__7055-7056",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0509c680c2295dbe5dce9e7afcd5342d0f5c4751"
+}

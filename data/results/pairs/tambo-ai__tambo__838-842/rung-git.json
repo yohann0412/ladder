@@ -1,0 +1,10 @@
+{
+  "pair_id": "tambo-ai__tambo__838-842",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a1127ffdc2575ae45b5f03e922f8912cbc883d0d"
+}

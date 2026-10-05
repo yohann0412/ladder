@@ -1,0 +1,10 @@
+{
+  "pair_id": "bennycode__trading-signals__806-808",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "d895a85469f7783b7925b02d6dd77d47108a752c"
+}

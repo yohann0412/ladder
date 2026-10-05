@@ -1,0 +1,10 @@
+{
+  "pair_id": "parse-community__parse-dashboard__2878-2879",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c0e6eaab110b963bbed602de1f5193af96c13030"
+}

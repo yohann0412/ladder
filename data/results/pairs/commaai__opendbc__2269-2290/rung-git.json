@@ -1,0 +1,10 @@
+{
+  "pair_id": "commaai__opendbc__2269-2290",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "93617b80223c1ee31437cc86c2aec9f46f81e4fa"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "fatedier__fft__22-23",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7cdd478c2fb25d097b922779d2f2e878e0f0e017"
+}

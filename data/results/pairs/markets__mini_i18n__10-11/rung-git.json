@@ -1,0 +1,10 @@
+{
+  "pair_id": "markets__mini_i18n__10-11",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "304b3c8d202e15deef352262631704c35e6b9016"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "QuantEcon__QuantEcon.py__783-785",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "a23e781000d4e90ea804637d3eea5fac0e8c2a5e"
+}

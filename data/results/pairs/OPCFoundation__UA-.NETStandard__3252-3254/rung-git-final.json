@@ -1,0 +1,10 @@
+{
+  "pair_id": "OPCFoundation__UA-.NETStandard__3252-3254",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "dfa78971d9d498a0d088f193e983debdbf3cd696"
+}

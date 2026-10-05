@@ -1,0 +1,10 @@
+{
+  "pair_id": "cynkra__dm__2298-2299",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b9ace461cbe93af55930c7a0b9d3124f30db6a1d"
+}

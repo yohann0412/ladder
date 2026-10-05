@@ -1,0 +1,10 @@
+{
+  "pair_id": "KarinJS__Karin__534-535",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "44066166c9481d1844d2ffd12fe3d59627557cc9"
+}

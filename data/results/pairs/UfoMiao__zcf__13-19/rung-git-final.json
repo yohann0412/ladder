@@ -1,0 +1,123 @@
+{
+  "pair_id": "UfoMiao__zcf__13-19",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 11, conflicted files: 11 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in README.md",
+    "CONFLICT (content): Merge conflict in README_zh-CN.md",
+    "CONFLICT (content): Merge conflict in src/commands/init.ts",
+    "CONFLICT (add/add): Merge conflict in src/i18n/locales/en/cometix.ts",
+    "CONFLICT (add/add): Merge conflict in src/i18n/locales/zh-CN/cometix.ts",
+    "CONFLICT (add/add): Merge conflict in src/utils/cometix/commands.ts",
+    "CONFLICT (add/add): Merge conflict in src/utils/cometix/installer.ts",
+    "CONFLICT (add/add): Merge conflict in src/utils/cometix/menu.ts",
+    "CONFLICT (add/add): Merge conflict in tests/utils/cometix/commands.test.ts",
+    "CONFLICT (add/add): Merge conflict in tests/utils/cometix/installer.test.ts",
+    "CONFLICT (add/add): Merge conflict in tests/utils/cometix/menu.test.ts"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add",
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "docs_text"
+    },
+    {
+      "path": "README_zh-CN.md",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "docs_text"
+    },
+    {
+      "path": "src/commands/init.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "src/i18n/locales/en/cometix.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/i18n/locales/zh-CN/cometix.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/utils/cometix/commands.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/utils/cometix/installer.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/utils/cometix/menu.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "tests/utils/cometix/commands.test.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "tests/utils/cometix/installer.test.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "tests/utils/cometix/menu.test.ts",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

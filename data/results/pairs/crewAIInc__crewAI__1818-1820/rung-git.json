@@ -1,0 +1,10 @@
+{
+  "pair_id": "crewAIInc__crewAI__1818-1820",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "8f205a920efb3fd16a29a28fa3fbcd6a462b8bf9"
+}

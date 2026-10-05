@@ -1,0 +1,10 @@
+{
+  "pair_id": "transloadit__uppy__5957-5958",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "c3dc1f164c4fe8aa73b3f341cdfe6b3e50a6e372"
+}

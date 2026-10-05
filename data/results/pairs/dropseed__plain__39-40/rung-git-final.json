@@ -1,0 +1,10 @@
+{
+  "pair_id": "dropseed__plain__39-40",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "653c289a057c6b0af924d4f21b5fe3d9f5c6bb48"
+}

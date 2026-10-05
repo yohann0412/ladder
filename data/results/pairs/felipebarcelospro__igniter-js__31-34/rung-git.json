@@ -1,0 +1,10 @@
+{
+  "pair_id": "felipebarcelospro__igniter-js__31-34",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "9ab7c05bfe9f4c248cc2bf53e6075a8cbb9e3f44"
+}

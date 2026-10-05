@@ -1,0 +1,23 @@
+{
+  "pair_id": "obophenotype__cell-ontology__3184-3200",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/patterns/definitions.owl"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/patterns/definitions.owl",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    }
+  ],
+  "merged_tree": null
+}

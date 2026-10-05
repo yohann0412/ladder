@@ -1,0 +1,10 @@
+{
+  "pair_id": "getsentry__sentry-wizard__1040-1041",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "df1022bd0495a4a4005009d81c83e497629b808c"
+}

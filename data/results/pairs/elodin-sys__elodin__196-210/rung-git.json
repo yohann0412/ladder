@@ -1,0 +1,10 @@
+{
+  "pair_id": "elodin-sys__elodin__196-210",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f80f5ede2cc417da69976b7aa53cdd2b8acd136b"
+}

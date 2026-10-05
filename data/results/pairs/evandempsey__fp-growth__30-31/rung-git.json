@@ -2,7 +2,7 @@
   "pair_id": "evandempsey__fp-growth__30-31",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (modify/delete): .travis.yml deleted in b and modified in a.  Version a of .travis.yml left in tree."
   ],

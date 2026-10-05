@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__MSBuildLocator__332-333",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "143a45eace001e417a7e79fc6aaae49f39558cec"
+}

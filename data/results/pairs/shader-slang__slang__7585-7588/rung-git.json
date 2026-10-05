@@ -1,0 +1,10 @@
+{
+  "pair_id": "shader-slang__slang__7585-7588",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "8a903fcde3fa50a4956781919d357810c00ca19d"
+}

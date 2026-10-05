@@ -1,0 +1,10 @@
+{
+  "pair_id": "Marker-Inc-Korea__AutoRAG__1144-1146",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "507a398ffd2dd41b3ca9c2c2ef083480ab73cfb7"
+}

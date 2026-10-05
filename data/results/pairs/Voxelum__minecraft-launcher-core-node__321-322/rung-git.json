@@ -1,0 +1,10 @@
+{
+  "pair_id": "Voxelum__minecraft-launcher-core-node__321-322",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e549e50f3ee0039e5c04c368b202d7ca14b08a13"
+}

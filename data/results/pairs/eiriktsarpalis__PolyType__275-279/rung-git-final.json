@@ -1,0 +1,10 @@
+{
+  "pair_id": "eiriktsarpalis__PolyType__275-279",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e4b62f9b386da1e6bdbd2ba0e3405557a9d9c62e"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "static-frame__static-frame__1068-1069",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b791aa7357eefed83e741b8b38a1a668ec4fb7de"
+}

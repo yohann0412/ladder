@@ -1,0 +1,10 @@
+{
+  "pair_id": "reneschulte__WriteableBitmapEx__105-106",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b1855d6e582b1a239adda93a9242d0cbeedd847a"
+}

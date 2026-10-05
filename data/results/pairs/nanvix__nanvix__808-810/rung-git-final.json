@@ -1,0 +1,10 @@
+{
+  "pair_id": "nanvix__nanvix__808-810",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7a7b4e5d3fcef7007f4ce854799f00c1aff61da7"
+}

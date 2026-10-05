@@ -1,0 +1,10 @@
+{
+  "pair_id": "vllm-project__vllm__22138-22776",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "034196ca39041c55a0b187a41400b51988406e79"
+}

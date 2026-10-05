@@ -1,0 +1,10 @@
+{
+  "pair_id": "stack-auth__stack-auth__465-466",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5b48a74b65e9e9c04696224466d4957b933369c6"
+}

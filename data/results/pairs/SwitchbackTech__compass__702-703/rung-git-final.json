@@ -1,0 +1,10 @@
+{
+  "pair_id": "SwitchbackTech__compass__702-703",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "dd77eb3f45f0e43b7831be3c0ba8dcfe2b43d132"
+}

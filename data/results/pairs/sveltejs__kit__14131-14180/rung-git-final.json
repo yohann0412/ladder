@@ -1,0 +1,10 @@
+{
+  "pair_id": "sveltejs__kit__14131-14180",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "1bc561a7832af5c42d0bda40ccc7834901047223"
+}

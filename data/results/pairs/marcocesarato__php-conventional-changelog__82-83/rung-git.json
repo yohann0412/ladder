@@ -1,0 +1,10 @@
+{
+  "pair_id": "marcocesarato__php-conventional-changelog__82-83",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f84c1a793e1cdac948e2b6fddc6c448d34c5fd9e"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "zwave-js__zwave-js__7994-8017",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "eb2ca48cdeed1ebef3662a05dc44fcb8930e8fa4"
+}

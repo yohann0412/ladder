@@ -2,7 +2,7 @@
   "pair_id": "Rello__audioplayer__616-617",
   "heads": "final",
   "status": "conflicted",
-  "detail": "conflict messages: 3, conflicted files: 3",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (content): Merge conflict in CHANGELOG.md",
     "CONFLICT (content): Merge conflict in lib/Controller/MusicController.php",

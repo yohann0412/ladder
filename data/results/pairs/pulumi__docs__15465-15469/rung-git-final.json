@@ -1,0 +1,33 @@
+{
+  "pair_id": "pulumi__docs__15465-15469",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (add/add): Merge conflict in content/docs/iac/concepts/projects/stack-settings-file.md",
+    "CONFLICT (content): Merge conflict in yarn.lock"
+  ],
+  "types": [
+    "add/add",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "content/docs/iac/concepts/projects/stack-settings-file.md",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "yarn.lock",
+      "types": [
+        "content"
+      ],
+      "regions": 5,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "tangle-network__tangle__1009-1011",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "20d0ec5b707762bb5468ceedd0cec2a7b99b3c97"
+}

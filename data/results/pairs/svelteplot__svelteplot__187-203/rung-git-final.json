@@ -1,0 +1,10 @@
+{
+  "pair_id": "svelteplot__svelteplot__187-203",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "e2d0943e28f40ee37996e237702a5662b00b1d62"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "jdx__mise__5591-5616",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "5c1c656a1416adb4d640e6c6f4aba8c62d0b5e25"
+}

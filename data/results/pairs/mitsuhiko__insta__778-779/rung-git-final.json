@@ -1,0 +1,10 @@
+{
+  "pair_id": "mitsuhiko__insta__778-779",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "bfada71f338f7d9d5dc556e20840103df95f2469"
+}

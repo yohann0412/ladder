@@ -2,7 +2,7 @@
   "pair_id": "unbug__codelf__141-142",
   "heads": "final",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
   "messages": [
     "CONFLICT (modify/delete): dist/css/app.css deleted in a and modified in b.  Version b of dist/css/app.css left in tree."
   ],

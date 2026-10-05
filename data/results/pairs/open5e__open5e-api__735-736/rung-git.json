@@ -1,0 +1,10 @@
+{
+  "pair_id": "open5e__open5e-api__735-736",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b15adb378bbb92e97d268d3b645695d02b04c0c9"
+}

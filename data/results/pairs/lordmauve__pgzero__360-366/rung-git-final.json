@@ -1,0 +1,10 @@
+{
+  "pair_id": "lordmauve__pgzero__360-366",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "7f2fe74cf8afd3e085f6fd0158471312c8c130b9"
+}

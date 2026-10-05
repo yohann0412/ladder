@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__fluentui__34730-34752",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "41ea4d7480737a23ec6026661e70b28e5333c10e"
+}

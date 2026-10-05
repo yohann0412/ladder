@@ -1,0 +1,43 @@
+{
+  "pair_id": "Azure__azure-sdk-for-net__50505-50516",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in eng/pipelines/aggregate-reports.yml",
+    "CONFLICT (content): Merge conflict in eng/pipelines/templates/steps/install-dotnet.yml",
+    "CONFLICT (content): Merge conflict in eng/pipelines/templates/variables/image.yml"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "eng/pipelines/aggregate-reports.yml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "eng/pipelines/templates/steps/install-dotnet.yml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "eng/pipelines/templates/variables/image.yml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    }
+  ],
+  "merged_tree": null
+}

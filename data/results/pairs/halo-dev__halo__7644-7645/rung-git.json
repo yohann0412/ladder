@@ -1,0 +1,10 @@
+{
+  "pair_id": "halo-dev__halo__7644-7645",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "13450e21ded2a8cc8a545abdc4d1f678cbdc8f1b"
+}

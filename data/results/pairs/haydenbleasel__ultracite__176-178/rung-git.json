@@ -1,0 +1,23 @@
+{
+  "pair_id": "haydenbleasel__ultracite__176-178",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in scripts/format.ts"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "scripts/format.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

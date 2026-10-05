@@ -1,0 +1,33 @@
+{
+  "pair_id": "llama-farm__llamafarm__82-87",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in .gitignore",
+    "CONFLICT (content): Merge conflict in README.md"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "README.md",
+      "types": [
+        "content"
+      ],
+      "regions": 5,
+      "category": "docs_text"
+    }
+  ],
+  "merged_tree": null
+}

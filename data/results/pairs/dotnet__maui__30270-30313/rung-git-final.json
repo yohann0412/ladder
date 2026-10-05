@@ -1,0 +1,323 @@
+{
+  "pair_id": "dotnet__maui__30270-30313",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 31, conflicted files: 31 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in eng/Signing.props",
+    "CONFLICT (content): Merge conflict in eng/Versions.props",
+    "CONFLICT (content): Merge conflict in src/BlazorWebView/tests/MauiDeviceTests/WebViewHelpers.Windows.cs",
+    "CONFLICT (content): Merge conflict in src/Compatibility/Core/src/iOS/Renderers/ListViewRenderer.cs",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/Cells/EntryCell.cs",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/Cells/ImageCell.cs",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/Cells/SwitchCell.cs",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/Cells/TextCell.cs",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/Cells/ViewCell.cs",
+    "CONFLICT (modify/delete): src/Controls/src/Core/ClickGestureRecognizer.cs deleted in a and modified in b.  Version b of src/Controls/src/Core/ClickGestureRecognizer.cs left in tree.",
+    "CONFLICT (modify/delete): src/Controls/src/Core/ClickedEventArgs.cs deleted in a and modified in b.  Version b of src/Controls/src/Core/ClickedEventArgs.cs left in tree.",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/Compatibility/Handlers/ListView/iOS/ListViewRenderer.cs",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/Compatibility/Handlers/NavigationPage/iOS/NavigationRenderer.cs",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/Compatibility/Handlers/Shell/iOS/ShellPageRendererTracker.cs",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/DatePicker/DatePicker.cs",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/ICornerElement.cs",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/ListView/ListView.cs",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/PlatformConfiguration/AndroidSpecific/ListView.cs",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/PlatformConfiguration/WindowsSpecific/ListView.cs",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/PlatformConfiguration/iOSSpecific/Cell.cs",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/PlatformConfiguration/iOSSpecific/ListView.cs",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Unshipped.txt",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/PublicAPI/net-ios/PublicAPI.Unshipped.txt",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/PublicAPI/net-maccatalyst/PublicAPI.Unshipped.txt",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/PublicAPI/net-tizen/PublicAPI.Unshipped.txt",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/PublicAPI/net-windows/PublicAPI.Unshipped.txt",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/PublicAPI/net/PublicAPI.Unshipped.txt",
+    "CONFLICT (content): Merge conflict in src/Controls/src/Core/PublicAPI/netstandard/PublicAPI.Unshipped.txt",
+    "CONFLICT (content): Merge conflict in src/Controls/tests/DeviceTests/Elements/Button/ButtonTests.Android.cs",
+    "CONFLICT (content): Merge conflict in src/Core/src/Handlers/TimePicker/TimePickerHandler.Android.cs",
+    "CONFLICT (content): Merge conflict in src/Core/src/Platform/iOS/MauiSwipeView.cs"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "modify/delete",
+    "modify/delete",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "eng/Signing.props",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "eng/Versions.props",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "other"
+    },
+    {
+      "path": "src/BlazorWebView/tests/MauiDeviceTests/WebViewHelpers.Windows.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/Compatibility/Core/src/iOS/Renderers/ListViewRenderer.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/Cells/EntryCell.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/Cells/ImageCell.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/Cells/SwitchCell.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/Cells/TextCell.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/Cells/ViewCell.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/ClickGestureRecognizer.cs",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/ClickedEventArgs.cs",
+      "types": [
+        "modify/delete"
+      ],
+      "regions": 0,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/Compatibility/Handlers/ListView/iOS/ListViewRenderer.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/Compatibility/Handlers/NavigationPage/iOS/NavigationRenderer.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/Compatibility/Handlers/Shell/iOS/ShellPageRendererTracker.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/DatePicker/DatePicker.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/ICornerElement.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/ListView/ListView.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/PlatformConfiguration/AndroidSpecific/ListView.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/PlatformConfiguration/WindowsSpecific/ListView.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/PlatformConfiguration/iOSSpecific/Cell.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/PlatformConfiguration/iOSSpecific/ListView.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 3,
+      "category": "source"
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Unshipped.txt",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-ios/PublicAPI.Unshipped.txt",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-maccatalyst/PublicAPI.Unshipped.txt",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-tizen/PublicAPI.Unshipped.txt",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-windows/PublicAPI.Unshipped.txt",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net/PublicAPI.Unshipped.txt",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/netstandard/PublicAPI.Unshipped.txt",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "src/Controls/tests/DeviceTests/Elements/Button/ButtonTests.Android.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/Core/src/Handlers/TimePicker/TimePickerHandler.Android.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "src/Core/src/Platform/iOS/MauiSwipeView.cs",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

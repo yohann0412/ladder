@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__CCF__7210-7211",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0c885e7565b6deb95c75dcfaefe47a033c1e3fd9"
+}

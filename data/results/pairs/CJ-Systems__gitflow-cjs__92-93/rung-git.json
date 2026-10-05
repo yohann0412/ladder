@@ -1,0 +1,10 @@
+{
+  "pair_id": "CJ-Systems__gitflow-cjs__92-93",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "0582a85911b7c493e61e7b17c5dfebba7e99989c"
+}

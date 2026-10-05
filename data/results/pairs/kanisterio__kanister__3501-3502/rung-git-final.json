@@ -1,0 +1,10 @@
+{
+  "pair_id": "kanisterio__kanister__3501-3502",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "9513b21d6cdb912b7bcd910969c9b12eb173d721"
+}

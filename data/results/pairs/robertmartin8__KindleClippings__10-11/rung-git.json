@@ -1,0 +1,10 @@
+{
+  "pair_id": "robertmartin8__KindleClippings__10-11",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "f3e08274669d2ef80477cfafe6b516bea33ab3c8"
+}

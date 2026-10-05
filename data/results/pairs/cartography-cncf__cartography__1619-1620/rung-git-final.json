@@ -1,0 +1,10 @@
+{
+  "pair_id": "cartography-cncf__cartography__1619-1620",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "b37399155576865cf9e4ab6831527732ee1bd706"
+}

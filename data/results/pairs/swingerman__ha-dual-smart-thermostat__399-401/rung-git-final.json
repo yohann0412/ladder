@@ -1,0 +1,10 @@
+{
+  "pair_id": "swingerman__ha-dual-smart-thermostat__399-401",
+  "heads": "final",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "4749f54bb3ea5833d7b79fd4bbd57f9627362967"
+}

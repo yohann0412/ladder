@@ -1,0 +1,93 @@
+{
+  "pair_id": "dsccommunity__SqlServerDsc__2108-2123",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 8, conflicted files: 8 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in .github/copilot-instructions.md",
+    "CONFLICT (content): Merge conflict in .vscode/settings.json",
+    "CONFLICT (content): Merge conflict in CHANGELOG.md",
+    "CONFLICT (content): Merge conflict in azure-pipelines.yml",
+    "CONFLICT (content): Merge conflict in source/en-US/SqlServerDsc.strings.psd1",
+    "CONFLICT (add/add): Merge conflict in tests/Integration/Commands/Assert-SqlDscLogin.Integration.Tests.ps1",
+    "CONFLICT (content): Merge conflict in tests/Integration/Commands/Uninstall-SqlDscServer.Integration.Tests.ps1",
+    "CONFLICT (add/add): Merge conflict in tests/Unit/Public/Assert-SqlDscLogin.Tests.ps1"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content",
+    "content",
+    "add/add",
+    "content",
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": ".github/copilot-instructions.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "types": [
+        "content"
+      ],
+      "regions": 2,
+      "category": "docs_text"
+    },
+    {
+      "path": "azure-pipelines.yml",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "config_ci"
+    },
+    {
+      "path": "source/en-US/SqlServerDsc.strings.psd1",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "tests/Integration/Commands/Assert-SqlDscLogin.Integration.Tests.ps1",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "tests/Integration/Commands/Uninstall-SqlDscServer.Integration.Tests.ps1",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "tests/Unit/Public/Assert-SqlDscLogin.Tests.ps1",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

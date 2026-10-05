@@ -1,0 +1,10 @@
+{
+  "pair_id": "Maintainerr__Maintainerr__1886-1888",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "00761a2709b6d321d9dea07c3182e69c9ffe2bbe"
+}

@@ -1,0 +1,10 @@
+{
+  "pair_id": "deepmodeling__dpgen__1801-1802",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "8207b95e2e9cb16a133ff52f966af835cce6382d"
+}

@@ -2,7 +2,7 @@
   "pair_id": "wechaty__wechaty__2809-2810",
   "heads": "replay",
   "status": "clean",
-  "detail": "b merges into a cleanly",
+  "detail": "b merges into a cleanly (git merge-tree on the original commits in the repository cache)",
   "messages": [],
   "types": [],
   "files": [],

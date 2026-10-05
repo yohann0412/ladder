@@ -1,0 +1,23 @@
+{
+  "pair_id": "stipsan__ioredis-mock__1385-1393",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "messages": [
+    "CONFLICT (content): Merge conflict in package-lock.json"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "package-lock.json",
+      "types": [
+        "content"
+      ],
+      "regions": 7,
+      "category": "manifest_lockfile"
+    }
+  ],
+  "merged_tree": null
+}
