@@ -1,0 +1,36 @@
+{
+  "pair_id": "bruin-data__ingestr__251-299",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 3 of 3",
+  "remaining_conflicted": [
+    "ingestr/src/factory.py",
+    "requirements.txt",
+    "requirements_arm64.txt"
+  ],
+  "files": [
+    {
+      "path": "ingestr/src/factory.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "requirements.txt",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "requirements_arm64.txt",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/bruin-data__ingestr__251-299/weave"
+}

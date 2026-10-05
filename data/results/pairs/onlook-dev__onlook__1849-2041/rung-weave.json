@@ -1,0 +1,36 @@
+{
+  "pair_id": "onlook-dev__onlook__1849-2041",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "error",
+  "detail": "bun.lockb: driver exit 2",
+  "remaining_conflicted": [
+    "apps/web/client/.env.example",
+    "apps/web/client/src/app/api/chat/route.ts",
+    "bun.lockb"
+  ],
+  "files": [
+    {
+      "path": "apps/web/client/.env.example",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "apps/web/client/src/app/api/chat/route.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    },
+    {
+      "path": "bun.lockb",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/onlook-dev__onlook__1849-2041/weave"
+}

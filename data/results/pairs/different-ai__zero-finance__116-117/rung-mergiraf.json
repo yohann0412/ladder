@@ -1,0 +1,20 @@
+{
+  "pair_id": "different-ai__zero-finance__116-117",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "packages/web/src/app/onboarding/welcome/page.tsx"
+  ],
+  "files": [
+    {
+      "path": "packages/web/src/app/onboarding/welcome/page.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/different-ai__zero-finance__116-117/mergiraf"
+}

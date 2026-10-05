@@ -1,0 +1,15 @@
+{
+  "pair_id": "tokens-studio__figma-plugin__3360-3361",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T07:14:11.485668Z"
+}

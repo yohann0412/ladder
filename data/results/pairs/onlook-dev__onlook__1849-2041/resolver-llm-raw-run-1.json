@@ -1,0 +1,18 @@
+{
+  "pair_id": "onlook-dev__onlook__1849-2041",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: bun.lockb version a has 677632 bytes, more than 200000",
+    "input cap: bun.lockb version b has 708992 bytes, more than 200000",
+    "input cap: bun.lockb version conflicted has 677632 bytes, more than 200000",
+    "input cap: 2079245 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T07:14:28.346712Z"
+}

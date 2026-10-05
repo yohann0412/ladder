@@ -2,7 +2,7 @@
   "pair_id": "Rello__analytics__517-518",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 2, conflicted files: 2",
   "messages": [
     "CONFLICT (content): Merge conflict in CHANGELOG.md",
     "CONFLICT (content): Merge conflict in js/navigation.js"

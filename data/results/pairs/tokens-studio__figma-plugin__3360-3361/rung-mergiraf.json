@@ -1,0 +1,46 @@
+{
+  "pair_id": "tokens-studio__figma-plugin__3360-3361",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 5",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "packages/tokens-studio-for-figma/src/app/components/ToolsDropdown.tsx",
+      "present": true,
+      "has_markers": false,
+      "language": "tsx",
+      "parses": true
+    },
+    {
+      "path": "packages/tokens-studio-for-figma/src/figmaStorage/__tests__/ClientStorageCleanup.test.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": true
+    },
+    {
+      "path": "packages/tokens-studio-for-figma/src/figmaStorage/__tests__/ThemesProperty.test.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": true
+    },
+    {
+      "path": "packages/tokens-studio-for-figma/src/figmaStorage/__tests__/ValuesProperty.test.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": true
+    },
+    {
+      "path": "packages/tokens-studio-for-figma/src/plugin/figmaTransforms/gradients.test.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/tokens-studio__figma-plugin__3360-3361/mergiraf"
+}

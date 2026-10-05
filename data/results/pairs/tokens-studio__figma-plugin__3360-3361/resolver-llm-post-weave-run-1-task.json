@@ -1,0 +1,21 @@
+{
+  "pair_id": "tokens-studio__figma-plugin__3360-3361",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "task_dir": "/home/user/ladder/work/resolver/tokens-studio__figma-plugin__3360-3361/llm-post-weave/run-1",
+  "snapshot_dir": "/home/user/ladder/work/resolver/tokens-studio__figma-plugin__3360-3361/llm-post-weave/run-1/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/tokens-studio__figma-plugin__3360-3361/llm-post-weave/run-1",
+  "spawn_line": "Read /home/user/ladder/work/resolver/tokens-studio__figma-plugin__3360-3361/llm-post-weave/run-1/PROMPT.md and follow it exactly.",
+  "files": [
+    "packages/tokens-studio-for-figma/src/app/components/ToolsDropdown.tsx",
+    "packages/tokens-studio-for-figma/src/figmaStorage/__tests__/ClientStorageCleanup.test.ts",
+    "packages/tokens-studio-for-figma/src/figmaStorage/__tests__/ThemesProperty.test.ts",
+    "packages/tokens-studio-for-figma/src/plugin/figmaTransforms/gradients.test.ts"
+  ],
+  "input_bytes": 57662,
+  "pr_text_flags": [],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "pending",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T07:14:12.762128Z"
+}

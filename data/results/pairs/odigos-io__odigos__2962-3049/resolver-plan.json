@@ -1,0 +1,15 @@
+{
+  "pair_id": "odigos-io__odigos__2962-3049",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T07:14:16.046826Z"
+}

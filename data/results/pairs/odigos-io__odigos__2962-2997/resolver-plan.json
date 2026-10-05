@@ -1,0 +1,11 @@
+{
+  "pair_id": "odigos-io__odigos__2962-2997",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T07:14:20.883921Z"
+}

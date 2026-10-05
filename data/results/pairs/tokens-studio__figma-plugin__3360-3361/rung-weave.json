@@ -1,0 +1,51 @@
+{
+  "pair_id": "tokens-studio__figma-plugin__3360-3361",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 4 of 5",
+  "remaining_conflicted": [
+    "packages/tokens-studio-for-figma/src/app/components/ToolsDropdown.tsx",
+    "packages/tokens-studio-for-figma/src/figmaStorage/__tests__/ClientStorageCleanup.test.ts",
+    "packages/tokens-studio-for-figma/src/figmaStorage/__tests__/ThemesProperty.test.ts",
+    "packages/tokens-studio-for-figma/src/plugin/figmaTransforms/gradients.test.ts"
+  ],
+  "files": [
+    {
+      "path": "packages/tokens-studio-for-figma/src/app/components/ToolsDropdown.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    },
+    {
+      "path": "packages/tokens-studio-for-figma/src/figmaStorage/__tests__/ClientStorageCleanup.test.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    },
+    {
+      "path": "packages/tokens-studio-for-figma/src/figmaStorage/__tests__/ThemesProperty.test.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    },
+    {
+      "path": "packages/tokens-studio-for-figma/src/figmaStorage/__tests__/ValuesProperty.test.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": true
+    },
+    {
+      "path": "packages/tokens-studio-for-figma/src/plugin/figmaTransforms/gradients.test.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/tokens-studio__figma-plugin__3360-3361/weave"
+}

@@ -1,0 +1,20 @@
+{
+  "pair_id": "tokens-studio__figma-plugin__3366-3391",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "packages/tokens-studio-for-figma/src/app/components/AppContainer/startupProcessSteps/pullTokensFactory.ts"
+  ],
+  "files": [
+    {
+      "path": "packages/tokens-studio-for-figma/src/app/components/AppContainer/startupProcessSteps/pullTokensFactory.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/tokens-studio__figma-plugin__3366-3391/mergiraf"
+}

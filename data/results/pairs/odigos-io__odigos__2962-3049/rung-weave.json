@@ -1,0 +1,73 @@
+{
+  "pair_id": "odigos-io__odigos__2962-3049",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 5 of 8",
+  "remaining_conflicted": [
+    "instrumentor/controllers/agentenabled/pods_webhook.go",
+    "instrumentor/controllers/sourceinstrumentation/instrumentedapp_migration_controller.go",
+    "instrumentor/instrumentor.go",
+    "instrumentor/runtimemigration/runtimemigration.go",
+    "instrumentor/runtimemigration/utils.go"
+  ],
+  "files": [
+    {
+      "path": "instrumentor/controllers/agentenabled/instrumentationconfig_controller.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/pods_webhook.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/rollout/rollout.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/sync.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "instrumentor/controllers/sourceinstrumentation/instrumentedapp_migration_controller.go",
+      "present": true,
+      "has_markers": false,
+      "language": "go",
+      "parses": true
+    },
+    {
+      "path": "instrumentor/instrumentor.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "present": true,
+      "has_markers": false,
+      "language": "go",
+      "parses": true
+    },
+    {
+      "path": "instrumentor/runtimemigration/utils.go",
+      "present": true,
+      "has_markers": false,
+      "language": "go",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/odigos-io__odigos__2962-3049/weave"
+}

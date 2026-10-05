@@ -1,0 +1,34 @@
+{
+  "pair_id": "odigos-io__odigos__2962-2997",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 3",
+  "remaining_conflicted": [
+    "instrumentor/controllers/agentenabled/sync.go"
+  ],
+  "files": [
+    {
+      "path": "instrumentor/controllers/agentenabled/instrumentationconfig_controller.go",
+      "present": true,
+      "has_markers": false,
+      "language": "go",
+      "parses": true
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/rollout/rollout.go",
+      "present": true,
+      "has_markers": false,
+      "language": "go",
+      "parses": true
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/sync.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/odigos-io__odigos__2962-2997/mergiraf"
+}

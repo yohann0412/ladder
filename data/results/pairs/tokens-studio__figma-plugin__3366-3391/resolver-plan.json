@@ -1,0 +1,11 @@
+{
+  "pair_id": "tokens-studio__figma-plugin__3366-3391",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T07:14:07.993064Z"
+}
