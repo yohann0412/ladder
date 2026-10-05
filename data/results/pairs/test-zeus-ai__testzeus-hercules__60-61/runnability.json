@@ -1,0 +1,67 @@
+{
+  "pair_id": "test-zeus-ai__testzeus-hercules__60-61",
+  "commit": "78160c2ebb1704aec5017db67ad0e411a100baa3",
+  "language": "python",
+  "package_manager": "poetry",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 4 failed, 0 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "poetry",
+        "install",
+        "--no-interaction",
+        "--with",
+        "dev"
+      ],
+      "exit_code": 0,
+      "duration_s": 541.9,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 153.0 s; pytest: exit 0 in 0.1 s; suite failed: 1 passed, 4 failed, 0 errors, 0 skipped (work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[SalesforceLeads], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[accessibility], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[productSearch], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[imageUpload]); first run failed: 1 passed, 4 failed, 0 errors, 0 skipped (work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[SalesforceLeads], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[accessibility], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[productSearch], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[imageUpload])"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/test-zeus-ai__testzeus-hercules__60-61/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 211.6,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 79.3 s; suite failed: 1 passed, 4 failed, 0 errors, 0 skipped (work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[SalesforceLeads], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[accessibility], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[productSearch], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[imageUpload]); first run failed: 1 passed, 4 failed, 0 errors, 0 skipped (work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[SalesforceLeads], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[accessibility], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[productSearch], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[imageUpload])"
+    }
+  ],
+  "test_count": 5,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/test-zeus-ai__testzeus-hercules__60-61/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/test-zeus-ai__testzeus-hercules__60-61/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 1,
+    "failed": 4,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 194.2,
+    "retried": true,
+    "failing_tests": [
+      "work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[SalesforceLeads]",
+      "work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[accessibility]",
+      "work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[productSearch]",
+      "work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[imageUpload]"
+    ],
+    "detail": "1 passed, 4 failed, 0 errors, 0 skipped (work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[SalesforceLeads], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[accessibility], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[productSearch], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[imageUpload]); first run failed: 1 passed, 4 failed, 0 errors, 0 skipped (work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[SalesforceLeads], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[accessibility], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[productSearch], work/runtime/test-zeus-ai__testzeus-hercules__60-61/trees/base/tests/test_feature_execution.py::test_feature_execution[imageUpload])"
+  },
+  "timeout_s": 600
+}
