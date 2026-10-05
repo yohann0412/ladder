@@ -1,0 +1,27 @@
+[
+  {
+    "md5": "e35155c6ac4c94fbb81eb88f3f2f38f6",
+    "name": "hao-li/AIDev@main/pull_request.parquet",
+    "url": "https://huggingface.co/datasets/hao-li/AIDev/resolve/c63c8a57a2de34fc03fa83722412824af4d8753b/pull_request.parquet"
+  },
+  {
+    "md5": "a233a6d7aa6470884915423c908318bb",
+    "name": "hao-li/AIDev@main/repository.parquet",
+    "url": "https://huggingface.co/datasets/hao-li/AIDev/resolve/c63c8a57a2de34fc03fa83722412824af4d8753b/repository.parquet"
+  },
+  {
+    "md5": "c070361e71ee941b3450d53fcdd07b32",
+    "name": "hao-li/AIDev@v3/pull_request.parquet",
+    "url": "https://huggingface.co/datasets/hao-li/AIDev/resolve/68ed5f4b80d27a9e057fc57567f38bd322ac73ec/pull_request.parquet"
+  },
+  {
+    "md5": "ce7feeddb10a99ce558518305d3be391",
+    "name": "hao-li/AIDev@v3/repository.parquet",
+    "url": "https://huggingface.co/datasets/hao-li/AIDev/resolve/68ed5f4b80d27a9e057fc57567f38bd322ac73ec/repository.parquet"
+  },
+  {
+    "md5": "59a99c9cf58793957806a7fa5e712f8f",
+    "name": "zenodo-21186464/replication_package.zip",
+    "url": "https://zenodo.org/api/records/21186464/files/replication_package.zip/content"
+  }
+]
