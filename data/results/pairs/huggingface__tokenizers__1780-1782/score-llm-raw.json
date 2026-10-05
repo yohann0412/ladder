@@ -1,0 +1,87 @@
+{
+  "pair_id": "huggingface__tokenizers__1780-1782",
+  "rung": "llm-raw",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "bindings/python/py_src/tokenizers/decoders/__init__.pyi",
+      "entity": "DecodeStream.__init__",
+      "loser": "a",
+      "reason": "both sides changed it; the resolution keeps B's version and lacks lines A added to it",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "bindings/python/src/decoders.rs",
+      "entity": "StepInput",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "bindings/python/src/decoders.rs",
+      "entity": "StreamInput",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "bindings/python/src/decoders.rs",
+      "entity": "StreamInput.extract_bound",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "bindings/python/py_src/tokenizers/decoders/__init__.pyi",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "bindings/python/src/decoders.rs",
+      "mode": "ast",
+      "language": "rust",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [
+        "PyDecodeStream.default_state_index",
+        "PyDecodeStream.step_default",
+        "impl PyDecodeStream"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "tokenizers/src/tokenizer/mod.rs",
+      "mode": "ast",
+      "language": "rust",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

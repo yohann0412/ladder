@@ -1,0 +1,133 @@
+{
+  "pair_id": "huggingface__tokenizers__1780-1782",
+  "rung": "weave",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "bindings/python/src/decoders.rs",
+      "entity": "<rest>",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "bindings/python/src/decoders.rs",
+      "entity": "PyDecodeStream.finish",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "bindings/python/src/decoders.rs",
+      "entity": "PyDecodeStream.prefill_hashes",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tokenizers/src/tokenizer/mod.rs",
+      "entity": "DecodeStream.step",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tokenizers/src/tokenizer/mod.rs",
+      "entity": "step_decode_stream",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tokenizers/src/tokenizer/mod.rs",
+      "entity": "impl TokenizerImpl<M, N, PT, PP, D>#2",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tokenizers/src/tokenizer/mod.rs",
+      "entity": "TokenizerImpl.train_from_files",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "tokenizers/src/tokenizer/mod.rs",
+      "entity": "TokenizerImpl.train",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "bindings/python/py_src/tokenizers/decoders/__init__.pyi",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "__init__"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "bindings/python/src/decoders.rs",
+      "mode": "ast",
+      "language": "rust",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "tokenizers/src/tokenizer/mod.rs",
+      "mode": "ast",
+      "language": "rust",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "DecodeStream.TokenizerImpl.Err",
+        "DecodeStream.TokenizerImpl.decode_batch",
+        "DecodeStream.TokenizerImpl.do_pre_tokenize",
+        "DecodeStream.TokenizerImpl.encode_batch",
+        "DecodeStream.TokenizerImpl.encode_batch_char_offsets",
+        "DecodeStream.TokenizerImpl.encode_batch_fast",
+        "DecodeStream.TokenizerImpl.from_bytes",
+        "DecodeStream.TokenizerImpl.from_file",
+        "DecodeStream.TokenizerImpl.from_pretrained",
+        "DecodeStream.TokenizerImpl.from_str",
+        "DecodeStream.TokenizerImpl.get_n_added_tokens",
+        "DecodeStream.TokenizerImpl.post_process",
+        "DecodeStream.TokenizerImpl.save",
+        "DecodeStream.TokenizerImpl.to_string",
+        "DecodeStream.TokenizerImpl.train",
+        "DecodeStream.TokenizerImpl.train_from_files",
+        "DecodeStream.impl TokenizerImpl<M, N, PT, PP, D>",
+        "DecodeStream.impl std.str.FromStr for TokenizerImpl<M, N, PT, PP, D>",
+        "DecodeStream.step.add_tokens"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}
