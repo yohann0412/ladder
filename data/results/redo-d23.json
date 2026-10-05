@@ -230,6 +230,54 @@
         "score-weave.json"
       ],
       "redone_at": "2026-10-05T14:10:39.837048Z"
+    },
+    {
+      "pair_id": "calcom__cal.com__18376-18378",
+      "records": [
+        "claim-c.json",
+        "runnability.json"
+      ],
+      "redone_at": "2026-10-05T19:56:43.252064Z"
+    },
+    {
+      "pair_id": "coder__coder__17940-17971",
+      "records": [
+        "claim-c.json",
+        "runnability.json"
+      ],
+      "redone_at": "2026-10-05T19:56:43.252646Z"
+    },
+    {
+      "pair_id": "openops-cloud__openops__666-668",
+      "records": [
+        "claim-c.json",
+        "runnability.json"
+      ],
+      "redone_at": "2026-10-05T19:56:43.253104Z"
+    },
+    {
+      "pair_id": "tldraw__tldraw__6210-6211",
+      "records": [
+        "claim-c.json",
+        "runnability.json"
+      ],
+      "redone_at": "2026-10-05T19:56:43.253788Z"
+    },
+    {
+      "pair_id": "twentyhq__twenty__12640-12641",
+      "records": [
+        "claim-c.json",
+        "runnability.json"
+      ],
+      "redone_at": "2026-10-05T19:56:43.254225Z"
+    },
+    {
+      "pair_id": "vectordotdev__vector__23345-23357",
+      "records": [
+        "claim-c.json",
+        "runnability.json"
+      ],
+      "redone_at": "2026-10-05T19:56:43.254695Z"
     }
   ]
 }
