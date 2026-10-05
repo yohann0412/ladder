@@ -14,7 +14,15 @@ def _install_recorded_run(task: dict[str, str], transcript: Path, extra_read: st
     shutil.copytree(RECORDED / "output", out, dirs_exist_ok=True)
     text = (RECORDED / "transcript.jsonl").read_text()
     text = text.replace("$TASK_DIR", task["task_dir"]).replace("$OUTPUT_DIR", task["output_dir"])
-    lines = text.splitlines()
+    lines = text.split("\n")[:-1]
+    separators = {
+        "type": "assistant",
+        "message": {
+            "id": "msg_separators",
+            "content": [{"type": "text", "text": "JSON allows raw \u2028 and \u2029 in strings"}],
+        },
+    }
+    lines.insert(2, json.dumps(separators, ensure_ascii=False))
     if extra_read is not None:
         call = {
             "type": "assistant",
