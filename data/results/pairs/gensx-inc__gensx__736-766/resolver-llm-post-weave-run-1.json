@@ -1,0 +1,25 @@
+{
+  "pair_id": "gensx-inc__gensx__736-766",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 42814,
+  "tokens": {
+    "input_tokens": 16,
+    "output_tokens": 1232,
+    "cache_creation_input_tokens": 42701,
+    "cache_read_input_tokens": 460654
+  },
+  "tool_calls": 11,
+  "files": [
+    {
+      "path": "website/home/app/page.tsx",
+      "action": "keep",
+      "sha256": "87e2bd56570cfb42397973f5842f4b2a63dc41cf3ce7c7df25e114befa25e035",
+      "rationale": "PR A deliberately replaces the whole landing page with the SaaS layout, which removes the example picker that PR B's incidental website edits (status example, mobile picker rework) modify, so the merge keeps PR A's page because B's edits have nothing left to apply to and B's actual intent (the dev-server fix) lives in another file."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:11.551401Z"
+}

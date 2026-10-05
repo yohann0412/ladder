@@ -1,0 +1,25 @@
+{
+  "pair_id": "zenml-io__zenml__3375-3487",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 116997,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 1401,
+    "cache_creation_input_tokens": 99176,
+    "cache_read_input_tokens": 563145
+  },
+  "tool_calls": 11,
+  "files": [
+    {
+      "path": "docs/book/how-to/data-artifact-management/handle-data-artifacts/handle-custom-data-types.md",
+      "action": "keep",
+      "sha256": "51f464bb5c85c25513e193f1e1a2e456f878d2f2b3ecd2f6243f07d334d70d82",
+      "rationale": "Took PR B's updated sdkdocs/docs.zenml.io links throughout (including the built-in table and CloudpickleMaterializer link) while keeping PR A's 'Compressed batch files with adaptive chunking' storage format for BuiltInContainerMaterializer and its new info hint about batch compression and the ZENML_MATERIALIZER_COLLECTION_CHUNK_SIZE variable."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:17.372101Z"
+}

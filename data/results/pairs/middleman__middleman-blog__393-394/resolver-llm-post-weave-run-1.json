@@ -1,0 +1,25 @@
+{
+  "pair_id": "middleman__middleman-blog__393-394",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 13811,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 612,
+    "cache_creation_input_tokens": 14625,
+    "cache_read_input_tokens": 217047
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": ".gitignore",
+      "action": "keep",
+      "sha256": "2d6b7271c6a1b4562a59de68596bcccbcc6820e54d106390672d869d47e66f75",
+      "rationale": "PR A ignores vendor/ and PR B ignores vendor/bundle/, so keeping the broader vendor/ entry satisfies both intents without a redundant line."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:13.314498Z"
+}

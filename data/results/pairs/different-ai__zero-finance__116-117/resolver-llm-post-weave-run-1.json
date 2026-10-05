@@ -1,0 +1,25 @@
+{
+  "pair_id": "different-ai__zero-finance__116-117",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 29031,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 1024,
+    "cache_creation_input_tokens": 22268,
+    "cache_read_input_tokens": 273282
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "packages/web/src/app/onboarding/welcome/page.tsx",
+      "action": "keep",
+      "sha256": "78f9992cb381b3b020d9df4a99853365f993239afe3b895eac42606a8575cbee",
+      "rationale": "Both PRs added the same skip-onboarding button, so the merge keeps it once and uses PR B's spinner (Loader2) rendering, which matches the already-merged Loader2 import and fully covers PR A's simpler label."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:10.991589Z"
+}

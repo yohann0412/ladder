@@ -1,0 +1,25 @@
+{
+  "pair_id": "superfly__flyctl__4456-4463",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 58323,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 335,
+    "cache_creation_input_tokens": 28171,
+    "cache_read_input_tokens": 229556
+  },
+  "tool_calls": 6,
+  "files": [
+    {
+      "path": "internal/appconfig/config.go",
+      "action": "keep",
+      "sha256": "5e3004df20204d860bfe5b01aa6b9af1b86ac667c91be6ba43d8bcd225a2bed2",
+      "rationale": "Both PRs appended independent methods after DeployStrategy, so the merge keeps PR A's HasHealthChecks and HasMounts helpers followed by PR B's DetectComposeFile, along with PR B's BuildCompose struct, WellKnownComposeFilenames and path/filepath import."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:15.129886Z"
+}

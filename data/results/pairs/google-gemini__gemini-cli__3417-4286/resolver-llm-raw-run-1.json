@@ -1,0 +1,25 @@
+{
+  "pair_id": "google-gemini__gemini-cli__3417-4286",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 57464,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 656,
+    "cache_creation_input_tokens": 40866,
+    "cache_read_input_tokens": 243692
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "packages/cli/src/config/config.ts",
+      "action": "keep",
+      "sha256": "4733d5eacc9105bc226ec2da7a09127d96a6b8e58fb6d0e0a62881dde90da068",
+      "rationale": "Both sides only added independent yargs options, so the merge keeps PR A's --experimental-acp and --proxy options alongside PR B's Hypha --connect/--workspace/--token/--service-id options, matching the already-merged CliArgs fields for both."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:12.115130Z"
+}

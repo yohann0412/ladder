@@ -1,0 +1,25 @@
+{
+  "pair_id": "Sls0n__Prismify__39-42",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 27704,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 529,
+    "cache_creation_input_tokens": 23274,
+    "cache_read_input_tokens": 232718
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "components/settings-dialog.tsx",
+      "action": "keep",
+      "sha256": "0b7c245ffee54a5dc2e17d42452eb5ea3807b17b3e8545b2a9f11335723769f7",
+      "rationale": "Both PRs converted SettingsDialog to a controlled open/onOpenChange component, so the merge keeps that shared change with PR A's multi-line signature, loading state, inline image preview and bg-background drawer styling, which PR B left unchanged from the base."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:06.645086Z"
+}

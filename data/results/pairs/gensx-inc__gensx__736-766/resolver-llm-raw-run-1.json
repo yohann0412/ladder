@@ -1,0 +1,25 @@
+{
+  "pair_id": "gensx-inc__gensx__736-766",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 38163,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 280,
+    "cache_creation_input_tokens": 43392,
+    "cache_read_input_tokens": 317352
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "website/home/app/page.tsx",
+      "action": "keep",
+      "sha256": "87e2bd56570cfb42397973f5842f4b2a63dc41cf3ce7c7df25e114befa25e035",
+      "rationale": "PR A replaced the whole landing page with the SaaS layout, which removes the example picker that PR B's edits (status example, stacked mobile examples) touched, so the merge keeps PR A's page because B's changes have nothing left in it to apply to."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:11.745813Z"
+}

@@ -1,0 +1,49 @@
+{
+  "pair_id": "odigos-io__odigos__2962-3049",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 112161,
+  "tokens": {
+    "input_tokens": 28,
+    "output_tokens": 2601,
+    "cache_creation_input_tokens": 67480,
+    "cache_read_input_tokens": 1043714
+  },
+  "tool_calls": 21,
+  "files": [
+    {
+      "path": "instrumentor/controllers/agentenabled/pods_webhook.go",
+      "action": "keep",
+      "sha256": "4d80f3f027865422ffd05a36024fc6a8fdd2b132b73d0e4961758addb246a849",
+      "rationale": "Keep PR A's goimports grouping and whitespace lint cleanups while adopting PR B's getRuntimeInfoForContainerName lookup (which honors container overrides) in both call sites, dropping the leading blank line in the new helper so A's whitespace linter still passes."
+    },
+    {
+      "path": "instrumentor/controllers/sourceinstrumentation/instrumentedapp_migration_controller.go",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR B removed this obsolete InstrumentedApplication migration reconciler and nothing references it anymore, so PR A's import-reordering lint change has nothing left to apply to."
+    },
+    {
+      "path": "instrumentor/instrumentor.go",
+      "action": "keep",
+      "sha256": "8f4218152f499e4771fc9790b3a15e240869a59c03f5b0b7983b118f823e9dc8",
+      "rationale": "Use PR A's grouped imports and error-checked mgr.Add for the secret-delete migration, while honoring PR B's removal of the runtimemigration step and its import."
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR B deleted the runtimemigration package along with its only caller in instrumentor.go, so PR A's lint-only edits to it are moot."
+    },
+    {
+      "path": "instrumentor/runtimemigration/utils.go",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR B deleted the runtimemigration package along with its only caller, so PR A's lint-only edits to this helper file are moot."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:14.716357Z"
+}

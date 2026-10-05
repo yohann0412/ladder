@@ -1,0 +1,34 @@
+{
+  "pair_id": "Rello__analytics__517-518",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/Rello__analytics__517-518/llm-raw/run-1/files/CHANGELOG.md",
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/Rello__analytics__517-518/llm-raw/run-1/files"
+  ],
+  "duration_ms": 233190,
+  "tokens": {
+    "input_tokens": 28,
+    "output_tokens": 3937,
+    "cache_creation_input_tokens": 80042,
+    "cache_read_input_tokens": 1088926
+  },
+  "tool_calls": 22,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "action": "keep",
+      "sha256": "b3ec6517c74f0423ea652e60c575a2ceec9e2d6177fa8fc7243d00e75aee5dc4",
+      "rationale": "Kept PR B's dated 5.7.1 release entries (including its reworded #513 line) and new 5.7.2 threshold-lines section, and appended PR A's grouping-related Fixed, Changed and Added entries to the 5.7.1 section, dropping only the duplicate smart picker line."
+    },
+    {
+      "path": "js/navigation.js",
+      "action": "keep",
+      "sha256": "da05cddca9bfcc21a72c9daf85f4bebc2e884ff291b63d2a602948c3ba11a4ec",
+      "rationale": "Both sides added the same favorites-section guard, so PR A's version was taken because it also includes the item-type-qualified sublist ID ('dataset-' + item_type + '-' + parent), which matches the ulSublist ID that the merged file now generates."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:06.492952Z"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "willccbb__verifiers__147-160",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 26960,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 911,
+    "cache_creation_input_tokens": 30902,
+    "cache_read_input_tokens": 308224
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "verifiers/envs/tool_env.py",
+      "action": "keep",
+      "sha256": "2701f83d32fc71e956db9974e7ef85db3035b62744a5724ca103c95506d256eb",
+      "rationale": "PR B rewrote ToolEnv around native OpenAI tool calls (new call_tool signature, no parser/env_parser), so PR A's XML-based env_response cannot work against it; B's env_response already runs every tool call in a single message and returns one result per call, which covers PR A's goal, so B's version is kept."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:15.877761Z"
+}

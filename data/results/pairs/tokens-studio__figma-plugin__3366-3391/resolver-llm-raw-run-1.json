@@ -1,0 +1,25 @@
+{
+  "pair_id": "tokens-studio__figma-plugin__3366-3391",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 33234,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 700,
+    "cache_creation_input_tokens": 25281,
+    "cache_read_input_tokens": 283474
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "packages/tokens-studio-for-figma/src/app/components/AppContainer/startupProcessSteps/pullTokensFactory.ts",
+      "action": "keep",
+      "sha256": "e991b79a78ba1f604dc8194220679a1966f5be72dbdd383bb9be1fb0f5b62316",
+      "rationale": "Kept PR B's restructured startup flow (hoisted isRemoteStorage/hasLocalData, getApiCredentials with isRemoteStorage arg, hasLocalData check) and inserted PR A's setEditProhibited(false) call right after recovering local token data so recovered tokens stay editable."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:15.851801Z"
+}

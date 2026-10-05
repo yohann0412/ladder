@@ -1,0 +1,43 @@
+{
+  "pair_id": "tokens-studio__figma-plugin__3360-3361",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 81538,
+  "tokens": {
+    "input_tokens": 16,
+    "output_tokens": 2130,
+    "cache_creation_input_tokens": 52527,
+    "cache_read_input_tokens": 454938
+  },
+  "tool_calls": 25,
+  "files": [
+    {
+      "path": "packages/tokens-studio-for-figma/src/app/components/ToolsDropdown.tsx",
+      "action": "keep",
+      "sha256": "051cd8a1ac42a6911ce8c3726dac124bc5784b11d33c6e75ee5157986af0c5af",
+      "rationale": "Kept PR A's DocumentationModal import, state, handlers, Generate Documentation menu item and modal render, laid out using PR B's prettier-style multi-line formatting of the IconButton and existing menu items."
+    },
+    {
+      "path": "packages/tokens-studio-for-figma/src/figmaStorage/__tests__/ClientStorageCleanup.test.ts",
+      "action": "keep",
+      "sha256": "3bd5c615e1aa220194dbd0bfd957678979d4c48d306cc243acdf502cbbd19a3c",
+      "rationale": "Both sides only reformatted the same array literal (A added a trailing comma, B collapsed it to one line per the 120-column prettier config), so B's prettier output is used with identical test semantics."
+    },
+    {
+      "path": "packages/tokens-studio-for-figma/src/figmaStorage/__tests__/ThemesProperty.test.ts",
+      "action": "keep",
+      "sha256": "3239dd9ad438970a6dbb5df4d18d453ca0c7443bbe037a023c1764741537ce9a",
+      "rationale": "Both sides only reformatted the same toHaveBeenCalledWith call (A added a trailing comma, B collapsed it to one line per prettier), so B's prettier formatting is used and the assertion stays the same."
+    },
+    {
+      "path": "packages/tokens-studio-for-figma/src/plugin/figmaTransforms/gradients.test.ts",
+      "action": "keep",
+      "sha256": "8d8e8b5c4ccc4cd308d94a4dbdcf752dd230770ea46d343260f99333a1ae0638",
+      "rationale": "Both sides only reformatted test5's gradientTransform, and B's prettier multi-line array matches the rest of the file, so it is used and the test values do not change."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:15.374933Z"
+}

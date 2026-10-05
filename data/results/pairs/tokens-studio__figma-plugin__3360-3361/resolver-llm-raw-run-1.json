@@ -1,0 +1,49 @@
+{
+  "pair_id": "tokens-studio__figma-plugin__3360-3361",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 108600,
+  "tokens": {
+    "input_tokens": 16,
+    "output_tokens": 2093,
+    "cache_creation_input_tokens": 45246,
+    "cache_read_input_tokens": 447847
+  },
+  "tool_calls": 19,
+  "files": [
+    {
+      "path": "packages/tokens-studio-for-figma/src/app/components/ToolsDropdown.tsx",
+      "action": "keep",
+      "sha256": "051cd8a1ac42a6911ce8c3726dac124bc5784b11d33c6e75ee5157986af0c5af",
+      "rationale": "Kept PR B's prettier-formatted multi-line menu items and added PR A's new Generate Documentation menu item, so both the reformatting and the new documentation feature are preserved."
+    },
+    {
+      "path": "packages/tokens-studio-for-figma/src/figmaStorage/__tests__/ClientStorageCleanup.test.ts",
+      "action": "keep",
+      "sha256": "3bd5c615e1aa220194dbd0bfd957678979d4c48d306cc243acdf502cbbd19a3c",
+      "rationale": "Both sides only reformatted the same base array literal, so I used PR B's prettier output because the test meaning is identical."
+    },
+    {
+      "path": "packages/tokens-studio-for-figma/src/figmaStorage/__tests__/ThemesProperty.test.ts",
+      "action": "keep",
+      "sha256": "3239dd9ad438970a6dbb5df4d18d453ca0c7443bbe037a023c1764741537ce9a",
+      "rationale": "Both sides only reformatted the same assertion, so I used PR B's prettier single-line form because the behavior is unchanged."
+    },
+    {
+      "path": "packages/tokens-studio-for-figma/src/figmaStorage/__tests__/ValuesProperty.test.ts",
+      "action": "keep",
+      "sha256": "6dbc2693229e540d8d4efabf3e45661625b0013f8ba32dc9a69017784579f9e5",
+      "rationale": "All four hunks are formatting-only lint fixes of the same JSON.stringify metadata calls, so I used PR B's prettier formatting everywhere for consistency."
+    },
+    {
+      "path": "packages/tokens-studio-for-figma/src/plugin/figmaTransforms/gradients.test.ts",
+      "action": "keep",
+      "sha256": "8d8e8b5c4ccc4cd308d94a4dbdcf752dd230770ea46d343260f99333a1ae0638",
+      "rationale": "Both sides only fixed the missing trailing commas on test5, so I used PR B's multi-line gradientTransform, which matches the other test cases in the file."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:15.618090Z"
+}

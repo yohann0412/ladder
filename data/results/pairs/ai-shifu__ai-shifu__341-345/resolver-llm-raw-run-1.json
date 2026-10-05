@@ -1,0 +1,25 @@
+{
+  "pair_id": "ai-shifu__ai-shifu__341-345",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 71901,
+  "tokens": {
+    "input_tokens": 16,
+    "output_tokens": 1781,
+    "cache_creation_input_tokens": 50840,
+    "cache_read_input_tokens": 463734
+  },
+  "tool_calls": 12,
+  "files": [
+    {
+      "path": "src/api/flaskr/service/study/runscript.py",
+      "action": "keep",
+      "sha256": "3abf5debd736561cb65190203e4990e9ebb1b4eb2389409558bb3807c2ae1fc2",
+      "rationale": "Kept PR B's nested-transaction course lookup and shorter Redis lock timeouts while applying PR A's typo fixes (REDIS_KEY_PREFIX key, 'teacher avatar' comment, and the 'teacher_avatar' chunk-type check in run_script so it matches the renamed yield)."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:06.838442Z"
+}

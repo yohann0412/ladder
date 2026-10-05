@@ -1,0 +1,37 @@
+{
+  "pair_id": "odigos-io__odigos__2962-2997",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 201489,
+  "tokens": {
+    "input_tokens": 32,
+    "output_tokens": 3258,
+    "cache_creation_input_tokens": 86793,
+    "cache_read_input_tokens": 1232540
+  },
+  "tool_calls": 27,
+  "files": [
+    {
+      "path": "instrumentor/controllers/agentenabled/instrumentationconfig_controller.go",
+      "action": "keep",
+      "sha256": "212ca3346ecf7e87dd8fa650c7a9e7c030170c6aa50bd716a14d47c8a52b475e",
+      "rationale": "Kept PR B's new k8sutils import and OdigosConfiguration lookup passed to reconcileWorkload, arranged in PR A's goimports grouping with odigos-io packages in a separate trailing group."
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/rollout/rollout.go",
+      "action": "keep",
+      "sha256": "e61d918ba7bb680e6267c5ed5aaba6705152f2a3c8ea4250b4a0e435f253adf4",
+      "rationale": "Kept PR B's rollback logic and its added imports (corev1, common, consts, utils), placing them in PR A's goimports layout with third-party packages first and the local odigos-io group last."
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/sync.go",
+      "action": "keep",
+      "sha256": "5ff51c9173b7c8a8b244eb7f537a73ecafd3d67bdb6ab9a57cb1effed8b41ca5",
+      "rationale": "Took PR B's containerInstrumentationConfig signature with crashDetected and its ignored-container-first check order, and dropped the blank line after the signature to keep PR A's whitespace-lint fix; the import grouping and unconvert fix from A and B's rollback changes stay as auto-merged."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:14.418618Z"
+}

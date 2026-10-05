@@ -1,0 +1,25 @@
+{
+  "pair_id": "willccbb__verifiers__147-160",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 26768,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 436,
+    "cache_creation_input_tokens": 27369,
+    "cache_read_input_tokens": 355123
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "verifiers/envs/tool_env.py",
+      "action": "keep",
+      "sha256": "2701f83d32fc71e956db9974e7ef85db3035b62744a5724ca103c95506d256eb",
+      "rationale": "PR B rewrote ToolEnv around native OpenAI tool calls (no XML parser/env_parser, new call_tool signature), and its env_response already executes every tool call in a message with per-call error isolation, so PR A's XML parse_all-based multi-tool logic is superseded and B's implementation is kept as-is."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:15.903190Z"
+}

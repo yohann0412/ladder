@@ -1,0 +1,37 @@
+{
+  "pair_id": "bruin-data__ingestr__251-299",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 130279,
+  "tokens": {
+    "input_tokens": 18,
+    "output_tokens": 1351,
+    "cache_creation_input_tokens": 56312,
+    "cache_read_input_tokens": 579427
+  },
+  "tool_calls": 12,
+  "files": [
+    {
+      "path": "ingestr/src/factory.py",
+      "action": "keep",
+      "sha256": "76429b92248f4390db84f4b62d414635b9fcbf6657560cbaa53087ae2d376ce7",
+      "rationale": "Kept both new source registrations, PR A's \"bingads\": BingAdsSource and PR B's \"linear\": LinearSource, since both classes are imported and defined in sources.py."
+    },
+    {
+      "path": "requirements.txt",
+      "action": "keep",
+      "sha256": "2918a0deb08d8f1f5b771a18bb3343477e4d0060076fae67d7c153b08bd7ce90",
+      "rationale": "Kept PR A's new bingads dependency and applied PR B's removal of beautifulsoup4, which was only pulled in by the redshift-connector package that PR B dropped."
+    },
+    {
+      "path": "requirements_arm64.txt",
+      "action": "keep",
+      "sha256": "ddf2e70fadb263ca276c4d11dfcfe881a81ff9e7bf6c80457610fbe80bd52072",
+      "rationale": "Kept PR A's new bingads dependency and applied PR B's removal of beautifulsoup4, which was only pulled in by the redshift-connector package that PR B dropped."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:10.624371Z"
+}

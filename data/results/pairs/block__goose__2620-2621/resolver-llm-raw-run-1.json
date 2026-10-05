@@ -1,0 +1,25 @@
+{
+  "pair_id": "block__goose__2620-2621",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 57174,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 1148,
+    "cache_creation_input_tokens": 39706,
+    "cache_read_input_tokens": 370550
+  },
+  "tool_calls": 11,
+  "files": [
+    {
+      "path": "crates/goose-server/src/routes/reply.rs",
+      "action": "keep",
+      "sha256": "c4160afb1cd5a43c15513ec1ae8ac5eff284f665551f4b6edf2630a8620b57aa",
+      "rationale": "Kept PR A's STREAM_CHUNK_SIZE constant and chunk_text helper used by the chunked streaming loop, while honoring PR B's removal of the explanatory comment (and its auto-merged schedule_id: None additions and comment cleanups)."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:10.452304Z"
+}

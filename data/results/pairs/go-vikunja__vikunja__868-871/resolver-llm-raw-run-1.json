@@ -1,0 +1,31 @@
+{
+  "pair_id": "go-vikunja__vikunja__868-871",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 29340,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 57,
+    "cache_creation_input_tokens": 22563,
+    "cache_read_input_tokens": 174101
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "frontend/src/components/base/BaseButton.story.vue",
+      "action": "keep",
+      "sha256": "40a77c76fea3c82acfaf2b096a4307934d05e24442808be5472eae0255c88f61",
+      "rationale": "Kept PR A's tab indentation reformat and applied PR B's `{ app: App }` type annotation on setupApp (matching its already-merged `type App` import)."
+    },
+    {
+      "path": "frontend/src/components/base/Expandable.vue",
+      "action": "keep",
+      "sha256": "64cf160ca5494d130be8618a86c4ba1b349950e23b0b553e9a3e78bfdf3d0f78",
+      "rationale": "Kept PR B's retyping of the transition hooks to take `Element` and cast to `HTMLElement`, re-indented with PR A's tabs to match the rest of PR A's reformatted script."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:11.939461Z"
+}

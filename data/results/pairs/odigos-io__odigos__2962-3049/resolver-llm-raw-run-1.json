@@ -1,0 +1,67 @@
+{
+  "pair_id": "odigos-io__odigos__2962-3049",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 257281,
+  "tokens": {
+    "input_tokens": 42,
+    "output_tokens": 6251,
+    "cache_creation_input_tokens": 154879,
+    "cache_read_input_tokens": 2446575
+  },
+  "tool_calls": 40,
+  "files": [
+    {
+      "path": "instrumentor/controllers/agentenabled/instrumentationconfig_controller.go",
+      "action": "keep",
+      "sha256": "212ca3346ecf7e87dd8fa650c7a9e7c030170c6aa50bd716a14d47c8a52b475e",
+      "rationale": "Kept PR B's odigos-config lookup passed to reconcileWorkload, with imports grouped std/third-party/local per PR A's goimports local-prefix style."
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/pods_webhook.go",
+      "action": "keep",
+      "sha256": "4d80f3f027865422ffd05a36024fc6a8fdd2b132b73d0e4961758addb246a849",
+      "rationale": "Took PR B's getRuntimeInfoForContainerName (override-aware runtime lookup) instead of the status-only lookup, keeping PR A's import grouping and blank-line lint cleanups."
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/rollout/rollout.go",
+      "action": "keep",
+      "sha256": "6c7f99f4e2a1e033db7d1ec99f18febcb611b18e59f84b506d03ab65b5f12b43",
+      "rationale": "Kept PR B's rollout logic (config param, rollback/crashloop handling, new imports) and arranged all imports in PR A's std/third-party/odigos grouping."
+    },
+    {
+      "path": "instrumentor/controllers/agentenabled/sync.go",
+      "action": "keep",
+      "sha256": "11d277c2b26d5b936986dbdd0e962927ebe3b817dad69b55e274ee0a2c619399",
+      "rationale": "Used PR B's containerInstrumentationConfig signature with crashDetected and nil-runtime handling (dropping the early unknown-language check B moved), without the leading blank line PR A's whitespace lint removed."
+    },
+    {
+      "path": "instrumentor/controllers/sourceinstrumentation/instrumentedapp_migration_controller.go",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR B removed this obsolete InstrumentedApplication migration controller and nothing references it; PR A only reordered its imports."
+    },
+    {
+      "path": "instrumentor/instrumentor.go",
+      "action": "keep",
+      "sha256": "8f4218152f499e4771fc9790b3a15e240869a59c03f5b0b7983b118f823e9dc8",
+      "rationale": "Dropped the runtimemigration runnable and import as PR B removed that package, while keeping PR A's error-checked mgr.Add for the secret delete migration and its import grouping."
+    },
+    {
+      "path": "instrumentor/runtimemigration/runtimemigration.go",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR B deleted the runtimemigration package and its only caller; PR A's changes were lint-only and don't justify keeping it."
+    },
+    {
+      "path": "instrumentor/runtimemigration/utils.go",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "Part of the runtimemigration package that PR B removed; PR A's lint-only edits are moot once the package is gone."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:15.016976Z"
+}

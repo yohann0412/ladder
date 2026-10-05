@@ -1,0 +1,25 @@
+{
+  "pair_id": "ai-shifu__ai-shifu__341-345",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 70341,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 1217,
+    "cache_creation_input_tokens": 59087,
+    "cache_read_input_tokens": 290318
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "src/api/flaskr/service/study/runscript.py",
+      "action": "keep",
+      "sha256": "fd4b89b124da299e16d601297b0831a30d270f24180f07e75c3f47c465e4b018",
+      "rationale": "Took PR B's restructured transaction handling (nested transactions with commits, shorter Redis lock, early lock release) and applied PR A's typo fixes to it: 'teacher_avator'/'course_teacher_avator' became 'teacher_avatar'/'course_teacher_avatar' (including the chunk prefix that triggers the early lock release, so it still matches the renamed event) and 'REDIS_KEY_PRRFIX' became 'REDIS_KEY_PREFIX'."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:26:06.741760Z"
+}
