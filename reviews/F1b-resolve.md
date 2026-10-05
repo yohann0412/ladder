@@ -40,3 +40,12 @@ commits); vscode-mssql clean of contamination.
 - The rewind's binary search is valid because contamination is monotone along a
   first-parent chain (a commit reaching a marker makes its descendants reach it).
 - Merge-commit search runs only for merged PRs, and only merged PRs can contaminate.
+
+## Follow-up after the real supplementary run
+
+`pairs resolve` crashed on a repository with a tag named like its default branch
+(`symbolic-ref --short HEAD` printed `heads/main`), and the uncaught error aborted the whole
+batch. Fixed by a separate subagent (08a1caf: full HEAD ref; 7611fc1: a git failure marks only
+its repository group or pair `fetch_failed`, with the error in `detail`). Reviewed and merged;
+`e2e/test_pairs_resolve.py` passes. Known remaining edge: `git merge-base` exits 1 (not an
+error) when a commit is missing, so a corrupted cache shows as `no_merge_base`.
