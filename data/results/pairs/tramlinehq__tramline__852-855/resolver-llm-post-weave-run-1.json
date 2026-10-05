@@ -1,0 +1,25 @@
+{
+  "pair_id": "tramlinehq__tramline__852-855",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 215212,
+  "tokens": {
+    "input_tokens": 34,
+    "output_tokens": 5637,
+    "cache_creation_input_tokens": 95093,
+    "cache_read_input_tokens": 1165994
+  },
+  "tool_calls": 27,
+  "files": [
+    {
+      "path": "db/schema.rb",
+      "action": "keep",
+      "sha256": "81dd9dec3788a4912a59915c7f68372b22c13d8ddebf2cc9164f79b6cbf1d26e",
+      "rationale": "Kept both sides' schema changes (PR A's linear_config column, linear_integrations table and GitLab original-token column removal; PR B's outgoing_webhooks/outgoing_webhook_events tables and foreign keys), set the schema version to the later migration timestamp 2025_07_21_091833 so it covers all migrations from both PRs, and dropped weave's trailing annotation comment."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:01:16.469755Z"
+}

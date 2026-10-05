@@ -1,0 +1,25 @@
+{
+  "pair_id": "stanford-crfm__levanter__996-1004",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 77762,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 535,
+    "cache_creation_input_tokens": 61358,
+    "cache_read_input_tokens": 206163
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "src/levanter/optim/config.py",
+      "action": "keep",
+      "sha256": "b9a455b4d5b97d1b7d539555d8a82a38d418c12d0324821e0f8b13ebac54cc22",
+      "rationale": "Kept both additions in AdamConfig.build: PR B's clip_update_norm block (with its import, field and __post_init__ check) followed by PR A's tag-based learning-rate scaling just before the final -learning_rate scale, and kept PR A's TagPattern/param_tags/learning-rate-tree changes elsewhere."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:01:16.083450Z"
+}

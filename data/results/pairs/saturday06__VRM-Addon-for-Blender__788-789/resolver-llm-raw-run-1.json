@@ -1,0 +1,25 @@
+{
+  "pair_id": "saturday06__VRM-Addon-for-Blender__788-789",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 211523,
+  "tokens": {
+    "input_tokens": 24,
+    "output_tokens": 4158,
+    "cache_creation_input_tokens": 91635,
+    "cache_read_input_tokens": 925570
+  },
+  "tool_calls": 18,
+  "files": [
+    {
+      "path": "src/io_scene_vrm/importer/abstract_base_vrm_importer.py",
+      "action": "keep",
+      "sha256": "af17b62a1ae3f82bdf7058bce4ab84c3f6943cf9665b9699ba87b583f5a030a7",
+      "rationale": "Both PRs drop the same Japanese comments, so the conflict hunk takes PR A's side, which removes the Japanese thumbnail comment but keeps the English-neutral UniVRM reference URL; PR B's accidental removal of the SPDX license header and truncation of everything after use_fake_user_for_thumbnail (including reset_material, extract_textures and parse_vrm_json, which import_scene.py imports) contradict the comment-only intent of both PRs and would break the module, so the full file is kept."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:01:15.671038Z"
+}

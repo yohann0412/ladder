@@ -1,0 +1,43 @@
+{
+  "pair_id": "shiosyakeyakini-info__miria__750-764",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 386361,
+  "tokens": {
+    "input_tokens": 44,
+    "output_tokens": 5852,
+    "cache_creation_input_tokens": 174597,
+    "cache_read_input_tokens": 2782037
+  },
+  "tool_calls": 30,
+  "files": [
+    {
+      "path": "lib/l10n/app_ja-oj.arb",
+      "action": "keep",
+      "sha256": "0db7cee8bb48487eedfa54073f8e8d936866e4da32ad6a926153676af5e98420",
+      "rationale": "Kept all of PR B's newer entries (reversi invites, cache/unblock/unmute strings) and added PR A's confirmApSearch right after nothingHere, fixing the comma so the JSON stays valid and nothingHere is not duplicated."
+    },
+    {
+      "path": "lib/l10n/app_ja.arb",
+      "action": "keep",
+      "sha256": "fce216ec053a26e9d42bec871162ae2b8053e784123793d384bc12075136a48f",
+      "rationale": "Both sides only added keys after nothingHere, so the merge keeps PR A's confirmApSearch and PR B's cacheRefreshNow/cacheManualUpdateCompleted, deckMode and template entries."
+    },
+    {
+      "path": "lib/l10n/app_zh-cn.arb",
+      "action": "keep",
+      "sha256": "0bc4fbe1c73a70c631350a63c38e4384455e5014993304bd6dbcccbd25e22cce",
+      "rationale": "Kept PR B's template and lookup-related entries and appended PR A's confirmApSearch as the final key with correct comma placement."
+    },
+    {
+      "path": "lib/l10n/app_zh.arb",
+      "action": "keep",
+      "sha256": "0bc4fbe1c73a70c631350a63c38e4384455e5014993304bd6dbcccbd25e22cce",
+      "rationale": "Kept PR B's template and lookup-related entries and appended PR A's confirmApSearch as the final key with correct comma placement."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:01:15.806792Z"
+}

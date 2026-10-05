@@ -1,0 +1,25 @@
+{
+  "pair_id": "stanford-crfm__levanter__996-1004",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 75852,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 701,
+    "cache_creation_input_tokens": 34907,
+    "cache_read_input_tokens": 305378
+  },
+  "tool_calls": 7,
+  "files": [
+    {
+      "path": "src/levanter/optim/config.py",
+      "action": "keep",
+      "sha256": "b9a455b4d5b97d1b7d539555d8a82a38d418c12d0324821e0f8b13ebac54cc22",
+      "rationale": "Kept both additions in AdamConfig.build: PR B's clip_update_norm transform is applied after RMS clipping, followed by PR A's tag-based learning rate scaling, both before the final -learning_rate scale."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:01:16.218580Z"
+}

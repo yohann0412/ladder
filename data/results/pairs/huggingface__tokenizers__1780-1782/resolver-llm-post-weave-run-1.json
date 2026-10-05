@@ -1,0 +1,42 @@
+{
+  "pair_id": "huggingface__tokenizers__1780-1782",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Read outside the task directory: /root/.claude/projects/-home-user-ladder/ce3fc4d9-be15-538f-91bb-574530f74e4b/tool-results/toolu_011m1SjCrZUBn5Xgo7SJMAwp.txt",
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/huggingface__tokenizers__1780-1782/llm-post-weave/run-1/files/tokenizers/src/tokenizer/mod.rs",
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/huggingface__tokenizers__1780-1782/llm-post-weave/run-1/files/bindings/python/src/decoders.rs",
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/huggingface__tokenizers__1780-1782/llm-post-weave/run-1"
+  ],
+  "duration_ms": 615087,
+  "tokens": {
+    "input_tokens": 72,
+    "output_tokens": 32391,
+    "cache_creation_input_tokens": 212903,
+    "cache_read_input_tokens": 5079023
+  },
+  "tool_calls": 51,
+  "files": [
+    {
+      "path": "bindings/python/py_src/tokenizers/decoders/__init__.pyi",
+      "action": "keep",
+      "sha256": "ef68627710885a057e75b27115ef4a45e1acd9839701d8eafe4261248fe680b6",
+      "rationale": "The DecodeStream stub takes B's `ids=None` prefill parameter so it matches the merged Rust constructor signature `(ids=None, skip_special_tokens=False)`, which both PRs had made optional."
+    },
+    {
+      "path": "bindings/python/src/decoders.rs",
+      "action": "keep",
+      "sha256": "b47db7b855f481280ae92fd0d40c63348ed52a0f5ba0d00b6615901b0e866991",
+      "rationale": "Keeps A's multi-state DecodeStream (hash-keyed states, dict step inputs, finish, prefill_hashes, serde derives, imports and placement) and adds B's features: optional `ids` prefill seeding the default state, int-or-list `StreamInput` for single steps, the Vec-based step_decode_stream calls, and B's inline format-arg cleanups."
+    },
+    {
+      "path": "tokenizers/src/tokenizer/mod.rs",
+      "action": "keep",
+      "sha256": "5febf55f3165f585e1580f6a3fd48670b0493dd4cd186e407a62112091b6b8c0",
+      "rationale": "Takes B's step_decode_stream (multi-id Vec input, prefill-aware prefix and detailed InvalidPrefix error, AHashMap changes) so DecodeStream::step passes `vec![id]`, and keeps A's `#[derive(Clone, Serialize)]` on DecodeStream."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:01:13.010345Z"
+}

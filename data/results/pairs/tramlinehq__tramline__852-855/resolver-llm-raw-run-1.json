@@ -1,0 +1,27 @@
+{
+  "pair_id": "tramlinehq__tramline__852-855",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/tramlinehq__tramline__852-855/llm-raw/run-1/files/db/schema.rb"
+  ],
+  "duration_ms": 165210,
+  "tokens": {
+    "input_tokens": 18,
+    "output_tokens": 1391,
+    "cache_creation_input_tokens": 69358,
+    "cache_read_input_tokens": 560351
+  },
+  "tool_calls": 11,
+  "files": [
+    {
+      "path": "db/schema.rb",
+      "action": "keep",
+      "sha256": "81dd9dec3788a4912a59915c7f68372b22c13d8ddebf2cc9164f79b6cbf1d26e",
+      "rationale": "Only the schema version line conflicted, so I kept every cleanly merged table from both PRs (Linear integration and linear_config from A, outgoing webhook tables from B) and set the version to the newest migration timestamp, 2025_07_21_091833 from PR B."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:01:16.698895Z"
+}

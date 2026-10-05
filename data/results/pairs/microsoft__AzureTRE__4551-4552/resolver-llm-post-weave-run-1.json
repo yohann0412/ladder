@@ -1,0 +1,25 @@
+{
+  "pair_id": "microsoft__AzureTRE__4551-4552",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 333928,
+  "tokens": {
+    "input_tokens": 22,
+    "output_tokens": 3314,
+    "cache_creation_input_tokens": 117949,
+    "cache_read_input_tokens": 960726
+  },
+  "tool_calls": 16,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "action": "keep",
+      "sha256": "1a1b4ea0dc035908890c2a9fa24c91bde177490f5099f818f51aa1acc32cfe81",
+      "rationale": "Took PR A's changelog (new 0.24.0 Unreleased section, dated 0.23.0 with its extra entries) and moved PR B's new 'Fix error details display when workspace deletion fails with deleted Entra app (#4500)' entry into the still-unreleased 0.24.0 BUG FIXES list, since 0.23.0 is already released on A's side."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:01:13.368094Z"
+}

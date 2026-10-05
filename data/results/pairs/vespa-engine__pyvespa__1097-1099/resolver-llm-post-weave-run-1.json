@@ -1,0 +1,37 @@
+{
+  "pair_id": "vespa-engine__pyvespa__1097-1099",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 398347,
+  "tokens": {
+    "input_tokens": 40,
+    "output_tokens": 7438,
+    "cache_creation_input_tokens": 174440,
+    "cache_read_input_tokens": 2353359
+  },
+  "tool_calls": 30,
+  "files": [
+    {
+      "path": "vespa/package.py",
+      "action": "keep",
+      "sha256": "5309f9376d057949bce0aae9204e10183200376c2a2d7fbc1b87867b8e0619cf",
+      "rationale": "Combined the Field.__init__ signature and docstring so indexing accepts a list or tuple (PR B) and index accepts a str, dict or list (PR A), kept both sides' docs and examples plus all new properties, and removed weave's trailer comment."
+    },
+    {
+      "path": "vespa/templates/macros.txt",
+      "action": "keep",
+      "sha256": "d7c5996c2dbb5951e6e76c2273fc724fdae77c7023d7bb652509452498b4e057",
+      "rationale": "Kept PR B's multiline indexing block (with its endif) for fields and struct-fields, followed by PR A's index_configurations/use_simple_index_syntax index rendering that replaces the old single-index logic."
+    },
+    {
+      "path": "vespa/templates/schema.txt",
+      "action": "keep",
+      "sha256": "1df72ffd5df5fa7767ef26c50da1a9ea282561ea5338e30d0f032c2620397726",
+      "rationale": "Took PR A's version, where struct fields render through macros.field, because the merged macro already includes PR B's multiline indexing support and so carries both intents."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:01:16.934566Z"
+}

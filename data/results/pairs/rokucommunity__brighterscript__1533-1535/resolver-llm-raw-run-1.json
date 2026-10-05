@@ -1,0 +1,31 @@
+{
+  "pair_id": "rokucommunity__brighterscript__1533-1535",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 275708,
+  "tokens": {
+    "input_tokens": 22,
+    "output_tokens": 2248,
+    "cache_creation_input_tokens": 102089,
+    "cache_read_input_tokens": 853830
+  },
+  "tool_calls": 14,
+  "files": [
+    {
+      "path": "src/LanguageServer.spec.ts",
+      "action": "keep",
+      "sha256": "a7c1464b3674d5341f6523c4443e9398732ff5ab0de2360ec50b702954fcd2bd",
+      "rationale": "The expected workspace config in the 'uses explicit projects list' test now includes both PR B's projectDiscoveryExclude: undefined and PR A's projectDiscoveryMaxDepth: 15, since getWorkspaceConfigs returns both fields."
+    },
+    {
+      "path": "src/LanguageServer.ts",
+      "action": "keep",
+      "sha256": "4efa6a3fb916592e360a1537374c0a2d5baa629819a49d4a8f06efa23e740bb2",
+      "rationale": "getWorkspaceConfigs keeps PR B's null-safe brightscriptConfig?. access and projectDiscoveryExclude field and adds PR A's projectDiscoveryMaxDepth (default 15), so both new settings are passed through."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:01:15.093735Z"
+}

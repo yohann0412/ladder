@@ -1,0 +1,28 @@
+{
+  "pair_id": "rokucommunity__brighterscript__1533-1535",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/rokucommunity__brighterscript__1533-1535/llm-post-weave/run-1/files/src/LanguageServer.spec.ts",
+    "Read outside the task directory: /home/user/ladder/work/resolutions/rokucommunity__brighterscript__1533-1535/llm-post-weave/run-1/files/src/LanguageServer.spec.ts"
+  ],
+  "duration_ms": 408323,
+  "tokens": {
+    "input_tokens": 46,
+    "output_tokens": 6552,
+    "cache_creation_input_tokens": 114657,
+    "cache_read_input_tokens": 2098591
+  },
+  "tool_calls": 27,
+  "files": [
+    {
+      "path": "src/LanguageServer.spec.ts",
+      "action": "keep",
+      "sha256": "a7c1464b3674d5341f6523c4443e9398732ff5ab0de2360ec50b702954fcd2bd",
+      "rationale": "Merged the expected languageServer config in the 'uses explicit projects list' test to include both PR B's projectDiscoveryExclude: undefined and PR A's projectDiscoveryMaxDepth: 15 (matching the merged getWorkspaceConfigs in LanguageServer.ts), kept PR B's new projectDiscoveryExclude/files.watcherExclude tests, and dropped weave's stray blank line and trailing comment."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:01:15.027011Z"
+}

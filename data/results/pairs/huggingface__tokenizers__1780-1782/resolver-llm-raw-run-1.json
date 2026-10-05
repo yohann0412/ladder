@@ -1,0 +1,37 @@
+{
+  "pair_id": "huggingface__tokenizers__1780-1782",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 449070,
+  "tokens": {
+    "input_tokens": 36,
+    "output_tokens": 17405,
+    "cache_creation_input_tokens": 151119,
+    "cache_read_input_tokens": 2058144
+  },
+  "tool_calls": 26,
+  "files": [
+    {
+      "path": "bindings/python/py_src/tokenizers/decoders/__init__.pyi",
+      "action": "keep",
+      "sha256": "ef68627710885a057e75b27115ef4a45e1acd9839701d8eafe4261248fe680b6",
+      "rationale": "The generated stub must match the merged Rust constructor, which keeps PR B's optional prefill `ids` argument and its skip_special_tokens=False default on top of PR A's DecodeStream."
+    },
+    {
+      "path": "bindings/python/src/decoders.rs",
+      "action": "keep",
+      "sha256": "27a1c43b4fbad2529e1774b742fb4e008a97088b5bbb8a922cbc60e710080b2b",
+      "rationale": "Kept PR A's multi-state hash-keyed PyDecodeStream (placed before the module, with step/finish/prefill_hashes) and dropped the old duplicate class, folding in PR B's prefill `ids` constructor, int-or-list step input appended to the default stream, and the new Vec<u32> step_decode_stream signature (Map inputs now pass vec![last_token])."
+    },
+    {
+      "path": "tokenizers/src/tokenizer/mod.rs",
+      "action": "keep",
+      "sha256": "5febf55f3165f585e1580f6a3fd48670b0493dd4cd186e407a62112091b6b8c0",
+      "rationale": "Used PR B's `vec![id]` call to match its new step_decode_stream(Vec<u32>) signature with normal indentation, keeping PR A's Serialize derive on DecodeStream and PR B's ahash imports, prefill logic and richer InvalidPrefix error."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:01:13.090496Z"
+}

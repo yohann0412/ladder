@@ -1,0 +1,43 @@
+{
+  "pair_id": "shiosyakeyakini-info__miria__750-764",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 375244,
+  "tokens": {
+    "input_tokens": 48,
+    "output_tokens": 5911,
+    "cache_creation_input_tokens": 128281,
+    "cache_read_input_tokens": 1946002
+  },
+  "tool_calls": 30,
+  "files": [
+    {
+      "path": "lib/l10n/app_ja-oj.arb",
+      "action": "keep",
+      "sha256": "0db7cee8bb48487eedfa54073f8e8d936866e4da32ad6a926153676af5e98420",
+      "rationale": "Kept PR B's restructured tail (reversi strings, nothingHere, cache and unblock/unmute keys) and inserted PR A's confirmApSearch after nothingHere without duplicating nothingHere."
+    },
+    {
+      "path": "lib/l10n/app_ja.arb",
+      "action": "keep",
+      "sha256": "fce216ec053a26e9d42bec871162ae2b8053e784123793d384bc12075136a48f",
+      "rationale": "Both sides only added new keys after nothingHere, so the merge keeps PR A's confirmApSearch followed by PR B's cacheRefreshNow and cacheManualUpdateCompleted."
+    },
+    {
+      "path": "lib/l10n/app_zh-cn.arb",
+      "action": "keep",
+      "sha256": "0fe8cf1fe7935d7923eaba8209321d28d7f982a7ff174ff8d95c52fda7dfa3fa",
+      "rationale": "Both sides appended keys after nonInvitedReversi, so the merge keeps PR A's confirmApSearch and PR B's template and lookup strings with valid JSON commas."
+    },
+    {
+      "path": "lib/l10n/app_zh.arb",
+      "action": "keep",
+      "sha256": "0fe8cf1fe7935d7923eaba8209321d28d7f982a7ff174ff8d95c52fda7dfa3fa",
+      "rationale": "Both sides appended keys after nonInvitedReversi, so the merge keeps PR A's confirmApSearch and PR B's template and lookup strings with valid JSON commas."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:01:15.941272Z"
+}

@@ -1,0 +1,49 @@
+{
+  "pair_id": "whitphx__stlite__1234-1245",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 81143,
+  "tokens": {
+    "input_tokens": 22,
+    "output_tokens": 2687,
+    "cache_creation_input_tokens": 34614,
+    "cache_read_input_tokens": 592721
+  },
+  "tool_calls": 24,
+  "files": [
+    {
+      "path": ".gitignore",
+      "action": "keep",
+      "sha256": "4a9860df64e5a58d0d91472d0e9e4e8266677cba00f4001ca7c422d08d2daea8",
+      "rationale": "Kept PR A's new protoc-*.zip ignore entry while honoring PR B's removal of the !.make/.gitkeep exception under the .make/ build-state entry."
+    },
+    {
+      "path": "packages/browser/package.json",
+      "action": "keep",
+      "sha256": "b4216ed13482eff6633a19d5e1080bc8574027d360b484fdaa70de4ee1134f63",
+      "rationale": "Used PR B's renamed browser package with its bumped ^0.76.0-alpha.3 @stlite dependency versions and applied PR A's change of @streamlit/app to the dynamic \"*\" version."
+    },
+    {
+      "path": "packages/desktop/package.json",
+      "action": "keep",
+      "sha256": "3e7611e61c101de1e4de1a1fe101ea40bad1fe873f991f12b7593a864b5c4a78",
+      "rationale": "Combined PR B's bumped ^0.76.0-alpha.3 @stlite devDependency versions with PR A's dynamic \"*\" version for @streamlit/app."
+    },
+    {
+      "path": "packages/kernel/package.json",
+      "action": "keep",
+      "sha256": "1b668f586149ef6c4b02e390d58c7f18a52140ce2d8230cd20a54a0fca01495f",
+      "rationale": "Combined PR B's bumped ^0.76.0-alpha.3 @stlite/common version with PR A's dynamic \"*\" version for @streamlit/lib."
+    },
+    {
+      "path": "packages/sharing/package.json",
+      "action": "keep",
+      "sha256": "36b7a66d518475abcf6467e630e10770970455788d26d179b08f7999c45524d1",
+      "rationale": "Combined PR B's bumped ^0.76.0-alpha.3 @stlite dependency versions with PR A's dynamic \"*\" version for @streamlit/app."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:01:17.532551Z"
+}

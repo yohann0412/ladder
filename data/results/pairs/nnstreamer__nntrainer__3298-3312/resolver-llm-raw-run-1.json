@@ -1,0 +1,27 @@
+{
+  "pair_id": "nnstreamer__nntrainer__3298-3312",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/nnstreamer__nntrainer__3298-3312/llm-raw/run-1/files/nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp"
+  ],
+  "duration_ms": 169218,
+  "tokens": {
+    "input_tokens": 32,
+    "output_tokens": 9787,
+    "cache_creation_input_tokens": 83544,
+    "cache_read_input_tokens": 1347992
+  },
+  "tool_calls": 25,
+  "files": [
+    {
+      "path": "nntrainer/tensor/cpu_backend/ggml_interface/ggml_interface_omp.cpp",
+      "action": "keep",
+      "sha256": "860d5aee5e0ff73354123083cbfc8d58dc4bf45ab6ac971af63144490d808fdc",
+      "rationale": "Kept PR A's rename to the OMP variant and its split of the q6_K GEMM quantize/dot loops, while applying PR B's ggml_interface.cpp optimizations (active bspool handle, BS thread-pool GEMM loop replacing the omp pragma/todo, SIMD q8_K quantization in the split loop) consistent with B's already-merged BS/pooled-buffer code, and added the bs_thread_pool_manager.hpp include that ThreadPoolManager requires."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:01:14.950621Z"
+}

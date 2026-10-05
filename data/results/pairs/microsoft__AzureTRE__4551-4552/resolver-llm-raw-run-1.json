@@ -1,0 +1,25 @@
+{
+  "pair_id": "microsoft__AzureTRE__4551-4552",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 322939,
+  "tokens": {
+    "input_tokens": 22,
+    "output_tokens": 4131,
+    "cache_creation_input_tokens": 111813,
+    "cache_read_input_tokens": 927498
+  },
+  "tool_calls": 17,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "action": "keep",
+      "sha256": "1a1b4ea0dc035908890c2a9fa24c91bde177490f5099f818f51aa1acc32cfe81",
+      "rationale": "Kept PR A's released 0.23.0 enhancement entries and new 0.24.0 [Unreleased] section intact, and moved PR B's new entry for the workspace-deletion error-details fix (#4500) out of the now-released 0.23.0 section into the 0.24.0 Unreleased BUG FIXES list, so both PRs' changelog additions survive."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:01:13.657688Z"
+}
