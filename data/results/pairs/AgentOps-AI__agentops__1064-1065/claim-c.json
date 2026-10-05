@@ -1,0 +1,79 @@
+{
+  "pair_id": "AgentOps-AI__agentops__1064-1065",
+  "a": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/AgentOps-AI__agentops__1064-1065/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/AgentOps-AI__agentops__1064-1065/reports/a/run-1.report"
+    ],
+    "passed": 218,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 1,
+    "duration_s": 6.9,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 218 passed, 0 failed, 0 errors, 1 skipped"
+  },
+  "b": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/AgentOps-AI__agentops__1064-1065/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/AgentOps-AI__agentops__1064-1065/reports/b/run-1.report"
+    ],
+    "passed": 218,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 1,
+    "duration_s": 7.4,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 218 passed, 0 failed, 0 errors, 1 skipped"
+  },
+  "merge": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/AgentOps-AI__agentops__1064-1065/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/AgentOps-AI__agentops__1064-1065/reports/merge/run-1.report"
+    ],
+    "passed": 218,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 1,
+    "duration_s": 7.5,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 218 passed, 0 failed, 0 errors, 1 skipped"
+  },
+  "fails_together": false,
+  "excluded_reason": null,
+  "files_a": [
+    "docs/mint.json",
+    "docs/v1/integrations/llamaindex.mdx",
+    "docs/v2/integrations/llamaindex.mdx",
+    "examples/llamaindex_examples/README.md",
+    "examples/llamaindex_examples/llamaindex_example.ipynb",
+    "examples/llamaindex_examples/llamaindex_example.py"
+  ],
+  "files_b": [
+    "docs/v2/introduction.mdx"
+  ]
+}
