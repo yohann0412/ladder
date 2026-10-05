@@ -7,6 +7,8 @@ import typer
 from rich.console import Console
 from rich.text import Text
 
+from ladder.cacherung import run_git_rung_in_cache
+from ladder.cli_support import load_pair
 from ladder.context import layout_from
 from ladder.gitrung import run_git_rung
 from ladder.mergework import RungError
@@ -30,10 +32,22 @@ def git_command(
     heads: Annotated[HeadsKind, typer.Option(help="Which PR heads the workspace holds.")] = (
         "replay"
     ),
+    in_cache: Annotated[
+        bool,
+        typer.Option(
+            "--in-cache",
+            help="Merge the original commits with git merge-tree in the repository cache, "
+            "with no workspace.",
+        ),
+    ] = False,
 ) -> None:
-    """Merge b into a with git on a fresh workspace copy and record the conflict taxonomy."""
+    """Merge b into a with git on a fresh workspace copy, or in the cache; record the taxonomy."""
+    layout = layout_from(ctx)
     try:
-        result = run_git_rung(layout_from(ctx), pair, heads)
+        if in_cache:
+            result = run_git_rung_in_cache(layout, load_pair(layout, pair)[1], heads)
+        else:
+            result = run_git_rung(layout, pair, heads)
     except RungError as error:
         _fail(error)
     Console().print(_git_line(result))
