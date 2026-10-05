@@ -1,0 +1,15 @@
+{
+  "pair_id": "gmathi__NovelLibrary__243-244",
+  "commit": "f517fd198bdd3232f74e73e6513e5f72152087d4",
+  "language": "java",
+  "package_manager": "gradle",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "java project; no adapter for java (gradle is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
