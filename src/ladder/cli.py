@@ -5,7 +5,7 @@ from typing import Annotated
 
 import typer
 
-from ladder import pairs_cli, suites_cli, workspace_cli
+from ladder import pairs_cli, score_cli, suites_cli, workspace_cli
 from ladder.layout import Layout
 from ladder.rung_cli import app as rung_app
 from ladder.syntax_cli import app as syntax_app
@@ -40,3 +40,4 @@ app.add_typer(syntax_app)
 app.add_typer(workspace_cli.app, name="workspace")
 app.command("runnable")(suites_cli.runnable)
 app.command("claim-c")(suites_cli.claim_c)
+app.command("score")(score_cli.score)
