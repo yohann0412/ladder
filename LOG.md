@@ -563,3 +563,10 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   "rest" process was stopped right after that record was written, before its next pair,
   and PRQL's copies were deleted (24 GiB free). The other eight "rest" pairs run alone
   after the Go process (`work/d23-rest2.txt`).
+- 15:2x: both bruin pairs stopped at the floor again in the redo, and the records stay
+  (D23). `bruin-data__bruin__733-735` (Claim C) ran its own suite until its runtime held
+  20 GB. Bruin's tests unpack a ~431 MB embedded Python environment per test into
+  `TMPDIR`, which is now inside the pair's scratch directory. The first run had passed
+  118 tests before the stop. `bruin-data__bruin__760-818` then could not install at the
+  floor. With the Go-heavy group running alone, this repository's suite needs more disk
+  than this 40 GB machine has, so `exceeds_cap` by free disk is the honest record.
