@@ -1,0 +1,51 @@
+{
+  "pair_id": "PriorLabs__TabPFN__343-344",
+  "commit": "6102d8b175c5e66c4790469be2b8d9ec034c6a68",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "runnable",
+  "reason": null,
+  "reason_detail": "",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/PriorLabs__TabPFN__343-344/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/PriorLabs__TabPFN__343-344/trees/base[dev]",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 296.2,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 26.4 s; suite passed: 403 passed, 0 failed, 0 errors, 82 skipped"
+    }
+  ],
+  "test_count": 485,
+  "base_outcome": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/PriorLabs__TabPFN__343-344/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/PriorLabs__TabPFN__343-344/reports/base-attempt-1/run-1.report"
+    ],
+    "passed": 403,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 82,
+    "duration_s": 269.7,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "403 passed, 0 failed, 0 errors, 82 skipped"
+  },
+  "timeout_s": 600
+}
