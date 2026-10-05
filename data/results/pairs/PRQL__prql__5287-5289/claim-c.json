@@ -1,0 +1,66 @@
+{
+  "pair_id": "PRQL__prql__5287-5289",
+  "a": {
+    "status": "passed",
+    "command": [
+      "cargo",
+      "test",
+      "--no-fail-fast"
+    ],
+    "passed": 504,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 10,
+    "duration_s": 43.1,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 504 passed, 0 failed, 0 errors, 10 skipped"
+  },
+  "b": {
+    "status": "passed",
+    "command": [
+      "cargo",
+      "test",
+      "--no-fail-fast"
+    ],
+    "passed": 504,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 10,
+    "duration_s": 75.6,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 504 passed, 0 failed, 0 errors, 10 skipped"
+  },
+  "merge": {
+    "status": "passed",
+    "command": [
+      "cargo",
+      "test",
+      "--no-fail-fast"
+    ],
+    "passed": 504,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 10,
+    "duration_s": 86.2,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 504 passed, 0 failed, 0 errors, 10 skipped"
+  },
+  "fails_together": false,
+  "excluded_reason": null,
+  "files_a": [
+    "prqlc/prqlc/examples/compile-files/README.md"
+  ],
+  "files_b": [
+    "prqlc/bindings/dotnet/PrqlCompiler/PrqlCompilerOptions.cs",
+    "prqlc/bindings/elixir/native/prql/src/lib.rs",
+    "prqlc/bindings/js/src/lib.rs",
+    "prqlc/bindings/php/src/Options.php",
+    "prqlc/bindings/prqlc-c/prqlc.h",
+    "prqlc/bindings/prqlc-c/prqlc.hpp",
+    "prqlc/bindings/prqlc-c/src/lib.rs",
+    "prqlc/prqlc/src/lib.rs"
+  ]
+}
