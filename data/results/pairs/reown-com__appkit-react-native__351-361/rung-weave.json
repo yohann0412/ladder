@@ -1,0 +1,18 @@
+{
+  "pair_id": "reown-com__appkit-react-native__351-361",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "apps/native/tests/shared/pages/WalletPage.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/reown-com__appkit-react-native__351-361/weave"
+}

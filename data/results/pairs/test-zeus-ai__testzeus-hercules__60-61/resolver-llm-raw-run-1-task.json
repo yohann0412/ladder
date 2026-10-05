@@ -1,0 +1,40 @@
+{
+  "pair_id": "test-zeus-ai__testzeus-hercules__60-61",
+  "rung": "llm-raw",
+  "run": 1,
+  "task_dir": "/home/user/ladder/work/resolver/test-zeus-ai__testzeus-hercules__60-61/llm-raw/run-1",
+  "snapshot_dir": "/home/user/ladder/work/resolver/test-zeus-ai__testzeus-hercules__60-61/llm-raw/run-1/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/test-zeus-ai__testzeus-hercules__60-61/llm-raw/run-1",
+  "spawn_line": "Read /home/user/ladder/work/resolver/test-zeus-ai__testzeus-hercules__60-61/llm-raw/run-1/PROMPT.md and follow it exactly.",
+  "files": [
+    ".env-example",
+    "poetry.lock",
+    "pyproject.toml",
+    "testzeus_hercules/__main__.py",
+    "testzeus_hercules/config.py",
+    "testzeus_hercules/core/agents/browser_nav_agent.py",
+    "testzeus_hercules/core/agents/high_level_planner_agent.py",
+    "testzeus_hercules/core/agents_llm_config.py",
+    "testzeus_hercules/core/browser_extra_tools/clipboard_tools.py",
+    "testzeus_hercules/core/browser_extra_tools/drag_and_drop_tool.py",
+    "testzeus_hercules/core/browser_tools/click_using_selector.py",
+    "testzeus_hercules/core/browser_tools/dropdown_using_selector.py",
+    "testzeus_hercules/core/browser_tools/enter_text_using_selector.py",
+    "testzeus_hercules/core/browser_tools/hover.py",
+    "testzeus_hercules/core/browser_tools/open_url.py",
+    "testzeus_hercules/core/browser_tools/press_key_combination.py",
+    "testzeus_hercules/core/browser_tools/upload_file.py",
+    "testzeus_hercules/core/mobile_tools/visual_skill.py",
+    "testzeus_hercules/core/runner.py",
+    "testzeus_hercules/core/simple_hercules.py"
+  ],
+  "input_bytes": 3560609,
+  "pr_text_flags": [
+    "conflict",
+    "merged-default-branch"
+  ],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "input_cap",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T05:42:37.133476Z"
+}

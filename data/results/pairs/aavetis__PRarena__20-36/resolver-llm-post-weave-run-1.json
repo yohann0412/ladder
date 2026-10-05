@@ -1,0 +1,25 @@
+{
+  "pair_id": "aavetis__PRarena__20-36",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 56304,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 1156,
+    "cache_creation_input_tokens": 47381,
+    "cache_read_input_tokens": 376783
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "docs/index.html",
+      "action": "keep",
+      "sha256": "d9b568f3e5cfb45922e26ded43402880a5bfd606a4c08b779c8f7258d673b77d",
+      "rationale": "The only conflict is the generated 'Last updated' timestamp, which PR A bumped incidentally (15:00 -> 16:11) while PR B regenerated the whole page from its agent-list templates (adding Codegen rows/toggles), so PR B's newer June 20 timestamp is kept to match its regenerated data, and weave's trailing annotation line is dropped."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:43:25.393959Z"
+}

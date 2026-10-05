@@ -1,0 +1,25 @@
+{
+  "pair_id": "epicweb-dev__epicshop__254-255",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 2",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "packages/workshop-cli/package.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "packages/workshop-cli/src/cli.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/epicweb-dev__epicshop__254-255/weave"
+}

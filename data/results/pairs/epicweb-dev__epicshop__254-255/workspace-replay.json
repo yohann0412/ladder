@@ -1,0 +1,23 @@
+{
+  "pair_id": "epicweb-dev__epicshop__254-255",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/epicweb-dev__epicshop__254-255",
+  "source_base": "b506c08f856ff5c76c285f28fb11ffa32f59ceaf",
+  "source_a": "50f9442189a8f72e1b7dd63693e2d2f29d9b2aaf",
+  "source_b": "5cf24b651c5b5f6b00aae7c9e2169cd179c1a369",
+  "base_commit": "33452ea9fc77845bc0cad1f443f4ca18bdfe29a0",
+  "a_commit": "7f435731f488180006b03634519ab25f76921641",
+  "b_commit": "94344b10fe28b61ca3d318db14956772f8130e6d",
+  "object_count": 447,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

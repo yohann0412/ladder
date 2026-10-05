@@ -1,0 +1,31 @@
+{
+  "pair_id": "OpenAdaptAI__OpenAdapt__946-947",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 262409,
+  "tokens": {
+    "input_tokens": 44,
+    "output_tokens": 12401,
+    "cache_creation_input_tokens": 133729,
+    "cache_read_input_tokens": 2616648
+  },
+  "tool_calls": 38,
+  "files": [
+    {
+      "path": "deploy/deploy/models/omniparser/deploy.py",
+      "action": "keep",
+      "sha256": "be1a6df9ae291aeea7af592e2af3956b5d7cac051de28ebfab463224c198deaa",
+      "rationale": "PR A's copy is the original deploy script with no changes of its own, while PR B's copy builds on it with the deployment fixes (script-dir key path, key pair management helpers, default-VPC security group and subnet creation, force cleanup, key_path override, f-string fixes for docker commands), so B's version is taken as the union of both."
+    },
+    {
+      "path": "openadapt/run_omnimcp.py",
+      "action": "keep",
+      "sha256": "1920f230d06d2a16a9e5ec5239e7f671f8252f3ae4eada3e6a8b805e57bf95a9",
+      "rationale": "PR B's runner is a strict superset of PR A's (same content plus the ComputerUse TODO note and the allow_no_parser/auto_deploy_parser/skip_confirmation options on cli/server/debug), so B's version is kept in full."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:43:25.247189Z"
+}

@@ -1,0 +1,31 @@
+{
+  "pair_id": "mariotoffia__FluentDocker__321-322",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 29825,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 1491,
+    "cache_creation_input_tokens": 26067,
+    "cache_read_input_tokens": 287246
+  },
+  "tool_calls": 14,
+  "files": [
+    {
+      "path": "Ductus.FluentDocker.Tests/Ductus.FluentDocker.Tests.csproj",
+      "action": "keep",
+      "sha256": "1f952fba0ee36c4e4b82061fda0b106dac3ce8d53bb000cb89f3f39dace56f0a",
+      "rationale": "Takes PR B's net6.0 target and Npgsql 8.0.4 bump while keeping PR A's added RabbitMQ.Client 6.8.1 reference, which the RabbitMQ compose test in FluentDockerComposeTests.cs uses."
+    },
+    {
+      "path": "appveyor.yml",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR B moves CI from AppVeyor to the GitHub Actions workflow in .github/workflows/ci.yml, and PR A's only change here was rotating the AppVeyor NuGet api_key, which has no use once AppVeyor is gone."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:43:27.300734Z"
+}

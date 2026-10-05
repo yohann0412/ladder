@@ -1,0 +1,23 @@
+{
+  "pair_id": "haydenbleasel__ultracite__176-178",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/haydenbleasel__ultracite__176-178",
+  "source_base": "754ad2b2a2d06ca332bfe3651cf8df10bac2fbc2",
+  "source_a": "6f4297c60b8005fe64eef98b23df637e1d0dda5c",
+  "source_b": "6605990fa446d497e9e7f9144d07765e27cb1b27",
+  "base_commit": "94c7598d526496b0098cf55a012c91a3d9581223",
+  "a_commit": "a033d574d30bb2e3eb903b5486252617cbbf890b",
+  "b_commit": "28de6321430f924766c37fa3ba1a34a80a57f0ea",
+  "object_count": 255,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

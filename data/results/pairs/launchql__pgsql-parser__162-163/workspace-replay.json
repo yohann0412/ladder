@@ -1,0 +1,23 @@
+{
+  "pair_id": "launchql__pgsql-parser__162-163",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/launchql__pgsql-parser__162-163",
+  "source_base": "3aadd875150aa975c6a245e9cce61a652425c436",
+  "source_a": "135a2acb4904200d7f20fe63080830bb71c0e381",
+  "source_b": "1e8110e243fd32d429832101f2f337208730a6c2",
+  "base_commit": "fa7d7f643b6cb630c3f5922cc07a49c529d07b4d",
+  "a_commit": "d9f6df6aebe5bba1e7581845cc50bf2cf4a9a347",
+  "b_commit": "22ba86d4c5990699e23598f1aebb8dda99e9720d",
+  "object_count": 2208,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

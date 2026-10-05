@@ -1,0 +1,23 @@
+{
+  "pair_id": "hughjonesd__huxtable__287-288",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/hughjonesd__huxtable__287-288",
+  "source_base": "e6a9039a4e07eadee1620e0dfcd4be17b6f16c8a",
+  "source_a": "6358336d6c02f80b77b21d9e6e59df26782cb4fe",
+  "source_b": "30910ce679ec2600cda5012f35e82fef3d96bc27",
+  "base_commit": "97338a582e6845279978e77b1ecfa59193bb4d86",
+  "a_commit": "ac41595bad2709da37953bd56b848e0483f9ea33",
+  "b_commit": "c1767c214db5f50c38a56e174e913734430fdce1",
+  "object_count": 1462,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

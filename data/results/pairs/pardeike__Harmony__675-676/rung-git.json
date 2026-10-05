@@ -2,7 +2,7 @@
   "pair_id": "pardeike__Harmony__675-676",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 1, conflicted files: 1",
   "messages": [
     "CONFLICT (content): Merge conflict in .github/workflows/test.yml"
   ],

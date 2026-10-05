@@ -1,0 +1,37 @@
+{
+  "pair_id": "mariotoffia__FluentDocker__321-322",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 67243,
+  "tokens": {
+    "input_tokens": 22,
+    "output_tokens": 1963,
+    "cache_creation_input_tokens": 51760,
+    "cache_read_input_tokens": 702729
+  },
+  "tool_calls": 18,
+  "files": [
+    {
+      "path": "Ductus.FluentDocker.Tests/Ductus.FluentDocker.Tests.csproj",
+      "action": "keep",
+      "sha256": "1f952fba0ee36c4e4b82061fda0b106dac3ce8d53bb000cb89f3f39dace56f0a",
+      "rationale": "Kept PR B's net6.0 target and Npgsql 8.0.4 bump while retaining the RabbitMQ.Client 6.8.1 reference that PR A's side added."
+    },
+    {
+      "path": "Ductus.FluentDocker/Services/Impl/DockerComposeCompositeService.cs",
+      "action": "keep",
+      "sha256": "0a313b02d33c5643e19430a8b7f13ac0f3bab3f05339877d6975704825d3522d",
+      "rationale": "Both sides use the Config property, so the merge keeps PR A's Wait and WaitTimeoutSeconds arguments on the compose up call; both members exist in DockerComposeConfig and ComposeUpCommandArgs."
+    },
+    {
+      "path": "appveyor.yml",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR B replaces AppVeyor with GitHub Actions, and PR A only rotated the NuGet API key in this file, so the file is deleted."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:43:27.355770Z"
+}

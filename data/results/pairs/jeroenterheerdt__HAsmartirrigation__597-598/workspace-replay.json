@@ -1,0 +1,23 @@
+{
+  "pair_id": "jeroenterheerdt__HAsmartirrigation__597-598",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/jeroenterheerdt__HAsmartirrigation__597-598",
+  "source_base": "8208b1fcb23ea881d32c8ee4a362cbdbb0c1842a",
+  "source_a": "2bb18a9e3ee0b1042164730cffd271d4ccc36c04",
+  "source_b": "0cecf5baf8713d5237db3fbbe935bfc2940d2c87",
+  "base_commit": "6adb27af6e6e76616bcd38501385f3d9551dfc80",
+  "a_commit": "995432c74c7e9d47082bcb1ecbb43062bf19fe7e",
+  "b_commit": "b4659a8f2208d987e33a5f01bfaa867cc76c3634",
+  "object_count": 276,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

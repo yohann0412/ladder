@@ -1,0 +1,23 @@
+{
+  "pair_id": "bolna-ai__bolna__218-219",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/bolna-ai__bolna__218-219",
+  "source_base": "d0b4d142cb12487cc896723fce6adfd72e37341c",
+  "source_a": "a0abf78c39f7bd37a8a284b2b93953a96471e8c3",
+  "source_b": "5c9e90138d17e3bf6523c1d898142662a1e4bd4a",
+  "base_commit": "2c3a35bd05fa99a99bc28aef3f2a9f0484435433",
+  "a_commit": "af8a378c9b0a2d0f3aaf92a71e40e287ea9faa13",
+  "b_commit": "bafbf7d0ca9426a7d7dcae57a8e46a981a379dde",
+  "object_count": 141,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

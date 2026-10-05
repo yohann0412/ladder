@@ -1,0 +1,20 @@
+{
+  "pair_id": "openai__openai-agents-js__111-119",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "packages/agents-extensions/src/metadata.ts"
+  ],
+  "files": [
+    {
+      "path": "packages/agents-extensions/src/metadata.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/openai__openai-agents-js__111-119/weave"
+}

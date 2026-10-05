@@ -1,0 +1,19 @@
+{
+  "pair_id": "test-zeus-ai__testzeus-hercules__60-61",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: poetry.lock version base has 687884 bytes, more than 200000",
+    "input cap: poetry.lock version a has 727794 bytes, more than 200000",
+    "input cap: poetry.lock version b has 692268 bytes, more than 200000",
+    "input cap: poetry.lock version conflicted has 732389 bytes, more than 200000",
+    "input cap: 3560609 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T05:42:37.133774Z"
+}

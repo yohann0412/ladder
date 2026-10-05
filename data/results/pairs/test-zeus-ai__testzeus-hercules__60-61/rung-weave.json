@@ -1,0 +1,173 @@
+{
+  "pair_id": "test-zeus-ai__testzeus-hercules__60-61",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 21 of 20",
+  "remaining_conflicted": [
+    ".env-example",
+    "poetry.lock",
+    "pyproject.toml",
+    "testzeus_hercules/__main__.py",
+    "testzeus_hercules/config.py",
+    "testzeus_hercules/core/agents/browser_nav_agent.py",
+    "testzeus_hercules/core/agents/high_level_planner_agent.py",
+    "testzeus_hercules/core/agents_llm_config.py",
+    "testzeus_hercules/core/browser_extra_tools/clipboard_tools.py",
+    "testzeus_hercules/core/browser_extra_tools/drag_and_drop_tool.py",
+    "testzeus_hercules/core/browser_tools/click_using_selector.py",
+    "testzeus_hercules/core/browser_tools/get_input_fields.py",
+    "testzeus_hercules/core/browser_tools/get_interactive_elements.py",
+    "testzeus_hercules/core/browser_tools/hover.py",
+    "testzeus_hercules/core/browser_tools/open_url.py",
+    "testzeus_hercules/core/browser_tools/press_key_combination.py",
+    "testzeus_hercules/core/browser_tools/set_slider_value.py",
+    "testzeus_hercules/core/browser_tools/upload_file.py",
+    "testzeus_hercules/core/mobile_tools/visual_skill.py",
+    "testzeus_hercules/core/runner.py",
+    "testzeus_hercules/core/simple_hercules.py"
+  ],
+  "files": [
+    {
+      "path": ".env-example",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "poetry.lock",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "pyproject.toml",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "testzeus_hercules/__main__.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "testzeus_hercules/config.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "testzeus_hercules/core/agents/browser_nav_agent.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "testzeus_hercules/core/agents/high_level_planner_agent.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "testzeus_hercules/core/agents_llm_config.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "testzeus_hercules/core/browser_extra_tools/clipboard_tools.py",
+      "present": true,
+      "has_markers": false,
+      "language": "python",
+      "parses": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_extra_tools/drag_and_drop_tool.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/click_using_selector.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/dropdown_using_selector.py",
+      "present": true,
+      "has_markers": false,
+      "language": "python",
+      "parses": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/enter_text_using_selector.py",
+      "present": true,
+      "has_markers": false,
+      "language": "python",
+      "parses": true
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/hover.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/open_url.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/press_key_combination.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "testzeus_hercules/core/browser_tools/upload_file.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "testzeus_hercules/core/mobile_tools/visual_skill.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "testzeus_hercules/core/runner.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "testzeus_hercules/core/simple_hercules.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/test-zeus-ai__testzeus-hercules__60-61/weave"
+}

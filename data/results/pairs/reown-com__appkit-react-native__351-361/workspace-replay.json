@@ -1,0 +1,23 @@
+{
+  "pair_id": "reown-com__appkit-react-native__351-361",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/reown-com__appkit-react-native__351-361",
+  "source_base": "0ddf09ab788cfe675a307dd5b17a11f4c46cfe40",
+  "source_a": "b76f26d9ccade0e04cef221d3f303ec5d8501611",
+  "source_b": "03ff0a0b5eef104eefb9db5b38e8240feb2d4714",
+  "base_commit": "bb405c52088c3b922b765eaef3aca76e67a03d3b",
+  "a_commit": "1b8f9e4c3ca182594fcd59a97b13a1ba1e697701",
+  "b_commit": "326ab82243ec37479697c542fc2bd0b0e4e313d7",
+  "object_count": 952,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

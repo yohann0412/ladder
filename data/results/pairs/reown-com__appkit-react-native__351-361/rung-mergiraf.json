@@ -1,0 +1,20 @@
+{
+  "pair_id": "reown-com__appkit-react-native__351-361",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "apps/native/tests/shared/pages/WalletPage.ts"
+  ],
+  "files": [
+    {
+      "path": "apps/native/tests/shared/pages/WalletPage.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/reown-com__appkit-react-native__351-361/mergiraf"
+}

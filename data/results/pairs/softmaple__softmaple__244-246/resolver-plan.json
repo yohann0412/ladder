@@ -1,0 +1,15 @@
+{
+  "pair_id": "softmaple__softmaple__244-246",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:41:43.277121Z"
+}

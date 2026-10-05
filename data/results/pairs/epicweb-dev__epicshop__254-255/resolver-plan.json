@@ -1,0 +1,11 @@
+{
+  "pair_id": "epicweb-dev__epicshop__254-255",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:42:08.423550Z"
+}

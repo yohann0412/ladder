@@ -1,0 +1,11 @@
+{
+  "pair_id": "haydenbleasel__ultracite__176-178",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:42:40.598342Z"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "aavetis__PRarena__20-36",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 56881,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 1318,
+    "cache_creation_input_tokens": 30557,
+    "cache_read_input_tokens": 345199
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "docs/index.html",
+      "action": "keep",
+      "sha256": "d9b568f3e5cfb45922e26ded43402880a5bfd606a4c08b779c8f7258d673b77d",
+      "rationale": "The only conflict is the auto-generated 'Last updated' timestamp; PR A changed nothing else in this generated page, so I took PR B's newer timestamp, which matches the regenerated agent table and toggle buttons already merged in from PR B."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:43:25.411967Z"
+}

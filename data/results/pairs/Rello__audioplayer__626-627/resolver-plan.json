@@ -1,0 +1,15 @@
+{
+  "pair_id": "Rello__audioplayer__626-627",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:41:57.368264Z"
+}

@@ -1,0 +1,31 @@
+{
+  "pair_id": "OpenAdaptAI__OpenAdapt__946-947",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 234198,
+  "tokens": {
+    "input_tokens": 38,
+    "output_tokens": 9885,
+    "cache_creation_input_tokens": 126864,
+    "cache_read_input_tokens": 2094128
+  },
+  "tool_calls": 28,
+  "files": [
+    {
+      "path": "deploy/deploy/models/omniparser/deploy.py",
+      "action": "keep",
+      "sha256": "be1a6df9ae291aeea7af592e2af3956b5d7cac051de28ebfab463224c198deaa",
+      "rationale": "PR B's version contains all of PR A's deploy script plus its fixes (script-relative key path, default-VPC security group, subnet creation, key-pair handling, and corrected f-strings in the Docker commands), so B's content is used as the merged file."
+    },
+    {
+      "path": "openadapt/run_omnimcp.py",
+      "action": "keep",
+      "sha256": "17f3804a98089d707268e7ca454269cbce6477fd38d33c805e5f61de44e296b6",
+      "rationale": "PR B's runner contains all of PR A's runner unchanged and adds the allow_no_parser/auto_deploy_parser/skip_confirmation options and a ComputerUse TODO, so B's content is used to keep both intents."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:43:25.337378Z"
+}

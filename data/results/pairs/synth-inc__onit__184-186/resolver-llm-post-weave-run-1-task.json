@@ -1,0 +1,23 @@
+{
+  "pair_id": "synth-inc__onit__184-186",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "task_dir": "/home/user/ladder/work/resolver/synth-inc__onit__184-186/llm-post-weave/run-1",
+  "snapshot_dir": "/home/user/ladder/work/resolver/synth-inc__onit__184-186/llm-post-weave/run-1/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/synth-inc__onit__184-186/llm-post-weave/run-1",
+  "spawn_line": "Read /home/user/ladder/work/resolver/synth-inc__onit__184-186/llm-post-weave/run-1/PROMPT.md and follow it exactly.",
+  "files": [
+    "macos/Onit/Data/Persistence/Defaults.swift",
+    "macos/Onit/UI/Content/ContentView.swift",
+    "macos/Onit/UI/Panels/OnitAccessoryPanel.swift",
+    "macos/Onit/UI/Panels/OnitRegularPanel.swift",
+    "macos/Onit/UI/Panels/State/OnitPanelState+Position.swift",
+    "macos/Onit/Untethered/UntetheredScreenManager.swift"
+  ],
+  "input_bytes": 203928,
+  "pr_text_flags": [],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "pending",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T05:42:27.544938Z"
+}

@@ -1,0 +1,20 @@
+{
+  "pair_id": "jeroenterheerdt__HAsmartirrigation__597-598",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js"
+  ],
+  "files": [
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "present": true,
+      "has_markers": true,
+      "language": "javascript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/jeroenterheerdt__HAsmartirrigation__597-598/weave"
+}

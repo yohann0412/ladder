@@ -1,0 +1,22 @@
+{
+  "pair_id": "wandb__openui__235-237",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "task_dir": "/home/user/ladder/work/resolver/wandb__openui__235-237/llm-post-weave/run-1",
+  "snapshot_dir": "/home/user/ladder/work/resolver/wandb__openui__235-237/llm-post-weave/run-1/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/wandb__openui__235-237/llm-post-weave/run-1",
+  "spawn_line": "Read /home/user/ladder/work/resolver/wandb__openui__235-237/llm-post-weave/run-1/PROMPT.md and follow it exactly.",
+  "files": [
+    "frontend/src/components/Chat.tsx",
+    "frontend/src/components/CodeEditor.tsx",
+    "frontend/src/components/CurrentUiContext.tsx",
+    "frontend/src/components/HtmlAnnotator.tsx",
+    "frontend/src/components/Prompt.tsx"
+  ],
+  "input_bytes": 291625,
+  "pr_text_flags": [],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "pending",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T05:42:21.640546Z"
+}

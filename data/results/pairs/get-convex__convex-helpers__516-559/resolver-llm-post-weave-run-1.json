@@ -1,0 +1,19 @@
+{
+  "pair_id": "get-convex__convex-helpers__516-559",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: package-lock.json version base has 295752 bytes, more than 200000",
+    "input cap: package-lock.json version a has 295760 bytes, more than 200000",
+    "input cap: package-lock.json version b has 295752 bytes, more than 200000",
+    "input cap: package-lock.json version conflicted has 590029 bytes, more than 200000",
+    "input cap: 1496845 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T05:41:52.929576Z"
+}

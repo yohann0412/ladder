@@ -1,0 +1,23 @@
+{
+  "pair_id": "synth-inc__onit__184-186",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/synth-inc__onit__184-186",
+  "source_base": "25c28385a3efeb20696d96172435750d30bc6565",
+  "source_a": "57fe9f86d20b7c143017fd5c174df645a20a45e5",
+  "source_b": "48c6097f6ea4b30fe8b5db7eae6cdf3344a44fda",
+  "base_commit": "5ab2c0375076452f9a1888d5ffcd0b86018b8839",
+  "a_commit": "9d2b539fad45611dc13ae14a1581a96a82da604a",
+  "b_commit": "93a28a807b6bcca95e9c38373abb6c72157eab24",
+  "object_count": 787,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

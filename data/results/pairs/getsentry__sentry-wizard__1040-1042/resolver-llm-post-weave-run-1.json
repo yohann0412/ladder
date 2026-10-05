@@ -1,0 +1,25 @@
+{
+  "pair_id": "getsentry__sentry-wizard__1040-1042",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 118998,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 1116,
+    "cache_creation_input_tokens": 50980,
+    "cache_read_input_tokens": 392831
+  },
+  "tool_calls": 12,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "action": "keep",
+      "sha256": "f7fbcb6abb6f934ecce76c7d45cde89a966173c4bcffdaf6625a8bf0c4c956b9",
+      "rationale": "Both PRs appended an independent entry under Unreleased, so both are kept with the Nuxt logs entry (#1040, PR A) followed by the SvelteKit logs entry (#1042, PR B) and the rest of the file left unchanged."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:43:25.970911Z"
+}

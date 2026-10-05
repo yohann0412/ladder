@@ -1,0 +1,43 @@
+{
+  "pair_id": "CravateRouge__bloodyAD__81-82",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 965567,
+  "tokens": {
+    "input_tokens": 42,
+    "output_tokens": 41317,
+    "cache_creation_input_tokens": 189524,
+    "cache_read_input_tokens": 2568646
+  },
+  "tool_calls": 21,
+  "files": [
+    {
+      "path": "bloodyAD/cli_modules/add.py",
+      "action": "keep",
+      "sha256": "dc0b713d7b239a1fcc6f3f03e7da2b97d38a8306ffbc3b9cab61e58de6972f14",
+      "rationale": "Both PRs made identical async conversions except for the ldap accessor, so every conflict is resolved to PR A's `await conn.getLdap()` form, because the cleanly-merged config.py keeps PR A's getLdap() method and removes the `ldap` property that PR B's `await conn.ldap` required."
+    },
+    {
+      "path": "bloodyAD/cli_modules/get.py",
+      "action": "keep",
+      "sha256": "24e6829c4fe9b6a7334b0c4b1a29471949e685ccabf2c6cf1931c64db3b8bf05",
+      "rationale": "The single conflict in writable() is resolved to PR A's `await conn.getLdap()`, matching every other getLdap() call already cleanly merged throughout this file and the merged config.py which exposes no `ldap` property."
+    },
+    {
+      "path": "bloodyAD/cli_modules/remove.py",
+      "action": "keep",
+      "sha256": "f002212a50e6727d55bc2cb2be6b4fa4c11b79d9275bbe6795228324ac35f1c3",
+      "rationale": "All conflicts are resolved to PR A's `await conn.getLdap()` accessor (keeping the shared async conversions such as awaited bloodymodify/getSD and async-for iteration) since `conn.ldap` no longer exists after the merge."
+    },
+    {
+      "path": "bloodyAD/network/ldap.py",
+      "action": "keep",
+      "sha256": "8e030e289728f52a6a2848097df1d1bef1c586a625e3d6941cd74a0654902a31",
+      "rationale": "Resolved the searchInForest conflict to PR A's `await newconn.getLdap()` and, for consistency with the merged config.py (getLdap() method, no `ldap` property), also changed the cleanly-merged `await conn.ldap` in interTrustOp to `await conn.getLdap()` so the whole file uses the surviving accessor."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:43:25.154406Z"
+}

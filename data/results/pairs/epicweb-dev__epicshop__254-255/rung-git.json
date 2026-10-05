@@ -2,7 +2,7 @@
   "pair_id": "epicweb-dev__epicshop__254-255",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 2, conflicted files: 2",
   "messages": [
     "CONFLICT (content): Merge conflict in packages/workshop-cli/package.json",
     "CONFLICT (content): Merge conflict in packages/workshop-cli/src/cli.ts"

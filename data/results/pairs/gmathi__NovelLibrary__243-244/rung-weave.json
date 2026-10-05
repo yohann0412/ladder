@@ -1,0 +1,28 @@
+{
+  "pair_id": "gmathi__NovelLibrary__243-244",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 2",
+  "remaining_conflicted": [
+    "app/build.gradle",
+    "gradle.properties"
+  ],
+  "files": [
+    {
+      "path": "app/build.gradle",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "gradle.properties",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/gmathi__NovelLibrary__243-244/weave"
+}

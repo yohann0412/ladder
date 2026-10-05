@@ -1,0 +1,25 @@
+{
+  "pair_id": "digitaldemocracy2030__kouchou-ai__232-233",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 25145,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 358,
+    "cache_creation_input_tokens": 18052,
+    "cache_read_input_tokens": 219917
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "server/src/routers/admin_report.py",
+      "action": "keep",
+      "sha256": "2df53328cee71b48afb3fe7f006a7d4c531d9316d9823e66f43ff4ab8f17ec9e",
+      "rationale": "Combined both imports (set_status and toggle_report_public_state) and kept both new endpoints, PR A's DELETE /admin/reports/{slug} and PR B's PATCH /admin/reports/{slug}/visibility, since they are independent additions."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:43:25.679680Z"
+}

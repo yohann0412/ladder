@@ -1,0 +1,25 @@
+{
+  "pair_id": "intellectronica__ruler__138-139",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 66943,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 970,
+    "cache_creation_input_tokens": 32920,
+    "cache_read_input_tokens": 341573
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "README.md",
+      "action": "keep",
+      "sha256": "674cca1c3f41322e2c7b0d053caa5eb8ee35c32eb8447fdda19b4e99ab2d7199",
+      "rationale": "Combined both table edits: the Amp row takes PR A's switch to `AGENTS.md`, and the Aider row takes PR B's switch from `ruler_aider_instructions.md` to `AGENTS.md`, `.aider.conf.yml`."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:43:27.225726Z"
+}

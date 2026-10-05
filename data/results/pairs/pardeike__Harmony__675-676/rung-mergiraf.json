@@ -1,0 +1,20 @@
+{
+  "pair_id": "pardeike__Harmony__675-676",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    ".github/workflows/test.yml"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/test.yml",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/pardeike__Harmony__675-676/mergiraf"
+}

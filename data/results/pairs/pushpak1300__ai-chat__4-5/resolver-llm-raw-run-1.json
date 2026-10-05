@@ -1,0 +1,25 @@
+{
+  "pair_id": "pushpak1300__ai-chat__4-5",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 34420,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 822,
+    "cache_creation_input_tokens": 27011,
+    "cache_read_input_tokens": 296052
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "resources/js/pages/Chat/Show.vue",
+      "action": "keep",
+      "sha256": "5131ed996015b967b50c750210349c64a73de59bb0bd6ec9e2821651c6a554f5",
+      "rationale": "The only conflict was two independent ref declarations added at the same spot, so both are kept: PR A's chatContainerRef for auto-scroll on refresh and PR B's currentChunks for generic chunk streaming; the rest of the file already merged both sides cleanly."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:43:27.413488Z"
+}

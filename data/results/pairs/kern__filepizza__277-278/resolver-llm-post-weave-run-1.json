@@ -1,0 +1,25 @@
+{
+  "pair_id": "kern__filepizza__277-278",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 19922,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 483,
+    "cache_creation_input_tokens": 20676,
+    "cache_read_input_tokens": 173522
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "package.json",
+      "action": "keep",
+      "sha256": "dbc11c68b60afcb35f4d3b06ff30ee51e5f3543074723b8ffc98e621c8d16c24",
+      "rationale": "PR A already adds the same \"@eslint/js\": \"^9.30.0\" devDependency that PR B appends, so the merge keeps PR A's file (test scripts, test devDependencies, vitest) with @eslint/js listed once in sorted position, satisfying both PRs without a duplicate key."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:43:27.250764Z"
+}

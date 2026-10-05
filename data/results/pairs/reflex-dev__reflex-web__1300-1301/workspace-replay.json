@@ -1,0 +1,23 @@
+{
+  "pair_id": "reflex-dev__reflex-web__1300-1301",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/reflex-dev__reflex-web__1300-1301",
+  "source_base": "1508ec1a25c54400323d5914fc3e16a6c581b0da",
+  "source_a": "eb0d3d1617b8f143ae4488e0840709fb1d2dfdee",
+  "source_b": "6887c34c47bf53e8c2d18624e534ecc3d40363c0",
+  "base_commit": "662094f0e3b2d6191ba40d498feeb068798696f8",
+  "a_commit": "958477b0c296a3f7917a557bcef89c686c484c5b",
+  "b_commit": "d8a9d6d87f1461dc56af93921d97d404f731f13f",
+  "object_count": 998,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

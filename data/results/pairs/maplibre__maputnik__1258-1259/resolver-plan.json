@@ -1,0 +1,15 @@
+{
+  "pair_id": "maplibre__maputnik__1258-1259",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:43:35.720202Z"
+}

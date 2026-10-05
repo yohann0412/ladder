@@ -2,7 +2,7 @@
   "pair_id": "synth-inc__onit__184-186",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 9, conflicted files: 9 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 9, conflicted files: 9",
   "messages": [
     "CONFLICT (content): Merge conflict in macos/Onit/Data/Persistence/Defaults.swift",
     "CONFLICT (content): Merge conflict in macos/Onit/PanelStateManager/Tethered/PanelStateTetheredManager.swift",

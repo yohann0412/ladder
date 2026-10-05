@@ -1,0 +1,84 @@
+{
+  "pair_id": "synth-inc__onit__184-186",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 9 of 9",
+  "remaining_conflicted": [
+    "macos/Onit/Data/Persistence/Defaults.swift",
+    "macos/Onit/PanelStateManager/Tethered/PanelStateTetheredManager.swift",
+    "macos/Onit/UI/Content/ContentView.swift",
+    "macos/Onit/UI/Panels/OnitAccessoryPanel.swift",
+    "macos/Onit/UI/Panels/OnitRegularPanel.swift",
+    "macos/Onit/UI/Panels/State/OnitPanelState+Position.swift",
+    "macos/Onit/UI/Panels/State/OnitPanelState.swift",
+    "macos/Onit/UI/Settings/GeneralTab.swift",
+    "macos/Onit/Untethered/UntetheredScreenManager.swift"
+  ],
+  "files": [
+    {
+      "path": "macos/Onit/Data/Persistence/Defaults.swift",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "macos/Onit/PanelStateManager/Tethered/PanelStateTetheredManager.swift",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "macos/Onit/UI/Content/ContentView.swift",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "macos/Onit/UI/Panels/OnitAccessoryPanel.swift",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "macos/Onit/UI/Panels/OnitRegularPanel.swift",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "macos/Onit/UI/Panels/State/OnitPanelState+Position.swift",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "macos/Onit/UI/Panels/State/OnitPanelState.swift",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "macos/Onit/UI/Settings/GeneralTab.swift",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "macos/Onit/Untethered/UntetheredScreenManager.swift",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/synth-inc__onit__184-186/mergiraf"
+}

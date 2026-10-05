@@ -1,0 +1,23 @@
+{
+  "pair_id": "gmathi__NovelLibrary__243-244",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/gmathi__NovelLibrary__243-244",
+  "source_base": "f517fd198bdd3232f74e73e6513e5f72152087d4",
+  "source_a": "2a19122dee9b8e9239ef4f760c0cb1477678510c",
+  "source_b": "d28eb5fefe589a7f45d9ce1bbf64d406a11292b6",
+  "base_commit": "cb037b803c6fa96e354dbf81b272d11bf296a031",
+  "a_commit": "3fff417b36e7fa1a2565a17e03e0701f53ca6445",
+  "b_commit": "be6ab030c7f1284d8236e3b27bad088abc59cb40",
+  "object_count": 718,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

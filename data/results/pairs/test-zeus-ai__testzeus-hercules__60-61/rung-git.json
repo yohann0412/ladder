@@ -2,7 +2,7 @@
   "pair_id": "test-zeus-ai__testzeus-hercules__60-61",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 20, conflicted files: 20 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 20, conflicted files: 20",
   "messages": [
     "CONFLICT (content): Merge conflict in .env-example",
     "CONFLICT (content): Merge conflict in poetry.lock",

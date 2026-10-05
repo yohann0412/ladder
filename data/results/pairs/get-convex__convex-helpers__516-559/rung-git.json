@@ -2,7 +2,7 @@
   "pair_id": "get-convex__convex-helpers__516-559",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 2, conflicted files: 2",
   "messages": [
     "CONFLICT (content): Merge conflict in package-lock.json",
     "CONFLICT (content): Merge conflict in packages/convex-helpers/package.json"

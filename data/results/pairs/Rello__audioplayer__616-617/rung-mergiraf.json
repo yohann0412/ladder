@@ -1,0 +1,36 @@
+{
+  "pair_id": "Rello__audioplayer__616-617",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 3 of 3",
+  "remaining_conflicted": [
+    "CHANGELOG.md",
+    "lib/Controller/MusicController.php",
+    "lib/Service/MusicService.php"
+  ],
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "lib/Controller/MusicController.php",
+      "present": true,
+      "has_markers": true,
+      "language": "php",
+      "parses": false
+    },
+    {
+      "path": "lib/Service/MusicService.php",
+      "present": true,
+      "has_markers": true,
+      "language": "php",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/Rello__audioplayer__616-617/mergiraf"
+}

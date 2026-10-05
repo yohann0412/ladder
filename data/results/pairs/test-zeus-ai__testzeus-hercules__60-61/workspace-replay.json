@@ -1,0 +1,23 @@
+{
+  "pair_id": "test-zeus-ai__testzeus-hercules__60-61",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/test-zeus-ai__testzeus-hercules__60-61",
+  "source_base": "78160c2ebb1704aec5017db67ad0e411a100baa3",
+  "source_a": "b68a4e91aff079196fd1b51b234e892a7eaadec4",
+  "source_b": "0c15b639c7fda0dcdcb9d486d9775da0e4c277c7",
+  "base_commit": "52b443cff828cd53df9b5987dce327f747ab9755",
+  "a_commit": "1ab83ff384a10c5f189e24b96c32451a4fe2f033",
+  "b_commit": "157b454c95cf9ab0ce9b67fd858918a79af6380d",
+  "object_count": 447,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "wandb__openui__235-237",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/wandb__openui__235-237",
+  "source_base": "5c6d7bfa799e605a90fb1e094b92ee015729a859",
+  "source_a": "90366e19794632b51a33409e45d52ca702b61739",
+  "source_b": "b4cba84fa99faa76c94921ceaffc797ce18a689e",
+  "base_commit": "6c575a1109413e6d2a8420a058dd34fcf5927fed",
+  "a_commit": "ecdb3499b8fd5d8d43ae91ae26919d70780d15b2",
+  "b_commit": "13d744f6a5a5d8ec1f4dbaf142958c4e742b871d",
+  "object_count": 355,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

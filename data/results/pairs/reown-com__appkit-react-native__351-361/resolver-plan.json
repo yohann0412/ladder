@@ -1,0 +1,11 @@
+{
+  "pair_id": "reown-com__appkit-react-native__351-361",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:42:15.659416Z"
+}

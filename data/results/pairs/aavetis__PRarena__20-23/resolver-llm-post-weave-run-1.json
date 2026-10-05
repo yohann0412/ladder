@@ -1,0 +1,25 @@
+{
+  "pair_id": "aavetis__PRarena__20-23",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 58020,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 916,
+    "cache_creation_input_tokens": 37445,
+    "cache_read_input_tokens": 306592
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "docs/index.html",
+      "action": "keep",
+      "sha256": "371cd90de1b31adda6e4aaa295dc4dd6247830f34bf934a44183a46292810cf4",
+      "rationale": "The only conflict was the auto-generated 'Last updated' footer timestamp, so I kept PR B's later timestamp (June 09, 2025 00:48 UTC) along with all of PR B's codegen table row, toggle button and JS changes; PR A's only change to this file was an older timestamp, and I dropped weave's trailing annotation line."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:43:25.356547Z"
+}

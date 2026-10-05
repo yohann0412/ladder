@@ -1,0 +1,20 @@
+{
+  "pair_id": "launchql__pgsql-parser__162-163",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "packages/transform/src/transformers/v13-to-v14.ts"
+  ],
+  "files": [
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/launchql__pgsql-parser__162-163/mergiraf"
+}

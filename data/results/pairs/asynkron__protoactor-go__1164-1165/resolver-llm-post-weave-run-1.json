@@ -1,0 +1,25 @@
+{
+  "pair_id": "asynkron__protoactor-go__1164-1165",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 25414,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 508,
+    "cache_creation_input_tokens": 21524,
+    "cache_read_input_tokens": 174112
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "actor/deadletter.go",
+      "action": "keep",
+      "sha256": "68ab9879180380b94925d32251b01d7638fdeb0fe2ade20c7214a66847e6020c",
+      "rationale": "Both PRs add the identical system ID label, so the merge keeps that label once and takes PR A's change to unwrap the envelope first, which makes the messagetype label use the unwrapped msg instead of the raw message."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:43:25.497453Z"
+}

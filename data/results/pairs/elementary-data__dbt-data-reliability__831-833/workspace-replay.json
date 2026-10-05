@@ -1,0 +1,23 @@
+{
+  "pair_id": "elementary-data__dbt-data-reliability__831-833",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/elementary-data__dbt-data-reliability__831-833",
+  "source_base": "f6d557dc2c8c7a8ec77da587a82545ee70e84693",
+  "source_a": "c7615407081cc070665f71b36182d02c9a63c166",
+  "source_b": "d481311061be1026b7823c71be7305d077c05009",
+  "base_commit": "b6ffaa59d3ce307bfc2945bac80385f15c2685e2",
+  "a_commit": "876dc2358d441509d97dd848d0015753cf07a521",
+  "b_commit": "50117e2e6ad49f245424ae80b2d581f323852d7e",
+  "object_count": 515,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

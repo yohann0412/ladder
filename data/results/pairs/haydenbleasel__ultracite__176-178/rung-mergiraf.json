@@ -1,0 +1,18 @@
+{
+  "pair_id": "haydenbleasel__ultracite__176-178",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "scripts/format.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/haydenbleasel__ultracite__176-178/mergiraf"
+}

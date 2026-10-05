@@ -1,0 +1,19 @@
+{
+  "pair_id": "ishaan1013__shadow__3-4",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: package-lock.json version base has 220224 bytes, more than 200000",
+    "input cap: package-lock.json version a has 222566 bytes, more than 200000",
+    "input cap: package-lock.json version b has 240176 bytes, more than 200000",
+    "input cap: package-lock.json version conflicted has 242612 bytes, more than 200000",
+    "input cap: 931847 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T05:42:44.284318Z"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "Azure__azure-mcp__394-525",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 74172,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 530,
+    "cache_creation_input_tokens": 58758,
+    "cache_read_input_tokens": 297890
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "TROUBLESHOOTING.md",
+      "action": "keep",
+      "sha256": "90b8d9890c61dfabc01cf34c86096732edddb1586b45ba98e43160d4a079e526",
+      "rationale": "Kept PR B's reorganized structure and Table of Contents, and moved PR A's new 'Platform Package Installation Issues' section to where PR A put it, at the start of Common Issues (git had misplaced the conflict under Logging and Diagnostics), with a matching TOC entry, while keeping PR B's '### Logging' heading."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:43:25.116489Z"
+}

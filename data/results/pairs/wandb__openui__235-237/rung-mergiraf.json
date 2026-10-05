@@ -1,0 +1,52 @@
+{
+  "pair_id": "wandb__openui__235-237",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 5 of 5",
+  "remaining_conflicted": [
+    "frontend/src/components/Chat.tsx",
+    "frontend/src/components/CodeEditor.tsx",
+    "frontend/src/components/CurrentUiContext.tsx",
+    "frontend/src/components/HtmlAnnotator.tsx",
+    "frontend/src/components/Prompt.tsx"
+  ],
+  "files": [
+    {
+      "path": "frontend/src/components/Chat.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    },
+    {
+      "path": "frontend/src/components/CodeEditor.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    },
+    {
+      "path": "frontend/src/components/CurrentUiContext.tsx",
+      "present": true,
+      "has_markers": false,
+      "language": "tsx",
+      "parses": true
+    },
+    {
+      "path": "frontend/src/components/HtmlAnnotator.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    },
+    {
+      "path": "frontend/src/components/Prompt.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/wandb__openui__235-237/mergiraf"
+}

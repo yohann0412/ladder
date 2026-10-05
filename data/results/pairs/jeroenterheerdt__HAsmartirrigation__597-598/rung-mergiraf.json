@@ -1,0 +1,18 @@
+{
+  "pair_id": "jeroenterheerdt__HAsmartirrigation__597-598",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "present": true,
+      "has_markers": false,
+      "language": "javascript",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/jeroenterheerdt__HAsmartirrigation__597-598/mergiraf"
+}

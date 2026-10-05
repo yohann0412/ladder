@@ -1,0 +1,18 @@
+{
+  "pair_id": "reflex-dev__reflex-web__1300-1301",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "pcweb/whitelist.py",
+      "present": true,
+      "has_markers": false,
+      "language": "python",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/reflex-dev__reflex-web__1300-1301/mergiraf"
+}

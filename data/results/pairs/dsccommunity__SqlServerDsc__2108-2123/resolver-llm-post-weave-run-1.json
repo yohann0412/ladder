@@ -1,0 +1,25 @@
+{
+  "pair_id": "dsccommunity__SqlServerDsc__2108-2123",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 73098,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 1680,
+    "cache_creation_input_tokens": 47803,
+    "cache_read_input_tokens": 361839
+  },
+  "tool_calls": 12,
+  "files": [
+    {
+      "path": "source/en-US/SqlServerDsc.strings.psd1",
+      "action": "keep",
+      "sha256": "267e42b3321390a6b4e9bcd12ca8d2c5b5b27285b802edcdf4d90f651d0a5e16",
+      "rationale": "Both PRs appended independent string sections at the end of the same here-string, so the merge keeps PR A's Get-SqlDscServerProtocol strings followed by PR B's Assert-SqlDscLogin strings, separated by a blank line, before the closing '@."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:43:25.775107Z"
+}

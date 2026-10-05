@@ -1,0 +1,23 @@
+{
+  "pair_id": "ishaan1013__shadow__3-4",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/ishaan1013__shadow__3-4",
+  "source_base": "c563e4d7bc2d8b48c3950efe169df84f38c0be66",
+  "source_a": "786b5c8578548b7a9f5fc302d30198bccc03568b",
+  "source_b": "aae033c77afc54a27ef2b904853e8a31783d40a0",
+  "base_commit": "bacbdb266d5ab6d78ab3294dcef49d7057347059",
+  "a_commit": "0a28698c39ceb2143c119b44b80fa3b9061e5e02",
+  "b_commit": "aee17f1e124c2692baf556c93f554e6b277f5b39",
+  "object_count": 199,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

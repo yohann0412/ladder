@@ -1,0 +1,15 @@
+{
+  "pair_id": "gmathi__NovelLibrary__243-244",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:42:00.102315Z"
+}

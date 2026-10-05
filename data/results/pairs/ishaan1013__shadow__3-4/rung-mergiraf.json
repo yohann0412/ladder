@@ -1,0 +1,25 @@
+{
+  "pair_id": "ishaan1013__shadow__3-4",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 2",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "apps/frontend/package.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "package-lock.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/ishaan1013__shadow__3-4/mergiraf"
+}
