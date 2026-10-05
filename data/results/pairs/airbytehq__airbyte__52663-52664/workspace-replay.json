@@ -1,0 +1,23 @@
+{
+  "pair_id": "airbytehq__airbyte__52663-52664",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/airbytehq__airbyte__52663-52664",
+  "source_base": "2c3e6a1b117f0b77241b7df1a2da9e5edaa1c1a3",
+  "source_a": "a8373f5abf30eb028912cb5a78acbcb6689ec06d",
+  "source_b": "588c77899d787321e1e64cacee253443b5ba41c1",
+  "base_commit": "4784c8475e6d03c00b9699ac7114bb119506e6ef",
+  "a_commit": "7e7deaf9525c49dd5821d0c1da12965b1c077da7",
+  "b_commit": "c4dbd9f34fabde934b0de1920f3e8cf8045a134f",
+  "object_count": 18410,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

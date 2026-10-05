@@ -2,7 +2,7 @@
   "pair_id": "airbytehq__airbyte__61490-61695",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 1, conflicted files: 1",
   "messages": [
     "CONFLICT (content): Merge conflict in airbyte-integrations/connectors/source-s3/source_s3/v4/stream_reader.py"
   ],

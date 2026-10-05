@@ -1,0 +1,28 @@
+{
+  "pair_id": "Significant-Gravitas__AutoGPT__9958-9959",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 2",
+  "remaining_conflicted": [
+    "autogpt_platform/backend/backend/blocks/google/gmail.py",
+    "docs/content/platform/blocks/google/gmail.md"
+  ],
+  "files": [
+    {
+      "path": "autogpt_platform/backend/backend/blocks/google/gmail.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "docs/content/platform/blocks/google/gmail.md",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/Significant-Gravitas__AutoGPT__9958-9959/weave"
+}

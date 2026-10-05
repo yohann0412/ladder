@@ -2,7 +2,7 @@
   "pair_id": "Significant-Gravitas__AutoGPT__9958-9959",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 2, conflicted files: 2",
   "messages": [
     "CONFLICT (content): Merge conflict in autogpt_platform/backend/backend/blocks/google/gmail.py",
     "CONFLICT (content): Merge conflict in docs/content/platform/blocks/google/gmail.md"

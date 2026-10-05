@@ -1,0 +1,11 @@
+{
+  "pair_id": "airbytehq__airbyte__61490-61695",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T08:03:16.445535Z"
+}

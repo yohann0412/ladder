@@ -1,0 +1,20 @@
+{
+  "pair_id": "airbytehq__airbyte__61490-61695",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "airbyte-integrations/connectors/source-s3/source_s3/v4/stream_reader.py"
+  ],
+  "files": [
+    {
+      "path": "airbyte-integrations/connectors/source-s3/source_s3/v4/stream_reader.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/airbytehq__airbyte__61490-61695/mergiraf"
+}

@@ -1,0 +1,18 @@
+{
+  "pair_id": "airbytehq__airbyte__52663-52664",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: airbyte-ci/connectors/base_images/poetry.lock version a has 206372 bytes, more than 200000",
+    "input cap: airbyte-ci/connectors/base_images/poetry.lock version b has 214212 bytes, more than 200000",
+    "input cap: airbyte-ci/connectors/base_images/poetry.lock version conflicted has 247352 bytes, more than 200000",
+    "input cap: 862408 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T08:04:03.180607Z"
+}

@@ -1,0 +1,18 @@
+{
+  "pair_id": "airbytehq__airbyte__61490-61695",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "airbyte-integrations/connectors/source-s3/source_s3/v4/stream_reader.py",
+      "present": true,
+      "has_markers": false,
+      "language": "python",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/airbytehq__airbyte__61490-61695/weave"
+}

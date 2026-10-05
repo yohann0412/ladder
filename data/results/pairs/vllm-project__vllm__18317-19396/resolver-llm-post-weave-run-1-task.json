@@ -1,0 +1,20 @@
+{
+  "pair_id": "vllm-project__vllm__18317-19396",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "task_dir": "/home/user/ladder/work/resolver/vllm-project__vllm__18317-19396/llm-post-weave/run-1",
+  "snapshot_dir": "/home/user/ladder/work/resolver/vllm-project__vllm__18317-19396/llm-post-weave/run-1/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/vllm-project__vllm__18317-19396/llm-post-weave/run-1",
+  "spawn_line": "Read /home/user/ladder/work/resolver/vllm-project__vllm__18317-19396/llm-post-weave/run-1/PROMPT.md and follow it exactly.",
+  "files": [
+    "docs/design/arch_overview.md"
+  ],
+  "input_bytes": 32464,
+  "pr_text_flags": [
+    "conflict"
+  ],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "pending",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T08:04:26.866697Z"
+}

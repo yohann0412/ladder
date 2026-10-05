@@ -1,0 +1,27 @@
+{
+  "pair_id": "Significant-Gravitas__AutoGPT__9958-10340",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 2",
+  "remaining_conflicted": [
+    "autogpt_platform/backend/backend/blocks/exa/similar.py"
+  ],
+  "files": [
+    {
+      "path": "autogpt_platform/backend/backend/blocks/exa/search.py",
+      "present": true,
+      "has_markers": false,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "autogpt_platform/backend/backend/blocks/exa/similar.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/Significant-Gravitas__AutoGPT__9958-10340/weave"
+}
