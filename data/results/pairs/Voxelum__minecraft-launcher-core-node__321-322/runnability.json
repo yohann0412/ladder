@@ -1,0 +1,57 @@
+{
+  "pair_id": "Voxelum__minecraft-launcher-core-node__321-322",
+  "commit": "a255c84cd072e7d99cfc6db1482f49627906c2bd",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": "vitest",
+  "status": "runnable_with_modifications",
+  "reason": null,
+  "reason_detail": "",
+  "modifications": [
+    "pnpm install without --frozen-lockfile"
+  ],
+  "attempts": [
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--frozen-lockfile"
+      ],
+      "exit_code": 1,
+      "duration_s": 1.9,
+      "detail": "standard, install cap 900 s: install: exit 1 in 1.9 s; output tail: Scope: all 29 workspace projects |  ERR_PNPM_OUTDATED_LOCKFILE  Cannot install with \"frozen-lockfile\" because pnpm-lock.yaml is not up to date with <ROOT>/packages/mod-parser/package.json | Note that in CI environments this setting is true by default. If you still need to run install in such cases, use \"pnpm install --no-frozen-lockfile\" |     Failure reason: |     specifiers in the lockfile ({\"@xmcl/asm\":\"workspace:^*\",\"@xmcl/system\":\"workspace:^*\",\"toml\":\"^3.0.0\",\"@types/node\":\"~18.15.11\",\"@xmcl/oxlint-config\":\"workspace:^*\",\"esbuild\":\"^0.17.16\",\"oxlint\":\"^0.15.5\",\"typescript\":\"^5.3.3\"}) don't match specs in package.json ({\"@types/node\":\"~18.15.11\",\"@xmcl/oxlint-config\":\"workspace:^*\",\"esbuild\":\"^0.17.16\",\"oxlint\":\"^0.15.5\",\"typescript\":\"^5.3.3\",\"@xmcl/asm\":\"workspace:^*\",\"@xmcl/system\":\"workspace:^*\",\"smol-toml\":\"^1.3.1\"})"
+    },
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--no-frozen-lockfile"
+      ],
+      "exit_code": 0,
+      "duration_s": 22.4,
+      "detail": "unfrozen (pnpm install without --frozen-lockfile), install cap 900 s: install: exit 0 in 9.3 s; suite passed: 267 passed, 0 failed, 0 errors, 31 skipped"
+    }
+  ],
+  "test_count": 298,
+  "base_outcome": {
+    "status": "passed",
+    "command": [
+      "/home/user/ladder/work/runtime/Voxelum__minecraft-launcher-core-node__321-322/trees/base/node_modules/.bin/vitest",
+      "run",
+      "--coverage.enabled=false",
+      "--reporter=json",
+      "--outputFile=/home/user/ladder/work/runtime/Voxelum__minecraft-launcher-core-node__321-322/reports/base-attempt-2/run-1.report"
+    ],
+    "passed": 267,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 31,
+    "duration_s": 13.1,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "267 passed, 0 failed, 0 errors, 31 skipped"
+  },
+  "timeout_s": 600
+}
