@@ -1,0 +1,15 @@
+{
+  "pair_id": "theopenco__llmgateway__208-354",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T07:15:00.018838Z"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "go-vikunja__vikunja__868-871",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 2",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "frontend/src/components/base/BaseButton.story.vue",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/src/components/base/Expandable.vue",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/go-vikunja__vikunja__868-871/weave"
+}

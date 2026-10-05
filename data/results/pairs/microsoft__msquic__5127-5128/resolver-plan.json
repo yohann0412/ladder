@@ -1,0 +1,15 @@
+{
+  "pair_id": "microsoft__msquic__5127-5128",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T07:15:30.796457Z"
+}

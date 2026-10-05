@@ -1,0 +1,11 @@
+{
+  "pair_id": "block__goose__2620-2621",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T07:17:20.785717Z"
+}

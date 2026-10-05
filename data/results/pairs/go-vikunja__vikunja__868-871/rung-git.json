@@ -2,7 +2,7 @@
   "pair_id": "go-vikunja__vikunja__868-871",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 2, conflicted files: 2",
   "messages": [
     "CONFLICT (content): Merge conflict in frontend/src/components/base/BaseButton.story.vue",
     "CONFLICT (content): Merge conflict in frontend/src/components/base/Expandable.vue"

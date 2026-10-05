@@ -1,0 +1,20 @@
+{
+  "pair_id": "hackmdio__codimd__1923-1926",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "package-lock.json"
+  ],
+  "files": [
+    {
+      "path": "package-lock.json",
+      "present": true,
+      "has_markers": true,
+      "language": "json",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/hackmdio__codimd__1923-1926/weave"
+}

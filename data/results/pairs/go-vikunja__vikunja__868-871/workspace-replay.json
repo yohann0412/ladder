@@ -1,0 +1,23 @@
+{
+  "pair_id": "go-vikunja__vikunja__868-871",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/go-vikunja__vikunja__868-871",
+  "source_base": "8ffbfa112cdc3edb584b8f03af5e66a7c3b10a05",
+  "source_a": "73962f9fffce5d351908dd5b5ef9a8a8e1824346",
+  "source_b": "e14bd817bcfdb10311f591009c94b34cfa65c3e8",
+  "base_commit": "8da2cd6e830ad5341e9b48df968275dd56c67f0a",
+  "a_commit": "17e3db183ed2da12d0e703616e8fcc5c6fadeabf",
+  "b_commit": "a10f4309f16b9c1323ef7f5f4683ca435fc78d67",
+  "object_count": 2073,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

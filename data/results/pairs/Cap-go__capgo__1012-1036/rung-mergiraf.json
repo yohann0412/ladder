@@ -1,0 +1,35 @@
+{
+  "pair_id": "Cap-go__capgo__1012-1036",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 3",
+  "remaining_conflicted": [
+    "bun.lockb",
+    "package.json"
+  ],
+  "files": [
+    {
+      "path": "bun.lockb",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "package.json",
+      "present": true,
+      "has_markers": true,
+      "language": "json",
+      "parses": false
+    },
+    {
+      "path": "supabase/functions/_backend/plugins/channel_self.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/Cap-go__capgo__1012-1036/mergiraf"
+}

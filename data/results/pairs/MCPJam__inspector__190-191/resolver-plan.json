@@ -1,0 +1,15 @@
+{
+  "pair_id": "MCPJam__inspector__190-191",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T07:15:02.733727Z"
+}

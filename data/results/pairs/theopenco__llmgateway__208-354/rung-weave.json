@@ -1,0 +1,35 @@
+{
+  "pair_id": "theopenco__llmgateway__208-354",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 3",
+  "remaining_conflicted": [
+    "apps/ui/src/routes/signup.tsx",
+    "pnpm-lock.yaml"
+  ],
+  "files": [
+    {
+      "path": "apps/ui/src/routes/signup.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    },
+    {
+      "path": "packages/auth/src/auth.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": true
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/theopenco__llmgateway__208-354/weave"
+}

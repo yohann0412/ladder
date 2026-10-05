@@ -1,0 +1,23 @@
+{
+  "pair_id": "Cap-go__capgo__1012-1036",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Cap-go__capgo__1012-1036",
+  "source_base": "31c108dedd78337f9cfdff3242f82188da196fd7",
+  "source_a": "bf8c7562de5d9a7d77c7701413a87bcc25737e20",
+  "source_b": "9863862350780a607f961a6160e83be30f5128d3",
+  "base_commit": "f1affafc2d09e8a58fe628291a76a60a0a1a3a55",
+  "a_commit": "f5784ccb3d738db0e9f14ffde6cc6b09c0a8a1ac",
+  "b_commit": "d93a2cd5198c9490181fea187210172682dc0a69",
+  "object_count": 1102,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

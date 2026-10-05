@@ -1,0 +1,18 @@
+{
+  "pair_id": "zenml-io__zenml__3375-3487",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "docs/book/how-to/data-artifact-management/handle-data-artifacts/handle-custom-data-types.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/zenml-io__zenml__3375-3487/mergiraf"
+}

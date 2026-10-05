@@ -1,0 +1,51 @@
+{
+  "pair_id": "berachain__beacon-kit__2840-2841",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 4 of 5",
+  "remaining_conflicted": [
+    "node-api/handlers/proof/merkle/generalized_indexes.go",
+    "node-api/handlers/proof/merkle/validator_balance.go",
+    "node-api/handlers/proof/types/response.go",
+    "node-api/handlers/proof/validator_balance.go"
+  ],
+  "files": [
+    {
+      "path": "node-api/handlers/proof/merkle/generalized_indexes.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "node-api/handlers/proof/merkle/validator_balance.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "node-api/handlers/proof/types/request.go",
+      "present": true,
+      "has_markers": false,
+      "language": "go",
+      "parses": true
+    },
+    {
+      "path": "node-api/handlers/proof/types/response.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "node-api/handlers/proof/validator_balance.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/berachain__beacon-kit__2840-2841/weave"
+}

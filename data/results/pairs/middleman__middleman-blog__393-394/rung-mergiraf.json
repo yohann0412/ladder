@@ -1,0 +1,20 @@
+{
+  "pair_id": "middleman__middleman-blog__393-394",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    ".gitignore"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/middleman__middleman-blog__393-394/mergiraf"
+}

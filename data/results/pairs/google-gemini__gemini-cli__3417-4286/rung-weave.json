@@ -1,0 +1,20 @@
+{
+  "pair_id": "google-gemini__gemini-cli__3417-4286",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "packages/cli/src/config/config.ts"
+  ],
+  "files": [
+    {
+      "path": "packages/cli/src/config/config.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/google-gemini__gemini-cli__3417-4286/weave"
+}

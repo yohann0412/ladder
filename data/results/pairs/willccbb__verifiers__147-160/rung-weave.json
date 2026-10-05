@@ -1,0 +1,20 @@
+{
+  "pair_id": "willccbb__verifiers__147-160",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "verifiers/envs/tool_env.py"
+  ],
+  "files": [
+    {
+      "path": "verifiers/envs/tool_env.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/willccbb__verifiers__147-160/weave"
+}

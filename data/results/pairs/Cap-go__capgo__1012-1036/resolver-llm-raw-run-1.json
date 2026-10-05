@@ -1,0 +1,19 @@
+{
+  "pair_id": "Cap-go__capgo__1012-1036",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: bun.lockb version base has 820296 bytes, more than 200000",
+    "input cap: bun.lockb version a has 826144 bytes, more than 200000",
+    "input cap: bun.lockb version b has 782144 bytes, more than 200000",
+    "input cap: bun.lockb version conflicted has 826144 bytes, more than 200000",
+    "input cap: 3374784 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T07:16:15.769008Z"
+}

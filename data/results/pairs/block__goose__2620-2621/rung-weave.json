@@ -1,0 +1,18 @@
+{
+  "pair_id": "block__goose__2620-2621",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "crates/goose-server/src/routes/reply.rs",
+      "present": true,
+      "has_markers": false,
+      "language": "rust",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/block__goose__2620-2621/weave"
+}

@@ -1,0 +1,20 @@
+{
+  "pair_id": "gensx-inc__gensx__736-766",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "website/home/app/page.tsx"
+  ],
+  "files": [
+    {
+      "path": "website/home/app/page.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/gensx-inc__gensx__736-766/mergiraf"
+}

@@ -1,0 +1,35 @@
+{
+  "pair_id": "Cap-go__capgo__1012-1036",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "error",
+  "detail": "bun.lockb: driver exit 2",
+  "remaining_conflicted": [
+    "bun.lockb",
+    "supabase/functions/_backend/plugins/channel_self.ts"
+  ],
+  "files": [
+    {
+      "path": "bun.lockb",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "package.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "supabase/functions/_backend/plugins/channel_self.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/Cap-go__capgo__1012-1036/weave"
+}

@@ -1,0 +1,31 @@
+{
+  "pair_id": "moonbitlang__core__2267-2422",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 80811,
+  "tokens": {
+    "input_tokens": 24,
+    "output_tokens": 3887,
+    "cache_creation_input_tokens": 39408,
+    "cache_read_input_tokens": 692843
+  },
+  "tool_calls": 16,
+  "files": [
+    {
+      "path": "json/parse_test.mbt",
+      "action": "keep",
+      "sha256": "f6c63ba56dcff821c797c5c607d8f130c49cc8b7cd3b07a3b4ec0dd11941b444",
+      "rationale": "Kept PR A's exact-message emoji test (which replaced the base TODO) and also kept PR B's crash-safety emoji test under a distinct name with a block separator, since both pass against the merged parser."
+    },
+    {
+      "path": "json/utils.mbt",
+      "action": "keep",
+      "sha256": "51521c1469fc86e9b049bd97fa958c5f23b24751d68037db7fc7d4822bb0c06e",
+      "rationale": "Both sides fixed the same surrogate-pair FIXME in invalid_char; kept PR A's get_char-with-replacement-char version (which never builds an invalid Char from a lone surrogate) and dropped PR B's local surrogate helpers that would otherwise be unused."
+    }
+  ],
+  "finalized_at": "2026-10-05T07:19:56.634816Z"
+}

@@ -49,3 +49,18 @@ and recorded it in `fixtures/recorded/`. `uv run pytest e2e/test_resolver.py -q`
 
 - Non-pending tasks (`input_cap`, `identical_input`) still get `files/` and `PROMPT.md` for
   inspection, but no snapshot.
+
+## Follow-up: transcripts with U+2028 or U+2029 (found in Phase 3)
+
+- **Bug:** `read_transcript` split the JSON Lines file with `str.splitlines()`, which also
+  breaks on U+2028, U+2029 and U+0085. JSON allows those unescaped inside strings. Both
+  moonbitlang__core__2267-2422 runs quoted such characters from a test file, and the
+  transcript was reported as unparseable.
+- **Effect:** `collect` would have refused the runs, or `finalize` would have recorded
+  `audit_impossible`.
+- **What was done:** the acceptance test now plants both characters in the clean recorded
+  run (`7d2e1eb`). The fix splits JSON Lines on `\n` only, also for `go test -json` output
+  (`347541d`).
+- **Effect on records:** no other run was affected. Every run already finalized had parsed
+  cleanly, and the four disk-full runs were cut off at the end of the file (D21), not split
+  in the middle.

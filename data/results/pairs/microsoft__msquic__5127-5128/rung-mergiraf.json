@@ -1,0 +1,20 @@
+{
+  "pair_id": "microsoft__msquic__5127-5128",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "src/inc/msquic.hpp"
+  ],
+  "files": [
+    {
+      "path": "src/inc/msquic.hpp",
+      "present": true,
+      "has_markers": true,
+      "language": "cpp",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/microsoft__msquic__5127-5128/mergiraf"
+}

@@ -1,0 +1,50 @@
+{
+  "pair_id": "MCPJam__inspector__190-191",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 3 of 5",
+  "remaining_conflicted": [
+    "package-lock.json",
+    "server/src/shared/index.ts",
+    "server/src/shared/utils.ts"
+  ],
+  "files": [
+    {
+      "path": "package-lock.json",
+      "present": true,
+      "has_markers": true,
+      "language": "json",
+      "parses": false
+    },
+    {
+      "path": "server/src/index.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": false
+    },
+    {
+      "path": "server/src/shared/index.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    },
+    {
+      "path": "server/src/shared/types.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": true
+    },
+    {
+      "path": "server/src/shared/utils.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/MCPJam__inspector__190-191/weave"
+}

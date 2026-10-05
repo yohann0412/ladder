@@ -1,0 +1,29 @@
+{
+  "pair_id": "go-vikunja__vikunja__868-871",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 3 of 2",
+  "remaining_conflicted": [
+    "frontend/src/components/base/BaseButton.story.vue",
+    "frontend/src/components/base/Expandable.vue",
+    "frontend/src/views/user/settings/Avatar.vue"
+  ],
+  "files": [
+    {
+      "path": "frontend/src/components/base/BaseButton.story.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "frontend/src/components/base/Expandable.vue",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/go-vikunja__vikunja__868-871/mergiraf"
+}

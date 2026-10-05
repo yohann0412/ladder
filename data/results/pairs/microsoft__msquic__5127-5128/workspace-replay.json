@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__msquic__5127-5128",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/microsoft__msquic__5127-5128",
+  "source_base": "ff2ec6c33b00bad4b1dae665b1e109c571f7807f",
+  "source_a": "080dd95f5202d1a1ddc8f51d7a8c3838b97de080",
+  "source_b": "d0eba93e8f79626ffd9260ad8f3d88d80677ad75",
+  "base_commit": "88e374fa5354903013b73abf31a767fc5c515621",
+  "a_commit": "57ee1460c8ece591e353b3f7789cf487b7ac7292",
+  "b_commit": "c8f2ad4083ef6cd9ad17c0f1d38b36265ff6f3fa",
+  "object_count": 1089,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
