@@ -608,3 +608,11 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   `openops-cloud__openops__666-668`. D23 covers floor stops that happen later in the
   experiment, so both are redone once, alone, after the Claim C workers stop. Any further
   floor stop gets the same treatment.
+- 18:18: with three Claim C workers, five more records stopped at the floor:
+  - cal.com and openops at 17:44;
+  - coder, tldraw and vector (a very large Rust project) by 18:18.
+
+  Free disk was 3.1 GiB. At 18:20 every Claim C process was stopped. The interrupted
+  pairs' working copies, the cargo registry and the extra Rust toolchains were deleted,
+  leaving 18 GiB free, and Claim C went on with one worker (D25 amendment). It took the
+  earliest incomplete wave first (c02, 12 pairs left).

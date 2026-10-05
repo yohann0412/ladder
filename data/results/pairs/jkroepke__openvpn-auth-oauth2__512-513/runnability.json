@@ -1,0 +1,43 @@
+{
+  "pair_id": "jkroepke__openvpn-auth-oauth2__512-513",
+  "commit": "bb466cf561306f35797416c0375a49587f11776b",
+  "language": "go",
+  "package_manager": "go modules",
+  "test_runner": "go test",
+  "status": "runnable",
+  "reason": null,
+  "reason_detail": "",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "go",
+        "mod",
+        "download"
+      ],
+      "exit_code": 0,
+      "duration_s": 31.2,
+      "detail": "standard, install cap 900 s: install: exit 0 in 1.3 s; build: exit 0 in 22.5 s; suite passed: 141 passed, 0 failed, 0 errors, 0 skipped"
+    }
+  ],
+  "test_count": 141,
+  "base_outcome": {
+    "status": "passed",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 141,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 7.4,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "141 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "timeout_s": 600
+}
