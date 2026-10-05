@@ -1,0 +1,15 @@
+{
+  "pair_id": "sst__opencode__371-1186",
+  "commit": "17fa8c117b03d34febe82712ca67fd708b67875f",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

@@ -1,0 +1,57 @@
+{
+  "pair_id": "bruin-data__ingestr__251-299",
+  "commit": "4121499704dcad1dfc451eec61156d48f840e070",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 1 in 0.5 s: Using Python 3.11.15 environment at: /home/user/ladder/work/runtime/bruin-data__ingestr__251-299/envs/base |    Building ingestr @ file:///home/user/ladder/work/runtime/bruin-data__ingestr__251-299/trees/base |       Built ingestr @ file:///home/user/ladder/work/runtime/bruin-data__ingestr__251-299/trees/base |   × No solution found when resolving dependencies: |   ╰─▶ Because you require tzlocal==5.3 and tzlocal==5.3.1, we can conclude |       that your requirements are unsatisfiable.",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/bruin-data__ingestr__251-299/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/bruin-data__ingestr__251-299/trees/base",
+        "-r",
+        "requirements-dev.txt",
+        "-r",
+        "requirements.txt",
+        "-r",
+        "requirements_arm64.txt",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 1.8,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 1 in 1.7 s; output tail: Using Python 3.11.15 environment at: /home/user/ladder/work/runtime/bruin-data__ingestr__251-299/envs/base |    Building ingestr @ file:///home/user/ladder/work/runtime/bruin-data__ingestr__251-299/trees/base |       Built ingestr @ file:///home/user/ladder/work/runtime/bruin-data__ingestr__251-299/trees/base |   × No solution found when resolving dependencies: |   ╰─▶ Because you require tzlocal==5.3 and tzlocal==5.3.1, we can conclude |       that your requirements are unsatisfiable."
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/bruin-data__ingestr__251-299/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/bruin-data__ingestr__251-299/trees/base",
+        "-r",
+        "requirements-dev.txt",
+        "-r",
+        "requirements.txt",
+        "-r",
+        "requirements_arm64.txt",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 0.5,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 1 in 0.5 s; output tail: Using Python 3.11.15 environment at: /home/user/ladder/work/runtime/bruin-data__ingestr__251-299/envs/base |    Building ingestr @ file:///home/user/ladder/work/runtime/bruin-data__ingestr__251-299/trees/base |       Built ingestr @ file:///home/user/ladder/work/runtime/bruin-data__ingestr__251-299/trees/base |   × No solution found when resolving dependencies: |   ╰─▶ Because you require tzlocal==5.3 and tzlocal==5.3.1, we can conclude |       that your requirements are unsatisfiable."
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

@@ -1,0 +1,50 @@
+{
+  "pair_id": "estruyf__vscode-demo-time__147-157",
+  "rung": "weave",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": true,
+  "intent_drops": [
+    {
+      "path": "src/preview/components/MarkdownPreview.tsx",
+      "entity": "<rest>",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "src/preview/components/MarkdownPreview.tsx",
+      "mode": "ast",
+      "language": "tsx",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "src/preview/components/SlideControls.tsx",
+      "mode": "ast",
+      "language": "tsx",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "moonbitlang__core__2267-2422",
+  "commit": "e951f80082f92ea45d013ef1a299d73a3ece8e15",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

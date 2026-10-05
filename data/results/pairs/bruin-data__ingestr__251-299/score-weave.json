@@ -1,0 +1,58 @@
+{
+  "pair_id": "bruin-data__ingestr__251-299",
+  "rung": "weave",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": true,
+  "intent_preserved_b": true,
+  "intent_drops": [],
+  "files": [
+    {
+      "path": "ingestr/src/factory.py",
+      "mode": "ast",
+      "language": "python",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [
+        "__init__",
+        "get_destination",
+        "get_source"
+      ],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    },
+    {
+      "path": "requirements_arm64.txt",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": true,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}
