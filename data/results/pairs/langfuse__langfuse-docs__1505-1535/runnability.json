@@ -1,0 +1,60 @@
+{
+  "pair_id": "langfuse__langfuse-docs__1505-1535",
+  "commit": "87512fee236f4a3c2add348ea0548179c6326951",
+  "language": "python",
+  "package_manager": "poetry",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no tests found at base",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "poetry",
+        "install",
+        "--no-interaction"
+      ],
+      "exit_code": 0,
+      "duration_s": 77.3,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.6 s; install: exit 0 in 73.6 s; pytest: exit 0 in 0.3 s; suite error: 0 passed, 0 failed, 0 errors, 0 skipped; no tests ran; output tail: ============================= test session starts ==============================\nplatform linux -- Python 3.12.10, pytest-9.1.1, pluggy-1.6.0\nrootdir: /home/user/ladder\nconfigfile: pyproject.toml\nplugins: platformdirs-4.12.3, anyio-4.15.1\ncollected 0 items\n\n- generated xml file: /home/user/ladder/work/runtime/langfuse__langfuse-docs__1505-1535/reports/base-attempt-1/run-2.report -\n============================ no tests ran in 0.24s =============================; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/langfuse__langfuse-docs__1505-1535/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/langfuse__langfuse-docs__1505-1535/trees/base",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 9.3,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 7.5 s; suite error: 0 passed, 0 failed, 0 errors, 0 skipped; no tests ran; output tail: ============================= test session starts ==============================\nplatform linux -- Python 3.12.10, pytest-9.1.1, pluggy-1.6.0\nrootdir: /home/user/ladder\nconfigfile: pyproject.toml\nplugins: platformdirs-4.12.3, anyio-4.15.1\ncollected 0 items\n\n- generated xml file: /home/user/ladder/work/runtime/langfuse__langfuse-docs__1505-1535/reports/base-attempt-2/run-2.report -\n============================ no tests ran in 0.16s =============================; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+    }
+  ],
+  "test_count": 0,
+  "base_outcome": {
+    "status": "error",
+    "command": [
+      "/home/user/ladder/work/runtime/langfuse__langfuse-docs__1505-1535/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/langfuse__langfuse-docs__1505-1535/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 1.1,
+    "retried": true,
+    "failing_tests": [],
+    "detail": "0 passed, 0 failed, 0 errors, 0 skipped; no tests ran; output tail: ============================= test session starts ==============================\nplatform linux -- Python 3.12.10, pytest-9.1.1, pluggy-1.6.0\nrootdir: /home/user/ladder\nconfigfile: pyproject.toml\nplugins: platformdirs-4.12.3, anyio-4.15.1\ncollected 0 items\n\n- generated xml file: /home/user/ladder/work/runtime/langfuse__langfuse-docs__1505-1535/reports/base-attempt-1/run-2.report -\n============================ no tests ran in 0.24s =============================; first run error: 0 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "timeout_s": 600
+}
