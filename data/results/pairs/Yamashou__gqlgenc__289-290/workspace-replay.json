@@ -1,0 +1,23 @@
+{
+  "pair_id": "Yamashou__gqlgenc__289-290",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Yamashou__gqlgenc__289-290",
+  "source_base": "86506b9634799a0a5367e8341c0008996e7c7bd5",
+  "source_a": "5cac4972f1cda0a3e883d76b9c0157baf7934b7a",
+  "source_b": "172b7f41ec1e4e028207e2656fed463a5bd316bd",
+  "base_commit": "884e3551161e86049a9fb6221ba672595d076fc7",
+  "a_commit": "913e3b3806ca449c1b856e9ccd32ce76516319b6",
+  "b_commit": "0605e8c486bd420d8ec6be45a4f74715fbcb16d8",
+  "object_count": 178,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
