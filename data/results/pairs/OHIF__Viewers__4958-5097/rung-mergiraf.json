@@ -1,0 +1,20 @@
+{
+  "pair_id": "OHIF__Viewers__4958-5097",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "extensions/dicom-video/src/getSopClassHandlerModule.js"
+  ],
+  "files": [
+    {
+      "path": "extensions/dicom-video/src/getSopClassHandlerModule.js",
+      "present": true,
+      "has_markers": true,
+      "language": "javascript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/OHIF__Viewers__4958-5097/mergiraf"
+}

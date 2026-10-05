@@ -1,0 +1,18 @@
+{
+  "pair_id": "shopware__shopware__10496-11072",
+  "rung": "llm-raw",
+  "run": 1,
+  "task_dir": "/home/user/ladder/work/resolver/shopware__shopware__10496-11072/llm-raw/run-1",
+  "snapshot_dir": "/home/user/ladder/work/resolver/shopware__shopware__10496-11072/llm-raw/run-1/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/shopware__shopware__10496-11072/llm-raw/run-1",
+  "spawn_line": "Read /home/user/ladder/work/resolver/shopware__shopware__10496-11072/llm-raw/run-1/PROMPT.md and follow it exactly.",
+  "files": [
+    "src/Core/System/Language/LanguageExceptionHandler.php"
+  ],
+  "input_bytes": 3474,
+  "pr_text_flags": [],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "pending",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T07:35:14.114188Z"
+}

@@ -1,0 +1,44 @@
+{
+  "pair_id": "vercel__hyper-site__314-315",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 4 of 4",
+  "remaining_conflicted": [
+    "app/layout.js",
+    "app/page.js",
+    "next.config.js",
+    "package.json"
+  ],
+  "files": [
+    {
+      "path": "app/layout.js",
+      "present": true,
+      "has_markers": true,
+      "language": "javascript",
+      "parses": false
+    },
+    {
+      "path": "app/page.js",
+      "present": true,
+      "has_markers": true,
+      "language": "javascript",
+      "parses": false
+    },
+    {
+      "path": "next.config.js",
+      "present": true,
+      "has_markers": true,
+      "language": "javascript",
+      "parses": false
+    },
+    {
+      "path": "package.json",
+      "present": true,
+      "has_markers": true,
+      "language": "json",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/vercel__hyper-site__314-315/weave"
+}

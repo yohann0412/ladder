@@ -2,7 +2,7 @@
   "pair_id": "vercel__hyper-site__314-315",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 4, conflicted files: 4",
   "messages": [
     "CONFLICT (add/add): Merge conflict in app/layout.js",
     "CONFLICT (add/add): Merge conflict in app/page.js",

@@ -1,0 +1,20 @@
+{
+  "pair_id": "rsyslog__rsyslog__5688-5793",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "plugins/omazureeventhubs/omazureeventhubs.c"
+  ],
+  "files": [
+    {
+      "path": "plugins/omazureeventhubs/omazureeventhubs.c",
+      "present": true,
+      "has_markers": true,
+      "language": "c",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/rsyslog__rsyslog__5688-5793/weave"
+}

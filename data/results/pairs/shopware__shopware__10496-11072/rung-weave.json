@@ -1,0 +1,20 @@
+{
+  "pair_id": "shopware__shopware__10496-11072",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "src/Core/System/Language/LanguageExceptionHandler.php"
+  ],
+  "files": [
+    {
+      "path": "src/Core/System/Language/LanguageExceptionHandler.php",
+      "present": true,
+      "has_markers": true,
+      "language": "php",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/shopware__shopware__10496-11072/weave"
+}

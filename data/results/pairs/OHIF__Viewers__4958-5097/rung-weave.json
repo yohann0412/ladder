@@ -1,0 +1,18 @@
+{
+  "pair_id": "OHIF__Viewers__4958-5097",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "extensions/dicom-video/src/getSopClassHandlerModule.js",
+      "present": true,
+      "has_markers": false,
+      "language": "javascript",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/OHIF__Viewers__4958-5097/weave"
+}
