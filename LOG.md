@@ -579,3 +579,7 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   PRQL's Rust builds filled the disk. The two bruin pairs stopped for their own suite's
   disk use (see 15:06). So the second amendment cost two redone records. Running alone
   would probably have avoided that, and the results review says so.
+- 17:13: `block__goose__2620-2621` (Rust) ran alone in the redo, and its suite still stopped
+  at the floor. Its runtime reached 14 GB, plus 2.7 GB of rung copies, on a disk with
+  about 22 GiB free when the pair started. Like bruin, its suite needs more disk than this
+  machine has. The records stay (D23).
