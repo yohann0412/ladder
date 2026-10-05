@@ -1,0 +1,43 @@
+{
+  "pair_id": "Unity-Technologies__com.unity.toonshader__492-497",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 23646,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 771,
+    "cache_creation_input_tokens": 50801,
+    "cache_read_input_tokens": 279354
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "com.unity.toonshader/Documentation~/whats-new-0.10.x.md",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR A deliberately removes all \"What's New\" pages (and their TOC entries), so PR B's grammar edits to this page have no remaining target and the deletion wins."
+    },
+    {
+      "path": "com.unity.toonshader/Documentation~/whats-new-0.7.x.md",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR A deliberately removes all \"What's New\" pages (and their TOC entries), so PR B's grammar edits to this page have no remaining target and the deletion wins."
+    },
+    {
+      "path": "com.unity.toonshader/Documentation~/whats-new-0.8.x.md",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR A deliberately removes all \"What's New\" pages (and their TOC entries), so PR B's grammar edits to this page have no remaining target and the deletion wins."
+    },
+    {
+      "path": "com.unity.toonshader/Documentation~/whats-new-0.9.x.md",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR A deliberately removes all \"What's New\" pages (and their TOC entries), so PR B's grammar edits to this page have no remaining target and the deletion wins."
+    }
+  ],
+  "finalized_at": "2026-10-05T09:33:27.819909Z"
+}
