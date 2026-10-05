@@ -1,0 +1,23 @@
+{
+  "pair_id": "mitsuhiko__insta__778-779",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/mitsuhiko__insta__778-779",
+  "source_base": "5145f26c232707d547a7fc4a157a82eefdce6ab6",
+  "source_a": "a2b57d40e080af81aa815f6d20d52f03eb450432",
+  "source_b": "b0b230dde06a93850852ef307708e3d880e9997a",
+  "base_commit": "6da473d713292b66cdb905130392f7d17483ecc0",
+  "a_commit": "f81fd97094091cce544110f18a085f816305a34b",
+  "b_commit": "5f57e5880ced04365d2af0d890a1f5a6d86e1095",
+  "object_count": 211,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

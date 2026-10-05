@@ -1,0 +1,23 @@
+{
+  "pair_id": "githubnext__awesome-continuous-ai__4-6",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/githubnext__awesome-continuous-ai__4-6",
+  "source_base": "78db9e59474bad35824dcac652a4e8072d4bf779",
+  "source_a": "84f22b2c0611bf8b513b4bcab26ff810a637ff0f",
+  "source_b": "57ec35295a4b6720e7641b6aefeac1e06efe1829",
+  "base_commit": "a0ef5b1a2fe21891b6f132c2a1db968a47a815a4",
+  "a_commit": "98a7f9843149c55d40bef2f0c09e7e1a4bdf4371",
+  "b_commit": "e9807b64ce376e6d0f2f702705209926220ce0de",
+  "object_count": 24,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

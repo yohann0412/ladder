@@ -1,0 +1,59 @@
+{
+  "pair_id": "sqlrooms__sqlrooms__56-57",
+  "commit": "1b92c19ae403b923ae1ea85bb9ff16f98a278ead",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": "jest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "suite does not load at base: 3 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--frozen-lockfile"
+      ],
+      "exit_code": 0,
+      "duration_s": 18.0,
+      "detail": "standard, install cap 900 s: install: exit 0 in 15.4 s; suite failed: 0 passed, 0 failed, 3 errors, 0 skipped (packages/utils/src/filepaths.test.ts, packages/duckdb/__tests__/sql-from.test.ts, packages/duckdb/__tests__/arrow-utils.test.ts); first run failed: 0 passed, 0 failed, 3 errors, 0 skipped (packages/utils/src/filepaths.test.ts, packages/duckdb/__tests__/arrow-utils.test.ts, packages/duckdb/__tests__/sql-from.test.ts)"
+    },
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--no-frozen-lockfile"
+      ],
+      "exit_code": 0,
+      "duration_s": 7.9,
+      "detail": "unfrozen (pnpm install without --frozen-lockfile), install cap 900 s: install: exit 0 in 5.4 s; suite failed: 0 passed, 0 failed, 3 errors, 0 skipped (packages/utils/src/filepaths.test.ts, packages/duckdb/__tests__/sql-from.test.ts, packages/duckdb/__tests__/arrow-utils.test.ts); first run failed: 0 passed, 0 failed, 3 errors, 0 skipped (packages/utils/src/filepaths.test.ts, packages/duckdb/__tests__/arrow-utils.test.ts, packages/duckdb/__tests__/sql-from.test.ts)"
+    }
+  ],
+  "test_count": 3,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/sqlrooms__sqlrooms__56-57/trees/base/node_modules/.bin/jest",
+      "--ci",
+      "--coverage=false",
+      "--json",
+      "--outputFile=/home/user/ladder/work/runtime/sqlrooms__sqlrooms__56-57/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 3,
+    "skipped": 0,
+    "duration_s": 1.3,
+    "retried": true,
+    "failing_tests": [
+      "packages/utils/src/filepaths.test.ts",
+      "packages/duckdb/__tests__/sql-from.test.ts",
+      "packages/duckdb/__tests__/arrow-utils.test.ts"
+    ],
+    "detail": "0 passed, 0 failed, 3 errors, 0 skipped (packages/utils/src/filepaths.test.ts, packages/duckdb/__tests__/sql-from.test.ts, packages/duckdb/__tests__/arrow-utils.test.ts); first run failed: 0 passed, 0 failed, 3 errors, 0 skipped (packages/utils/src/filepaths.test.ts, packages/duckdb/__tests__/arrow-utils.test.ts, packages/duckdb/__tests__/sql-from.test.ts)"
+  },
+  "timeout_s": 600
+}

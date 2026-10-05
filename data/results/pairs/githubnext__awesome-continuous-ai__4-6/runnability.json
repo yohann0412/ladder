@@ -1,0 +1,15 @@
+{
+  "pair_id": "githubnext__awesome-continuous-ai__4-6",
+  "commit": "78db9e59474bad35824dcac652a4e8072d4bf779",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
