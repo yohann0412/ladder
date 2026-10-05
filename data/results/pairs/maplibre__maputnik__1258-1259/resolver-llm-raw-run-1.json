@@ -1,0 +1,25 @@
+{
+  "pair_id": "maplibre__maputnik__1258-1259",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 23246,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 513,
+    "cache_creation_input_tokens": 24341,
+    "cache_read_input_tokens": 176617
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "src/components/LayerListItem.tsx",
+      "action": "keep",
+      "sha256": "ebb6f4c8c0a7e0b27a986c336b99d0430fa832217a04d9542acdbd8d056d8e98",
+      "rationale": "Wrapped PR B's dnd-kit-enabled <li> (dragRef, dragStyle, explicit DraggableLabel drag props, no key) inside PR A's IconContext.Provider, keeping both the legacy-context/prop-types removal and the react-sortable-hoc to dnd-kit migration."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:38.945547Z"
+}

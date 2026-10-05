@@ -1,0 +1,25 @@
+{
+  "pair_id": "rnwood__smtp4dev__1761-1763",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 71963,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 656,
+    "cache_creation_input_tokens": 33903,
+    "cache_read_input_tokens": 364186
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": ".github/copilot-instructions.md",
+      "action": "keep",
+      "sha256": "15262d1c49ee5f74f97da936a2777f4c96fba94df331904c4895cca640635110",
+      "rationale": "Both PRs added this file independently, so the merge keeps PR B's comprehensive build/run/validation guide as the structure and weaves in PR A's mandatory testing requirements (dotnet test commands, E2E testing notes, code quality rules, key areas, testing checklist, and test commands in the command reference)."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:40.889443Z"
+}

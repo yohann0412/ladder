@@ -1,0 +1,25 @@
+{
+  "pair_id": "openai__openai-agents-js__111-119",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 25345,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 662,
+    "cache_creation_input_tokens": 17893,
+    "cache_read_input_tokens": 265010
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "packages/agents-extensions/src/metadata.ts",
+      "action": "keep",
+      "sha256": "cf628d9caf1bc18667d8b6ff37acc650042057f5eb1ffe6c4ce10bfaa16692e6",
+      "rationale": "This auto-generated metadata file differs only in the version string, so I kept PR A's newer 0.0.7 over PR B's older 0.0.4 and left the zod entry unchanged."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:40.170238Z"
+}

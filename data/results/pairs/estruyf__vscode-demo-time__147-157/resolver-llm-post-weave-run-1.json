@@ -1,0 +1,31 @@
+{
+  "pair_id": "estruyf__vscode-demo-time__147-157",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 111958,
+  "tokens": {
+    "input_tokens": 26,
+    "output_tokens": 3848,
+    "cache_creation_input_tokens": 73606,
+    "cache_read_input_tokens": 982305
+  },
+  "tool_calls": 20,
+  "files": [
+    {
+      "path": "src/preview/components/MarkdownPreview.tsx",
+      "action": "keep",
+      "sha256": "1af0fc9a3e622a8cd39568d336e98b6bdf5712227bdc367cddfea6560712a1da",
+      "rationale": "PR A already destructures hideCursor from useCursor and wires it through hidePreviewControls (hides the action bar and cursor) into SlideControls' hideControls prop, which fully covers PR B's hide-mouse-and-action-bar intent, so A's version (with laser pointer, zoom, and style props) is kept without a redundant duplicate hideCursor prop."
+    },
+    {
+      "path": "src/preview/components/SlideControls.tsx",
+      "action": "keep",
+      "sha256": "967487267bda51d553a10271c0815a1516ca77ea85d2ca83722faa990dcd2c13",
+      "rationale": "PR A's eye-closed 'Hide controls' button already hides both the mouse and the action bar via hideControls, so A's version is kept and PR B's duplicate eye-closed button and required hideCursor prop are dropped to avoid two identical actions while preserving A's laser pointer, zoom, style and presentation-mode changes."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:35.881872Z"
+}

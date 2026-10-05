@@ -1,0 +1,25 @@
+{
+  "pair_id": "microsoft__graphrag__1944-1956",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 25988,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 879,
+    "cache_creation_input_tokens": 20910,
+    "cache_read_input_tokens": 227792
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "graphrag/storage/factory.py",
+      "action": "keep",
+      "sha256": "b2ec96866a60067d71bd33aa255fefb230f5344be08b1d7b40be27af771c493f",
+      "rationale": "Kept PR A's registry-based create_storage, helper methods and module-level default registrations, but rewrote every OutputType reference to StorageType to follow PR B's enum rename (OutputType no longer exists in graphrag.config.enums)."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:39.117896Z"
+}

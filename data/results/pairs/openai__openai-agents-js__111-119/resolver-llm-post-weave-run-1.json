@@ -1,0 +1,25 @@
+{
+  "pair_id": "openai__openai-agents-js__111-119",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 27765,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 709,
+    "cache_creation_input_tokens": 19764,
+    "cache_read_input_tokens": 313664
+  },
+  "tool_calls": 12,
+  "files": [
+    {
+      "path": "packages/agents-extensions/src/metadata.ts",
+      "action": "keep",
+      "sha256": "cf628d9caf1bc18667d8b6ff37acc650042057f5eb1ffe6c4ce10bfaa16692e6",
+      "rationale": "Auto-generated metadata where both sides only bumped the version string, so the newer PR A version 0.0.7 is kept (matching the other packages' merged metadata files) and weave's duplicated \"version\" key is collapsed into one."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:40.009118Z"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "bentoml__BentoML__5176-5194",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 22362,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 1009,
+    "cache_creation_input_tokens": 16392,
+    "cache_read_input_tokens": 219012
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "src/_bentoml_impl/frameworks/importer.py",
+      "action": "keep",
+      "sha256": "37592de1e87b5f2f635ef7009143bdd70cfbed0e03639b20f8b04d3785389a76",
+      "rationale": "Kept PR A's length guard and private-module exclusion while adopting PR B's maxsplit=1 split so nested submodules like bentoml.foo.bar are correctly skipped by the dotted-name check."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:35.248759Z"
+}

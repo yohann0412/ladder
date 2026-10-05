@@ -1,0 +1,25 @@
+{
+  "pair_id": "oraios__serena__264-286",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 114649,
+  "tokens": {
+    "input_tokens": 22,
+    "output_tokens": 3264,
+    "cache_creation_input_tokens": 79353,
+    "cache_read_input_tokens": 830247
+  },
+  "tool_calls": 15,
+  "files": [
+    {
+      "path": "src/serena/agent.py",
+      "action": "keep",
+      "sha256": "1f1fc9a71b0e41380afba4eb15564b6c9f3817c778291751f4270bab1fe965c3",
+      "rationale": "PR B moved the config and tool classes out of agent.py into serena.config and serena.tools, so the merged file follows B's slimmed module and imports, and PR A's record_tool_usage import is dropped because the Tool.apply_ex it was used in now lives in serena/tools/tools_base.py, which is where A's analytics hook belongs."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:40.448722Z"
+}

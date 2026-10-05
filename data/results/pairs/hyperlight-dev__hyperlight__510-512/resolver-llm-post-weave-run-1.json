@@ -1,0 +1,25 @@
+{
+  "pair_id": "hyperlight-dev__hyperlight__510-512",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 30562,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 1127,
+    "cache_creation_input_tokens": 22879,
+    "cache_read_input_tokens": 277378
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": ".github/copilot-instructions.md",
+      "action": "keep",
+      "sha256": "4f6454f2915515e3310c86bfdf6ffb20c37b4a0afa4228e8c3af7eea581d48e2",
+      "rationale": "PR B's version already contains every instruction PR A added (with typo and trailing-whitespace fixes) plus its own new hypervisor-error, commit-signing and hyperlight_guest_bin guidance, so the merged file takes B's text, which keeps both PRs' intent."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:36.429432Z"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "hyperlight-dev__hyperlight__510-512",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 28307,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 675,
+    "cache_creation_input_tokens": 22757,
+    "cache_read_input_tokens": 280607
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": ".github/copilot-instructions.md",
+      "action": "keep",
+      "sha256": "4f6454f2915515e3310c86bfdf6ffb20c37b4a0afa4228e8c3af7eea581d48e2",
+      "rationale": "Both PRs added the same copilot instructions, and PR B's version is a superset of PR A's: it fixes typos and trailing whitespace and adds the hypervisor-error and commit-signing guidance, so both conflict regions take PR B's text."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:36.654573Z"
+}

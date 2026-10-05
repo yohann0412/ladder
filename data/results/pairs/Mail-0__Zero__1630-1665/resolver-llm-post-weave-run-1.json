@@ -1,0 +1,25 @@
+{
+  "pair_id": "Mail-0__Zero__1630-1665",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 132242,
+  "tokens": {
+    "input_tokens": 16,
+    "output_tokens": 829,
+    "cache_creation_input_tokens": 103876,
+    "cache_read_input_tokens": 579910
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "apps/mail/components/mail/mail-list.tsx",
+      "action": "keep",
+      "sha256": "6f8a53cc3cab04294614737353e64ecdeb4d95787610c48af1a38b4d9a5dc62f",
+      "rationale": "Kept PR A's AgGridReact render block (with its datasource-driven infinite loading) because PR A removes VList and vListRenderer entirely, making PR B's VList prop tweaks (overscan/itemSize/load threshold) moot, while keeping all of PR B's other already-merged changes (memoized Thread content, removed prefetch/notes hooks, commented-out category effect) and dropping weave's trailer comment."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:33.744178Z"
+}

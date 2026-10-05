@@ -1,0 +1,55 @@
+{
+  "pair_id": "elsa-workflows__elsa-studio__521-526",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 185879,
+  "tokens": {
+    "input_tokens": 34,
+    "output_tokens": 4340,
+    "cache_creation_input_tokens": 100467,
+    "cache_read_input_tokens": 1396054
+  },
+  "tool_calls": 34,
+  "files": [
+    {
+      "path": "Directory.Build.props",
+      "action": "keep",
+      "sha256": "fff8107087cda2bceb0d1e3eaaad64b0f6f37cb7da74cb9ba3cb6f95c0fb1763",
+      "rationale": "Kept PR A's 3.6 main-line ElsaVersion and ElsaExtensionsVersion properties, since the merged Directory.Packages.props uses those variables and B's older 3.5 values would downgrade the main line."
+    },
+    {
+      "path": "Directory.Packages.props",
+      "action": "keep",
+      "sha256": "42d9b6328275c4bd8d548b01ce3944059ce15faab102aa83597896d0c390d19c",
+      "rationale": "Kept PR A's formatting and variable-based Elsa package group (including the new extension packages) and applied PR B's third-party version bumps (CodeBeam 8.2.1, ResxSourceGenerator 25218.8, MudBlazor.Translations 2.4.0, Radzen 7.0.6), which A did not touch."
+    },
+    {
+      "path": "src/modules/Elsa.Studio.Agents/Elsa.Studio.Agents.csproj",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR A removed the whole Agents module (it now comes from the extensions packages), so B's package rename in this lone project file is moot."
+    },
+    {
+      "path": "src/modules/Elsa.Studio.Workflows/Components/WorkflowDefinitionEditor/Components/ActivityProperties/Tabs/LogPersistenceTab.razor",
+      "action": "keep",
+      "sha256": "9fdce84e59ccbdb836f8b9e9c9a9f6572d04525565eef77f0048113c8a1ec30f",
+      "rationale": "Took PR A's restructured layout, which already includes B's Internal State section and the Default Configuration label, so both sides' intent is kept."
+    },
+    {
+      "path": "src/modules/Elsa.Studio.Workflows/Components/WorkflowDefinitionEditor/Components/WorkflowProperties/Tabs/Properties/Sections/Settings/Settings.razor",
+      "action": "keep",
+      "sha256": "3df9fb3d736f522dc751258e975d698eb65fa2952f01474bb566cbc2963bd435",
+      "rationale": "PR A's version already has B's changes (the @ref on the log persistence ExpressionEditor and the Default commit-strategy labels) in its new layout, so A's content is kept."
+    },
+    {
+      "path": "src/modules/Elsa.Studio.Workflows/Components/WorkflowInstanceList/WorkflowInstanceList.razor.cs",
+      "action": "keep",
+      "sha256": "4575f5191dbdfd7276aa0ce4cc8ba1f20ac5342eb1e01d6dd8fa038403ff4e06",
+      "rationale": "Kept A's switch from ISnackbar to IUserMessageService, and applied B's null! initializers and its added ShowTransitionDuration snackbar option to the UserMessageService call."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:35.806723Z"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "livingbio__typed-ffmpeg__742-744",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 192554,
+  "tokens": {
+    "input_tokens": 30,
+    "output_tokens": 8567,
+    "cache_creation_input_tokens": 100220,
+    "cache_read_input_tokens": 1421569
+  },
+  "tool_calls": 19,
+  "files": [
+    {
+      "path": "src/ffmpeg/compile/compile_cli.py",
+      "action": "keep",
+      "sha256": "0afd3aadf47e34b296683b5b1ceafac6135df5de690f6f3a8797d355610134c1",
+      "rationale": "Kept PR B's syntax/validation split (parse_*_syntax, validate_* helpers, and the validate flag on parse_global/parse_input/parse_output/parse) together with PR A's parse_cli and parse_with_validation. Both entry points now go through a shared private helper that passes the validate flag explicitly. parse_cli loads neither dictionary, and parse(validate=False) still loads filter definitions, as PR B intends."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:38.811778Z"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "livingbio__typed-ffmpeg__742-744",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 189709,
+  "tokens": {
+    "input_tokens": 32,
+    "output_tokens": 6796,
+    "cache_creation_input_tokens": 116022,
+    "cache_read_input_tokens": 1677449
+  },
+  "tool_calls": 21,
+  "files": [
+    {
+      "path": "src/ffmpeg/compile/compile_cli.py",
+      "action": "keep",
+      "sha256": "86ca3df0a4b2fbc8461aba21bd4296b7c270dfe65e8e664500a8d74b6ca24f8d",
+      "rationale": "Kept PR B's syntax-only helpers, validate_* utilities, validate-aware parse_input/parse_output/parse_global and parse(cli, validate=True) (which still loads the filter dict so audio filters type correctly), together with PR A's optional-filter parse_filter_complex, parse_cli and parse_with_validation, which now passes validate_options to the sub-parsers so that parse_cli never loads the options or filter dictionaries."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:37.988851Z"
+}

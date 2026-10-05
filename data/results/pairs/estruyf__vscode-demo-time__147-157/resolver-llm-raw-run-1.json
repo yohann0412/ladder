@@ -1,0 +1,31 @@
+{
+  "pair_id": "estruyf__vscode-demo-time__147-157",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 117478,
+  "tokens": {
+    "input_tokens": 18,
+    "output_tokens": 4185,
+    "cache_creation_input_tokens": 57215,
+    "cache_read_input_tokens": 560983
+  },
+  "tool_calls": 16,
+  "files": [
+    {
+      "path": "src/preview/components/MarkdownPreview.tsx",
+      "action": "keep",
+      "sha256": "1af0fc9a3e622a8cd39568d336e98b6bdf5712227bdc367cddfea6560712a1da",
+      "rationale": "PR A already wires useCursor's hideCursor into a hidePreviewControls callback passed as hideControls (plus laser pointer, zoom and style props), which fully covers PR B's hide-mouse-and-action-bar intent, so PR A's prop list is kept and B's redundant hideCursor prop is dropped."
+    },
+    {
+      "path": "src/preview/components/SlideControls.tsx",
+      "action": "keep",
+      "sha256": "967487267bda51d553a10271c0815a1516ca77ea85d2ca83722faa990dcd2c13",
+      "rationale": "Kept PR A's props and its eye-closed 'Hide controls' button (which hides both the action bar and the cursor, the same behavior PR B adds) and dropped B's duplicate hideCursor prop, hidePresentation callback and second eye-closed button so the toolbar does not get two identical actions."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:35.955545Z"
+}

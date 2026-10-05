@@ -1,0 +1,43 @@
+{
+  "pair_id": "imgntn__j360__23-24",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 176166,
+  "tokens": {
+    "input_tokens": 34,
+    "output_tokens": 6644,
+    "cache_creation_input_tokens": 102465,
+    "cache_read_input_tokens": 1587832
+  },
+  "tool_calls": 31,
+  "files": [
+    {
+      "path": "src/j360.ts",
+      "action": "keep",
+      "sha256": "9453c5862ce210e7ca00b18681f7b09d879fe780f7cf015ec9dffa03a363955f",
+      "rationale": "Kept both sets of new class fields, PR A's adaptive-resolution state (adaptive, lastFrame, frameSamples, resIndex, resolutions) and PR B's remote-status and timed-capture state (remoteSocket, intervalId, frameCount, captureMode), because the already merged method bodies use all of them."
+    },
+    {
+      "path": "test/j360-cli.test.js",
+      "action": "keep",
+      "sha256": "1cee389154c5be7d7da7e1000a4db059e2a9eb384ed113de1922c8f5bdb9d3d2",
+      "rationale": "Kept PR A's --stream/--signal-url assertion and PR B's --interval and --stream-encode assertions, renumbering B's cases to res6/res7 so the variable names do not collide."
+    },
+    {
+      "path": "tools/j360-cli.js",
+      "action": "keep",
+      "sha256": "6702e39b02952371404c6a8b3fe93920c2a9181369f83db8157208b49f8425b6",
+      "rationale": "Followed PR A's choice to make this file the compiled output of j360-cli.ts and regenerated it from the merged TypeScript, so it has A's --no-audio/withAudio handling and encoding progress plus B's --interval and --stream-encode options, timed capture, streamEncode passed to startWasmRecording, and the tar-stream/ffmpeg-static check."
+    },
+    {
+      "path": "tools/j360-cli.ts",
+      "action": "keep",
+      "sha256": "04210f849ebd604f794fb07e8abaf9b226d4c0708bd510948bbce45bf9c27470",
+      "rationale": "Merged PR A's typed CLIValues, the --no-audio flag (still documented in the README) and withAudio logic with PR B's interval and stream-encode options and their handling in run(), and added streamEncode and interval to the page.evaluate parameters so the browser callback actually receives them."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:36.782255Z"
+}

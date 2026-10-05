@@ -1,0 +1,31 @@
+{
+  "pair_id": "groupultra__telegram-search__269-287",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 97587,
+  "tokens": {
+    "input_tokens": 22,
+    "output_tokens": 4067,
+    "cache_creation_input_tokens": 45618,
+    "cache_read_input_tokens": 673056
+  },
+  "tool_calls": 17,
+  "files": [
+    {
+      "path": "packages/stage-ui/src/components/layout/SidebarSelector.vue",
+      "action": "keep",
+      "sha256": "8695f887bbed06d4e4439e0bc73b4d439d5a1c0e957042073f72198b233047cc",
+      "rationale": "Kept PR A's tooltip prop, centered collapsed layout and title binding while applying PR B's dark-mode text, hover and active background classes to the root element."
+    },
+    {
+      "path": "packages/stage-ui/src/layouts/default.vue",
+      "action": "keep",
+      "sha256": "923f4589fa5e11a9a4d16dfa0e028b5bf2ebee287509631e4e7c02e965038572",
+      "rationale": "Kept PR A's responsive/collapsible mobile sidebar structure (drawer, collapse toggle, collapsed icons, transitions, titles) and layered PR B's dark-mode color classes onto every corresponding sidebar, search, divider, profile, button and main-content element."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:36.223355Z"
+}

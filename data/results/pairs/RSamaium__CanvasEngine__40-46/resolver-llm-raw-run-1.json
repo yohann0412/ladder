@@ -1,0 +1,25 @@
+{
+  "pair_id": "RSamaium__CanvasEngine__40-46",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 17352,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 642,
+    "cache_creation_input_tokens": 14151,
+    "cache_read_input_tokens": 215088
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "packages/core/src/components/index.ts",
+      "action": "keep",
+      "sha256": "a0fc46547502774baa9dc583b6151f39e76d51298da0fd3be425c1a542f25c19",
+      "rationale": "Both PRs only appended an independent export after DOMElement (PR A the Scroll component, PR B the Button component and its types), so the merge keeps both export lines."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:34.584588Z"
+}

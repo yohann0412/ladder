@@ -1,0 +1,37 @@
+{
+  "pair_id": "imgntn__j360__23-24",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 139352,
+  "tokens": {
+    "input_tokens": 24,
+    "output_tokens": 5529,
+    "cache_creation_input_tokens": 74250,
+    "cache_read_input_tokens": 843081
+  },
+  "tool_calls": 27,
+  "files": [
+    {
+      "path": "test/j360-cli.test.js",
+      "action": "keep",
+      "sha256": "1cee389154c5be7d7da7e1000a4db059e2a9eb384ed113de1922c8f5bdb9d3d2",
+      "rationale": "Kept PR A's --stream/--signal-url test as res5 and renumbered PR B's --interval and --stream-encode tests to res6/res7 so all three new checks run without name collisions."
+    },
+    {
+      "path": "tools/j360-cli.js",
+      "action": "keep",
+      "sha256": "6702e39b02952371404c6a8b3fe93920c2a9181369f83db8157208b49f8425b6",
+      "rationale": "Kept PR A's tsc-compiled CommonJS output (no-audio flag, withAudio, encode progress, WebCodecs fallback) and wove in PR B's interval/stream-encode options, variables, timed-capture and streamEncode wasm argument, plus the tar-stream/ffmpeg-static check, so the JS matches the merged TypeScript source."
+    },
+    {
+      "path": "tools/j360-cli.ts",
+      "action": "keep",
+      "sha256": "04210f849ebd604f794fb07e8abaf9b226d4c0708bd510948bbce45bf9c27470",
+      "rationale": "Combined PR A's typed CLIValues, no-audio/withAudio logic and WebCodecs fallback with PR B's interval and stream-encode options (added to CLIValues too), streamEncode passed to startWasmRecording, timed-capture startup and the tar-stream/ffmpeg-static dependency check."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:36.720231Z"
+}

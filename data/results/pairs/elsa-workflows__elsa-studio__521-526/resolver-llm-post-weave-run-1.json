@@ -1,0 +1,57 @@
+{
+  "pair_id": "elsa-workflows__elsa-studio__521-526",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/elsa-workflows__elsa-studio__521-526/llm-post-weave/run-1"
+  ],
+  "duration_ms": 240248,
+  "tokens": {
+    "input_tokens": 50,
+    "output_tokens": 11617,
+    "cache_creation_input_tokens": 141057,
+    "cache_read_input_tokens": 2708644
+  },
+  "tool_calls": 46,
+  "files": [
+    {
+      "path": "Directory.Build.props",
+      "action": "keep",
+      "sha256": "1755cd46f005aaed403d130c3c7efca847f87c5ecc6a70db3b2e201c0110449c",
+      "rationale": "Both sides renamed ElsaIntegrationsVersion to ElsaExtensionsVersion and moved to multi-targeting, so the only conflict is the version values; kept PR A's newer 3.6.0 preview line because the merge lands on A's 3.6 branch."
+    },
+    {
+      "path": "Directory.Packages.props",
+      "action": "keep",
+      "sha256": "cf164acf0ba3b526c6ad86c584f42c238de8acea4d01962fb0542030c0d8e53d",
+      "rationale": "Kept PR A's property-based Elsa versions and its extension packages (Http.Webhooks, Secrets, WorkflowContexts) that replace the removed modules, and applied PR B's third-party bumps (CodeBeam.MudBlazor.Extensions 8.2.1, ResxSourceGenerator 25218.8, MudBlazor.Translations 2.4.0, Radzen.Blazor 7.0.6)."
+    },
+    {
+      "path": "src/modules/Elsa.Studio.Agents/Elsa.Studio.Agents.csproj",
+      "action": "delete",
+      "sha256": null,
+      "rationale": "PR A removed the whole Agents module in favor of the external extensions package, and PR B's change only renamed the package reference, which A's Directory.Packages.props already covers."
+    },
+    {
+      "path": "src/modules/Elsa.Studio.Workflows/Components/WorkflowDefinitionEditor/Components/ActivityProperties/Tabs/LogPersistenceTab.razor",
+      "action": "keep",
+      "sha256": "e2f769bfc0b965dad90bea5bf3e71c90219ad146f26f38012f339d0c8af1e9aa",
+      "rationale": "PR B's changes (the @key, the Internal State section and the Default Configuration label) are all already in PR A's version, so A's restructured layout is kept as is."
+    },
+    {
+      "path": "src/modules/Elsa.Studio.Workflows/Components/WorkflowDefinitionEditor/Components/WorkflowProperties/Tabs/Properties/Sections/Settings/Settings.razor",
+      "action": "keep",
+      "sha256": "75510bc03ee42e194855c419f07867f86c338867fd35dda00608ce49ab4b4c35",
+      "rationale": "PR A's version already has both of PR B's changes (the @ref on the log persistence ExpressionEditor and the Localizer[\"Default\"] commit strategy text), so A's restructured layout is kept unchanged."
+    },
+    {
+      "path": "src/modules/Elsa.Studio.Workflows/Components/WorkflowInstanceList/WorkflowInstanceList.razor.cs",
+      "action": "keep",
+      "sha256": "4f3a8ee58128f36c3e75042108ef93555d805be1543688d8d6e41321f77457b9",
+      "rationale": "Kept PR A's move from ISnackbar to IUserMessageService and carried PR B's ShowTransitionDuration = 2000 snackbar option and null! initializers into the merged code."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:35.665053Z"
+}

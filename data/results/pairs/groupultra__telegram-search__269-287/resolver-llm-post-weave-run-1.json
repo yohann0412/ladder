@@ -1,0 +1,31 @@
+{
+  "pair_id": "groupultra__telegram-search__269-287",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 92852,
+  "tokens": {
+    "input_tokens": 18,
+    "output_tokens": 3657,
+    "cache_creation_input_tokens": 49375,
+    "cache_read_input_tokens": 539879
+  },
+  "tool_calls": 17,
+  "files": [
+    {
+      "path": "packages/stage-ui/src/components/layout/SidebarSelector.vue",
+      "action": "keep",
+      "sha256": "8695f887bbed06d4e4439e0bc73b4d439d5a1c0e957042073f72198b233047cc",
+      "rationale": "Kept PR A's tooltip prop, collapsed-state title, centering and conditional name rendering while applying PR B's dark-mode text, active and hover color classes to the outer element."
+    },
+    {
+      "path": "packages/stage-ui/src/layouts/default.vue",
+      "action": "keep",
+      "sha256": "93ac7788b11cc702935c98d15b621ab34ec03c5b1f8599355e1a6b5cb1004406",
+      "rationale": "Kept PR A's responsive sidebar structure (mobile drawer, backdrop, collapse toggle, collapsed icons, tooltips) and layered PR B's dark-mode classes onto every corresponding element, including the sidebar, search input, borders, profile text, buttons and main content backgrounds, extending the same dark palette to A's new collapsed-state elements."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:36.087470Z"
+}

@@ -1,0 +1,37 @@
+{
+  "pair_id": "electerm__electerm__3979-3980",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 115399,
+  "tokens": {
+    "input_tokens": 28,
+    "output_tokens": 7759,
+    "cache_creation_input_tokens": 57967,
+    "cache_read_input_tokens": 935374
+  },
+  "tool_calls": 28,
+  "files": [
+    {
+      "path": "src/client/components/sftp/address-bookmark-item.jsx",
+      "action": "keep",
+      "sha256": "e95645f3e2e0aa9a7fc4c663ae39c327338b4f1a8322fd47b02ec1f7dee1a108",
+      "rationale": "Both PRs route global bookmarks via a 'global#' data-id prefix, so the resolution keeps A's clean drop handler (B's version only added an unused variable) and builds the id from either A's `global` or B's `isGlobal` flag."
+    },
+    {
+      "path": "src/client/components/sftp/address-bookmark.jsx",
+      "action": "keep",
+      "sha256": "96028af2313ffa2226691bcda8e9029a1083b5853378bbc5457e52189a94c21c",
+      "rationale": "Removes weave's duplicated imports, component header and second addAddressBookmark call, keeping a single remote-only Global/Host-specific switch in B's styled popover header with A's Desktop/Global icons on it, B's isGlobal bookmark shape (which the merged tests and docs expect), and the shared filtering logic."
+    },
+    {
+      "path": "src/client/store/address-bookmark.js",
+      "action": "keep",
+      "sha256": "d6e3b5d34bea7e99e571cb8b7a5b6d612d2e4ab15a2d50f261b190a30f50f021",
+      "rationale": "getType sends items flagged with either A's `global` or B's `isGlobal` to addressBookmarksGlobal and otherwise keeps the host/local split, and listAddressBookmark takes B's host-sorted global spread, which already includes A's addition."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:35.357302Z"
+}

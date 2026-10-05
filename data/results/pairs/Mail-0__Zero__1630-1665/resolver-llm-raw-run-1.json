@@ -1,0 +1,25 @@
+{
+  "pair_id": "Mail-0__Zero__1630-1665",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 115696,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 913,
+    "cache_creation_input_tokens": 50426,
+    "cache_read_input_tokens": 324854
+  },
+  "tool_calls": 7,
+  "files": [
+    {
+      "path": "apps/mail/components/mail/mail-list.tsx",
+      "action": "keep",
+      "sha256": "6f8a53cc3cab04294614737353e64ecdeb4d95787610c48af1a38b4d9a5dc62f",
+      "rationale": "PR A replaced VList with AgGridReact, so PR B's VList-only tweaks (overscan, itemSize, onScroll load-more threshold, children renderer) no longer apply and the AgGridReact props from PR A are kept, while PR B's non-conflicting changes that git merged cleanly are preserved."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:34.378883Z"
+}

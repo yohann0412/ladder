@@ -1,0 +1,37 @@
+{
+  "pair_id": "electerm__electerm__3979-3980",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 133541,
+  "tokens": {
+    "input_tokens": 24,
+    "output_tokens": 10080,
+    "cache_creation_input_tokens": 51495,
+    "cache_read_input_tokens": 745325
+  },
+  "tool_calls": 27,
+  "files": [
+    {
+      "path": "src/client/components/sftp/address-bookmark-item.jsx",
+      "action": "keep",
+      "sha256": "092faf0a04aaba551125a4d2bbdb856f76445a431901c518f491d8350709d2e4",
+      "rationale": "Kept PR B's hostOrGlobal drag-data parsing with the shared global/host/local routing to addressBookmarksGlobal, and build the 'global#' data-id for items flagged with either PR B's isGlobal or PR A's global property."
+    },
+    {
+      "path": "src/client/components/sftp/address-bookmark.jsx",
+      "action": "keep",
+      "sha256": "f33e3c4e89c54cdb767814f63d717bc107f9a0b1865f686c8d654487787b2c89",
+      "rationale": "Merged the two duplicate toggles into one: PR B's header toggle beside the add button and its isGlobal bookmark creation (which its tests and docs expect), shown with PR A's Desktop/Global icon Switch inside a Space, while keeping the shared isGlobalMode state and filtering."
+    },
+    {
+      "path": "src/client/store/address-bookmark.js",
+      "action": "keep",
+      "sha256": "6cf40c87acad26980fb26d0b413b9ff2cf1564d88664f14a21df764103ea9ad9",
+      "rationale": "getType checks for either global flag (isGlobal from PR B, global from PR A) before the host check, so global bookmarks with or without a host go to addressBookmarksGlobal, and listAddressBookmark includes global bookmarks in their user-defined order."
+    }
+  ],
+  "finalized_at": "2026-10-05T06:08:35.458444Z"
+}
