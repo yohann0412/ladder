@@ -1,0 +1,23 @@
+{
+  "pair_id": "aldinokemal__go-whatsapp-web-multidevice__313-314",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/aldinokemal__go-whatsapp-web-multidevice__313-314",
+  "source_base": "75e9cac568173ae9edfe001bd9f348701e240bfc",
+  "source_a": "7a3b476632c231c0b888fd4ca17d4698ea5ce5df",
+  "source_b": "5611f64e34ec7d5baa9c1ff1a1f5b55f00845f73",
+  "base_commit": "43d95a100ee0b6f1f21bef397a3591509fcb883b",
+  "a_commit": "01c24ca3e27fcefd544663ecf126f451ef8ef1a3",
+  "b_commit": "ab02e718072771dc20b1118a2b04d79fd30ab7b0",
+  "object_count": 175,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

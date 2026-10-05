@@ -1,0 +1,11 @@
+{
+  "pair_id": "marin-community__haliax__142-143",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:31:03.723224Z"
+}

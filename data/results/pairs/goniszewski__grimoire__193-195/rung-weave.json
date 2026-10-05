@@ -1,0 +1,20 @@
+{
+  "pair_id": "goniszewski__grimoire__193-195",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "Dockerfile"
+  ],
+  "files": [
+    {
+      "path": "Dockerfile",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/goniszewski__grimoire__193-195/weave"
+}

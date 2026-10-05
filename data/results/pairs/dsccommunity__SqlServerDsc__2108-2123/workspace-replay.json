@@ -1,0 +1,23 @@
+{
+  "pair_id": "dsccommunity__SqlServerDsc__2108-2123",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/dsccommunity__SqlServerDsc__2108-2123",
+  "source_base": "1b3ea84057ba7dcbed5eca13d5a4ecde81068126",
+  "source_a": "c6c92c46e1d3aec9606c1f7be00f2e91e0ee76f6",
+  "source_b": "f3a9647888db2ac91b58f2b8dfc25a137e00ffeb",
+  "base_commit": "39fb3522dc766e78383ff5674f9f76156e81ec96",
+  "a_commit": "0c7ab5f7b67769a115f2775b6b48c2448e49b489",
+  "b_commit": "ea96307854a5415176c578d12dae2ce4fefea73c",
+  "object_count": 756,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

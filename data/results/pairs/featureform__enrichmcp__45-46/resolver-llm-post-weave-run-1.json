@@ -1,0 +1,45 @@
+{
+  "pair_id": "featureform__enrichmcp__45-46",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/featureform__enrichmcp__45-46/llm-post-weave/run-1"
+  ],
+  "duration_ms": 187918,
+  "tokens": {
+    "input_tokens": 28,
+    "output_tokens": 6467,
+    "cache_creation_input_tokens": 128123,
+    "cache_read_input_tokens": 1494676
+  },
+  "tool_calls": 30,
+  "files": [
+    {
+      "path": "examples/sqlalchemy_shop/app.py",
+      "action": "keep",
+      "sha256": "c320e104352586cbdcc6052120378380813fe4d34eea40418aab57cfebc3634c",
+      "rationale": "Kept PR A's switch to sqlalchemy_lifespan (trimmed imports, seed_database moved ahead of the app and lifespan creation, hand-written lifespan and session maker removed) and used PR B's expanded trailing-comma formatting for the model columns, the only part PR B changed."
+    },
+    {
+      "path": "src/enrichmcp/__init__.py",
+      "action": "keep",
+      "sha256": "4d1e170d8fff3a636d070e09117a66835450926fa7744806be3e3cbd131928df",
+      "rationale": "Took PR A's optional-import block because it already does what PR B wanted (noqa F401 on the optional import, a lowercase flag so pyright sees no constant redefinition) and also exports sqlalchemy_lifespan; B's HAS_SQLALCHEMY variant would have dropped the new export."
+    },
+    {
+      "path": "src/enrichmcp/sqlalchemy/mixin.py",
+      "action": "keep",
+      "sha256": "dd04f2283bee10dfbb5ab78866fddeaf8aee0bc894eddf11f902c5830693c6ef",
+      "rationale": "PR B's version is PR A's modernized mixin plus pyright ignores, TypeEngine[Any]/type[Any] annotations and an exploded description call, so it covers both sides."
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "action": "keep",
+      "sha256": "c8fc71dd0936bc62aeb1c85a0b617adbea8c959ebe9813bf9b79c31fa412e540",
+      "rationale": "Used PR B's snake_case variable names, `is` type comparisons and formatting, and kept PR A's fixes (`import types` with the Union/types.UnionType origin check for the `X | None` annotations, and the lowercase `list` assertion that matches the mixin); A's file-level `ruff: noqa: N806,E721` was dropped because B's renames make it unnecessary."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:02.567296Z"
+}

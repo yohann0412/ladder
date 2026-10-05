@@ -1,0 +1,25 @@
+{
+  "pair_id": "bradleygolden__claude-marketplace-elixir__146-147",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 38554,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 723,
+    "cache_creation_input_tokens": 55014,
+    "cache_read_input_tokens": 411531
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "lib/claude/plugins/phoenix.ex",
+      "action": "keep",
+      "sha256": "6930b1afe20e0c076594760fcedd620940687135b80596fd556553fa9166861d",
+      "rationale": "Kept PR A's incremental config building (optional Tidewave MCP server, nested memories, optional server_check hooks) and added PR B's `inline_usage_rules: [\"phoenix\"]` entry to the map so both features coexist."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:02.519434Z"
+}

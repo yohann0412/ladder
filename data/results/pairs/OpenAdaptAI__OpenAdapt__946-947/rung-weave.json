@@ -1,0 +1,28 @@
+{
+  "pair_id": "OpenAdaptAI__OpenAdapt__946-947",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 2",
+  "remaining_conflicted": [
+    "deploy/deploy/models/omniparser/deploy.py",
+    "openadapt/run_omnimcp.py"
+  ],
+  "files": [
+    {
+      "path": "deploy/deploy/models/omniparser/deploy.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "openadapt/run_omnimcp.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/OpenAdaptAI__OpenAdapt__946-947/weave"
+}

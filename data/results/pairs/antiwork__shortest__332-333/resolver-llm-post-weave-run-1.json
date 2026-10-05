@@ -1,0 +1,19 @@
+{
+  "pair_id": "antiwork__shortest__332-333",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: pnpm-lock.yaml version base has 387821 bytes, more than 200000",
+    "input cap: pnpm-lock.yaml version a has 386712 bytes, more than 200000",
+    "input cap: pnpm-lock.yaml version b has 375783 bytes, more than 200000",
+    "input cap: pnpm-lock.yaml version conflicted has 535410 bytes, more than 200000",
+    "input cap: 1707558 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T05:35:05.806301Z"
+}

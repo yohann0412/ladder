@@ -1,0 +1,15 @@
+{
+  "pair_id": "DistroAV__DistroAV__1314-1317",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:38:58.425603Z"
+}

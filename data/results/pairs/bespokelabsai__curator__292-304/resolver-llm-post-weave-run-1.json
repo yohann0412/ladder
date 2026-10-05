@@ -1,0 +1,19 @@
+{
+  "pair_id": "bespokelabsai__curator__292-304",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: poetry.lock version base has 349464 bytes, more than 200000",
+    "input cap: poetry.lock version a has 349374 bytes, more than 200000",
+    "input cap: poetry.lock version b has 345460 bytes, more than 200000",
+    "input cap: poetry.lock version conflicted has 345917 bytes, more than 200000",
+    "input cap: 1631216 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T05:39:18.088482Z"
+}

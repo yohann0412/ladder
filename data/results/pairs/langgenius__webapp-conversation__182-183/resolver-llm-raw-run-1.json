@@ -1,0 +1,31 @@
+{
+  "pair_id": "langgenius__webapp-conversation__182-183",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 97038,
+  "tokens": {
+    "input_tokens": 20,
+    "output_tokens": 1974,
+    "cache_creation_input_tokens": 42055,
+    "cache_read_input_tokens": 554025
+  },
+  "tool_calls": 14,
+  "files": [
+    {
+      "path": "app/components/base/streamdown-markdown.tsx",
+      "action": "keep",
+      "sha256": "2c98963c68a1229ba728be8d88ccab4f787c6d8cdf4a6d396e1df1340fe6b4ec",
+      "rationale": "Both PRs added the same Streamdown wrapper and differ only in the wrapper class, so PR A's version (plain `streamdown-markdown` class) is kept because PR A owns the Streamdown integration and PR B only carries this file incidentally alongside its lockfile change."
+    },
+    {
+      "path": "app/components/index.tsx",
+      "action": "keep",
+      "sha256": "723af685fea34d432cabdc4eff64607e8a05ffd18ea075d31ac2bbe123ba7bc8",
+      "rationale": "PR B only reformatted the base scroll-to-bottom line into braces style, while PR A replaced it with the setTimeout plus scrollIntoView page-level auto-scroll fix, so PR A's implementation is kept and the rest of the merged file is unchanged."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:03.507997Z"
+}

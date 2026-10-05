@@ -1,0 +1,20 @@
+{
+  "pair_id": "Azure__awesome-azd__630-631",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "website/src/theme/Navbar/Layout/index.js"
+  ],
+  "files": [
+    {
+      "path": "website/src/theme/Navbar/Layout/index.js",
+      "present": true,
+      "has_markers": true,
+      "language": "javascript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/Azure__awesome-azd__630-631/weave"
+}

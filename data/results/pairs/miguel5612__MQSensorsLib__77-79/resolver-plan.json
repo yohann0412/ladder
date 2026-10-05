@@ -1,0 +1,15 @@
+{
+  "pair_id": "miguel5612__MQSensorsLib__77-79",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:31:02.019980Z"
+}

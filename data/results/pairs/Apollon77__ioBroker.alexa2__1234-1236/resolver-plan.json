@@ -1,0 +1,15 @@
+{
+  "pair_id": "Apollon77__ioBroker.alexa2__1234-1236",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:34:29.587025Z"
+}

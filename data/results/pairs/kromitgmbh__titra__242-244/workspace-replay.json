@@ -1,0 +1,23 @@
+{
+  "pair_id": "kromitgmbh__titra__242-244",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/kromitgmbh__titra__242-244",
+  "source_base": "62fe0533d792ca72794af098cd6b1d3301514ff7",
+  "source_a": "c5558509574777cef4ee381f536a8990627744ab",
+  "source_b": "817dfc61521fceec1ff0a1db9604512e9b1b038f",
+  "base_commit": "05194f3539384f7cce4119ec20203553cf3403f8",
+  "a_commit": "f3d4805f0883ada65e0bba0f519a854d04270c1d",
+  "b_commit": "779e7092ad67769cad8580fc3355f53269d095cb",
+  "object_count": 378,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

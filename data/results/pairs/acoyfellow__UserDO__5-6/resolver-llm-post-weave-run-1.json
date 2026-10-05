@@ -1,0 +1,37 @@
+{
+  "pair_id": "acoyfellow__UserDO__5-6",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 767613,
+  "tokens": {
+    "input_tokens": 30,
+    "output_tokens": 5332,
+    "cache_creation_input_tokens": 467919,
+    "cache_read_input_tokens": 2016531
+  },
+  "tool_calls": 27,
+  "files": [
+    {
+      "path": "bun.lock",
+      "action": "keep",
+      "sha256": "5a0deaf1bdc736226013ee1daeffcb690ac1ed0ef8b947ee97f295840546ccba",
+      "rationale": "Kept PR A's lockfile (tsup toolchain, example workspaces, esbuild 0.19.12 top-level) and added PR B's drizzle-orm root dependency and its package entry in sorted position between dir-glob and eastasianwidth."
+    },
+    {
+      "path": "examples/hono/index.tsx",
+      "action": "keep",
+      "sha256": "1ad709524f26d91b2427c879c7d634398427929361eefa856585b2a3821199be",
+      "rationale": "PR A only made logout call the DO (using an undefined getUserDO), which PR B's version subsumes with a correct getMyAppDO-based logout plus the table-backed posts, safe JWT decoding and delete UI, so the merge takes PR B's content."
+    },
+    {
+      "path": "src/worker.tsx",
+      "action": "keep",
+      "sha256": "d7aec209a3c13a7d9ef364eccf4641ab2d73297b6d6c6060b755a5b628e800e3",
+      "rationale": "PR A's safer logout and decodeJWTPayload middleware are identical to PR B's, so the merge is PR B's file, which adds the MyAppDO table, posts endpoints and the database-tables frontend on top of them."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:40:36.399323Z"
+}

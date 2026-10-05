@@ -1,0 +1,25 @@
+{
+  "pair_id": "Apollon77__ioBroker.alexa2__1234-1236",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 16006,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 167,
+    "cache_creation_input_tokens": 16740,
+    "cache_read_input_tokens": 222478
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": ".gitignore",
+      "action": "keep",
+      "sha256": "83186ad99c7750b2db707f5a3f2444c594bafab6e87959c023d0e48ee8919bed",
+      "rationale": "Both PRs appended the same tmp/ ignore entry with only a differing comment, so the entry is kept once (using PR A's 'Test artifacts' comment) to avoid a duplicate rule."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:40:35.173331Z"
+}

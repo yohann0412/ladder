@@ -1,0 +1,25 @@
+{
+  "pair_id": "lwyBZss8924d__DeepSearchAgents__9-14",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 65376,
+  "tokens": {
+    "input_tokens": 18,
+    "output_tokens": 1714,
+    "cache_creation_input_tokens": 51123,
+    "cache_read_input_tokens": 538176
+  },
+  "tool_calls": 12,
+  "files": [
+    {
+      "path": "src/agents/servers/run_fastmcp.py",
+      "action": "keep",
+      "sha256": "4a40e27c42432f7b93436bc76535e14d42874b248151ff768fdd79d9930f60d4",
+      "rationale": "Both PRs added the same FastMCP server module; PR B's version uses the real fastmcp.FastMCP API, provides create_fastmcp_server() that src/api/api.py imports and calls http_app() on, and its CLI (--host/--port/--agent-type/--debug plus --path) is a superset of PR A's, so it fully satisfies PR A's README usage while PR A's FastMCPServer/create_app API does not exist and would break api.py."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:04.357592Z"
+}

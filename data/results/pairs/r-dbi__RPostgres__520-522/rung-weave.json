@@ -1,0 +1,20 @@
+{
+  "pair_id": "r-dbi__RPostgres__520-522",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "tests/testthat/test-ImportLargeObject.R"
+  ],
+  "files": [
+    {
+      "path": "tests/testthat/test-ImportLargeObject.R",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/r-dbi__RPostgres__520-522/weave"
+}

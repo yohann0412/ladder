@@ -2,7 +2,7 @@
   "pair_id": "sirk123au__ArrTools__29-30",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 1, conflicted files: 1",
   "messages": [
     "CONFLICT (modify/delete): requirments.txt deleted in a and modified in b.  Version b of requirments.txt left in tree."
   ],

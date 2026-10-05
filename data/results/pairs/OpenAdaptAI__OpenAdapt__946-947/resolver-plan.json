@@ -1,0 +1,15 @@
+{
+  "pair_id": "OpenAdaptAI__OpenAdapt__946-947",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:34:48.012868Z"
+}

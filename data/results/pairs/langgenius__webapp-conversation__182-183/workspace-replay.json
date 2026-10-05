@@ -1,0 +1,23 @@
+{
+  "pair_id": "langgenius__webapp-conversation__182-183",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/langgenius__webapp-conversation__182-183",
+  "source_base": "d3909927aff2953b0eda40d48717bda65e73b73c",
+  "source_a": "34bb34f89021a1df459cdf9c3487dcf8b727f352",
+  "source_b": "9b1288fc9653d696fce57bc1bf837a3fe3da88ae",
+  "base_commit": "bee0f87e009e017e1ee8344bd3b32d9f36c109c0",
+  "a_commit": "84836c123b6054d6841d46f62a4f36231ff540af",
+  "b_commit": "e0e70f913fe3785bf69ff82ee4c9a3b9ff680245",
+  "object_count": 679,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

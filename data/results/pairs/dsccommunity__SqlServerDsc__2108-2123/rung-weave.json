@@ -1,0 +1,20 @@
+{
+  "pair_id": "dsccommunity__SqlServerDsc__2108-2123",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "source/en-US/SqlServerDsc.strings.psd1"
+  ],
+  "files": [
+    {
+      "path": "source/en-US/SqlServerDsc.strings.psd1",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/dsccommunity__SqlServerDsc__2108-2123/weave"
+}

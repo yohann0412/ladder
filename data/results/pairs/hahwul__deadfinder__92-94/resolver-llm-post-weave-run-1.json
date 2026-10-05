@@ -1,0 +1,25 @@
+{
+  "pair_id": "hahwul__deadfinder__92-94",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 16715,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 498,
+    "cache_creation_input_tokens": 15560,
+    "cache_read_input_tokens": 172301
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": ".gitignore",
+      "action": "keep",
+      "sha256": "1670858f70daf7e8ad0edaade4039d8dc96de6f4addcd989d63c535bf14dc008",
+      "rationale": "Both PRs only added vendor ignore entries (A added /vendor/ before the gem pattern, B added /vendor/bundle/ after it), so the merge keeps both additions around the unchanged deadfinder*.gem line."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:02.916548Z"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "neondatabase-labs__mcp-server-neon__41-51",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 18875,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 543,
+    "cache_creation_input_tokens": 17770,
+    "cache_read_input_tokens": 171170
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "action": "keep",
+      "sha256": "6f41b51af7305c8a395566412f730e538996e3f76ff6780840518a91204c398d",
+      "rationale": "Kept PR B's released-version history (0.3.5 with its 'better error message' entry through 0.3.7) and its UNRELEASED entries, and moved PR A's README broken-link fix into the UNRELEASED section since that change has not been released and does not belong under the already-published 0.3.5 heading."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:04.655419Z"
+}

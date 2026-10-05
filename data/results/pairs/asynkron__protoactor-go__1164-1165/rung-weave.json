@@ -1,0 +1,20 @@
+{
+  "pair_id": "asynkron__protoactor-go__1164-1165",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "actor/deadletter.go"
+  ],
+  "files": [
+    {
+      "path": "actor/deadletter.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/asynkron__protoactor-go__1164-1165/weave"
+}

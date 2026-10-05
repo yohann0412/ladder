@@ -1,0 +1,23 @@
+{
+  "pair_id": "laiso__askrepo__8-9",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/laiso__askrepo__8-9",
+  "source_base": "9a9225d68bd4f802eee18a21b47b896e7305c75b",
+  "source_a": "9eba8b326925867423f499acd5fd544615c68dd0",
+  "source_b": "86f2eeae1b4e766fba14661d9f4c1ccdea88b49d",
+  "base_commit": "4d179b6d828cae6a1dfe87ed8b8c7be6d6ccb1a6",
+  "a_commit": "c9ba94d59031f21b5ea3df4f7e36531b092f6681",
+  "b_commit": "46450c1b38bc63d3d3df794bf903e3749c8a65e1",
+  "object_count": 49,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

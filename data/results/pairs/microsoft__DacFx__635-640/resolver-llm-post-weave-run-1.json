@@ -1,0 +1,25 @@
+{
+  "pair_id": "microsoft__DacFx__635-640",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 29088,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 1192,
+    "cache_creation_input_tokens": 23522,
+    "cache_read_input_tokens": 278344
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "test/Microsoft.Build.Sql.Tests/Microsoft.Build.Sql.Tests.csproj",
+      "action": "keep",
+      "sha256": "f22b1eda32ad0d7bbc6d5241ea4533d19e26d80d7fe11b561147a532f338d659",
+      "rationale": "PR A's switch to a single net8.0 TargetFramework is a local-environment workaround unrelated to its sqlproj metadata fix, so the merge keeps PR B's net472 multi-targeting, LangVersion, net472-only package references and .NET Core-only test exclusions, which CI's '-f net472' test run depends on."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:04.453408Z"
+}

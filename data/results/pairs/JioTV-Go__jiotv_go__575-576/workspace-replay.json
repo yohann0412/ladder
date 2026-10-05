@@ -1,0 +1,23 @@
+{
+  "pair_id": "JioTV-Go__jiotv_go__575-576",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/JioTV-Go__jiotv_go__575-576",
+  "source_base": "f08a1c96fac295626333180536bb99daeb572415",
+  "source_a": "20622c8967b1d14a99b6179f1fcf3718d1d7e87e",
+  "source_b": "75d85fa74a6b05aa09ccf2a93bd90023183e737b",
+  "base_commit": "969137ba3328cb442f84e16eae217a92413bc53a",
+  "a_commit": "0ffee56326c16de182347568b53e3e6a4b602443",
+  "b_commit": "b25da90efc2983557837b01de6325fb5920e4b6b",
+  "object_count": 191,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

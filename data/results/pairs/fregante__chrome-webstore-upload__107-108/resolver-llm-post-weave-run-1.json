@@ -1,0 +1,31 @@
+{
+  "pair_id": "fregante__chrome-webstore-upload__107-108",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 39570,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 1112,
+    "cache_creation_input_tokens": 33277,
+    "cache_read_input_tokens": 303332
+  },
+  "tool_calls": 14,
+  "files": [
+    {
+      "path": ".gitignore",
+      "action": "keep",
+      "sha256": "a630131d0279ccbed80607a1a6c8cfe3cd59de4bee83850bbb0256bb16fe178e",
+      "rationale": "Both PRs only appended build outputs for their new source files, so the ignore list keeps PR A's zip-dir outputs and PR B's errors/types outputs."
+    },
+    {
+      "path": "source/index.ts",
+      "action": "keep",
+      "sha256": "24a3771f8c4648dcd4111baf360c7ed244bc79f55152a6ac97765b9989aa21fb",
+      "rationale": "Combined PR A's fs/zip-dir imports, getStreamFromPath helper and string-path support in uploadExisting with PR B's imports of throwIfNotOk and shared types plus its type and CWSError re-exports, and dropped weave's triplicated export line and the duplicated header."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:02.628349Z"
+}

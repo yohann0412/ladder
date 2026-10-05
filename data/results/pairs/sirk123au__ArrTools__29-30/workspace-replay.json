@@ -1,0 +1,23 @@
+{
+  "pair_id": "sirk123au__ArrTools__29-30",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/sirk123au__ArrTools__29-30",
+  "source_base": "3f06afb809d01ba08de82d0ade909dd61f807c6d",
+  "source_a": "7ade1ecf072e7da04aa27d242266364af001ef09",
+  "source_b": "b7256e982aedacc3bae5a9ae9a1242bbf3a98a99",
+  "base_commit": "85552fe93b0d98f27643a126ce0cbb05bde27b01",
+  "a_commit": "a0cc463df4dbc95fec1031b58f2bfc34e4a49ee8",
+  "b_commit": "c121b5c6314ce9cf5b04292b31400b1f1e3293cd",
+  "object_count": 35,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "pair_id": "getsentry__sentry-kotlin-multiplatform__433-434",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "sentry-kotlin-multiplatform/src/appleMain/kotlin/io/sentry/kotlin/multiplatform/nsexception/Throwable.kt"
+  ],
+  "files": [
+    {
+      "path": "sentry-kotlin-multiplatform/src/appleMain/kotlin/io/sentry/kotlin/multiplatform/nsexception/Throwable.kt",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/getsentry__sentry-kotlin-multiplatform__433-434/mergiraf"
+}

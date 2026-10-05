@@ -1,0 +1,20 @@
+{
+  "pair_id": "Azure__azure-functions-templates__1698-1701",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "Build/package-lock.json"
+  ],
+  "files": [
+    {
+      "path": "Build/package-lock.json",
+      "present": true,
+      "has_markers": true,
+      "language": "json",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/Azure__azure-functions-templates__1698-1701/weave"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "serilog-contrib__serilog-enrichers-clientinfo__54-55",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 27138,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 1129,
+    "cache_creation_input_tokens": 19986,
+    "cache_read_input_tokens": 277390
+  },
+  "tool_calls": 11,
+  "files": [
+    {
+      "path": "test/Serilog.Enrichers.ClientInfo.Tests/Serilog.Enrichers.ClientInfo.Tests.csproj",
+      "action": "keep",
+      "sha256": "0b7b2bbec91efa3e20102065889567513484a9f866831f1ade16b4650b75d9e8",
+      "rationale": "Both PRs identically moved Microsoft.AspNetCore.Mvc.Testing to 8.0.0 (matching the net8.0 target), while only PR A changed Microsoft.NET.Test.Sdk (to 17.11.1) and PR B left it at the base value, so a line-level three-way merge keeps the shared 8.0.0 and PR A's 17.11.1."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:05.021659Z"
+}

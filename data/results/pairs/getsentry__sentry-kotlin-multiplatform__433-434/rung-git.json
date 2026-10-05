@@ -2,7 +2,7 @@
   "pair_id": "getsentry__sentry-kotlin-multiplatform__433-434",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 1, conflicted files: 1",
   "messages": [
     "CONFLICT (content): Merge conflict in sentry-kotlin-multiplatform/src/appleMain/kotlin/io/sentry/kotlin/multiplatform/nsexception/Throwable.kt"
   ],

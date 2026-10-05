@@ -1,0 +1,25 @@
+{
+  "pair_id": "djacobs__PyAPNs__216-217",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 76619,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 1111,
+    "cache_creation_input_tokens": 38687,
+    "cache_read_input_tokens": 305287
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "apns.py",
+      "action": "keep",
+      "sha256": "b88896a859eca5f97d7bd150b28f141e452b151447a4795601aeb76f7c2b4381",
+      "rationale": "Both PRs moved sound and badge ahead of alert in Payload.dict(); the merge keeps that shared order and uses PR B's OrderedDict (with its import) so the JSON order is deterministic, while keeping PR A's other edits and PR B's removal of sys.exc_clear()."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:02.534745Z"
+}

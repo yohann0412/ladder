@@ -1,0 +1,25 @@
+{
+  "pair_id": "RchGrav__claudebox__10-11",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 214927,
+  "tokens": {
+    "input_tokens": 28,
+    "output_tokens": 4017,
+    "cache_creation_input_tokens": 80074,
+    "cache_read_input_tokens": 1061319
+  },
+  "tool_calls": 20,
+  "files": [
+    {
+      "path": "claudebox",
+      "action": "keep",
+      "sha256": "4bd23a2721c1e98b6ecb5535d2f0f25f98a2b3579ff30b4a9d9ff7a04f31f72b",
+      "rationale": "Kept PR A's streamlined docker run and create-if-missing MCP config plus PR B's flag parsing and non-forwarding for update/config, resolving the final line to pass PR B's parsed BOX_FLAGS before the args and PR A's --mcp-config option after them."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:35:59.656780Z"
+}

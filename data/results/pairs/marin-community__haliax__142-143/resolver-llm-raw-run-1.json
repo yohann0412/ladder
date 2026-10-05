@@ -1,0 +1,25 @@
+{
+  "pair_id": "marin-community__haliax__142-143",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 22132,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 791,
+    "cache_creation_input_tokens": 21610,
+    "cache_read_input_tokens": 274114
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "tests/test_namedarray_typing.py",
+      "action": "keep",
+      "sha256": "af8ed6af007d97bfeb31ecec32408e024f7f7fceaad58f50a04d8993969c0acc",
+      "rationale": "PR A's import block already contains PR B's imports (jnp and Axis, Named, NamedArray) and adds the haliax.typing import of Float, Int, f32 and i32 that its dtype and category tests need, so the merged file uses A's superset and keeps both PRs' tests."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:04.409789Z"
+}

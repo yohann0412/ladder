@@ -1,0 +1,25 @@
+{
+  "pair_id": "Azure__awesome-azd__630-631",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 34619,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 655,
+    "cache_creation_input_tokens": 28075,
+    "cache_read_input_tokens": 293705
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "website/src/theme/Navbar/Layout/index.js",
+      "action": "keep",
+      "sha256": "4748347019d9c54e5b0b2ade6286e01f20b455ede9f4252d27f8678938ce99ca",
+      "rationale": "Both PRs added the same defensive WcpConsent null checks and try/catch around footer item removal, differing only in the catch variable name and comment wording, so the conflict hunk takes PR B's equivalent wording, and PR B's additional typeof oneDS guard, already merged cleanly, is kept."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:40:35.711552Z"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "marin-community__haliax__142-143",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/marin-community__haliax__142-143",
+  "source_base": "39780080a6d77a54001e6b68ba9f03e9cb64ed9d",
+  "source_a": "b3de56cfd688e25b32d9258d303242e248270ad4",
+  "source_b": "91c29b754bef76a8a3f5f8c838a972d912068a3b",
+  "base_commit": "3c17d113ea785efaed8f6d17ab2b596a7a4dd1a2",
+  "a_commit": "361f97d2b087482993d80506de6469c4e462e51b",
+  "b_commit": "e124d03102253bcb80ca59fd87567a7266c34e5f",
+  "object_count": 142,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

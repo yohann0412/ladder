@@ -1,0 +1,25 @@
+{
+  "pair_id": "hahwul__deadfinder__92-94",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 15269,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 488,
+    "cache_creation_input_tokens": 15641,
+    "cache_read_input_tokens": 172288
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": ".gitignore",
+      "action": "keep",
+      "sha256": "5d02c0b5edade5d7a95692214e8ccf7c8088f28ca8863c162865c739777c74bc",
+      "rationale": "Kept PR A's /vendor/ ignore entry before the gem pattern and PR B's /vendor/bundle/ entry after it, so both sides' additions are preserved (the latter is redundant but harmless)."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:02.941806Z"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "lgallard__terraform-aws-backup__127-129",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/lgallard__terraform-aws-backup__127-129",
+  "source_base": "78d58825ba6400a9c5b03cf34fdd8b1e1f0362f7",
+  "source_a": "cc06f49705c90aa186fe3dd9286bb8ff99e213bb",
+  "source_b": "4139e289dee0e3e4b626c751e70993ee921e4160",
+  "base_commit": "2a59dcdb5ed55336710dab6a9cd206654c472549",
+  "a_commit": "d8d24bed4a0d1174768b54f961d4dbd1b3292526",
+  "b_commit": "63e36c474aceb0684fe509ddf504672f8c1cf08d",
+  "object_count": 117,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "box__boxcli__564-565",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 16970,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 472,
+    "cache_creation_input_tokens": 14940,
+    "cache_read_input_tokens": 214493
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": ".github/workflows/integration-tests.yml",
+      "action": "keep",
+      "sha256": "1b210b7d44bc076b5cc766d8901b8c289a2133e9c16df1353476179e1001d0b1",
+      "rationale": "PR B's workflow is identical to PR A's except for an added 'Setup Integration Test Environment' step that creates ~/.box/settings.json before the tests run, so the merge takes PR A's workflow plus that step."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:40:36.851568Z"
+}

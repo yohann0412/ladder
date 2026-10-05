@@ -1,0 +1,28 @@
+{
+  "pair_id": "0xfurai__peekaping__91-92",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 2",
+  "remaining_conflicted": [
+    "apps/server/src/modules/notification_channel/listener.go",
+    "apps/web/src/app/notification-channels/components/create-edit-notification-channel.tsx"
+  ],
+  "files": [
+    {
+      "path": "apps/server/src/modules/notification_channel/listener.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    },
+    {
+      "path": "apps/web/src/app/notification-channels/components/create-edit-notification-channel.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/0xfurai__peekaping__91-92/mergiraf"
+}

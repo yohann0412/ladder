@@ -1,0 +1,25 @@
+{
+  "pair_id": "CodingAleCR__http_interceptor__161-162",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 69440,
+  "tokens": {
+    "input_tokens": 18,
+    "output_tokens": 1256,
+    "cache_creation_input_tokens": 34222,
+    "cache_read_input_tokens": 476012
+  },
+  "tool_calls": 11,
+  "files": [
+    {
+      "path": "test/models/retry_policy_test.dart",
+      "action": "keep",
+      "sha256": "65d2c01c7cf69218776f3e9e1650d4b415eee4f14ab70b23e588ea3e58dffc92",
+      "rationale": "Kept PR B's rewritten test suite (its top-level TestRetryPolicy replaces the old trailing class, so PR A's conflicting class was dropped to avoid a duplicate declaration) and carried over PR A's new 'maxRetryAttempts can be overridden' test adapted to B's TestRetryPolicy constructor (maxRetries: 5)."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:35:59.337298Z"
+}

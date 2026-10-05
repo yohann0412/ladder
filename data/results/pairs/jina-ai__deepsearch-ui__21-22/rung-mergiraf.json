@@ -1,0 +1,28 @@
+{
+  "pair_id": "jina-ai__deepsearch-ui__21-22",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 2",
+  "remaining_conflicted": [
+    "app.js",
+    "index.html"
+  ],
+  "files": [
+    {
+      "path": "app.js",
+      "present": true,
+      "has_markers": true,
+      "language": "javascript",
+      "parses": false
+    },
+    {
+      "path": "index.html",
+      "present": true,
+      "has_markers": true,
+      "language": "html",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/jina-ai__deepsearch-ui__21-22/mergiraf"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "google-deepmind__gemma__322-323",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 103026,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 532,
+    "cache_creation_input_tokens": 51557,
+    "cache_read_input_tokens": 329359
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "ENHANCEMENT_PLAN.md",
+      "action": "keep",
+      "sha256": "a76de5e64a05a0aca4bdbf2ec273862e8630bf03322a1aff31e1c05ea7124a8d",
+      "rationale": "Both PRs added a different enhancement plan at the same path, so the merged document keeps PR A's phased roadmap (summary, E01-E20 table and specs, guidelines, dependencies, risks, conclusion) and adds PR B's overview, functional-area enhancements, four-phase checklist, contribution guidelines and living-document footer, with one bridging sentence."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:02.878103Z"
+}

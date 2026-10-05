@@ -1,0 +1,21 @@
+{
+  "pair_id": "crewAIInc__crewAI-tools__163-164",
+  "rung": "llm-raw",
+  "run": 1,
+  "task_dir": "/home/user/ladder/work/resolver/crewAIInc__crewAI-tools__163-164/llm-raw/run-1",
+  "snapshot_dir": "/home/user/ladder/work/resolver/crewAIInc__crewAI-tools__163-164/llm-raw/run-1/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/crewAIInc__crewAI-tools__163-164/llm-raw/run-1",
+  "spawn_line": "Read /home/user/ladder/work/resolver/crewAIInc__crewAI-tools__163-164/llm-raw/run-1/PROMPT.md and follow it exactly.",
+  "files": [
+    "crewai_tools/tools/file_read_tool/file_read_tool.py",
+    "crewai_tools/tools/linkup/linkup_search_tool.py",
+    "tests/file_read_tool_test.py",
+    "uv.lock"
+  ],
+  "input_bytes": 2684074,
+  "pr_text_flags": [],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "input_cap",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T05:34:51.435543Z"
+}

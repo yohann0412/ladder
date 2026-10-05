@@ -1,0 +1,35 @@
+{
+  "pair_id": "mariotoffia__FluentDocker__321-322",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 3",
+  "remaining_conflicted": [
+    "Ductus.FluentDocker.Tests/Ductus.FluentDocker.Tests.csproj",
+    "appveyor.yml"
+  ],
+  "files": [
+    {
+      "path": "Ductus.FluentDocker.Tests/Ductus.FluentDocker.Tests.csproj",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "Ductus.FluentDocker/Services/Impl/DockerComposeCompositeService.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    },
+    {
+      "path": "appveyor.yml",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/mariotoffia__FluentDocker__321-322/weave"
+}

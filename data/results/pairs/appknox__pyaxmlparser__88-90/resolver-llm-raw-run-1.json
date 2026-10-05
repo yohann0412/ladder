@@ -1,0 +1,43 @@
+{
+  "pair_id": "appknox__pyaxmlparser__88-90",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 280662,
+  "tokens": {
+    "input_tokens": 40,
+    "output_tokens": 16198,
+    "cache_creation_input_tokens": 104647,
+    "cache_read_input_tokens": 1873011
+  },
+  "tool_calls": 26,
+  "files": [
+    {
+      "path": "pyaxmlparser/arscutil.py",
+      "action": "keep",
+      "sha256": "c630725bea49e7ed70b237f1caa5127da7757c2cadc8bfc431ff7f6b80e5d2fd",
+      "rationale": "Imports both ResParserError (A) and BufferUnderrunError (B); ARSCComplex and ARSCResStringPoolRef raise B's BufferUnderrunError on a short header (required by B's test), while A's per-item graceful parsing, debug-level res0 logging and the callers' exception handling in ARSCResTableEntry are kept."
+    },
+    {
+      "path": "pyaxmlparser/exceptions.py",
+      "action": "keep",
+      "sha256": "dec539ffb89142744644ec11ee5d1b4582043117bda416ac5326d4e12471e804",
+      "rationale": "Union of both exception hierarchies under a single ResParserError base: A's StringBlockError/ChunkError/NamespaceError/AttributeError/ValidationError plus B's BufferUnderrunError/InvalidStringPoolError/InvalidChunkError."
+    },
+    {
+      "path": "pyaxmlparser/stringblock.py",
+      "action": "keep",
+      "sha256": "12069f925077cddc555f884af034bd8c9ee24b7976c7031961ef4a07006f9975",
+      "rationale": "Keeps A's type hints, getStyle range check, decode/unpack wrapping and StringBlockError translation of unexpected errors, uses B's BufferUnderrunError/InvalidStringPoolError for bounds and length checks so getString degrades gracefully to a placeholder, follows B's warn-instead-of-fail null-terminator handling, and removes the duplicated offset check."
+    },
+    {
+      "path": "tests/test_parser.py",
+      "action": "keep",
+      "sha256": "e519933fd9c7b3f18d449349a966815434b0a3e1e60714b3d5c5e349589fc023",
+      "rationale": "Takes A's fix from 'raise self.fail' to 'self.fail' and adds B's new BufferValidationTest class and exception imports."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:02.374688Z"
+}

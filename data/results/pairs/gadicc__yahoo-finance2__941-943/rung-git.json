@@ -2,7 +2,7 @@
   "pair_id": "gadicc__yahoo-finance2__941-943",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 1, conflicted files: 1",
   "messages": [
     "CONFLICT (modify/delete): src/modules/dailyGainers.schema.json deleted in a and modified in b.  Version b of src/modules/dailyGainers.schema.json left in tree."
   ],

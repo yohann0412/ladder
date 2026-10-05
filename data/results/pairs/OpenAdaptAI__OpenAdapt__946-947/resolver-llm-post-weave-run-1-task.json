@@ -1,0 +1,19 @@
+{
+  "pair_id": "OpenAdaptAI__OpenAdapt__946-947",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "task_dir": "/home/user/ladder/work/resolver/OpenAdaptAI__OpenAdapt__946-947/llm-post-weave/run-1",
+  "snapshot_dir": "/home/user/ladder/work/resolver/OpenAdaptAI__OpenAdapt__946-947/llm-post-weave/run-1/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/OpenAdaptAI__OpenAdapt__946-947/llm-post-weave/run-1",
+  "spawn_line": "Read /home/user/ladder/work/resolver/OpenAdaptAI__OpenAdapt__946-947/llm-post-weave/run-1/PROMPT.md and follow it exactly.",
+  "files": [
+    "deploy/deploy/models/omniparser/deploy.py",
+    "openadapt/run_omnimcp.py"
+  ],
+  "input_bytes": 172455,
+  "pr_text_flags": [],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "pending",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T05:34:48.580800Z"
+}

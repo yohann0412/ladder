@@ -1,0 +1,42 @@
+{
+  "pair_id": "antiwork__shortest__332-333",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 4",
+  "remaining_conflicted": [
+    "apps/nextjs/package.json",
+    "pnpm-lock.yaml"
+  ],
+  "files": [
+    {
+      "path": "apps/nextjs/package.json",
+      "present": true,
+      "has_markers": true,
+      "language": "json",
+      "parses": false
+    },
+    {
+      "path": "package.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/antiwork__shortest__332-333/mergiraf"
+}

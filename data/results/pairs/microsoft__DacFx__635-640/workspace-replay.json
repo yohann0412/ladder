@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__DacFx__635-640",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/microsoft__DacFx__635-640",
+  "source_base": "809cf97ba1bbcfe3f2adbb2cef1e1e774f175c2a",
+  "source_a": "a4097c52d240c88ee41c0030bc506c970f63d4fc",
+  "source_b": "e116e9f8e08c49c999ee9687a0874c7f5733e2cc",
+  "base_commit": "df77a7942069098ec606993ba763a592d298cd3d",
+  "a_commit": "019a833422de3edf0e9426993cc112fcfce4707d",
+  "b_commit": "f6d0e8fc94e0b171104a273315b35202c613eafa",
+  "object_count": 186,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

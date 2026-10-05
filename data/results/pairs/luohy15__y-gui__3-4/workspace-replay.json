@@ -1,0 +1,23 @@
+{
+  "pair_id": "luohy15__y-gui__3-4",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/luohy15__y-gui__3-4",
+  "source_base": "945f9ecc1a593548564e16b62c9a957bf3bf7a3b",
+  "source_a": "3f672202572ab38ba8447905a42d686376e594fa",
+  "source_b": "75b2faea7f55aa32efd24f4e24ad9ef9104e1cb3",
+  "base_commit": "03df0754eea0a2bc4899cda2ddb525c7f2442d74",
+  "a_commit": "6a0c1d3061a42c1d297d6079069df3b6a37eedf5",
+  "b_commit": "313cd4caaf3ae30055d2cfe010fc53f53c38044a",
+  "object_count": 182,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

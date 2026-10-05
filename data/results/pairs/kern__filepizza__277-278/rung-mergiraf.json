@@ -1,0 +1,25 @@
+{
+  "pair_id": "kern__filepizza__277-278",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 2",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "package.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/kern__filepizza__277-278/mergiraf"
+}

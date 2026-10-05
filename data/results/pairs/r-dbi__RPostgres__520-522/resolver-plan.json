@@ -1,0 +1,15 @@
+{
+  "pair_id": "r-dbi__RPostgres__520-522",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:39:53.957341Z"
+}

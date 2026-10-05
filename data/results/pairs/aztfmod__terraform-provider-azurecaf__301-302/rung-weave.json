@@ -1,0 +1,20 @@
+{
+  "pair_id": "aztfmod__terraform-provider-azurecaf__301-302",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "azurecaf/models_generated.go"
+  ],
+  "files": [
+    {
+      "path": "azurecaf/models_generated.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/aztfmod__terraform-provider-azurecaf__301-302/weave"
+}

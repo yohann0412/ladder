@@ -1,0 +1,25 @@
+{
+  "pair_id": "OpenRouterTeam__ai-sdk-provider__76-77",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 94324,
+  "tokens": {
+    "input_tokens": 16,
+    "output_tokens": 2371,
+    "cache_creation_input_tokens": 40914,
+    "cache_read_input_tokens": 444566
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "src/chat/index.ts",
+      "action": "keep",
+      "sha256": "20656c30d69f4b7825fbdf2d93844106eaa781143e3537290b6d716d0eb6dd25",
+      "rationale": "Kept PR B's v2 migrated file and its renamed 'input' property for tool-call parts, while applying PR A's fix so the flush forwards the raw tool-call arguments instead of coercing invalid JSON to '{}', letting the repair functionality run (isParsableJson import stays because the streaming completeness checks still use it)."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:35:59.584695Z"
+}

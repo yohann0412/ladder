@@ -1,0 +1,31 @@
+{
+  "pair_id": "kargnas__laravel-ai-translator__23-24",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 125032,
+  "tokens": {
+    "input_tokens": 18,
+    "output_tokens": 1950,
+    "cache_creation_input_tokens": 54025,
+    "cache_read_input_tokens": 556941
+  },
+  "tool_calls": 12,
+  "files": [
+    {
+      "path": "src/AI/AIProvider.php",
+      "action": "keep",
+      "sha256": "c37069c41c295132d44c3f93cd537fc63513212eb9d1c4b0673e7fa54459d6e3",
+      "rationale": "Kept both new providers: the match dispatches 'gemini' (PR A) and 'fake' (PR B), and both getTranslatedObjectsFromGemini and getTranslatedObjectsFromFake methods are included."
+    },
+    {
+      "path": "tests/Unit/AI/AIProviderTest.php",
+      "action": "keep",
+      "sha256": "9eff37c8382d866ed776c6665b45b7000deaaeb1e901ac7f3d8c56b59778b715",
+      "rationale": "Kept PR A's per-provider key flags (providerKeys, hasOpenAI/hasAnthropic/hasGemini) and skip conditions, while adding PR B's fallback of setting the provider to 'fake' in beforeEach when no API keys are present, plus PR B's fake-provider test."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:03.195532Z"
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "aavetis__PRarena__20-36",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:38:47.793221Z"
+}

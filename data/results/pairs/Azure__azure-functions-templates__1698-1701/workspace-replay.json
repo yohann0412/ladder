@@ -1,0 +1,23 @@
+{
+  "pair_id": "Azure__azure-functions-templates__1698-1701",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Azure__azure-functions-templates__1698-1701",
+  "source_base": "ef498c87d1d52ee8aab2476e76bdd4a6ee302af0",
+  "source_a": "869605a699959c430d1c3af657b6c2fe83182f1b",
+  "source_b": "83e990755277afc2effdc5aaa7422b849ccafca4",
+  "base_commit": "e93f793ff5522a75511c7b1d4b51c08b34cd729a",
+  "a_commit": "801d3c2bf9315826c1499bec64a421d233dc2e01",
+  "b_commit": "59e9bad63aaa1a8971014021af57b1bf6023cfec",
+  "object_count": 1631,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

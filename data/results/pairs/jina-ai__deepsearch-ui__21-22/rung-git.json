@@ -2,7 +2,7 @@
   "pair_id": "jina-ai__deepsearch-ui__21-22",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 2, conflicted files: 2",
   "messages": [
     "CONFLICT (content): Merge conflict in app.js",
     "CONFLICT (content): Merge conflict in index.html"

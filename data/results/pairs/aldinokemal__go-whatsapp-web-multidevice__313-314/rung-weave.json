@@ -1,0 +1,20 @@
+{
+  "pair_id": "aldinokemal__go-whatsapp-web-multidevice__313-314",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "src/pkg/utils/general.go"
+  ],
+  "files": [
+    {
+      "path": "src/pkg/utils/general.go",
+      "present": true,
+      "has_markers": true,
+      "language": "go",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/aldinokemal__go-whatsapp-web-multidevice__313-314/weave"
+}

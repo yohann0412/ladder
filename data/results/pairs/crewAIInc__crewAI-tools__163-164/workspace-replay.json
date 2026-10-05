@@ -1,0 +1,23 @@
+{
+  "pair_id": "crewAIInc__crewAI-tools__163-164",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/crewAIInc__crewAI-tools__163-164",
+  "source_base": "940bbcc26617369ebea0a8d1925e7b4c916426b2",
+  "source_a": "78cb7155ee0fb6847f220c7fd2a7891062e6914c",
+  "source_b": "d3801cfc4de63e35de042b5a3cf0bb4247fe09d4",
+  "base_commit": "0f625c00dee74c614664aa2f506d49fdf9557d57",
+  "a_commit": "8bd644cba3f4bf3b246851505e0a1d05603cb069",
+  "b_commit": "b5c26d13c93bafba3add36754108b5cedd052f3c",
+  "object_count": 289,
+  "criss_cross": true,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

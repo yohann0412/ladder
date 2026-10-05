@@ -1,0 +1,31 @@
+{
+  "pair_id": "0xfurai__peekaping__91-92",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 55543,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 3538,
+    "cache_creation_input_tokens": 40803,
+    "cache_read_input_tokens": 377170
+  },
+  "tool_calls": 15,
+  "files": [
+    {
+      "path": "apps/server/src/modules/notification_channel/listener.go",
+      "action": "keep",
+      "sha256": "5e534a1ccaace85ffee4e9f159526d404a9bbfb919de8960482b919a7005a0e8",
+      "rationale": "Both PRs add an independent provider registration at the same spot, so the merge registers both the pushover and mattermost senders before matrix."
+    },
+    {
+      "path": "apps/web/src/app/notification-channels/components/create-edit-notification-channel.tsx",
+      "action": "keep",
+      "sha256": "b4a7d64bdc54071442c94718d89e89b5ae1507f6ad5a9923149df53ee2257068",
+      "rationale": "Both PRs add a new notifier form in the same places, so the merge keeps the Pushover and Mattermost imports, registry entries, schema union members and type literals together, with the Mattermost import placed in the import list rather than where weave moved it."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:40:34.552596Z"
+}

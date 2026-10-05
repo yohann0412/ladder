@@ -1,0 +1,23 @@
+{
+  "pair_id": "Azure__awesome-azd__630-631",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Azure__awesome-azd__630-631",
+  "source_base": "ac5b58adea352d3d12e638055cde7c25f659ba9f",
+  "source_a": "658de8f463f6fd633182d3d2e0490ff70b8cec4c",
+  "source_b": "352b093b8eff156a8207a9e9973374282ea2f440",
+  "base_commit": "a53da045552c1b0d729bb1ef5917e4fbe297fbd1",
+  "a_commit": "fd3350a8b81374ea6e4d28decbabb34ac6f18158",
+  "b_commit": "5afbab5adce8a9684990998f8ff091aac772105c",
+  "object_count": 466,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

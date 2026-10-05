@@ -1,0 +1,25 @@
+{
+  "pair_id": "antiwork__shortest__349-352",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 14312,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 399,
+    "cache_creation_input_tokens": 15092,
+    "cache_read_input_tokens": 168845
+  },
+  "tool_calls": 7,
+  "files": [
+    {
+      "path": "eslint.config.js",
+      "action": "keep",
+      "sha256": "75c518178226713bff9a159d4136499a78038d366dc78846bc784024c3476614",
+      "rationale": "Both PRs add an independent ESLint rule at the same position, so the merge keeps both the logical-assignment-operators rule from PR A and the no-alert rule from PR B."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:40:36.648449Z"
+}

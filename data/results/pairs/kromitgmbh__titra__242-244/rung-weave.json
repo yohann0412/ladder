@@ -1,0 +1,20 @@
+{
+  "pair_id": "kromitgmbh__titra__242-244",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "package-lock.json"
+  ],
+  "files": [
+    {
+      "path": "package-lock.json",
+      "present": true,
+      "has_markers": true,
+      "language": "json",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/kromitgmbh__titra__242-244/weave"
+}

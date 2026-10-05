@@ -1,0 +1,23 @@
+{
+  "pair_id": "johnpapa__shopathome__217-219",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/johnpapa__shopathome__217-219",
+  "source_base": "c6824439e52a847f050f67fa821a605bd362dead",
+  "source_a": "f07aeb9e6a53b7d8bf801398799400bc5bd20195",
+  "source_b": "322ab6db5d3002ec0aaf250634a3f01e922e5ff9",
+  "base_commit": "4c0f6af63a3225f69fd5a9563566b0af44d3442c",
+  "a_commit": "e6b060a539a779cc718aff55d440e5da314399e9",
+  "b_commit": "2a6f5a2e665841045597675a02263052c4ea93aa",
+  "object_count": 325,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

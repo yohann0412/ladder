@@ -1,0 +1,20 @@
+{
+  "pair_id": "microsoft__DacFx__635-640",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "test/Microsoft.Build.Sql.Tests/Microsoft.Build.Sql.Tests.csproj"
+  ],
+  "files": [
+    {
+      "path": "test/Microsoft.Build.Sql.Tests/Microsoft.Build.Sql.Tests.csproj",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/microsoft__DacFx__635-640/mergiraf"
+}

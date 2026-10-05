@@ -1,0 +1,25 @@
+{
+  "pair_id": "Automattic__wordpress-mcp__29-30",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 77290,
+  "tokens": {
+    "input_tokens": 16,
+    "output_tokens": 1304,
+    "cache_creation_input_tokens": 55258,
+    "cache_read_input_tokens": 503788
+  },
+  "tool_calls": 13,
+  "files": [
+    {
+      "path": "includes/Core/McpProxyRoutes.php",
+      "action": "keep",
+      "sha256": "e599984f2c3908ead60558cfe9896388cc274c4bc706e32e8aa5c102501eb354",
+      "rationale": "Merged list_tools so it first selects tools via PR B's enabled-tools setting (or all tools for admins requesting 'all') and then applies PR A's per-tool permission_callback filtering, while keeping A's logged-in permission check and error handling alongside B's disabled-tool block in call_tool."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:35:58.560642Z"
+}

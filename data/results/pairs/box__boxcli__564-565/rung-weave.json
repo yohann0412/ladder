@@ -1,0 +1,18 @@
+{
+  "pair_id": "box__boxcli__564-565",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": ".github/workflows/integration-tests.yml",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/box__boxcli__564-565/weave"
+}

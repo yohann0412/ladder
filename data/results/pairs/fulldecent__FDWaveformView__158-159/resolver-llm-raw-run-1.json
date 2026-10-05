@@ -1,0 +1,25 @@
+{
+  "pair_id": "fulldecent__FDWaveformView__158-159",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 22558,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 775,
+    "cache_creation_input_tokens": 22023,
+    "cache_read_input_tokens": 228893
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "README.md",
+      "action": "keep",
+      "sha256": "7286f4ee796ed99159d628558726cc386fde956f7c41fdc174c9b200ec081fdb",
+      "rationale": "Both PRs replaced the deprecated progressSamples/zoomStartSamples/zoomEndSamples examples with equivalent range-based highlightedSamples/zoomSamples code, so the conflicting hunks take PR B's concise single-line form (matching the Example project's `0..<` style) while keeping PR A's non-conflicting 'now running on GitHub Actions' update."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:02.753948Z"
+}

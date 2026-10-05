@@ -1,0 +1,20 @@
+{
+  "pair_id": "aavetis__PRarena__20-23",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "docs/index.html"
+  ],
+  "files": [
+    {
+      "path": "docs/index.html",
+      "present": true,
+      "has_markers": true,
+      "language": "html",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/aavetis__PRarena__20-23/weave"
+}

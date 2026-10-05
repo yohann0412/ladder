@@ -1,0 +1,23 @@
+{
+  "pair_id": "langchain-ai__agents-from-scratch__31-32",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/langchain-ai__agents-from-scratch__31-32",
+  "source_base": "88687e7e4bc4858a75d8a557d34b590b9165443d",
+  "source_a": "6fa1b4a47e7670cc0cd62c7cee7ed91d45e54e61",
+  "source_b": "8190bffad3763881354a6d1b48ad577ef9eda150",
+  "base_commit": "1956429910fa225041a41f9a1648b814dd9a2a58",
+  "a_commit": "51ab03db9ddc237bfbb33a002b47cf62f9a6a379",
+  "b_commit": "2085c122d9f456128fc46826997d72f8adabfabf",
+  "object_count": 125,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

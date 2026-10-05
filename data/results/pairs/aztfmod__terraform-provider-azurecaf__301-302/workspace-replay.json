@@ -1,0 +1,23 @@
+{
+  "pair_id": "aztfmod__terraform-provider-azurecaf__301-302",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/aztfmod__terraform-provider-azurecaf__301-302",
+  "source_base": "835b2811186089e8c60c5a08d632e1a7031c76e4",
+  "source_a": "d00a54716892925d02d6a0207af6b6633ac9e29d",
+  "source_b": "57f88640f860b7d5716dc51d365c6b3bd6cc3d4a",
+  "base_commit": "67888bd14aac216463336ea5458238a115849a69",
+  "a_commit": "48e31b3d6a725735aad8938338f4b6b5836154b9",
+  "b_commit": "43ee88da79a41d7c461fb969714942f1ef5d6ecc",
+  "object_count": 88,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "pair_id": "google-deepmind__gemma__322-323",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "ENHANCEMENT_PLAN.md"
+  ],
+  "files": [
+    {
+      "path": "ENHANCEMENT_PLAN.md",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/google-deepmind__gemma__322-323/weave"
+}

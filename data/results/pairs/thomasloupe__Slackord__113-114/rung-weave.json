@@ -1,0 +1,18 @@
+{
+  "pair_id": "thomasloupe__Slackord__113-114",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "Slackord/Classes/ImportJson.cs",
+      "present": true,
+      "has_markers": false,
+      "language": "c_sharp",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/thomasloupe__Slackord__113-114/weave"
+}

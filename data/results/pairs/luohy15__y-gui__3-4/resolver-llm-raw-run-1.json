@@ -1,0 +1,37 @@
+{
+  "pair_id": "luohy15__y-gui__3-4",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 321300,
+  "tokens": {
+    "input_tokens": 42,
+    "output_tokens": 14510,
+    "cache_creation_input_tokens": 148239,
+    "cache_read_input_tokens": 2872970
+  },
+  "tool_calls": 39,
+  "files": [
+    {
+      "path": "frontend/src/components/ChatView/ChatView.tsx",
+      "action": "keep",
+      "sha256": "f2e11c15dbbfe42e32513c45fa7aa996814ac7566bd3c10480fd09286e61477a",
+      "rationale": "Kept PR B's per-message MessageItem wiring (messageIds, refreshResponse, selectResponse, isSharedMode) with PR A's getCurrentMessageVersion and version props, and dropped the bottom MessageActions bar because PR B moved those actions into each assistant message (its import was already removed)."
+    },
+    {
+      "path": "frontend/src/components/ChatView/MessageActions.tsx",
+      "action": "keep",
+      "sha256": "7b02e948999db615d284f16edfee510ee1098917c4877086369240d2e25680fa",
+      "rationale": "Used PR B's props, conditional refresh button and prev/next response navigation, added PR A's optional version-control props so its auto-merged version-switcher block still type-checks, and kept PR A's Message import with PR B's commented-out ShareButton."
+    },
+    {
+      "path": "frontend/src/components/ChatView/MessageItem.tsx",
+      "action": "keep",
+      "sha256": "58c1f1053619602a3fb130c4942f7a95d7c409a25ac0a60909fdb357f758d2b7",
+      "rationale": "Combined PR B's reorganized props (isSharedMode, messageIds, onRefresh, onSelectMessage, no expandedToolResults) and per-message MessageActions with PR A's optional responseVersions/currentVersionIndex/onToggleResponseVersion props and the version indicator calculations."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:40:37.977651Z"
+}

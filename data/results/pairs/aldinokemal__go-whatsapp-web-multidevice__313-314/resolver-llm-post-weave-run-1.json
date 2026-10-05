@@ -1,0 +1,25 @@
+{
+  "pair_id": "aldinokemal__go-whatsapp-web-multidevice__313-314",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 45293,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 582,
+    "cache_creation_input_tokens": 37119,
+    "cache_read_input_tokens": 186949
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "src/pkg/utils/general.go",
+      "action": "keep",
+      "sha256": "bd39a26ec4d40e829aec175296cc073e8b58942ab377cc317b604b0f0ec86d0a",
+      "rationale": "PR B's strict MIME allow-list and bounded size validation in DownloadAudioFromURL are kept in their original order (content-length check before reading), combined with PR A's HTTP status-code checks in DownloadAudioFromURL and DownloadImageFromURL, which drops weave's misplaced duplicate of the content-length check."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:40:36.489543Z"
+}

@@ -1,0 +1,20 @@
+{
+  "pair_id": "gadicc__yahoo-finance2__941-943",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "src/modules/dailyGainers.schema.json"
+  ],
+  "files": [
+    {
+      "path": "src/modules/dailyGainers.schema.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/gadicc__yahoo-finance2__941-943/mergiraf"
+}

@@ -1,0 +1,18 @@
+{
+  "pair_id": "neondatabase-labs__mcp-server-neon__41-51",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/neondatabase-labs__mcp-server-neon__41-51/weave"
+}

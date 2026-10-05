@@ -1,0 +1,25 @@
+{
+  "pair_id": "567-labs__kura__69-75",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 118385,
+  "tokens": {
+    "input_tokens": 18,
+    "output_tokens": 4773,
+    "cache_creation_input_tokens": 56179,
+    "cache_read_input_tokens": 527412
+  },
+  "tool_calls": 17,
+  "files": [
+    {
+      "path": "docs/index.md",
+      "action": "keep",
+      "sha256": "6d7eca9ebe3dda096e987a7ae3d90bc3f597cc63dba38e4f227eb29527c29bf1",
+      "rationale": "Kept PR B's procedural-API landing page (title, badges, installation, kura.v1 quick start, documentation links, about) and folded in PR A's additions (sponsor note, use cases, extra features, Python 3.9+ note, architecture, web interface, technical walkthrough video), dropping A's class-based Kura quick start, Kura orchestrator component and link to the deleted quickstart.md in line with B."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:40:34.903856Z"
+}

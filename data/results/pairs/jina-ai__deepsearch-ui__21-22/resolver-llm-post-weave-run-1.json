@@ -1,0 +1,33 @@
+{
+  "pair_id": "jina-ai__deepsearch-ui__21-22",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/jina-ai__deepsearch-ui__21-22/llm-post-weave/run-1/files/index.html"
+  ],
+  "duration_ms": 231052,
+  "tokens": {
+    "input_tokens": 30,
+    "output_tokens": 4232,
+    "cache_creation_input_tokens": 123939,
+    "cache_read_input_tokens": 1560883
+  },
+  "tool_calls": 21,
+  "files": [
+    {
+      "path": "app.js",
+      "action": "keep",
+      "sha256": "e7cb62a4dfba99ecd61a3ee22e958a5c0de0aa65dff2ed432907f4b4044b8660",
+      "rationale": "Kept PR A's i18n code (translations, language init in initializeSettings, language-select listener, async DOMContentLoaded loading translations) together with PR B's chirp-on-done init, toggle listener (attached to the chirp input instead of weave's duplicated theme listener) and chirp-aware playNotificationSound, plus B's createActionButton changes, and removed weave's duplicated trailing block and second initializeSettings/DOMContentLoaded handlers."
+    },
+    {
+      "path": "index.html",
+      "action": "keep",
+      "sha256": "df3954765eb59d235e4d9eb52abf72f3cc103d4286ae142d8a3ae527ec59bdf9",
+      "rationale": "The settings dialog keeps both new options: PR A's language selector and PR B's 'Chirp on done' toggle, placed after the dark-theme toggle."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:03.091513Z"
+}

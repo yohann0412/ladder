@@ -1,0 +1,23 @@
+{
+  "pair_id": "miguel5612__MQSensorsLib__77-79",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/miguel5612__MQSensorsLib__77-79",
+  "source_base": "c927504bf5ce53d82e5b0c98db5c8155b3573e9a",
+  "source_a": "6376cfc11f96c3659d7b7fd104f9728f5eb0cc1d",
+  "source_b": "748ff3055c5b1b64ee50354a1d84d147c0cade38",
+  "base_commit": "5c903c6ac2d4276b902cc7855f6dc7b23699ef47",
+  "a_commit": "4872fab16dfc4fe5871eba098a67612c3e4cca83",
+  "b_commit": "aede5117d7d40c0483a5e4259387091fbe4cbb2e",
+  "object_count": 96,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

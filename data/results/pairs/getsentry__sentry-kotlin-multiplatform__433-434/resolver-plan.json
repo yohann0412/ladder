@@ -1,0 +1,11 @@
+{
+  "pair_id": "getsentry__sentry-kotlin-multiplatform__433-434",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:34:36.124559Z"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "Apollon77__ioBroker.alexa2__1234-1235",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Apollon77__ioBroker.alexa2__1234-1235",
+  "source_base": "bd1504b0756f5c075cdf2cd541e66e3c5d972aff",
+  "source_a": "dcdfdda6adc02876baa96087b327f835acf5d753",
+  "source_b": "c89586e0c5a015ca39739932d62a26b76aeecae4",
+  "base_commit": "378163fbe30de65ce5769498792d6d851993b028",
+  "a_commit": "a5e8c9a95bc8188a06524faa19505b43c5ed53ce",
+  "b_commit": "3e275cdf0d710d141dd66f5d18b65cca4a34b5bf",
+  "object_count": 99,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

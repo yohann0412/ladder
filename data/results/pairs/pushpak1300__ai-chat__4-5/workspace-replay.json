@@ -1,0 +1,23 @@
+{
+  "pair_id": "pushpak1300__ai-chat__4-5",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/pushpak1300__ai-chat__4-5",
+  "source_base": "356318110c48ebc110a7a7374e6c527b7f4dad2c",
+  "source_a": "30a0becdc2251334b9b5523111723c6df0704579",
+  "source_b": "ed0d1e2f65aba6e68660a9f3d37358adf5ea27d5",
+  "base_commit": "2f9876055a14be419b791324600b8ff456bf03cc",
+  "a_commit": "bb355065848915631936850e7ee2c14160c33506",
+  "b_commit": "b9bc76b805da6c2cf4f54b328410e86be5535cd1",
+  "object_count": 416,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

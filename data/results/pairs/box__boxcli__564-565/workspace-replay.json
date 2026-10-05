@@ -1,0 +1,23 @@
+{
+  "pair_id": "box__boxcli__564-565",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/box__boxcli__564-565",
+  "source_base": "3d3b19f651b69ed0d91b2592a3d37ca0b3705597",
+  "source_a": "eb92bec00c2d2f67fdb6b356e622c4ebf8eadfcc",
+  "source_b": "a00d96aa8717d42a79662cb7b63e4c6ad3ce0dc5",
+  "base_commit": "7ffff2746ccbcf4e8590ec75321b131d1254bf91",
+  "a_commit": "d30bea3da163910022547cff94494bec63faa601",
+  "b_commit": "6f840b5b4de41222804647b2f93fff7626afd5e4",
+  "object_count": 872,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

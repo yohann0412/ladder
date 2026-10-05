@@ -1,0 +1,23 @@
+{
+  "pair_id": "intellectronica__ruler__138-139",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/intellectronica__ruler__138-139",
+  "source_base": "329181efbbac892568391ae2d6af4f029cefdb1c",
+  "source_a": "4b36a82be198be05bcbfb01acd378d7cd3dddeb8",
+  "source_b": "a6c0e8d82cfa37e550cdb31b5ce3d69a62a17742",
+  "base_commit": "f0fe0fa2e85f9f33725c3c41d7cb9975f4452ac2",
+  "a_commit": "664436c91bb1d26b08f4adff8c52364a4547813c",
+  "b_commit": "111adcc43c8cb4656ee20dedf8aeac5b6c4b4ae2",
+  "object_count": 168,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

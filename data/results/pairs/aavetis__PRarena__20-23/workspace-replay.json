@@ -1,0 +1,23 @@
+{
+  "pair_id": "aavetis__PRarena__20-23",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/aavetis__PRarena__20-23",
+  "source_base": "8c0ad47e8fa98703a4b5d62524ae279dc9b76ade",
+  "source_a": "d69ebd070346ec78a804cedfd8046ed038f88076",
+  "source_b": "a48ee67e94cc943dfa83a4286e2cb00205dec36c",
+  "base_commit": "252c285182e0b54edb909ee15f2234a4dd52695b",
+  "a_commit": "e27f14a69a9b8f214bce7053f6894fe225267454",
+  "b_commit": "ec747a055ecf311e7e5e35e34575a65671bb17d9",
+  "object_count": 35,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

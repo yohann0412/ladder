@@ -2,7 +2,7 @@
   "pair_id": "digitaldemocracy2030__kouchou-ai__232-233",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 1, conflicted files: 1",
   "messages": [
     "CONFLICT (content): Merge conflict in server/src/routers/admin_report.py"
   ],

@@ -1,0 +1,15 @@
+{
+  "pair_id": "dsccommunity__SqlServerDsc__2108-2123",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:39:28.536608Z"
+}

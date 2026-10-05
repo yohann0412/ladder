@@ -1,0 +1,25 @@
+{
+  "pair_id": "lwyBZss8924d__DeepSearchAgents__9-14",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 68969,
+  "tokens": {
+    "input_tokens": 18,
+    "output_tokens": 2045,
+    "cache_creation_input_tokens": 46456,
+    "cache_read_input_tokens": 511678
+  },
+  "tool_calls": 15,
+  "files": [
+    {
+      "path": "src/agents/servers/run_fastmcp.py",
+      "action": "keep",
+      "sha256": "4a40e27c42432f7b93436bc76535e14d42874b248151ff768fdd79d9930f60d4",
+      "rationale": "Both PRs added the same FastMCP server module with the same CLI (--host, --port 8100, --agent-type codact/react) and streamable-HTTP intent, so PR B's version is kept because it uses the real FastMCP v2.3+ API (FastMCP, server.tool, run(transport=\"streamable-http\")), matching the fastmcp>=2.3.0 requirement PR A documents, and it provides create_fastmcp_server, which src/api/api.py imports, whereas PR A's FastMCPServer/create_app API does not exist."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:04.112750Z"
+}

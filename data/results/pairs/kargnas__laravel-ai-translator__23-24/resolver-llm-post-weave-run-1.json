@@ -1,0 +1,25 @@
+{
+  "pair_id": "kargnas__laravel-ai-translator__23-24",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 39559,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 1342,
+    "cache_creation_input_tokens": 24548,
+    "cache_read_input_tokens": 276041
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "tests/Unit/AI/AIProviderTest.php",
+      "action": "keep",
+      "sha256": "f62ee96033ab44dc18949c2220d002a12087b02135120b4f00507fbcf6189f1e",
+      "rationale": "Kept PR A's per-provider key flags and Gemini test, added PR B's fallback to the fake provider in beforeEach when no API keys are present, and appended PR B's fake-provider unit test."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:03.160186Z"
+}

@@ -2,7 +2,7 @@
   "pair_id": "crewAIInc__crewAI-tools__163-164",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 4, conflicted files: 4 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 4, conflicted files: 4",
   "messages": [
     "CONFLICT (content): Merge conflict in crewai_tools/tools/file_read_tool/file_read_tool.py",
     "CONFLICT (add/add): Merge conflict in crewai_tools/tools/linkup/linkup_search_tool.py",

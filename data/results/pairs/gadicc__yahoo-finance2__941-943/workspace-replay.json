@@ -1,0 +1,23 @@
+{
+  "pair_id": "gadicc__yahoo-finance2__941-943",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/gadicc__yahoo-finance2__941-943",
+  "source_base": "ea002e14ede0fbc61ceaed44c061f56e5ef79ef8",
+  "source_a": "711a8cd835adbdf20490ff12aa5720d60b852304",
+  "source_b": "99d2645638ee251f4aa79d104e4e45a9d86885b2",
+  "base_commit": "1330ae7245136b4d856e7e58bbab6a658728cb63",
+  "a_commit": "f6cd4052528891a90252b77fbf7f6922311713ba",
+  "b_commit": "ef8bb97631562b0fe8fe939c34ee19cec4c56fd0",
+  "object_count": 2266,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

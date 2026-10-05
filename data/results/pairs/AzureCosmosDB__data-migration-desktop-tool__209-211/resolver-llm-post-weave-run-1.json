@@ -1,0 +1,25 @@
+{
+  "pair_id": "AzureCosmosDB__data-migration-desktop-tool__209-211",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 42641,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 582,
+    "cache_creation_input_tokens": 41774,
+    "cache_read_input_tokens": 195783
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "Core/Cosmos.DataTransfer.Core/RunCommand.cs",
+      "action": "keep",
+      "sha256": "50e0bcb406d494cbc11df3c3975430fb6cbe88e4c06e55c4c0cdc4799f5e4548",
+      "rationale": "PR B's only change here (options.Source/options.Sink to options?.Source/options?.Sink) is already carried by PR A's rewritten validation code, so the merge takes PR A's version, which removes interactive prompting and adds the missing-configuration checks, with B's null-safety preserved."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:35:59.168284Z"
+}

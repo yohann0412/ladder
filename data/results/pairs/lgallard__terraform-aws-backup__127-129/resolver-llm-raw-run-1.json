@@ -1,0 +1,25 @@
+{
+  "pair_id": "lgallard__terraform-aws-backup__127-129",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 136271,
+  "tokens": {
+    "input_tokens": 24,
+    "output_tokens": 1605,
+    "cache_creation_input_tokens": 89603,
+    "cache_read_input_tokens": 1003309
+  },
+  "tool_calls": 16,
+  "files": [
+    {
+      "path": "README.md",
+      "action": "keep",
+      "sha256": "5d3ae4c0397e9628edfac9498deae079c83726b4d7d032081c9cc4f44567e858",
+      "rationale": "Kept PR B's regenerated docs (restored Multiple backup plans example, ab_plans/plan_selections resources, plans input and output) above the TF_DOCS block, and took PR A's tail with a single Known Issues section followed by the new Testing documentation, dropping the duplicated Known Issues/END_TF_DOCS blocks that were a terraform-docs regeneration artifact in PR B."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:03.587985Z"
+}

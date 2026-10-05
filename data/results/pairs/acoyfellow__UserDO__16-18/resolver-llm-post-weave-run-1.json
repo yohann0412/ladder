@@ -1,0 +1,25 @@
+{
+  "pair_id": "acoyfellow__UserDO__16-18",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 173726,
+  "tokens": {
+    "input_tokens": 16,
+    "output_tokens": 8599,
+    "cache_creation_input_tokens": 63529,
+    "cache_read_input_tokens": 508177
+  },
+  "tool_calls": 15,
+  "files": [
+    {
+      "path": "README.md",
+      "action": "keep",
+      "sha256": "24aef496a2615b6da9b387cdd93fe64a680de11967e82676bada992eadf484ae",
+      "rationale": "Kept PR B's streamlined structure (philosophy, organizations endpoints and section, new examples list, simple tables, decision framework, removed legacy sections) while using PR A's single coherent step-by-step BlogDO quick start in place of the duplicated parallel quick start, and grafting A's custom-endpoint and KV browser-client examples, expanded create example, and raw WebSocket listener alongside B's onChange-based content without duplicates or conflict markers."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:02.224011Z"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "bespokelabsai__curator__292-304",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/bespokelabsai__curator__292-304",
+  "source_base": "e8e8fe3641f2d9ebb188afbb8ad984fbb11c576d",
+  "source_a": "bc2b19017aedecdbd0c2305f7c369cfc2ae3f8ab",
+  "source_b": "93ab901fa6ad496b03d8f520b0bc6765d85d70da",
+  "base_commit": "b0b30d11cf134f8ca090e1d88d2bd65f483695f3",
+  "a_commit": "da16c910e26a4481bf42f2bfd0c59263e0d8dff6",
+  "b_commit": "af2fcc9055e40532105833896599f0fca22cea6f",
+  "object_count": 225,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "pair_id": "r-dbi__RPostgres__520-522",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "tests/testthat/test-ImportLargeObject.R",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/r-dbi__RPostgres__520-522/mergiraf"
+}

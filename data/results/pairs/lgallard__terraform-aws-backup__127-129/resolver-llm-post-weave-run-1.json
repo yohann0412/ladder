@@ -1,0 +1,27 @@
+{
+  "pair_id": "lgallard__terraform-aws-backup__127-129",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/lgallard__terraform-aws-backup__127-129/llm-post-weave/run-1/files/README.md"
+  ],
+  "duration_ms": 164111,
+  "tokens": {
+    "input_tokens": 26,
+    "output_tokens": 7055,
+    "cache_creation_input_tokens": 108231,
+    "cache_read_input_tokens": 1294968
+  },
+  "tool_calls": 19,
+  "files": [
+    {
+      "path": "README.md",
+      "action": "keep",
+      "sha256": "5d3ae4c0397e9628edfac9498deae079c83726b4d7d032081c9cc4f44567e858",
+      "rationale": "Took PR B's regenerated terraform-docs body (restored Multiple backup plans example placed after Complete plan, ab_plans/plan_selections resources, plans input/output, updated copy_actions defaults) since PR A left that region untouched, then used PR A's tail which collapses the duplicated Known Issues block into a single copy and adds the new Testing section, dropping the extra accidental Known Issues duplicates from B's regeneration."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:03.556849Z"
+}

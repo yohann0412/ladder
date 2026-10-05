@@ -1,0 +1,23 @@
+{
+  "pair_id": "lordmauve__pgzero__360-366",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/lordmauve__pgzero__360-366",
+  "source_base": "c615a6356d15ce7b3d377a620211bbccbede7e82",
+  "source_a": "8397ea41c546d657a28f34eb94092a91eb9b66f3",
+  "source_b": "21aaa06600c80f30e6b894a6244a9fe6b48ae5cd",
+  "base_commit": "7b208b284a87f12a3af10af5a490160422ad7da4",
+  "a_commit": "174d07ab35491a1b6eddc48790f4757742817cc9",
+  "b_commit": "85435e4996e0be8bafd5e0d0bd9497e385661d0e",
+  "object_count": 349,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

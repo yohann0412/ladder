@@ -2,7 +2,7 @@
   "pair_id": "OpenAdaptAI__OpenAdapt__946-947",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 2, conflicted files: 2",
   "messages": [
     "CONFLICT (add/add): Merge conflict in deploy/deploy/models/omniparser/deploy.py",
     "CONFLICT (add/add): Merge conflict in openadapt/run_omnimcp.py"

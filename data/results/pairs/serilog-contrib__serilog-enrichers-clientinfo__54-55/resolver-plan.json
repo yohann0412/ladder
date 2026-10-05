@@ -1,0 +1,11 @@
+{
+  "pair_id": "serilog-contrib__serilog-enrichers-clientinfo__54-55",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:30:35.297062Z"
+}

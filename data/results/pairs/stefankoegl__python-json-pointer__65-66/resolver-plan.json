@@ -1,0 +1,15 @@
+{
+  "pair_id": "stefankoegl__python-json-pointer__65-66",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:34:22.388730Z"
+}

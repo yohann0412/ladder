@@ -1,0 +1,23 @@
+{
+  "pair_id": "digitaldemocracy2030__kouchou-ai__232-233",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/digitaldemocracy2030__kouchou-ai__232-233",
+  "source_base": "978b7768761aa83481e723308688ff0c5d9c3ac7",
+  "source_a": "7cd2927e64acbe0945e42ac1d7663d1b6027e7ab",
+  "source_b": "3c11f8ce06ee9b844405a41a499ee233babadfd5",
+  "base_commit": "49711f1b681643a7cfd1be833b776e23873070b9",
+  "a_commit": "991b253f70b7f0b5336c37c4b17eeb5f4226b62a",
+  "b_commit": "ca11225e7f12256b2951128a50b2f9b99eeef6f1",
+  "object_count": 343,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

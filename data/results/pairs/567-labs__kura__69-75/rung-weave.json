@@ -1,0 +1,20 @@
+{
+  "pair_id": "567-labs__kura__69-75",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "docs/index.md"
+  ],
+  "files": [
+    {
+      "path": "docs/index.md",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/567-labs__kura__69-75/weave"
+}

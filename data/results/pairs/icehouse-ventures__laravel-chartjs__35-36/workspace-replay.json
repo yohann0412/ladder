@@ -1,0 +1,23 @@
+{
+  "pair_id": "icehouse-ventures__laravel-chartjs__35-36",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/icehouse-ventures__laravel-chartjs__35-36",
+  "source_base": "47bf2beece9d820367f57dada46ac9bd4c406761",
+  "source_a": "822a270fa4a8d69b5884f5279245e6ad5f5fe344",
+  "source_b": "7ad5adfbf58efb85f89eb15d93743d48b26fe774",
+  "base_commit": "8cafdc900372cc2344ddbf23d984116e0515e2fa",
+  "a_commit": "3180b43688861501923c210fb31a73fea4ed28a8",
+  "b_commit": "2b32ac43b4111374e2b64bf36415bbf73025193c",
+  "object_count": 73,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

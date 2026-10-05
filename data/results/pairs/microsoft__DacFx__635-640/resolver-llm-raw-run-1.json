@@ -1,0 +1,25 @@
+{
+  "pair_id": "microsoft__DacFx__635-640",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 34511,
+  "tokens": {
+    "input_tokens": 16,
+    "output_tokens": 1812,
+    "cache_creation_input_tokens": 28685,
+    "cache_read_input_tokens": 408066
+  },
+  "tool_calls": 11,
+  "files": [
+    {
+      "path": "test/Microsoft.Build.Sql.Tests/Microsoft.Build.Sql.Tests.csproj",
+      "action": "keep",
+      "sha256": "f22b1eda32ad0d7bbc6d5241ea4533d19e26d80d7fe11b561147a532f338d659",
+      "rationale": "PR A's switch to a single net8.0 TargetFramework was an incidental sandbox build tweak unrelated to its sqlproj collision fix (and contradicts the multi-targeting comment), so the merge keeps PR B's multi-targeting TargetFrameworks including net472 along with its other net472-specific additions, which PR A's new test remains compatible with."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:04.514848Z"
+}

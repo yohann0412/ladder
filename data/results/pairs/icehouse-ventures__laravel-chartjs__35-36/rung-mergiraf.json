@@ -1,0 +1,27 @@
+{
+  "pair_id": "icehouse-ventures__laravel-chartjs__35-36",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 2",
+  "remaining_conflicted": [
+    "src/Builder.php"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "src/Builder.php",
+      "present": true,
+      "has_markers": true,
+      "language": "php",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/icehouse-ventures__laravel-chartjs__35-36/mergiraf"
+}

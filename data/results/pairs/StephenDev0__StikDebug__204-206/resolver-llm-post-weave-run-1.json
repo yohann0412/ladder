@@ -1,0 +1,28 @@
+{
+  "pair_id": "StephenDev0__StikDebug__204-206",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/StephenDev0__StikDebug__204-206/llm-post-weave/run-1/files/StikJIT/StikJITApp.swift",
+    "Read outside the task directory: /home/user/ladder/work/resolutions/StephenDev0__StikDebug__204-206/llm-post-weave/run-1/files/StikJIT/StikJITApp.swift"
+  ],
+  "duration_ms": 245294,
+  "tokens": {
+    "input_tokens": 30,
+    "output_tokens": 3718,
+    "cache_creation_input_tokens": 111306,
+    "cache_read_input_tokens": 1554426
+  },
+  "tool_calls": 21,
+  "files": [
+    {
+      "path": "StikJIT/StikJITApp.swift",
+      "action": "keep",
+      "sha256": "769e38395da89df182fb5aff5b9559962a3a95f65bedfa5c6ed7d405e795d832",
+      "rationale": "Kept PR A's replacement of the in-app update check with assertAppStoreInstallation() and its deletion of httpGet/UpdateRetrieval/newVerCheck (B's async rewrites of them would be dead code, against B's own unused-code cleanup), while keeping B's VPNLogger cap, FunctionGuard removal and downloadFile fix, and dropping weave's duplicated DNS Checker MARK."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:00.984452Z"
+}

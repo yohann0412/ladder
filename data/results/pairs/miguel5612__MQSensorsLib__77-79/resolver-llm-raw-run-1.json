@@ -1,0 +1,25 @@
+{
+  "pair_id": "miguel5612__MQSensorsLib__77-79",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 63148,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 1196,
+    "cache_creation_input_tokens": 32249,
+    "cache_read_input_tokens": 236880
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "src/MQUnifiedsensor.cpp",
+      "action": "keep",
+      "sha256": "867f97519c70dee32f7c4f070a7bdf243160d12c52f74df4704c7e9a2becae9a",
+      "rationale": "Combined both intents in readSensor by computing RS from a local copy of the sensor supply voltage _VCC (PR A's VCC-based formula) and applying the MQ303A -0.45 correction only to that local copy so no global voltage is mutated (PR B's side-effect fix), keeping all other PR A VCC changes."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:04.602450Z"
+}

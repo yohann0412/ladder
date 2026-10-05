@@ -1,0 +1,44 @@
+{
+  "pair_id": "langchain-ai__agents-from-scratch__31-32",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 4 of 4",
+  "remaining_conflicted": [
+    "notebooks/agent.ipynb",
+    "notebooks/evaluation.ipynb",
+    "notebooks/hitl.ipynb",
+    "notebooks/memory.ipynb"
+  ],
+  "files": [
+    {
+      "path": "notebooks/agent.ipynb",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "notebooks/evaluation.ipynb",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "notebooks/hitl.ipynb",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "notebooks/memory.ipynb",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/langchain-ai__agents-from-scratch__31-32/mergiraf"
+}

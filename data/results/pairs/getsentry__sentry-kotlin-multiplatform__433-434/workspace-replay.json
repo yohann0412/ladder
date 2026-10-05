@@ -1,0 +1,23 @@
+{
+  "pair_id": "getsentry__sentry-kotlin-multiplatform__433-434",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/getsentry__sentry-kotlin-multiplatform__433-434",
+  "source_base": "4c174cf0eec153d4adcb3c8dffa344e0b1cf0d5d",
+  "source_a": "3f71a17add6a1b8f56e2f64764b172c7a1804c35",
+  "source_b": "cace2fd1c2a2f7097e4400b254f45456719a92e3",
+  "base_commit": "cd5a8f2b98126876c1dac972b86d2c0b2204e9d9",
+  "a_commit": "f7659b6e9fd10779cbc2baf7f9ca70e9d124554e",
+  "b_commit": "0fabafd415513abc7d141871b6b6187e745141f3",
+  "object_count": 581,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "pair_id": "johnpapa__shopathome__217-219",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: angular-app/package-lock.json version base has 933427 bytes, more than 200000",
+    "input cap: angular-app/package-lock.json version a has 943019 bytes, more than 200000",
+    "input cap: angular-app/package-lock.json version b has 887318 bytes, more than 200000",
+    "input cap: angular-app/package-lock.json version conflicted has 1426024 bytes, more than 200000",
+    "input cap: 4189788 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T05:39:13.970956Z"
+}

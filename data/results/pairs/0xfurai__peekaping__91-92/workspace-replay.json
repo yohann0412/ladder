@@ -1,0 +1,23 @@
+{
+  "pair_id": "0xfurai__peekaping__91-92",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/0xfurai__peekaping__91-92",
+  "source_base": "26783bdd86b04fc534f09cd7b9d0e442d736ea4a",
+  "source_a": "0646af6bc0c96a7ff340090d6b7c90d7377ad829",
+  "source_b": "ceb2dbac5004115668d9cfec731d8d1800f80978",
+  "base_commit": "0e3cf718416855e6e0a247593b6fb2f7787a7f02",
+  "a_commit": "57c3de63e40813d0fd531bef87d4b0306531d881",
+  "b_commit": "4af80fd6f0b450315c41a5ebab39567856357b7c",
+  "object_count": 634,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

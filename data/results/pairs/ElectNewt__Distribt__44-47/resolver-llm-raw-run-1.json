@@ -1,0 +1,27 @@
+{
+  "pair_id": "ElectNewt__Distribt__44-47",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/ElectNewt__Distribt__44-47/llm-raw/run-1/files/Distribt.sln"
+  ],
+  "duration_ms": 152377,
+  "tokens": {
+    "input_tokens": 20,
+    "output_tokens": 2465,
+    "cache_creation_input_tokens": 64886,
+    "cache_read_input_tokens": 718196
+  },
+  "tool_calls": 12,
+  "files": [
+    {
+      "path": "Distribt.sln",
+      "action": "keep",
+      "sha256": "d927b13d11cb98138984c1f0e814c9af106dfa91aea24a03358b88a106b30352",
+      "rationale": "Kept both sides' additions: PR A's Emails.ApplicationTests project (with its config and nesting under Tests/Services/Emails) and PR B's src/Tests/Services/Products solution folders plus Products.BusinessLogicTests project with its build configurations and nesting entries."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:35:59.527810Z"
+}

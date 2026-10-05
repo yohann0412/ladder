@@ -1,0 +1,11 @@
+{
+  "pair_id": "JioTV-Go__jiotv_go__575-576",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:35:10.069440Z"
+}

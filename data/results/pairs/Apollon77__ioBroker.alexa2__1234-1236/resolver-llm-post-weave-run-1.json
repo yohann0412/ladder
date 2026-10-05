@@ -1,0 +1,25 @@
+{
+  "pair_id": "Apollon77__ioBroker.alexa2__1234-1236",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 17802,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 641,
+    "cache_creation_input_tokens": 17154,
+    "cache_read_input_tokens": 219173
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": ".gitignore",
+      "action": "keep",
+      "sha256": "83186ad99c7750b2db707f5a3f2444c594bafab6e87959c023d0e48ee8919bed",
+      "rationale": "Both PRs append the same tmp/ ignore rule and differ only in the comment wording, so the entry is kept once, with PR A's 'Test artifacts' comment, to avoid duplicating the rule."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:40:35.110656Z"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "OpenRouterTeam__ai-sdk-provider__76-77",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 105795,
+  "tokens": {
+    "input_tokens": 22,
+    "output_tokens": 3948,
+    "cache_creation_input_tokens": 61187,
+    "cache_read_input_tokens": 745573
+  },
+  "tool_calls": 13,
+  "files": [
+    {
+      "path": "src/chat/index.ts",
+      "action": "keep",
+      "sha256": "20656c30d69f4b7825fbdf2d93844106eaa781143e3537290b6d716d0eb6dd25",
+      "rationale": "Kept PR B's LanguageModelV2 doStream (renamed file, v2 stream parts) and applied PR A's fix so the flush forwards unsent tool calls with their raw arguments as `input` instead of coercing invalid JSON to '{}', letting experimental_repairToolCall handle them; isParsableJson stays imported because the in-stream completeness checks (unchanged in PR A's version) still use it."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:35:59.561020Z"
+}

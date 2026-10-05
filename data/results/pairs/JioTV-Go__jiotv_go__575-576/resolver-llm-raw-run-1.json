@@ -1,0 +1,25 @@
+{
+  "pair_id": "JioTV-Go__jiotv_go__575-576",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 22294,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 1037,
+    "cache_creation_input_tokens": 17978,
+    "cache_read_input_tokens": 275246
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": ".gitignore",
+      "action": "keep",
+      "sha256": "c12997c8626eb04e221bcab8af7e73625bd47c7d7b082cca89bfd30190ea3528",
+      "rationale": "Both PRs add an ignore rule for the jiotv_go binary after build/; PR A's version already contains PR B's single 'jiotv_go' line plus its own '# Main binary' entry, so taking PR A's side keeps both intents."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:40:36.360453Z"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "neondatabase-labs__mcp-server-neon__41-51",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/neondatabase-labs__mcp-server-neon__41-51",
+  "source_base": "5641d6766ea39a8321eaacffc7703a3254742f60",
+  "source_a": "1a2b135e8b06d71a3507e3a6be917fd9105125c9",
+  "source_b": "88244c4f9ebaa21c7e6fabd0013d36d42b7c2979",
+  "base_commit": "018f209f8ed4de04cdca1140d7cae4bd0b0fbe99",
+  "a_commit": "53620afbf6312ac9faee41be8348145b1af6527d",
+  "b_commit": "29b21c7e667e19759e6d36bea6fc63cef958c692",
+  "object_count": 96,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

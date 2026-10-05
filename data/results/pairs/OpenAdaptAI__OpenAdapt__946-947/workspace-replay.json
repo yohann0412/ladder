@@ -1,0 +1,23 @@
+{
+  "pair_id": "OpenAdaptAI__OpenAdapt__946-947",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/OpenAdaptAI__OpenAdapt__946-947",
+  "source_base": "acdbb7b2236fcbb6f8da8e0162d394608d49d33e",
+  "source_a": "004c55a337ec0c8baa6e278e5a141c086aa737fa",
+  "source_b": "4900fbce38ae3e553def6c049f79874877042efa",
+  "base_commit": "25c1981428ae7ca42e0728030e72f17caa02a301",
+  "a_commit": "4f181beb27bd30b6c62a40c326ef6e1f6f23ee10",
+  "b_commit": "412a63d98ea5b26420e31e6fbac594061d2ab144",
+  "object_count": 372,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

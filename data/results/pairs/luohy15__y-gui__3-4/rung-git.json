@@ -2,7 +2,7 @@
   "pair_id": "luohy15__y-gui__3-4",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 3, conflicted files: 3 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 3, conflicted files: 3",
   "messages": [
     "CONFLICT (content): Merge conflict in frontend/src/components/ChatView/ChatView.tsx",
     "CONFLICT (content): Merge conflict in frontend/src/components/ChatView/MessageActions.tsx",

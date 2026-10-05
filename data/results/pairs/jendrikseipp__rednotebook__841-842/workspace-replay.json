@@ -1,0 +1,23 @@
+{
+  "pair_id": "jendrikseipp__rednotebook__841-842",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/jendrikseipp__rednotebook__841-842",
+  "source_base": "e1bfdb443af7c7690a027d1f396b8d469f7c952a",
+  "source_a": "80b4927fdd92f95b4567f15dcda5cc07a742ef8a",
+  "source_b": "dc6b2f6fe2f6e5c61e12f7b2e037ffd16c115b9b",
+  "base_commit": "5aced8076a5fc8b48802e74163924c7cf816251a",
+  "a_commit": "127506afcc07197dc1fd97587bb1addaf74cc77d",
+  "b_commit": "fc6d1baf0ce83d2430c39885dac432ac280c3e81",
+  "object_count": 289,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

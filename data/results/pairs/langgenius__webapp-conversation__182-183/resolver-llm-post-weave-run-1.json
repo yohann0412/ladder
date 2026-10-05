@@ -1,0 +1,31 @@
+{
+  "pair_id": "langgenius__webapp-conversation__182-183",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 104998,
+  "tokens": {
+    "input_tokens": 24,
+    "output_tokens": 2982,
+    "cache_creation_input_tokens": 76252,
+    "cache_read_input_tokens": 907358
+  },
+  "tool_calls": 18,
+  "files": [
+    {
+      "path": "app/components/base/streamdown-markdown.tsx",
+      "action": "keep",
+      "sha256": "7b85a65ec52f9f5d9290a1eaa1ef618fb43262cb2cef72cb2a0164f247fdea60",
+      "rationale": "Both sides added the identical Streamdown wrapper except for the container class, so the merge keeps PR B's superset class list 'markdown-body streamdown-markdown' so the existing markdown styles still apply and PR A's streamdown-markdown hook stays in place."
+    },
+    {
+      "path": "app/components/index.tsx",
+      "action": "keep",
+      "sha256": "723af685fea34d432cabdc4eff64607e8a05ffd18ea075d31ac2bbe123ba7bc8",
+      "rationale": "The merge keeps PR B's ESLint-v9 formatting, which weave already merged, and resolves the scroll effect with PR A's setTimeout plus scrollIntoView page-level auto-scroll, which matches PR A's single scroll container that holds the ref."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:03.382426Z"
+}

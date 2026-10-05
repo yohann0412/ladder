@@ -1,0 +1,23 @@
+{
+  "pair_id": "jina-ai__deepsearch-ui__18-21",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/jina-ai__deepsearch-ui__18-21",
+  "source_base": "f2fd675ad94c9d4168493a5b2df407644c84dcd7",
+  "source_a": "e2a1107eefd36b676dc453747d05b5381dd0385b",
+  "source_b": "2d6c0a38e53f81137887366d58f030a4935672e5",
+  "base_commit": "ec6cac9a8460129e9d1de909dbb7ee4d9ab8d89a",
+  "a_commit": "009e349436fb2c07cf37ff1bb9fdd612b7b965ad",
+  "b_commit": "6a88ed2b57f2b78b6f2cd60a4b3b852d4b4969fb",
+  "object_count": 35,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

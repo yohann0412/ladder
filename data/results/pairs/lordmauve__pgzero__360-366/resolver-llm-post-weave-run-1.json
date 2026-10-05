@@ -1,0 +1,25 @@
+{
+  "pair_id": "lordmauve__pgzero__360-366",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 26844,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 1344,
+    "cache_creation_input_tokens": 17990,
+    "cache_read_input_tokens": 315562
+  },
+  "tool_calls": 13,
+  "files": [
+    {
+      "path": ".github/workflows/test.yml",
+      "action": "keep",
+      "sha256": "ff57cc5411222b4efcaae8bf1adf7f4df5016146e498e1b8d53efdd9d1a8dc5b",
+      "rationale": "Combined PR B's OS matrix, SDL dummy-driver env and removal of xvfb/pulseaudio with PR A's uv setup and 'uv sync --group dev' (the requirements files are dropped by A), invoking flake8 and pytest via 'uv run' instead of '.venv/bin/' so the commands also work on the Windows runners B adds."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:03.761841Z"
+}

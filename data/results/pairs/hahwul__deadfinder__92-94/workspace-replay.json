@@ -1,0 +1,23 @@
+{
+  "pair_id": "hahwul__deadfinder__92-94",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/hahwul__deadfinder__92-94",
+  "source_base": "90a509a6de6080e0ba1626e37035d6e6ac49d99b",
+  "source_a": "4407974e77b997fccf5e8e9d3cb9707de55d91a2",
+  "source_b": "24a8382bda4799b0389dac79fa562d3ccb74858a",
+  "base_commit": "fdb34fdff54a6a71f293235b952fd1bbd85c47f4",
+  "a_commit": "f06ffb21cfe8c31c23ce6d25256860585c8c487f",
+  "b_commit": "6c36c449595d066b5254fa51bb848e85bcb6964a",
+  "object_count": 78,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

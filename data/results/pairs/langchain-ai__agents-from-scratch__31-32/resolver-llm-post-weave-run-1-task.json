@@ -1,0 +1,21 @@
+{
+  "pair_id": "langchain-ai__agents-from-scratch__31-32",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "task_dir": "/home/user/ladder/work/resolver/langchain-ai__agents-from-scratch__31-32/llm-post-weave/run-1",
+  "snapshot_dir": "/home/user/ladder/work/resolver/langchain-ai__agents-from-scratch__31-32/llm-post-weave/run-1/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/langchain-ai__agents-from-scratch__31-32/llm-post-weave/run-1",
+  "spawn_line": "Read /home/user/ladder/work/resolver/langchain-ai__agents-from-scratch__31-32/llm-post-weave/run-1/PROMPT.md and follow it exactly.",
+  "files": [
+    "notebooks/agent.ipynb",
+    "notebooks/evaluation.ipynb",
+    "notebooks/hitl.ipynb",
+    "notebooks/memory.ipynb"
+  ],
+  "input_bytes": 1086297,
+  "pr_text_flags": [],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "input_cap",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T05:30:52.663584Z"
+}

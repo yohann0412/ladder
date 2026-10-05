@@ -1,0 +1,23 @@
+{
+  "pair_id": "html2rss__html2rss__292-293",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/html2rss__html2rss__292-293",
+  "source_base": "caa975e7209995d785f8df166cba69541bc0c782",
+  "source_a": "b6b05545e05f2914e7a65fe11a33126a4f2044ed",
+  "source_b": "e0fefd6e775205452f56e3f7b045d0bd61378b0f",
+  "base_commit": "95fc03d77b300c5e543cae342d096a860673dd60",
+  "a_commit": "2aa7b0bea0155bf7d7ae4c82356bf5392be5607d",
+  "b_commit": "8f6128c8febf99568929b4a99fea028b5d51c335",
+  "object_count": 279,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "google-deepmind__gemma__322-323",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/google-deepmind__gemma__322-323",
+  "source_base": "e552410c50a38edcdf8122f96321373cafe9a252",
+  "source_a": "06f624fc083095cab0fb6bf16547bca42228d6c2",
+  "source_b": "dbff83cfcc6fec93b8df7df001c6fcebb2b60dc6",
+  "base_commit": "063b76567b00923558a9c8d612e5034437457c1b",
+  "a_commit": "62d2e965d476314719782a188a7703e09d4bd5f6",
+  "b_commit": "9a287035e044383a2e9921494667b1d50cc6bfb4",
+  "object_count": 181,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

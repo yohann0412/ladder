@@ -1,0 +1,40 @@
+{
+  "pair_id": "appknox__pyaxmlparser__88-90",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/appknox__pyaxmlparser__88-90/llm-post-weave/run-1/files/pyaxmlparser/arscutil.py",
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/appknox__pyaxmlparser__88-90/llm-post-weave/run-1/files"
+  ],
+  "duration_ms": 255903,
+  "tokens": {
+    "input_tokens": 46,
+    "output_tokens": 13991,
+    "cache_creation_input_tokens": 116768,
+    "cache_read_input_tokens": 2244116
+  },
+  "tool_calls": 32,
+  "files": [
+    {
+      "path": "pyaxmlparser/arscutil.py",
+      "action": "keep",
+      "sha256": "f1c50ce69d970c23704a890406154c6278149b771b2b37e855d3af4fe9dc78a0",
+      "rationale": "Imports both ResParserError and BufferUnderrunError, keeps PR A's graceful try/except handling in ARSCResTypeSpec, ARSCResTableEntry and ARSCComplex (with PR B's explicit per-item buffer checks and BufferUnderrunError handling folded in), and makes ARSCResStringPoolRef raise PR B's BufferUnderrunError on a short buffer (as B's test expects), which A's callers already catch."
+    },
+    {
+      "path": "pyaxmlparser/exceptions.py",
+      "action": "keep",
+      "sha256": "dec539ffb89142744644ec11ee5d1b4582043117bda416ac5326d4e12471e804",
+      "rationale": "Union of both add/add versions: a single ResParserError base with PR A's StringBlockError/ChunkError/NamespaceError/AttributeError/ValidationError plus PR B's BufferUnderrunError/InvalidStringPoolError/InvalidChunkError, since modules and tests from both sides import them."
+    },
+    {
+      "path": "pyaxmlparser/stringblock.py",
+      "action": "keep",
+      "sha256": "544d397748f6a516da205365c6d8282afb4e7bc45b9b1d2127e6a92eedcd9f8e",
+      "rationale": "Keeps PR A's type hints, bytes charbuff, getStyle/_decode_bytes validation and StringBlockError wrapping, while using PR B's BufferUnderrunError/InvalidStringPoolError for boundary and length errors with getString's placeholder fallback and warning-only null-terminator checks, and drops weave's duplicated decode block in getString."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:02.334417Z"
+}

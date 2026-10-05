@@ -1,0 +1,23 @@
+{
+  "pair_id": "Azure__azure-mcp__394-525",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Azure__azure-mcp__394-525",
+  "source_base": "1bec3dab2c40e5381c6a7caa55a7c0bc9a229540",
+  "source_a": "254cadb0933fb30a50b046654fc9f764d552789c",
+  "source_b": "5edcdb7c9b631897fced8817e60f176db6084366",
+  "base_commit": "b22e2d27f86cf0e34d11f5c2a8fcb51b734b72ba",
+  "a_commit": "c854fcd23d200d5c09c34850571914566698f9eb",
+  "b_commit": "24ae78102642a5aeaca1a2fc803918f2b7310502",
+  "object_count": 1627,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

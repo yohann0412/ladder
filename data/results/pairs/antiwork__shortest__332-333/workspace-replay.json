@@ -1,0 +1,23 @@
+{
+  "pair_id": "antiwork__shortest__332-333",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/antiwork__shortest__332-333",
+  "source_base": "9f0c8affb2a3869f4f98eebd8f529ca3650a2006",
+  "source_a": "e818876b52f403dfbf60b7d6ab639411ac080c4d",
+  "source_b": "017bf659c008b03c5860c017f3fdc27c27bcceae",
+  "base_commit": "7076d558c298f3e6a5890c72fbd77f00034b5a07",
+  "a_commit": "69580d677537215318056928ace84fba0f0b7547",
+  "b_commit": "484c51e20b50719abd0511f16b6615fd17cb561c",
+  "object_count": 258,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

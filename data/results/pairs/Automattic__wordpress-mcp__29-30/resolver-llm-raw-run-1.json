@@ -1,0 +1,25 @@
+{
+  "pair_id": "Automattic__wordpress-mcp__29-30",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 65303,
+  "tokens": {
+    "input_tokens": 14,
+    "output_tokens": 1045,
+    "cache_creation_input_tokens": 51131,
+    "cache_read_input_tokens": 429204
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "includes/Core/McpProxyRoutes.php",
+      "action": "keep",
+      "sha256": "38932cb14decf58bcef4ea46afaa6aca0285bbe53510b7355e9bf140be7067d7",
+      "rationale": "list_tools now first picks all tools (admin with 'all') or only the enabled tools (PR B) and then filters that set by each tool's permission callback (PR A), while call_tool keeps both PR B's disabled-tool check and PR A's error mapping."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:35:58.972578Z"
+}

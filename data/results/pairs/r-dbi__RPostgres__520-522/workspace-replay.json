@@ -1,0 +1,23 @@
+{
+  "pair_id": "r-dbi__RPostgres__520-522",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/r-dbi__RPostgres__520-522",
+  "source_base": "9f04e066c7df35a650660825b9ff72b79d620029",
+  "source_a": "1455aa293fc37f379aae1d1af05342f95a5b8b42",
+  "source_b": "f3ba67977d5038042528ab71892690237de486a7",
+  "base_commit": "a2dd341843245b33651be798ae552b8bd417a837",
+  "a_commit": "1ce705f361ea43e55d5cf24490dcc82056a653e0",
+  "b_commit": "829226220c2b60097e94ce5488fa5fc5a783ebf0",
+  "object_count": 1548,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

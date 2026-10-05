@@ -1,0 +1,21 @@
+{
+  "pair_id": "johnpapa__shopathome__217-219",
+  "rung": "llm-raw",
+  "run": 1,
+  "task_dir": "/home/user/ladder/work/resolver/johnpapa__shopathome__217-219/llm-raw/run-1",
+  "snapshot_dir": "/home/user/ladder/work/resolver/johnpapa__shopathome__217-219/llm-raw/run-1/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/johnpapa__shopathome__217-219/llm-raw/run-1",
+  "spawn_line": "Read /home/user/ladder/work/resolver/johnpapa__shopathome__217-219/llm-raw/run-1/PROMPT.md and follow it exactly.",
+  "files": [
+    "angular-app/package-lock.json",
+    "angular-app/package.json"
+  ],
+  "input_bytes": 3669639,
+  "pr_text_flags": [
+    "conflict"
+  ],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "input_cap",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T05:39:13.866486Z"
+}

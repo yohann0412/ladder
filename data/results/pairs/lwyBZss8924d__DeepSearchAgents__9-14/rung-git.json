@@ -2,7 +2,7 @@
   "pair_id": "lwyBZss8924d__DeepSearchAgents__9-14",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 1, conflicted files: 1 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 1, conflicted files: 1",
   "messages": [
     "CONFLICT (add/add): Merge conflict in src/agents/servers/run_fastmcp.py"
   ],

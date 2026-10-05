@@ -1,0 +1,27 @@
+{
+  "pair_id": "AzureCosmosDB__data-migration-desktop-tool__209-211",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Read outside the task directory: /home/user/ladder/work/resolutions/AzureCosmosDB__data-migration-desktop-tool__209-211/llm-raw/run-1/files/Core/Cosmos.DataTransfer.Core/RunCommand.cs"
+  ],
+  "duration_ms": 78354,
+  "tokens": {
+    "input_tokens": 22,
+    "output_tokens": 1801,
+    "cache_creation_input_tokens": 36765,
+    "cache_read_input_tokens": 632008
+  },
+  "tool_calls": 13,
+  "files": [
+    {
+      "path": "Core/Cosmos.DataTransfer.Core/RunCommand.cs",
+      "action": "keep",
+      "sha256": "5c0a4e49ac02d342c3621ccabce8314013dae639d5406767e291ca734b3ce43d",
+      "rationale": "Kept PR A's validated sourceValue/sinkValue arguments, which already come from the null-conditional options?.Source/options?.Sink that PR B wanted for CS8602, so the merge keeps both A's fail-fast validation and B's null-safety."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:35:59.253143Z"
+}

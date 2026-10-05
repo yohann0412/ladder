@@ -1,0 +1,15 @@
+{
+  "pair_id": "antiwork__shortest__349-352",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:35:07.353371Z"
+}

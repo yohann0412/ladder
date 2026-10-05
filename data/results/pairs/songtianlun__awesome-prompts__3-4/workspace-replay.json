@@ -1,0 +1,23 @@
+{
+  "pair_id": "songtianlun__awesome-prompts__3-4",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/songtianlun__awesome-prompts__3-4",
+  "source_base": "62be5298dfdebe6e7a460d4f67fffb11df2f8cce",
+  "source_a": "8fab9f115174149547dc6662fff42400d10f927e",
+  "source_b": "60773b2e0bc4f33342a16fb97ffa43894f29aba1",
+  "base_commit": "127e1d9bf5514e6276b485cabc4603778dfb52e4",
+  "a_commit": "bb0f15435069336900e18648da199688329ea619",
+  "b_commit": "bb55c93bb46d32d558fc4813c9efa1a55231771f",
+  "object_count": 47,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

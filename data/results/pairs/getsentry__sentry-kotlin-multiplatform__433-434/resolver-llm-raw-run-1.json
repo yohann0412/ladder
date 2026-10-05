@@ -1,0 +1,25 @@
+{
+  "pair_id": "getsentry__sentry-kotlin-multiplatform__433-434",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 24901,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 719,
+    "cache_creation_input_tokens": 22368,
+    "cache_read_input_tokens": 230891
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "sentry-kotlin-multiplatform/src/appleMain/kotlin/io/sentry/kotlin/multiplatform/nsexception/Throwable.kt",
+      "action": "keep",
+      "sha256": "058185f11cd176f161a32a51538bf93cb863be2074385af827b6405da07ab9ad",
+      "rationale": "Both PRs fix the same out-of-bounds access in dropCommonAddresses with behaviorally equivalent logic (A starts at lastIndex and checks i >= 0, B starts at size and checks i-- > 0), so only one fix is kept, PR B's minimal version, which matches the tests it adds."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:40:37.806099Z"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "Wan-Video__Wan2.1__108-126",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 93149,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 662,
+    "cache_creation_input_tokens": 40011,
+    "cache_read_input_tokens": 242829
+  },
+  "tool_calls": 7,
+  "files": [
+    {
+      "path": "wan/utils/fm_solvers_unipc.py",
+      "action": "keep",
+      "sha256": "00c8217ee238f3cc412a1e8958fef7732e672ee51924b83fae4f5187434a143c",
+      "rationale": "Both PRs make the identical fix of wrapping the lower_order_final order computation in max(1, ...) and differ only in the spacing before the trailing comment, so the PEP 8-conformant two-space version from PR A was kept."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:02.160459Z"
+}

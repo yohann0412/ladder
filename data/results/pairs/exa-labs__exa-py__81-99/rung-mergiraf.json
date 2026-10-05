@@ -1,0 +1,20 @@
+{
+  "pair_id": "exa-labs__exa-py__81-99",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "exa_py/api.py"
+  ],
+  "files": [
+    {
+      "path": "exa_py/api.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/exa-labs__exa-py__81-99/mergiraf"
+}

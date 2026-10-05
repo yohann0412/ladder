@@ -1,0 +1,31 @@
+{
+  "pair_id": "fregante__chrome-webstore-upload__107-108",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 35270,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 1062,
+    "cache_creation_input_tokens": 29067,
+    "cache_read_input_tokens": 299209
+  },
+  "tool_calls": 13,
+  "files": [
+    {
+      "path": ".gitignore",
+      "action": "keep",
+      "sha256": "a630131d0279ccbed80607a1a6c8cfe3cd59de4bee83850bbb0256bb16fe178e",
+      "rationale": "Union of both sides: keeps PR A's ignored zip-dir build outputs and PR B's ignored errors/types build outputs."
+    },
+    {
+      "path": "source/index.ts",
+      "action": "keep",
+      "sha256": "24a3771f8c4648dcd4111baf360c7ed244bc79f55152a6ac97765b9989aa21fb",
+      "rationale": "Combines PR A's fs/zip-dir imports and getStreamFromPath helper (for path-based uploads) with PR B's imports of throwIfNotOk and shared types from errors.ts/types.ts and its re-exports, dropping the inline type definitions and old throwIfNotOk that PR B moved out."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:02.647018Z"
+}

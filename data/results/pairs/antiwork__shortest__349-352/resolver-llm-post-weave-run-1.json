@@ -1,0 +1,25 @@
+{
+  "pair_id": "antiwork__shortest__349-352",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 17000,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 483,
+    "cache_creation_input_tokens": 16091,
+    "cache_read_input_tokens": 169756
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "eslint.config.js",
+      "action": "keep",
+      "sha256": "75c518178226713bff9a159d4136499a78038d366dc78846bc784024c3476614",
+      "rationale": "Both PRs add an independent ESLint rule at the same spot, so the merge keeps PR A's logical-assignment-operators rule and PR B's no-alert rule side by side and drops the weave trailer comment."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:40:36.588836Z"
+}

@@ -1,0 +1,43 @@
+{
+  "pair_id": "featureform__enrichmcp__45-46",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 180794,
+  "tokens": {
+    "input_tokens": 30,
+    "output_tokens": 5745,
+    "cache_creation_input_tokens": 129789,
+    "cache_read_input_tokens": 1674416
+  },
+  "tool_calls": 28,
+  "files": [
+    {
+      "path": "examples/sqlalchemy_shop/app.py",
+      "action": "keep",
+      "sha256": "c320e104352586cbdcc6052120378380813fe4d34eea40418aab57cfebc3634c",
+      "rationale": "Kept PR A's switch to sqlalchemy_lifespan with seed_database defined before the app (dropping the hand-written lifespan, AsyncSessionMaker and unused imports) while adopting PR B's lint-friendly trailing-comma formatting of the model columns."
+    },
+    {
+      "path": "src/enrichmcp/__init__.py",
+      "action": "keep",
+      "sha256": "4d1e170d8fff3a636d070e09117a66835450926fa7744806be3e3cbd131928df",
+      "rationale": "Kept PR A's optional import block, which already carries B's noqa F401 fix and additionally exports sqlalchemy_lifespan; the flag is referenced nowhere else, so A's has_sqlalchemy name supersedes B's HAS_SQLALCHEMY rename."
+    },
+    {
+      "path": "src/enrichmcp/sqlalchemy/mixin.py",
+      "action": "keep",
+      "sha256": "dd04f2283bee10dfbb5ab78866fddeaf8aee0bc894eddf11f902c5830693c6ef",
+      "rationale": "PR A only reformatted these lines, so PR B's typing tweaks (pyright ignores, TypeEngine[Any] -> type[Any]) are taken on top of the shared modernized code."
+    },
+    {
+      "path": "tests/test_sqlalchemy_integration.py",
+      "action": "keep",
+      "sha256": "c8fc71dd0936bc62aeb1c85a0b617adbea8c959ebe9813bf9b79c31fa412e540",
+      "rationale": "Took PR B's snake_case variable names, `is` type comparisons and trailing-comma formatting (making A's file-level ruff noqa unnecessary) while keeping PR A's `import types` and UnionType-aware Optional assertions and the lowercase list comment needed by the PEP 604 mixin output."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:02.600315Z"
+}

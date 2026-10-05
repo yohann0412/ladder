@@ -1,0 +1,15 @@
+{
+  "pair_id": "langchain-ai__agents-from-scratch__31-32",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T05:30:52.454896Z"
+}

@@ -1,0 +1,20 @@
+{
+  "pair_id": "serilog-contrib__serilog-enrichers-clientinfo__54-55",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "test/Serilog.Enrichers.ClientInfo.Tests/Serilog.Enrichers.ClientInfo.Tests.csproj"
+  ],
+  "files": [
+    {
+      "path": "test/Serilog.Enrichers.ClientInfo.Tests/Serilog.Enrichers.ClientInfo.Tests.csproj",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/serilog-contrib__serilog-enrichers-clientinfo__54-55/mergiraf"
+}

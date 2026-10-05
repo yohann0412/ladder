@@ -1,0 +1,28 @@
+{
+  "pair_id": "reneschulte__WriteableBitmapEx__105-106",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 2",
+  "remaining_conflicted": [
+    "NUGET_PACKAGE_BUILD.md",
+    "Nuget/WriteableBitmapEx.nuspec"
+  ],
+  "files": [
+    {
+      "path": "NUGET_PACKAGE_BUILD.md",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "Nuget/WriteableBitmapEx.nuspec",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/reneschulte__WriteableBitmapEx__105-106/weave"
+}

@@ -1,0 +1,18 @@
+{
+  "pair_id": "antiwork__shortest__349-352",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "resolved",
+  "detail": "unmerged paths left: 0 of 1",
+  "remaining_conflicted": [],
+  "files": [
+    {
+      "path": "eslint.config.js",
+      "present": true,
+      "has_markers": false,
+      "language": "javascript",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/antiwork__shortest__349-352/mergiraf"
+}

@@ -1,0 +1,25 @@
+{
+  "pair_id": "bradleygolden__claude-marketplace-elixir__146-147",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 38560,
+  "tokens": {
+    "input_tokens": 12,
+    "output_tokens": 1108,
+    "cache_creation_input_tokens": 52876,
+    "cache_read_input_tokens": 321282
+  },
+  "tool_calls": 10,
+  "files": [
+    {
+      "path": "lib/claude/plugins/phoenix.ex",
+      "action": "keep",
+      "sha256": "d73385fc5a54faaed31d6ba724cc2793c47987032581655f8ff7f0c21b148ef8",
+      "rationale": "Kept PR A's incremental base_config builder (optional Tidewave, nested memories, server_check hooks and helpers, docs) and added PR B's inline_usage_rules: [\"phoenix\"] entry to the config map, discarding weave's duplicated/garbled fragment."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:02.471589Z"
+}

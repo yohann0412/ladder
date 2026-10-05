@@ -1,0 +1,33 @@
+{
+  "pair_id": "jina-ai__deepsearch-ui__21-22",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "protocol_violation",
+  "violations": [
+    "Grep outside the task directory: /home/user/ladder/work/resolutions/jina-ai__deepsearch-ui__21-22/llm-raw/run-1/files/index.html"
+  ],
+  "duration_ms": 237788,
+  "tokens": {
+    "input_tokens": 30,
+    "output_tokens": 4784,
+    "cache_creation_input_tokens": 70854,
+    "cache_read_input_tokens": 1081376
+  },
+  "tool_calls": 16,
+  "files": [
+    {
+      "path": "app.js",
+      "action": "keep",
+      "sha256": "e7cb62a4dfba99ecd61a3ee22e958a5c0de0aa65dff2ed432907f4b4044b8660",
+      "rationale": "Kept both additions: initializeSettings now restores the saved language (PR A) and the chirp-on-done toggle state (PR B), and both the language-select change listener and the chirp-on-done toggle change listener are registered before initializeSettings runs."
+    },
+    {
+      "path": "index.html",
+      "action": "keep",
+      "sha256": "df3954765eb59d235e4d9eb52abf72f3cc103d4286ae142d8a3ae527ec59bdf9",
+      "rationale": "The settings dialog now has the PR A language selector and the PR B 'Chirp on done' toggle as separate settings options, with the dark-theme toggle left first so applyTranslations' '.toggle-label' lookup still targets it."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:03.119082Z"
+}

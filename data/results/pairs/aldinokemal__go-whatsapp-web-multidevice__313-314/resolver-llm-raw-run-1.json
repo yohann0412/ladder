@@ -1,0 +1,25 @@
+{
+  "pair_id": "aldinokemal__go-whatsapp-web-multidevice__313-314",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 46345,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 592,
+    "cache_creation_input_tokens": 37390,
+    "cache_read_input_tokens": 258375
+  },
+  "tool_calls": 8,
+  "files": [
+    {
+      "path": "src/pkg/utils/general.go",
+      "action": "keep",
+      "sha256": "bd39a26ec4d40e829aec175296cc073e8b58942ab377cc317b604b0f0ec86d0a",
+      "rationale": "Both sides introduce the identical strict audio MIME allow-list with parameter stripping, so the merge keeps that shared change plus PR A's additional HTTP status-code check before content-type validation, alongside the already-merged size-limit hardening."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:40:36.532002Z"
+}

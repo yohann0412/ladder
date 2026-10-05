@@ -1,0 +1,31 @@
+{
+  "pair_id": "0xfurai__peekaping__91-92",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 45489,
+  "tokens": {
+    "input_tokens": 8,
+    "output_tokens": 343,
+    "cache_creation_input_tokens": 22876,
+    "cache_read_input_tokens": 171772
+  },
+  "tool_calls": 7,
+  "files": [
+    {
+      "path": "apps/server/src/modules/notification_channel/listener.go",
+      "action": "keep",
+      "sha256": "5e534a1ccaace85ffee4e9f159526d404a9bbfb919de8960482b919a7005a0e8",
+      "rationale": "Both PRs add an independent provider registration at the same spot, so the merge registers both the pushover and mattermost senders before matrix."
+    },
+    {
+      "path": "apps/web/src/app/notification-channels/components/create-edit-notification-channel.tsx",
+      "action": "keep",
+      "sha256": "b4a7d64bdc54071442c94718d89e89b5ae1507f6ad5a9923149df53ee2257068",
+      "rationale": "Both PRs add a new form type in the same four places (import, registry, schema union, type cast), so the merge includes both PushoverForm and MattermostForm entries everywhere."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:40:34.853313Z"
+}

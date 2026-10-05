@@ -1,0 +1,15 @@
+{
+  "pair_id": "aztfmod__terraform-provider-azurecaf__301-302",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: azurecaf/models_generated.go version conflicted has 281728 bytes, more than 200000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T05:34:33.254644Z"
+}

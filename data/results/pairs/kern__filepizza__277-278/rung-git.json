@@ -2,7 +2,7 @@
   "pair_id": "kern__filepizza__277-278",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 2, conflicted files: 2 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 2, conflicted files: 2",
   "messages": [
     "CONFLICT (content): Merge conflict in package.json",
     "CONFLICT (content): Merge conflict in pnpm-lock.yaml"

@@ -1,0 +1,23 @@
+{
+  "pair_id": "asynkron__protoactor-go__1164-1165",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/asynkron__protoactor-go__1164-1165",
+  "source_base": "b1c970bc0cd35d1c6a0b06ac343aed97d8506279",
+  "source_a": "e3ee52c11420c9c8fcfa10b4af62c46b6cccc5cd",
+  "source_b": "ab94874530569c9c55ad58d94aed0bf63e6a5564",
+  "base_commit": "c13e6ac5fba887aeb93d5789bf4c0931e098ff96",
+  "a_commit": "bd76b794811c7bd7ad91235cdb31c9219230d7f7",
+  "b_commit": "20eda82ab18ef1f2adf2c6679dc47ea946371e5f",
+  "object_count": 744,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

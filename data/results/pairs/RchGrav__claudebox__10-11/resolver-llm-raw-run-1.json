@@ -1,0 +1,25 @@
+{
+  "pair_id": "RchGrav__claudebox__10-11",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 193173,
+  "tokens": {
+    "input_tokens": 16,
+    "output_tokens": 2170,
+    "cache_creation_input_tokens": 98141,
+    "cache_read_input_tokens": 666446
+  },
+  "tool_calls": 12,
+  "files": [
+    {
+      "path": "claudebox",
+      "action": "keep",
+      "sha256": "4bd23a2721c1e98b6ecb5535d2f0f25f98a2b3579ff30b4a9d9ff7a04f31f72b",
+      "rationale": "Kept PR A's streamlined docker run that appends the --mcp-config path, and inserted PR B's parsed security flags (\"${BOX_FLAGS[@]}\") before the remaining args so both the MCP config and the stripped-and-forwarded flags reach the container."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:35:59.680784Z"
+}

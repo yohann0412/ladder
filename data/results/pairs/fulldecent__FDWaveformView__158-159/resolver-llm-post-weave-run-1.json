@@ -1,0 +1,25 @@
+{
+  "pair_id": "fulldecent__FDWaveformView__158-159",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 19448,
+  "tokens": {
+    "input_tokens": 10,
+    "output_tokens": 716,
+    "cache_creation_input_tokens": 21960,
+    "cache_read_input_tokens": 229241
+  },
+  "tool_calls": 9,
+  "files": [
+    {
+      "path": "README.md",
+      "action": "keep",
+      "sha256": "7286f4ee796ed99159d628558726cc386fde956f7c41fdc174c9b200ec081fdb",
+      "rationale": "Both PRs made the same API fix (progressSamples to highlightedSamples, zoomStart/EndSamples to a zoomSamples range) with only formatting differences, so B's concise range examples are used while A's 'now running on GitHub Actions' unit-test line is kept."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:02.703118Z"
+}

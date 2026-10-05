@@ -1,0 +1,31 @@
+{
+  "pair_id": "reneschulte__WriteableBitmapEx__105-106",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "ok",
+  "failure": null,
+  "violations": [],
+  "duration_ms": 50372,
+  "tokens": {
+    "input_tokens": 20,
+    "output_tokens": 1729,
+    "cache_creation_input_tokens": 37191,
+    "cache_read_input_tokens": 587487
+  },
+  "tool_calls": 16,
+  "files": [
+    {
+      "path": "NUGET_PACKAGE_BUILD.md",
+      "action": "keep",
+      "sha256": "53a6191c0b4cac12dc34d103833c442d1b59560698bc5ccc635ddd16bc7b6aa4",
+      "rationale": "PR B's removals are a superset of PR A's (dropping UWP and WinRT plus the Silverlight and Windows Phone SDK requirement and legacy build step), so the merged doc takes B's WPF-only instructions, which still fulfill A's UWP/WinRT removal."
+    },
+    {
+      "path": "Nuget/WriteableBitmapEx.nuspec",
+      "action": "keep",
+      "sha256": "bfbb150c5677d47fb82b8ed1bd71774b9e442b9fb989e6edae1dc5a5af2ffbe7",
+      "rationale": "Both PRs drop the UWP and WinRT entries and B additionally drops Silverlight and Windows Phone per the maintainer's request, so the merged nuspec keeps only the six WPF net40/netcoreapp3.0 file entries with B's WPF-only summary and the shared reduced tags."
+    }
+  ],
+  "finalized_at": "2026-10-05T05:36:04.999814Z"
+}

@@ -1,0 +1,43 @@
+{
+  "pair_id": "crewAIInc__crewAI-tools__163-164",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 3 of 4",
+  "remaining_conflicted": [
+    "crewai_tools/tools/file_read_tool/file_read_tool.py",
+    "crewai_tools/tools/linkup/linkup_search_tool.py",
+    "uv.lock"
+  ],
+  "files": [
+    {
+      "path": "crewai_tools/tools/file_read_tool/file_read_tool.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "crewai_tools/tools/linkup/linkup_search_tool.py",
+      "present": true,
+      "has_markers": true,
+      "language": "python",
+      "parses": false
+    },
+    {
+      "path": "tests/file_read_tool_test.py",
+      "present": true,
+      "has_markers": false,
+      "language": "python",
+      "parses": true
+    },
+    {
+      "path": "uv.lock",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/crewAIInc__crewAI-tools__163-164/weave"
+}

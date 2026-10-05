@@ -1,0 +1,20 @@
+{
+  "pair_id": "DistroAV__DistroAV__1314-1317",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "src/ndi-source.cpp"
+  ],
+  "files": [
+    {
+      "path": "src/ndi-source.cpp",
+      "present": true,
+      "has_markers": true,
+      "language": "cpp",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/DistroAV__DistroAV__1314-1317/mergiraf"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "thomasloupe__Slackord__113-114",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/thomasloupe__Slackord__113-114",
+  "source_base": "11547573697c0785643c457efe404c59843a21bf",
+  "source_a": "1943f928c99d7731f646da9924b1fd1d015dea80",
+  "source_b": "0b66f44580add667664e3b9eee9217564db4476c",
+  "base_commit": "07a5ed85c1f27d6438b25634fbd17e2c06e07d21",
+  "a_commit": "753fc4e66d3039fe16ea6dd9a214dca23068b63e",
+  "b_commit": "2229abeccfb8866049ac6a444cc6100ce491fcb0",
+  "object_count": 79,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

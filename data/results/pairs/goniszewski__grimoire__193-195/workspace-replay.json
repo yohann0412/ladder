@@ -1,0 +1,23 @@
+{
+  "pair_id": "goniszewski__grimoire__193-195",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/goniszewski__grimoire__193-195",
+  "source_base": "b39b70bd8b3da9cb88525bd9e1aa6daba3f81014",
+  "source_a": "913d1a1707da5e628b0c58bc02e751fde14750b0",
+  "source_b": "adc57cba9d3f8e35ec9a2e1785b5bbbd11c537b2",
+  "base_commit": "f5dc30617913b311f36d4d3c97e87dc3703910bc",
+  "a_commit": "0009f65491f504ed475841d709b6aade9b85e983",
+  "b_commit": "bbe299d8c4357948b9d5d889efd160d2086b18e8",
+  "object_count": 294,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

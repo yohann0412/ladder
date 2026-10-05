@@ -1,0 +1,23 @@
+{
+  "pair_id": "serilog-contrib__serilog-enrichers-clientinfo__54-55",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/serilog-contrib__serilog-enrichers-clientinfo__54-55",
+  "source_base": "7d79cb74777ce76010d384e9baf470bb1f920932",
+  "source_a": "a8cd0db4dae57a8785b5840d35bde7546ba65200",
+  "source_b": "55017bb90bea2aa7bb44a3ccb5f11020bd55d45f",
+  "base_commit": "14020719716056611f501c1cd131cbec99bcf039",
+  "a_commit": "c463f5caa02eba634597e87e78e86bb2404f143a",
+  "b_commit": "ea48875dd431b8f216c8eb11e06b6b95ae9d9c3d",
+  "object_count": 68,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

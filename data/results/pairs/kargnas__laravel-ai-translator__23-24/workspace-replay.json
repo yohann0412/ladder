@@ -1,0 +1,23 @@
+{
+  "pair_id": "kargnas__laravel-ai-translator__23-24",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/kargnas__laravel-ai-translator__23-24",
+  "source_base": "725fbe85c8b9012c6b30abef3ab365c574bb1d26",
+  "source_a": "643592edc50b4fbdab7b0b87bb2d92df75c3baac",
+  "source_b": "3637700642cf2e132ff81adf784cffc84d300f2c",
+  "base_commit": "f88287b2849ff3ef6b5ef93a42531bf0abd94b26",
+  "a_commit": "10983e3dd20804aa4578af6f5fcc4c2168191a07",
+  "b_commit": "3a2d2ab5540f95d70a74c066b4c4bb74d976e8bb",
+  "object_count": 118,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

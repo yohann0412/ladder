@@ -1,0 +1,23 @@
+{
+  "pair_id": "lwyBZss8924d__DeepSearchAgents__9-14",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/lwyBZss8924d__DeepSearchAgents__9-14",
+  "source_base": "a72b72033bb9364d762c22c6f85cce1b3491e457",
+  "source_a": "0a76293b1ff120b813e663833b8eb3ba86b10503",
+  "source_b": "ff203e716caf5d756d813c416cf50caec0848e9f",
+  "base_commit": "640824a17f6d4a1e8cbcb51fcae03f65855f0855",
+  "a_commit": "89f6a0f892e067556cef1cd962c920c5c4d0f270",
+  "b_commit": "40444554e2a4d289b7c61a25cfe0b20efbc733bc",
+  "object_count": 148,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

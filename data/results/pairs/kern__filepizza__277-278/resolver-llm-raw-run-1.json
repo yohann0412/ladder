@@ -1,0 +1,17 @@
+{
+  "pair_id": "kern__filepizza__277-278",
+  "rung": "llm-raw",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: pnpm-lock.yaml version a has 239358 bytes, more than 200000",
+    "input cap: pnpm-lock.yaml version conflicted has 239476 bytes, more than 200000",
+    "input cap: 847684 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T05:38:54.050193Z"
+}

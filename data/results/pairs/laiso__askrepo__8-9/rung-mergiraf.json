@@ -1,0 +1,36 @@
+{
+  "pair_id": "laiso__askrepo__8-9",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 3 of 3",
+  "remaining_conflicted": [
+    ".github/workflows/ci.yml",
+    ".vscode/launch.json",
+    ".vscode/tasks.json"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": ".vscode/launch.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    },
+    {
+      "path": ".vscode/tasks.json",
+      "present": true,
+      "has_markers": false,
+      "language": "json",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/laiso__askrepo__8-9/mergiraf"
+}

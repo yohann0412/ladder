@@ -1,0 +1,35 @@
+{
+  "pair_id": "luohy15__y-gui__3-4",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 3",
+  "remaining_conflicted": [
+    "frontend/src/components/ChatView/ChatView.tsx",
+    "frontend/src/components/ChatView/MessageActions.tsx"
+  ],
+  "files": [
+    {
+      "path": "frontend/src/components/ChatView/ChatView.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    },
+    {
+      "path": "frontend/src/components/ChatView/MessageActions.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    },
+    {
+      "path": "frontend/src/components/ChatView/MessageItem.tsx",
+      "present": true,
+      "has_markers": false,
+      "language": "tsx",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/luohy15__y-gui__3-4/mergiraf"
+}
