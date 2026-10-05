@@ -343,3 +343,24 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   - Free space went from 0 to 16 GiB.
 - From now on, preparation runs only while no resolver is running, with a 10 GiB floor, and
   the Unity pair is prepared last, alone.
+
+## 18. Transcript line splitting, waves 6 to 8, and an interrupted prune
+
+- **Transcripts that could not be parsed.** Both moonbitlang__core__2267-2422 transcripts quote
+  U+2028 and U+2029 from a test file. `str.splitlines()` splits on those characters, so the
+  audit reported both transcripts as unparseable. Test `7d2e1eb`, fix `347541d`: JSON Lines
+  are now split on `\n` only. Both runs were then recorded as `ok`. No other record changed.
+- **Waves 6 to 8.** 93 resolver runs, prepared one wave at a time and only while no resolver
+  was running (D21). Failures are recorded as failed. Three resolvers read outside their
+  task directory in a way D20 does not cover: one used Bash, one read a harness spill file,
+  and one Grep-checked its own output twice and said so in its report. All three stay
+  `failed: protocol_violation` and none is re-run.
+- **Interrupted prune.** A worker restart killed `ladder run --prune` while it was rebuilding
+  theopenco__llmgateway__208-354. `run` rebuilds any pruned working copy before going on,
+  and trusts any directory that exists. A copy cut off part-way would therefore have been
+  read later as if it were complete. The pair's copies were deleted by hand before the next
+  run. Test `1a10d1e` reproduces the case: each working copy must carry a completion mark,
+  and a directory without one is rebuilt. The fix is in progress.
+- **Wasted rebuilds.** Pruning a pair that was already pruned rebuilds its workspace first
+  and then deletes it again. This happened for about 20 wave-8 pairs. It costs time only,
+  because records are never rewritten when they exist.
