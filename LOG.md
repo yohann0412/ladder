@@ -430,3 +430,9 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   stopped, free disk below the 3 GiB floor`. The guard worked as designed. The pair stays
   excluded and is reported under that cause. It is not run again: re-running only the
   pairs whose outcome was a failure would be a choice made after seeing outcomes.
+- 10:26: Claim C paused after wave c01 (stop file checked between waves). Claim C is
+  first in the cut order and the final pass is never cut. On 4 cores the two passes
+  slowed each other: load average 6 to 7, about 3 minutes per pair. Running them together
+  also pushes more suites past their wall-clock caps. The final pass now runs alone.
+  Claim C resumes at c02 in the same D19 order once it is done. This is a pause, not a
+  cut: no pair is skipped.
