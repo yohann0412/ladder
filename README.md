@@ -1,3 +1,65 @@
 # ladder
 
-Work in progress. See PLAN.md.
+When two AI coding agents open pull requests against the same repository at the same
+time, their changes can conflict. `ladder` measures how far up a ladder of increasingly
+capable merge tools those conflicts have to climb before they are resolved:
+
+1. **git**: the default three-way merge (`git merge-tree`, diff3);
+2. **structural**: the free structural merge drivers [weave](https://www.npmjs.com/package/@ataraxy-labs/weave)
+   and [mergiraf](https://mergiraf.org), run as git merge drivers;
+3. **LLM**: a fresh-context resolver agent that sees both PRs' descriptions and the
+   conflicted files, either from git's markers (llm-raw) or from what weave left
+   (llm-post-weave).
+
+Every rung's output is compared with the resolution the maintainers actually merged:
+mergeable, equivalent under a normalized syntax tree, and whether it drops a change one of
+the PRs made (intent). Where a test suite runs, it is also run on each side and on the
+merge. The pairs come from the replication package of the agent-PR merge-conflict replay
+study (Zenodo 10.5281/zenodo.21186464), plus a supplementary sample drawn from AIDev by a
+fixed rule.
+
+**Results are in [RESULTS.md](RESULTS.md).**
+
+## 30-second quickstart
+
+```sh
+just setup                      # Python environment (uv)
+just tools                      # pinned weave and mergiraf into .tools/
+just fixture                    # a small synthetic repository with 10 scenarios
+just ladder --fixture --no-llm  # git and structural rungs on every scenario
+```
+
+The last command prints one row per scenario and checks it against
+`fixtures/expected.json`. Running the LLM rung needs an agent harness. See
+[HOW_TO_RUN_LOCALLY.md](HOW_TO_RUN_LOCALLY.md), which also covers the full experiment.
+
+## What it does not do
+
+- It is not a merge tool. It measures merge tools, and it never resolves a conflict itself.
+- It calls no LLM API and needs no API key. LLM resolutions come from subagents of a
+  harness, and each one is audited from its transcript.
+- It does not edit resolver outputs, re-run resolvers whose output looked wrong, or pick
+  the best rung after the fact. The practical ladder (first mergeable rung, in a fixed
+  order) decides the claims; the oracle ladder is reported only as an upper bound.
+- It does not judge whether a merge is good in general. "Human-equivalent" means
+  equivalent to what the maintainers merged, and "intent" means the changed lines and
+  definitions of each PR survive.
+- It does not sandbox the repositories whose tests it runs. Run Claim C and the
+  tests-based scores only in a disposable machine.
+
+## Repository map
+
+| Path | What it holds |
+|------|---------------|
+| `src/ladder/` | the harness: one small module per job |
+| `e2e/` | one end-to-end acceptance test per feature, against real git repositories |
+| `fixtures/` | the deterministic fixture generator, expected outcomes, a recorded resolver run |
+| `resolver/` | the fixed resolver prompt template and agent definition |
+| `data/` | vendored pair sources, `pairs.json`, and every result record |
+| `PLAN.md`, `PLAN_REVIEW.md`, `DECISIONS.md`, `RISKS.md` | the pre-registered plan, its review, decisions made on the way, risks |
+| `LOG.md` | what happened, in order, including what went wrong |
+| `reviews/` | a review of each feature and of each phase's protocol |
+
+## License
+
+MIT, see [LICENSE](LICENSE).
