@@ -1,0 +1,79 @@
+{
+  "pair_id": "superfly__flyctl__4456-4463",
+  "rung": "weave",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": true,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": true,
+  "intent_preserved_b": true,
+  "intent_drops": [],
+  "files": [
+    {
+      "path": "internal/appconfig/config.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": {
+    "status": "passed",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 219,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 37.6,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "dependency manifests differ from base (go.mod, go.sum); installed again; 219 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "tests_a": {
+    "status": "capped",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./internal/command/deploy"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 18.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "dependency manifests differ from base (go.mod, go.sum); installed again; suite stopped, free disk below the 3 GiB floor; go test runs the whole packages of the selected files"
+  },
+  "tests_b": {
+    "status": "error",
+    "command": [
+      "go",
+      "mod",
+      "download"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "dependency manifests differ from base (go.mod, go.sum); installed again; install failed: install: stopped, free disk below the 3 GiB floor"
+  }
+}

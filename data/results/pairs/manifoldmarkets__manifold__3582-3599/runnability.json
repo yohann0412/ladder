@@ -1,0 +1,15 @@
+{
+  "pair_id": "manifoldmarkets__manifold__3582-3599",
+  "commit": "d0f245d144420e3db013b9fc6671c2ef8577796c",
+  "language": "node",
+  "package_manager": "yarn",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
