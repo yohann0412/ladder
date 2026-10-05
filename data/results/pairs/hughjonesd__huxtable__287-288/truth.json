@@ -1,0 +1,21 @@
+{
+  "pair_id": "hughjonesd__huxtable__287-288",
+  "status": "located",
+  "commit": "d3b6c7840747e4450fd29aeee415afe451ea818e",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "R/html.R",
+      "present": true,
+      "sha256": "d182e4160644200785795bf9dcd2f95eaa494b77fb6a083970297553cf626e18"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "NEWS.md",
+    "man/huxtable-news.Rd"
+  ],
+  "outside_region_edit": [],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:40:59.244100Z"
+}

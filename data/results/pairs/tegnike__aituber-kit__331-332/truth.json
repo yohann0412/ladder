@@ -1,0 +1,81 @@
+{
+  "pair_id": "tegnike__aituber-kit__331-332",
+  "status": "located",
+  "commit": "c9322aa9f3e11139e11fe2c7c0d2fe41b2fe0647",
+  "method": "merge_parent",
+  "files": [
+    {
+      "path": "locales/ar/translation.json",
+      "present": true,
+      "sha256": "5cc776dd15a0d37188a9da34ec523f63e44b1cb06b06ba69e43590efefd64216"
+    },
+    {
+      "path": "locales/de/translation.json",
+      "present": true,
+      "sha256": "b89506b1da2e7f64ec4aaca66e71e9f28fb1629f8f2860d5d088050558cae75f"
+    },
+    {
+      "path": "locales/es/translation.json",
+      "present": true,
+      "sha256": "62d110729824248b904f6d63d89a4be351171e6836536188bcecfedcbd93ffd2"
+    },
+    {
+      "path": "locales/fr/translation.json",
+      "present": true,
+      "sha256": "1f517b2788cd74093d3d1afb5a55058383c737ea08458a2b0e44d0a2791ecc74"
+    },
+    {
+      "path": "locales/hi/translation.json",
+      "present": true,
+      "sha256": "937ba06bc9b5bf9d8252e80391e3596ae0fc325d4e0f497ab43bde2c04801507"
+    },
+    {
+      "path": "locales/it/translation.json",
+      "present": true,
+      "sha256": "3edf6ff1bce9a624c3026359328858032cbe2275b27d01b84c177b6c24116ac2"
+    },
+    {
+      "path": "locales/pl/translation.json",
+      "present": true,
+      "sha256": "d7691c546ce32c9743f9fbd04307c297d1f7b06881c513f697f23eaa90e884ba"
+    },
+    {
+      "path": "locales/pt/translation.json",
+      "present": true,
+      "sha256": "e541bc0abab1a2ced1ade3fe791d0387e5359d97546d62008d7fc0659678521e"
+    },
+    {
+      "path": "locales/ru/translation.json",
+      "present": true,
+      "sha256": "6977a9f4936192eeab701f87a309123441912206618392cae4a4a9dba2700488"
+    }
+  ],
+  "touched_beyond_conflict": [
+    ".env.example",
+    ".gitignore",
+    "locales/en/translation.json",
+    "locales/ja/translation.json",
+    "locales/ko/translation.json",
+    "locales/th/translation.json",
+    "locales/vi/translation.json",
+    "locales/zh/translation.json",
+    "public/backgrounds/bg-c.png",
+    "public/slides/demo/supplement.txt",
+    "src/components/settings/based.tsx",
+    "src/components/settings/other.tsx",
+    "src/features/stores/home.ts",
+    "src/pages/api/get-background-list.ts",
+    "src/pages/api/upload-background.ts",
+    "src/utils/buildUrl.ts",
+    "website/document/en/guide/basic-settings.md",
+    "website/document/en/guide/environment-variables.md",
+    "website/document/guide/basic-settings.md",
+    "website/document/guide/environment-variables.md",
+    "website/document/zh/guide/basic-settings.md",
+    "website/document/zh/guide/environment-variables.md"
+  ],
+  "outside_region_edit": [],
+  "rewrite": true,
+  "leak_head_equals_truth": true,
+  "extracted_at": "2026-10-05T13:41:15.752852Z"
+}

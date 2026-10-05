@@ -1,0 +1,81 @@
+{
+  "pair_id": "PyO3__maturin__2672-2674",
+  "commit": "64dfe13ae95888b6b6d4cb54541c813ea7c41064",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "suite does not load at base: 15 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/PyO3__maturin__2672-2674/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/PyO3__maturin__2672-2674/trees/base",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 67.2,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 65.1 s; suite failed: 0 passed, 0 failed, 15 errors, 0 skipped (work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/cffi-mixed/test_cffi_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.cffi-mixed.test_cffi_mixed, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/cffi-pure/test_cffi_pure.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.cffi-pure.test_cffi_pure, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-ffi-pure/test_pyo3_ffi_pure.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-ffi-pure.test_pyo3_ffi_pure, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed/tests/test_pyo3_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed.tests.test_pyo3_mixed, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed-implicit/tests/test_pyo3_mixed_implicit.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed-implicit.tests.test_pyo3_mixed_implicit); first run failed: 0 passed, 0 failed, 15 errors, 0 skipped (work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/cffi-mixed/test_cffi_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.cffi-mixed.test_cffi_mixed, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/cffi-pure/test_cffi_pure.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.cffi-pure.test_cffi_pure, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-ffi-pure/test_pyo3_ffi_pure.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-ffi-pure.test_pyo3_ffi_pure, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed/tests/test_pyo3_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed.tests.test_pyo3_mixed, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed-implicit/tests/test_pyo3_mixed_implicit.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed-implicit.tests.test_pyo3_mixed_implicit)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/PyO3__maturin__2672-2674/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/PyO3__maturin__2672-2674/trees/base",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 121.7,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 119.8 s; suite failed: 0 passed, 0 failed, 15 errors, 0 skipped (work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/cffi-mixed/test_cffi_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.cffi-mixed.test_cffi_mixed, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/cffi-pure/test_cffi_pure.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.cffi-pure.test_cffi_pure, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-ffi-pure/test_pyo3_ffi_pure.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-ffi-pure.test_pyo3_ffi_pure, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed/tests/test_pyo3_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed.tests.test_pyo3_mixed, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed-implicit/tests/test_pyo3_mixed_implicit.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed-implicit.tests.test_pyo3_mixed_implicit); first run failed: 0 passed, 0 failed, 15 errors, 0 skipped (work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/cffi-mixed/test_cffi_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.cffi-mixed.test_cffi_mixed, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/cffi-pure/test_cffi_pure.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.cffi-pure.test_cffi_pure, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-ffi-pure/test_pyo3_ffi_pure.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-ffi-pure.test_pyo3_ffi_pure, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed/tests/test_pyo3_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed.tests.test_pyo3_mixed, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed-implicit/tests/test_pyo3_mixed_implicit.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed-implicit.tests.test_pyo3_mixed_implicit)"
+    }
+  ],
+  "test_count": 15,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/PyO3__maturin__2672-2674/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/PyO3__maturin__2672-2674/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 15,
+    "skipped": 0,
+    "duration_s": 0.9,
+    "retried": true,
+    "failing_tests": [
+      "work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/cffi-mixed/test_cffi_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.cffi-mixed.test_cffi_mixed",
+      "work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/cffi-pure/test_cffi_pure.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.cffi-pure.test_cffi_pure",
+      "work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-ffi-pure/test_pyo3_ffi_pure.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-ffi-pure.test_pyo3_ffi_pure",
+      "work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed/tests/test_pyo3_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed.tests.test_pyo3_mixed",
+      "work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed-implicit/tests/test_pyo3_mixed_implicit.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed-implicit.tests.test_pyo3_mixed_implicit",
+      "work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed-include-exclude/tests/test_pyo3_mixed_include_exclude.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed-include-exclude.tests.test_pyo3_mixed_include_exclude",
+      "work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed-py-subdir/test_pyo3_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed-py-subdir.test_pyo3_mixed",
+      "work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed-src/src/tests/test_pyo3_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed-src.src.tests.test_pyo3_mixed",
+      "work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed-submodule/tests/test_pyo3_mixed_submodule.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed-submodule.tests.test_pyo3_mixed_submodule",
+      "work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed-with-path-dep/tests/test_pyo3_mixed_with_path_dep.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed-with-path-dep.tests.test_pyo3_mixed_with_path_dep",
+      "work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed-workspace/src/tests/test_pyo3_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed-workspace.src.tests.test_pyo3_mixed",
+      "work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-pure/tests/test_pyo3_pure.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-pure.tests.test_pyo3_pure",
+      "work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/uniffi-mixed/test_uniffi_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.uniffi-mixed.test_uniffi_mixed",
+      "work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/uniffi-pure/test_uniffi_pure.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.uniffi-pure.test_uniffi_pure",
+      "work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/uniffi-pure-proc-macro/test_uniffi_pure.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.uniffi-pure-proc-macro.test_uniffi_pure"
+    ],
+    "detail": "0 passed, 0 failed, 15 errors, 0 skipped (work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/cffi-mixed/test_cffi_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.cffi-mixed.test_cffi_mixed, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/cffi-pure/test_cffi_pure.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.cffi-pure.test_cffi_pure, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-ffi-pure/test_pyo3_ffi_pure.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-ffi-pure.test_pyo3_ffi_pure, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed/tests/test_pyo3_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed.tests.test_pyo3_mixed, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed-implicit/tests/test_pyo3_mixed_implicit.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed-implicit.tests.test_pyo3_mixed_implicit); first run failed: 0 passed, 0 failed, 15 errors, 0 skipped (work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/cffi-mixed/test_cffi_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.cffi-mixed.test_cffi_mixed, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/cffi-pure/test_cffi_pure.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.cffi-pure.test_cffi_pure, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-ffi-pure/test_pyo3_ffi_pure.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-ffi-pure.test_pyo3_ffi_pure, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed/tests/test_pyo3_mixed.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed.tests.test_pyo3_mixed, work/runtime/PyO3__maturin__2672-2674/trees/base/test-crates/pyo3-mixed-implicit/tests/test_pyo3_mixed_implicit.py::work.runtime.PyO3__maturin__2672-2674.trees.base.test-crates.pyo3-mixed-implicit.tests.test_pyo3_mixed_implicit)"
+  },
+  "timeout_s": 600
+}

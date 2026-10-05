@@ -1,0 +1,15 @@
+{
+  "pair_id": "hughjonesd__huxtable__287-288",
+  "commit": "e6a9039a4e07eadee1620e0dfcd4be17b6f16c8a",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
