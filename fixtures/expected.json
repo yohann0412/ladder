@@ -1,0 +1,950 @@
+{
+  "scenarios": [
+    {
+      "pair_id": "fx01",
+      "title": "Different functions, same file",
+      "resolve_status": "ok",
+      "contaminated": "none",
+      "truth_status": "located",
+      "truth_method": "merge_parent",
+      "truth_rewrite": false,
+      "rungs": {
+        "git-final": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": [
+            "textkit/core.py"
+          ],
+          "types": [
+            "content"
+          ],
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "git": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": [
+            "textkit/core.py"
+          ],
+          "types": [
+            "content"
+          ],
+          "parses": null,
+          "mergeable": false,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "weave": {
+          "basis": "design",
+          "status": "resolved",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": true,
+          "mergeable": true,
+          "human_equivalent": true,
+          "intent_loser": "none",
+          "tests_pass": null
+        },
+        "mergiraf": {
+          "basis": "design",
+          "status": "resolved",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": true,
+          "mergeable": true,
+          "human_equivalent": true,
+          "intent_loser": "none",
+          "tests_pass": null
+        },
+        "llm-raw": {
+          "basis": "observed",
+          "status": null,
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-post-weave": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "trap": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        }
+      },
+      "claim_c_fails_together": null
+    },
+    {
+      "pair_id": "fx02",
+      "title": "Same function, compatible edits",
+      "resolve_status": "ok",
+      "contaminated": "none",
+      "truth_status": "located",
+      "truth_method": "merge_parent",
+      "truth_rewrite": false,
+      "rungs": {
+        "git-final": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": [
+            "textkit/core.py"
+          ],
+          "types": [
+            "content"
+          ],
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "git": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": [
+            "textkit/core.py"
+          ],
+          "types": [
+            "content"
+          ],
+          "parses": null,
+          "mergeable": false,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "weave": {
+          "basis": "prediction",
+          "status": "conflicted",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "mergiraf": {
+          "basis": "prediction",
+          "status": "resolved",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": true,
+          "mergeable": null,
+          "human_equivalent": true,
+          "intent_loser": "none",
+          "tests_pass": null
+        },
+        "llm-raw": {
+          "basis": "observed",
+          "status": null,
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-post-weave": {
+          "basis": "observed",
+          "status": null,
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "trap": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        }
+      },
+      "claim_c_fails_together": null
+    },
+    {
+      "pair_id": "fx03",
+      "title": "Same function, incompatible edits",
+      "resolve_status": "ok",
+      "contaminated": "none",
+      "truth_status": "located",
+      "truth_method": "merge_parent",
+      "truth_rewrite": false,
+      "rungs": {
+        "git-final": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": [
+            "textkit/core.py"
+          ],
+          "types": [
+            "content"
+          ],
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "git": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": [
+            "textkit/core.py"
+          ],
+          "types": [
+            "content"
+          ],
+          "parses": null,
+          "mergeable": false,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "weave": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "mergiraf": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-raw": {
+          "basis": "design",
+          "status": "resolved",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": true,
+          "human_equivalent": true,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-post-weave": {
+          "basis": "observed",
+          "status": null,
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "trap": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        }
+      },
+      "claim_c_fails_together": null
+    },
+    {
+      "pair_id": "fx04",
+      "title": "Modify/delete",
+      "resolve_status": "ok",
+      "contaminated": "none",
+      "truth_status": "located",
+      "truth_method": "merge_parent",
+      "truth_rewrite": true,
+      "rungs": {
+        "git-final": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": [
+            "textkit/helpers.py"
+          ],
+          "types": [
+            "modify/delete"
+          ],
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "git": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": [
+            "textkit/helpers.py"
+          ],
+          "types": [
+            "modify/delete"
+          ],
+          "parses": null,
+          "mergeable": false,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "weave": {
+          "basis": "prediction",
+          "status": "conflicted",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "mergiraf": {
+          "basis": "prediction",
+          "status": "conflicted",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-raw": {
+          "basis": "observed",
+          "status": null,
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-post-weave": {
+          "basis": "observed",
+          "status": null,
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "trap": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        }
+      },
+      "claim_c_fails_together": null
+    },
+    {
+      "pair_id": "fx05",
+      "title": "Add/add",
+      "resolve_status": "ok",
+      "contaminated": "none",
+      "truth_status": "located",
+      "truth_method": "merge_parent",
+      "truth_rewrite": false,
+      "rungs": {
+        "git-final": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": [
+            "textkit/utils/retry.py"
+          ],
+          "types": [
+            "add/add"
+          ],
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "git": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": [
+            "textkit/utils/retry.py"
+          ],
+          "types": [
+            "add/add"
+          ],
+          "parses": null,
+          "mergeable": false,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "weave": {
+          "basis": "prediction",
+          "status": "conflicted",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "mergiraf": {
+          "basis": "prediction",
+          "status": "conflicted",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-raw": {
+          "basis": "observed",
+          "status": null,
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-post-weave": {
+          "basis": "observed",
+          "status": null,
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "trap": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        }
+      },
+      "claim_c_fails_together": null
+    },
+    {
+      "pair_id": "fx06",
+      "title": "Semantic conflict, no textual overlap",
+      "resolve_status": "ok",
+      "contaminated": "none",
+      "truth_status": "located",
+      "truth_method": "merge_parent",
+      "truth_rewrite": null,
+      "rungs": {
+        "git-final": {
+          "basis": "design",
+          "status": "clean",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "git": {
+          "basis": "design",
+          "status": "clean",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "weave": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "mergiraf": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-raw": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-post-weave": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "trap": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        }
+      },
+      "claim_c_fails_together": true
+    },
+    {
+      "pair_id": "fx07",
+      "title": "Intent-drop trap",
+      "resolve_status": "ok",
+      "contaminated": "none",
+      "truth_status": "located",
+      "truth_method": "merge_parent",
+      "truth_rewrite": false,
+      "rungs": {
+        "git-final": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": [
+            "textkit/core.py"
+          ],
+          "types": [
+            "content"
+          ],
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "git": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": [
+            "textkit/core.py"
+          ],
+          "types": [
+            "content"
+          ],
+          "parses": null,
+          "mergeable": false,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "weave": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "mergiraf": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-raw": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-post-weave": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "trap": {
+          "basis": "design",
+          "status": "resolved",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": true,
+          "human_equivalent": false,
+          "intent_loser": "b",
+          "tests_pass": true
+        }
+      },
+      "claim_c_fails_together": null
+    },
+    {
+      "pair_id": "fx08",
+      "title": "Contaminated head, rewound",
+      "resolve_status": "ok",
+      "contaminated": "b",
+      "truth_status": "located",
+      "truth_method": "absorption",
+      "truth_rewrite": false,
+      "rungs": {
+        "git-final": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": [
+            "textkit/core.py"
+          ],
+          "types": [
+            "content"
+          ],
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "git": {
+          "basis": "design",
+          "status": "conflicted",
+          "conflicted_paths": [
+            "textkit/core.py"
+          ],
+          "types": [
+            "content"
+          ],
+          "parses": null,
+          "mergeable": false,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "weave": {
+          "basis": "prediction",
+          "status": "conflicted",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "mergiraf": {
+          "basis": "prediction",
+          "status": "conflicted",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-raw": {
+          "basis": "observed",
+          "status": null,
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-post-weave": {
+          "basis": "observed",
+          "status": null,
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "trap": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        }
+      },
+      "claim_c_fails_together": null
+    },
+    {
+      "pair_id": "fx09",
+      "title": "Clean control",
+      "resolve_status": "ok",
+      "contaminated": "none",
+      "truth_status": "located",
+      "truth_method": "merge_parent",
+      "truth_rewrite": null,
+      "rungs": {
+        "git-final": {
+          "basis": "design",
+          "status": "clean",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "git": {
+          "basis": "design",
+          "status": "clean",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "weave": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "mergiraf": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-raw": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-post-weave": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "trap": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        }
+      },
+      "claim_c_fails_together": false
+    },
+    {
+      "pair_id": "fx10",
+      "title": "Rebased after the other PR merged",
+      "resolve_status": "unrecoverable_rebased",
+      "contaminated": "b",
+      "truth_status": "located",
+      "truth_method": "subject_time",
+      "truth_rewrite": null,
+      "rungs": {
+        "git-final": {
+          "basis": "prediction",
+          "status": "clean",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "git": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "weave": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "mergiraf": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-raw": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "llm-post-weave": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        },
+        "trap": {
+          "basis": "design",
+          "status": "absent",
+          "conflicted_paths": null,
+          "types": null,
+          "parses": null,
+          "mergeable": null,
+          "human_equivalent": null,
+          "intent_loser": null,
+          "tests_pass": null
+        }
+      },
+      "claim_c_fails_together": null
+    }
+  ]
+}
