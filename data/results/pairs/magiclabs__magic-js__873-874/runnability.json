@@ -1,0 +1,37 @@
+{
+  "pair_id": "magiclabs__magic-js__873-874",
+  "commit": "153f86b05eb53b2b2f912460e2bc3226d4b0917f",
+  "language": "node",
+  "package_manager": "yarn",
+  "test_runner": "jest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 1 in 157.1 s: ➤ YN0000: │ bigint-buffer@npm:1.1.5 STDERR gyp info ok  | ➤ YN0007: │ magic-sdk-monorepo@workspace:. must be built because it never has been before or the last one failed | ➤ YN0000: │ magic-sdk-monorepo@workspace:. STDERR .git can't be found (see https://git.io/Jc3F9) | ➤ YN0009: │ magic-sdk-monorepo@workspace:. couldn't be built successfully (exit code 1, logs can be found here: /home/user/ladder/work/runtime/magiclabs__magic-js__873-874/scratch/tmp/xfs-e05b349a/build.log) | ➤ YN0000: └ Completed in 1m 4s | ➤ YN0000: Failed with errors in 2m 35s",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "corepack",
+        "yarn",
+        "install",
+        "--immutable"
+      ],
+      "exit_code": 1,
+      "duration_s": 1.7,
+      "detail": "standard, install cap 900 s: install: exit 1 in 1.7 s; output tail: ➤ YN0000: │    version: 0.0.0-use.local | ➤ YN0000: │    resolution: \"@magic-sdk/react-native-bare@workspace:packages/@magic-sdk/react-native-bare\" | ➤ YN0000: │    dependencies: | ➤ YN0000: │      \"@aveq-research/localforage-asyncstorage-driver\": ^3.0.1 | ➤ YN0000: │  | ➤ YN0028: │ The lockfile would have been modified by this install, which is explicitly forbidden. | ➤ YN0000: └ Completed | ➤ YN0000: Failed with errors in 0s 513ms"
+    },
+    {
+      "command": [
+        "corepack",
+        "yarn",
+        "install"
+      ],
+      "exit_code": 1,
+      "duration_s": 157.1,
+      "detail": "unfrozen (yarn install with the lockfile unfrozen and engines ignored), install cap 900 s: install: exit 1 in 157.1 s; output tail: ➤ YN0000: │ bigint-buffer@npm:1.1.5 STDOUT   COPY Release/bigint_buffer.node | ➤ YN0000: │ bigint-buffer@npm:1.1.5 STDOUT make: Leaving directory '/home/user/ladder/work/runtime/magiclabs__magic-js__873-874/trees/base/packages/@magic-ext/solana/node_modules/bigint-buffer/build' | ➤ YN0000: │ bigint-buffer@npm:1.1.5 STDERR gyp info ok  | ➤ YN0007: │ magic-sdk-monorepo@workspace:. must be built because it never has been before or the last one failed | ➤ YN0000: │ magic-sdk-monorepo@workspace:. STDERR .git can't be found (see https://git.io/Jc3F9) | ➤ YN0009: │ magic-sdk-monorepo@workspace:. couldn't be built successfully (exit code 1, logs can be found here: /home/user/ladder/work/runtime/magiclabs__magic-js__873-874/scratch/tmp/xfs-e05b349a/build.log) | ➤ YN0000: └ Completed in 1m 4s | ➤ YN0000: Failed with errors in 2m 35s"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

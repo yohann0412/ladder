@@ -1,0 +1,17 @@
+{
+  "pair_id": "magiclabs__magic-js__873-874",
+  "rung": "llm-raw",
+  "run": 1,
+  "available": false,
+  "unavailable_reason": "input_cap: input cap: yarn.lock version base has 859983 bytes, more than 200000; input cap: yarn.lock version a has 778717 bytes, more than 200000; input cap: yarn.lock version b has 837628 bytes, more than 200000; input cap: yarn.lock version conflicted has 1002658 bytes, more than 200000; input cap: 3478986 bytes in all versions, more than 600000",
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": null,
+  "intent_preserved_b": null,
+  "intent_drops": [],
+  "files": [],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}
