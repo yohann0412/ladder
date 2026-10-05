@@ -1,0 +1,45 @@
+{
+  "pair_id": "sst__opencode__371-1186",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 5 of 4",
+  "remaining_conflicted": [
+    "packages/opencode/src/cli/cmd/mcp.ts",
+    "packages/opencode/src/config/config.ts",
+    "packages/opencode/src/index.ts",
+    "packages/opencode/src/mcp/index.ts",
+    "packages/web/src/content/docs/docs/cli.mdx"
+  ],
+  "files": [
+    {
+      "path": "packages/opencode/src/cli/cmd/mcp.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    },
+    {
+      "path": "packages/opencode/src/config/config.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    },
+    {
+      "path": "packages/opencode/src/index.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    },
+    {
+      "path": "packages/opencode/src/mcp/index.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/sst__opencode__371-1186/weave"
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "ryokun6__ryos__13-14",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/ryokun6__ryos__13-14",
+  "source_base": "75ea5d01335d18fcc81b11c5f903e13f25ab781e",
+  "source_a": "ff49b1f88c01a99e5bcf2a43c9948cdead3d514b",
+  "source_b": "c19561cd6f8a7df1055c012c34c2d62052f0c3e1",
+  "base_commit": "e3ad1795e7f408bf1c23b362e60b81623d374fd0",
+  "a_commit": "78ce9f3a3d0cf82e2be69aec17e03899f04a3b0c",
+  "b_commit": "782d36d80f30b380c6d306a8cd5862f35c1348d3",
+  "object_count": 668,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

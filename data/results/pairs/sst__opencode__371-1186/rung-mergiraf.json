@@ -1,0 +1,43 @@
+{
+  "pair_id": "sst__opencode__371-1186",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 3 of 4",
+  "remaining_conflicted": [
+    "packages/opencode/src/cli/cmd/mcp.ts",
+    "packages/opencode/src/config/config.ts",
+    "packages/opencode/src/index.ts"
+  ],
+  "files": [
+    {
+      "path": "packages/opencode/src/cli/cmd/mcp.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    },
+    {
+      "path": "packages/opencode/src/config/config.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    },
+    {
+      "path": "packages/opencode/src/index.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    },
+    {
+      "path": "packages/opencode/src/mcp/index.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/sst__opencode__371-1186/mergiraf"
+}

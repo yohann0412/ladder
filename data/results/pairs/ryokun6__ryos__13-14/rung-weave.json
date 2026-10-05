@@ -1,0 +1,28 @@
+{
+  "pair_id": "ryokun6__ryos__13-14",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 2",
+  "remaining_conflicted": [
+    "api/chat-rooms.js",
+    "src/apps/chats/components/ChatMessages.tsx"
+  ],
+  "files": [
+    {
+      "path": "api/chat-rooms.js",
+      "present": true,
+      "has_markers": true,
+      "language": "javascript",
+      "parses": false
+    },
+    {
+      "path": "src/apps/chats/components/ChatMessages.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/ryokun6__ryos__13-14/weave"
+}

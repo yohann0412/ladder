@@ -1,0 +1,51 @@
+{
+  "pair_id": "azure-ai-foundry__foundry-samples__223-232",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 4 of 5",
+  "remaining_conflicted": [
+    "samples/microsoft/java/mslearn-resources/quickstart/TESTING.md",
+    "samples/microsoft/java/mslearn-resources/quickstart/src/main/java/com/azure/ai/foundry/samples/ChatCompletionSample.java",
+    "samples/microsoft/java/mslearn-resources/quickstart/src/main/java/com/azure/ai/foundry/samples/ChatCompletionStreamingSample.java",
+    "samples/microsoft/java/mslearn-resources/quickstart/testing.bat"
+  ],
+  "files": [
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/TESTING.md",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/src/main/java/com/azure/ai/foundry/samples/ChatCompletionSample.java",
+      "present": true,
+      "has_markers": true,
+      "language": "java",
+      "parses": false
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/src/main/java/com/azure/ai/foundry/samples/ChatCompletionStreamingSample.java",
+      "present": true,
+      "has_markers": true,
+      "language": "java",
+      "parses": false
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/testing.bat",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "samples/microsoft/java/mslearn-resources/quickstart/testing.sh",
+      "present": true,
+      "has_markers": false,
+      "language": "bash",
+      "parses": true
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/azure-ai-foundry__foundry-samples__223-232/weave"
+}
