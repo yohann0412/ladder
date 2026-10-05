@@ -1,0 +1,15 @@
+{
+  "pair_id": "ublue-os__bluefin__3164-3170",
+  "commit": "3cea753536d96ced7b96ae81dd2e71c8db404a55",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

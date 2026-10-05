@@ -1,0 +1,37 @@
+{
+  "pair_id": "bionic-gpt__bionic-gpt__782-784",
+  "commit": "2af654dac624899118d8fba7c8f60f6d14b63913",
+  "language": "rust",
+  "package_manager": "cargo",
+  "test_runner": "cargo test",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "build: exit 101 in 75.5 s:      2: core::result::unwrap_failed |      3: build_script_build::cornucopia |      4: build_script_build::main |      5: <fn() as core::ops::function::FnOnce<()>>::call_once |   note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace. | warning: build failed, waiting for other jobs to finish...",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "cargo",
+        "test",
+        "--no-run",
+        "--locked"
+      ],
+      "exit_code": 101,
+      "duration_s": 52.7,
+      "detail": "standard, install cap 900 s: install: exit 0 in 3.4 s; build: exit 101 in 49.3 s; output tail:      0: __rustc::rust_begin_unwind |      1: core::panicking::panic_fmt |      2: core::result::unwrap_failed |      3: build_script_build::cornucopia |      4: build_script_build::main |      5: <fn() as core::ops::function::FnOnce<()>>::call_once |   note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace. | warning: build failed, waiting for other jobs to finish..."
+    },
+    {
+      "command": [
+        "cargo",
+        "test",
+        "--no-run"
+      ],
+      "exit_code": 101,
+      "duration_s": 78.4,
+      "detail": "cargo-update (updated Cargo.lock to the newest compatible versions), install cap 900 s: install: exit 0 in 2.9 s; build: exit 101 in 75.5 s; output tail:      0: __rustc::rust_begin_unwind |      1: core::panicking::panic_fmt |      2: core::result::unwrap_failed |      3: build_script_build::cornucopia |      4: build_script_build::main |      5: <fn() as core::ops::function::FnOnce<()>>::call_once |   note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace. | warning: build failed, waiting for other jobs to finish..."
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

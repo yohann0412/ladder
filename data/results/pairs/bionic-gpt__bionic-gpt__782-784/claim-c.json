@@ -1,0 +1,47 @@
+{
+  "pair_id": "bionic-gpt__bionic-gpt__782-784",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: build_fails (build: exit 101 in 75.5 s:      2: core::result::unwrap_failed |      3: build_script_build::cornucopia |      4: build_script_build::main |      5: <fn() as core::ops::function::FnOnce<()>>::call_once |   note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace. | warning: build failed, waiting for other jobs to finish...)",
+  "files_a": [
+    "crates/integrations/external_integration.rs"
+  ],
+  "files_b": [
+    "crates/integrations/external_integration.rs"
+  ]
+}

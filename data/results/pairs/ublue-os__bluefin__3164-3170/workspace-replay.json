@@ -1,0 +1,23 @@
+{
+  "pair_id": "ublue-os__bluefin__3164-3170",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/ublue-os__bluefin__3164-3170",
+  "source_base": "3cea753536d96ced7b96ae81dd2e71c8db404a55",
+  "source_a": "81fea45980547931a685893d23d9e2ea9e79ddce",
+  "source_b": "ad01f8e13d483e5db7dd2e981d9152536fcfd31f",
+  "base_commit": "3a4693e3fc78e9f46bc6e6bebd9137cfc3121662",
+  "a_commit": "8c3327d183f5bb2d8d7ac5dad2c2c49de5fa482e",
+  "b_commit": "370ee32529ec62bcb2461e1e8d672910022468bb",
+  "object_count": 314,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

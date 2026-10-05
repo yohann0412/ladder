@@ -1,0 +1,75 @@
+{
+  "pair_id": "go-co-op__gocron__864-866",
+  "a": {
+    "status": "passed",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 79,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 51.7,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 79 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "b": {
+    "status": "passed",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 79,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 51.4,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "environment reused from base; 79 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "merge": {
+    "status": "flaky",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 77,
+    "failed": 2,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 49.1,
+    "retried": true,
+    "failing_tests": [
+      "github.com/go-co-op/gocron/v2::TestScheduler_LastRunSingleton/with_runNow",
+      "github.com/go-co-op/gocron/v2::TestScheduler_LastRunSingleton"
+    ],
+    "detail": "environment reused from base; passed on the retry after: 77 passed, 2 failed, 0 errors, 0 skipped (github.com/go-co-op/gocron/v2::TestScheduler_LastRunSingleton/with_runNow, github.com/go-co-op/gocron/v2::TestScheduler_LastRunSingleton)"
+  },
+  "fails_together": null,
+  "excluded_reason": "flaky at merge",
+  "files_a": [
+    "executor.go",
+    "job.go",
+    "scheduler.go",
+    "util.go"
+  ],
+  "files_b": [
+    ".github/copilot-instructions.md",
+    "mocks/distributed.go",
+    "mocks/job.go",
+    "mocks/logger.go",
+    "mocks/scheduler.go"
+  ]
+}

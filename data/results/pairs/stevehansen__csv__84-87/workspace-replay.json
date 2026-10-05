@@ -1,0 +1,23 @@
+{
+  "pair_id": "stevehansen__csv__84-87",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/stevehansen__csv__84-87",
+  "source_base": "057a2839acaa781695b82eb116af507c054f8ef9",
+  "source_a": "aab372462d2adc0b17258b7d557e2e0c546d1070",
+  "source_b": "e9ac3da456c3b514a0aaa997b158eb1560bb1cbc",
+  "base_commit": "05a995b0d4bf29cfd4399d0b92e8bcab9e33054e",
+  "a_commit": "bce62887d5fbcb8f98b9aa4346404bab7ef7044d",
+  "b_commit": "f211ba6226a64e75927b4998544cfc2d86a56560",
+  "object_count": 44,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

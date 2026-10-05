@@ -1,0 +1,15 @@
+{
+  "pair_id": "stevehansen__csv__84-87",
+  "commit": "057a2839acaa781695b82eb116af507c054f8ef9",
+  "language": "csharp",
+  "package_manager": "dotnet",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "csharp project; dotnet is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
