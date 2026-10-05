@@ -1,0 +1,23 @@
+{
+  "pair_id": "jkroepke__openvpn-auth-oauth2__512-513",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/jkroepke__openvpn-auth-oauth2__512-513",
+  "source_base": "bb466cf561306f35797416c0375a49587f11776b",
+  "source_a": "c4ff8ea5dcad96025bf4cd9599c8848c40a7eb41",
+  "source_b": "2f9a89b67426f623894bca5aec36f217181e0d8e",
+  "base_commit": "b0ad749c88f16184a7edc67893e6d8d0b7fabafc",
+  "a_commit": "fcfeb40bb1d18451059f6252d745f078954e6f2d",
+  "b_commit": "6e7e74b9a7797995b03e6c7592de00662c7b6b29",
+  "object_count": 244,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
