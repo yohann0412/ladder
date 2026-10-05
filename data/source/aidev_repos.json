@@ -2,6 +2,8 @@
   {
     "forks": 249,
     "full_name": "3rdIteration/btcrecover",
+    "full_name_now": "3rdIteration/btcrecover",
+    "id": 197336679,
     "language": "Python",
     "license": "GPL-2.0",
     "revision": "main",
@@ -9,17 +11,21 @@
     "stars": 779
   },
   {
-    "forks": 16,
+    "forks": 19,
     "full_name": "514-labs/moose",
+    "full_name_now": "514-labs/moosestack",
+    "id": 668493044,
     "language": "Rust",
     "license": "MIT",
-    "revision": "v3",
-    "revision_sha": "68ed5f4b80d27a9e057fc57567f38bd322ac73ec",
-    "stars": 275
+    "revision": "main",
+    "revision_sha": "c63c8a57a2de34fc03fa83722412824af4d8753b",
+    "stars": 463
   },
   {
     "forks": 878,
     "full_name": "567-labs/instructor",
+    "full_name_now": "567-labs/instructor",
+    "id": 653589102,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -29,6 +35,8 @@
   {
     "forks": 36,
     "full_name": "567-labs/kura",
+    "full_name_now": "567-labs/kura",
+    "id": 912106066,
     "language": "Python",
     "license": null,
     "revision": "main",
@@ -38,6 +46,8 @@
   {
     "forks": 56,
     "full_name": "AIDotNet/Thor",
+    "full_name_now": "AIDotNet/Thor",
+    "id": 772904796,
     "language": "C#",
     "license": "Apache-2.0",
     "revision": "main",
@@ -47,6 +57,8 @@
   {
     "forks": 30,
     "full_name": "AMICI-dev/AMICI",
+    "full_name_now": "AMICI-dev/AMICI",
+    "id": 43677177,
     "language": "C++",
     "license": "NOASSERTION",
     "revision": "main",
@@ -56,6 +68,8 @@
   {
     "forks": 28,
     "full_name": "APPFL/APPFL",
+    "full_name_now": "APPFL/APPFL",
+    "id": 414722606,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -65,6 +79,8 @@
   {
     "forks": 42,
     "full_name": "AfterShip/clickhouse-sql-parser",
+    "full_name_now": "AfterShip/clickhouse-sql-parser",
+    "id": 694946961,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -74,6 +90,8 @@
   {
     "forks": 485,
     "full_name": "AgentOps-AI/agentops",
+    "full_name_now": "AgentOps-AI/agentops",
+    "id": 679017521,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -83,6 +101,8 @@
   {
     "forks": 40,
     "full_name": "Aiko-IT-Systems/DisCatSharp",
+    "full_name_now": "Aiko-IT-Systems/DisCatSharp",
+    "id": 381022279,
     "language": "C#",
     "license": "NOASSERTION",
     "revision": "main",
@@ -92,6 +112,8 @@
   {
     "forks": 22,
     "full_name": "AlexGladkov/JetHabit",
+    "full_name_now": "AlexGladkov/JetHabit",
+    "id": 396478043,
     "language": "Kotlin",
     "license": null,
     "revision": "main",
@@ -101,6 +123,8 @@
   {
     "forks": 20,
     "full_name": "AliAkhtari78/SpotifyScraper",
+    "full_name_now": "AliAkhtari78/SpotifyScraper",
+    "id": 259767909,
     "language": "Makefile",
     "license": "MIT",
     "revision": "main",
@@ -110,6 +134,8 @@
   {
     "forks": 51,
     "full_name": "Apollon77/ioBroker.alexa2",
+    "full_name_now": "Apollon77/ioBroker.alexa2",
+    "id": 139904893,
     "language": "JavaScript",
     "license": "MIT",
     "revision": "main",
@@ -119,6 +145,8 @@
   {
     "forks": 94,
     "full_name": "Automattic/wordpress-mcp",
+    "full_name_now": "Automattic/wordpress-mcp",
+    "id": 974878688,
     "language": "PHP",
     "license": null,
     "revision": "main",
@@ -128,6 +156,8 @@
   {
     "forks": 23,
     "full_name": "Automattic/wp-feature-api",
+    "full_name_now": "Automattic/wp-feature-api",
+    "id": 951371532,
     "language": "PHP",
     "license": null,
     "revision": "main",
@@ -137,6 +167,8 @@
   {
     "forks": 116,
     "full_name": "Azure-Samples/azure-ai-travel-agents",
+    "full_name_now": "Azure-Samples/azure-ai-travel-agents",
+    "id": 948560095,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -146,6 +178,8 @@
   {
     "forks": 75,
     "full_name": "Azure/AppConfiguration",
+    "full_name_now": "Azure/AppConfiguration",
+    "id": 166464283,
     "language": null,
     "license": "MIT",
     "revision": "main",
@@ -155,6 +189,8 @@
   {
     "forks": 739,
     "full_name": "Azure/autorest",
+    "full_name_now": "Azure/autorest",
+    "id": 31089461,
     "language": "TypeSpec",
     "license": "MIT",
     "revision": "main",
@@ -164,6 +200,8 @@
   {
     "forks": 177,
     "full_name": "Azure/autorest.csharp",
+    "full_name_now": "Azure/autorest.csharp",
+    "id": 100315623,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -173,6 +211,8 @@
   {
     "forks": 131,
     "full_name": "Azure/awesome-azd",
+    "full_name_now": "Azure/awesome-azd",
+    "id": 540012802,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -182,6 +222,8 @@
   {
     "forks": 124,
     "full_name": "Azure/azqr",
+    "full_name_now": "Azure/azqr",
+    "id": 552832415,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -191,6 +233,8 @@
   {
     "forks": 1453,
     "full_name": "Azure/azure-cli-extensions",
+    "full_name_now": "Azure/azure-cli-extensions",
+    "id": 106580024,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -200,6 +244,8 @@
   {
     "forks": 259,
     "full_name": "Azure/azure-container-networking",
+    "full_name_now": "Azure/azure-container-networking",
+    "id": 53971519,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -209,6 +255,8 @@
   {
     "forks": 348,
     "full_name": "Azure/azure-mcp",
+    "full_name_now": "Azure/azure-mcp",
+    "id": 967503541,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -218,6 +266,8 @@
   {
     "forks": 2130,
     "full_name": "Azure/azure-sdk-for-java",
+    "full_name_now": "Azure/azure-sdk-for-java",
+    "id": 2928948,
     "language": "Java",
     "license": "MIT",
     "revision": "main",
@@ -227,6 +277,8 @@
   {
     "forks": 1294,
     "full_name": "Azure/azure-sdk-for-js",
+    "full_name_now": "Azure/azure-sdk-for-js",
+    "id": 108311273,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -236,6 +288,8 @@
   {
     "forks": 250,
     "full_name": "Azure/azure-storage-azcopy",
+    "full_name_now": "Azure/azure-storage-azcopy",
+    "id": 114798676,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -245,6 +299,8 @@
   {
     "forks": 239,
     "full_name": "Azure/azure-storage-fuse",
+    "full_name_now": "Azure/azure-storage-fuse",
+    "id": 103307180,
     "language": "Go",
     "license": "NOASSERTION",
     "revision": "main",
@@ -254,6 +310,8 @@
   {
     "forks": 496,
     "full_name": "Azure/bicep-registry-modules",
+    "full_name_now": "Azure/bicep-registry-modules",
+    "id": 447791597,
     "language": "Bicep",
     "license": "MIT",
     "revision": "main",
@@ -263,6 +321,8 @@
   {
     "forks": 53,
     "full_name": "Bandit-HaxUnit/haxunit",
+    "full_name_now": "Bandit-HaxUnit/haxunit",
+    "id": 465787727,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -272,6 +332,8 @@
   {
     "forks": 1210,
     "full_name": "BasedHardware/omi",
+    "full_name_now": "BasedHardware/omi",
+    "id": 776121034,
     "language": "C",
     "license": "MIT",
     "revision": "main",
@@ -281,6 +343,8 @@
   {
     "forks": 777,
     "full_name": "BeehiveInnovations/zen-mcp-server",
+    "full_name_now": "BeehiveInnovations/zen-mcp-server",
+    "id": 998428732,
     "language": "Python",
     "license": "NOASSERTION",
     "revision": "main",
@@ -290,6 +354,8 @@
   {
     "forks": 4492,
     "full_name": "BerriAI/litellm",
+    "full_name_now": "BerriAI/litellm",
+    "id": 671269505,
     "language": "Python",
     "license": "NOASSERTION",
     "revision": "main",
@@ -299,6 +365,8 @@
   {
     "forks": 191,
     "full_name": "Blaizzy/mlx-vlm",
+    "full_name_now": "Blaizzy/mlx-vlm",
+    "id": 787462297,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -308,6 +376,8 @@
   {
     "forks": 947,
     "full_name": "BlueWallet/BlueWallet",
+    "full_name_now": "BlueWallet/BlueWallet",
+    "id": 117463191,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -317,6 +387,8 @@
   {
     "forks": 314,
     "full_name": "BoundaryML/baml",
+    "full_name_now": "BoundaryML/baml",
+    "id": 701494311,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -326,6 +398,8 @@
   {
     "forks": 143,
     "full_name": "CEPT-VZG/digipin",
+    "full_name_now": "CEPT-VZG/digipin",
+    "id": 962115433,
     "language": "JavaScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -335,6 +409,8 @@
   {
     "forks": 11,
     "full_name": "CJ-Systems/gitflow-cjs",
+    "full_name_now": "CJ-Systems/gitflow-cjs",
+    "id": 98499562,
     "language": "Shell",
     "license": "NOASSERTION",
     "revision": "main",
@@ -344,6 +420,8 @@
   {
     "forks": 64,
     "full_name": "Cap-go/capgo",
+    "full_name_now": "Cap-go/capgo",
+    "id": 442321089,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -353,6 +431,8 @@
   {
     "forks": 938,
     "full_name": "CapSoftware/Cap",
+    "full_name_now": "CapSoftware/Cap",
+    "id": 720209383,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -362,6 +442,8 @@
   {
     "forks": 39,
     "full_name": "CitizensFoundation/your-priorities-app",
+    "full_name_now": "CitizensFoundation/your-priorities-app",
+    "id": 23236083,
     "language": "HTML",
     "license": "MIT",
     "revision": "main",
@@ -371,6 +453,8 @@
   {
     "forks": 74,
     "full_name": "CodingAleCR/http_interceptor",
+    "full_name_now": "CodingAleCR/http_interceptor",
+    "id": 180453020,
     "language": "Dart",
     "license": "MIT",
     "revision": "main",
@@ -380,6 +464,8 @@
   {
     "forks": 31,
     "full_name": "Cogmasters/concord",
+    "full_name_now": "Cogmasters/concord",
+    "id": 445037897,
     "language": "C",
     "license": "MIT",
     "revision": "main",
@@ -389,6 +475,8 @@
   {
     "forks": 129,
     "full_name": "CommunityToolkit/Aspire",
+    "full_name_now": "CommunityToolkit/Aspire",
+    "id": 824265054,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -398,6 +486,8 @@
   {
     "forks": 307,
     "full_name": "CoreWCF/CoreWCF",
+    "full_name_now": "CoreWCF/CoreWCF",
+    "id": 185841694,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -407,6 +497,8 @@
   {
     "forks": 134,
     "full_name": "CosmWasm/wasmvm",
+    "full_name_now": "CosmWasm/wasmvm",
+    "id": 214446916,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -416,6 +508,8 @@
   {
     "forks": 111,
     "full_name": "CycloneDX/cyclonedx-dotnet",
+    "full_name_now": "CycloneDX/cyclonedx-dotnet",
+    "id": 151328875,
     "language": "C#",
     "license": "Apache-2.0",
     "revision": "main",
@@ -425,6 +519,8 @@
   {
     "forks": 314,
     "full_name": "DataDog/dd-trace-java",
+    "full_name_now": "DataDog/dd-trace-java",
+    "id": 89221572,
     "language": "Java",
     "license": "Apache-2.0",
     "revision": "main",
@@ -434,6 +530,8 @@
   {
     "forks": 261,
     "full_name": "DaveSkender/Stock.Indicators",
+    "full_name_now": "DaveSkender/Stock.Indicators",
+    "id": 230706417,
     "language": "C#",
     "license": "Apache-2.0",
     "revision": "main",
@@ -443,6 +541,8 @@
   {
     "forks": 23,
     "full_name": "DavidBelicza/TextRank",
+    "full_name_now": "DavidBelicza/TextRank",
+    "id": 116861351,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -452,6 +552,8 @@
   {
     "forks": 405,
     "full_name": "DistroAV/DistroAV",
+    "full_name_now": "DistroAV/DistroAV",
+    "id": 71643008,
     "language": "C++",
     "license": "GPL-2.0",
     "revision": "main",
@@ -461,6 +563,8 @@
   {
     "forks": 9,
     "full_name": "DivineOmega/uxdm",
+    "full_name_now": "DivineOmega/uxdm",
+    "id": 130364449,
     "language": "PHP",
     "license": "LGPL-3.0",
     "revision": "main",
@@ -470,6 +574,8 @@
   {
     "forks": 368,
     "full_name": "DragonJAR/n8n-workflows-es",
+    "full_name_now": "DragonJAR/n8n-workflows-es",
+    "id": 993296708,
     "language": null,
     "license": null,
     "revision": "v3",
@@ -479,6 +585,8 @@
   {
     "forks": 16,
     "full_name": "ESPresense/ESPresense-companion",
+    "full_name_now": "ESPresense/ESPresense-companion",
+    "id": 570557896,
     "language": "C#",
     "license": "Apache-2.0",
     "revision": "main",
@@ -488,6 +596,8 @@
   {
     "forks": 1070,
     "full_name": "EasyCorp/EasyAdminBundle",
+    "full_name_now": "EasyCorp/EasyAdminBundle",
+    "id": 29126334,
     "language": "PHP",
     "license": "MIT",
     "revision": "main",
@@ -497,6 +607,8 @@
   {
     "forks": 363,
     "full_name": "EdgeTranslate/EdgeTranslate",
+    "full_name_now": "EdgeTranslate/EdgeTranslate",
+    "id": 139444141,
     "language": "JavaScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -506,6 +618,8 @@
   {
     "forks": 59,
     "full_name": "EduMIPS64/edumips64",
+    "full_name_now": "EduMIPS64/edumips64",
+    "id": 2327138,
     "language": "Java",
     "license": "GPL-2.0",
     "revision": "main",
@@ -515,6 +629,8 @@
   {
     "forks": 57,
     "full_name": "ElectNewt/Distribt",
+    "full_name_now": "ElectNewt/Distribt",
+    "id": 440332807,
     "language": "C#",
     "license": "NOASSERTION",
     "revision": "main",
@@ -524,6 +640,8 @@
   {
     "forks": 10,
     "full_name": "Equationzhao/g",
+    "full_name_now": "Equationzhao/g",
+    "id": 631466180,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -533,6 +651,8 @@
   {
     "forks": 17,
     "full_name": "EvotecIT/Mailozaurr",
+    "full_name_now": "EvotecIT/Mailozaurr",
+    "id": 257089738,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -542,6 +662,8 @@
   {
     "forks": 3429,
     "full_name": "Expensify/App",
+    "full_name_now": "Expensify/App",
+    "id": 285902689,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -551,6 +673,8 @@
   {
     "forks": 1726,
     "full_name": "FastLED/FastLED",
+    "full_name_now": "FastLED/FastLED",
+    "id": 14268809,
     "language": "C++",
     "license": "MIT",
     "revision": "main",
@@ -560,6 +684,8 @@
   {
     "forks": 117,
     "full_name": "Fastbyte01/KeepIt",
+    "full_name_now": "Fastbyte01/KeepIt",
+    "id": 168930851,
     "language": "JavaScript",
     "license": "MIT",
     "revision": "main",
@@ -569,6 +695,8 @@
   {
     "forks": 463,
     "full_name": "FerretDB/FerretDB",
+    "full_name_now": "FerretDB/FerretDB",
+    "id": 422821402,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -578,6 +706,8 @@
   {
     "forks": 49,
     "full_name": "FritzAndFriends/SharpSite",
+    "full_name_now": "FritzAndFriends/SharpSite",
+    "id": 870736183,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -587,6 +717,8 @@
   {
     "forks": 14,
     "full_name": "GMPrakhar/MAUI-Designer",
+    "full_name_now": "GMPrakhar/MAUI-Designer",
+    "id": 833525364,
     "language": "TypeScript",
     "license": null,
     "revision": "main",
@@ -596,6 +728,8 @@
   {
     "forks": 421,
     "full_name": "GradleUp/shadow",
+    "full_name_now": "GradleUp/shadow",
+    "id": 7243421,
     "language": "Kotlin",
     "license": "Apache-2.0",
     "revision": "main",
@@ -605,6 +739,8 @@
   {
     "forks": 443,
     "full_name": "Helicone/helicone",
+    "full_name_now": "Helicone/helicone",
+    "id": 595832198,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -614,6 +750,8 @@
   {
     "forks": 3135,
     "full_name": "HumanSignal/label-studio",
+    "full_name_now": "HumanSignal/label-studio",
+    "id": 192640529,
     "language": "JavaScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -623,6 +761,8 @@
   {
     "forks": 118,
     "full_name": "JacobLinCool/LeetCode-Stats-Card",
+    "full_name_now": "JacobLinCool/LeetCode-Stats-Card",
+    "id": 375991819,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -632,6 +772,8 @@
   {
     "forks": 283,
     "full_name": "JuliaLang/Pkg.jl",
+    "full_name_now": "JuliaLang/Pkg.jl",
+    "id": 82341193,
     "language": "Julia",
     "license": "NOASSERTION",
     "revision": "main",
@@ -641,6 +783,8 @@
   {
     "forks": 5663,
     "full_name": "JuliaLang/julia",
+    "full_name_now": "JuliaLang/julia",
+    "id": 1644196,
     "language": "Julia",
     "license": "MIT",
     "revision": "main",
@@ -650,6 +794,8 @@
   {
     "forks": 174,
     "full_name": "JuliaSymbolics/Symbolics.jl",
+    "full_name_now": "JuliaSymbolics/Symbolics.jl",
+    "id": 331648460,
     "language": "Julia",
     "license": "NOASSERTION",
     "revision": "main",
@@ -659,6 +805,8 @@
   {
     "forks": 81,
     "full_name": "Kaljurand/K6nele",
+    "full_name_now": "Kaljurand/K6nele",
+    "id": 3026811,
     "language": "Java",
     "license": "Apache-2.0",
     "revision": "main",
@@ -668,6 +816,8 @@
   {
     "forks": 383,
     "full_name": "Kanaries/Rath",
+    "full_name_now": "Kanaries/Rath",
+    "id": 204949916,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -677,6 +827,8 @@
   {
     "forks": 102,
     "full_name": "KenYu910645/MapleStoryAutoLevelUp",
+    "full_name_now": "KenYu910645/MapleStoryAutoLevelUp",
+    "id": 992587557,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -686,6 +838,8 @@
   {
     "forks": 87,
     "full_name": "LIT-Protocol/js-sdk",
+    "full_name_now": "LIT-Protocol/js-sdk",
+    "id": 526617419,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -695,6 +849,8 @@
   {
     "forks": 231,
     "full_name": "LayerZero-Labs/devtools",
+    "full_name_now": "LayerZero-Labs/devtools",
+    "id": 716778600,
     "language": "TypeScript",
     "license": null,
     "revision": "main",
@@ -704,6 +860,8 @@
   {
     "forks": 187,
     "full_name": "LeagueAkari/LeagueAkari",
+    "full_name_now": "LeagueAkari/LeagueAkari",
+    "id": 733416574,
     "language": "TypeScript",
     "license": "GPL-3.0",
     "revision": "main",
@@ -713,6 +871,8 @@
   {
     "forks": 138,
     "full_name": "MCPJam/inspector",
+    "full_name_now": "MCPJam/inspector",
+    "id": 989134268,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -722,6 +882,8 @@
   {
     "forks": 1212,
     "full_name": "Mail-0/Zero",
+    "full_name_now": "Mail-0/Zero",
+    "id": 926252103,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -731,6 +893,8 @@
   {
     "forks": 742,
     "full_name": "MervinPraison/PraisonAI",
+    "full_name_now": "MervinPraison/PraisonAI",
+    "id": 774497032,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -740,6 +904,8 @@
   {
     "forks": 5364,
     "full_name": "MetaMask/metamask-extension",
+    "full_name_now": "MetaMask/metamask-extension",
+    "id": 42009758,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -749,6 +915,8 @@
   {
     "forks": 1128,
     "full_name": "MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions",
+    "full_name_now": "MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions",
+    "id": 320097835,
     "language": null,
     "license": "MIT",
     "revision": "main",
@@ -758,6 +926,8 @@
   {
     "forks": 177,
     "full_name": "MikePopoloski/slang",
+    "full_name_now": "MikePopoloski/slang",
+    "id": 80874333,
     "language": "C++",
     "license": "MIT",
     "revision": "main",
@@ -767,6 +937,8 @@
   {
     "forks": 5,
     "full_name": "Mr-Quin/danmaku-anywhere",
+    "full_name_now": "Mr-Quin/danmaku-anywhere",
+    "id": 628067244,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -776,6 +948,8 @@
   {
     "forks": 97,
     "full_name": "Myriad-Dreamin/tinymist",
+    "full_name_now": "Myriad-Dreamin/tinymist",
+    "id": 768315520,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -785,6 +959,8 @@
   {
     "forks": 4076,
     "full_name": "NG-ZORRO/ng-zorro-antd",
+    "full_name_now": "NG-ZORRO/ng-zorro-antd",
+    "id": 99705100,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -794,6 +970,8 @@
   {
     "forks": 569,
     "full_name": "NethermindEth/nethermind",
+    "full_name_now": "NethermindEth/nethermind",
+    "id": 101194285,
     "language": "C#",
     "license": "GPL-3.0",
     "revision": "main",
@@ -803,6 +981,8 @@
   {
     "forks": 3970,
     "full_name": "OHIF/Viewers",
+    "full_name_now": "OHIF/Viewers",
+    "id": 44164233,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -812,6 +992,8 @@
   {
     "forks": 238,
     "full_name": "OWASP-BLT/BLT",
+    "full_name_now": "OWASP-BLT/BLT",
+    "id": 62963654,
     "language": "HTML",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -821,6 +1003,8 @@
   {
     "forks": 2536,
     "full_name": "OWASP/mastg",
+    "full_name_now": "OWASP/mastg",
+    "id": 69648386,
     "language": "Python",
     "license": "CC-BY-SA-4.0",
     "revision": "main",
@@ -830,6 +1014,8 @@
   {
     "forks": 484,
     "full_name": "OWASP/wrongsecrets",
+    "full_name_now": "OWASP/wrongsecrets",
+    "id": 288646913,
     "language": "Java",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -839,6 +1025,8 @@
   {
     "forks": 95,
     "full_name": "ObservedObserver/streamlit-shadcn-ui",
+    "full_name_now": "ObservedObserver/streamlit-shadcn-ui",
+    "id": 698517452,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -848,6 +1036,8 @@
   {
     "forks": 203,
     "full_name": "OpenAdaptAI/OpenAdapt",
+    "full_name_now": "OpenAdaptAI/OpenAdapt",
+    "id": 627024850,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -857,6 +1047,8 @@
   {
     "forks": 36,
     "full_name": "OpenAgentsInc/openagents",
+    "full_name_now": "OpenAgentsInc/openagents",
+    "id": 715683924,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -866,6 +1058,8 @@
   {
     "forks": 61,
     "full_name": "OpenHFT/Chronicle-Threads",
+    "full_name_now": "OpenHFT/Chronicle-Threads",
+    "id": 31261853,
     "language": "Java",
     "license": "NOASSERTION",
     "revision": "main",
@@ -875,6 +1069,8 @@
   {
     "forks": 38,
     "full_name": "OpenHFT/Chronicle-Values",
+    "full_name_now": "OpenHFT/Chronicle-Values",
+    "id": 31261879,
     "language": "Java",
     "license": "NOASSERTION",
     "revision": "main",
@@ -884,6 +1080,8 @@
   {
     "forks": 370,
     "full_name": "OpenHFT/Java-Thread-Affinity",
+    "full_name_now": "OpenHFT/Java-Thread-Affinity",
+    "id": 12974177,
     "language": "Java",
     "license": "NOASSERTION",
     "revision": "main",
@@ -893,6 +1091,8 @@
   {
     "forks": 96,
     "full_name": "OpenRouterTeam/ai-sdk-provider",
+    "full_name_now": "OpenRouterTeam/ai-sdk-provider",
+    "id": 830375401,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -902,6 +1102,8 @@
   {
     "forks": 100,
     "full_name": "OpenSprinkler/OpenSprinkler-App",
+    "full_name_now": "OpenSprinkler/OpenSprinkler-App",
+    "id": 11863336,
     "language": "JavaScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -911,6 +1113,8 @@
   {
     "forks": 2522,
     "full_name": "OrchardCMS/OrchardCore",
+    "full_name_now": "OrchardCMS/OrchardCore",
+    "id": 26884725,
     "language": "C#",
     "license": "BSD-3-Clause",
     "revision": "main",
@@ -920,6 +1124,8 @@
   {
     "forks": 47,
     "full_name": "Osly-AI/PocketManus",
+    "full_name_now": "Osly-AI/PocketManus",
+    "id": 944785047,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -929,6 +1135,8 @@
   {
     "forks": 239,
     "full_name": "PRQL/prql",
+    "full_name_now": "PRQL/prql",
+    "id": 449091292,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -938,6 +1146,8 @@
   {
     "forks": 31,
     "full_name": "PV-Bhat/vibe-check-mcp-server",
+    "full_name_now": "PV-Bhat/vibe-check-mcp-server",
+    "id": 952977008,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -947,6 +1157,8 @@
   {
     "forks": 290,
     "full_name": "PaloAltoNetworks/docusaurus-openapi-docs",
+    "full_name_now": "PaloAltoNetworks/docusaurus-openapi-docs",
+    "id": 460077424,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -956,6 +1168,8 @@
   {
     "forks": 84,
     "full_name": "PepperDash/Essentials",
+    "full_name_now": "PepperDash/Essentials",
+    "id": 238331665,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -965,6 +1179,8 @@
   {
     "forks": 31,
     "full_name": "Pikachuxxxx/Razix",
+    "full_name_now": "Pikachuxxxx/Razix",
+    "id": 276377205,
     "language": "C++",
     "license": "Apache-2.0",
     "revision": "main",
@@ -974,6 +1190,8 @@
   {
     "forks": 1977,
     "full_name": "PrefectHQ/prefect",
+    "full_name_now": "PrefectHQ/prefect",
+    "id": 139199684,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -983,6 +1201,8 @@
   {
     "forks": 2446,
     "full_name": "PromtEngineer/localGPT",
+    "full_name_now": "PromtEngineer/localGPT",
+    "id": 644715009,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -992,6 +1212,8 @@
   {
     "forks": 1195,
     "full_name": "QL-Win/QuickLook",
+    "full_name_now": "QL-Win/QuickLook",
+    "id": 88064357,
     "language": "C#",
     "license": "GPL-3.0",
     "revision": "main",
@@ -1001,6 +1223,8 @@
   {
     "forks": 110,
     "full_name": "RSamaium/CanvasEngine",
+    "full_name_now": "RSamaium/CanvasEngine",
+    "id": 5628569,
     "language": "TypeScript",
     "license": null,
     "revision": "main",
@@ -1010,6 +1234,8 @@
   {
     "forks": 71,
     "full_name": "RchGrav/claudebox",
+    "full_name_now": "RchGrav/claudebox",
+    "id": 997659566,
     "language": "Shell",
     "license": "MIT",
     "revision": "main",
@@ -1019,6 +1245,8 @@
   {
     "forks": 35,
     "full_name": "Rello/analytics",
+    "full_name_now": "Rello/analytics",
+    "id": 213728552,
     "language": "JavaScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -1028,6 +1256,8 @@
   {
     "forks": 55,
     "full_name": "Rello/audioplayer",
+    "full_name_now": "Rello/audioplayer",
+    "id": 62162299,
     "language": "JavaScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -1037,6 +1267,8 @@
   {
     "forks": 89,
     "full_name": "RevenueCat/purchases-android",
+    "full_name_now": "RevenueCat/purchases-android",
+    "id": 127346826,
     "language": "Kotlin",
     "license": "MIT",
     "revision": "main",
@@ -1046,6 +1278,8 @@
   {
     "forks": 8,
     "full_name": "SaveTheRbtz/zstd-seekable-format-go",
+    "full_name_now": "SaveTheRbtz/zstd-seekable-format-go",
+    "id": 447670501,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -1055,6 +1289,8 @@
   {
     "forks": 13,
     "full_name": "ShaunLawrie/PwshSpectreConsole",
+    "full_name_now": "ShaunLawrie/PwshSpectreConsole",
+    "id": 632238087,
     "language": "PowerShell",
     "license": "MIT",
     "revision": "main",
@@ -1064,6 +1300,8 @@
   {
     "forks": 52,
     "full_name": "Shopify/roast",
+    "full_name_now": "Shopify/roast",
+    "id": 963547829,
     "language": "Ruby",
     "license": "MIT",
     "revision": "main",
@@ -1073,6 +1311,8 @@
   {
     "forks": 46078,
     "full_name": "Significant-Gravitas/AutoGPT",
+    "full_name_now": "Significant-Gravitas/AutoGPT",
+    "id": 614765452,
     "language": "Python",
     "license": "NOASSERTION",
     "revision": "main",
@@ -1082,6 +1322,8 @@
   {
     "forks": 682,
     "full_name": "SirVer/ultisnips",
+    "full_name_now": "SirVer/ultisnips",
+    "id": 3073296,
     "language": "Python",
     "license": "GPL-3.0",
     "revision": "main",
@@ -1091,6 +1333,8 @@
   {
     "forks": 38,
     "full_name": "Skyscanner/turbolift",
+    "full_name_now": "Skyscanner/turbolift",
+    "id": 355476462,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1100,6 +1344,8 @@
   {
     "forks": 1296,
     "full_name": "Skyvern-AI/skyvern",
+    "full_name_now": "Skyvern-AI/skyvern",
+    "id": 764723738,
     "language": "Python",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -1109,6 +1355,8 @@
   {
     "forks": 24,
     "full_name": "Sls0n/Prismify",
+    "full_name_now": "Sls0n/Prismify",
+    "id": 663834147,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -1118,6 +1366,8 @@
   {
     "forks": 3,
     "full_name": "SplittyDev/spacebadgers",
+    "full_name_now": "SplittyDev/spacebadgers",
+    "id": 641096692,
     "language": "Rust",
     "license": "MIT",
     "revision": "main",
@@ -1127,6 +1377,8 @@
   {
     "forks": 2168,
     "full_name": "StarRocks/starrocks",
+    "full_name_now": "StarRocks/starrocks",
+    "id": 402945349,
     "language": "Java",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1136,6 +1388,8 @@
   {
     "forks": 105,
     "full_name": "StephenDev0/StikDebug",
+    "full_name_now": "StephenDev0/StikDebug",
+    "id": 955665884,
     "language": "Swift",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -1145,6 +1399,8 @@
   {
     "forks": 2000,
     "full_name": "StockSharp/StockSharp",
+    "full_name_now": "StockSharp/StockSharp",
+    "id": 27703983,
     "language": "C#",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1154,6 +1410,8 @@
   {
     "forks": 25,
     "full_name": "Stratus-Security/Subdominator",
+    "full_name_now": "Stratus-Security/Subdominator",
+    "id": 718493113,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -1163,6 +1421,8 @@
   {
     "forks": 54,
     "full_name": "Sumukh/Ignite",
+    "full_name_now": "Sumukh/Ignite",
+    "id": 77975642,
     "language": "HTML",
     "license": "NOASSERTION",
     "revision": "main",
@@ -1172,6 +1432,8 @@
   {
     "forks": 1542,
     "full_name": "SuperClaude-Org/SuperClaude_Framework",
+    "full_name_now": "SuperClaude-Org/SuperClaude_Framework",
+    "id": 1006496207,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -1181,6 +1443,8 @@
   {
     "forks": 1307,
     "full_name": "TanStack/router",
+    "full_name_now": "TanStack/router",
+    "id": 165670309,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -1190,6 +1454,8 @@
   {
     "forks": 6,
     "full_name": "Thomvis/Construct",
+    "full_name_now": "Thomvis/Construct",
+    "id": 298809329,
     "language": "Swift",
     "license": "MIT",
     "revision": "main",
@@ -1199,6 +1465,8 @@
   {
     "forks": 309,
     "full_name": "TobikoData/sqlmesh",
+    "full_name_now": "TobikoData/sqlmesh",
+    "id": 540527604,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1208,6 +1476,8 @@
   {
     "forks": 40,
     "full_name": "TypedDevs/bashunit",
+    "full_name_now": "TypedDevs/bashunit",
+    "id": 686916383,
     "language": "Shell",
     "license": "MIT",
     "revision": "main",
@@ -1217,6 +1487,8 @@
   {
     "forks": 33,
     "full_name": "Voxelum/minecraft-launcher-core-node",
+    "full_name_now": "Voxelum/minecraft-launcher-core-node",
+    "id": 94502729,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -1226,6 +1498,8 @@
   {
     "forks": 145,
     "full_name": "Voxelum/x-minecraft-launcher",
+    "full_name_now": "Voxelum/x-minecraft-launcher",
+    "id": 95660324,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -1235,6 +1509,8 @@
   {
     "forks": 2079,
     "full_name": "Wan-Video/Wan2.1",
+    "full_name_now": "Wan-Video/Wan2.1",
+    "id": 938717878,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1244,6 +1520,8 @@
   {
     "forks": 47,
     "full_name": "WorkflowAI/WorkflowAI",
+    "full_name_now": "WorkflowAI/WorkflowAI",
+    "id": 899127822,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1253,6 +1531,8 @@
   {
     "forks": 76,
     "full_name": "Yamashou/gqlgenc",
+    "full_name_now": "Yamashou/gqlgenc",
+    "id": 272183214,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -1262,6 +1542,8 @@
   {
     "forks": 7286,
     "full_name": "YunaiV/ruoyi-vue-pro",
+    "full_name_now": "YunaiV/ruoyi-vue-pro",
+    "id": 332357698,
     "language": "Java",
     "license": "MIT",
     "revision": "main",
@@ -1271,6 +1553,8 @@
   {
     "forks": 26,
     "full_name": "aavetis/PRarena",
+    "full_name_now": "aavetis/PRarena",
+    "id": 988545158,
     "language": "HTML",
     "license": null,
     "revision": "main",
@@ -1280,6 +1564,8 @@
   {
     "forks": 5,
     "full_name": "acoyfellow/UserDO",
+    "full_name_now": "acoyfellow/UserDO",
+    "id": 989324445,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -1289,6 +1575,8 @@
   {
     "forks": 21,
     "full_name": "activeguild/vite-plugin-sass-dts",
+    "full_name_now": "activeguild/vite-plugin-sass-dts",
+    "id": 416394466,
     "language": "HTML",
     "license": "MIT",
     "revision": "main",
@@ -1298,6 +1586,8 @@
   {
     "forks": 61,
     "full_name": "addok/addok",
+    "full_name_now": "addok/addok",
+    "id": 28606501,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -1307,6 +1597,8 @@
   {
     "forks": 26,
     "full_name": "adrgs/requestrepo",
+    "full_name_now": "adrgs/requestrepo",
+    "id": 583054436,
     "language": "JavaScript",
     "license": "MIT",
     "revision": "main",
@@ -1316,6 +1608,8 @@
   {
     "forks": 313,
     "full_name": "afadil/wealthfolio",
+    "full_name_now": "afadil/wealthfolio",
+    "id": 806618581,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -1325,6 +1619,8 @@
   {
     "forks": 482,
     "full_name": "ag2ai/ag2",
+    "full_name_now": "ag2ai/ag2",
+    "id": 886912514,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1334,6 +1630,8 @@
   {
     "forks": 57,
     "full_name": "ag2ai/build-with-ag2",
+    "full_name_now": "ag2ai/build-with-ag2",
+    "id": 886923395,
     "language": "Jupyter Notebook",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1343,6 +1641,8 @@
   {
     "forks": 88,
     "full_name": "ai-shifu/ai-shifu",
+    "full_name_now": "ai-shifu/ai-shifu",
+    "id": 832552991,
     "language": "Python",
     "license": "NOASSERTION",
     "revision": "main",
@@ -1352,6 +1652,8 @@
   {
     "forks": 449,
     "full_name": "aipotheosis-labs/aci",
+    "full_name_now": "aipotheosis-labs/aci",
+    "id": 859956307,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1361,6 +1663,8 @@
   {
     "forks": 67,
     "full_name": "airbytehq/PyAirbyte",
+    "full_name_now": "airbytehq/PyAirbyte",
+    "id": 752526884,
     "language": "Python",
     "license": "NOASSERTION",
     "revision": "main",
@@ -1370,6 +1674,8 @@
   {
     "forks": 4864,
     "full_name": "airbytehq/airbyte",
+    "full_name_now": "airbytehq/airbyte",
+    "id": 283046497,
     "language": "Python",
     "license": "NOASSERTION",
     "revision": "main",
@@ -1379,6 +1685,8 @@
   {
     "forks": 20,
     "full_name": "ajthinking/data-story",
+    "full_name_now": "ajthinking/data-story",
+    "id": 322673413,
     "language": "TypeScript",
     "license": null,
     "revision": "main",
@@ -1388,6 +1696,8 @@
   {
     "forks": 265,
     "full_name": "akto-api-security/akto",
+    "full_name_now": "akto-api-security/akto",
+    "id": 595526110,
     "language": "Java",
     "license": "MIT",
     "revision": "main",
@@ -1397,6 +1707,8 @@
   {
     "forks": 199,
     "full_name": "alchemyplatform/aa-sdk",
+    "full_name_now": "alchemyplatform/aa-sdk",
+    "id": 642965459,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -1406,6 +1718,8 @@
   {
     "forks": 660,
     "full_name": "aldinokemal/go-whatsapp-web-multidevice",
+    "full_name_now": "aldinokemal/go-whatsapp-web-multidevice",
+    "id": 457435290,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -1415,6 +1729,8 @@
   {
     "forks": 79,
     "full_name": "alexanderjeurissen/ranger_devicons",
+    "full_name_now": "alexanderjeurissen/ranger_devicons",
+    "id": 84483314,
     "language": "Python",
     "license": "GPL-3.0",
     "revision": "main",
@@ -1424,6 +1740,8 @@
   {
     "forks": 28,
     "full_name": "altive/flutter_app_template",
+    "full_name_now": "altive/flutter_app_template",
+    "id": 394474586,
     "language": "Dart",
     "license": "MIT",
     "revision": "main",
@@ -1433,6 +1751,8 @@
   {
     "forks": 154,
     "full_name": "amantus-ai/vibetunnel",
+    "full_name_now": "amantus-ai/vibetunnel",
+    "id": 1002552148,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -1442,6 +1762,8 @@
   {
     "forks": 54,
     "full_name": "amplitude/Amplitude-TypeScript",
+    "full_name_now": "amplitude/Amplitude-TypeScript",
+    "id": 449554700,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -1451,6 +1773,8 @@
   {
     "forks": 48,
     "full_name": "andrewlock/NetEscapades.EnumGenerators",
+    "full_name_now": "andrewlock/NetEscapades.EnumGenerators",
+    "id": 429221032,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -1460,6 +1784,8 @@
   {
     "forks": 12,
     "full_name": "andrewm4894/anomstack",
+    "full_name_now": "andrewm4894/anomstack",
+    "id": 658849262,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -1469,6 +1795,8 @@
   {
     "forks": 53873,
     "full_name": "ant-design/ant-design",
+    "full_name_now": "ant-design/ant-design",
+    "id": 34526884,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -1478,6 +1806,8 @@
   {
     "forks": 357,
     "full_name": "antiwork/flexile",
+    "full_name_now": "antiwork/flexile",
+    "id": 955904085,
     "language": "Ruby",
     "license": "MIT",
     "revision": "main",
@@ -1487,6 +1817,8 @@
   {
     "forks": 1370,
     "full_name": "antiwork/gumroad",
+    "full_name_now": "antiwork/gumroad",
+    "id": 959682770,
     "language": "Ruby",
     "license": "MIT",
     "revision": "main",
@@ -1496,6 +1828,8 @@
   {
     "forks": 84,
     "full_name": "antiwork/iffy",
+    "full_name_now": "antiwork/iffy",
+    "id": 923121271,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -1505,6 +1839,8 @@
   {
     "forks": 332,
     "full_name": "antiwork/shortest",
+    "full_name_now": "antiwork/shortest",
+    "id": 859537060,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -1514,6 +1850,8 @@
   {
     "forks": 1426,
     "full_name": "apache/pinot",
+    "full_name_now": "apache/pinot",
+    "id": 19961085,
     "language": "Java",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1523,6 +1861,8 @@
   {
     "forks": 27,
     "full_name": "apideck-libraries/postman-to-k6",
+    "full_name_now": "apideck-libraries/postman-to-k6",
+    "id": 396255951,
     "language": "JavaScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1532,6 +1872,8 @@
   {
     "forks": 87,
     "full_name": "appdotbuild/agent",
+    "full_name_now": "appdotbuild/agent",
+    "id": 913914262,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1541,6 +1883,8 @@
   {
     "forks": 45,
     "full_name": "appknox/pyaxmlparser",
+    "full_name_now": "appknox/pyaxmlparser",
+    "id": 85335658,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1550,6 +1894,8 @@
   {
     "forks": 4311,
     "full_name": "appsmithorg/appsmith",
+    "full_name_now": "appsmithorg/appsmith",
+    "id": 275993885,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1559,6 +1905,8 @@
   {
     "forks": 75,
     "full_name": "ar-io/ar-io-node",
+    "full_name_now": "ar-io/ar-io-node",
+    "id": 480614136,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -1568,6 +1916,8 @@
   {
     "forks": 11,
     "full_name": "arturboyun/AiogramBotTemplate",
+    "full_name_now": "arturboyun/AiogramBotTemplate",
+    "id": 282882659,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -1575,17 +1925,21 @@
     "stars": 123
   },
   {
-    "forks": 4,
+    "forks": 6,
     "full_name": "assaydepot/red-candle",
+    "full_name_now": "scientist-labs/red-candle",
+    "id": 677673846,
     "language": "Rust",
     "license": "MIT",
-    "revision": "v3",
-    "revision_sha": "68ed5f4b80d27a9e057fc57567f38bd322ac73ec",
-    "stars": 102
+    "revision": "main",
+    "revision_sha": "c63c8a57a2de34fc03fa83722412824af4d8753b",
+    "stars": 184
   },
   {
     "forks": 763,
     "full_name": "assistant-ui/assistant-ui",
+    "full_name_now": "assistant-ui/assistant-ui",
+    "id": 722184017,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -1595,6 +1949,8 @@
   {
     "forks": 2160,
     "full_name": "astral-sh/uv",
+    "full_name_now": "astral-sh/uv",
+    "id": 699532645,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1604,6 +1960,8 @@
   {
     "forks": 7,
     "full_name": "autumn-library/autumn",
+    "full_name_now": "autumn-library/autumn",
+    "id": 481948531,
     "language": "1C Enterprise",
     "license": "MIT",
     "revision": "main",
@@ -1613,6 +1971,8 @@
   {
     "forks": 161,
     "full_name": "azerothcore/Keira3",
+    "full_name_now": "azerothcore/Keira3",
+    "id": 191058169,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -1622,6 +1982,8 @@
   {
     "forks": 97,
     "full_name": "aztfmod/terraform-provider-azurecaf",
+    "full_name_now": "aztfmod/terraform-provider-azurecaf",
+    "id": 248703055,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -1631,6 +1993,8 @@
   {
     "forks": 198,
     "full_name": "azure-ai-foundry/foundry-samples",
+    "full_name_now": "azure-ai-foundry/foundry-samples",
+    "id": 970996146,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -1640,6 +2004,8 @@
   {
     "forks": 6872,
     "full_name": "backstage/backstage",
+    "full_name_now": "backstage/backstage",
+    "id": 236095576,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1649,6 +2015,8 @@
   {
     "forks": 209,
     "full_name": "badtuxx/girus-cli",
+    "full_name_now": "badtuxx/girus-cli",
+    "id": 953558104,
     "language": "Go",
     "license": "GPL-3.0",
     "revision": "main",
@@ -1658,6 +2026,8 @@
   {
     "forks": 276,
     "full_name": "barter-rs/barter-rs",
+    "full_name_now": "barter-rs/barter-rs",
+    "id": 548473954,
     "language": "Rust",
     "license": "MIT",
     "revision": "main",
@@ -1667,6 +2037,8 @@
   {
     "forks": 427,
     "full_name": "bcherny/json-schema-to-typescript",
+    "full_name_now": "bcherny/json-schema-to-typescript",
+    "id": 54443780,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -1676,6 +2048,8 @@
   {
     "forks": 37,
     "full_name": "benbalter/jekyll-relative-links",
+    "full_name_now": "benbalter/jekyll-relative-links",
+    "id": 73994063,
     "language": "Ruby",
     "license": "MIT",
     "revision": "main",
@@ -1685,6 +2059,8 @@
   {
     "forks": 879,
     "full_name": "bentoml/BentoML",
+    "full_name_now": "bentoml/BentoML",
+    "id": 178976529,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1694,6 +2070,8 @@
   {
     "forks": 54,
     "full_name": "benwbrum/fromthepage",
+    "full_name_now": "benwbrum/fromthepage",
+    "id": 509028,
     "language": "Ruby",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -1703,6 +2081,8 @@
   {
     "forks": 254,
     "full_name": "berachain/beacon-kit",
+    "full_name_now": "berachain/beacon-kit",
+    "id": 752003386,
     "language": "Go",
     "license": "NOASSERTION",
     "revision": "main",
@@ -1712,6 +2092,8 @@
   {
     "forks": 123,
     "full_name": "bespokelabsai/curator",
+    "full_name_now": "bespokelabsai/curator",
+    "id": 879473096,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1721,6 +2103,8 @@
   {
     "forks": 8990,
     "full_name": "binarywang/WxJava",
+    "full_name_now": "binarywang/WxJava",
+    "id": 49122742,
     "language": "Java",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1730,6 +2114,8 @@
   {
     "forks": 1880,
     "full_name": "block/goose",
+    "full_name_now": "block/goose",
+    "id": 846698999,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1739,6 +2125,8 @@
   {
     "forks": 60,
     "full_name": "bmander/graphserver",
+    "full_name_now": "bmander/graphserver",
+    "id": 122162,
     "language": "Python",
     "license": "NOASSERTION",
     "revision": "main",
@@ -1748,6 +2136,8 @@
   {
     "forks": 38,
     "full_name": "boldsoftware/sketch",
+    "full_name_now": "boldsoftware/sketch",
+    "id": 959470185,
     "language": "Go",
     "license": "NOASSERTION",
     "revision": "main",
@@ -1757,6 +2147,8 @@
   {
     "forks": 207,
     "full_name": "bolna-ai/bolna",
+    "full_name_now": "bolna-ai/bolna",
+    "id": 846923721,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -1766,6 +2158,8 @@
   {
     "forks": 335,
     "full_name": "box/box-ui-elements",
+    "full_name_now": "box/box-ui-elements",
+    "id": 95743138,
     "language": "JavaScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -1775,6 +2169,8 @@
   {
     "forks": 64,
     "full_name": "box/boxcli",
+    "full_name_now": "box/boxcli",
+    "id": 93581398,
     "language": "JavaScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1784,6 +2180,8 @@
   {
     "forks": 15,
     "full_name": "briangu/klongpy",
+    "full_name_now": "briangu/klongpy",
+    "id": 511305358,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -1793,6 +2191,8 @@
   {
     "forks": 8511,
     "full_name": "browser-use/browser-use",
+    "full_name_now": "browser-use/browser-use",
+    "id": 881458615,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -1802,6 +2202,8 @@
   {
     "forks": 910,
     "full_name": "browserless/browserless",
+    "full_name_now": "browserless/browserless",
+    "id": 111058386,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -1811,6 +2213,8 @@
   {
     "forks": 51,
     "full_name": "bruin-data/bruin",
+    "full_name_now": "bruin-data/bruin",
+    "id": 674225653,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1820,6 +2224,8 @@
   {
     "forks": 111,
     "full_name": "bruin-data/ingestr",
+    "full_name_now": "bruin-data/ingestr",
+    "id": 756594023,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -1829,6 +2235,8 @@
   {
     "forks": 44,
     "full_name": "btwld/mix",
+    "full_name_now": "btwld/mix",
+    "id": 378459401,
     "language": "Dart",
     "license": "BSD-3-Clause",
     "revision": "main",
@@ -1838,6 +2246,8 @@
   {
     "forks": 78,
     "full_name": "buster-so/buster",
+    "full_name_now": "buster-so/buster",
+    "id": 855264010,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "v3",
@@ -1847,6 +2257,8 @@
   {
     "forks": 10868,
     "full_name": "calcom/cal.com",
+    "full_name_now": "calcom/cal.com",
+    "id": 350360184,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -1856,6 +2268,8 @@
   {
     "forks": 276,
     "full_name": "callstack/react-native-testing-library",
+    "full_name_now": "callstack/react-native-testing-library",
+    "id": 151103020,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -1865,6 +2279,8 @@
   {
     "forks": 703,
     "full_name": "camunda/camunda",
+    "full_name_now": "camunda/camunda",
+    "id": 54298946,
     "language": "Java",
     "license": null,
     "revision": "main",
@@ -1874,6 +2290,8 @@
   {
     "forks": 512,
     "full_name": "camunda/camunda-modeler",
+    "full_name_now": "camunda/camunda-modeler",
+    "id": 42712762,
     "language": "JavaScript",
     "license": "MIT",
     "revision": "main",
@@ -1883,6 +2301,8 @@
   {
     "forks": 8,
     "full_name": "canvasxyz/canvas",
+    "full_name_now": "canvasxyz/canvas",
+    "id": 459859537,
     "language": "TypeScript",
     "license": null,
     "revision": "main",
@@ -1892,6 +2312,8 @@
   {
     "forks": 17,
     "full_name": "carverauto/serviceradar",
+    "full_name_now": "carverauto/serviceradar",
+    "id": 916252207,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1901,6 +2323,8 @@
   {
     "forks": 57,
     "full_name": "cberner/raptorq",
+    "full_name_now": "cberner/raptorq",
+    "id": 166902415,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1910,6 +2334,8 @@
   {
     "forks": 344,
     "full_name": "celestiaorg/celestia-core",
+    "full_name_now": "celestiaorg/celestia-core",
+    "id": 221931137,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1919,6 +2345,8 @@
   {
     "forks": 85,
     "full_name": "celestiaorg/rsmt2d",
+    "full_name_now": "celestiaorg/rsmt2d",
+    "id": 126849511,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1928,6 +2356,8 @@
   {
     "forks": 118,
     "full_name": "chainwayxyz/citrea",
+    "full_name_now": "chainwayxyz/citrea",
+    "id": 716131429,
     "language": "Rust",
     "license": "GPL-3.0",
     "revision": "main",
@@ -1937,6 +2367,8 @@
   {
     "forks": 62,
     "full_name": "christianhelle/refitter",
+    "full_name_now": "christianhelle/refitter",
+    "id": 598846021,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -1946,6 +2378,8 @@
   {
     "forks": 367,
     "full_name": "cloudfoundry/cloud_controller_ng",
+    "full_name_now": "cloudfoundry/cloud_controller_ng",
+    "id": 4743255,
     "language": "Ruby",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1955,6 +2389,8 @@
   {
     "forks": 12,
     "full_name": "cloudwalk/stratus",
+    "full_name_now": "cloudwalk/stratus",
+    "id": 727378032,
     "language": "Rust",
     "license": "MIT",
     "revision": "main",
@@ -1964,6 +2400,8 @@
   {
     "forks": 24,
     "full_name": "cloudwego/pilota",
+    "full_name_now": "cloudwego/pilota",
+    "id": 491794726,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1973,6 +2411,8 @@
   {
     "forks": 61,
     "full_name": "codegen-sh/codegen",
+    "full_name_now": "codegen-sh/codegen",
+    "id": 920229736,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -1982,6 +2422,8 @@
   {
     "forks": 1053,
     "full_name": "coder/coder",
+    "full_name_now": "coder/coder",
+    "id": 440752086,
     "language": "Go",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -1991,6 +2433,8 @@
   {
     "forks": 205,
     "full_name": "colorstackorg/oyster",
+    "full_name_now": "colorstackorg/oyster",
+    "id": 778399384,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -2000,6 +2444,8 @@
   {
     "forks": 1638,
     "full_name": "commaai/opendbc",
+    "full_name_now": "commaai/opendbc",
+    "id": 92912604,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -2009,6 +2455,8 @@
   {
     "forks": 58,
     "full_name": "copper-project/copper-rs",
+    "full_name_now": "copper-project/copper-rs",
+    "id": 290790298,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2018,6 +2466,8 @@
   {
     "forks": 431,
     "full_name": "cornerstonejs/cornerstone3D",
+    "full_name_now": "cornerstonejs/cornerstone3D",
+    "id": 472313202,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -2027,6 +2477,8 @@
   {
     "forks": 2173,
     "full_name": "coturn/coturn",
+    "full_name_now": "coturn/coturn",
+    "id": 39242894,
     "language": "C",
     "license": "NOASSERTION",
     "revision": "main",
@@ -2036,6 +2488,8 @@
   {
     "forks": 474,
     "full_name": "crewAIInc/crewAI-tools",
+    "full_name_now": "crewAIInc/crewAI-tools",
+    "id": 742063678,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -2045,6 +2499,8 @@
   {
     "forks": 48,
     "full_name": "cubicdaiya/nginx-build",
+    "full_name_now": "cubicdaiya/nginx-build",
+    "id": 20060139,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -2054,6 +2510,8 @@
   {
     "forks": 1862,
     "full_name": "dagster-io/dagster",
+    "full_name_now": "dagster-io/dagster",
+    "id": 131619646,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2063,6 +2521,8 @@
   {
     "forks": 275,
     "full_name": "dailydotdev/apps",
+    "full_name_now": "dailydotdev/apps",
+    "id": 283728680,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -2072,6 +2532,8 @@
   {
     "forks": 88,
     "full_name": "dasch/avro_turf",
+    "full_name_now": "dasch/avro_turf",
+    "id": 31656719,
     "language": "Ruby",
     "license": "MIT",
     "revision": "main",
@@ -2081,6 +2543,8 @@
   {
     "forks": 171,
     "full_name": "dashpay/dash-wallet",
+    "full_name_now": "dashpay/dash-wallet",
+    "id": 20371637,
     "language": "Kotlin",
     "license": null,
     "revision": "main",
@@ -2090,6 +2554,8 @@
   {
     "forks": 138,
     "full_name": "davidmigloz/langchain_dart",
+    "full_name_now": "davidmigloz/langchain_dart",
+    "id": 649025519,
     "language": "Dart",
     "license": "MIT",
     "revision": "main",
@@ -2099,6 +2565,8 @@
   {
     "forks": 49,
     "full_name": "dcSpark/shinkai-local-ai-agents",
+    "full_name_now": "dcSpark/shinkai-local-ai-agents",
+    "id": 685141528,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2108,6 +2576,8 @@
   {
     "forks": 33,
     "full_name": "debloper/piosk",
+    "full_name_now": "debloper/piosk",
+    "id": 816564221,
     "language": "Astro",
     "license": "MPL-2.0",
     "revision": "main",
@@ -2117,6 +2587,8 @@
   {
     "forks": 242,
     "full_name": "devitocodes/devito",
+    "full_name_now": "devitocodes/devito",
+    "id": 54585666,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -2126,6 +2598,8 @@
   {
     "forks": 123,
     "full_name": "different-ai/note-companion",
+    "full_name_now": "different-ai/note-companion",
+    "id": 689765175,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -2135,6 +2609,8 @@
   {
     "forks": 21,
     "full_name": "different-ai/zero-finance",
+    "full_name_now": "different-ai/zero-finance",
+    "id": 883825890,
     "language": "Solidity",
     "license": "MIT",
     "revision": "main",
@@ -2144,6 +2620,8 @@
   {
     "forks": 126,
     "full_name": "disler/just-prompt",
+    "full_name_now": "disler/just-prompt",
+    "id": 957716837,
     "language": "Python",
     "license": null,
     "revision": "main",
@@ -2153,6 +2631,8 @@
   {
     "forks": 369,
     "full_name": "djacobs/PyAPNs",
+    "full_name_now": "djacobs/PyAPNs",
+    "id": 786406,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -2162,6 +2642,8 @@
   {
     "forks": 3028,
     "full_name": "docling-project/docling",
+    "full_name_now": "docling-project/docling",
+    "id": 826168160,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -2171,6 +2653,8 @@
   {
     "forks": 19,
     "full_name": "dongaba/TVerRec",
+    "full_name_now": "dongaba/TVerRec",
+    "id": 362280662,
     "language": "PowerShell",
     "license": "MIT",
     "revision": "main",
@@ -2180,6 +2664,8 @@
   {
     "forks": 177,
     "full_name": "dotnet/Nerdbank.GitVersioning",
+    "full_name_now": "dotnet/Nerdbank.GitVersioning",
+    "id": 35752188,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -2189,6 +2675,8 @@
   {
     "forks": 63,
     "full_name": "dotnet/android-libraries",
+    "full_name_now": "dotnet/android-libraries",
+    "id": 222508781,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -2198,6 +2686,8 @@
   {
     "forks": 10469,
     "full_name": "dotnet/aspnetcore",
+    "full_name_now": "dotnet/aspnetcore",
+    "id": 17620347,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -2207,6 +2697,8 @@
   {
     "forks": 77,
     "full_name": "dotnet/dev-proxy",
+    "full_name_now": "dotnet/dev-proxy",
+    "id": 534755927,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -2216,6 +2708,8 @@
   {
     "forks": 168,
     "full_name": "dotnet/docs-aspire",
+    "full_name_now": "dotnet/docs-aspire",
+    "id": 717213617,
     "language": null,
     "license": "MIT",
     "revision": "main",
@@ -2225,6 +2719,8 @@
   {
     "forks": 183,
     "full_name": "dotnet/docs-desktop",
+    "full_name_now": "dotnet/docs-desktop",
+    "id": 285925007,
     "language": "C#",
     "license": "CC-BY-4.0",
     "revision": "main",
@@ -2234,6 +2730,8 @@
   {
     "forks": 204,
     "full_name": "dotnet/dotnet",
+    "full_name_now": "dotnet/dotnet",
+    "id": 550902717,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -2243,6 +2741,8 @@
   {
     "forks": 832,
     "full_name": "dotnet/fsharp",
+    "full_name_now": "dotnet/fsharp",
+    "id": 29048891,
     "language": "F#",
     "license": "MIT",
     "revision": "main",
@@ -2252,6 +2752,8 @@
   {
     "forks": 1886,
     "full_name": "dotnet/maui",
+    "full_name_now": "dotnet/maui",
+    "id": 262395224,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -2261,6 +2763,8 @@
   {
     "forks": 1389,
     "full_name": "dotnet/msbuild",
+    "full_name_now": "dotnet/msbuild",
+    "id": 32051890,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -2270,6 +2774,8 @@
   {
     "forks": 5209,
     "full_name": "dotnet/runtime",
+    "full_name_now": "dotnet/runtime",
+    "id": 210716005,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -2279,6 +2785,8 @@
   {
     "forks": 1173,
     "full_name": "dotnet/sdk",
+    "full_name_now": "dotnet/sdk",
+    "id": 63984307,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -2288,6 +2796,8 @@
   {
     "forks": 375,
     "full_name": "dotnet/vscode-dotnet-runtime",
+    "full_name_now": "dotnet/vscode-dotnet-runtime",
+    "id": 176015789,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -2297,6 +2807,8 @@
   {
     "forks": 1062,
     "full_name": "dotnet/winforms",
+    "full_name_now": "dotnet/winforms",
+    "id": 153711830,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -2306,6 +2818,8 @@
   {
     "forks": 165,
     "full_name": "dreadl0ck/netcap",
+    "full_name_now": "dreadl0ck/netcap",
+    "id": 159568339,
     "language": "Go",
     "license": "GPL-3.0",
     "revision": "main",
@@ -2315,6 +2829,8 @@
   {
     "forks": 12,
     "full_name": "dropseed/plain",
+    "full_name_now": "dropseed/plain",
+    "id": 617269166,
     "language": "Python",
     "license": null,
     "revision": "main",
@@ -2324,6 +2840,8 @@
   {
     "forks": 60,
     "full_name": "dsfsi/textaugment",
+    "full_name_now": "dsfsi/textaugment",
+    "id": 185192277,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -2333,6 +2851,8 @@
   {
     "forks": 15,
     "full_name": "dvcrn/mcp-server-siri-shortcuts",
+    "full_name_now": "dvcrn/mcp-server-siri-shortcuts",
+    "id": 938652536,
     "language": "TypeScript",
     "license": "GPL-3.0",
     "revision": "main",
@@ -2342,6 +2862,8 @@
   {
     "forks": 818,
     "full_name": "e2b-dev/fragments",
+    "full_name_now": "e2b-dev/fragments",
+    "id": 827005317,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2351,6 +2873,8 @@
   {
     "forks": 205,
     "full_name": "econ-ark/HARK",
+    "full_name_now": "econ-ark/HARK",
+    "id": 50448254,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2360,6 +2884,8 @@
   {
     "forks": 236,
     "full_name": "effekseer/Effekseer",
+    "full_name_now": "effekseer/Effekseer",
+    "id": 13696235,
     "language": "C++",
     "license": "MIT",
     "revision": "main",
@@ -2369,6 +2895,8 @@
   {
     "forks": 1071,
     "full_name": "electerm/electerm",
+    "full_name_now": "electerm/electerm",
+    "id": 106087444,
     "language": "JavaScript",
     "license": "MIT",
     "revision": "main",
@@ -2378,6 +2906,8 @@
   {
     "forks": 393,
     "full_name": "elevenlabs/elevenlabs-docs",
+    "full_name_now": "elevenlabs/elevenlabs-docs",
+    "id": 609957061,
     "language": "MDX",
     "license": null,
     "revision": "v3",
@@ -2387,6 +2917,8 @@
   {
     "forks": 1058,
     "full_name": "elie222/inbox-zero",
+    "full_name_now": "elie222/inbox-zero",
+    "id": 665613753,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -2396,6 +2928,8 @@
   {
     "forks": 221,
     "full_name": "elixir-lsp/elixir-ls",
+    "full_name_now": "elixir-lsp/elixir-ls",
+    "id": 126746886,
     "language": "Elixir",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2405,6 +2939,8 @@
   {
     "forks": 107,
     "full_name": "elixir-lsp/vscode-elixir-ls",
+    "full_name_now": "elixir-lsp/vscode-elixir-ls",
+    "id": 166018537,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -2414,6 +2950,8 @@
   {
     "forks": 5348,
     "full_name": "elizaOS/eliza",
+    "full_name_now": "elizaOS/eliza",
+    "id": 826170402,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -2423,6 +2961,8 @@
   {
     "forks": 1412,
     "full_name": "elsa-workflows/elsa-core",
+    "full_name_now": "elsa-workflows/elsa-core",
+    "id": 151148482,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -2432,6 +2972,8 @@
   {
     "forks": 142,
     "full_name": "elsa-workflows/elsa-studio",
+    "full_name_now": "elsa-workflows/elsa-studio",
+    "id": 622646426,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -2441,6 +2983,8 @@
   {
     "forks": 28,
     "full_name": "enviodev/hyperindex",
+    "full_name_now": "enviodev/hyperindex",
+    "id": 805282401,
     "language": "ReScript",
     "license": null,
     "revision": "main",
@@ -2450,6 +2994,8 @@
   {
     "forks": 34,
     "full_name": "epicweb-dev/epicshop",
+    "full_name_now": "epicweb-dev/epicshop",
+    "id": 593184777,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -2459,6 +3005,8 @@
   {
     "forks": 67,
     "full_name": "erpc/erpc",
+    "full_name_now": "erpc/erpc",
+    "id": 796633002,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2468,6 +3016,8 @@
   {
     "forks": 105,
     "full_name": "espresso3389/pdfrx",
+    "full_name_now": "espresso3389/pdfrx",
+    "id": 720506531,
     "language": "Dart",
     "license": "MIT",
     "revision": "main",
@@ -2477,6 +3027,8 @@
   {
     "forks": 15,
     "full_name": "estruyf/vscode-demo-time",
+    "full_name_now": "estruyf/vscode-demo-time",
+    "id": 726072067,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -2486,6 +3038,8 @@
   {
     "forks": 98,
     "full_name": "estruyf/vscode-front-matter",
+    "full_name_now": "estruyf/vscode-front-matter",
+    "id": 204027578,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -2495,6 +3049,8 @@
   {
     "forks": 185,
     "full_name": "etchdroid/etchdroid",
+    "full_name_now": "etchdroid/etchdroid",
+    "id": 147043230,
     "language": "Kotlin",
     "license": "GPL-3.0",
     "revision": "main",
@@ -2504,6 +3060,8 @@
   {
     "forks": 3791,
     "full_name": "ethereum-optimism/optimism",
+    "full_name_now": "ethereum-optimism/optimism",
+    "id": 238797860,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -2513,6 +3071,8 @@
   {
     "forks": 55,
     "full_name": "evandempsey/fp-growth",
+    "full_name_now": "evandempsey/fp-growth",
+    "id": 12141518,
     "language": "Python",
     "license": "ISC",
     "revision": "main",
@@ -2522,6 +3082,8 @@
   {
     "forks": 141,
     "full_name": "evergreen-ci/evergreen",
+    "full_name_now": "evergreen-ci/evergreen",
+    "id": 36385798,
     "language": "Go",
     "license": "NOASSERTION",
     "revision": "main",
@@ -2531,6 +3093,8 @@
   {
     "forks": 234,
     "full_name": "evstack/ev-node",
+    "full_name_now": "evstack/ev-node",
+    "id": 335571729,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2540,6 +3104,8 @@
   {
     "forks": 37,
     "full_name": "exa-labs/exa-py",
+    "full_name_now": "exa-labs/exa-py",
+    "id": 662334952,
     "language": "Python",
     "license": null,
     "revision": "main",
@@ -2549,6 +3115,8 @@
   {
     "forks": 90,
     "full_name": "f/mcptools",
+    "full_name_now": "f/mcptools",
+    "id": 954858451,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -2558,6 +3126,8 @@
   {
     "forks": 64,
     "full_name": "faros-ai/airbyte-connectors",
+    "full_name_now": "faros-ai/airbyte-connectors",
+    "id": 392768635,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2567,6 +3137,8 @@
   {
     "forks": 37,
     "full_name": "fatedier/fft",
+    "full_name_now": "fatedier/fft",
+    "id": 119536149,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2576,6 +3148,8 @@
   {
     "forks": 1352,
     "full_name": "filecoin-project/lotus",
+    "full_name_now": "filecoin-project/lotus",
+    "id": 193681111,
     "language": "Go",
     "license": "NOASSERTION",
     "revision": "main",
@@ -2585,6 +3159,8 @@
   {
     "forks": 113,
     "full_name": "fireship-io/flamethrower",
+    "full_name_now": "fireship-io/flamethrower",
+    "id": 525447487,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -2594,6 +3170,8 @@
   {
     "forks": 2025,
     "full_name": "formbricks/formbricks",
+    "full_name_now": "formbricks/formbricks",
+    "id": 500289888,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -2603,6 +3181,8 @@
   {
     "forks": 19,
     "full_name": "fredrikburmester/streamystats",
+    "full_name_now": "fredrikburmester/streamystats",
+    "id": 880525372,
     "language": "TypeScript",
     "license": null,
     "revision": "main",
@@ -2612,6 +3192,8 @@
   {
     "forks": 106,
     "full_name": "freenet/freenet-core",
+    "full_name_now": "freenet/freenet-core",
+    "id": 386644013,
     "language": "Rust",
     "license": "NOASSERTION",
     "revision": "main",
@@ -2621,6 +3203,8 @@
   {
     "forks": 8,
     "full_name": "gacela-project/gacela",
+    "full_name_now": "gacela-project/gacela",
+    "id": 348491018,
     "language": "PHP",
     "license": "NOASSERTION",
     "revision": "main",
@@ -2630,6 +3214,8 @@
   {
     "forks": 25,
     "full_name": "gensx-inc/gensx",
+    "full_name_now": "gensx-inc/gensx",
+    "id": 899766976,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2639,6 +3225,8 @@
   {
     "forks": 58,
     "full_name": "get-convex/convex-helpers",
+    "full_name_now": "get-convex/convex-helpers",
+    "id": 591435512,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2648,6 +3236,8 @@
   {
     "forks": 68,
     "full_name": "getAlby/hub",
+    "full_name_now": "getAlby/hub",
+    "id": 824431992,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2657,6 +3247,8 @@
   {
     "forks": 4492,
     "full_name": "getsentry/sentry",
+    "full_name_now": "getsentry/sentry",
+    "id": 873328,
     "language": "Python",
     "license": "NOASSERTION",
     "revision": "main",
@@ -2666,6 +3258,8 @@
   {
     "forks": 276,
     "full_name": "getsentry/sentry-dart",
+    "full_name_now": "getsentry/sentry-dart",
+    "id": 98913726,
     "language": "Dart",
     "license": "MIT",
     "revision": "main",
@@ -2675,6 +3269,8 @@
   {
     "forks": 1619,
     "full_name": "getsentry/sentry-docs",
+    "full_name_now": "getsentry/sentry-docs",
+    "id": 33837371,
     "language": "MDX",
     "license": "NOASSERTION",
     "revision": "main",
@@ -2684,6 +3280,8 @@
   {
     "forks": 1730,
     "full_name": "getsentry/sentry-javascript",
+    "full_name_now": "getsentry/sentry-javascript",
+    "id": 3328572,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -2693,6 +3291,8 @@
   {
     "forks": 19,
     "full_name": "getsentry/sentry-kotlin-multiplatform",
+    "full_name_now": "getsentry/sentry-kotlin-multiplatform",
+    "id": 285502515,
     "language": "Kotlin",
     "license": "MIT",
     "revision": "main",
@@ -2702,6 +3302,8 @@
   {
     "forks": 77,
     "full_name": "getsentry/sentry-wizard",
+    "full_name_now": "getsentry/sentry-wizard",
+    "id": 110017413,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -2711,6 +3313,8 @@
   {
     "forks": 50,
     "full_name": "giselles-ai/giselle",
+    "full_name_now": "giselles-ai/giselle",
+    "id": 845317529,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2720,6 +3324,8 @@
   {
     "forks": 15,
     "full_name": "githubnext/awesome-continuous-ai",
+    "full_name_now": "githubnext/awesome-continuous-ai",
+    "id": 1001508386,
     "language": null,
     "license": "MIT",
     "revision": "main",
@@ -2729,6 +3335,8 @@
   {
     "forks": 246,
     "full_name": "gluesql/gluesql",
+    "full_name_now": "gluesql/gluesql",
+    "id": 227265548,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2738,6 +3346,8 @@
   {
     "forks": 24,
     "full_name": "gmathi/NovelLibrary",
+    "full_name_now": "gmathi/NovelLibrary",
+    "id": 92864511,
     "language": "Kotlin",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2747,6 +3357,8 @@
   {
     "forks": 226,
     "full_name": "go-vikunja/vikunja",
+    "full_name_now": "go-vikunja/vikunja",
+    "id": 159556794,
     "language": "Go",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -2756,6 +3368,8 @@
   {
     "forks": 1892,
     "full_name": "gofiber/fiber",
+    "full_name_now": "gofiber/fiber",
+    "id": 234231371,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -2765,6 +3379,8 @@
   {
     "forks": 54,
     "full_name": "gojiplus/tuber",
+    "full_name_now": "gojiplus/tuber",
+    "id": 38137840,
     "language": "R",
     "license": null,
     "revision": "main",
@@ -2774,6 +3390,8 @@
   {
     "forks": 81,
     "full_name": "goniszewski/grimoire",
+    "full_name_now": "goniszewski/grimoire",
+    "id": 657204276,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -2783,6 +3401,8 @@
   {
     "forks": 563,
     "full_name": "google-deepmind/gemma",
+    "full_name_now": "google-deepmind/gemma",
+    "id": 760683276,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2792,6 +3412,8 @@
   {
     "forks": 8887,
     "full_name": "google-gemini/gemini-cli",
+    "full_name_now": "google-gemini/gemini-cli",
+    "id": 968197216,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2801,6 +3423,8 @@
   {
     "forks": 216,
     "full_name": "graphistry/pygraphistry",
+    "full_name_now": "graphistry/pygraphistry",
+    "id": 36759907,
     "language": "Python",
     "license": "BSD-3-Clause",
     "revision": "main",
@@ -2810,6 +3434,8 @@
   {
     "forks": 38,
     "full_name": "green-coding-solutions/green-metrics-tool",
+    "full_name_now": "green-coding-solutions/green-metrics-tool",
+    "id": 463548517,
     "language": "Python",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -2819,6 +3445,8 @@
   {
     "forks": 47,
     "full_name": "grll/mcpadapt",
+    "full_name_now": "grll/mcpadapt",
+    "id": 915470479,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -2828,6 +3456,8 @@
   {
     "forks": 213,
     "full_name": "groupultra/telegram-search",
+    "full_name_now": "groupultra/telegram-search",
+    "id": 929338255,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -2837,6 +3467,8 @@
   {
     "forks": 14,
     "full_name": "gtg922r/obsidian-numerals",
+    "full_name_now": "gtg922r/obsidian-numerals",
+    "id": 552234230,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -2846,6 +3478,8 @@
   {
     "forks": 1110,
     "full_name": "hackmdio/codimd",
+    "full_name_now": "hackmdio/codimd",
+    "id": 35017238,
     "language": "JavaScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -2855,6 +3489,8 @@
   {
     "forks": 1456,
     "full_name": "hacs/integration",
+    "full_name_now": "hacs/integration",
+    "id": 172733314,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -2864,6 +3500,8 @@
   {
     "forks": 10113,
     "full_name": "halo-dev/halo",
+    "full_name_now": "halo-dev/halo",
+    "id": 126178683,
     "language": "Java",
     "license": "GPL-3.0",
     "revision": "main",
@@ -2873,6 +3511,8 @@
   {
     "forks": 20,
     "full_name": "harrisonwang/docxy",
+    "full_name_now": "harrisonwang/docxy",
+    "id": 945001809,
     "language": "Rust",
     "license": "MIT",
     "revision": "main",
@@ -2882,6 +3522,8 @@
   {
     "forks": 41,
     "full_name": "haydenbleasel/eververse",
+    "full_name_now": "haydenbleasel/eververse",
+    "id": 914964570,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -2891,6 +3533,8 @@
   {
     "forks": 142,
     "full_name": "haydenbleasel/kibo",
+    "full_name_now": "haydenbleasel/kibo",
+    "id": 847167817,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -2900,6 +3544,8 @@
   {
     "forks": 31,
     "full_name": "hetrixtools/agent",
+    "full_name_now": "hetrixtools/agent",
+    "id": 77845641,
     "language": "Shell",
     "license": null,
     "revision": "main",
@@ -2909,6 +3555,8 @@
   {
     "forks": 8,
     "full_name": "hikettei/Caten",
+    "full_name_now": "hikettei/Caten",
+    "id": 831972025,
     "language": "Common Lisp",
     "license": "NOASSERTION",
     "revision": "main",
@@ -2916,17 +3564,21 @@
     "stars": 227
   },
   {
-    "forks": 106,
+    "forks": 109,
     "full_name": "hirosystems/explorer",
+    "full_name_now": "stx-labs/explorer",
+    "id": 246072685,
     "language": "TypeScript",
     "license": "MIT",
-    "revision": "v3",
-    "revision_sha": "68ed5f4b80d27a9e057fc57567f38bd322ac73ec",
-    "stars": 149
+    "revision": "main",
+    "revision_sha": "c63c8a57a2de34fc03fa83722412824af4d8753b",
+    "stars": 156
   },
   {
     "forks": 112,
     "full_name": "hmislk/hmis",
+    "full_name_now": "hmislk/hmis",
+    "id": 21764480,
     "language": "HTML",
     "license": "NOASSERTION",
     "revision": "main",
@@ -2936,6 +3588,8 @@
   {
     "forks": 52,
     "full_name": "hotovo/aider-desk",
+    "full_name_now": "hotovo/aider-desk",
+    "id": 913540439,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2945,6 +3599,8 @@
   {
     "forks": 925,
     "full_name": "huggingface/blog",
+    "full_name_now": "huggingface/blog",
+    "id": 240541316,
     "language": "Jupyter Notebook",
     "license": null,
     "revision": "main",
@@ -2954,6 +3610,8 @@
   {
     "forks": 826,
     "full_name": "huggingface/huggingface_hub",
+    "full_name_now": "huggingface/huggingface_hub",
+    "id": 323591830,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2963,6 +3621,8 @@
   {
     "forks": 982,
     "full_name": "huggingface/tokenizers",
+    "full_name_now": "huggingface/tokenizers",
+    "id": 219035799,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2972,6 +3632,8 @@
   {
     "forks": 151,
     "full_name": "hyperlight-dev/hyperlight",
+    "full_name_now": "hyperlight-dev/hyperlight",
+    "id": 883829350,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -2981,6 +3643,8 @@
   {
     "forks": 12,
     "full_name": "icehouse-ventures/laravel-chartjs",
+    "full_name_now": "icehouse-ventures/laravel-chartjs",
+    "id": 735889907,
     "language": "PHP",
     "license": "MIT",
     "revision": "main",
@@ -2990,6 +3654,8 @@
   {
     "forks": 64,
     "full_name": "ika-rwth-aachen/mqtt_client",
+    "full_name_now": "ika-rwth-aachen/mqtt_client",
+    "id": 456882115,
     "language": "C++",
     "license": "MIT",
     "revision": "main",
@@ -2999,6 +3665,8 @@
   {
     "forks": 38,
     "full_name": "ikamensh/flynt",
+    "full_name_now": "ikamensh/flynt",
+    "id": 174731004,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -3008,6 +3676,8 @@
   {
     "forks": 219,
     "full_name": "imbhargav5/rooks",
+    "full_name_now": "imbhargav5/rooks",
+    "id": 156734327,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3017,6 +3687,8 @@
   {
     "forks": 18,
     "full_name": "imgntn/j360",
+    "full_name_now": "imgntn/j360",
+    "id": 76519330,
     "language": "JavaScript",
     "license": null,
     "revision": "main",
@@ -3026,6 +3698,8 @@
   {
     "forks": 2704,
     "full_name": "invoke-ai/InvokeAI",
+    "full_name_now": "invoke-ai/InvokeAI",
+    "id": 525592995,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3035,6 +3709,8 @@
   {
     "forks": 17,
     "full_name": "iopsystems/rezolus",
+    "full_name_now": "iopsystems/rezolus",
+    "id": 588739758,
     "language": "Rust",
     "license": "NOASSERTION",
     "revision": "main",
@@ -3044,6 +3720,8 @@
   {
     "forks": 76,
     "full_name": "irsyadadl/intentui",
+    "full_name_now": "irsyadadl/intentui",
+    "id": 824433284,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3053,6 +3731,8 @@
   {
     "forks": 131,
     "full_name": "iterative/datachain",
+    "full_name_now": "iterative/datachain",
+    "id": 820144741,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3062,6 +3742,8 @@
   {
     "forks": 46,
     "full_name": "jabrena/cursor-rules-java",
+    "full_name_now": "jabrena/cursor-rules-java",
+    "id": 929599382,
     "language": "Java",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3071,6 +3753,8 @@
   {
     "forks": 13,
     "full_name": "jacksonkasi1/tnks-data-table",
+    "full_name_now": "jacksonkasi1/tnks-data-table",
+    "id": 962410667,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3080,6 +3764,8 @@
   {
     "forks": 27,
     "full_name": "janbjorge/pgqueuer",
+    "full_name_now": "janbjorge/pgqueuer",
+    "id": 788904329,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -3089,6 +3775,8 @@
   {
     "forks": 330,
     "full_name": "jaseci-labs/jaseci",
+    "full_name_now": "jaseci-labs/jaseci",
+    "id": 422711680,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -3098,6 +3786,8 @@
   {
     "forks": 66,
     "full_name": "jcputney/scorm-again",
+    "full_name_now": "jcputney/scorm-again",
+    "id": 220823889,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3107,6 +3797,8 @@
   {
     "forks": 115,
     "full_name": "jdereg/json-io",
+    "full_name_now": "jdereg/json-io",
+    "id": 12594924,
     "language": "Java",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3116,6 +3808,8 @@
   {
     "forks": 695,
     "full_name": "jdx/mise",
+    "full_name_now": "jdx/mise",
+    "id": 586920414,
     "language": "Rust",
     "license": "MIT",
     "revision": "main",
@@ -3125,6 +3819,8 @@
   {
     "forks": 32,
     "full_name": "jihadkhawaja/Egroo",
+    "full_name_now": "jihadkhawaja/Egroo",
+    "id": 376017572,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -3134,6 +3830,8 @@
   {
     "forks": 22,
     "full_name": "jina-ai/deepsearch-ui",
+    "full_name_now": "jina-ai/deepsearch-ui",
+    "id": 934090141,
     "language": "JavaScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3143,6 +3841,8 @@
   {
     "forks": 42,
     "full_name": "jkroepke/openvpn-auth-oauth2",
+    "full_name_now": "jkroepke/openvpn-auth-oauth2",
+    "id": 643629784,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -3152,6 +3852,8 @@
   {
     "forks": 1428,
     "full_name": "jlowin/fastmcp",
+    "full_name_now": "jlowin/fastmcp",
+    "id": 896296825,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3161,6 +3863,8 @@
   {
     "forks": 36,
     "full_name": "joamag/boytacean",
+    "full_name_now": "joamag/boytacean",
+    "id": 565750987,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3170,6 +3874,8 @@
   {
     "forks": 39,
     "full_name": "joewandy/hlda",
+    "full_name_now": "joewandy/hlda",
+    "id": 69615317,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -3179,6 +3885,8 @@
   {
     "forks": 146,
     "full_name": "johnlindquist/kit",
+    "full_name_now": "johnlindquist/kit",
+    "id": 317639685,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3188,6 +3896,8 @@
   {
     "forks": 81,
     "full_name": "johnpapa/shopathome",
+    "full_name_now": "johnpapa/shopathome",
+    "id": 262169165,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3197,6 +3907,8 @@
   {
     "forks": 547,
     "full_name": "jsforce/jsforce",
+    "full_name_now": "jsforce/jsforce",
+    "id": 16372438,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3206,6 +3918,8 @@
   {
     "forks": 987,
     "full_name": "julep-ai/julep",
+    "full_name_now": "julep-ai/julep",
+    "id": 781914762,
     "language": "Jupyter Notebook",
     "license": null,
     "revision": "main",
@@ -3215,6 +3929,8 @@
   {
     "forks": 172,
     "full_name": "kanisterio/kanister",
+    "full_name_now": "kanisterio/kanister",
+    "id": 111599187,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3224,6 +3940,8 @@
   {
     "forks": 28,
     "full_name": "kargnas/laravel-ai-translator",
+    "full_name_now": "kargnas/laravel-ai-translator",
+    "id": 822046563,
     "language": "PHP",
     "license": "MIT",
     "revision": "main",
@@ -3233,6 +3951,8 @@
   {
     "forks": 62,
     "full_name": "kavishdevar/librepods",
+    "full_name_now": "kavishdevar/librepods",
+    "id": 863717537,
     "language": "Kotlin",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -3242,6 +3962,8 @@
   {
     "forks": 10,
     "full_name": "kdroidFilter/ComposeNativeTray",
+    "full_name_now": "kdroidFilter/ComposeNativeTray",
+    "id": 870305667,
     "language": "Kotlin",
     "license": "MIT",
     "revision": "main",
@@ -3251,6 +3973,8 @@
   {
     "forks": 1084,
     "full_name": "keephq/keep",
+    "full_name_now": "keephq/keep",
+    "id": 597502256,
     "language": "Python",
     "license": "NOASSERTION",
     "revision": "main",
@@ -3260,6 +3984,8 @@
   {
     "forks": 589,
     "full_name": "kern/filepizza",
+    "full_name_now": "kern/filepizza",
+    "id": 31341340,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -3269,6 +3995,8 @@
   {
     "forks": 68,
     "full_name": "kingstinct/react-native-healthkit",
+    "full_name_now": "kingstinct/react-native-healthkit",
+    "id": 275260119,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3278,6 +4006,8 @@
   {
     "forks": 165,
     "full_name": "kiwicom/orbit",
+    "full_name_now": "kiwicom/orbit",
+    "id": 121522380,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3287,6 +4017,8 @@
   {
     "forks": 58,
     "full_name": "kodustech/kodus-ai",
+    "full_name_now": "kodustech/kodus-ai",
+    "id": 956679248,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -3296,6 +4028,8 @@
   {
     "forks": 3145,
     "full_name": "kortix-ai/suna",
+    "full_name_now": "kortix-ai/suna",
+    "id": 868173144,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3305,6 +4039,8 @@
   {
     "forks": 208,
     "full_name": "kubernetes-sigs/azuredisk-csi-driver",
+    "full_name_now": "kubernetes-sigs/azuredisk-csi-driver",
+    "id": 163516932,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3314,6 +4050,8 @@
   {
     "forks": 94,
     "full_name": "kubernetes-sigs/blob-csi-driver",
+    "full_name_now": "kubernetes-sigs/blob-csi-driver",
+    "id": 170879925,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3323,6 +4061,8 @@
   {
     "forks": 99,
     "full_name": "kubetail-org/kubetail",
+    "full_name_now": "kubetail-org/kubetail",
+    "id": 756293439,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3332,6 +4072,8 @@
   {
     "forks": 9,
     "full_name": "laiso/askrepo",
+    "full_name_now": "laiso/askrepo",
+    "id": 882626210,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3341,6 +4083,8 @@
   {
     "forks": 1128,
     "full_name": "langbot-app/LangBot",
+    "full_name_now": "langbot-app/LangBot",
+    "id": 575321313,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3350,6 +4094,8 @@
   {
     "forks": 282,
     "full_name": "langchain-ai/agents-from-scratch",
+    "full_name_now": "langchain-ai/agents-from-scratch",
+    "id": 958189434,
     "language": "Jupyter Notebook",
     "license": null,
     "revision": "main",
@@ -3359,6 +4105,8 @@
   {
     "forks": 19455,
     "full_name": "langchain-ai/langchain",
+    "full_name_now": "langchain-ai/langchain",
+    "id": 552661142,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -3368,6 +4116,8 @@
   {
     "forks": 1683,
     "full_name": "langfuse/langfuse",
+    "full_name_now": "langfuse/langfuse",
+    "id": 642497346,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -3377,6 +4127,8 @@
   {
     "forks": 148,
     "full_name": "langfuse/langfuse-docs",
+    "full_name_now": "langfuse/langfuse-docs",
+    "id": 643978507,
     "language": "Jupyter Notebook",
     "license": "MIT",
     "revision": "main",
@@ -3386,6 +4138,8 @@
   {
     "forks": 349,
     "full_name": "laude-institute/terminal-bench",
+    "full_name_now": "laude-institute/terminal-bench",
+    "id": 918420677,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3395,6 +4149,8 @@
   {
     "forks": 31,
     "full_name": "launchql/pgsql-parser",
+    "full_name_now": "launchql/pgsql-parser",
+    "id": 272918231,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3404,6 +4160,8 @@
   {
     "forks": 12,
     "full_name": "lawrencegripper/azbrowse",
+    "full_name_now": "lawrencegripper/azbrowse",
+    "id": 161169192,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -3413,6 +4171,8 @@
   {
     "forks": 268,
     "full_name": "leoafarias/fvm",
+    "full_name_now": "leoafarias/fvm",
+    "id": 172011048,
     "language": "Dart",
     "license": "MIT",
     "revision": "main",
@@ -3422,6 +4182,8 @@
   {
     "forks": 256,
     "full_name": "leonardsellem/n8n-mcp-server",
+    "full_name_now": "leonardsellem/n8n-mcp-server",
+    "id": 947387660,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3431,6 +4193,8 @@
   {
     "forks": 63,
     "full_name": "lgallard/terraform-aws-backup",
+    "full_name_now": "lgallard/terraform-aws-backup",
+    "id": 215705753,
     "language": "HCL",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3440,6 +4204,8 @@
   {
     "forks": 179,
     "full_name": "liam-hq/liam",
+    "full_name_now": "liam-hq/liam",
+    "id": 839216423,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3449,6 +4215,8 @@
   {
     "forks": 307,
     "full_name": "licensee/licensee",
+    "full_name_now": "licensee/licensee",
+    "id": 23022377,
     "language": "Ruby",
     "license": "MIT",
     "revision": "main",
@@ -3458,6 +4226,8 @@
   {
     "forks": 17,
     "full_name": "lidofinance/diffyscan",
+    "full_name_now": "lidofinance/diffyscan",
+    "id": 631200841,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -3467,6 +4237,8 @@
   {
     "forks": 639,
     "full_name": "lightdash/lightdash",
+    "full_name_now": "lightdash/lightdash",
+    "id": 349372179,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -3476,6 +4248,8 @@
   {
     "forks": 193,
     "full_name": "lingodotdev/lingo.dev",
+    "full_name_now": "lingodotdev/lingo.dev",
+    "id": 771479895,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3485,6 +4259,8 @@
   {
     "forks": 58,
     "full_name": "liuyanghejerry/painttyWidget",
+    "full_name_now": "liuyanghejerry/painttyWidget",
+    "id": 8308904,
     "language": "C++",
     "license": null,
     "revision": "v3",
@@ -3494,6 +4270,8 @@
   {
     "forks": 384,
     "full_name": "liveblocks/liveblocks",
+    "full_name_now": "liveblocks/liveblocks",
+    "id": 370740787,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3503,6 +4281,8 @@
   {
     "forks": 21,
     "full_name": "livingbio/typed-ffmpeg",
+    "full_name_now": "livingbio/typed-ffmpeg",
+    "id": 722865845,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -3512,6 +4292,8 @@
   {
     "forks": 567,
     "full_name": "log4cplus/log4cplus",
+    "full_name_now": "log4cplus/log4cplus",
+    "id": 15830219,
     "language": "C++",
     "license": "NOASSERTION",
     "revision": "main",
@@ -3521,6 +4303,8 @@
   {
     "forks": 47,
     "full_name": "logiscape/mcp-sdk-php",
+    "full_name_now": "logiscape/mcp-sdk-php",
+    "id": 900612306,
     "language": "PHP",
     "license": "MIT",
     "revision": "main",
@@ -3530,6 +4314,8 @@
   {
     "forks": 202,
     "full_name": "lordmauve/pgzero",
+    "full_name_now": "lordmauve/pgzero",
+    "id": 122837644,
     "language": "Python",
     "license": "LGPL-3.0",
     "revision": "main",
@@ -3539,6 +4325,8 @@
   {
     "forks": 27,
     "full_name": "lordmauve/wasabi2d",
+    "full_name_now": "lordmauve/wasabi2d",
+    "id": 200483841,
     "language": "Python",
     "license": "LGPL-3.0",
     "revision": "main",
@@ -3548,6 +4336,8 @@
   {
     "forks": 74,
     "full_name": "lostintangent/gistpad",
+    "full_name_now": "lostintangent/gistpad",
+    "id": 223700078,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3557,6 +4347,8 @@
   {
     "forks": 21,
     "full_name": "lukasoppermann/style-dictionary-utils",
+    "full_name_now": "lukasoppermann/style-dictionary-utils",
+    "id": 541735786,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3566,6 +4358,8 @@
   {
     "forks": 30,
     "full_name": "luohy15/y-gui",
+    "full_name_now": "luohy15/y-gui",
+    "id": 943684276,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3575,6 +4369,8 @@
   {
     "forks": 13,
     "full_name": "lwyBZss8924d/DeepSearchAgents",
+    "full_name_now": "lwyBZss8924d/DeepSearchAgents",
+    "id": 966679215,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -3584,6 +4380,8 @@
   {
     "forks": 107,
     "full_name": "lynx-family/lynx-stack",
+    "full_name_now": "lynx-family/lynx-stack",
+    "id": 939393745,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3593,6 +4391,8 @@
   {
     "forks": 120,
     "full_name": "magiclabs/magic-js",
+    "full_name_now": "magiclabs/magic-js",
+    "id": 239957242,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3602,6 +4402,8 @@
   {
     "forks": 207,
     "full_name": "manifoldmarkets/manifold",
+    "full_name_now": "manifoldmarkets/manifold",
+    "id": 433321004,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3611,6 +4413,8 @@
   {
     "forks": 437,
     "full_name": "maplibre/maputnik",
+    "full_name_now": "maplibre/maputnik",
+    "id": 67726921,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3620,6 +4424,8 @@
   {
     "forks": 52,
     "full_name": "marin-community/marin",
+    "full_name_now": "marin-community/marin",
+    "id": 775839592,
     "language": "HTML",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3629,6 +4435,8 @@
   {
     "forks": 100,
     "full_name": "mariotoffia/FluentDocker",
+    "full_name_now": "mariotoffia/FluentDocker",
+    "id": 54591411,
     "language": "C#",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3638,6 +4446,8 @@
   {
     "forks": 1228,
     "full_name": "mastra-ai/mastra",
+    "full_name_now": "mastra-ai/mastra",
+    "id": 839037098,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -3647,6 +4457,8 @@
   {
     "forks": 98,
     "full_name": "mattiasw/ExifReader",
+    "full_name_now": "mattiasw/ExifReader",
+    "id": 3084583,
     "language": "JavaScript",
     "license": "MPL-2.0",
     "revision": "main",
@@ -3656,6 +4468,8 @@
   {
     "forks": 3055,
     "full_name": "mautic/mautic",
+    "full_name_now": "mautic/mautic",
+    "id": 12204147,
     "language": "PHP",
     "license": "NOASSERTION",
     "revision": "main",
@@ -3665,6 +4479,8 @@
   {
     "forks": 8,
     "full_name": "mcpgod/cli",
+    "full_name_now": "mcpgod/cli",
+    "id": 946251174,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3674,6 +4490,8 @@
   {
     "forks": 153,
     "full_name": "mediar-ai/terminator",
+    "full_name_now": "mediar-ai/terminator",
+    "id": 964314175,
     "language": "Rust",
     "license": "MIT",
     "revision": "main",
@@ -3683,6 +4501,8 @@
   {
     "forks": 603,
     "full_name": "medplum/medplum",
+    "full_name_now": "medplum/medplum",
+    "id": 360238600,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3692,6 +4512,8 @@
   {
     "forks": 312,
     "full_name": "mehah/otclient",
+    "full_name_now": "mehah/otclient",
+    "id": 273278110,
     "language": "Lua",
     "license": "NOASSERTION",
     "revision": "main",
@@ -3701,6 +4523,8 @@
   {
     "forks": 4494,
     "full_name": "mem0ai/mem0",
+    "full_name_now": "mem0ai/mem0",
+    "id": 656099147,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3708,26 +4532,32 @@
     "stars": 41808
   },
   {
-    "forks": 4157,
+    "forks": 5133,
     "full_name": "mendableai/firecrawl",
+    "full_name_now": "firecrawl/firecrawl",
+    "id": 787076358,
     "language": "TypeScript",
     "license": "AGPL-3.0",
-    "revision": "v3",
-    "revision_sha": "68ed5f4b80d27a9e057fc57567f38bd322ac73ec",
-    "stars": 43970
+    "revision": "main",
+    "revision_sha": "c63c8a57a2de34fc03fa83722412824af4d8753b",
+    "stars": 64982
   },
   {
-    "forks": 388,
+    "forks": 519,
     "full_name": "mendableai/firecrawl-mcp-server",
+    "full_name_now": "firecrawl/firecrawl-mcp-server",
+    "id": 899407931,
     "language": "JavaScript",
     "license": "MIT",
-    "revision": "v3",
-    "revision_sha": "68ed5f4b80d27a9e057fc57567f38bd322ac73ec",
-    "stars": 3991
+    "revision": "main",
+    "revision_sha": "c63c8a57a2de34fc03fa83722412824af4d8753b",
+    "stars": 4795
   },
   {
     "forks": 27,
     "full_name": "metacraft-labs/codetracer",
+    "full_name_now": "metacraft-labs/codetracer",
+    "id": 921671178,
     "language": "Nim",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -3737,6 +4567,8 @@
   {
     "forks": 255,
     "full_name": "microsoft/ApplicationInsights-JS",
+    "full_name_now": "microsoft/ApplicationInsights-JS",
+    "id": 33373292,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -3746,6 +4578,8 @@
   {
     "forks": 208,
     "full_name": "microsoft/ApplicationInsights-Java",
+    "full_name_now": "microsoft/ApplicationInsights-Java",
+    "id": 27460436,
     "language": "Java",
     "license": "NOASSERTION",
     "revision": "main",
@@ -3755,6 +4589,8 @@
   {
     "forks": 168,
     "full_name": "microsoft/AzureTRE",
+    "full_name_now": "microsoft/AzureTRE",
+    "id": 344511263,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -3764,6 +4600,8 @@
   {
     "forks": 1601,
     "full_name": "microsoft/BotFramework-WebChat",
+    "full_name_now": "microsoft/BotFramework-WebChat",
+    "id": 62843932,
     "language": "HTML",
     "license": "MIT",
     "revision": "main",
@@ -3773,6 +4611,8 @@
   {
     "forks": 23,
     "full_name": "microsoft/DacFx",
+    "full_name_now": "microsoft/DacFx",
+    "id": 277609931,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -3782,6 +4622,8 @@
   {
     "forks": 758,
     "full_name": "microsoft/GSL",
+    "full_name_now": "microsoft/GSL",
+    "id": 41005795,
     "language": "C++",
     "license": "NOASSERTION",
     "revision": "main",
@@ -3791,6 +4633,8 @@
   {
     "forks": 91,
     "full_name": "microsoft/MSBuildLocator",
+    "full_name_now": "microsoft/MSBuildLocator",
+    "id": 100754955,
     "language": "C#",
     "license": "NOASSERTION",
     "revision": "main",
@@ -3800,6 +4644,8 @@
   {
     "forks": 607,
     "full_name": "microsoft/Microsoft365DSC",
+    "full_name_now": "microsoft/Microsoft365DSC",
+    "id": 158580093,
     "language": "PowerShell",
     "license": "MIT",
     "revision": "main",
@@ -3809,6 +4655,8 @@
   {
     "forks": 270,
     "full_name": "microsoft/OpenAPI.NET",
+    "full_name_now": "microsoft/OpenAPI.NET",
+    "id": 97175798,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -3818,6 +4666,8 @@
   {
     "forks": 60,
     "full_name": "microsoft/P.808",
+    "full_name_now": "microsoft/P.808",
+    "id": 233724186,
     "language": "HTML",
     "license": "MIT",
     "revision": "main",
@@ -3827,6 +4677,8 @@
   {
     "forks": 61,
     "full_name": "microsoft/PSRule",
+    "full_name_now": "microsoft/PSRule",
+    "id": 125832556,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -3836,6 +4688,8 @@
   {
     "forks": 7451,
     "full_name": "microsoft/PowerToys",
+    "full_name_now": "microsoft/PowerToys",
+    "id": 184456251,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -3845,6 +4699,8 @@
   {
     "forks": 336,
     "full_name": "microsoft/Qcodes",
+    "full_name_now": "microsoft/Qcodes",
+    "id": 37137879,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -3854,6 +4710,8 @@
   {
     "forks": 33,
     "full_name": "microsoft/SqlScriptDOM",
+    "full_name_now": "microsoft/SqlScriptDOM",
+    "id": 543316377,
     "language": "GAP",
     "license": "MIT",
     "revision": "main",
@@ -3863,6 +4721,8 @@
   {
     "forks": 13084,
     "full_name": "microsoft/TypeScript",
+    "full_name_now": "microsoft/TypeScript",
+    "id": 20929025,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -3872,6 +4732,8 @@
   {
     "forks": 704,
     "full_name": "microsoft/WinUI-Gallery",
+    "full_name_now": "microsoft/WinUI-Gallery",
+    "id": 155757874,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -3881,6 +4743,8 @@
   {
     "forks": 75,
     "full_name": "microsoft/Windows-Containers",
+    "full_name_now": "microsoft/Windows-Containers",
+    "id": 268924826,
     "language": "PowerShell",
     "license": "MIT",
     "revision": "main",
@@ -3890,6 +4754,8 @@
   {
     "forks": 3312,
     "full_name": "microsoft/Windows-classic-samples",
+    "full_name_now": "microsoft/Windows-classic-samples",
+    "id": 42122336,
     "language": null,
     "license": "NOASSERTION",
     "revision": "main",
@@ -3899,6 +4765,8 @@
   {
     "forks": 14423,
     "full_name": "microsoft/ai-agents-for-beginners",
+    "full_name_now": "microsoft/ai-agents-for-beginners",
+    "id": 895508656,
     "language": "Jupyter Notebook",
     "license": "MIT",
     "revision": "main",
@@ -3908,6 +4776,8 @@
   {
     "forks": 7801,
     "full_name": "microsoft/autogen",
+    "full_name_now": "microsoft/autogen",
+    "id": 680120071,
     "language": "Python",
     "license": "CC-BY-4.0",
     "revision": "main",
@@ -3917,6 +4787,8 @@
   {
     "forks": 36,
     "full_name": "microsoft/debug-gym",
+    "full_name_now": "microsoft/debug-gym",
+    "id": 883186358,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -3926,6 +4798,8 @@
   {
     "forks": 267,
     "full_name": "microsoft/ebpf-for-windows",
+    "full_name_now": "microsoft/ebpf-for-windows",
+    "id": 355718757,
     "language": "C",
     "license": "MIT",
     "revision": "main",
@@ -3935,6 +4809,8 @@
   {
     "forks": 94,
     "full_name": "microsoft/fabric-cicd",
+    "full_name_now": "microsoft/fabric-cicd",
+    "id": 898171798,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -3944,6 +4820,8 @@
   {
     "forks": 454,
     "full_name": "microsoft/fluentui-blazor",
+    "full_name_now": "microsoft/fluentui-blazor",
+    "id": 348132133,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -3953,6 +4831,8 @@
   {
     "forks": 644,
     "full_name": "microsoft/generative-ai-with-javascript",
+    "full_name_now": "microsoft/generative-ai-with-javascript",
+    "id": 832180352,
     "language": "JavaScript",
     "license": "MIT",
     "revision": "main",
@@ -3962,6 +4842,8 @@
   {
     "forks": 106,
     "full_name": "microsoft/git",
+    "full_name_now": "microsoft/git",
+    "id": 79856983,
     "language": "C",
     "license": "NOASSERTION",
     "revision": "main",
@@ -3971,6 +4853,8 @@
   {
     "forks": 3018,
     "full_name": "microsoft/graphrag",
+    "full_name_now": "microsoft/graphrag",
+    "id": 778431525,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -3980,6 +4864,8 @@
   {
     "forks": 219,
     "full_name": "microsoft/lisa",
+    "full_name_now": "microsoft/lisa",
+    "id": 174629277,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -3989,6 +4875,8 @@
   {
     "forks": 814,
     "full_name": "microsoft/magentic-ui",
+    "full_name_now": "microsoft/magentic-ui",
+    "id": 978331188,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -3998,6 +4886,8 @@
   {
     "forks": 609,
     "full_name": "microsoft/msquic",
+    "full_name_now": "microsoft/msquic",
+    "id": 217654199,
     "language": "C",
     "license": "MIT",
     "revision": "main",
@@ -4007,6 +4897,8 @@
   {
     "forks": 3519,
     "full_name": "microsoft/onnxruntime",
+    "full_name_now": "microsoft/onnxruntime",
+    "id": 156939672,
     "language": "C++",
     "license": "MIT",
     "revision": "main",
@@ -4016,6 +4908,8 @@
   {
     "forks": 87,
     "full_name": "microsoft/onnxscript",
+    "full_name_now": "microsoft/onnxscript",
+    "id": 464577591,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -4025,6 +4919,8 @@
   {
     "forks": 744,
     "full_name": "microsoft/perfview",
+    "full_name_now": "microsoft/perfview",
+    "id": 33010673,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -4034,6 +4930,8 @@
   {
     "forks": 310,
     "full_name": "microsoft/pict",
+    "full_name_now": "microsoft/pict",
+    "id": 44393232,
     "language": "C++",
     "license": "NOASSERTION",
     "revision": "main",
@@ -4043,6 +4941,8 @@
   {
     "forks": 4741,
     "full_name": "microsoft/playwright",
+    "full_name_now": "microsoft/playwright",
+    "id": 221981891,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4052,6 +4952,8 @@
   {
     "forks": 63,
     "full_name": "microsoft/project-oagents",
+    "full_name_now": "microsoft/project-oagents",
+    "id": 676195998,
     "language": "C#",
     "license": "CC-BY-4.0",
     "revision": "main",
@@ -4059,17 +4961,21 @@
     "stars": 286
   },
   {
-    "forks": 134,
+    "forks": 151,
     "full_name": "microsoft/qsharp",
+    "full_name_now": "microsoft/qdk",
+    "id": 593773927,
     "language": "Rust",
     "license": "MIT",
-    "revision": "v3",
-    "revision_sha": "68ed5f4b80d27a9e057fc57567f38bd322ac73ec",
-    "stars": 739
+    "revision": "main",
+    "revision_sha": "c63c8a57a2de34fc03fa83722412824af4d8753b",
+    "stars": 788
   },
   {
     "forks": 52,
     "full_name": "microsoft/react-native-gallery",
+    "full_name_now": "microsoft/react-native-gallery",
+    "id": 285679939,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -4079,6 +4985,8 @@
   {
     "forks": 212,
     "full_name": "microsoft/react-native-windows-samples",
+    "full_name_now": "microsoft/react-native-windows-samples",
+    "id": 208897838,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -4088,6 +4996,8 @@
   {
     "forks": 261,
     "full_name": "microsoft/retina",
+    "full_name_now": "microsoft/retina",
+    "id": 746962176,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -4097,6 +5007,8 @@
   {
     "forks": 23,
     "full_name": "microsoft/sarif-tools",
+    "full_name_now": "microsoft/sarif-tools",
+    "id": 426924575,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -4106,6 +5018,8 @@
   {
     "forks": 177,
     "full_name": "microsoft/sbom-tool",
+    "full_name_now": "microsoft/sbom-tool",
+    "id": 498824328,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -4115,6 +5029,8 @@
   {
     "forks": 724,
     "full_name": "microsoft/typescript-go",
+    "full_name_now": "microsoft/typescript-go",
+    "id": 860100131,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4124,6 +5040,8 @@
   {
     "forks": 7136,
     "full_name": "microsoft/vcpkg",
+    "full_name_now": "microsoft/vcpkg",
+    "id": 68312233,
     "language": "CMake",
     "license": "MIT",
     "revision": "main",
@@ -4133,6 +5051,8 @@
   {
     "forks": 35788,
     "full_name": "microsoft/vscode",
+    "full_name_now": "microsoft/vscode",
+    "id": 41881900,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -4142,6 +5062,8 @@
   {
     "forks": 346,
     "full_name": "microsoft/vscode-jupyter",
+    "full_name_now": "microsoft/vscode-jupyter",
+    "id": 294546561,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -4151,6 +5073,8 @@
   {
     "forks": 542,
     "full_name": "microsoft/vscode-mssql",
+    "full_name_now": "microsoft/vscode-mssql",
+    "id": 61973853,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -4160,6 +5084,8 @@
   {
     "forks": 1276,
     "full_name": "microsoft/vscode-python",
+    "full_name_now": "microsoft/vscode-python",
+    "id": 106462765,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -4169,6 +5095,8 @@
   {
     "forks": 180,
     "full_name": "middleman/middleman-blog",
+    "full_name_now": "middleman/middleman-blog",
+    "id": 2237230,
     "language": "Gherkin",
     "license": "MIT",
     "revision": "main",
@@ -4178,6 +5106,8 @@
   {
     "forks": 66,
     "full_name": "miguel5612/MQSensorsLib",
+    "full_name_now": "miguel5612/MQSensorsLib",
+    "id": 170540207,
     "language": "C++",
     "license": "MIT",
     "revision": "main",
@@ -4187,6 +5117,8 @@
   {
     "forks": 107,
     "full_name": "mihneadb/node-directory-tree",
+    "full_name_now": "mihneadb/node-directory-tree",
+    "id": 17631024,
     "language": "JavaScript",
     "license": "MIT",
     "revision": "main",
@@ -4196,6 +5128,8 @@
   {
     "forks": 128,
     "full_name": "mitsuhiko/insta",
+    "full_name_now": "mitsuhiko/insta",
+    "id": 165561258,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4205,6 +5139,8 @@
   {
     "forks": 220,
     "full_name": "mixcore/mix.core",
+    "full_name_now": "mixcore/mix.core",
+    "id": 144754986,
     "language": "C#",
     "license": "GPL-3.0",
     "revision": "main",
@@ -4214,6 +5150,8 @@
   {
     "forks": 226,
     "full_name": "mlco2/codecarbon",
+    "full_name_now": "mlco2/codecarbon",
+    "id": 263364731,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -4223,6 +5161,8 @@
   {
     "forks": 4926,
     "full_name": "mlflow/mlflow",
+    "full_name_now": "mlflow/mlflow",
+    "id": 136202695,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4232,6 +5172,8 @@
   {
     "forks": 24,
     "full_name": "mnsami/composer-custom-directory-installer",
+    "full_name_now": "mnsami/composer-custom-directory-installer",
+    "id": 16550959,
     "language": "PHP",
     "license": "MIT",
     "revision": "main",
@@ -4241,6 +5183,8 @@
   {
     "forks": 925,
     "full_name": "modelcontextprotocol/inspector",
+    "full_name_now": "modelcontextprotocol/inspector",
+    "id": 867337374,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -4250,6 +5194,8 @@
   {
     "forks": 60,
     "full_name": "monarch-initiative/mondo",
+    "full_name_now": "monarch-initiative/mondo",
+    "id": 104242311,
     "language": "Jupyter Notebook",
     "license": "CC-BY-4.0",
     "revision": "main",
@@ -4259,6 +5205,8 @@
   {
     "forks": 258,
     "full_name": "monosans/proxy-scraper-checker",
+    "full_name_now": "monosans/proxy-scraper-checker",
+    "id": 362934123,
     "language": "Rust",
     "license": "MIT",
     "revision": "main",
@@ -4268,6 +5216,8 @@
   {
     "forks": 142,
     "full_name": "moonbitlang/core",
+    "full_name_now": "moonbitlang/core",
+    "id": 749681472,
     "language": "MoonBit",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4277,6 +5227,8 @@
   {
     "forks": 199,
     "full_name": "mostafaalagamy/Metrolist",
+    "full_name_now": "mostafaalagamy/Metrolist",
+    "id": 677376114,
     "language": "Kotlin",
     "license": "GPL-3.0",
     "revision": "main",
@@ -4286,6 +5238,8 @@
   {
     "forks": 261,
     "full_name": "movim/movim",
+    "full_name_now": "movim/movim",
+    "id": 37983532,
     "language": "JavaScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -4295,6 +5249,8 @@
   {
     "forks": 44,
     "full_name": "moxin-org/moly",
+    "full_name_now": "moxin-org/moly",
+    "id": 753697606,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4304,6 +5260,8 @@
   {
     "forks": 271,
     "full_name": "mvisonneau/gitlab-ci-pipelines-exporter",
+    "full_name_now": "mvisonneau/gitlab-ci-pipelines-exporter",
+    "id": 149765850,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4313,6 +5271,8 @@
   {
     "forks": 15,
     "full_name": "nandyalu/trailarr",
+    "full_name_now": "nandyalu/trailarr",
+    "id": 768813127,
     "language": "Python",
     "license": "GPL-3.0",
     "revision": "main",
@@ -4322,6 +5282,8 @@
   {
     "forks": 97,
     "full_name": "nanvix/nanvix",
+    "full_name_now": "nanvix/nanvix",
+    "id": 11183126,
     "language": "Rust",
     "license": "MIT",
     "revision": "main",
@@ -4331,6 +5293,8 @@
   {
     "forks": 1212,
     "full_name": "navidrome/navidrome",
+    "full_name_now": "navidrome/navidrome",
+    "id": 52481933,
     "language": "Go",
     "license": "GPL-3.0",
     "revision": "main",
@@ -4340,6 +5304,8 @@
   {
     "forks": 144,
     "full_name": "nbonamy/witsy",
+    "full_name_now": "nbonamy/witsy",
+    "id": 791622368,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -4349,6 +5315,8 @@
   {
     "forks": 725,
     "full_name": "near/nearcore",
+    "full_name_now": "near/nearcore",
+    "id": 151331938,
     "language": "Rust",
     "license": "GPL-3.0",
     "revision": "main",
@@ -4358,6 +5326,8 @@
   {
     "forks": 42,
     "full_name": "nemtsov/json-mask",
+    "full_name_now": "nemtsov/json-mask",
+    "id": 11362272,
     "language": "JavaScript",
     "license": "MIT",
     "revision": "main",
@@ -4365,17 +5335,21 @@
     "stars": 869
   },
   {
-    "forks": 56,
+    "forks": 84,
     "full_name": "neondatabase-labs/mcp-server-neon",
+    "full_name_now": "neondatabase/mcp-server-neon",
+    "id": 896203400,
     "language": "TypeScript",
     "license": "MIT",
-    "revision": "v3",
-    "revision_sha": "68ed5f4b80d27a9e057fc57567f38bd322ac73ec",
-    "stars": 390
+    "revision": "main",
+    "revision_sha": "c63c8a57a2de34fc03fa83722412824af4d8753b",
+    "stars": 497
   },
   {
     "forks": 38,
     "full_name": "neondatabase/autoscaling",
+    "full_name_now": "neondatabase/autoscaling",
+    "id": 545901542,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4385,6 +5359,8 @@
   {
     "forks": 78,
     "full_name": "net-daemon/netdaemon",
+    "full_name_now": "net-daemon/netdaemon",
+    "id": 233452776,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -4394,6 +5370,8 @@
   {
     "forks": 205,
     "full_name": "netket/netket",
+    "full_name_now": "netket/netket",
+    "id": 130741783,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4403,6 +5381,8 @@
   {
     "forks": 876,
     "full_name": "nextcloud/desktop",
+    "full_name_now": "nextcloud/desktop",
+    "id": 105010691,
     "language": "C++",
     "license": "GPL-2.0",
     "revision": "main",
@@ -4412,6 +5392,8 @@
   {
     "forks": 162,
     "full_name": "nf-core/chipseq",
+    "full_name_now": "nf-core/chipseq",
+    "id": 130877729,
     "language": "Nextflow",
     "license": "MIT",
     "revision": "main",
@@ -4421,6 +5403,8 @@
   {
     "forks": 16,
     "full_name": "ngo275/app-agent",
+    "full_name_now": "ngo275/app-agent",
+    "id": 904540442,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -4430,6 +5414,8 @@
   {
     "forks": 94,
     "full_name": "nnstreamer/nntrainer",
+    "full_name_now": "nnstreamer/nntrainer",
+    "id": 249615315,
     "language": "C++",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4439,6 +5425,8 @@
   {
     "forks": 14,
     "full_name": "nodetool-ai/nodetool",
+    "full_name_now": "nodetool-ai/nodetool",
+    "id": 777230015,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -4448,6 +5436,8 @@
   {
     "forks": 4155,
     "full_name": "novuhq/novu",
+    "full_name_now": "novuhq/novu",
+    "id": 400215964,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -4457,6 +5447,8 @@
   {
     "forks": 2615,
     "full_name": "nrwl/nx",
+    "full_name_now": "nrwl/nx",
+    "id": 100061716,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -4466,6 +5458,8 @@
   {
     "forks": 19,
     "full_name": "numbagg/numbagg",
+    "full_name_now": "numbagg/numbagg",
+    "id": 25501620,
     "language": "Python",
     "license": "NOASSERTION",
     "revision": "main",
@@ -4475,6 +5469,8 @@
   {
     "forks": 106,
     "full_name": "nunit/nunit3-vs-adapter",
+    "full_name_now": "nunit/nunit3-vs-adapter",
+    "id": 32686245,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -4482,17 +5478,21 @@
     "stars": 208
   },
   {
-    "forks": 38,
+    "forks": 41,
     "full_name": "o1-labs/openmina",
+    "full_name_now": "o1-labs/mina-rust",
+    "id": 560725747,
     "language": "Rust",
     "license": "Apache-2.0",
-    "revision": "v3",
-    "revision_sha": "68ed5f4b80d27a9e057fc57567f38bd322ac73ec",
-    "stars": 106
+    "revision": "main",
+    "revision_sha": "c63c8a57a2de34fc03fa83722412824af4d8753b",
+    "stars": 114
   },
   {
     "forks": 110,
     "full_name": "obi1kenobi/cargo-semver-checks",
+    "full_name_now": "obi1kenobi/cargo-semver-checks",
+    "id": 513328880,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4502,6 +5502,8 @@
   {
     "forks": 54,
     "full_name": "obophenotype/cell-ontology",
+    "full_name_now": "obophenotype/cell-ontology",
+    "id": 36889083,
     "language": "Makefile",
     "license": "CC-BY-4.0",
     "revision": "main",
@@ -4511,6 +5513,8 @@
   {
     "forks": 233,
     "full_name": "odigos-io/odigos",
+    "full_name_now": "odigos-io/odigos",
+    "id": 501095512,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4520,6 +5524,8 @@
   {
     "forks": 199,
     "full_name": "onflow/flow-go",
+    "full_name_now": "onflow/flow-go",
+    "id": 297778512,
     "language": "Go",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -4529,6 +5535,8 @@
   {
     "forks": 1642,
     "full_name": "onlook-dev/onlook",
+    "full_name_now": "onlook-dev/onlook",
+    "id": 820087727,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4538,6 +5546,8 @@
   {
     "forks": 3816,
     "full_name": "onnx/onnx",
+    "full_name_now": "onnx/onnx",
+    "id": 102692863,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4547,6 +5557,8 @@
   {
     "forks": 2104,
     "full_name": "onyx-dot-app/onyx",
+    "full_name_now": "onyx-dot-app/onyx",
+    "id": 633262635,
     "language": "Python",
     "license": "NOASSERTION",
     "revision": "main",
@@ -4556,6 +5568,8 @@
   {
     "forks": 1484,
     "full_name": "open-metadata/OpenMetadata",
+    "full_name_now": "open-metadata/OpenMetadata",
+    "id": 391740664,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4565,6 +5579,8 @@
   {
     "forks": 501,
     "full_name": "open-telemetry/opentelemetry-cpp",
+    "full_name_now": "open-telemetry/opentelemetry-cpp",
+    "id": 193156399,
     "language": "C++",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4574,6 +5590,8 @@
   {
     "forks": 438,
     "full_name": "openai/openai-agents-js",
+    "full_name_now": "openai/openai-agents-js",
+    "id": 993521808,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -4583,6 +5601,8 @@
   {
     "forks": 2784,
     "full_name": "openai/openai-agents-python",
+    "full_name_now": "openai/openai-agents-python",
+    "id": 946380199,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -4592,6 +5612,8 @@
   {
     "forks": 1011,
     "full_name": "openai/openai-realtime-agents",
+    "full_name_now": "openai/openai-realtime-agents",
+    "id": 917437058,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -4601,6 +5623,8 @@
   {
     "forks": 40,
     "full_name": "opendocument-app/OpenDocument.droid",
+    "full_name_now": "opendocument-app/OpenDocument.droid",
+    "id": 1005396,
     "language": "HTML",
     "license": "NOASSERTION",
     "revision": "main",
@@ -4610,6 +5634,8 @@
   {
     "forks": 315,
     "full_name": "openfga/openfga",
+    "full_name_now": "openfga/openfga",
+    "id": 501372599,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4619,6 +5645,8 @@
   {
     "forks": 161,
     "full_name": "openops-cloud/openops",
+    "full_name_now": "openops-cloud/openops",
+    "id": 945671748,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -4628,6 +5656,8 @@
   {
     "forks": 71,
     "full_name": "openvm-org/openvm",
+    "full_name_now": "openvm-org/openvm",
+    "id": 793399480,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4637,6 +5667,8 @@
   {
     "forks": 35,
     "full_name": "opsmill/infrahub",
+    "full_name_now": "opsmill/infrahub",
+    "id": 528799794,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4646,6 +5678,8 @@
   {
     "forks": 995,
     "full_name": "oraios/serena",
+    "full_name_now": "oraios/serena",
+    "id": 953683578,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -4655,6 +5689,8 @@
   {
     "forks": 101,
     "full_name": "orangecoding/fredy",
+    "full_name_now": "orangecoding/fredy",
+    "id": 117512926,
     "language": "JavaScript",
     "license": "MIT",
     "revision": "main",
@@ -4664,6 +5700,8 @@
   {
     "forks": 12,
     "full_name": "orbitalapi/orbital",
+    "full_name_now": "orbitalapi/orbital",
+    "id": 541496668,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -4673,6 +5711,8 @@
   {
     "forks": 21,
     "full_name": "orbitinghail/graft",
+    "full_name_now": "orbitinghail/graft",
+    "id": 856550745,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4682,6 +5722,8 @@
   {
     "forks": 687,
     "full_name": "osmosis-labs/osmosis",
+    "full_name_now": "osmosis-labs/osmosis",
+    "id": 304841810,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4691,6 +5733,8 @@
   {
     "forks": 103,
     "full_name": "oss-apps/split-pro",
+    "full_name_now": "oss-apps/split-pro",
+    "id": 761694194,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -4700,6 +5744,8 @@
   {
     "forks": 3452,
     "full_name": "oven-sh/bun",
+    "full_name_now": "oven-sh/bun",
+    "id": 357728969,
     "language": "Zig",
     "license": "NOASSERTION",
     "revision": "main",
@@ -4709,6 +5755,8 @@
   {
     "forks": 24,
     "full_name": "owid/etl",
+    "full_name_now": "owid/etl",
+    "id": 407536332,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -4718,6 +5766,8 @@
   {
     "forks": 1133,
     "full_name": "owncast/owncast",
+    "full_name_now": "owncast/owncast",
+    "id": 266445736,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -4727,6 +5777,8 @@
   {
     "forks": 556,
     "full_name": "pardeike/Harmony",
+    "full_name_now": "pardeike/Harmony",
+    "id": 78002587,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -4736,6 +5788,8 @@
   {
     "forks": 1409,
     "full_name": "parse-community/parse-dashboard",
+    "full_name_now": "parse-community/parse-dashboard",
+    "id": 50623416,
     "language": "JavaScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -4745,6 +5799,8 @@
   {
     "forks": 377,
     "full_name": "pdfme/pdfme",
+    "full_name_now": "pdfme/pdfme",
+    "id": 398753576,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -4754,6 +5810,8 @@
   {
     "forks": 95,
     "full_name": "pgdogdev/pgdog",
+    "full_name_now": "pgdogdev/pgdog",
+    "id": 909145061,
     "language": "Rust",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -4763,6 +5821,8 @@
   {
     "forks": 22,
     "full_name": "phel-lang/phel-lang",
+    "full_name_now": "phel-lang/phel-lang",
+    "id": 257098489,
     "language": "PHP",
     "license": "MIT",
     "revision": "main",
@@ -4772,6 +5832,8 @@
   {
     "forks": 492,
     "full_name": "philosowaffle/peloton-to-garmin",
+    "full_name_now": "philosowaffle/peloton-to-garmin",
+    "id": 115533078,
     "language": "C#",
     "license": "GPL-3.0",
     "revision": "main",
@@ -4781,6 +5843,8 @@
   {
     "forks": 4911,
     "full_name": "pixijs/pixijs",
+    "full_name_now": "pixijs/pixijs",
+    "id": 7741856,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -4790,6 +5854,8 @@
   {
     "forks": 46,
     "full_name": "plexguide/Huntarr.io",
+    "full_name_now": "plexguide/Huntarr.io",
+    "id": 957479421,
     "language": "Python",
     "license": "GPL-3.0",
     "revision": "main",
@@ -4799,6 +5865,8 @@
   {
     "forks": 365,
     "full_name": "pnp/cli-microsoft365",
+    "full_name_now": "pnp/cli-microsoft365",
+    "id": 106723305,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -4808,6 +5876,8 @@
   {
     "forks": 315,
     "full_name": "pomerium/pomerium",
+    "full_name_now": "pomerium/pomerium",
+    "id": 163722349,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4817,6 +5887,8 @@
   {
     "forks": 124,
     "full_name": "port-labs/ocean",
+    "full_name_now": "port-labs/ocean",
+    "id": 643971174,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4826,6 +5898,8 @@
   {
     "forks": 9,
     "full_name": "praveenjuge/mynaui-icons",
+    "full_name_now": "praveenjuge/mynaui-icons",
+    "id": 694469063,
     "language": "Less",
     "license": "MIT",
     "revision": "main",
@@ -4835,6 +5909,8 @@
   {
     "forks": 2275,
     "full_name": "prebid/Prebid.js",
+    "full_name_now": "prebid/Prebid.js",
+    "id": 39321023,
     "language": "JavaScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4844,6 +5920,8 @@
   {
     "forks": 639,
     "full_name": "primer/react",
+    "full_name_now": "primer/react",
+    "id": 121814210,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -4853,6 +5931,8 @@
   {
     "forks": 33,
     "full_name": "princeton-pli/hal-harness",
+    "full_name_now": "princeton-pli/hal-harness",
+    "id": 835428430,
     "language": "Python",
     "license": null,
     "revision": "main",
@@ -4862,6 +5942,8 @@
   {
     "forks": 19,
     "full_name": "project-numina/kimina-lean-server",
+    "full_name_now": "project-numina/kimina-lean-server",
+    "id": 971551940,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -4871,6 +5953,8 @@
   {
     "forks": 745,
     "full_name": "promptfoo/promptfoo",
+    "full_name_now": "promptfoo/promptfoo",
+    "id": 633927609,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -4880,6 +5964,8 @@
   {
     "forks": 401,
     "full_name": "propelorm/Propel2",
+    "full_name_now": "propelorm/Propel2",
+    "id": 2524463,
     "language": "PHP",
     "license": "MIT",
     "revision": "main",
@@ -4889,6 +5975,8 @@
   {
     "forks": 26,
     "full_name": "prosekit/prosekit",
+    "full_name_now": "prosekit/prosekit",
+    "id": 664174485,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -4898,6 +5986,8 @@
   {
     "forks": 42,
     "full_name": "pseudosavant/player.html",
+    "full_name_now": "pseudosavant/player.html",
+    "id": 267946173,
     "language": "HTML",
     "license": "MIT",
     "revision": "main",
@@ -4907,6 +5997,8 @@
   {
     "forks": 45,
     "full_name": "public-ui/kolibri",
+    "full_name_now": "public-ui/kolibri",
+    "id": 550054675,
     "language": "TypeScript",
     "license": "EUPL-1.2",
     "revision": "main",
@@ -4916,6 +6008,8 @@
   {
     "forks": 287,
     "full_name": "puemos/hls-downloader",
+    "full_name_now": "puemos/hls-downloader",
+    "id": 131896967,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -4925,6 +6019,8 @@
   {
     "forks": 255,
     "full_name": "pulumi/docs",
+    "full_name_now": "pulumi/docs",
+    "id": 104365663,
     "language": "HTML",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4934,6 +6030,8 @@
   {
     "forks": 48,
     "full_name": "pushpak1300/ai-chat",
+    "full_name_now": "pushpak1300/ai-chat",
+    "id": 994232921,
     "language": "PHP",
     "license": "MIT",
     "revision": "main",
@@ -4943,6 +6041,8 @@
   {
     "forks": 302,
     "full_name": "pyth-network/pyth-crosschain",
+    "full_name_now": "pyth-network/pyth-crosschain",
+    "id": 425803244,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -4952,6 +6052,8 @@
   {
     "forks": 219,
     "full_name": "python/python-docs-zh-tw",
+    "full_name_now": "python/python-docs-zh-tw",
+    "id": 138458545,
     "language": "Python",
     "license": "NOASSERTION",
     "revision": "main",
@@ -4961,6 +6063,8 @@
   {
     "forks": 25672,
     "full_name": "pytorch/pytorch",
+    "full_name_now": "pytorch/pytorch",
+    "id": 65600975,
     "language": "Python",
     "license": "NOASSERTION",
     "revision": "main",
@@ -4970,6 +6074,8 @@
   {
     "forks": 45,
     "full_name": "quarylabs/sqruff",
+    "full_name_now": "quarylabs/sqruff",
+    "id": 601303277,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -4979,6 +6085,8 @@
   {
     "forks": 63,
     "full_name": "rainbow-me/browser-extension",
+    "full_name_now": "rainbow-me/browser-extension",
+    "id": 542889195,
     "language": "TypeScript",
     "license": "GPL-3.0",
     "revision": "main",
@@ -4988,6 +6096,8 @@
   {
     "forks": 761,
     "full_name": "rainbow-me/rainbowkit",
+    "full_name_now": "rainbow-me/rainbowkit",
+    "id": 392610935,
     "language": "MDX",
     "license": "MIT",
     "revision": "main",
@@ -4997,6 +6107,8 @@
   {
     "forks": 6836,
     "full_name": "ray-project/ray",
+    "full_name_now": "ray-project/ray",
+    "id": 71932349,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5006,6 +6118,8 @@
   {
     "forks": 80,
     "full_name": "rcourtman/Pulse",
+    "full_name_now": "rcourtman/Pulse",
+    "id": 932825524,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -5015,6 +6129,8 @@
   {
     "forks": 53,
     "full_name": "receptron/graphai",
+    "full_name_now": "receptron/graphai",
+    "id": 782706135,
     "language": "TypeScript",
     "license": null,
     "revision": "main",
@@ -5024,6 +6140,8 @@
   {
     "forks": 42,
     "full_name": "reeze/php-leveldb",
+    "full_name_now": "reeze/php-leveldb",
+    "id": 4604999,
     "language": "C",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5033,6 +6151,8 @@
   {
     "forks": 43,
     "full_name": "ref-tools/ref-tools-mcp",
+    "full_name_now": "ref-tools/ref-tools-mcp",
+    "id": 971047356,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -5042,6 +6162,8 @@
   {
     "forks": 1624,
     "full_name": "reflex-dev/reflex",
+    "full_name_now": "reflex-dev/reflex",
+    "id": 557075997,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5051,6 +6173,8 @@
   {
     "forks": 224,
     "full_name": "reflex-dev/reflex-web",
+    "full_name_now": "reflex-dev/reflex-web",
+    "id": 577975610,
     "language": "Python",
     "license": null,
     "revision": "main",
@@ -5060,6 +6184,8 @@
   {
     "forks": 1346,
     "full_name": "remotion-dev/remotion",
+    "full_name_now": "remotion-dev/remotion",
+    "id": 274495425,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5069,6 +6195,8 @@
   {
     "forks": 127,
     "full_name": "reneschulte/WriteableBitmapEx",
+    "full_name_now": "reneschulte/WriteableBitmapEx",
+    "id": 42940997,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -5078,6 +6206,8 @@
   {
     "forks": 23,
     "full_name": "reorx/jsoncv",
+    "full_name_now": "reorx/jsoncv",
+    "id": 596152999,
     "language": "JavaScript",
     "license": null,
     "revision": "main",
@@ -5087,6 +6217,8 @@
   {
     "forks": 1566,
     "full_name": "reown-com/appkit",
+    "full_name_now": "reown-com/appkit",
+    "id": 127246132,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5096,6 +6228,8 @@
   {
     "forks": 36,
     "full_name": "reown-com/appkit-react-native",
+    "full_name_now": "reown-com/appkit-react-native",
+    "id": 620373427,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5105,6 +6239,8 @@
   {
     "forks": 34,
     "full_name": "retrage/svc-hook",
+    "full_name_now": "retrage/svc-hook",
+    "id": 831623337,
     "language": "C",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5114,6 +6250,8 @@
   {
     "forks": 100,
     "full_name": "rezaakb/pinns-torch",
+    "full_name_now": "rezaakb/pinns-torch",
+    "id": 676901255,
     "language": "Python",
     "license": "BSD-3-Clause",
     "revision": "main",
@@ -5123,6 +6261,8 @@
   {
     "forks": 700,
     "full_name": "risingwavelabs/risingwave",
+    "full_name_now": "risingwavelabs/risingwave",
+    "id": 453068084,
     "language": "Rust",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5132,6 +6272,8 @@
   {
     "forks": 23,
     "full_name": "robertmartin8/KindleClippings",
+    "full_name_now": "robertmartin8/KindleClippings",
+    "id": 103809752,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -5141,6 +6283,8 @@
   {
     "forks": 21,
     "full_name": "robinp7720/Oblecto",
+    "full_name_now": "robinp7720/Oblecto",
+    "id": 111594969,
     "language": "JavaScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -5150,6 +6294,8 @@
   {
     "forks": 220,
     "full_name": "roboflow/inference",
+    "full_name_now": "roboflow/inference",
+    "id": 673010778,
     "language": "Python",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5159,6 +6305,8 @@
   {
     "forks": 30,
     "full_name": "rockbite/localforge",
+    "full_name_now": "rockbite/localforge",
+    "id": 970691159,
     "language": "JavaScript",
     "license": "MIT",
     "revision": "main",
@@ -5168,6 +6316,8 @@
   {
     "forks": 17,
     "full_name": "rocket-admin/rocketadmin",
+    "full_name_now": "rocket-admin/rocketadmin",
+    "id": 490854123,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5177,6 +6327,8 @@
   {
     "forks": 176,
     "full_name": "root-gg/plik",
+    "full_name_now": "root-gg/plik",
+    "id": 34218418,
     "language": "Go",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5186,6 +6338,8 @@
   {
     "forks": 698,
     "full_name": "rsyslog/rsyslog",
+    "full_name_now": "rsyslog/rsyslog",
+    "id": 10458362,
     "language": "C",
     "license": "LGPL-3.0",
     "revision": "main",
@@ -5195,6 +6349,8 @@
   {
     "forks": 51,
     "full_name": "rsyslog/rsyslog-docker",
+    "full_name_now": "rsyslog/rsyslog-docker",
+    "id": 116497915,
     "language": "Dockerfile",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5204,6 +6360,8 @@
   {
     "forks": 85,
     "full_name": "ruvnet/ruv-FANN",
+    "full_name_now": "ruvnet/ruv-FANN",
+    "id": 1009254201,
     "language": "Rust",
     "license": "MIT",
     "revision": "main",
@@ -5213,6 +6371,8 @@
   {
     "forks": 124,
     "full_name": "ryokun6/ryos",
+    "full_name_now": "ryokun6/ryos",
+    "id": 923332984,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -5222,6 +6382,8 @@
   {
     "forks": 599,
     "full_name": "safe-global/safe-wallet-monorepo",
+    "full_name_now": "safe-global/safe-wallet-monorepo",
+    "id": 481196344,
     "language": "TypeScript",
     "license": "GPL-3.0",
     "revision": "main",
@@ -5231,6 +6393,8 @@
   {
     "forks": 999,
     "full_name": "sakaiproject/sakai",
+    "full_name_now": "sakaiproject/sakai",
+    "id": 28589709,
     "language": "Java",
     "license": "ECL-2.0",
     "revision": "main",
@@ -5238,17 +6402,21 @@
     "stars": 1189
   },
   {
-    "forks": 57,
+    "forks": 83,
     "full_name": "sam-goodwin/alchemy",
+    "full_name_now": "alchemy-run/alchemy",
+    "id": 917974798,
     "language": "TypeScript",
     "license": "Apache-2.0",
-    "revision": "v3",
-    "revision_sha": "68ed5f4b80d27a9e057fc57567f38bd322ac73ec",
-    "stars": 750
+    "revision": "main",
+    "revision_sha": "c63c8a57a2de34fc03fa83722412824af4d8753b",
+    "stars": 1456
   },
   {
     "forks": 40,
     "full_name": "sapphi-red/vite-plugin-static-copy",
+    "full_name_now": "sapphi-red/vite-plugin-static-copy",
+    "id": 435767414,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -5258,6 +6426,8 @@
   {
     "forks": 157,
     "full_name": "saturday06/VRM-Addon-for-Blender",
+    "full_name_now": "saturday06/VRM-Addon-for-Blender",
+    "id": 164374484,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -5267,6 +6437,8 @@
   {
     "forks": 19,
     "full_name": "sblom/RegExtract",
+    "full_name_now": "sblom/RegExtract",
+    "id": 318049537,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -5276,6 +6448,8 @@
   {
     "forks": 17,
     "full_name": "seasonedcc/composable-functions",
+    "full_name_now": "seasonedcc/composable-functions",
+    "id": 469882687,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -5285,6 +6459,8 @@
   {
     "forks": 27,
     "full_name": "seasonedcc/remix-forms",
+    "full_name_now": "seasonedcc/remix-forms",
+    "id": 463116412,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -5294,6 +6470,8 @@
   {
     "forks": 170,
     "full_name": "selfxyz/self",
+    "full_name_now": "selfxyz/self",
+    "id": 669466632,
     "language": "Circom",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5303,6 +6481,8 @@
   {
     "forks": 25,
     "full_name": "serilog-contrib/serilog-enrichers-clientinfo",
+    "full_name_now": "serilog-contrib/serilog-enrichers-clientinfo",
+    "id": 226178848,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -5312,6 +6492,8 @@
   {
     "forks": 8,
     "full_name": "sgb-io/fta",
+    "full_name_now": "sgb-io/fta",
+    "id": 637405156,
     "language": "Rust",
     "license": "MIT",
     "revision": "main",
@@ -5321,6 +6503,8 @@
   {
     "forks": 361,
     "full_name": "shader-slang/slang",
+    "full_name_now": "shader-slang/slang",
+    "id": 93882897,
     "language": "C++",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5330,6 +6514,8 @@
   {
     "forks": 113,
     "full_name": "shesha-io/shesha-framework",
+    "full_name_now": "shesha-io/shesha-framework",
+    "id": 598998398,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5339,6 +6525,8 @@
   {
     "forks": 22,
     "full_name": "shiosyakeyakini-info/miria",
+    "full_name_now": "shiosyakeyakini-info/miria",
+    "id": 624615692,
     "language": "Dart",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -5348,6 +6536,8 @@
   {
     "forks": 1131,
     "full_name": "shopware/shopware",
+    "full_name_now": "shopware/shopware",
+    "id": 131995661,
     "language": "PHP",
     "license": "MIT",
     "revision": "main",
@@ -5357,6 +6547,8 @@
   {
     "forks": 117,
     "full_name": "simonw/tools",
+    "full_name_now": "simonw/tools",
+    "id": 779431605,
     "language": "HTML",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5366,6 +6558,8 @@
   {
     "forks": 17,
     "full_name": "sirk123au/ArrTools",
+    "full_name_now": "sirk123au/ArrTools",
+    "id": 235957252,
     "language": "Python",
     "license": "GPL-3.0",
     "revision": "main",
@@ -5375,6 +6569,8 @@
   {
     "forks": 551,
     "full_name": "siteboon/claudecodeui",
+    "full_name_now": "siteboon/claudecodeui",
+    "id": 1008373485,
     "language": "JavaScript",
     "license": "GPL-3.0",
     "revision": "main",
@@ -5384,6 +6580,8 @@
   {
     "forks": 824,
     "full_name": "skypilot-org/skypilot",
+    "full_name_now": "skypilot-org/skypilot",
+    "id": 395140743,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5393,6 +6591,8 @@
   {
     "forks": 18,
     "full_name": "smat-dev/jinni",
+    "full_name_now": "smat-dev/jinni",
+    "id": 958940440,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5402,6 +6602,8 @@
   {
     "forks": 13,
     "full_name": "softmaple/softmaple",
+    "full_name_now": "softmaple/softmaple",
+    "id": 440017777,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5411,6 +6613,8 @@
   {
     "forks": 144,
     "full_name": "spcl/dace",
+    "full_name_now": "spcl/dace",
+    "id": 172703996,
     "language": "Python",
     "license": "BSD-3-Clause",
     "revision": "main",
@@ -5420,6 +6624,8 @@
   {
     "forks": 58,
     "full_name": "specmatic/specmatic",
+    "full_name_now": "specmatic/specmatic",
+    "id": 247710440,
     "language": "Kotlin",
     "license": "MIT",
     "revision": "main",
@@ -5429,6 +6635,8 @@
   {
     "forks": 16,
     "full_name": "sqlrooms/sqlrooms",
+    "full_name_now": "sqlrooms/sqlrooms",
+    "id": 750789159,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -5438,6 +6646,8 @@
   {
     "forks": 2235,
     "full_name": "sst/opencode",
+    "full_name_now": "sst/opencode",
+    "id": 975734319,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -5445,26 +6655,32 @@
     "stars": 29229
   },
   {
-    "forks": 18,
+    "forks": 19,
     "full_name": "stanford-crfm/haliax",
+    "full_name_now": "marin-community/haliax",
+    "id": 658914776,
     "language": "Python",
     "license": "Apache-2.0",
-    "revision": "v3",
-    "revision_sha": "68ed5f4b80d27a9e057fc57567f38bd322ac73ec",
-    "stars": 196
+    "revision": "main",
+    "revision_sha": "c63c8a57a2de34fc03fa83722412824af4d8753b",
+    "stars": 211
   },
   {
-    "forks": 104,
+    "forks": 117,
     "full_name": "stanford-crfm/levanter",
+    "full_name_now": "marin-community/levanter",
+    "id": 496005961,
     "language": "Python",
     "license": "Apache-2.0",
-    "revision": "v3",
-    "revision_sha": "68ed5f4b80d27a9e057fc57567f38bd322ac73ec",
-    "stars": 628
+    "revision": "main",
+    "revision_sha": "c63c8a57a2de34fc03fa83722412824af4d8753b",
+    "stars": 672
   },
   {
     "forks": 17,
     "full_name": "stargately/beancount-mobile",
+    "full_name_now": "stargately/beancount-mobile",
+    "id": 300529232,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -5474,6 +6690,8 @@
   {
     "forks": 35,
     "full_name": "static-frame/static-frame",
+    "full_name_now": "static-frame/static-frame",
+    "id": 116150224,
     "language": "Python",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5483,6 +6701,8 @@
   {
     "forks": 97,
     "full_name": "stefankoegl/python-json-patch",
+    "full_name_now": "stefankoegl/python-json-patch",
+    "id": 1915437,
     "language": "Python",
     "license": "BSD-3-Clause",
     "revision": "main",
@@ -5492,6 +6712,8 @@
   {
     "forks": 42,
     "full_name": "stefankoegl/python-json-pointer",
+    "full_name_now": "stefankoegl/python-json-pointer",
+    "id": 2133577,
     "language": "Python",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5501,6 +6723,8 @@
   {
     "forks": 31,
     "full_name": "stingle/stingle-photos-android",
+    "full_name_now": "stingle/stingle-photos-android",
+    "id": 287525724,
     "language": "Java",
     "license": "GPL-3.0",
     "revision": "main",
@@ -5510,6 +6734,8 @@
   {
     "forks": 44,
     "full_name": "sunbeam-labs/sunbeam",
+    "full_name_now": "sunbeam-labs/sunbeam",
+    "id": 57330209,
     "language": "Python",
     "license": null,
     "revision": "main",
@@ -5519,6 +6745,8 @@
   {
     "forks": 37,
     "full_name": "sunithvs/devb.io",
+    "full_name_now": "sunithvs/devb.io",
+    "id": 901981284,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -5528,6 +6756,8 @@
   {
     "forks": 282,
     "full_name": "superfly/flyctl",
+    "full_name_now": "superfly/flyctl",
+    "id": 199060308,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5537,6 +6767,8 @@
   {
     "forks": 50,
     "full_name": "swarmzero/swarmzero",
+    "full_name_now": "swarmzero/swarmzero",
+    "id": 840500420,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5546,6 +6778,8 @@
   {
     "forks": 103,
     "full_name": "syncfusion/maui-toolkit",
+    "full_name_now": "syncfusion/maui-toolkit",
+    "id": 867014724,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -5555,6 +6789,8 @@
   {
     "forks": 43,
     "full_name": "syntasso/kratix",
+    "full_name_now": "syntasso/kratix",
+    "id": 368236463,
     "language": "Go",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5564,6 +6800,8 @@
   {
     "forks": 39,
     "full_name": "synth-inc/onit",
+    "full_name_now": "synth-inc/onit",
+    "id": 860671682,
     "language": "Swift",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5573,6 +6811,8 @@
   {
     "forks": 244,
     "full_name": "sysadminsmedia/homebox",
+    "full_name_now": "sysadminsmedia/homebox",
+    "id": 816422401,
     "language": "Go",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -5582,6 +6822,8 @@
   {
     "forks": 540,
     "full_name": "taiga-family/taiga-ui",
+    "full_name_now": "taiga-family/taiga-ui",
+    "id": 298620687,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5591,6 +6833,8 @@
   {
     "forks": 76,
     "full_name": "team-mirai/policy",
+    "full_name_now": "team-mirai/policy",
+    "id": 983878076,
     "language": "TypeScript",
     "license": "CC-BY-4.0",
     "revision": "main",
@@ -5600,6 +6844,8 @@
   {
     "forks": 139,
     "full_name": "tegnike/aituber-kit",
+    "full_name_now": "tegnike/aituber-kit",
+    "id": 705022737,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5609,6 +6855,8 @@
   {
     "forks": 128,
     "full_name": "test-zeus-ai/testzeus-hercules",
+    "full_name_now": "test-zeus-ai/testzeus-hercules",
+    "id": 888701643,
     "language": "Python",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -5618,6 +6866,8 @@
   {
     "forks": 900,
     "full_name": "thedevdojo/wave",
+    "full_name_now": "thedevdojo/wave",
+    "id": 351298555,
     "language": "CSS",
     "license": "MIT",
     "revision": "main",
@@ -5627,6 +6877,8 @@
   {
     "forks": 64,
     "full_name": "theopenco/llmgateway",
+    "full_name_now": "theopenco/llmgateway",
+    "id": 965250949,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5636,6 +6888,8 @@
   {
     "forks": 25,
     "full_name": "thomasloupe/Slackord",
+    "full_name_now": "thomasloupe/Slackord",
+    "id": 262934761,
     "language": "C#",
     "license": "GPL-3.0",
     "revision": "main",
@@ -5645,6 +6899,8 @@
   {
     "forks": 887,
     "full_name": "thrasher-corp/gocryptotrader",
+    "full_name_now": "thrasher-corp/gocryptotrader",
+    "id": 25868356,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -5654,6 +6910,8 @@
   {
     "forks": 116,
     "full_name": "tinyplex/tinybase",
+    "full_name_now": "tinyplex/tinybase",
+    "id": 443220240,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -5663,6 +6921,8 @@
   {
     "forks": 2815,
     "full_name": "tldraw/tldraw",
+    "full_name_now": "tldraw/tldraw",
+    "id": 365739812,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5672,6 +6932,8 @@
   {
     "forks": 210,
     "full_name": "tokens-studio/figma-plugin",
+    "full_name_now": "tokens-studio/figma-plugin",
+    "id": 265001214,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -5681,6 +6943,8 @@
   {
     "forks": 2,
     "full_name": "tomhrr/cosh",
+    "full_name_now": "tomhrr/cosh",
+    "id": 445862991,
     "language": "Rust",
     "license": "BSD-3-Clause",
     "revision": "main",
@@ -5690,6 +6954,8 @@
   {
     "forks": 27,
     "full_name": "tomquist/b2500-meter",
+    "full_name_now": "tomquist/b2500-meter",
+    "id": 816006939,
     "language": "Python",
     "license": "GPL-3.0",
     "revision": "main",
@@ -5699,6 +6965,8 @@
   {
     "forks": 2992,
     "full_name": "traccar/traccar",
+    "full_name_now": "traccar/traccar",
+    "id": 4038949,
     "language": "Java",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5708,6 +6976,8 @@
   {
     "forks": 2088,
     "full_name": "transloadit/uppy",
+    "full_name_now": "transloadit/uppy",
+    "id": 46273445,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -5717,6 +6987,8 @@
   {
     "forks": 112,
     "full_name": "trueai-org/midjourney-proxy",
+    "full_name_now": "trueai-org/midjourney-proxy",
+    "id": 823533826,
     "language": "C#",
     "license": "GPL-3.0",
     "revision": "main",
@@ -5726,6 +6998,8 @@
   {
     "forks": 57,
     "full_name": "tufanbarisyildirim/gonginx",
+    "full_name_now": "tufanbarisyildirim/gonginx",
+    "id": 253221187,
     "language": "Go",
     "license": "MIT",
     "revision": "main",
@@ -5735,6 +7009,8 @@
   {
     "forks": 4440,
     "full_name": "twentyhq/twenty",
+    "full_name_now": "twentyhq/twenty",
+    "id": 572984571,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5744,6 +7020,8 @@
   {
     "forks": 236,
     "full_name": "ublue-os/bluefin",
+    "full_name_now": "ublue-os/bluefin",
+    "id": 611397346,
     "language": "Shell",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5753,6 +7031,8 @@
   {
     "forks": 176,
     "full_name": "umasteeringgroup/UMA",
+    "full_name_now": "umasteeringgroup/UMA",
+    "id": 85005919,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -5762,6 +7042,8 @@
   {
     "forks": 969,
     "full_name": "unbug/codelf",
+    "full_name_now": "unbug/codelf",
+    "id": 47925804,
     "language": "JavaScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5771,6 +7053,8 @@
   {
     "forks": 5511,
     "full_name": "unclecode/crawl4ai",
+    "full_name_now": "unclecode/crawl4ai",
+    "id": 798201435,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5780,6 +7064,8 @@
   {
     "forks": 66,
     "full_name": "unibeck/solstatus",
+    "full_name_now": "unibeck/solstatus",
+    "id": 969089225,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "revision": "main",
@@ -5787,17 +7073,21 @@
     "stars": 758
   },
   {
-    "forks": 158,
+    "forks": 221,
     "full_name": "unsend-dev/unsend",
+    "full_name_now": "usesend/useSend",
+    "id": 772283421,
     "language": "TypeScript",
     "license": "AGPL-3.0",
-    "revision": "v3",
-    "revision_sha": "68ed5f4b80d27a9e057fc57567f38bd322ac73ec",
-    "stars": 1787
+    "revision": "main",
+    "revision_sha": "c63c8a57a2de34fc03fa83722412824af4d8753b",
+    "stars": 2670
   },
   {
     "forks": 112,
     "full_name": "valkey-io/valkey-glide",
+    "full_name_now": "valkey-io/valkey-glide",
+    "id": 511141524,
     "language": "Java",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5807,6 +7097,8 @@
   {
     "forks": 1889,
     "full_name": "vectordotdev/vector",
+    "full_name_now": "vectordotdev/vector",
+    "id": 146327667,
     "language": "Rust",
     "license": "MPL-2.0",
     "revision": "main",
@@ -5816,6 +7108,8 @@
   {
     "forks": 197,
     "full_name": "vercel/hyper-site",
+    "full_name_now": "vercel/hyper-site",
+    "id": 103436741,
     "language": "JavaScript",
     "license": "MIT",
     "revision": "main",
@@ -5825,6 +7119,8 @@
   {
     "forks": 29682,
     "full_name": "vercel/next.js",
+    "full_name_now": "vercel/next.js",
+    "id": 70107786,
     "language": "JavaScript",
     "license": "MIT",
     "revision": "main",
@@ -5834,6 +7130,8 @@
   {
     "forks": 3077,
     "full_name": "vercel/vercel",
+    "full_name_now": "vercel/vercel",
+    "id": 67753070,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5843,6 +7141,8 @@
   {
     "forks": 43,
     "full_name": "vespa-engine/pyvespa",
+    "full_name_now": "vespa-engine/pyvespa",
+    "id": 271251138,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5852,6 +7152,8 @@
   {
     "forks": 7399,
     "full_name": "vitejs/vite",
+    "full_name_now": "vitejs/vite",
+    "id": 257485422,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -5861,6 +7163,8 @@
   {
     "forks": 24,
     "full_name": "vladfi1/slippi-ai",
+    "full_name_now": "vladfi1/slippi-ai",
+    "id": 311811610,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -5870,6 +7174,8 @@
   {
     "forks": 10803,
     "full_name": "vllm-project/vllm",
+    "full_name_now": "vllm-project/vllm",
+    "id": 599547518,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5879,6 +7185,8 @@
   {
     "forks": 23,
     "full_name": "vlm-run/vlmrun-hub",
+    "full_name_now": "vlm-run/vlmrun-hub",
+    "id": 886899801,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5888,6 +7196,8 @@
   {
     "forks": 20,
     "full_name": "vltpkg/vltpkg",
+    "full_name_now": "vltpkg/vltpkg",
+    "id": 780660899,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5897,6 +7207,8 @@
   {
     "forks": 2098,
     "full_name": "voideditor/void",
+    "full_name_now": "voideditor/void",
+    "id": 855528273,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5906,6 +7218,8 @@
   {
     "forks": 90,
     "full_name": "voku/portable-utf8",
+    "full_name_now": "voku/portable-utf8",
+    "id": 20128178,
     "language": "PHP",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5915,6 +7229,8 @@
   {
     "forks": 8,
     "full_name": "w-okada/ttsclient",
+    "full_name_now": "w-okada/ttsclient",
+    "id": 844061046,
     "language": "Python",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5924,6 +7240,8 @@
   {
     "forks": 2014,
     "full_name": "wandb/openui",
+    "full_name_now": "wandb/openui",
+    "id": 773544702,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5933,6 +7251,8 @@
   {
     "forks": 39,
     "full_name": "wcandillon/react-native-webgpu",
+    "full_name_now": "wcandillon/react-native-webgpu",
+    "id": 816390466,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -5942,6 +7262,8 @@
   {
     "forks": 32,
     "full_name": "wealthsimple/llm-gateway",
+    "full_name_now": "wealthsimple/llm-gateway",
+    "id": 658937026,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "v3",
@@ -5951,6 +7273,8 @@
   {
     "forks": 729,
     "full_name": "web-infra-dev/rspack",
+    "full_name_now": "web-infra-dev/rspack",
+    "id": 476642602,
     "language": "Rust",
     "license": "MIT",
     "revision": "main",
@@ -5960,6 +7284,8 @@
   {
     "forks": 15,
     "full_name": "webgptorg/promptbook",
+    "full_name_now": "webgptorg/promptbook",
+    "id": 697356168,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5969,6 +7295,8 @@
   {
     "forks": 2744,
     "full_name": "wechaty/wechaty",
+    "full_name_now": "wechaty/wechaty",
+    "id": 57602001,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5978,6 +7306,8 @@
   {
     "forks": 81,
     "full_name": "whitphx/stlite",
+    "full_name_now": "whitphx/stlite",
+    "id": 492128644,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "revision": "main",
@@ -5987,6 +7317,8 @@
   {
     "forks": 72,
     "full_name": "whitphx/vscode-emacs-mcx",
+    "full_name_now": "whitphx/vscode-emacs-mcx",
+    "id": 164272151,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -5996,6 +7328,8 @@
   {
     "forks": 135,
     "full_name": "wieslawsoltes/Dock",
+    "full_name_now": "wieslawsoltes/Dock",
+    "id": 134182879,
     "language": "C#",
     "license": "MIT",
     "revision": "main",
@@ -6003,17 +7337,21 @@
     "stars": 1247
   },
   {
-    "forks": 225,
+    "forks": 403,
     "full_name": "willccbb/verifiers",
+    "full_name_now": "PrimeIntellect-ai/verifiers",
+    "id": 920603619,
     "language": "Python",
     "license": "MIT",
-    "revision": "v3",
-    "revision_sha": "68ed5f4b80d27a9e057fc57567f38bd322ac73ec",
-    "stars": 1663
+    "revision": "main",
+    "revision_sha": "c63c8a57a2de34fc03fa83722412824af4d8753b",
+    "stars": 3384
   },
   {
     "forks": 130,
     "full_name": "wolfSSL/wolfBoot",
+    "full_name_now": "wolfSSL/wolfBoot",
+    "id": 152455265,
     "language": "C",
     "license": "GPL-3.0",
     "revision": "main",
@@ -6023,6 +7361,8 @@
   {
     "forks": 186,
     "full_name": "wolfSSL/wolfssl-examples",
+    "full_name_now": "wolfSSL/wolfssl-examples",
+    "id": 21290295,
     "language": "C",
     "license": null,
     "revision": "main",
@@ -6032,6 +7372,8 @@
   {
     "forks": 185,
     "full_name": "worknenjoy/gitpay",
+    "full_name_now": "worknenjoy/gitpay",
+    "id": 87405108,
     "language": "JavaScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -6041,6 +7383,8 @@
   {
     "forks": 71,
     "full_name": "wvlet/airframe",
+    "full_name_now": "wvlet/airframe",
+    "id": 65654242,
     "language": "Scala",
     "license": "Apache-2.0",
     "revision": "main",
@@ -6050,6 +7394,8 @@
   {
     "forks": 10,
     "full_name": "wvlet/wvlet",
+    "full_name_now": "wvlet/wvlet",
+    "id": 846769747,
     "language": "Scala",
     "license": "Apache-2.0",
     "revision": "main",
@@ -6059,6 +7405,8 @@
   {
     "forks": 25,
     "full_name": "xiaoxx970/chatgpt-in-terminal",
+    "full_name_now": "xiaoxx970/chatgpt-in-terminal",
+    "id": 609221996,
     "language": "Python",
     "license": "MIT",
     "revision": "main",
@@ -6068,6 +7416,8 @@
   {
     "forks": 1753,
     "full_name": "xtermjs/xterm.js",
+    "full_name_now": "xtermjs/xterm.js",
+    "id": 18068542,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -6077,6 +7427,8 @@
   {
     "forks": 727,
     "full_name": "ydb-platform/ydb",
+    "full_name_now": "ydb-platform/ydb",
+    "id": 456549280,
     "language": "C++",
     "license": "Apache-2.0",
     "revision": "main",
@@ -6086,6 +7438,8 @@
   {
     "forks": 107,
     "full_name": "yiisoft-contrib/yiiframework.com",
+    "full_name_now": "yiisoft-contrib/yiiframework.com",
+    "id": 26328526,
     "language": "HTML",
     "license": "NOASSERTION",
     "revision": "main",
@@ -6095,6 +7449,8 @@
   {
     "forks": 111,
     "full_name": "yytypescript/book",
+    "full_name_now": "yytypescript/book",
+    "id": 228538361,
     "language": "TypeScript",
     "license": "CC-BY-SA-4.0",
     "revision": "main",
@@ -6104,6 +7460,8 @@
   {
     "forks": 212,
     "full_name": "zapier/zapier-platform",
+    "full_name_now": "zapier/zapier-platform",
+    "id": 190495155,
     "language": "JavaScript",
     "license": "NOASSERTION",
     "revision": "main",
@@ -6113,6 +7471,8 @@
   {
     "forks": 549,
     "full_name": "zenml-io/zenml",
+    "full_name_now": "zenml-io/zenml",
+    "id": 314197645,
     "language": "Python",
     "license": "Apache-2.0",
     "revision": "main",
@@ -6122,6 +7482,8 @@
   {
     "forks": 216,
     "full_name": "zeroc-ice/ice-demos",
+    "full_name_now": "zeroc-ice/ice-demos",
+    "id": 31268449,
     "language": "C++",
     "license": "GPL-2.0",
     "revision": "main",
@@ -6131,6 +7493,8 @@
   {
     "forks": 51,
     "full_name": "zuplo/zudoku",
+    "full_name_now": "zuplo/zudoku",
+    "id": 843437350,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",
@@ -6140,6 +7504,8 @@
   {
     "forks": 690,
     "full_name": "zwave-js/zwave-js",
+    "full_name_now": "zwave-js/zwave-js",
+    "id": 126682032,
     "language": "TypeScript",
     "license": "MIT",
     "revision": "main",

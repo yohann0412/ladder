@@ -28,10 +28,15 @@ these files offline. Both upstream datasets are licensed CC-BY-4.0
   `pull_request.repo_id`; wrote null titles and bodies as empty strings; added the columns
   `revision` and `revision_sha` naming the dataset revision a row came from. A PR or
   repository that no revision has is kept with `revision: null`, empty text and null values.
-  - `aidev_prs.json`: repo, number, id, agent, title, body, state, created_at, closed_at,
-    merged_at, html_url.
-  - `aidev_repos.json`: full_name, stars, forks, language, license.
-- Revisions, in fallback order:
+  - `aidev_prs.json`: repo (the replay CSV's name), repo_now (the name in the row's revision),
+    number, id, agent, title, body, state, created_at, closed_at, merged_at, html_url.
+  - `aidev_repos.json`: full_name (the replay CSV's name), full_name_now (the name in the row's
+    revision), id, stars, forks, language, license.
+- Row selection: `main` by (repository name, PR number). What it lacks under the
+  replay CSV's name is looked up in `v3` to learn its id; the
+  `main` row with that id is used when there is one (the repository was renamed),
+  otherwise the `v3` row.
+- Revisions:
   - `main` = commit `c63c8a57a2de34fc03fa83722412824af4d8753b`
   - `v3` = commit `68ed5f4b80d27a9e057fc57567f38bd322ac73ec`
 
