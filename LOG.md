@@ -318,3 +318,28 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   (`bmander__graphserver__32-34`, unrunnable: no manifest). `ladder run` groups a wave by
   repository, so its order inside a wave differs from `data/claimc-order.txt`. That is
   harmless, because D19 only stops at wave boundaries; wave c01 is rerun in full.
+
+## 17. Disk full during wave 5 (four resolver runs lost)
+
+- Wave 6 preparation ran while wave 5 resolvers were still running. One pair,
+  Unity-Technologies__com.unity.toonshader__492-497, has a 1.6 GB workspace (Unity assets),
+  and the git rung, weave, and mergiraf each copy it. The mergiraf copy filled the disk to
+  0 bytes. `wait_for_disk` checks only before a pair starts, so it did not catch a single
+  pair this large.
+- Effects:
+  - Four resolver runs could not write their output, and their transcripts were cut off
+    mid-line: synth-inc__onit__184-186 (llm-raw, llm-post-weave) and
+    wandb__openui__235-237 (llm-raw, llm-post-weave). They are finalized as failed
+    (`audit_impossible` or malformed output); see D21.
+  - Wave 6 preparation stopped at the Unity pair with an error. No mergiraf record was
+    written, so the step will run again.
+  - The disk-floor implementation lane could not run its tests.
+- Recovery:
+  - Deleted the Unity pair's working copies.
+  - Pruned the copies of settled pairs from waves 4 and 5.
+  - Deleted 219 repository caches (5.6 GiB) of repositories that have no conflicting pair.
+    The three canary caches were kept. Claim C clones those repositories again when it
+    needs them.
+  - Free space went from 0 to 16 GiB.
+- From now on, preparation runs only while no resolver is running, with a 10 GiB floor, and
+  the Unity pair is prepared last, alone.
