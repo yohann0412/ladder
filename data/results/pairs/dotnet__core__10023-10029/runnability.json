@@ -1,0 +1,15 @@
+{
+  "pair_id": "dotnet__core__10023-10029",
+  "commit": "476605627a9d24d54814d458a29be52361ea8f47",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
