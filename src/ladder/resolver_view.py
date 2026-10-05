@@ -6,6 +6,7 @@ from rich.console import Console
 from rich.markup import escape
 
 from ladder.canary import CanaryHit, PlantedCanary
+from ladder.resolver_collect import TranscriptMatches
 from ladder.resolver_records import run_label
 from ladder.schemas import ResolverPlan, ResolverRun, ResolverTask
 
@@ -54,6 +55,29 @@ def render_run(console: Console, record: ResolverRun) -> None:
     )
     for violation in record.violations:
         console.print(f"  {escape(violation)}")
+
+
+def render_collected(
+    console: Console, matches: TranscriptMatches, finalized: int, *, dry_run: bool
+) -> None:
+    """Print what collecting transcripts did: finalized, still pending, conflicting, unreadable."""
+    if dry_run:
+        console.print(f"Would finalize {len(matches.matched)} runs (dry run):")
+        for task, path in matches.matched:
+            label = f"{task.pair_id} {run_label(task.rung, task.run)}"
+            console.print(escape(f"  {label}: {path}"))
+    else:
+        console.print(f"Finalized {finalized} of {len(matches.matched)} matched runs.")
+    console.print(f"Still pending, no transcript: {len(matches.unmatched)}")
+    for task in matches.unmatched:
+        console.print(escape(f"  {task.pair_id} {run_label(task.rung, task.run)}"))
+    console.print(f"Not finalized, more than one transcript: {len(matches.conflicts)}")
+    for task, paths in matches.conflicts:
+        label = f"{task.pair_id} {run_label(task.rung, task.run)}"
+        console.print(escape(f"  {label}: {', '.join(str(path) for path in paths)}"))
+    console.print(f"Unreadable transcripts: {len(matches.unreadable)}")
+    for path, reason in matches.unreadable:
+        console.print(escape(f"  {path}: {reason}"))
 
 
 def render_canaries(
