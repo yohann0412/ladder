@@ -1,0 +1,23 @@
+{
+  "pair_id": "pinpoint-apm__pinpoint__12965-12967",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/pinpoint-apm__pinpoint__12965-12967",
+  "source_base": "e64df56182e08424ababc1b9b18083aa5c9fa876",
+  "source_a": "d1bb8e32c37da7c8623da5aab191ffa2f2f1ab17",
+  "source_b": "10b3ee575f28139dab04278291ca596234273b38",
+  "base_commit": "6c32f1ae2546642bb31b26fd7bab9aaed6d18c91",
+  "a_commit": "15728df5ecb45ef6bf768213fe804a300afab7d6",
+  "b_commit": "54d629af65c24f37d28fcd27681810cfc02bcbb1",
+  "object_count": 24606,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

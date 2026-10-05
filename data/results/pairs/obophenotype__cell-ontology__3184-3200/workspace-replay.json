@@ -1,0 +1,23 @@
+{
+  "pair_id": "obophenotype__cell-ontology__3184-3200",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/obophenotype__cell-ontology__3184-3200",
+  "source_base": "c95f9827747c7a2d65bc6fe68b917f2567570daa",
+  "source_a": "e0b33e91687ecc8be166b4e6c7889c5b720a50af",
+  "source_b": "f097bd8b1b4a4e9d70c8cdce40f878150b54bda8",
+  "base_commit": "7c29b53a0a47c01b7b51cc0f59115911a6e78490",
+  "a_commit": "4342ffed2e88b917b90f4ecdf7ca0b1416ec7853",
+  "b_commit": "6821e67cafde1d19f2e06e77ea476985f7af9c7b",
+  "object_count": 334,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

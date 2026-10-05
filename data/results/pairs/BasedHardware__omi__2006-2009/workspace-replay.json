@@ -1,0 +1,23 @@
+{
+  "pair_id": "BasedHardware__omi__2006-2009",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/BasedHardware__omi__2006-2009",
+  "source_base": "dca508d91f25a58e385ebe64ef1b755fa7ac0eb2",
+  "source_a": "c46a25385eddc1875aed3921e4656e8776614da4",
+  "source_b": "83710ae44ab81ea7de7bd06878da1cd81827b420",
+  "base_commit": "27afe447ccfd99779cf63869a0bdfff95c4ff900",
+  "a_commit": "c71a778bc49542f76c17f264fcb7ce380ebc2369",
+  "b_commit": "df5bc84d55e7cb2a2f387d532c1f493c420a44a8",
+  "object_count": 2048,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

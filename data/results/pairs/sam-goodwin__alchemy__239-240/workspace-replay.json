@@ -1,0 +1,23 @@
+{
+  "pair_id": "sam-goodwin__alchemy__239-240",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/sam-goodwin__alchemy__239-240",
+  "source_base": "d97ec2e76e02ea2a474870d39830f082b1550cc3",
+  "source_a": "6797a0a8cf15a6a68510249db3c78378cdf5c54f",
+  "source_b": "0630624b38df8e1299e11653f182541f63a4e7c4",
+  "base_commit": "a0c1e17c56d370b0ec8574fe1aeccdf502fca1ef",
+  "a_commit": "a1ca15ff4b6b4666abec4a87156a93e0c918a393",
+  "b_commit": "d6bcfafc0ac795f0bb517c01c211c1c80f187c30",
+  "object_count": 2332,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pair_id": "sam-goodwin__alchemy__239-240",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 2 of 3",
+  "remaining_conflicted": [
+    "alchemy/src/cloudflare/bound.ts",
+    "alchemy/src/cloudflare/worker-metadata.ts"
+  ],
+  "files": [
+    {
+      "path": "alchemy/src/cloudflare/bindings.ts",
+      "present": true,
+      "has_markers": false,
+      "language": "typescript",
+      "parses": true
+    },
+    {
+      "path": "alchemy/src/cloudflare/bound.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    },
+    {
+      "path": "alchemy/src/cloudflare/worker-metadata.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/sam-goodwin__alchemy__239-240/weave"
+}

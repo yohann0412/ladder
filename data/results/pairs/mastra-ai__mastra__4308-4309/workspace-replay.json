@@ -1,0 +1,23 @@
+{
+  "pair_id": "mastra-ai__mastra__4308-4309",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/mastra-ai__mastra__4308-4309",
+  "source_base": "0adaabb838535fd38bd633011dd1a737a7249421",
+  "source_a": "5ed0547a783440567eedb5dfd256b72e37ed0999",
+  "source_b": "26e2d28d7be26c74382e315ac5695b0dd55ec705",
+  "base_commit": "5ff0a9c30be268346548a594c1c82ddecc4a8ad8",
+  "a_commit": "e54f74f01a42672fa5d749fd9d8cf4aa324be86a",
+  "b_commit": "f277efc57e1914ad3922f874a05782f9ab2eabd0",
+  "object_count": 4897,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

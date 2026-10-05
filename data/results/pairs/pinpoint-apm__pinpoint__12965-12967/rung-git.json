@@ -2,7 +2,7 @@
   "pair_id": "pinpoint-apm__pinpoint__12965-12967",
   "heads": "replay",
   "status": "conflicted",
-  "detail": "conflict messages: 368, conflicted files: 371 (git merge-tree on the original commits in the repository cache)",
+  "detail": "conflict messages: 368, conflicted files: 371",
   "messages": [
     "CONFLICT (content): Merge conflict in agent-module/agent-plugins/agent-plugins-parent/pom.xml",
     "CONFLICT (content): Merge conflict in agent-module/agent-plugins/pom.xml",

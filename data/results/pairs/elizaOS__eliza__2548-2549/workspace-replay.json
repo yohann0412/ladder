@@ -1,0 +1,23 @@
+{
+  "pair_id": "elizaOS__eliza__2548-2549",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/elizaOS__eliza__2548-2549",
+  "source_base": "bb69cb0e26ac7b86b6d684d853e181a1515f4d6f",
+  "source_a": "77afb108e90fd2f1de0e1a9815e57634763948fe",
+  "source_b": "b0e077f1ccd27bf62808dfef1cf1dd21d4f6ccce",
+  "base_commit": "4f1aa3dba663fbcdd88cf3071b1dd83f065ee8ea",
+  "a_commit": "d79a9c3ad9f0ed5502ad94343436848de56e51db",
+  "b_commit": "64a5048b394a8a58e012aee83098e40f81924247",
+  "object_count": 3177,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

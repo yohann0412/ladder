@@ -1,0 +1,15 @@
+{
+  "pair_id": "pinpoint-apm__pinpoint__12965-12967",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T08:58:53.175295Z"
+}

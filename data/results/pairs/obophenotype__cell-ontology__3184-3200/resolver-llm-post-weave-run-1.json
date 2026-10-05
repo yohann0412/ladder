@@ -1,0 +1,19 @@
+{
+  "pair_id": "obophenotype__cell-ontology__3184-3200",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: src/patterns/definitions.owl version base has 460080 bytes, more than 200000",
+    "input cap: src/patterns/definitions.owl version a has 460080 bytes, more than 200000",
+    "input cap: src/patterns/definitions.owl version b has 460080 bytes, more than 200000",
+    "input cap: src/patterns/definitions.owl version conflicted has 460498 bytes, more than 200000",
+    "input cap: 1840738 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T08:59:53.598365Z"
+}

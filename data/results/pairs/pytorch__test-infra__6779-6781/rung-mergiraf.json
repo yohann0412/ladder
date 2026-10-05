@@ -1,0 +1,20 @@
+{
+  "pair_id": "pytorch__test-infra__6779-6781",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "torchci/components/TorchAgentPage.tsx"
+  ],
+  "files": [
+    {
+      "path": "torchci/components/TorchAgentPage.tsx",
+      "present": true,
+      "has_markers": true,
+      "language": "tsx",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/pytorch__test-infra__6779-6781/mergiraf"
+}

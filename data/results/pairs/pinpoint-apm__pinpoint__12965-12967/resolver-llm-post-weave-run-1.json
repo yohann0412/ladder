@@ -1,0 +1,16 @@
+{
+  "pair_id": "pinpoint-apm__pinpoint__12965-12967",
+  "rung": "llm-post-weave",
+  "run": 1,
+  "status": "failed",
+  "failure": "input_cap",
+  "violations": [
+    "input cap: 359 conflicted files, more than 20",
+    "input cap: 4479118 bytes in all versions, more than 600000"
+  ],
+  "duration_ms": null,
+  "tokens": null,
+  "tool_calls": 0,
+  "files": [],
+  "finalized_at": "2026-10-05T08:59:05.341025Z"
+}

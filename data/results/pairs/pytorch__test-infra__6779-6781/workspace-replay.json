@@ -1,0 +1,23 @@
+{
+  "pair_id": "pytorch__test-infra__6779-6781",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/pytorch__test-infra__6779-6781",
+  "source_base": "de5c2337cc306a4cd4f0c7d3ade5c4e5dc26ecc7",
+  "source_a": "9a455ec063a59d0296bde9d6b65fa187764496a2",
+  "source_b": "caf42bc00b8474b22adb8bb9b41484249f238d59",
+  "base_commit": "0c58d0e6d0e4aa2b05f2e3ae7ca76f5ae559fec6",
+  "a_commit": "98f13e830fe5997518ac96758ba7c198b392a91a",
+  "b_commit": "70b9ebb228ae4726873a89eb1d6246a2076d9df5",
+  "object_count": 1671,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

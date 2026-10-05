@@ -1,0 +1,20 @@
+{
+  "pair_id": "elizaOS__eliza__2548-2549",
+  "rung": "llm-raw",
+  "run": 1,
+  "task_dir": "/home/user/ladder/work/resolver/elizaOS__eliza__2548-2549/llm-raw/run-1",
+  "snapshot_dir": "/home/user/ladder/work/resolver/elizaOS__eliza__2548-2549/llm-raw/run-1/workspace",
+  "output_dir": "/home/user/ladder/work/resolutions/elizaOS__eliza__2548-2549/llm-raw/run-1",
+  "spawn_line": "Read /home/user/ladder/work/resolver/elizaOS__eliza__2548-2549/llm-raw/run-1/PROMPT.md and follow it exactly.",
+  "files": [
+    "pnpm-lock.yaml"
+  ],
+  "input_bytes": 8207278,
+  "pr_text_flags": [
+    "merged-default-branch"
+  ],
+  "template_sha256": "11ef6f40481f94b23335090ece7b20a6ee24a9e39a0b58a8183c487680fd117a",
+  "status": "input_cap",
+  "identical_to": null,
+  "prepared_at": "2026-10-05T08:56:56.383877Z"
+}

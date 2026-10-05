@@ -1,0 +1,20 @@
+{
+  "pair_id": "mastra-ai__mastra__4308-4309",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 1",
+  "remaining_conflicted": [
+    "client-sdks/client-js/src/types.ts"
+  ],
+  "files": [
+    {
+      "path": "client-sdks/client-js/src/types.ts",
+      "present": true,
+      "has_markers": true,
+      "language": "typescript",
+      "parses": false
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/mastra-ai__mastra__4308-4309/mergiraf"
+}

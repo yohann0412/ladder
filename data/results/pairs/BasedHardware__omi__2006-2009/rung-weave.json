@@ -1,0 +1,51 @@
+{
+  "pair_id": "BasedHardware__omi__2006-2009",
+  "tool": "weave",
+  "tool_version": "0.5.2",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 4 of 5",
+  "remaining_conflicted": [
+    "app/lib/backend/preferences_web.dart",
+    "app/lib/main.dart",
+    "app/lib/utils/platform_imports_io.dart",
+    "app/lib/utils/platform_imports_web.dart"
+  ],
+  "files": [
+    {
+      "path": "app/lib/backend/preferences_web.dart",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "app/lib/main.dart",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "app/lib/utils/platform_imports.dart",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "app/lib/utils/platform_imports_io.dart",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "app/lib/utils/platform_imports_web.dart",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/BasedHardware__omi__2006-2009/weave"
+}

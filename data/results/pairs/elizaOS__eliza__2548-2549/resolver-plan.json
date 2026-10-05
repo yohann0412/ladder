@@ -1,0 +1,15 @@
+{
+  "pair_id": "elizaOS__eliza__2548-2549",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T08:56:56.288756Z"
+}

@@ -1,0 +1,15 @@
+{
+  "pair_id": "mastra-ai__mastra__4308-4309",
+  "runs": [
+    {
+      "rung": "llm-raw",
+      "run": 1
+    },
+    {
+      "rung": "llm-post-weave",
+      "run": 1
+    }
+  ],
+  "excluded_reason": null,
+  "created_at": "2026-10-05T08:57:14.084714Z"
+}

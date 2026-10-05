@@ -1,0 +1,27 @@
+{
+  "pair_id": "getsentry__sentry-dart__3079-3084",
+  "tool": "mergiraf",
+  "tool_version": "0.20.0",
+  "status": "conflicted",
+  "detail": "unmerged paths left: 1 of 2",
+  "remaining_conflicted": [
+    "dart/lib/src/propagation_context.dart"
+  ],
+  "files": [
+    {
+      "path": "dart/lib/src/hub.dart",
+      "present": true,
+      "has_markers": false,
+      "language": null,
+      "parses": null
+    },
+    {
+      "path": "dart/lib/src/propagation_context.dart",
+      "present": true,
+      "has_markers": true,
+      "language": null,
+      "parses": null
+    }
+  ],
+  "output_dir": "/home/user/ladder/work/rungs/getsentry__sentry-dart__3079-3084/mergiraf"
+}

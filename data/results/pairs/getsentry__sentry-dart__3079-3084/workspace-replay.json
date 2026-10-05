@@ -1,0 +1,23 @@
+{
+  "pair_id": "getsentry__sentry-dart__3079-3084",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/getsentry__sentry-dart__3079-3084",
+  "source_base": "e84389988e6b7df567aac9ba5a8cfe8a6ca6021c",
+  "source_a": "e63d4594d1defcbd178e15575ff3804b4968f950",
+  "source_b": "4a8043c30e8405123270bd1a88cfda5104c142fa",
+  "base_commit": "cdc010e393c8c9cf209ab8771ee5686fc74b590c",
+  "a_commit": "24faa1aac65fd8330c3a6b8c8bf50473bfc7fed3",
+  "b_commit": "6d3cedc6cfde664ea618caeefac44a466de8d048",
+  "object_count": 1502,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
