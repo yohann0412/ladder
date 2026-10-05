@@ -1,0 +1,84 @@
+{
+  "pair_id": "superfly__flyctl__4456-4463",
+  "rung": "llm-raw",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": true,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": true,
+  "intent_preserved_b": true,
+  "intent_drops": [],
+  "files": [
+    {
+      "path": "internal/appconfig/config.go",
+      "mode": "ast",
+      "language": "go",
+      "present": true,
+      "has_markers": false,
+      "parses": true,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": {
+    "status": "passed",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "passed": 219,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 35.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "dependency manifests differ from base (go.mod, go.sum); installed again; 219 passed, 0 failed, 0 errors, 0 skipped"
+  },
+  "tests_a": {
+    "status": "passed",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./internal/command/deploy"
+    ],
+    "passed": 33,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 24.4,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "dependency manifests differ from base (go.mod, go.sum); installed again; 33 passed, 0 failed, 0 errors, 0 skipped; go test runs the whole packages of the selected files"
+  },
+  "tests_b": {
+    "status": "passed",
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./internal/appconfig",
+      "./internal/build/imgsrc",
+      "./internal/command/mpg",
+      "./internal/containerconfig"
+    ],
+    "passed": 159,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 14.8,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "dependency manifests differ from base (go.mod, go.sum); installed again; 159 passed, 0 failed, 0 errors, 0 skipped; go test runs the whole packages of the selected files"
+  }
+}
