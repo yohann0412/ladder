@@ -1,0 +1,61 @@
+{
+  "pair_id": "webgptorg__promptbook__274-276",
+  "commit": "3d82206d835d4e597f5849df5fde21c4bb142d79",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": "jest",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 8 failed, 0 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "npm",
+        "ci"
+      ],
+      "exit_code": 0,
+      "duration_s": 192.5,
+      "detail": "standard, install cap 900 s: install: exit 0 in 18.5 s; suite failed: 749 passed, 8 failed, 0 errors, 0 skipped (src/executables/locateApp.test.ts::locating the app should locate Chrome, src/executables/apps/locatePandoc.test.ts::locating the Pandoc - The universal markup converter should locate Pandoc, src/scrapers/document/DocumentScraper.test.ts::how creating knowledge from docx works should scrape simple information from a .docx file, src/scrapers/document/DocumentScraper.test.ts::how creating knowledge from docx works should scrape simple information from a .odt file, src/scrapers/document/DocumentScraper.test.ts::how creating knowledge from docx works should NOT scrape irrelevant information); first run failed: 749 passed, 8 failed, 0 errors, 0 skipped (src/scrapers/document/DocumentScraper.test.ts::how creating knowledge from docx works should scrape simple information from a .docx file, src/scrapers/document/DocumentScraper.test.ts::how creating knowledge from docx works should scrape simple information from a .odt file, src/scrapers/document/DocumentScraper.test.ts::how creating knowledge from docx works should NOT scrape irrelevant information, src/scrapers/document-legacy/LegacyDocumentScraper.test.ts::how creating knowledge from docx works should scrape simple information from a (legacy) .doc file, src/scrapers/document-legacy/LegacyDocumentScraper.test.ts::how creating knowledge from docx works should scrape simple information from a .rtf file)"
+    },
+    {
+      "command": [
+        "npm",
+        "install",
+        "--legacy-peer-deps"
+      ],
+      "exit_code": 0,
+      "duration_s": 150.5,
+      "detail": "legacy-peer-deps (npm install --legacy-peer-deps instead of a clean install), install cap 900 s: install: exit 0 in 16.9 s; suite failed: 744 passed, 4 failed, 4 errors, 0 skipped (src/executables/locateApp.test.ts::locating the app should locate Chrome, src/executables/apps/locatePandoc.test.ts::locating the Pandoc - The universal markup converter should locate Pandoc, src/cli/test/ptbk.test.ts::how promptbookCli works should initiate without errors, src/cli/test/ptbk.test.ts::how promptbookCli works should report version, src/scrapers/markdown/MarkdownScraper.test.ts); first run failed: 743 passed, 5 failed, 4 errors, 0 skipped (src/executables/locateApp.test.ts::locating the app should locate Chrome, src/executables/apps/locatePandoc.test.ts::locating the Pandoc - The universal markup converter should locate Pandoc, src/scrapers/document/DocumentScraper.test.ts, src/scrapers/document-legacy/LegacyDocumentScraper.test.ts, src/scrapers/markdown/MarkdownScraper.test.ts)"
+    }
+  ],
+  "test_count": 757,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/webgptorg__promptbook__274-276/trees/base/node_modules/.bin/jest",
+      "--ci",
+      "--coverage=false",
+      "--json",
+      "--outputFile=/home/user/ladder/work/runtime/webgptorg__promptbook__274-276/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 749,
+    "failed": 8,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 74.7,
+    "retried": true,
+    "failing_tests": [
+      "src/executables/locateApp.test.ts::locating the app should locate Chrome",
+      "src/executables/apps/locatePandoc.test.ts::locating the Pandoc - The universal markup converter should locate Pandoc",
+      "src/scrapers/document/DocumentScraper.test.ts::how creating knowledge from docx works should scrape simple information from a .docx file",
+      "src/scrapers/document/DocumentScraper.test.ts::how creating knowledge from docx works should scrape simple information from a .odt file",
+      "src/scrapers/document/DocumentScraper.test.ts::how creating knowledge from docx works should NOT scrape irrelevant information",
+      "src/scrapers/document-legacy/LegacyDocumentScraper.test.ts::how creating knowledge from docx works should scrape simple information from a (legacy) .doc file",
+      "src/scrapers/document-legacy/LegacyDocumentScraper.test.ts::how creating knowledge from docx works should scrape simple information from a .rtf file",
+      "src/scrapers/document-legacy/LegacyDocumentScraper.test.ts::how creating knowledge from docx works should NOT scrape irrelevant information"
+    ],
+    "detail": "749 passed, 8 failed, 0 errors, 0 skipped (src/executables/locateApp.test.ts::locating the app should locate Chrome, src/executables/apps/locatePandoc.test.ts::locating the Pandoc - The universal markup converter should locate Pandoc, src/scrapers/document/DocumentScraper.test.ts::how creating knowledge from docx works should scrape simple information from a .docx file, src/scrapers/document/DocumentScraper.test.ts::how creating knowledge from docx works should scrape simple information from a .odt file, src/scrapers/document/DocumentScraper.test.ts::how creating knowledge from docx works should NOT scrape irrelevant information); first run failed: 749 passed, 8 failed, 0 errors, 0 skipped (src/scrapers/document/DocumentScraper.test.ts::how creating knowledge from docx works should scrape simple information from a .docx file, src/scrapers/document/DocumentScraper.test.ts::how creating knowledge from docx works should scrape simple information from a .odt file, src/scrapers/document/DocumentScraper.test.ts::how creating knowledge from docx works should NOT scrape irrelevant information, src/scrapers/document-legacy/LegacyDocumentScraper.test.ts::how creating knowledge from docx works should scrape simple information from a (legacy) .doc file, src/scrapers/document-legacy/LegacyDocumentScraper.test.ts::how creating knowledge from docx works should scrape simple information from a .rtf file)"
+  },
+  "timeout_s": 600
+}
