@@ -1,0 +1,15 @@
+{
+  "pair_id": "transloadit__uppy__5957-5958",
+  "commit": "4ba68b9c5588c3bceae81c7197fa1749ab6bc9a0",
+  "language": "node",
+  "package_manager": "yarn",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

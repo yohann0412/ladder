@@ -1,0 +1,23 @@
+{
+  "pair_id": "transloadit__uppy__5957-5958",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/transloadit__uppy__5957-5958",
+  "source_base": "4ba68b9c5588c3bceae81c7197fa1749ab6bc9a0",
+  "source_a": "1abf474fd6e684d63fd6bffc2a2319ee94fae593",
+  "source_b": "6de404ab9c92edaafd1924b1641b2a216db31ed0",
+  "base_commit": "93c6a74cf457c5e43c47e3be5bd70ea4a1dd3656",
+  "a_commit": "9174b5dc00810b1ee8f2675047cdd92ca9625439",
+  "b_commit": "bc5a95b813a6509c44951d9cffb1b7840c2ad2f1",
+  "object_count": 1218,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

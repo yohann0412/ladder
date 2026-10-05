@@ -1,0 +1,23 @@
+{
+  "pair_id": "gerlero__foamlib__434-436",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/gerlero__foamlib__434-436",
+  "source_base": "fd6f21873d343947eac4e133e2e4da7084c74ab2",
+  "source_a": "a5b9e4a6462f6bb9c158b362a4b09457b56dd013",
+  "source_b": "c3a6ba04743fa73ceb6bbe0bdd2f04eb3ff4fc52",
+  "base_commit": "879bbb455ea4224f5f1ec2471c9689f03191a18d",
+  "a_commit": "f27b6b0b52ea9cf98cc4864dc6de6c75b1c595f0",
+  "b_commit": "1edb51ae00d5238c6c828322ac947e389d699352",
+  "object_count": 309,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

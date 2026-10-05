@@ -1,0 +1,53 @@
+{
+  "pair_id": "mitsuhiko__insta__778-779",
+  "commit": "5145f26c232707d547a7fc4a157a82eefdce6ab6",
+  "language": "rust",
+  "package_manager": "cargo",
+  "test_runner": "cargo test",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 2 failed, 0 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "cargo",
+        "fetch",
+        "--locked"
+      ],
+      "exit_code": 0,
+      "duration_s": 77.3,
+      "detail": "standard, install cap 900 s: install: exit 0 in 3.1 s; build: exit 0 in 19.9 s; suite failed: 203 passed, 2 failed, 0 errors, 1 skipped (tests/functional/main.rs::workspace::test_insta_workspace_root, tests/functional/main.rs::workspace::test_insta_workspace_root_compile_time); first run failed: 203 passed, 2 failed, 0 errors, 1 skipped (tests/functional/main.rs::workspace::test_insta_workspace_root, tests/functional/main.rs::workspace::test_insta_workspace_root_compile_time)"
+    },
+    {
+      "command": [
+        "cargo",
+        "update"
+      ],
+      "exit_code": 0,
+      "duration_s": 76.4,
+      "detail": "cargo-update (updated Cargo.lock to the newest compatible versions), install cap 900 s: install: exit 0 in 0.9 s; build: exit 0 in 22.3 s; suite failed: 203 passed, 2 failed, 0 errors, 1 skipped (tests/functional/main.rs::workspace::test_insta_workspace_root, tests/functional/main.rs::workspace::test_insta_workspace_root_compile_time); first run failed: 203 passed, 2 failed, 0 errors, 1 skipped (tests/functional/main.rs::workspace::test_insta_workspace_root, tests/functional/main.rs::workspace::test_insta_workspace_root_compile_time)"
+    }
+  ],
+  "test_count": 206,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "cargo",
+      "test",
+      "--no-fail-fast"
+    ],
+    "passed": 203,
+    "failed": 2,
+    "errors": 0,
+    "skipped": 1,
+    "duration_s": 15.8,
+    "retried": true,
+    "failing_tests": [
+      "tests/functional/main.rs::workspace::test_insta_workspace_root",
+      "tests/functional/main.rs::workspace::test_insta_workspace_root_compile_time"
+    ],
+    "detail": "203 passed, 2 failed, 0 errors, 1 skipped (tests/functional/main.rs::workspace::test_insta_workspace_root, tests/functional/main.rs::workspace::test_insta_workspace_root_compile_time); first run failed: 203 passed, 2 failed, 0 errors, 1 skipped (tests/functional/main.rs::workspace::test_insta_workspace_root, tests/functional/main.rs::workspace::test_insta_workspace_root_compile_time)"
+  },
+  "timeout_s": 600
+}
