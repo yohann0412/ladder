@@ -1,0 +1,33 @@
+{
+  "pair_id": "CravateRouge__bloodyAD__81-82",
+  "status": "located",
+  "commit": "51afb470d08eb041e09d19d4b8644bd78405d910",
+  "method": "subject_time",
+  "files": [
+    {
+      "path": "bloodyAD/cli_modules/add.py",
+      "present": true,
+      "sha256": "b4b67fce90f4f9dfd2e5f39482b4c2474a48ac3050d25eedef8079b0a49f764f"
+    },
+    {
+      "path": "bloodyAD/cli_modules/get.py",
+      "present": true,
+      "sha256": "f45a7a2b57d9a2b0e923042eda8c3cedc024ee03f08978921364e8975fc65516"
+    },
+    {
+      "path": "bloodyAD/cli_modules/remove.py",
+      "present": true,
+      "sha256": "5740a38b0920009d98b4a87438a76daa68c32d09b59571fece5fe321a3aef355"
+    },
+    {
+      "path": "bloodyAD/network/ldap.py",
+      "present": true,
+      "sha256": "3e5d6b8186cad68ad300f05be6cc5d8393d1b3893306fa804baa64b8cfb10fbd"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": true,
+  "extracted_at": "2026-10-05T13:56:42.399226Z"
+}

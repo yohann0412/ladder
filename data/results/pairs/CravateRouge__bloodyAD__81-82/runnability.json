@@ -1,0 +1,77 @@
+{
+  "pair_id": "CravateRouge__bloodyAD__81-82",
+  "commit": "8ac70143b2ab22b0c43cf75c2765a8b7c82be0da",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 5 failed, 2 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/CravateRouge__bloodyAD__81-82/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/CravateRouge__bloodyAD__81-82/trees/base",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 15.9,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 1.9 s; suite failed: 2 passed, 5 failed, 2 errors, 0 skipped (work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_authentication.py::TestBloodyADAuthentications::test_certificate_authentications, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_authentication.py::TestBloodyADAuthentications::test_kerberos_authentications, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_01AuthCreateUser, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_02SearchAndGetChildAndGetWritable, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_03UacOwnerGenericShadowGroupPasswordDCSync); first run failed: 2 passed, 5 failed, 2 errors, 0 skipped (work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_authentication.py::TestBloodyADAuthentications::test_certificate_authentications, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_authentication.py::TestBloodyADAuthentications::test_kerberos_authentications, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_01AuthCreateUser, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_02SearchAndGetChildAndGetWritable, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_03UacOwnerGenericShadowGroupPasswordDCSync)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/CravateRouge__bloodyAD__81-82/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/CravateRouge__bloodyAD__81-82/trees/base",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 14.8,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 0.7 s; suite failed: 2 passed, 5 failed, 2 errors, 0 skipped (work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_authentication.py::TestBloodyADAuthentications::test_certificate_authentications, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_authentication.py::TestBloodyADAuthentications::test_kerberos_authentications, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_01AuthCreateUser, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_02SearchAndGetChildAndGetWritable, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_03UacOwnerGenericShadowGroupPasswordDCSync); first run failed: 2 passed, 5 failed, 2 errors, 0 skipped (work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_authentication.py::TestBloodyADAuthentications::test_certificate_authentications, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_authentication.py::TestBloodyADAuthentications::test_kerberos_authentications, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_01AuthCreateUser, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_02SearchAndGetChildAndGetWritable, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_03UacOwnerGenericShadowGroupPasswordDCSync)"
+    }
+  ],
+  "test_count": 9,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/CravateRouge__bloodyAD__81-82/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/CravateRouge__bloodyAD__81-82/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 2,
+    "failed": 5,
+    "errors": 2,
+    "skipped": 0,
+    "duration_s": 6.9,
+    "retried": true,
+    "failing_tests": [
+      "work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_authentication.py::TestBloodyADAuthentications::test_certificate_authentications",
+      "work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_authentication.py::TestBloodyADAuthentications::test_kerberos_authentications",
+      "work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_01AuthCreateUser",
+      "work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_02SearchAndGetChildAndGetWritable",
+      "work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_03UacOwnerGenericShadowGroupPasswordDCSync",
+      "work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_04ComputerRbcdGetSetAttribute",
+      "work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_06AddRemoveGetDnsRecord"
+    ],
+    "detail": "2 passed, 5 failed, 2 errors, 0 skipped (work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_authentication.py::TestBloodyADAuthentications::test_certificate_authentications, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_authentication.py::TestBloodyADAuthentications::test_kerberos_authentications, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_01AuthCreateUser, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_02SearchAndGetChildAndGetWritable, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_03UacOwnerGenericShadowGroupPasswordDCSync); first run failed: 2 passed, 5 failed, 2 errors, 0 skipped (work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_authentication.py::TestBloodyADAuthentications::test_certificate_authentications, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_authentication.py::TestBloodyADAuthentications::test_kerberos_authentications, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_01AuthCreateUser, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_02SearchAndGetChildAndGetWritable, work/runtime/CravateRouge__bloodyAD__81-82/trees/base/tests/test_functional.py::TestModules::test_03UacOwnerGenericShadowGroupPasswordDCSync)"
+  },
+  "timeout_s": 600
+}

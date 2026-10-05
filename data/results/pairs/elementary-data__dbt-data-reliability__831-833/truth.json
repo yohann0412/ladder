@@ -1,0 +1,18 @@
+{
+  "pair_id": "elementary-data__dbt-data-reliability__831-833",
+  "status": "located",
+  "commit": "c45cba366063bd20d2162f8476133ddcb84984ce",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "macros/edr/materializations/test/test.sql",
+      "present": true,
+      "sha256": "71f3f37326cee07e90ecd20ca9c5c09f18920c61f7fff4d8695d5fde8142c400"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:56:15.704684Z"
+}

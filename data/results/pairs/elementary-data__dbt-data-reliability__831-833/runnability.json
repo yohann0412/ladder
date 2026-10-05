@@ -1,0 +1,67 @@
+{
+  "pair_id": "elementary-data__dbt-data-reliability__831-833",
+  "commit": "f6d557dc2c8c7a8ec77da587a82545ee70e84693",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "suite does not load at base: 1 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/elementary-data__dbt-data-reliability__831-833/envs/base/bin/python",
+        "-r",
+        "dev-requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 2.9,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 1.1 s; suite failed: 0 passed, 0 failed, 1 errors, 0 skipped (work/runtime/elementary-data__dbt-data-reliability__831-833/trees/base/integration_tests/tests::work.runtime.elementary-data__dbt-data-reliability__831-833.trees.base.integration_tests.tests); first run failed: 0 passed, 0 failed, 1 errors, 0 skipped (work/runtime/elementary-data__dbt-data-reliability__831-833/trees/base/integration_tests/tests::work.runtime.elementary-data__dbt-data-reliability__831-833.trees.base.integration_tests.tests)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/elementary-data__dbt-data-reliability__831-833/envs/base/bin/python",
+        "pre-commit",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 2.2,
+      "detail": "unpinned (ignored the version pins in the requirement files), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 0.2 s; suite failed: 0 passed, 0 failed, 1 errors, 0 skipped (work/runtime/elementary-data__dbt-data-reliability__831-833/trees/base/integration_tests/tests::work.runtime.elementary-data__dbt-data-reliability__831-833.trees.base.integration_tests.tests); first run failed: 0 passed, 0 failed, 1 errors, 0 skipped (work/runtime/elementary-data__dbt-data-reliability__831-833/trees/base/integration_tests/tests::work.runtime.elementary-data__dbt-data-reliability__831-833.trees.base.integration_tests.tests)"
+    }
+  ],
+  "test_count": 1,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/elementary-data__dbt-data-reliability__831-833/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/elementary-data__dbt-data-reliability__831-833/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 1,
+    "skipped": 0,
+    "duration_s": 0.9,
+    "retried": true,
+    "failing_tests": [
+      "work/runtime/elementary-data__dbt-data-reliability__831-833/trees/base/integration_tests/tests::work.runtime.elementary-data__dbt-data-reliability__831-833.trees.base.integration_tests.tests"
+    ],
+    "detail": "0 passed, 0 failed, 1 errors, 0 skipped (work/runtime/elementary-data__dbt-data-reliability__831-833/trees/base/integration_tests/tests::work.runtime.elementary-data__dbt-data-reliability__831-833.trees.base.integration_tests.tests); first run failed: 0 passed, 0 failed, 1 errors, 0 skipped (work/runtime/elementary-data__dbt-data-reliability__831-833/trees/base/integration_tests/tests::work.runtime.elementary-data__dbt-data-reliability__831-833.trees.base.integration_tests.tests)"
+  },
+  "timeout_s": 600
+}

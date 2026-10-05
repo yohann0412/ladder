@@ -1,0 +1,51 @@
+{
+  "pair_id": "jsforce__jsforce__1734-1735",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: other"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: other (suite fails at base: 0 failed, 18 errors)",
+  "files_a": [
+    "package-lock.json",
+    "src/connection.ts",
+    "test/sosl-escaping.test.ts"
+  ],
+  "files_b": [
+    "package-lock.json",
+    "src/api/bulk.ts",
+    "test/bulk.test.ts"
+  ]
+}

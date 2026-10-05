@@ -1,0 +1,15 @@
+{
+  "pair_id": "microsoft__react-native-windows__14829-14830",
+  "commit": "fc7ac6ff732f480997a23ea9bceeac4568c1a95f",
+  "language": "node",
+  "package_manager": "yarn",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

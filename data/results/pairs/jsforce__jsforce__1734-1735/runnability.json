@@ -1,0 +1,71 @@
+{
+  "pair_id": "jsforce__jsforce__1734-1735",
+  "commit": "9dcb2548b2f7c21c19f2108513eab638e1f8df50",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": "jest",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 0 failed, 18 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "npm",
+        "ci"
+      ],
+      "exit_code": 0,
+      "duration_s": 88.0,
+      "detail": "standard, install cap 900 s: install: exit 0 in 29.6 s; suite failed: 57 passed, 0 failed, 18 errors, 0 skipped (test/tooling.test.ts, test/streaming.test.ts, test/sobject.test.ts, test/soap.test.ts, test/schema.test.ts); first run failed: 57 passed, 0 failed, 18 errors, 0 skipped (test/bulk2.test.ts, test/sobject.test.ts, test/bulk.test.ts, test/query.test.ts, test/metadata.test.ts)"
+    },
+    {
+      "command": [
+        "npm",
+        "install",
+        "--legacy-peer-deps"
+      ],
+      "exit_code": 0,
+      "duration_s": 78.8,
+      "detail": "legacy-peer-deps (npm install --legacy-peer-deps instead of a clean install), install cap 900 s: install: exit 0 in 25.8 s; suite failed: 57 passed, 0 failed, 18 errors, 0 skipped (test/tooling.test.ts, test/streaming.test.ts, test/sobject.test.ts, test/soap.test.ts, test/schema.test.ts); first run failed: 57 passed, 0 failed, 18 errors, 0 skipped (test/tooling.test.ts, test/streaming.test.ts, test/sobject.test.ts, test/soap.test.ts, test/query.test.ts)"
+    }
+  ],
+  "test_count": 75,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/jsforce__jsforce__1734-1735/trees/base/node_modules/.bin/jest",
+      "--ci",
+      "--coverage=false",
+      "--json",
+      "--outputFile=/home/user/ladder/work/runtime/jsforce__jsforce__1734-1735/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 57,
+    "failed": 0,
+    "errors": 18,
+    "skipped": 0,
+    "duration_s": 25.5,
+    "retried": true,
+    "failing_tests": [
+      "test/tooling.test.ts",
+      "test/streaming.test.ts",
+      "test/sobject.test.ts",
+      "test/soap.test.ts",
+      "test/schema.test.ts",
+      "test/quick-action.test.ts",
+      "test/query.test.ts",
+      "test/process.test.ts",
+      "test/oauth2.test.ts",
+      "test/connection-session.test.ts",
+      "test/metadata.test.ts",
+      "test/connection-meta.test.ts",
+      "test/chatter.test.ts",
+      "test/connection-crud.test.ts",
+      "test/bulk2.test.ts",
+      "test/bulk.test.ts",
+      "test/apex.test.ts",
+      "test/analytics.test.ts"
+    ],
+    "detail": "57 passed, 0 failed, 18 errors, 0 skipped (test/tooling.test.ts, test/streaming.test.ts, test/sobject.test.ts, test/soap.test.ts, test/schema.test.ts); first run failed: 57 passed, 0 failed, 18 errors, 0 skipped (test/bulk2.test.ts, test/sobject.test.ts, test/bulk.test.ts, test/query.test.ts, test/metadata.test.ts)"
+  },
+  "timeout_s": 600
+}

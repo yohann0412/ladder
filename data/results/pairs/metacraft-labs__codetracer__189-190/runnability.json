@@ -1,0 +1,15 @@
+{
+  "pair_id": "metacraft-labs__codetracer__189-190",
+  "commit": "838e1e5f1b44b9f0854fa1afb44046ef4973e1ea",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

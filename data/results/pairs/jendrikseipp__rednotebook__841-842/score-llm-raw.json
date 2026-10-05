@@ -1,0 +1,63 @@
+{
+  "pair_id": "jendrikseipp__rednotebook__841-842",
+  "rung": "llm-raw",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": true,
+  "human_equivalent": true,
+  "human_equivalent_unordered": true,
+  "intent_preserved_a": true,
+  "intent_preserved_b": true,
+  "intent_drops": [],
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "mode": "token",
+      "language": null,
+      "present": true,
+      "has_markers": false,
+      "parses": null,
+      "new_duplicates": [],
+      "human_equivalent": true,
+      "human_equivalent_unordered": true,
+      "similarity": 1.0
+    }
+  ],
+  "tests_full": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails (suite does not load at base: 4 errors)"
+  },
+  "tests_a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails (suite does not load at base: 4 errors)"
+  },
+  "tests_b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails (suite does not load at base: 4 errors)"
+  }
+}

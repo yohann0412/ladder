@@ -1,0 +1,18 @@
+{
+  "pair_id": "jendrikseipp__rednotebook__841-842",
+  "status": "located",
+  "commit": "9fb91f57dd5646a7b86553a84cf419d23b15f6c9",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "present": true,
+      "sha256": "1a3d02160e010d995b9ac8aa8648ca7211c0bdd37be417983c168160967980fe"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:56:30.866396Z"
+}

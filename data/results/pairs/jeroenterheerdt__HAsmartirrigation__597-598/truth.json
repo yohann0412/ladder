@@ -1,0 +1,18 @@
+{
+  "pair_id": "jeroenterheerdt__HAsmartirrigation__597-598",
+  "status": "located",
+  "commit": "6fd5c953e86b398a61626989f3d19c063458af85",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "custom_components/smart_irrigation/frontend/dist/smart-irrigation.js",
+      "present": true,
+      "sha256": "164f8967e29b2d56e5ba9a9cafc904e7a0203c5fea6e17311ded948d3d4ef3ae"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:57:49.208700Z"
+}

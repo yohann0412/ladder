@@ -1,0 +1,45 @@
+{
+  "pair_id": "microsoft__react-native-windows__14829-14830",
+  "rung": "mergiraf",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": false,
+  "human_equivalent_unordered": false,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "vnext/Microsoft.ReactNative/Fabric/Composition/ScrollViewComponentView.cpp",
+      "entity": "ScrollViewComponentView.updateSnapPoints",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "vnext/Microsoft.ReactNative/Fabric/Composition/ScrollViewComponentView.cpp",
+      "entity": "ScrollViewComponentView.convertSnapToAlignment",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "vnext/Microsoft.ReactNative/Fabric/Composition/ScrollViewComponentView.cpp",
+      "mode": "ast",
+      "language": "cpp",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": false,
+      "human_equivalent_unordered": false,
+      "similarity": 0.9889
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

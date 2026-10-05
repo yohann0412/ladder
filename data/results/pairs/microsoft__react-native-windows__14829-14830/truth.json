@@ -1,0 +1,24 @@
+{
+  "pair_id": "microsoft__react-native-windows__14829-14830",
+  "status": "located",
+  "commit": "e6607dd59f56b786ca4cf6fab084ba09de93377a",
+  "method": "absorption",
+  "files": [
+    {
+      "path": "vnext/Microsoft.ReactNative/Fabric/Composition/ScrollViewComponentView.cpp",
+      "present": true,
+      "sha256": "6a479ed749ad1caa44cef4b585aea1f79538a2d949fb6b0abd001fed47e3833d"
+    }
+  ],
+  "touched_beyond_conflict": [
+    "change/react-native-windows-ae44eda2-ce08-4405-916b-db6f08ee6786.json",
+    "vnext/Microsoft.ReactNative/CompositionSwitcher.idl",
+    "vnext/Microsoft.ReactNative/Fabric/Composition/CompositionContextHelper.cpp",
+    "vnext/Microsoft.ReactNative/Fabric/Composition/ScrollViewComponentView.h",
+    "yarn.lock"
+  ],
+  "outside_region_edit": [],
+  "rewrite": true,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T13:55:56.373121Z"
+}
