@@ -590,3 +590,16 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   - flow-go and PRQL: stopped while two redo processes ran together, under the second
     amendment.
 - 17:17: Claim C resumed under D25 with three workers. No new wave starts after 19:17.
+- 17:31: HOW_TO_RUN_LOCALLY verified from a fresh clone of the pushed branch (run at nice 19
+  beside the Claim C workers):
+  - `just setup`, `just tools` (weave 0.5.2, mergiraf 0.20.0) and `just check` (ruff,
+    format, pyright): all clean;
+  - `just e2e`: 20 passed in 598 s;
+  - `just fixture`, then `just ladder --fixture --no-llm`: 177 cells checked, 0
+    mismatches, 3 LLM cells skipped.
+
+  Steps 4 (resolver subagents) and 5 (the real experiment) were not rerun from the clone.
+  Their commands and flags were checked to exist with `--help`, and this session ran them.
+- 17:40: Claim C pairs pushed free disk to 5.2 GiB (sentry-javascript 7.3 GB, cal.com
+  3.7 GB). The shared cargo registry, the one cache still outside per-pair scratch, was
+  cleared with no cargo or rustc running (11 GiB free).
