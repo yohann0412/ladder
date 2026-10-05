@@ -1,0 +1,71 @@
+{
+  "pair_id": "gensx-inc__gensx__736-766",
+  "commit": "c56355b45d7156f14a607bf2970a253474a5bdca",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": "vitest",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 4 failed, 11 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--frozen-lockfile"
+      ],
+      "exit_code": 0,
+      "duration_s": 54.7,
+      "detail": "standard, install cap 900 s: install: exit 0 in 36.4 s; suite failed: 80 passed, 4 failed, 11 errors, 1 skipped (packages/create-gensx/tests/index.test.ts, packages/gensx-anthropic/tests/anthropic.test.ts, packages/gensx-claude-md/tests/cli.test.ts::Gensx Claude MD should create the template, packages/gensx-cline-rules/tests/cli.test.ts::Gensx Cline Rules should create the rules, packages/gensx-openai/tests/openai.test.ts); first run failed: 80 passed, 4 failed, 11 errors, 1 skipped (packages/create-gensx/tests/index.test.ts, packages/gensx-anthropic/tests/anthropic.test.ts, packages/gensx-claude-md/tests/cli.test.ts::Gensx Claude MD should create the template, packages/gensx-cline-rules/tests/cli.test.ts::Gensx Cline Rules should create the rules, packages/gensx-cursor-rules/tests/cli.test.ts::Gensx Cursor Rules should create the rules)"
+    },
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--no-frozen-lockfile"
+      ],
+      "exit_code": 0,
+      "duration_s": 32.1,
+      "detail": "unfrozen (pnpm install without --frozen-lockfile), install cap 900 s: install: exit 0 in 15.8 s; suite failed: 80 passed, 4 failed, 11 errors, 1 skipped (packages/create-gensx/tests/index.test.ts, packages/gensx-anthropic/tests/anthropic.test.ts, packages/gensx-claude-md/tests/cli.test.ts::Gensx Claude MD should create the template, packages/gensx-cline-rules/tests/cli.test.ts::Gensx Cline Rules should create the rules, packages/gensx-cursor-rules/tests/cli.test.ts::Gensx Cursor Rules should create the rules); first run failed: 80 passed, 4 failed, 11 errors, 1 skipped (packages/create-gensx/tests/index.test.ts, packages/gensx-anthropic/tests/anthropic.test.ts, packages/gensx-claude-md/tests/cli.test.ts::Gensx Claude MD should create the template, packages/gensx-cline-rules/tests/cli.test.ts::Gensx Cline Rules should create the rules, packages/gensx-cursor-rules/tests/cli.test.ts::Gensx Cursor Rules should create the rules)"
+    }
+  ],
+  "test_count": 96,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/gensx-inc__gensx__736-766/trees/base/node_modules/.bin/vitest",
+      "run",
+      "--coverage.enabled=false",
+      "--reporter=json",
+      "--outputFile=/home/user/ladder/work/runtime/gensx-inc__gensx__736-766/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 80,
+    "failed": 4,
+    "errors": 11,
+    "skipped": 1,
+    "duration_s": 8.2,
+    "retried": true,
+    "failing_tests": [
+      "packages/create-gensx/tests/index.test.ts",
+      "packages/gensx-anthropic/tests/anthropic.test.ts",
+      "packages/gensx-claude-md/tests/cli.test.ts::Gensx Claude MD should create the template",
+      "packages/gensx-cline-rules/tests/cli.test.ts::Gensx Cline Rules should create the rules",
+      "packages/gensx-openai/tests/openai.test.ts",
+      "packages/gensx-cursor-rules/tests/cli.test.ts::Gensx Cursor Rules should create the rules",
+      "packages/gensx-vercel-ai/tests/index.test.ts",
+      "packages/gensx-windsurf-rules/tests/cli.test.ts::Gensx Windsurf Rules should create the rules",
+      "packages/gensx-storage/tests/blob/filesystem.test.ts",
+      "packages/gensx-storage/tests/blob/index.test.ts",
+      "packages/gensx-storage/tests/blob/remote.test.ts",
+      "packages/gensx-storage/tests/database/index.test.ts",
+      "packages/gensx-storage/tests/database/remote.test.ts",
+      "packages/gensx-storage/tests/search/index.test.ts",
+      "packages/gensx-storage/tests/search/remote.test.ts"
+    ],
+    "detail": "80 passed, 4 failed, 11 errors, 1 skipped (packages/create-gensx/tests/index.test.ts, packages/gensx-anthropic/tests/anthropic.test.ts, packages/gensx-claude-md/tests/cli.test.ts::Gensx Claude MD should create the template, packages/gensx-cline-rules/tests/cli.test.ts::Gensx Cline Rules should create the rules, packages/gensx-openai/tests/openai.test.ts); first run failed: 80 passed, 4 failed, 11 errors, 1 skipped (packages/create-gensx/tests/index.test.ts, packages/gensx-anthropic/tests/anthropic.test.ts, packages/gensx-claude-md/tests/cli.test.ts::Gensx Claude MD should create the template, packages/gensx-cline-rules/tests/cli.test.ts::Gensx Cline Rules should create the rules, packages/gensx-cursor-rules/tests/cli.test.ts::Gensx Cursor Rules should create the rules)"
+  },
+  "timeout_s": 600
+}

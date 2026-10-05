@@ -1,0 +1,15 @@
+{
+  "pair_id": "nodetool-ai__nodetool__86-157",
+  "commit": "b173b231241eafb85b97a791826d033890ac0c56",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
