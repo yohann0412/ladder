@@ -364,3 +364,16 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
 - **Wasted rebuilds.** Pruning a pair that was already pruned rebuilds its workspace first
   and then deletes it again. This happened for about 20 wave-8 pairs. It costs time only,
   because records are never rewritten when they exist.
+
+## 19. Preparation overlapped running resolvers once
+
+- The background step that waits for resolvers, then collects and prepares, decided whether
+  a resolver had handed back by searching its transcript for the bare tool name. That name
+  probably also appears in the tool list every transcript records, so every running resolver
+  looked finished. Collection was not fooled: it uses the stricter pattern and transcripts
+  older than two minutes, so it finalized only the two runs that had really finished. But
+  preparation then ran while six resolvers were still working. That breaks the D21 rule.
+- Effect: two pairs (WorkflowAI__WorkflowAI__371-449, nodetool-ai__nodetool__86-157) were
+  prepared while those resolvers ran. Free disk stayed above 9.6 GiB. No resolver write
+  failed, and every transcript of that batch parses. No record is affected.
+- Fix: the wait step now uses the same strict hand-back pattern as collection.
