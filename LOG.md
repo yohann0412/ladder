@@ -583,3 +583,10 @@ both intents but is not the human's text. The trap scores tests-pass and intent-
   at the floor. Its runtime reached 14 GB, plus 2.7 GB of rung copies, on a disk with
   about 22 GiB free when the pair started. Like bruin, its suite needs more disk than this
   machine has. The records stay (D23).
+- 17:16: the D23 redo is done. All 20 pairs were run again once. Five still carry 11
+  floor-stopped records, and those stay (D23):
+  - goose and both bruin pairs: their suites need more disk than this machine has, even
+    alone;
+  - flow-go and PRQL: stopped while two redo processes ran together, under the second
+    amendment.
+- 17:17: Claim C resumed under D25 with three workers. No new wave starts after 19:17.

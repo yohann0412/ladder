@@ -1,0 +1,15 @@
+{
+  "pair_id": "wvlet__wvlet__967-980",
+  "commit": "2717c78a23fb58fb7e0720ed5bf957deb721d4e7",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
