@@ -1,0 +1,15 @@
+{
+  "pair_id": "maplibre__maputnik__1258-1259",
+  "commit": "e58b92b0cd1e2bc798fd1268936ddc225a648457",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

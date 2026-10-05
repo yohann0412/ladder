@@ -1,0 +1,55 @@
+{
+  "pair_id": "Apollon77__ioBroker.alexa2__1234-1236",
+  "commit": "bd1504b0756f5c075cdf2cd541e66e3c5d972aff",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": "mocha",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 1 failed, 0 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "npm",
+        "ci"
+      ],
+      "exit_code": 0,
+      "duration_s": 11.9,
+      "detail": "standard, install cap 900 s: install: exit 0 in 7.9 s; suite failed: 1 passed, 1 failed, 0 errors, 0 skipped (test/testAdapter.js::Test base adapter \"before all\" hook: Test base adapter: Start js-controller for \"Test base adapter: Check if adapter started\"); first run failed: 1 passed, 1 failed, 0 errors, 0 skipped (test/testAdapter.js::Test base adapter \"before all\" hook: Test base adapter: Start js-controller for \"Test base adapter: Check if adapter started\")"
+    },
+    {
+      "command": [
+        "npm",
+        "install",
+        "--legacy-peer-deps"
+      ],
+      "exit_code": 0,
+      "duration_s": 11.1,
+      "detail": "legacy-peer-deps (npm install --legacy-peer-deps instead of a clean install), install cap 900 s: install: exit 0 in 7.5 s; suite failed: 1 passed, 1 failed, 0 errors, 0 skipped (test/testAdapter.js::Test base adapter \"before all\" hook: Test base adapter: Start js-controller for \"Test base adapter: Check if adapter started\"); first run failed: 1 passed, 1 failed, 0 errors, 0 skipped (test/testAdapter.js::Test base adapter \"before all\" hook: Test base adapter: Start js-controller for \"Test base adapter: Check if adapter started\")"
+    }
+  ],
+  "test_count": 2,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/Apollon77__ioBroker.alexa2__1234-1236/trees/base/node_modules/.bin/mocha",
+      "--exit",
+      "--reporter",
+      "json",
+      "--reporter-option",
+      "output=/home/user/ladder/work/runtime/Apollon77__ioBroker.alexa2__1234-1236/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 1,
+    "failed": 1,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 1.8,
+    "retried": true,
+    "failing_tests": [
+      "test/testAdapter.js::Test base adapter \"before all\" hook: Test base adapter: Start js-controller for \"Test base adapter: Check if adapter started\""
+    ],
+    "detail": "1 passed, 1 failed, 0 errors, 0 skipped (test/testAdapter.js::Test base adapter \"before all\" hook: Test base adapter: Start js-controller for \"Test base adapter: Check if adapter started\"); first run failed: 1 passed, 1 failed, 0 errors, 0 skipped (test/testAdapter.js::Test base adapter \"before all\" hook: Test base adapter: Start js-controller for \"Test base adapter: Check if adapter started\")"
+  },
+  "timeout_s": 600
+}

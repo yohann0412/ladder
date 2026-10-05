@@ -1,0 +1,15 @@
+{
+  "pair_id": "imgntn__j360__23-24",
+  "commit": "cc04de4b79904d3f02dc21235bd034dda31009a4",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no jest, vitest or mocha test runner in package.json",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

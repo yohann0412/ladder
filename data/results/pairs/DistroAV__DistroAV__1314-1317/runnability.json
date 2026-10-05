@@ -1,0 +1,15 @@
+{
+  "pair_id": "DistroAV__DistroAV__1314-1317",
+  "commit": "a600e6ae9450d9ee0320f8e920d4342c2743ec32",
+  "language": "cpp",
+  "package_manager": "cmake",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "cpp project; no adapter for cpp (cmake is installed)",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

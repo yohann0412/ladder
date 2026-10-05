@@ -1,0 +1,18 @@
+{
+  "pair_id": "Apollon77__ioBroker.alexa2__1234-1236",
+  "status": "located",
+  "commit": "de987a52f42ed415393152e08c8560b4d9b1ab87",
+  "method": "absorption",
+  "files": [
+    {
+      "path": ".gitignore",
+      "present": true,
+      "sha256": "66a04e97a6314ce75f51b5d7890c3ec66a01b5fabd8ccbce9d00b9703c548c43"
+    }
+  ],
+  "touched_beyond_conflict": [],
+  "outside_region_edit": [],
+  "rewrite": false,
+  "leak_head_equals_truth": false,
+  "extracted_at": "2026-10-05T12:08:07.172984Z"
+}

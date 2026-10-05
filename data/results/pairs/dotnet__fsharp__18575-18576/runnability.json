@@ -1,0 +1,15 @@
+{
+  "pair_id": "dotnet__fsharp__18575-18576",
+  "commit": "087ffa2d42579baec3b6adcd9b8f568c7dd14ccb",
+  "language": "csharp",
+  "package_manager": "dotnet",
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "missing_toolchain",
+  "reason_detail": "csharp project; dotnet is not installed",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
