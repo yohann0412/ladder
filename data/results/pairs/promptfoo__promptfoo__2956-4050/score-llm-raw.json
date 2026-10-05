@@ -1,0 +1,17 @@
+{
+  "pair_id": "promptfoo__promptfoo__2956-4050",
+  "rung": "llm-raw",
+  "run": 1,
+  "available": false,
+  "unavailable_reason": "input_cap: input cap: package-lock.json version base has 1490396 bytes, more than 200000; input cap: package-lock.json version a has 1490761 bytes, more than 200000; input cap: package-lock.json version b has 1585520 bytes, more than 200000; input cap: package-lock.json version conflicted has 1586154 bytes, more than 200000; input cap: 6248987 bytes in all versions, more than 600000",
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": null,
+  "intent_preserved_b": null,
+  "intent_drops": [],
+  "files": [],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}

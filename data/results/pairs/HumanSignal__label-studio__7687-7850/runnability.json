@@ -1,0 +1,42 @@
+{
+  "pair_id": "HumanSignal__label-studio__7687-7850",
+  "commit": "1e8224dfa263ded33fc872729a3e60b7e7c1518a",
+  "language": "python",
+  "package_manager": "poetry",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 1 in 0.4 s:   × Failed to download and build `label-studio-sdk @ |   │ https://github.com/HumanSignal/label-studio-sdk/archive/cd498d532c988562ddfa6a7a8dd34cf6fbafe326.zip` |   ├─▶ Failed to fetch: |   │   `https://github.com/HumanSignal/label-studio-sdk/archive/cd498d532c988562ddfa6a7a8dd34cf6fbafe326.zip` |   ╰─▶ HTTP status client error (403 Forbidden) for url |       (https://github.com/HumanSignal/label-studio-sdk/archive/cd498d532c988562ddfa6a7a8dd34cf6fbafe326.zip)",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "poetry",
+        "install",
+        "--no-interaction",
+        "--with",
+        "test"
+      ],
+      "exit_code": 1,
+      "duration_s": 249.1,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.0 s; install: exit 1 in 249.0 s; output tail:   - Installing pytest-xdist (3.6.1) |   - Installing python-json-logger (2.0.4) |   - Installing rules (3.4) |   - Installing sentry-sdk (2.16.0) |   - Installing tavern (2.3.0) |   - Installing tldextract (5.1.3) |   - Installing twine (6.1.0) |   - Installing wheel (0.40.0)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/HumanSignal__label-studio__7687-7850/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/HumanSignal__label-studio__7687-7850/trees/base",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 0.4,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 1 in 0.4 s; output tail: Using Python 3.13.1 environment at: /home/user/ladder/work/runtime/HumanSignal__label-studio__7687-7850/envs/base |   × Failed to download and build `label-studio-sdk @ |   │ https://github.com/HumanSignal/label-studio-sdk/archive/cd498d532c988562ddfa6a7a8dd34cf6fbafe326.zip` |   ├─▶ Failed to fetch: |   │   `https://github.com/HumanSignal/label-studio-sdk/archive/cd498d532c988562ddfa6a7a8dd34cf6fbafe326.zip` |   ╰─▶ HTTP status client error (403 Forbidden) for url |       (https://github.com/HumanSignal/label-studio-sdk/archive/cd498d532c988562ddfa6a7a8dd34cf6fbafe326.zip)"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

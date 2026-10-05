@@ -1,0 +1,57 @@
+{
+  "pair_id": "promptfoo__promptfoo__2956-4050",
+  "commit": "394abb06ec9006b6a2385e8ef065caeaa28374e1",
+  "language": "node",
+  "package_manager": "npm",
+  "test_runner": "jest",
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "suite fails at base: 4 failed, 0 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "npm",
+        "ci"
+      ],
+      "exit_code": 0,
+      "duration_s": 134.4,
+      "detail": "standard, install cap 900 s: install: exit 0 in 65.8 s; suite failed: 2467 passed, 4 failed, 0 errors, 0 skipped (test/providers/bedrock.test.ts::AwsBedrockGenericProvider should create Bedrock instance without proxy settings, test/providers/bedrock.test.ts::AwsBedrockGenericProvider should create Bedrock instance with credentials, test/providers/bedrock.test.ts::AwsBedrockGenericProvider should not include credentials if not provided, test/providers/bedrock.test.ts::AwsBedrockGenericProvider should respect AWS_BEDROCK_MAX_RETRIES environment variable); first run failed: 2467 passed, 4 failed, 0 errors, 0 skipped (test/providers/bedrock.test.ts::AwsBedrockGenericProvider should create Bedrock instance without proxy settings, test/providers/bedrock.test.ts::AwsBedrockGenericProvider should create Bedrock instance with credentials, test/providers/bedrock.test.ts::AwsBedrockGenericProvider should not include credentials if not provided, test/providers/bedrock.test.ts::AwsBedrockGenericProvider should respect AWS_BEDROCK_MAX_RETRIES environment variable)"
+    },
+    {
+      "command": [
+        "npm",
+        "install",
+        "--legacy-peer-deps"
+      ],
+      "exit_code": 0,
+      "duration_s": 95.7,
+      "detail": "legacy-peer-deps (npm install --legacy-peer-deps instead of a clean install), install cap 900 s: install: exit 0 in 55.2 s; suite failed: 2351 passed, 30 failed, 3 errors, 0 skipped (test/assertions/sql.test.ts::is-sql assertion Basic tests should pass when the output string is a valid SQL statement, test/assertions/sql.test.ts::is-sql assertion Basic tests should fail when the SQL statement contains a syntax error in the ORDER BY clause, test/assertions/sql.test.ts::is-sql assertion Basic tests should fail when the SQL statement uses a reserved keyword as a table name, test/assertions/sql.test.ts::is-sql assertion Basic tests should fail when the SQL statement has an incorrect DELETE syntax, test/assertions/sql.test.ts::is-sql assertion Database Specific Syntax Tests should fail if the output SQL statement conforms to MySQL but not PostgreSQL); first run failed: 2351 passed, 30 failed, 3 errors, 0 skipped (test/providers/bedrock.test.ts, test/assertions/index.test.ts::runAssertion SQL assertions should pass when the is-sql assertion passes, test/assertions/index.test.ts::runAssertion SQL assertions should fail when the is-sql assertion fails, test/assertions/index.test.ts::runAssertion SQL assertions should pass when the not-is-sql assertion passes, test/assertions/index.test.ts::runAssertion SQL assertions should fail when the not-is-sql assertion fails)"
+    }
+  ],
+  "test_count": 2471,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/promptfoo__promptfoo__2956-4050/trees/base/node_modules/.bin/jest",
+      "--ci",
+      "--coverage=false",
+      "--json",
+      "--outputFile=/home/user/ladder/work/runtime/promptfoo__promptfoo__2956-4050/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 2467,
+    "failed": 4,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 30.2,
+    "retried": true,
+    "failing_tests": [
+      "test/providers/bedrock.test.ts::AwsBedrockGenericProvider should create Bedrock instance without proxy settings",
+      "test/providers/bedrock.test.ts::AwsBedrockGenericProvider should create Bedrock instance with credentials",
+      "test/providers/bedrock.test.ts::AwsBedrockGenericProvider should not include credentials if not provided",
+      "test/providers/bedrock.test.ts::AwsBedrockGenericProvider should respect AWS_BEDROCK_MAX_RETRIES environment variable"
+    ],
+    "detail": "2467 passed, 4 failed, 0 errors, 0 skipped (test/providers/bedrock.test.ts::AwsBedrockGenericProvider should create Bedrock instance without proxy settings, test/providers/bedrock.test.ts::AwsBedrockGenericProvider should create Bedrock instance with credentials, test/providers/bedrock.test.ts::AwsBedrockGenericProvider should not include credentials if not provided, test/providers/bedrock.test.ts::AwsBedrockGenericProvider should respect AWS_BEDROCK_MAX_RETRIES environment variable); first run failed: 2467 passed, 4 failed, 0 errors, 0 skipped (test/providers/bedrock.test.ts::AwsBedrockGenericProvider should create Bedrock instance without proxy settings, test/providers/bedrock.test.ts::AwsBedrockGenericProvider should create Bedrock instance with credentials, test/providers/bedrock.test.ts::AwsBedrockGenericProvider should not include credentials if not provided, test/providers/bedrock.test.ts::AwsBedrockGenericProvider should respect AWS_BEDROCK_MAX_RETRIES environment variable)"
+  },
+  "timeout_s": 600
+}
