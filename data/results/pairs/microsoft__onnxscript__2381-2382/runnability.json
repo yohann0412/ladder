@@ -1,0 +1,76 @@
+{
+  "pair_id": "microsoft__onnxscript__2381-2382",
+  "commit": "b76e1b324bf3ce955cf7823a3b680ed4831a3209",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "suite does not load at base: 6 errors",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/microsoft__onnxscript__2381-2382/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/microsoft__onnxscript__2381-2382/trees/base",
+        "-r",
+        "requirements-dev.txt",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 204.9,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 0 in 161.8 s; suite failed: 0 passed, 0 failed, 6 errors, 0 skipped (onnxscript/backend/onnx_export_test.py::onnxscript.backend.onnx_export_test, onnxscript/tools/transformers_models/llama_test.py::onnxscript.tools.transformers_models.llama_test, onnxscript/tools/transformers_models/mistral_test.py::onnxscript.tools.transformers_models.mistral_test, onnxscript/tools/transformers_models/phi3_test.py::onnxscript.tools.transformers_models.phi3_test, onnxscript/tools/transformers_models/phi_test.py::onnxscript.tools.transformers_models.phi_test); first run failed: 0 passed, 0 failed, 6 errors, 0 skipped (onnxscript/backend/onnx_export_test.py::onnxscript.backend.onnx_export_test, onnxscript/tools/transformers_models/llama_test.py::onnxscript.tools.transformers_models.llama_test, onnxscript/tools/transformers_models/mistral_test.py::onnxscript.tools.transformers_models.mistral_test, onnxscript/tools/transformers_models/phi3_test.py::onnxscript.tools.transformers_models.phi3_test, onnxscript/tools/transformers_models/phi_test.py::onnxscript.tools.transformers_models.phi_test)"
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/microsoft__onnxscript__2381-2382/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/microsoft__onnxscript__2381-2382/trees/base",
+        "-r",
+        "requirements-dev.txt",
+        "pytest"
+      ],
+      "exit_code": 0,
+      "duration_s": 43.5,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 0 in 2.0 s; suite failed: 0 passed, 0 failed, 6 errors, 0 skipped (onnxscript/backend/onnx_export_test.py::onnxscript.backend.onnx_export_test, onnxscript/tools/transformers_models/llama_test.py::onnxscript.tools.transformers_models.llama_test, onnxscript/tools/transformers_models/mistral_test.py::onnxscript.tools.transformers_models.mistral_test, onnxscript/tools/transformers_models/phi3_test.py::onnxscript.tools.transformers_models.phi3_test, onnxscript/tools/transformers_models/phi_test.py::onnxscript.tools.transformers_models.phi_test); first run failed: 0 passed, 0 failed, 6 errors, 0 skipped (onnxscript/backend/onnx_export_test.py::onnxscript.backend.onnx_export_test, onnxscript/tools/transformers_models/llama_test.py::onnxscript.tools.transformers_models.llama_test, onnxscript/tools/transformers_models/mistral_test.py::onnxscript.tools.transformers_models.mistral_test, onnxscript/tools/transformers_models/phi3_test.py::onnxscript.tools.transformers_models.phi3_test, onnxscript/tools/transformers_models/phi_test.py::onnxscript.tools.transformers_models.phi_test)"
+    }
+  ],
+  "test_count": 6,
+  "base_outcome": {
+    "status": "failed",
+    "command": [
+      "/home/user/ladder/work/runtime/microsoft__onnxscript__2381-2382/envs/base/bin/python",
+      "-m",
+      "pytest",
+      "-p",
+      "no:cacheprovider",
+      "-o",
+      "junit_family=xunit1",
+      "--junitxml=/home/user/ladder/work/runtime/microsoft__onnxscript__2381-2382/reports/base-attempt-1/run-2.report"
+    ],
+    "passed": 0,
+    "failed": 0,
+    "errors": 6,
+    "skipped": 0,
+    "duration_s": 21.4,
+    "retried": true,
+    "failing_tests": [
+      "onnxscript/backend/onnx_export_test.py::onnxscript.backend.onnx_export_test",
+      "onnxscript/tools/transformers_models/llama_test.py::onnxscript.tools.transformers_models.llama_test",
+      "onnxscript/tools/transformers_models/mistral_test.py::onnxscript.tools.transformers_models.mistral_test",
+      "onnxscript/tools/transformers_models/phi3_test.py::onnxscript.tools.transformers_models.phi3_test",
+      "onnxscript/tools/transformers_models/phi_test.py::onnxscript.tools.transformers_models.phi_test",
+      "tools/ir/model_zoo_test/model_zoo_test.py::tools.ir.model_zoo_test.model_zoo_test"
+    ],
+    "detail": "0 passed, 0 failed, 6 errors, 0 skipped (onnxscript/backend/onnx_export_test.py::onnxscript.backend.onnx_export_test, onnxscript/tools/transformers_models/llama_test.py::onnxscript.tools.transformers_models.llama_test, onnxscript/tools/transformers_models/mistral_test.py::onnxscript.tools.transformers_models.mistral_test, onnxscript/tools/transformers_models/phi3_test.py::onnxscript.tools.transformers_models.phi3_test, onnxscript/tools/transformers_models/phi_test.py::onnxscript.tools.transformers_models.phi_test); first run failed: 0 passed, 0 failed, 6 errors, 0 skipped (onnxscript/backend/onnx_export_test.py::onnxscript.backend.onnx_export_test, onnxscript/tools/transformers_models/llama_test.py::onnxscript.tools.transformers_models.llama_test, onnxscript/tools/transformers_models/mistral_test.py::onnxscript.tools.transformers_models.mistral_test, onnxscript/tools/transformers_models/phi3_test.py::onnxscript.tools.transformers_models.phi3_test, onnxscript/tools/transformers_models/phi_test.py::onnxscript.tools.transformers_models.phi_test)"
+  },
+  "timeout_s": 600
+}
