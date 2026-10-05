@@ -1,0 +1,38 @@
+{
+  "pair_id": "ensdomains__ens-app-v3__935-939",
+  "commit": "7a555834401ac96cc1436b75de4afcf3b1e771a1",
+  "language": "node",
+  "package_manager": "pnpm",
+  "test_runner": "vitest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 1 in 1.4 s: Lockfile is up to date, resolution step is skipped | Progress: resolved 1, reused 0, downloaded 0, added 0 | Packages: +2220 | ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ |  ERR_PNPM_FETCH_404  GET https://registry.npmjs.org/@ensdomains/buffer/-/buffer-0.1.1.tgz: Not Found - 404 | No authorization header was set for the request.",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--frozen-lockfile"
+      ],
+      "exit_code": 1,
+      "duration_s": 2.6,
+      "detail": "standard, install cap 900 s: install: exit 1 in 2.6 s; output tail: Lockfile is up to date, resolution step is skipped | Progress: resolved 1, reused 0, downloaded 0, added 0 | Packages: +2220 | ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ |  ERR_PNPM_FETCH_404  GET https://registry.npmjs.org/@ensdomains/buffer/-/buffer-0.1.1.tgz: Not Found - 404 | No authorization header was set for the request."
+    },
+    {
+      "command": [
+        "corepack",
+        "pnpm",
+        "install",
+        "--no-frozen-lockfile"
+      ],
+      "exit_code": 1,
+      "duration_s": 1.4,
+      "detail": "unfrozen (pnpm install without --frozen-lockfile), install cap 900 s: install: exit 1 in 1.4 s; output tail: Lockfile is up to date, resolution step is skipped | Progress: resolved 1, reused 0, downloaded 0, added 0 | Packages: +2220 | ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ |  ERR_PNPM_FETCH_404  GET https://registry.npmjs.org/@ensdomains/buffer/-/buffer-0.1.1.tgz: Not Found - 404 | No authorization header was set for the request."
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

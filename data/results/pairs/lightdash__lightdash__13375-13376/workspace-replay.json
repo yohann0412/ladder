@@ -1,0 +1,23 @@
+{
+  "pair_id": "lightdash__lightdash__13375-13376",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/lightdash__lightdash__13375-13376",
+  "source_base": "2f8163f85b5d32491106b7baddccac0925d1c129",
+  "source_a": "66cdf495a7f78f957ec3e7f67cc9bba9835bf4f9",
+  "source_b": "ef2ab27315a15e27a87f27ead2546ca51f067d91",
+  "base_commit": "291b7d26c794a3c46c8066170060f8b7f2eb03cc",
+  "a_commit": "9a776cb7b1a1522ad6d47f5bf23352cc21dfc28c",
+  "b_commit": "fc0dac81bafbe008539b0a5060c1f613df2a124f",
+  "object_count": 2794,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

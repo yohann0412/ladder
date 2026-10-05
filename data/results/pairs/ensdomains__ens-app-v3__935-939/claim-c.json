@@ -1,0 +1,47 @@
+{
+  "pair_id": "ensdomains__ens-app-v3__935-939",
+  "a": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "b": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "merge": {
+    "status": "not_run",
+    "command": [],
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_s": 0.0,
+    "retried": false,
+    "failing_tests": [],
+    "detail": "repository unrunnable at base: build_fails"
+  },
+  "fails_together": null,
+  "excluded_reason": "unrunnable: build_fails (install: exit 1 in 1.4 s: Lockfile is up to date, resolution step is skipped | Progress: resolved 1, reused 0, downloaded 0, added 0 | Packages: +2220 | ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ |  ERR_PNPM_FETCH_404  GET https://registry.npmjs.org/@ensdomains/buffer/-/buffer-0.1.1.tgz: Not Found - 404 | No authorization header was set for the request.)",
+  "files_a": [
+    ".github/workflows/test.yaml"
+  ],
+  "files_b": [
+    "src/components/@atoms/TextWithTooltip/TextWithTooltip.test.tsx"
+  ]
+}
