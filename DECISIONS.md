@@ -336,3 +336,24 @@ Newest at the bottom.
   the merge. As D23 says, that record stays, so PRQL remains excluded for the disk-floor
   cause. That second stop came partly from the concurrency this amendment allowed. From
   14:58 the remaining eight "rest" pairs run alone, after the Go process has finished.
+
+## D25. Claim C time budget (before any Claim C result after wave c02)
+
+- Problem: by 15:00, Claim C had attempted 26 pairs of 918 and decided none. Only about
+  one repository in twenty has a suite this harness can run green at base. At one to two
+  minutes per pair, the full order would take more than a day on this machine, and
+  Claim C is first in the cut order (PLAN section 6).
+- Choice:
+  - Once the D23 redo has finished, Claim C waves resume from c02 in D19 order with three
+    workers. Each worker takes the next wave in order and always finishes the wave it has
+    started, so the completed waves form a prefix of the order.
+  - No worker starts a new wave more than two hours after the resumption. When the last
+    started wave is done, Claim C stops. The cut is the last wave of that prefix, and the
+    reason is the time budget (a resource reason, as D19 requires).
+  - Each pair still waits for 8 GiB free before it starts.
+  - The cut index and the time go into LOG.md. Every later pair is reported as
+    `not attempted: cut`.
+- Reason: the budget is fixed before any further outcome exists, and the order was fixed
+  before any Claim C result, so the attempted pairs remain a seeded random sample of the
+  pool. A decided count this small means the rate cannot be compared with the human base
+  rate, and the report must say so.
