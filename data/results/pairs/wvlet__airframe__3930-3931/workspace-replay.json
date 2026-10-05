@@ -1,0 +1,23 @@
+{
+  "pair_id": "wvlet__airframe__3930-3931",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/wvlet__airframe__3930-3931",
+  "source_base": "ab3f07e514a1c8efb16b4190a4b41c07360072a3",
+  "source_a": "698f643d2e5cae2770447e0ff97470dc47c07a0c",
+  "source_b": "b37b1fc9b60113ff1f96997bd8d63ee5201dcdc8",
+  "base_commit": "0f902f8236d9e4e45a837cfca207f215e26f5c57",
+  "a_commit": "fdadcf79524acef349a6a1df931028de71520e29",
+  "b_commit": "28a5f336038c3072fae9c0e6c0a241db4699905c",
+  "object_count": 2615,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

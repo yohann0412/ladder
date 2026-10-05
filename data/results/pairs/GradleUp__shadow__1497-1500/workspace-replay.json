@@ -1,0 +1,23 @@
+{
+  "pair_id": "GradleUp__shadow__1497-1500",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/GradleUp__shadow__1497-1500",
+  "source_base": "81cd0b72132ec5307ddf71d440a7f3846d74e917",
+  "source_a": "6d993b56af8894c34d85d4f43221f91b988099ea",
+  "source_b": "2bd3084320400280418d455cedd44cc07d66a471",
+  "base_commit": "831dd19eb458305228e4bcf7abb84f86a03c14d5",
+  "a_commit": "6be2bf8705c0221b9687f8a8a7b021a7393afb13",
+  "b_commit": "ac2b8a91738631906b14708ab5427d6b82227b91",
+  "object_count": 292,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

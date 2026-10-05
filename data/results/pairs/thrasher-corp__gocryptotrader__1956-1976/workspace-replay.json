@@ -1,0 +1,23 @@
+{
+  "pair_id": "thrasher-corp__gocryptotrader__1956-1976",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/thrasher-corp__gocryptotrader__1956-1976",
+  "source_base": "2a9b84931cca7bcc2f2961e442b75ad2edea83ff",
+  "source_a": "da283111271b2df6f364bccc629edcf56439e460",
+  "source_b": "b2958f6ff16332b9665cc1c18917d8153208cede",
+  "base_commit": "c19087ec23e0014038bd8f6672e7003a13ebf154",
+  "a_commit": "2286d6b9e417f8b7de693dce69819c5327bbd264",
+  "b_commit": "0cf037bbc84afc96f44f8feed4ed86b92d92acb3",
+  "object_count": 1846,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

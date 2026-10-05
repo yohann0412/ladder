@@ -1,0 +1,23 @@
+{
+  "pair_id": "mlflow__mlflow__16057-16442",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in tests/entities/test_assessment.py"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "tests/entities/test_assessment.py",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

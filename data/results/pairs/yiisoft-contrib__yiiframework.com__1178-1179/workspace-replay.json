@@ -1,0 +1,23 @@
+{
+  "pair_id": "yiisoft-contrib__yiiframework.com__1178-1179",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/yiisoft-contrib__yiiframework.com__1178-1179",
+  "source_base": "4ef14a1ca1acf1ec8c1866f5453f0f71f54031a8",
+  "source_a": "b42309aa2c02d31e6dcf900eb2360e38fc72e387",
+  "source_b": "8086a1b6b590121dc8dffad0e35b9132194eea36",
+  "base_commit": "e8bf0769994a906eb043ed68c8d4fe80777076f5",
+  "a_commit": "27776b49650c1080f81082c0863ff88d95172b7d",
+  "b_commit": "77391d04435fd4b2dace0dfcab2bc2c6f402c6d9",
+  "object_count": 1083,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

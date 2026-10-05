@@ -1,0 +1,23 @@
+{
+  "pair_id": "CitizensFoundation__your-priorities-app__173-174",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/CitizensFoundation__your-priorities-app__173-174",
+  "source_base": "868977630fae6579668f61ae7e556bd850fac5f5",
+  "source_a": "b83d0dc2b97d2d3fa0d79275f2fd97eeb36f93a6",
+  "source_b": "a4ba33ad68be9a060c798c86a13ab89184b15c4c",
+  "base_commit": "ba990923ab7207c453cbdf02c7a14f7989fae0be",
+  "a_commit": "89da41f65056ca56cdbe43b7e239b50ac477a6ce",
+  "b_commit": "fa5465d9f466b6cc24335d49041765af66107378",
+  "object_count": 10457,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

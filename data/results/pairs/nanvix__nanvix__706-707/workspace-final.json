@@ -1,0 +1,23 @@
+{
+  "pair_id": "nanvix__nanvix__706-707",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/nanvix__nanvix__706-707",
+  "source_base": "c786322e2140f5884299c370323ff671b5c8c052",
+  "source_a": "c786322e2140f5884299c370323ff671b5c8c052",
+  "source_b": "1c51fe9572aa349ed558ac53ffcfb1d885d2c3da",
+  "base_commit": "17f6fc6bc2df6c7f3169af0234993a3308ac19a1",
+  "a_commit": "037d47511fe49a90442438a0374f735571245049",
+  "b_commit": "f81d9de910684c54f6bf0b0f3448c7fb35b9f7af",
+  "object_count": 1333,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

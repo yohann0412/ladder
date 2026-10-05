@@ -1,0 +1,43 @@
+{
+  "pair_id": "Rello__audioplayer__616-617",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 3, conflicted files: 3",
+  "messages": [
+    "CONFLICT (content): Merge conflict in CHANGELOG.md",
+    "CONFLICT (content): Merge conflict in lib/Controller/MusicController.php",
+    "CONFLICT (add/add): Merge conflict in lib/Service/MusicService.php"
+  ],
+  "types": [
+    "content",
+    "content",
+    "add/add"
+  ],
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "docs_text"
+    },
+    {
+      "path": "lib/Controller/MusicController.php",
+      "types": [
+        "content"
+      ],
+      "regions": 4,
+      "category": "source"
+    },
+    {
+      "path": "lib/Service/MusicService.php",
+      "types": [
+        "add/add"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

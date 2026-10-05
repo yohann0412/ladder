@@ -1,0 +1,23 @@
+{
+  "pair_id": "pixijs__pixijs__11429-11430",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/pixijs__pixijs__11429-11430",
+  "source_base": "34926f0eba23a67af1bb66099d61291f4a094eb7",
+  "source_a": "8d9417e19a4c28775b839e41b66d06d7766ec544",
+  "source_b": "28bdc4815356dc26a7a11ef9a6810617298e80d4",
+  "base_commit": "eadc4c76f8422703e09d3253d853d4506a70531d",
+  "a_commit": "8d48db6f09640c7b862e7a9b4aa52a1ec66ccd84",
+  "b_commit": "c1ac74e05ff1db3fd0106dc3f647cefa8793e19a",
+  "object_count": 1714,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

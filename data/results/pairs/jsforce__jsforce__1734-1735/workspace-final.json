@@ -1,0 +1,23 @@
+{
+  "pair_id": "jsforce__jsforce__1734-1735",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/jsforce__jsforce__1734-1735",
+  "source_base": "9dcb2548b2f7c21c19f2108513eab638e1f8df50",
+  "source_a": "683e15500d91e0be38f78e814735211cbcca96ae",
+  "source_b": "ce216fe023682bccca9e7e34ff2167b51d232d96",
+  "base_commit": "e97d76f6a5785b8a5767523836e5480397e7f948",
+  "a_commit": "9610c57846b3e9cb833ea5cdebe86f15eca048ed",
+  "b_commit": "9ec2d75e2dbd9c5dc409ffb9e517a9a4722b7df8",
+  "object_count": 256,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

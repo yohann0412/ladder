@@ -1,0 +1,23 @@
+{
+  "pair_id": "FastLED__FastLED__1956-1957",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/FastLED__FastLED__1956-1957",
+  "source_base": "f6b3e2be33c5671c8be09e168690e78de8f450dd",
+  "source_a": "02f549678c792f9b596c51fd4c4b0e315752b771",
+  "source_b": "d756809ca67f4f237b893cfb493daa6030d4759b",
+  "base_commit": "2eb534cdbafd2f7abe36059624195db2ade83ffe",
+  "a_commit": "ab63b916c4b22e0b62a18064ca30fef049a5cd68",
+  "b_commit": "4af3c52b17c8d193cbb9ec3842572a30b578677f",
+  "object_count": 1162,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

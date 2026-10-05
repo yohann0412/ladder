@@ -1,0 +1,23 @@
+{
+  "pair_id": "EduMIPS64__edumips64__1360-1361",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/EduMIPS64__edumips64__1360-1361",
+  "source_base": "8f5ef2b40abf5f876fcd9e3989cca0222c3efa79",
+  "source_a": "396002c43056b5e505cfd7fe3e6ddc831cc06473",
+  "source_b": "e83ad200baf154f450e32bc8c7a02cf30f19d1ef",
+  "base_commit": "c277f14e5fc42b77ce1a1eb148912974b84a5b42",
+  "a_commit": "70ae3a9ba029901244d0d19a377fe565389fe2ae",
+  "b_commit": "ac44caeefc756ef991741ccde97b57de67060041",
+  "object_count": 651,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

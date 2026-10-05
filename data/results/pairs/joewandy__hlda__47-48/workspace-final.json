@@ -1,0 +1,23 @@
+{
+  "pair_id": "joewandy__hlda__47-48",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/joewandy__hlda__47-48",
+  "source_base": "e5c42410b6c85a724a7063ea07307f3017db0a2a",
+  "source_a": "3836770529218ac189999841310ff3b799bcbb5f",
+  "source_b": "41214316af2f00186de01c4de9241d2c886132aa",
+  "base_commit": "b5220ccf1269c1ef239a9c96e2f224286e51c944",
+  "a_commit": "0fa50341d74356c0b8173468dd82505845545114",
+  "b_commit": "305aa10562683041ecf6f582766fa8ec10815652",
+  "object_count": 387,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

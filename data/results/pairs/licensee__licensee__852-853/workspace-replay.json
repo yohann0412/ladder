@@ -1,0 +1,23 @@
+{
+  "pair_id": "licensee__licensee__852-853",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/licensee__licensee__852-853",
+  "source_base": "d3ad3a42c704b3b0df70e9431a33655699830fbb",
+  "source_a": "923edb3aadcf8d933a6dbd6c556f846f08e9fd9c",
+  "source_b": "4677abe19f31e66dbac42f4a45a8b17a0c21a724",
+  "base_commit": "7f6781396528a43861f960ffb6c5318bfd826df3",
+  "a_commit": "fdad94bb4cdb4fd87afe922867330bc2861704e7",
+  "b_commit": "e0b1ed3c099065fc36c1602a95602d5bb19e3846",
+  "object_count": 378,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "OpenHFT__Java-Thread-Affinity__138-139",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/OpenHFT__Java-Thread-Affinity__138-139",
+  "source_base": "72d5a15c8fffa6ed25b2f740a72866a290625dc1",
+  "source_a": "58469c16615930f2787897926cee05d2bb6afcce",
+  "source_b": "a37013c80e80b4da7ae67f9f6212feb6b5eb129a",
+  "base_commit": "52edcb8b90fb4c41d56546fa2de14377abb4d878",
+  "a_commit": "a7ebe5906eabc8e3b92d90a8ea5639be428516fd",
+  "b_commit": "dfa7794bddc8fcd6a0dcbbb71ce8a2872e7833dc",
+  "object_count": 132,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

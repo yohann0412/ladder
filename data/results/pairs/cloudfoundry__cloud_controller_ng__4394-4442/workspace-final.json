@@ -1,0 +1,23 @@
+{
+  "pair_id": "cloudfoundry__cloud_controller_ng__4394-4442",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/cloudfoundry__cloud_controller_ng__4394-4442",
+  "source_base": "b328c8f22a8ebcef698d102ffbc995481b1d2c05",
+  "source_a": "ae0402136c2e452c316a1c6bd6fbc360e3ca7a53",
+  "source_b": "a9d933d5553c91e5a010671049cb474b4a049e07",
+  "base_commit": "5505ec5da7a0c1777390b01bcf5ea9ae4b8af687",
+  "a_commit": "814e0f98013fe8b3e365337f6681b54277eb6d5a",
+  "b_commit": "7ba193ce9d9d866d6d578f8e3aed23b06a7f592e",
+  "object_count": 5005,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

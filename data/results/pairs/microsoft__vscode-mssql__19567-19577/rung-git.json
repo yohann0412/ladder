@@ -1,0 +1,10 @@
+{
+  "pair_id": "microsoft__vscode-mssql__19567-19577",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "fdd9028a692cd736a4e676616c829cd8c44d4502"
+}

@@ -1,0 +1,53 @@
+{
+  "pair_id": "shiosyakeyakini-info__miria__750-764",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 4, conflicted files: 4",
+  "messages": [
+    "CONFLICT (content): Merge conflict in lib/l10n/app_ja-oj.arb",
+    "CONFLICT (content): Merge conflict in lib/l10n/app_ja.arb",
+    "CONFLICT (content): Merge conflict in lib/l10n/app_zh-cn.arb",
+    "CONFLICT (content): Merge conflict in lib/l10n/app_zh.arb"
+  ],
+  "types": [
+    "content",
+    "content",
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "lib/l10n/app_ja-oj.arb",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "lib/l10n/app_ja.arb",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "lib/l10n/app_zh-cn.arb",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    },
+    {
+      "path": "lib/l10n/app_zh.arb",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "other"
+    }
+  ],
+  "merged_tree": null
+}

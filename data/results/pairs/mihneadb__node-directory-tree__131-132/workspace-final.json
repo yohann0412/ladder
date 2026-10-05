@@ -1,0 +1,23 @@
+{
+  "pair_id": "mihneadb__node-directory-tree__131-132",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/mihneadb__node-directory-tree__131-132",
+  "source_base": "46189d13287005e38aee63f7f1aa966b81d430d3",
+  "source_a": "46189d13287005e38aee63f7f1aa966b81d430d3",
+  "source_b": "99854e8d913c05f5cadbeec40ee35941bf6fbcf1",
+  "base_commit": "9327476486af6ca93666ab45251e5fb3edda0af8",
+  "a_commit": "7947602caaf162a8a76594cd9934c3a11b3c3761",
+  "b_commit": "5bfe9a965646e06ec352da45eda336f656e021e8",
+  "object_count": 40,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "maplibre__maputnik__1258-1259",
+  "heads": "replay",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/components/LayerListItem.tsx"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/components/LayerListItem.tsx",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "sgb-io__fta__236-237",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/sgb-io__fta__236-237",
+  "source_base": "4f10a966d1e6e266a1ca8b3fec8f1d1a4c40cbeb",
+  "source_a": "922fd8aa9f6d2b7d0a3a7b59c2b7163501540f93",
+  "source_b": "bdbffa8b4dcce7cce3c8c959e64c37fdd1221158",
+  "base_commit": "9a3dd0584c07629bcb2074e2c27aefbe632679a9",
+  "a_commit": "7c874ad552b53c9ab350a9a062d3785c94bb5f6d",
+  "b_commit": "b482c6003ea1206f5acda7b340596c643fd4dc11",
+  "object_count": 95,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

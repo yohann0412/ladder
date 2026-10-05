@@ -1,0 +1,23 @@
+{
+  "pair_id": "addok__addok__891-892",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/addok__addok__891-892",
+  "source_base": "f05564c9fc00916a88a180272fc96f62f1677863",
+  "source_a": "26dbfd4679ea12742282414ddd53ace12e57c24b",
+  "source_b": "9a12f0da48ad6a26550fed8c069736201466faf7",
+  "base_commit": "d92298a86593da469ba5f636090489318df56aea",
+  "a_commit": "b948e6a38ae6acf8e19813691670477d3b094fd2",
+  "b_commit": "ce985d36825346cef28aeacc3e96337b26ed7344",
+  "object_count": 99,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

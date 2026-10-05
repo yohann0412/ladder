@@ -1,0 +1,23 @@
+{
+  "pair_id": "cubicdaiya__nginx-build__203-204",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/cubicdaiya__nginx-build__203-204",
+  "source_base": "8bc0dddeb41e7150062eba567babd6ecf6a7f741",
+  "source_a": "ecd443b2d3fb6f3c33532ddb5e9165f79ce829c5",
+  "source_b": "7387490968f69edbd46a17d276e013d783e03779",
+  "base_commit": "08187e20e36d1004337ed9d1e9646b990f0d2faa",
+  "a_commit": "a877c683345445a31ab2d3d72b8b5d276787f282",
+  "b_commit": "b5bcef9972aea45884fb196f62fb4b8c97e78470",
+  "object_count": 70,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

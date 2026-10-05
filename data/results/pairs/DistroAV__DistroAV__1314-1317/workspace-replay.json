@@ -1,0 +1,23 @@
+{
+  "pair_id": "DistroAV__DistroAV__1314-1317",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/DistroAV__DistroAV__1314-1317",
+  "source_base": "a600e6ae9450d9ee0320f8e920d4342c2743ec32",
+  "source_a": "354527a152e40d8ee624651ef2a133121b4d82a3",
+  "source_b": "635f5c2bc0a4a6e12b382739f8f9976e61a153e3",
+  "base_commit": "98ca8f38eb0a91a0679be725b4b02f0ecafa8310",
+  "a_commit": "524006a99602553b2dc4adf29a654b7204f07701",
+  "b_commit": "1a03038fd3be9c9f26b225c6d406aabd8c506b40",
+  "object_count": 257,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

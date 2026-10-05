@@ -1,0 +1,23 @@
+{
+  "pair_id": "xtermjs__xterm.js__5360-5361",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/xtermjs__xterm.js__5360-5361",
+  "source_base": "877b37d3cc4be2382a7fc5bd662cd3f57a86c536",
+  "source_a": "390f1125ddfb82174ff6d67eb3b2f7f99ad3df2f",
+  "source_b": "d49ec968a1dad23ff569f1f0f8fee6f436eccd4f",
+  "base_commit": "6d17313fa0445c32d612c476630546fb07d320b0",
+  "a_commit": "9c07fee5f6bcdcfae88e348728ea7e40d3bdf3de",
+  "b_commit": "23114cfece990f9e4ff6a05037f97cdda9e91bea",
+  "object_count": 737,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

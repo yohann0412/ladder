@@ -1,0 +1,23 @@
+{
+  "pair_id": "numbagg__numbagg__384-385",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/numbagg__numbagg__384-385",
+  "source_base": "d22a89ab498ab280eb4cd4e7198023745c9738c8",
+  "source_a": "33291e55a1d1ac1462702e794e0a5236af6c2078",
+  "source_b": "fd24245ce46e395e36ce90712f0702fb3f359719",
+  "base_commit": "01921be0539708a72f872388c4cae2376dc829f9",
+  "a_commit": "7340d6d5a6c13fb7ed44de731aae42f7957d5b21",
+  "b_commit": "4a5c5f1823ec9535c14f5175cbb58c7c770bc0e2",
+  "object_count": 53,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "DistroAV__DistroAV__1314-1317",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 1, conflicted files: 1",
+  "messages": [
+    "CONFLICT (content): Merge conflict in src/ndi-source.cpp"
+  ],
+  "types": [
+    "content"
+  ],
+  "files": [
+    {
+      "path": "src/ndi-source.cpp",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

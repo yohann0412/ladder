@@ -132,3 +132,33 @@ first-parent chain (PLAN.md revision 10).
 - Disk: the blob-less caches took 12 GB, so workspaces and rung copies are deleted after
   each git rung unless the pair conflicts at replay heads (rebuilt on demand; builds are
   deterministic).
+
+## 10. Process incident: a subagent deleted its own worktree
+
+The report lane's scratch script ran `shutil.rmtree(sys.argv[1])` with its worktree path,
+wiping that worktree's working tree (70 tracked files and `.venv`). Its four commits and
+the branch were intact; the main checkout, the repository caches under `work/`, and the
+other lanes' worktrees were checked and untouched. The main model restored the worktree
+with `git checkout -- .`. No experiment data was affected. Subagent prompts now forbid
+scratch scripts that delete directories outside /tmp.
+
+## 11. Disk exhaustion during reconciliation, and the streaming policy
+
+The first reconciliation pass (6 parallel workers) kept the replay workspace and the git
+rung's copy for every conflicting pair, and every workspace build back-fills the three
+trees' blobs into the repository cache. After 120 of 747 pairs the session's disk
+allowance was exhausted (caches 16 GB, kept copies 10 GB for 37 conflicting pairs, plus
+in-flight builds of pytorch and vcpkg). The run was stopped before any git failure was
+written as a result: no rung record has status `error` (checked), and records are written
+atomically after a successful step.
+
+Policy from here on:
+- Reconciliation keeps result records only: every workspace and rung copy is deleted
+  right after its git rung; the repository cache is deleted once a pair is known not to
+  conflict at replay heads (unless another pair shares the repository). A pair waits while
+  less than 5 GB is free. Three workers.
+- The ladder stage streams pairs: rebuild the pair's workspace (deterministic: same
+  synthetic SHAs), run the structural rungs, prepare and run resolvers, extract truth,
+  score, then delete the pair's working copies. The double-run sample is drawn before any
+  truth is extracted.
+- Claim C (first in the cut order) rebuilds workspaces, re-cloning caches when needed.

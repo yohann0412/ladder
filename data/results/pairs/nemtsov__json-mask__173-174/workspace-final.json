@@ -1,0 +1,23 @@
+{
+  "pair_id": "nemtsov__json-mask__173-174",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/nemtsov__json-mask__173-174",
+  "source_base": "d4f796d6d608bb565f4cf14dbd4e15f8eb2985f1",
+  "source_a": "2300d16f97dd6ed1e7681f89c8c99eee0f81a245",
+  "source_b": "b06e4b030c1b4a7c9fa2794a48e3624abc566f60",
+  "base_commit": "9e0f9dc33fe912906c5c44d6beda92650c76ea57",
+  "a_commit": "ba3fe1b9c5cac59b76c7565b098f595c0ddc08a9",
+  "b_commit": "133fc9ec4ac6a2eab4828a9305988bfe98c1b4d5",
+  "object_count": 49,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

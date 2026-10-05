@@ -1,0 +1,23 @@
+{
+  "pair_id": "effekseer__Effekseer__1043-1044",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/effekseer__Effekseer__1043-1044",
+  "source_base": "d910d918ad23f26f4e6535779c7194a504e8d885",
+  "source_a": "5cfaf42a6b256ee3d74902d81f55e114f8bb92f4",
+  "source_b": "4547dd479d89a638cc96eaaad81b2118433055d9",
+  "base_commit": "7b537cff21131e4e6334d16090715547b2ed4b99",
+  "a_commit": "53107a85300d3358244ff9c5c7d7cab397bdafb1",
+  "b_commit": "542bafa6c284e2fac70bc8e55b75f46b0a2ef1d1",
+  "object_count": 2492,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

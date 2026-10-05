@@ -1,0 +1,10 @@
+{
+  "pair_id": "risingwavelabs__risingwave__21925-22637",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "78a5e781ad6a7fa23b492644cc413692129a9f0d"
+}

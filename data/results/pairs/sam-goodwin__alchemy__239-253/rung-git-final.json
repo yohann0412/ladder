@@ -1,0 +1,33 @@
+{
+  "pair_id": "sam-goodwin__alchemy__239-253",
+  "heads": "final",
+  "status": "conflicted",
+  "detail": "conflict messages: 2, conflicted files: 2",
+  "messages": [
+    "CONFLICT (content): Merge conflict in alchemy/src/cloudflare/worker.ts",
+    "CONFLICT (content): Merge conflict in alchemy/src/cloudflare/workflow.ts"
+  ],
+  "types": [
+    "content",
+    "content"
+  ],
+  "files": [
+    {
+      "path": "alchemy/src/cloudflare/worker.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    },
+    {
+      "path": "alchemy/src/cloudflare/workflow.ts",
+      "types": [
+        "content"
+      ],
+      "regions": 1,
+      "category": "source"
+    }
+  ],
+  "merged_tree": null
+}

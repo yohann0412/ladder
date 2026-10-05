@@ -1,0 +1,10 @@
+{
+  "pair_id": "rsyslog__rsyslog__5656-5660",
+  "heads": "replay",
+  "status": "clean",
+  "detail": "b merges into a cleanly",
+  "messages": [],
+  "types": [],
+  "files": [],
+  "merged_tree": "eda2eb315c7fcd89618bf8d0b3877c4ccecc82f0"
+}

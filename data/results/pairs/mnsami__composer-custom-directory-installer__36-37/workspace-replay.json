@@ -1,0 +1,23 @@
+{
+  "pair_id": "mnsami__composer-custom-directory-installer__36-37",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/mnsami__composer-custom-directory-installer__36-37",
+  "source_base": "aa732758780c6d785dc4273cf03a0a667359a4b7",
+  "source_a": "00ee0356b7dc9fa97f723214ff6b109b602903bc",
+  "source_b": "fe58b5633e5676ce7f3d02f714184ae88d9b9ba0",
+  "base_commit": "ed7e7812f8e57161c640d3eb50b346060c84bc6e",
+  "a_commit": "0c7f5d5d9f1f59e82512c5358f049e85422b848a",
+  "b_commit": "e2791a8ea30c944a144677b1dddc43039be22e87",
+  "object_count": 35,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

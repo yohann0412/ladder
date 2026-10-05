@@ -1,0 +1,23 @@
+{
+  "pair_id": "jdereg__json-io__385-386",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/jdereg__json-io__385-386",
+  "source_base": "6b9955c683e08a7a4932dcf3c77010384ed9fbdc",
+  "source_a": "5fdfe927de75d0b9974d36e4c5d1d99680fd413a",
+  "source_b": "13841efefb72d012991fd9f7a209e7387bf8a447",
+  "base_commit": "6e66d8d1705500403dd11ee00793a07aa2c95fc5",
+  "a_commit": "d06e7ff2b2eacea66c1c9bf969cc1d36fc16b002",
+  "b_commit": "8c32bcf06b814bcea5d80681c486b50be17a085d",
+  "object_count": 499,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

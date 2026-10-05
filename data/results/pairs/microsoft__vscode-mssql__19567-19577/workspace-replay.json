@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__vscode-mssql__19567-19577",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/microsoft__vscode-mssql__19567-19577",
+  "source_base": "2f07eaf805978662ed02c4af2aab40b333bd7b44",
+  "source_a": "eb1b3e255b72cd25bdf9c4f11fbdafeae4c812fd",
+  "source_b": "182b8b7aa78eb6e3c47b16feb291046e80074033",
+  "base_commit": "b8e937353a28a1255932d13ccbc6d0552dd56afd",
+  "a_commit": "16dd519bb0239c05e72f2a34279cae548ab44618",
+  "b_commit": "6ae42d625c540315e0edbe13773cd0a5cb90d6df",
+  "object_count": 1016,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

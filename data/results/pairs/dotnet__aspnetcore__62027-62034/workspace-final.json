@@ -1,0 +1,23 @@
+{
+  "pair_id": "dotnet__aspnetcore__62027-62034",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/dotnet__aspnetcore__62027-62034",
+  "source_base": "89b27fac9aae7350b7615fe73e3e1c69910efb48",
+  "source_a": "4cc431c105970fb1ed02e64db90dc9c22bec8c6f",
+  "source_b": "27e125bc129d5d720f6a42df99823c21469db827",
+  "base_commit": "735282be3c44f31b3f4f4892c781f0bf620ff544",
+  "a_commit": "e7ee61257272d5c1df2fa1661f45ebc2df55f42d",
+  "b_commit": "8b1bf1d17d2ad2ab13e93463c4549c80e2b4be8c",
+  "object_count": 17875,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

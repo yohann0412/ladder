@@ -1,0 +1,23 @@
+{
+  "pair_id": "evandempsey__fp-growth__30-31",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/evandempsey__fp-growth__30-31",
+  "source_base": "052f9527ea0c779b0ed18f91b20e542fb6c3c17b",
+  "source_a": "e5df5956a2e75ed0b789302eb35410559fe38e3e",
+  "source_b": "e69437f602f42540e2308ab10edba256609081cf",
+  "base_commit": "0735c52e77aa498d69b60ee8e914a4373e9c9f17",
+  "a_commit": "51b50c68e609dcd21e188e3624ae64326c572e32",
+  "b_commit": "fd67bfc5fb6fbaf08c9593659865e63cf35a9fc2",
+  "object_count": 48,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "maplibre__maputnik__1258-1259",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/maplibre__maputnik__1258-1259",
+  "source_base": "e58b92b0cd1e2bc798fd1268936ddc225a648457",
+  "source_a": "d7bfc18c0d8f77ed2c8a9cff53ac0dc6afa266f4",
+  "source_b": "76991ae7f60cc85901089cc63ee1c86ea24397b2",
+  "base_commit": "a5c10529ebdcc2f1be92c8cb5326deb03e4bdc5b",
+  "a_commit": "f44bbd5984c34f322d8e18bbc8f8520fdd1762b9",
+  "b_commit": "5f8c8064488c55fd869b895af38b490760807206",
+  "object_count": 306,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

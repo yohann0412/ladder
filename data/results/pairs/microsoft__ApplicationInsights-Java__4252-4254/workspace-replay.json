@@ -1,0 +1,23 @@
+{
+  "pair_id": "microsoft__ApplicationInsights-Java__4252-4254",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/microsoft__ApplicationInsights-Java__4252-4254",
+  "source_base": "e3acc1267e9f827a9a1e868523c8b39c9ee825de",
+  "source_a": "5bddd893cb369ff9d6f5c1106c48eca2312e967d",
+  "source_b": "b23d93f3534cb8d97c6fb0b167238a2fc444586e",
+  "base_commit": "5d796fd5860ea187897b85628ba53592aa41f7b1",
+  "a_commit": "a0a9ba2ccddfbaa210e7719c1043d6341ab9447d",
+  "b_commit": "58ad88922f101f1763e470a54eec32c3084f36bf",
+  "object_count": 2670,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

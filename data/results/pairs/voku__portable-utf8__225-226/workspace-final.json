@@ -1,0 +1,23 @@
+{
+  "pair_id": "voku__portable-utf8__225-226",
+  "heads": "final",
+  "path": "/home/user/ladder/work/workspaces/final/voku__portable-utf8__225-226",
+  "source_base": "c4b377468db50ba8e10ec01ac683271a0ab10c8f",
+  "source_a": "f7e03f3d8ed8460113ba6e7f63ace9b54be1d436",
+  "source_b": "74cdefd56875ef1493f748e06dae03b7393fd4a2",
+  "base_commit": "ad0430d22651c9d8b4f5a34c9722b4e5bda87178",
+  "a_commit": "689a8afd232008779446b90b83716705b40434dc",
+  "b_commit": "8bcdd4bafa23a26d3f379e72c29a4fc1e6423a06",
+  "object_count": 145,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "log4cplus__log4cplus__648-649",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/log4cplus__log4cplus__648-649",
+  "source_base": "7b90d06f2061f9a50607ad1ee1f989ceaeb2a58c",
+  "source_a": "d9692ca9100b09cc702211142e2cedc5013f7619",
+  "source_b": "fb4d27aea001e751ef3771b4517d1c9d4fe01fd7",
+  "base_commit": "b2febd82256ea9f70cedac4c8a93d50d4693298e",
+  "a_commit": "e5429bd29021103e917371f9fba6ec8ece188043",
+  "b_commit": "bc02bb187ade2d761f74876ca878a40a15b9637f",
+  "object_count": 502,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

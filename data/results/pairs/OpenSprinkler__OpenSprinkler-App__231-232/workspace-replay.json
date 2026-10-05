@@ -1,0 +1,23 @@
+{
+  "pair_id": "OpenSprinkler__OpenSprinkler-App__231-232",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/OpenSprinkler__OpenSprinkler-App__231-232",
+  "source_base": "69a5ca9746fb7e8cc926506fa9dea192d1bb3341",
+  "source_a": "3b2b0f1ebd23a0de4e228267fe55680de28416f1",
+  "source_b": "95faff1b60bccdbdd36cb0538c5f44635e4234fd",
+  "base_commit": "6bb59db311ac1d06c8713d717e4c745f16e92d42",
+  "a_commit": "c4af642335579d3857994c23e13f5be258e244ca",
+  "b_commit": "a4819f7596a9271e29decfccbba7142dae25c49d",
+  "object_count": 307,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
