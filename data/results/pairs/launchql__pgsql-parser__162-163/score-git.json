@@ -1,0 +1,213 @@
+{
+  "pair_id": "launchql__pgsql-parser__162-163",
+  "rung": "git",
+  "run": 1,
+  "available": true,
+  "unavailable_reason": null,
+  "mergeable": false,
+  "human_equivalent": null,
+  "human_equivalent_unordered": null,
+  "intent_preserved_a": false,
+  "intent_preserved_b": false,
+  "intent_drops": [
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.transform",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.ensureTypeNameFields",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.cleanTypeNameFields",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.FuncCall",
+      "loser": "a",
+      "reason": "both sides changed it; the resolution keeps the base version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.FuncCall",
+      "loser": "b",
+      "reason": "both sides changed it; the resolution keeps the base version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.FunctionParameter",
+      "loser": "a",
+      "reason": "both sides changed it; the resolution keeps the base version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.FunctionParameter",
+      "loser": "b",
+      "reason": "both sides changed it; the resolution keeps the base version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.TypeCast",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.ColumnDef",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.Constraint",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.ensureTypeNameFieldsRecursively",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.isFieldWrapped",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.getFieldType",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.CreateFunctionStmt",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.DefElem",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.applyRuntimeSchemaDefaults",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.ensureCriticalFields",
+      "loser": "a",
+      "reason": "only A changed it; the resolution lacks A's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.CallStmt",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.Alias",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.DeclareCursorStmt",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.ObjectWithArgs",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.AlterFunctionStmt",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.DropStmt",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.CommentStmt",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.CreateCastStmt",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    },
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "entity": "V13ToV14Transformer.GrantStmt",
+      "loser": "b",
+      "reason": "only B changed it; the resolution lacks B's version",
+      "loser_touched_unconflicted_files": true
+    }
+  ],
+  "files": [
+    {
+      "path": "packages/transform/src/transformers/v13-to-v14.ts",
+      "mode": "ast",
+      "language": "typescript",
+      "present": true,
+      "has_markers": true,
+      "parses": false,
+      "new_duplicates": [],
+      "human_equivalent": null,
+      "human_equivalent_unordered": null,
+      "similarity": null
+    }
+  ],
+  "tests_full": null,
+  "tests_a": null,
+  "tests_b": null
+}
