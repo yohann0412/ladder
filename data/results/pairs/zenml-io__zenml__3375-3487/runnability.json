@@ -1,0 +1,26 @@
+{
+  "pair_id": "zenml-io__zenml__3375-3487",
+  "commit": "a352c40356d7915a37db2e194c416607951a4ec3",
+  "language": "python",
+  "package_manager": "poetry",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "exceeds_cap",
+  "reason_detail": "install exceeded the 900 s install cap",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "poetry",
+        "install",
+        "--no-interaction"
+      ],
+      "exit_code": null,
+      "duration_s": 900.2,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: timed out after 900 s; output tail: Updating dependencies | Resolving dependencies..."
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
