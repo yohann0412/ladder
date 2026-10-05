@@ -1,0 +1,36 @@
+{
+  "pair_id": "vectordotdev__vector__23345-23357",
+  "commit": "326caa5c33129f6280885f10a84073a7b39e554a",
+  "language": "rust",
+  "package_manager": "cargo",
+  "test_runner": "cargo test",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 101 in 6.7 s: ge `mlua v0.10.5` |     ... which satisfies dependency `mlua = \"^0.10.5\"` of package `vector v0.48.0 (/home/user/ladder/work/runtime/vectordotdev__vector__23345-23357/trees/base)` | Only one package in the dependency graph may specify the same links value. This helps ensure that only one copy of a native library is linked in the final binary. Try to adjust your dependencies so that only one package uses the `links = \"lua\"` value. For more information, see https://doc.rust-lang.org/cargo/reference/resolver.html#links. | failed to select a version for `mlua-sys` which could resolve this conflict",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "cargo",
+        "test",
+        "--no-run",
+        "--locked"
+      ],
+      "exit_code": 101,
+      "duration_s": 254.1,
+      "detail": "standard, install cap 900 s: install: exit 0 in 55.4 s; build: exit 101 in 198.7 s; output tail:      1: core::panicking::panic_fmt |                at /rustc/05f9846f893b09a1be1fc8560e33fc3c815cfecb/library/core/src/panicking.rs:75:14 |      2: core::result::unwrap_failed |                at /rustc/05f9846f893b09a1be1fc8560e33fc3c815cfecb/library/core/src/result.rs:1704:5 |      3: build_script_build::main |      4: core::ops::function::FnOnce::call_once |   note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace. | warning: build failed, waiting for other jobs to finish..."
+    },
+    {
+      "command": [
+        "cargo",
+        "update"
+      ],
+      "exit_code": 101,
+      "duration_s": 6.7,
+      "detail": "cargo-update (updated Cargo.lock to the newest compatible versions), install cap 900 s: install: exit 101 in 6.7 s; output tail:     ... which satisfies git dependency `vrl` of package `vector v0.48.0 (/home/user/ladder/work/runtime/vectordotdev__vector__23345-23357/trees/base)` | versions that meet the requirements `^0.8.0` are: 0.8.3, 0.8.2, 0.8.1, 0.8.0 | the package `mlua-sys` links to the native library `lua`, but it conflicts with a previous package which links to `lua` as well: | package `mlua-sys v0.6.8` |     ... which satisfies dependency `ffi = \"^0.6.8\"` of package `mlua v0.10.5` |     ... which satisfies dependency `mlua = \"^0.10.5\"` of package `vector v0.48.0 (/home/user/ladder/work/runtime/vectordotdev__vector__23345-23357/trees/base)` | Only one package in the dependency graph may specify the same links value. This helps ensure that only one copy of a native library is linked in the final binary. Try to adjust your dependencies so that only one package uses the `links = \"lua\"` value. For more information, see https://doc.rust-lang.org/cargo/reference/resolver.html#links. | failed to select a version for `mlua-sys` which could resolve this conflict"
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
