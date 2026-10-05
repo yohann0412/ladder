@@ -1,0 +1,23 @@
+{
+  "pair_id": "mem0ai__mem0__2925-3183",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/mem0ai__mem0__2925-3183",
+  "source_base": "be37fca1bba588b040151bf1a1766ac1f375a57e",
+  "source_a": "eb8125aa4d0f08f6013bac52d60505017c83f2cb",
+  "source_b": "b5815a94a298c9dc87cc4d6d1808419d2fc9e765",
+  "base_commit": "2a9932eb69b03eaa76a75d816ed8c2aa1b302459",
+  "a_commit": "14e927db59e066604a83bdd53e17088ad29caac7",
+  "b_commit": "7ab6a8bda65dc4724edcc894efecf6da492bdb6d",
+  "object_count": 1946,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}
