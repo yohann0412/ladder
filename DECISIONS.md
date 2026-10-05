@@ -144,3 +144,24 @@ Newest at the bottom.
 - Choice: `typer` CLI with `rich` output; e2e tests are pytest functions that call the
   installed `ladder` executable through `subprocess.run`.
 - Reason: pytest is only the runner; no test imports harness code.
+
+## D15. Supplementary sample S (pre-registered before any ladder result exists)
+
+- Problem: after rewinding, the paper set yields about 6 conflicting pairs with a human
+  resolution; Claim A's 90% rule cannot be evaluated on 6 pairs.
+- Choice: a supplementary sample drawn from AIDev v4 by this rule, fixed now:
+  1. Candidate pair: two PRs of the same repository in `pull_request.parquet`, both with
+     `merged_at`, whose intervals [created_at, merged_at] overlap, whose changed-file
+     sets (union of `filename` over the PR's rows in `pr_commit_details.parquet`)
+     intersect, and which are not already a pair of the paper set.
+  2. Repositories are sorted by full name and shuffled with `random.Random(42)`. Within
+     a repository, candidates are ordered by (later PR's created_at, smaller number,
+     larger number); the first candidate is taken. One pair per repository.
+  3. Pairs are processed in that order through `pairs resolve` and the git rung at
+     replay heads. A pair enters S when it conflicts at replay heads and its truth
+     commit is located. Processing stops at 60 such pairs or when repositories run out.
+  4. Every attempted candidate and its outcome is recorded; the attrition is reported.
+  5. PR A is the PR created first.
+- Reason: same co-activity notion as the paper, plus file overlap to raise the conflict
+  yield, plus the both-merged condition Claim A needs. Results on S are reported
+  separately from the paper set and pooled.
