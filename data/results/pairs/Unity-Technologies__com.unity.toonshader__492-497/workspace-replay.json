@@ -1,0 +1,23 @@
+{
+  "pair_id": "Unity-Technologies__com.unity.toonshader__492-497",
+  "heads": "replay",
+  "path": "/home/user/ladder/work/workspaces/replay/Unity-Technologies__com.unity.toonshader__492-497",
+  "source_base": "7a7482ba35d942383b12f8a6d32b6537c47631f8",
+  "source_a": "c772c7a7ce6489a039cd1ab8255a33d6aa3e5154",
+  "source_b": "9811504f34e650f0a0c8adbd7bac1eb7ff2c4c18",
+  "base_commit": "7dc3a93679a7169224c0e71621bc6c69938ee0bb",
+  "a_commit": "4a2f1ad51a59d2d89f38ce493911beaf25ea2580",
+  "b_commit": "ca0f0208d044f030687f6c634b43acbd77decea5",
+  "object_count": 6004,
+  "criss_cross": false,
+  "checks": [
+    "three_commits",
+    "three_refs",
+    "no_remote",
+    "no_alternates",
+    "no_fetch_head",
+    "no_logs",
+    "no_shallow",
+    "all_objects_reachable"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "pair_id": "lordmauve__pgzero__360-366",
+  "commit": "c615a6356d15ce7b3d377a620211bbccbede7e82",
+  "language": "python",
+  "package_manager": "pip",
+  "test_runner": "pytest",
+  "status": "unrunnable",
+  "reason": "build_fails",
+  "reason_detail": "install: exit 1 in 0.8 s:       Alternatively, set the version in the environment |       with SETUPTOOLS_SCM_PRETEND_VERSION_FOR_PGZERO or |       VCS_VERSIONING_PRETEND_VERSION_FOR_PGZERO, as described in |       https://setuptools-scm.readthedocs.io/en/latest/config/ |       hint: This usually indicates a problem with the package or the build |       environment.",
+  "modifications": [],
+  "attempts": [
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/lordmauve__pgzero__360-366/envs/base/bin/python",
+        "-e",
+        "/home/user/ladder/work/runtime/lordmauve__pgzero__360-366/trees/base",
+        "-r",
+        "requirements-dev.txt",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 1.3,
+      "detail": "standard, install cap 900 s: venv: exit 0 in 0.1 s; install: exit 1 in 1.2 s; output tail:       https://github.com/user/proj/archive/master.zip use |       git+https://github.com/user/proj.git#egg=proj |       Alternatively, set the version in the environment |       with SETUPTOOLS_SCM_PRETEND_VERSION_FOR_PGZERO or |       VCS_VERSIONING_PRETEND_VERSION_FOR_PGZERO, as described in |       https://setuptools-scm.readthedocs.io/en/latest/config/ |       hint: This usually indicates a problem with the package or the build |       environment."
+    },
+    {
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/user/ladder/work/runtime/lordmauve__pgzero__360-366/envs/base/bin/python",
+        "/home/user/ladder/work/runtime/lordmauve__pgzero__360-366/trees/base",
+        "-r",
+        "requirements-dev.txt",
+        "-r",
+        "requirements.txt",
+        "pytest"
+      ],
+      "exit_code": 1,
+      "duration_s": 0.9,
+      "detail": "non-editable (installed the project as a regular package without test or dev extras), install cap 900 s: venv: exit 0 in 0.0 s; install: exit 1 in 0.8 s; output tail:       https://github.com/user/proj/archive/master.zip use |       git+https://github.com/user/proj.git#egg=proj |       Alternatively, set the version in the environment |       with SETUPTOOLS_SCM_PRETEND_VERSION_FOR_PGZERO or |       VCS_VERSIONING_PRETEND_VERSION_FOR_PGZERO, as described in |       https://setuptools-scm.readthedocs.io/en/latest/config/ |       hint: This usually indicates a problem with the package or the build |       environment."
+    }
+  ],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}

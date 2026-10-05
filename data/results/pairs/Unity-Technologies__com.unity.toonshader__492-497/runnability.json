@@ -1,0 +1,15 @@
+{
+  "pair_id": "Unity-Technologies__com.unity.toonshader__492-497",
+  "commit": "7a7482ba35d942383b12f8a6d32b6537c47631f8",
+  "language": null,
+  "package_manager": null,
+  "test_runner": null,
+  "status": "unrunnable",
+  "reason": "other",
+  "reason_detail": "no recognised project manifest",
+  "modifications": [],
+  "attempts": [],
+  "test_count": null,
+  "base_outcome": null,
+  "timeout_s": 600
+}
